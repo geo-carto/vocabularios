@@ -1,244 +1,244 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<https://geo-carto.github.io/vocabularios/geologia/rank/notSpecified> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/geologia/clRank/notSpecified> a skos:Concept ;
     skos:definition "unit is not part of a defined stratigraphic hierarchy."@en,
         "La unidad no es parte de una jerarquía estratigráfica definida."@es ;
     skos:prefLabel "not specified"@en,
         "no especificado"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/geologia/rank/complex>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/formation>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/group>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/lithodeme>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/megasequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/sequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/suite>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supergroup>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersuite> .
+    skos:related <https://geo-carto.github.io/vocabularios/geologia/clRank/complex>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/formation>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/group>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/lithodeme>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/megasequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/sequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/suite>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supergroup>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersuite> .
 
-<https://geo-carto.github.io/vocabularios/geologia/rank/bed> a skos:Concept ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geologia/rank/member> ;
+<https://geo-carto.github.io/vocabularios/geologia/clRank/bed> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/clRank/member> ;
     skos:definition "The smallest formal lithostratigraphic unit; usually a distinctive lithic entity which can be distinguished from adjacent rocks by one or more physical characteristics."@en,
         "Unidad litoestratigráfica formal más pequeña; generalmente una entidad lítica distintiva que se puede distinguir de las rocas adyacentes por una o más características físicas."@es ;
     skos:prefLabel "bed"@en,
         "capa"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/geologia/rank/complex>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/formation>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/group>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/lithodeme>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/megasequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/sequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/suite>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supergroup>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersuite> .
+    skos:related <https://geo-carto.github.io/vocabularios/geologia/clRank/complex>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/formation>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/group>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/lithodeme>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/megasequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/sequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/suite>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supergroup>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersuite> .
 
-<https://geo-carto.github.io/vocabularios/geologia/rank/member> a skos:Concept ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geologia/rank/formation> ;
+<https://geo-carto.github.io/vocabularios/geologia/clRank/member> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/clRank/formation> ;
     skos:definition "A formal lithostratigraphic unit next in rank below a formation; and always part of a formation. It is a named entity within a formation because it possesses characteristics distinguishing it from adjacent parts of the formation."@en,
         "Unidad litoestratigráfica formal siguiente en rango debajo de una formación; y siempre parte de una formación. Es una entidad con nombre dentro de una formación porque posee características que la distinguen de las partes adyacentes de la formación."@es ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/rank/bed> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/clRank/bed> ;
     skos:prefLabel "member"@en,
         "miembro"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/geologia/rank/complex>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/formation>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/group>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/lithodeme>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/megasequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/sequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/suite>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supergroup>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersuite> .
+    skos:related <https://geo-carto.github.io/vocabularios/geologia/clRank/complex>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/formation>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/group>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/lithodeme>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/megasequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/sequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/suite>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supergroup>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersuite> .
 
-<https://geo-carto.github.io/vocabularios/geologia/rank/subgroup> a skos:Concept ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geologia/rank/group> ;
+<https://geo-carto.github.io/vocabularios/geologia/clRank/subgroup> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/clRank/group> ;
     skos:definition "A subgroup is the lithostratigraphic unit next higher in rank to formation. A subgroup usually consists of several formations."@en,
         "Unidad litoestratigráfica siguiente en rango a la formación. Un subgrupo generalmente consta de varias formaciones."@es ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/rank/formation> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/clRank/formation> ;
     skos:prefLabel "subgroup"@en,
         "subgrupo"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/geologia/rank/complex>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/formation>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/group>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/lithodeme>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/megasequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/sequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/suite>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supergroup>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersuite> .
+    skos:related <https://geo-carto.github.io/vocabularios/geologia/clRank/complex>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/formation>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/group>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/lithodeme>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/megasequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/sequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/suite>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supergroup>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersuite> .
 
-<https://geo-carto.github.io/vocabularios/geologia/rank/complex> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/geologia/clRank/complex> a skos:Concept ;
     skos:definition "A lithostratigraphic unit composed of diverse types of any class or classes of rock (sedimentary; igneous; metamorphic); and characterized by irregularly mixed lithology or by hightly complicated structure relations to the extent that the original sequence of the component rocks may be obscured and the individual rocks or rock sequence cannot be readily mapped."@en,
         "Unidad litoestratigráfica compuesta por diversos tipos de una o varias clases de roca (sedimentaria; ígnea; metamórfica); caracterizada por una irregular mezcla de litologías o por relaciones estructurales muy complicadas hasta el punto de que la secuencia original de los compomentes de las rocas puede no distinguirse y las rocas o secuencia de rocas pueden no diferenciarse fácilmente."@es ;
     skos:prefLabel "complex"@en,
         "complejo"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/geologia/rank/complex>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/formation>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/group>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/lithodeme>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/megasequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/sequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/suite>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supergroup>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersuite> .
+    skos:related <https://geo-carto.github.io/vocabularios/geologia/clRank/complex>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/formation>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/group>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/lithodeme>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/megasequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/sequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/suite>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supergroup>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersuite> .
 
-<https://geo-carto.github.io/vocabularios/geologia/rank/lithodeme> a skos:Concept ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geologia/rank/suite> ;
+<https://geo-carto.github.io/vocabularios/geologia/clRank/lithodeme> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/clRank/suite> ;
     skos:definition "A body of predominantly intrusivehighly deformed and/or highly metamorphosed rock; distinguished and delimited on the basis of rock characteristics."@en,
         "Un cuerpo de roca predominantemente intrusiva altamente deformada y/o altamente metamorfizada; distinguidos y delimitados en base a las características de la roca."@es ;
     skos:prefLabel "lithodeme"@en,
         "litodema"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/geologia/rank/complex>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/formation>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/group>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/lithodeme>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/megasequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/sequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/suite>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supergroup>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersuite> .
+    skos:related <https://geo-carto.github.io/vocabularios/geologia/clRank/complex>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/formation>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/group>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/lithodeme>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/megasequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/sequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/suite>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supergroup>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersuite> .
 
-<https://geo-carto.github.io/vocabularios/geologia/rank/megasequence> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/geologia/clRank/megasequence> a skos:Concept ;
     skos:definition "A succession of strata comprising two or more supersequences. A large-scale sequence-stratigraphic unit deposited during one distinct phase of basin evolution; separated by major unconformities that mark a change in fundamental basin-controlling processes."@en,
         "Una sucesión de estratos que comprende dos o más supersecuencias. Unidad de estratigrafía secuencial a gran escala depositada durante una fase distinta en la evolución de la cuenca; separados por grandes discordancias que marcan un cambio en los procesos fundamentales de control de cuencas."@es ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/rank/supersequence> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence> ;
     skos:prefLabel "megasequence"@en,
         "megasecuencia"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/geologia/rank/complex>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/formation>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/group>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/lithodeme>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/megasequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/sequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/suite>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supergroup>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersuite> .
+    skos:related <https://geo-carto.github.io/vocabularios/geologia/clRank/complex>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/formation>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/group>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/lithodeme>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/megasequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/sequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/suite>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supergroup>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersuite> .
 
-<https://geo-carto.github.io/vocabularios/geologia/rank/sequence> a skos:Concept ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geologia/rank/supersequence> ;
+<https://geo-carto.github.io/vocabularios/geologia/clRank/sequence> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence> ;
     skos:definition "A genetically related succession of strata bounded by unconformites or their correlative conformable contacts; and typically having a thickness of 10-100 metres."@en,
         "Una sucesión de estratos relacionados genéticamente delimitados por inconformidades o sus contactos concordantes correlativos; y normalmente tiene un espesor de 10 a 100 metros."@es ;
     skos:prefLabel "sequence"@en,
         "secuencia"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/geologia/rank/complex>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/formation>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/group>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/lithodeme>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/megasequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/sequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/suite>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supergroup>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersuite> .
+    skos:related <https://geo-carto.github.io/vocabularios/geologia/clRank/complex>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/formation>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/group>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/lithodeme>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/megasequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/sequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/suite>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supergroup>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersuite> .
 
-<https://geo-carto.github.io/vocabularios/geologia/rank/supergroup> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/geologia/clRank/supergroup> a skos:Concept ;
     skos:definition "A supergroup is a formal assemblage of related or superposed groups or of groups and formations."@en,
         "Relación formal de grupos relacionados o superpuestos, o de grupos y formaciones."@es ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/rank/group> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/clRank/group> ;
     skos:prefLabel "supergroup"@en,
         "supergrupo"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/geologia/rank/complex>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/formation>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/group>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/lithodeme>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/megasequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/sequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/suite>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supergroup>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersuite> .
+    skos:related <https://geo-carto.github.io/vocabularios/geologia/clRank/complex>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/formation>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/group>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/lithodeme>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/megasequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/sequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/suite>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supergroup>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersuite> .
 
-<https://geo-carto.github.io/vocabularios/geologia/rank/supersuite> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/geologia/clRank/supersuite> a skos:Concept ;
     skos:definition "A formal lithodemic unit next higher in rank to suite. It comprises two or more suites having a degree of natural relationship to one another"@en,
         "Una unidad litodémica formal que sigue en rango superior a la zona. Comprende dos o más zonas que tienen un grado de relación natural entre sí."@es ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/rank/suite> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/clRank/suite> ;
     skos:prefLabel "supersuite"@en,
         "superzona"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/geologia/rank/complex>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/formation>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/group>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/lithodeme>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/megasequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/sequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/suite>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supergroup>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersuite> .
+    skos:related <https://geo-carto.github.io/vocabularios/geologia/clRank/complex>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/formation>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/group>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/lithodeme>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/megasequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/sequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/suite>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supergroup>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersuite> .
 
-<https://geo-carto.github.io/vocabularios/geologia/rank/formation> a skos:Concept ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geologia/rank/subgroup> ;
+<https://geo-carto.github.io/vocabularios/geologia/clRank/formation> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/clRank/subgroup> ;
     skos:definition "A body of rock identified by lithic characteristics and stratigraphic position; it is usually but not necessarily tabular and is mappable at the Earth's surface or traceable in the subsurface."@en,
         "Cuerpo de roca identificado por características líticas y posición estratigráfica; por lo general, pero no necesariamente, es tabular y se puede mapear en la superficie de la Tierra o rastrear en el subsuelo."@es ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/rank/member> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/clRank/member> ;
     skos:prefLabel "formation"@en,
         "formación"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/geologia/rank/complex>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/formation>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/group>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/lithodeme>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/megasequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/sequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/suite>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supergroup>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersuite> .
+    skos:related <https://geo-carto.github.io/vocabularios/geologia/clRank/complex>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/formation>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/group>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/lithodeme>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/megasequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/sequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/suite>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supergroup>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersuite> .
 
-<https://geo-carto.github.io/vocabularios/geologia/rank/group> a skos:Concept ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geologia/rank/supergroup> ;
+<https://geo-carto.github.io/vocabularios/geologia/clRank/group> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/clRank/supergroup> ;
     skos:definition "A group is the lithostratigraphic unit next higher in rank to either subgroup or formation. A groups may consist of two or more subgroups or two or more formations or a combination of both."@en,
         "Unidad litoestratigráfica que le sigue en rango superior al subgrupo o formación. Un grupo puede consistir en dos o más subgrupos o dos o más formaciones o una combinación de ambos."@es ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/rank/subgroup> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/clRank/subgroup> ;
     skos:prefLabel "group"@en,
         "grupo"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/geologia/rank/complex>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/formation>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/group>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/lithodeme>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/megasequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/sequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/suite>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supergroup>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersuite> .
+    skos:related <https://geo-carto.github.io/vocabularios/geologia/clRank/complex>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/formation>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/group>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/lithodeme>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/megasequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/sequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/suite>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supergroup>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersuite> .
 
-<https://geo-carto.github.io/vocabularios/geologia/rank/suite> a skos:Concept ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geologia/rank/supersuite> ;
+<https://geo-carto.github.io/vocabularios/geologia/clRank/suite> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/clRank/supersuite> ;
     skos:definition "A formal lithodemic unit next higher in rank to lithodeme. It comprises two or more associated lithodemes of the same class (e.g.; plutonic; metamorphic)."@en,
         "Una unidad litodémica formal siguiente en rango a la litodémica. Comprende dos o más litodemas asociados de la misma clase (por ejemplo, plutónico; metamórfico)."@es ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/rank/lithodeme> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/clRank/lithodeme> ;
     skos:prefLabel "suite"@en,
         "zona"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/geologia/rank/complex>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/formation>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/group>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/lithodeme>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/megasequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/sequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/suite>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supergroup>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersuite> .
+    skos:related <https://geo-carto.github.io/vocabularios/geologia/clRank/complex>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/formation>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/group>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/lithodeme>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/megasequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/sequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/suite>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supergroup>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersuite> .
 
-<https://geo-carto.github.io/vocabularios/geologia/rank/supersequence> a skos:Concept ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geologia/rank/megasequence> ;
+<https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/clRank/megasequence> ;
     skos:definition "A succession of strata comprising two or more sequences."@en,
         "Una sucesión de estratos que comprende dos o más secuencias."@es ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/rank/sequence> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/clRank/sequence> ;
     skos:prefLabel "supersequence"@en,
         "supersecuencia"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/geologia/rank/complex>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/formation>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/group>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/lithodeme>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/megasequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/sequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/suite>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supergroup>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersequence>,
-        <https://geo-carto.github.io/vocabularios/geologia/rank/supersuite> .
+    skos:related <https://geo-carto.github.io/vocabularios/geologia/clRank/complex>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/formation>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/group>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/lithodeme>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/megasequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/sequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/suite>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supergroup>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersequence>,
+        <https://geo-carto.github.io/vocabularios/geologia/clRank/supersuite> .
 
