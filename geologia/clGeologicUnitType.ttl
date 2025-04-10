@@ -1,0 +1,144 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/allostratigraphicUnit> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/geologicUnit> ;
+    skos:definition "Geologic unit defined by bounding surfaces. Not necessarily stratified."@en,
+        "Unidad geológica delimitada por superficies límite. No necesariamente estratificada."@es ;
+    skos:prefLabel "allostratigraphic unit"@en,
+        "unidad aloestratigráfica"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/alterationUnit> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/geologicUnit> ;
+    skos:definition "Geologic unit defined by alteration process."@en,
+        "Unidad geológica definida por un proceso de alteración."@es ;
+    skos:prefLabel "alteration unit"@en,
+        "unidad de alteración"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/artificialGround> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/lithogeneticUnit> ;
+    skos:definition "Geologic unit defined by genesis involving direct human action to deposit or modify material."@en,
+        "Unidad geológica definida por su origen vinculado a una actividad humana de depósito o modificación de materiales."@es ;
+    skos:prefLabel "artificial ground"@en,
+        "suelo artificial"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/biostratigraphicUnit> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/geologicUnit> ;
+    skos:definition "Geologic unit defined based on fossil content."@en,
+        "Unidad geológica definida sobre la base de su contenido fósil."@es ;
+    skos:prefLabel "biostratigraphic unit"@en,
+        "unidad bioestratigráfica"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/chronostratigraphicUnit> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/geologicUnit> ;
+    skos:definition "Geologic unit that includes all rocks formed during a specific interval of geologic time."@en,
+        "Unidad geológica que incluye todas las rocas formadas durante un intervalo de tiempo geológico específico."@es ;
+    skos:prefLabel "chronostratigraphic unit"@en,
+        "unidad cronoestratigráfica"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/deformationUnit> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/lithotectonicUnit> ;
+    skos:definition "Lithotectonic unit defined by deformation style or characteristic geologic structure observable in outcrop."@en,
+        "Unidad litotectónica definida por el estilo de deformación o la estructura geológica característica observables en afloramiento."@es ;
+    skos:prefLabel "deformation unit"@en,
+        "unidad de deformación"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/excavationUnit> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/lithogeneticUnit> ;
+    skos:definition "Geologic unit defined by human-made genesis involving excavation."@en,
+        "Unidad geológica definida por su origen humano vinculado a operaciones de excavación."@es ;
+    skos:prefLabel "excavation unit"@en,
+        "unidad de excavación"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/lithodemicUnit> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/lithostratigraphicUnit> ;
+    skos:definition "Lithostratigraphic unit that lacks stratification."@en,
+        "Unidad litoestratigráfica que carece de estratificación."@es ;
+    skos:prefLabel "lithodemic unit"@en,
+        "unidad litodémica"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/lithologicUnit> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/geologicUnit> ;
+    skos:definition "Geologic unit defined by lithology independent of relationships to other units."@en,
+        "Unidad geológica definida por la litología, independiente de su relación con otras unidades."@es ;
+    skos:prefLabel "lithologic unit"@en,
+        "unidad litológica"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/magnetostratigraphicUnit> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/geophysicalUnit> ;
+    skos:definition "Geologic unit defined by magnetic characteristics."@en,
+        "Unidad geológica delimitada por sus características magnéticas."@es ;
+    skos:prefLabel "magnetostratigraphic unit"@en,
+        "unidad magnetoestratigráfica"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/massmovementUnit> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/lithogeneticUnit> ;
+    skos:definition "Geologic unit produced by gravity driven, down-slope displacement of material, and characterized by the type of movement giving rise to the deposit, and by how the individual movement types present in the deposit are related in time and space."@en,
+        "Unidad geológica producida por un desplazamiento de materiales pendiente abajo inducido por la gravedad y caracterizado por el tipo de movimiento que da lugar al depósito y por la relación que tienen en el tiempo y en el espacio los distintos tipos de movimiento presentes en el depósito."@es ;
+    skos:prefLabel "mass movement unit"@en,
+        "unidad de movimiento en masa"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/pedostratigraphicUnit> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/geologicUnit> ;
+    skos:definition "Geologic unit that represents a single pedologic horizon in a sequence of strata (consolidated or non-consolidated)."@en,
+        "Unidad geológica que representa un único horizonte edafológico en una secuencia de estratos (consolidados o no consolidados)."@es ;
+    skos:prefLabel "pedostratigraphic unit"@en,
+        "unidad edafoestratigráfica"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/polarityChronostratigraphicUnit> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/geologicUnit> ;
+    skos:definition "Geologic unit defined by primary magnetic-polarity record imposed when the rock was deposited or crystallized during a specific interval of geologic time."@en,
+        "Unidad geológica definida por un registro de polaridad magnética primario impuesto cuando la roca se depositó o cristalizó durante un intervalo determinado de tiempo geológico."@es ;
+    skos:prefLabel "polarity chronostratigraphic unit"@en,
+        "unidad cronoestratigráfica de polaridad"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/geophysicalUnit> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/geologicUnit> ;
+    skos:definition "Geologic unit defined by its geophysical characteristics."@en,
+        "Unidad geológica definida por sus características geofísicas."@es ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/magnetostratigraphicUnit> ;
+    skos:prefLabel "geophysical unit"@en,
+        "unidad geofísica"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/lithostratigraphicUnit> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/geologicUnit> ;
+    skos:definition "Geologic unit defined on the basis of observable and distinctive lithologic properties or combination of lithologic properties and stratigraphic relationships."@en,
+        "Unidad geológica definida a partir de propiedad litológicas observables y distintivas o de una combinación de propiedades litológicas y relaciones cronoestratigráficas."@es ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/lithodemicUnit> ;
+    skos:prefLabel "lithostratigraphic unit"@en,
+        "unidad litoestratigráfica"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/lithotectonicUnit> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/geologicUnit> ;
+    skos:definition "Geologic unit defined on basis of structural or deformation features, mutual relations, origin or historical evolution. Contained material may be igneous, sedimentary, or metamorphic."@en,
+        "Unidad geológica definida a partir de características estructurales o de deformación, de relaciones mutuas, de su origen o de su evolución histórica. El material que contiene puede ser ígneo, sedimentario o metamórfico."@es ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/deformationUnit> ;
+    skos:prefLabel "lithotectonic unit"@en,
+        "unidad litotectónica"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/lithogeneticUnit> a skos:Concept ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/geologicUnit> ;
+    skos:definition "Geologic unit defined by genesis. The genesis is manifested by material properties, but the material is not the defining property."@en,
+        "Unidad geológica definida por su origen. El origen se manifiesta en las propiedades de los materiales, pero estos materiales no constituyen la propiedad definitoria."@es ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/artificialGround>,
+        <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/excavationUnit>,
+        <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/massmovementUnit> ;
+    skos:prefLabel "lithogenetic unit"@en,
+        "unidad litogenética"@es .
+
+<https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/geologicUnit> a skos:Concept ;
+    skos:definition "Type of geologic unit that is unknown, unspecified, irrelevant, or some type not included in the vocabulary."@en,
+        "Tipo de unidad geológica desconocido, no especificado, irrelevante o no incluido en su vocabulario."@es ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/allostratigraphicUnit>,
+        <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/alterationUnit>,
+        <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/biostratigraphicUnit>,
+        <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/chronostratigraphicUnit>,
+        <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/geophysicalUnit>,
+        <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/lithogeneticUnit>,
+        <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/lithologicUnit>,
+        <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/lithostratigraphicUnit>,
+        <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/lithotectonicUnit>,
+        <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/pedostratigraphicUnit>,
+        <https://geo-carto.github.io/vocabularios/geologia/geologicUnitType/polarityChronostratigraphicUnit> ;
+    skos:prefLabel "geologic unit"@en,
+        "unidad geológica"@es .
+
