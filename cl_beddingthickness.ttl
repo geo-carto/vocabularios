@@ -8,20 +8,22 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/estratificación-grosor> a skos:ConceptScheme ;
-    dcterms:created "2025-07-29"^^xsd:date ;
-    dcterms:modified "2025-07-29"^^xsd:date ;
+    dcterms:created "2025-10-07"^^xsd:date ;
+    dcterms:modified "2025-10-07"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher "https://www.igme.es/" ; 
     dcterms:source "nan" ;
-    skos:changeNote "2025-07-29. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/estratificación-grosor."@es ;
-    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/estratificacion-grosor/milimetrica>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/centimetrica>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/decimetrica>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/metrica>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/decametrica>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/hectometrica>,
-    <https://geo-carto.github.io/vocabularios/estratificacion-grosor/irregular> ;
+    skos:hasTopConcept (
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/milimetrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/centimetrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/decimetrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/metrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/decametrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/hectometrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/irregular>
+    ) ;
     skos:prefLabel "Grosor de estratificación"@es ;
     skos:prefLabel "Bedding thickness"@en .
 

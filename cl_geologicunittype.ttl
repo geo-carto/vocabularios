@@ -8,15 +8,16 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo> a skos:ConceptScheme ;
-    dcterms:created "2025-07-29"^^xsd:date ;
-    dcterms:modified "2025-07-29"^^xsd:date ;
+    dcterms:created "2025-10-07"^^xsd:date ;
+    dcterms:modified "2025-10-07"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher "https://www.igme.es/" ; 
     dcterms:source "nan" ;
-    skos:changeNote "2025-07-29. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/unidad-geologica-tipo."@es ;
-    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica>,
-    <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica> ;
+    skos:hasTopConcept (
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica>
+    ) ;
     skos:prefLabel "Tipo de unidad geológica"@es ;
     skos:prefLabel "Geologic unit type"@en .
 

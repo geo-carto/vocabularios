@@ -8,23 +8,25 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/estratificacion-patron> a skos:ConceptScheme ;
-    dcterms:created "2025-07-29"^^xsd:date ;
-    dcterms:modified "2025-07-29"^^xsd:date ;
+    dcterms:created "2025-10-07"^^xsd:date ;
+    dcterms:modified "2025-10-07"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher "https://www.igme.es/" ; 
     dcterms:source "nan" ;
-    skos:changeNote "2025-07-29. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/estratificacion-patron."@es ;
-    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/estratificacion-patron/estratodecreciente>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron/estratocreciente>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron/regular>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron/aleatoria>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron/en-haces>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron/masiva>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron/homogenea>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron/heterogenea>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron/ritmica>,
-    <https://geo-carto.github.io/vocabularios/estratificacion-patron/ciclica> ;
+    skos:hasTopConcept (
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron/estratodecreciente> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron/estratocreciente> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron/regular> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron/aleatoria> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron/en-haces> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron/masiva> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron/homogenea> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron/heterogenea> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron/ritmica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron/ciclica>
+    ) ;
     skos:prefLabel "Patrón de estratificación"@es ;
     skos:prefLabel "Bedding pattern"@en .
 

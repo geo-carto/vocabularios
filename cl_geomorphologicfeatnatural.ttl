@@ -8,51 +8,53 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural> a skos:ConceptScheme ;
-    dcterms:created "2025-07-29"^^xsd:date ;
-    dcterms:modified "2025-07-29"^^xsd:date ;
+    dcterms:created "2025-10-07"^^xsd:date ;
+    dcterms:modified "2025-10-07"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher "https://www.igme.es/" ; 
     dcterms:source "nan" ;
-    skos:changeNote "2025-07-29. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural."@es ;
-    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-geomorfologico-natural>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/modelo-de-drenaje>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/formacion-superficial>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/forma-erosiva>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-degradativo>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/relicto>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-exhumado>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-fosilizado>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/pedimento>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-erosionado>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/colina>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/interfluvio>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cresta>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/pendiente-de-cabecera>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cuesta>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ladera-divergente>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cara-desnuda>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-del-talud>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/montaña>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cima-de-montaña>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/vertiente-montañosa>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ladera>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-de-montaña>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/depresion>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/llanura>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-tectonicos-y-estructurales>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-volcanicos>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-hidrotermales>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-relacionados-con-las-laderas-y-con-la-gravedad>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales,-fluvioglaciares-y-de-permafrost>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales,-glaciofluviales,-glaciolacustres-y-glaciomarinos>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-eolicos>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-marinos,-litorales-y-de-humedales-costeros>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-karsticos-y-de-meteorizacion-quimica>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-aluviales-y-fluviales>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-lacustres>,
-    <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-de-impacto> ;
+    skos:hasTopConcept (
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-geomorfologico-natural> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/modelo-de-drenaje> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/formacion-superficial> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/forma-erosiva> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-degradativo> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/relicto> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-exhumado> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-fosilizado> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/pedimento> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-erosionado> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/colina> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/interfluvio> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cresta> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/pendiente-de-cabecera> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cuesta> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ladera-divergente> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cara-desnuda> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-del-talud> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/montaña> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cima-de-montaña> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/vertiente-montañosa> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ladera> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-de-montaña> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/depresion> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/llanura> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-tectonicos-y-estructurales> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-volcanicos> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-hidrotermales> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-relacionados-con-las-laderas-y-con-la-gravedad> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales>, <-fluvioglaciares-y-de-permafrost> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales>, <-glaciofluviales>, <-glaciolacustres-y-glaciomarinos> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-eolicos> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-marinos>, <-litorales-y-de-humedales-costeros> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-karsticos-y-de-meteorizacion-quimica> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-aluviales-y-fluviales> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-lacustres> ,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-de-impacto>
+    ) ;
     skos:prefLabel "Objeto geomorfológico natural"@es ;
     skos:prefLabel "Geomorphological natural feature"@en .
 

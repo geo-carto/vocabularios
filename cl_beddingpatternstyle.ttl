@@ -8,25 +8,27 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/estratificación-patron-estilo> a skos:ConceptScheme ;
-    dcterms:created "2025-07-29"^^xsd:date ;
-    dcterms:modified "2025-07-29"^^xsd:date ;
+    dcterms:created "2025-10-07"^^xsd:date ;
+    dcterms:modified "2025-10-07"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher "https://www.igme.es/" ; 
     dcterms:source "nan" ;
-    skos:changeNote "2025-07-29. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/estratificación-patron-estilo."@es ;
-    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/planar>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/masiva>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/ondulada>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/lenticular>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/irregular>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/canaliforme>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/tableada>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/monticular>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/boudinada>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/nodulosa>,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/en-abanico>,
-    <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/cuña> ;
+    skos:hasTopConcept (
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/planar> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/masiva> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/ondulada> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/lenticular> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/irregular> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/canaliforme> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/tableada> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/monticular> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/boudinada> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/nodulosa> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/en-abanico> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/cuña>
+    ) ;
     skos:prefLabel "Estilo del patrón de estratificación"@es ;
     skos:prefLabel "Bedding pattern style"@en .
 

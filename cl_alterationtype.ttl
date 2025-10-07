@@ -8,22 +8,24 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/alteracion-tipo> a skos:ConceptScheme ;
-    dcterms:created "2025-07-29"^^xsd:date ;
-    dcterms:modified "2025-07-29"^^xsd:date ;
+    dcterms:created "2025-10-07"^^xsd:date ;
+    dcterms:modified "2025-10-07"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher "https://www.igme.es/" ; 
     dcterms:source "nan" ;
-    skos:changeNote "2025-07-29. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/alteracion-tipo."@es ;
-    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/alteracion-tipo/meteorizacion>,
-        <https://geo-carto.github.io/vocabularios/alteracion-tipo/arenizacion>,
-        <https://geo-carto.github.io/vocabularios/alteracion-tipo/argilizacion>,
-        <https://geo-carto.github.io/vocabularios/alteracion-tipo/caolinizacion>,
-        <https://geo-carto.github.io/vocabularios/alteracion-tipo/carbonatacion>,
-        <https://geo-carto.github.io/vocabularios/alteracion-tipo/silicificacion>,
-        <https://geo-carto.github.io/vocabularios/alteracion-tipo/ferruginizacion>,
-        <https://geo-carto.github.io/vocabularios/alteracion-tipo/alteracion-no-especificada>,
-    <https://geo-carto.github.io/vocabularios/alteracion-tipo/no-alterada> ;
+    skos:hasTopConcept (
+        <https://geo-carto.github.io/vocabularios/alteracion-tipo/meteorizacion> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-tipo/arenizacion> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-tipo/argilizacion> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-tipo/caolinizacion> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-tipo/carbonatacion> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-tipo/silicificacion> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-tipo/ferruginizacion> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-tipo/alteracion-no-especificada> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-tipo/no-alterada>
+    ) ;
     skos:prefLabel "Tipo de alteración"@es ;
     skos:prefLabel "Alteration type"@en .
 

@@ -8,42 +8,44 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/evento-ambiente> a skos:ConceptScheme ;
-    dcterms:created "2025-07-29"^^xsd:date ;
-    dcterms:modified "2025-07-29"^^xsd:date ;
+    dcterms:created "2025-10-07"^^xsd:date ;
+    dcterms:modified "2025-10-07"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher "https://www.igme.es/" ; 
     dcterms:source "nan" ;
-    skos:changeNote "2025-07-29. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/evento-ambiente."@es ;
-    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-en-el-interior-de-la-tierra>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-en-la-superficie-de-la-tierra>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-extraterrestre>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-tectonicamente-definido>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-terrenos-agricolas-y-forestales>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-plataforma-carbonatada>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-talud-deltaico>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-area-de-morada>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-englacial>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-abanico-deltaico>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/antecosta>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-aluvial-glacial>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-yuxtaglaciar>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-glaciofluvial>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-glaciolacuste>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-glaciomarino>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/graben>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/semi-graben>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-medioambiente-humano>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-intracratonico>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-tierras-recuperadas>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-area-minera>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-proglacial>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/salina>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-subglacial>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-supraglacial>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-zona-de-deposicion-de-residuos-y-materiales>,
-    <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-humedo-a-subhumedo> ;
-    skos:prefLabel "Evento ambiente"@es ;
+    skos:hasTopConcept (
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-en-el-interior-de-la-tierra> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-en-la-superficie-de-la-tierra> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-extraterrestre> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-tectonicamente-definido> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-terrenos-agricolas-y-forestales> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-plataforma-carbonatada> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-talud-deltaico> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-area-de-morada> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-englacial> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-abanico-deltaico> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/antecosta> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-aluvial-glacial> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-yuxtaglaciar> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-glaciofluvial> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-glaciolacuste> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-glaciomarino> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/graben> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/semi-graben> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-medioambiente-humano> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-intracratonico> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-tierras-recuperadas> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-area-minera> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-proglacial> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/salina> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-subglacial> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-supraglacial> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-zona-de-deposicion-de-residuos-y-materiales> ,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-humedo-a-subhumedo>
+    ) ;
+    skos:prefLabel "Ambiente asociado a evento"@es ;
     skos:prefLabel "Event Environment"@en .
 
 

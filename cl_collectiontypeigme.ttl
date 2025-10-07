@@ -8,19 +8,21 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/coleccion-tipo> a skos:ConceptScheme ;
-    dcterms:created "2025-07-29"^^xsd:date ;
-    dcterms:modified "2025-07-29"^^xsd:date ;
+    dcterms:created "2025-10-07"^^xsd:date ;
+    dcterms:modified "2025-10-07"^^xsd:date ;
     dcterms:provenance "Términos de Inspire ampliada por el IGME" ;
     dcterms:publisher "https://www.igme.es/" ; 
     dcterms:source "nan" ;
-    skos:changeNote "2025-07-29. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/coleccion-tipo."@es ;
-    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-datos-geofisicos>,
-        <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-sondeos>,
-        <https://geo-carto.github.io/vocabularios/coleccion-tipo/mapa-geologico>,
-        <https://geo-carto.github.io/vocabularios/coleccion-tipo/modelo-geologico>,
-        <https://geo-carto.github.io/vocabularios/coleccion-tipo/estacion>,
-    <https://geo-carto.github.io/vocabularios/coleccion-tipo/documentacion> ;
+    skos:hasTopConcept (
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-datos-geofisicos> ,
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-sondeos> ,
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/mapa-geologico> ,
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/modelo-geologico> ,
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/estacion> ,
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/documentacion>
+    ) ;
     skos:prefLabel "Tipo de colección"@es ;
     skos:prefLabel "Collection type"@en .
 

@@ -8,37 +8,39 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/evento-proceso> a skos:ConceptScheme ;
-    dcterms:created "2025-07-29"^^xsd:date ;
-    dcterms:modified "2025-07-29"^^xsd:date ;
+    dcterms:created "2025-10-07"^^xsd:date ;
+    dcterms:modified "2025-10-07"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher "https://www.igme.es/" ; 
     dcterms:source "nan" ;
-    skos:changeNote "2025-07-29. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/evento-proceso."@es ;
-    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/evento-proceso/impacto-de-bolido>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/agotamiento-del-oxigeno-en-aguas-profundas>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/deformacion>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-diagenetico>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/extincion>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geomagnetico>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/actividad-humana>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-magmatico>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-metamorfico>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/variacion-del-nivel-del-mar>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-sedimentario>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/especiacion>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-tectonico>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/arado-profundo>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-o-desde-hielos-en-movimiento>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-el-aire>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-un-fluido-en-movimiento>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-el-agua>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/cavado>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-transporte-en-masa>,
-    <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-corriente-de-turbidez> ;
-    skos:prefLabel "Evento proceso"@es ;
+    skos:hasTopConcept (
+        <https://geo-carto.github.io/vocabularios/evento-proceso/impacto-de-bolido> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/agotamiento-del-oxigeno-en-aguas-profundas> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/deformacion> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-diagenetico> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/extincion> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geomagnetico> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/actividad-humana> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-magmatico> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-metamorfico> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/variacion-del-nivel-del-mar> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-sedimentario> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/especiacion> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-tectonico> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/arado-profundo> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-o-desde-hielos-en-movimiento> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-el-aire> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-un-fluido-en-movimiento> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-el-agua> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/cavado> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-transporte-en-masa> ,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-corriente-de-turbidez>
+    ) ;
+    skos:prefLabel "Proceso asociado a evento"@es ;
     skos:prefLabel "Event Process"@en .
 
 

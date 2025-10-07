@@ -8,30 +8,32 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/alteracion-producto> a skos:ConceptScheme ;
-    dcterms:created "2025-07-29"^^xsd:date ;
-    dcterms:modified "2025-07-29"^^xsd:date ;
+    dcterms:created "2025-10-07"^^xsd:date ;
+    dcterms:modified "2025-10-07"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher "https://www.igme.es/" ; 
     dcterms:source "nan" ;
-    skos:changeNote "2025-07-29. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/alteracion-producto."@es ;
-    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/alteracion-producto/regolito>,
-        <https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito>,
-        <https://geo-carto.github.io/vocabularios/alteracion-producto/alterita>,
-        <https://geo-carto.github.io/vocabularios/alteracion-producto/grus>,
-        <https://geo-carto.github.io/vocabularios/alteracion-producto/gore>,
-        <https://geo-carto.github.io/vocabularios/alteracion-producto/laterita>,
-        <https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-aluminica>,
-        <https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-ferrica>,
-        <https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla>,
-        <https://geo-carto.github.io/vocabularios/alteracion-producto/caolin>,
-        <https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta>,
-        <https://geo-carto.github.io/vocabularios/alteracion-producto/silcreta>,
-        <https://geo-carto.github.io/vocabularios/alteracion-producto/ferricreta>,
-        <https://geo-carto.github.io/vocabularios/alteracion-producto/calcreta>,
-        <https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-rossa>,
-        <https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-fusca>,
-    <https://geo-carto.github.io/vocabularios/alteracion-producto/travertino> ;
+    skos:hasTopConcept (
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/regolito> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/alterita> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/grus> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/gore> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/laterita> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-aluminica> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-ferrica> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/caolin> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/silcreta> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/ferricreta> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/calcreta> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-rossa> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-fusca> ,
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/travertino>
+    ) ;
     skos:prefLabel "Producto de alteración"@es ;
     skos:prefLabel "Alteration product"@en .
 
