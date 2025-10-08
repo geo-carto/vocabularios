@@ -24,7 +24,9 @@
 <https://geo-carto.github.io/vocabularios/traza-de-capa/collection> a skos:Collection ;
     dcterms:provenance "este vocabulario" ;
     skos:definition "Todos los conceptos en este vocabulario." ;
-    skos:member <https://geo-carto.github.io/vocabularios/traza-de-capa/traza-de-capa> ;
+    skos:member <https://geo-carto.github.io/vocabularios/traza-de-capa/traza-de-capa> ,
+		<https://geo-carto.github.io/vocabularios/traza-de-capa/traza-de-capa-concordante> ,
+		<https://geo-carto.github.io/vocabularios/traza-de-capa/traza-de-capa-discordante> ;
     skos:prefLabel "https://geo-carto.github.io/vocabularios/traza-de-capa - Todos los conceptos"@es .
 
 
@@ -33,6 +35,24 @@
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/traza-de-capa> ;
     skos:definition "Línea en el mapa geológico que muestra la intersección de una capa o unidad geológica con la superficie topográfica."@es ,
          "Line on a geological map showing the intersection of a layer or geological unit with the topographic surface."@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/traza-de-capa> ;
+    skos:prefLabel "traza de capa"@es ,
+        "layer trace"@en .
+		
+<https://geo-carto.github.io/vocabularios/traza-de-capa/traza-de-capa-concordante> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/traza-de-capa> ;
+    skos:definition "Línea en el mapa geológico que representa la intersección de una capa con la superficie topográfica, donde la capa mantiene una relación paralela o conforme con las capas subyacentes y suprayacentes, indicando continuidad en la secuencia deposicional sin interrupciones estructurales significativas."@es ,
+         "Line on a geological map representing the intersection of a layer with the topographic surface, where the layer maintains a parallel or conformable relationship with underlying and overlying layers, indicating continuity in the depositional sequence without significant structural interruptions."@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/traza-de-capa> ;
+    skos:prefLabel "traza de capa concordante"@es ,
+        "concordant layer trace"@en .
+		
+<https://geo-carto.github.io/vocabularios/traza-de-capa/traza-de-capa-discordante> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/traza-de-capa> ;
+    skos:definition "Línea en el mapa geológico que representa la intersección de una capa con la superficie topográfica, donde la capa presenta una relación angular o erosiva con las unidades subyacentes, reflejando una discontinuidad estratigráfica causada por procesos tectónicos, erosión o períodos de no deposición."@es ,
+         "Line on a geological map representing the intersection of a layer with the topographic surface, where the layer shows an angular or erosive relationship with underlying units, reflecting a stratigraphic discontinuity caused by tectonic processes, erosion, or periods of non-deposition."@en ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/traza-de-capa> ;
     skos:prefLabel "traza de capa"@es ,
         "layer trace"@en .
