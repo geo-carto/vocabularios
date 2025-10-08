@@ -1999,7 +1999,7 @@
 <https://geo-carto.github.io/vocabularios/edad-geologica/plioceno-inferior> a skos:Concept ;
     dcterms:provenance "this vocabulary"@en ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/plioceno> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/plioceno-inferior> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:prefLabel "Plioceno Inferior"@es ,
         "Lower Pliocene"@en .
