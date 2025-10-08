@@ -436,7 +436,7 @@
     skos:prefLabel "contacto por intrusión de material sedimentario"@es ,
         "sedimentary intrusive contact"@en .
 
-<https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-zona-de subsidencia-volcanica> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-zona-de-subsidencia-volcanica> a skos:Concept ;
     dcterms:provenance "this vocabulary"@en ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
     skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico> ;
