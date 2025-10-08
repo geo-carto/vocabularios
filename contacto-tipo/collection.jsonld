@@ -1,0 +1,431 @@
+{
+  "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/collection",
+  "type": "Collection",
+  "prefLabel": {
+    "es": "https://geo-carto.github.io/vocabularios/contacto-tipo - Todos los conceptos"
+  },
+  "member": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto",
+      "prefLabel": {
+        "es": "contacto",
+        "en": "contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-zona-cronoestratigrafica",
+      "prefLabel": {
+        "es": "contacto de zona cronoestratigráfica",
+        "en": "chronostratigraphic-zone contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-falla",
+      "prefLabel": {
+        "es": "contacto por falla",
+        "en": "faulted contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-provincia-geologica",
+      "prefLabel": {
+        "es": "contacto de provincia geológica",
+        "en": "geologic province contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-geofisico",
+      "prefLabel": {
+        "es": "contacto geofísico",
+        "en": "geophysical contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-conductividad",
+      "prefLabel": {
+        "es": "contacto de conductividad",
+        "en": "conductivity contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-densidad",
+      "prefLabel": {
+        "es": "contacto de densidad",
+        "en": "density contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-magnetico",
+      "prefLabel": {
+        "es": "contacto magnético",
+        "en": "magnetic contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-polaridad-magnetica",
+      "prefLabel": {
+        "es": "contacto de polaridad magnética",
+        "en": "magnetic polarity contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-susceptibilidad-magnetica",
+      "prefLabel": {
+        "es": "contacto de susceptibilidad magnética",
+        "en": "magnetic susceptiblity contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-magnetizacion",
+      "prefLabel": {
+        "es": "contacto de magnetización",
+        "en": "magnetization contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-radiometrico",
+      "prefLabel": {
+        "es": "contacto radiométrico",
+        "en": "radiometric contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-sismico",
+      "prefLabel": {
+        "es": "contacto sísmico",
+        "en": "seismic contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/linea-glaciar-estacionaria",
+      "prefLabel": {
+        "es": "línea glaciar estacionaria",
+        "en": "glacial stationary line"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico",
+      "prefLabel": {
+        "es": "contacto litogenético",
+        "en": "lithogenetic contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-zona-deformada",
+      "prefLabel": {
+        "es": "contacto de zona deformada",
+        "en": "deformation zone contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-deposicional",
+      "prefLabel": {
+        "es": "contacto deposicional",
+        "en": "depositional contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-concordante",
+      "prefLabel": {
+        "es": "contacto concordante",
+        "en": "conformable contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/discontinuidad",
+      "prefLabel": {
+        "es": "discontinuidad",
+        "en": "unconformable contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-discordante",
+      "prefLabel": {
+        "es": "contacto discordante",
+        "en": "angular unconformable contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad-con-paleorrelieve",
+      "prefLabel": {
+        "es": "discontinuidad con paleorrelieve",
+        "en": "buttress unconformity"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad",
+      "prefLabel": {
+        "es": "disconformidad",
+        "en": "disconformable contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/inconformidad",
+      "prefLabel": {
+        "es": "inconformidad",
+        "en": "nonconformable contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/paraconformidad",
+      "prefLabel": {
+        "es": "paraconformidad",
+        "en": "paraconformable contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-intrusivo",
+      "prefLabel": {
+        "es": "contacto intrusivo",
+        "en": "igneous intrusive contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-igneas",
+      "prefLabel": {
+        "es": "contacto entre fases ígneas",
+        "en": "igneous phase contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-estructura-de-impacto",
+      "prefLabel": {
+        "es": "límite de estructura de impacto",
+        "en": "impact structure boundary"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-metamorfico",
+      "prefLabel": {
+        "es": "contacto metamórfico",
+        "en": "metamorphic contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-alteracion",
+      "prefLabel": {
+        "es": "contacto de alteración producto de metasomatismo",
+        "en": "alteration facies contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-metamorficas",
+      "prefLabel": {
+        "es": "contacto entre facies metamórficas",
+        "en": "metamorphic facies contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-metasomaticas",
+      "prefLabel": {
+        "es": "contacto entre facies metasomáticas",
+        "en": "metasomatic facies contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-asociacion-mineral",
+      "prefLabel": {
+        "es": "contacto de asociación mineral",
+        "en": "mineralisation assemblage contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-lateral-de-facies-sedimentarias",
+      "prefLabel": {
+        "es": "contacto lateral de facies sedimentarias",
+        "en": "sedimentary facies contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-intrusion-de-material-sedimentario",
+      "prefLabel": {
+        "es": "contacto por intrusión de material sedimentario",
+        "en": "sedimentary intrusive contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-zona-de-subsidencia-volcanica",
+      "prefLabel": {
+        "es": "límite de zona de subsidencia volcánica",
+        "en": "volcanic subsidence zone boundary"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-meteorizacion",
+      "prefLabel": {
+        "es": "contacto por meteorización",
+        "en": "weathering contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-mecanico",
+      "prefLabel": {
+        "es": "contacto mecánico",
+        "en": "mechanic contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-diagenetico",
+      "prefLabel": {
+        "es": "contacto diagenético",
+        "en": "diagenetic contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-antropico",
+      "prefLabel": {
+        "es": "contacto antrópico",
+        "en": "anthropogenic contact"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}
