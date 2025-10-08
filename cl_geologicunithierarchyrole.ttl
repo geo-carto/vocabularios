@@ -11,9 +11,9 @@
     dcterms:created "2025-10-07"^^xsd:date ;
     dcterms:modified "2025-10-07"^^xsd:date ;
     dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME" ;
-    dcterms:publisher <https://www.igme.es/>^^xsd:anyURI ;
+    dcterms:publisher <https://www.igme.es/> ;
     dcterms:source "nan" ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/>^^xsd:anyURI ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte."@es ;
     skos:hasTopConcept 
