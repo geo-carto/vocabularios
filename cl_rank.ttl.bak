@@ -79,7 +79,7 @@
     dcterms:provenance "this vocabulary"@en ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
     skos:broader <https://geo-carto.github.io/vocabularios/rango-estratigrafico/supersecuencia> ;
-    skos:definition "Una sucesión de estratos relacionados genéticamente delimitados por inconformidades o sus contactos concordantes correlativos. Normalmente tiene un espesor de 10 a 100 metros."@es ,
+    skos:definition "Una sucesión de estratos relacionados genéticamente delimitados por inconformidades o sus contactos concordantes correlativos; y normalmente tiene un espesor de 10 a 100 metros."@es ,
          "A genetically related succession of strata bounded by unconformites or their correlative conformable contacts; and typically having a thickness of 10-100 metres."@en ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
     skos:prefLabel "secuencia"@es ,
