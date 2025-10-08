@@ -15,12 +15,11 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/marco-de-cartografiado."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/base-del-cuaternario> ,
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/geologia-superficial> ,
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-de-la-roca-madre> ,
-        <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-del-basamento>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-del-basamento> ;
     skos:prefLabel "Marco de cartografiado"@es ;
     skos:prefLabel "Mapping frame"@en .
 

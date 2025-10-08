@@ -15,7 +15,7 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/evento-proceso."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/evento-proceso/impacto-de-bolido> ,
         <https://geo-carto.github.io/vocabularios/evento-proceso/agotamiento-del-oxigeno-en-aguas-profundas> ,
         <https://geo-carto.github.io/vocabularios/evento-proceso/deformacion> ,
@@ -38,8 +38,7 @@
         <https://geo-carto.github.io/vocabularios/evento-proceso/cavado> ,
         <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico> ,
         <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-transporte-en-masa> ,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-corriente-de-turbidez>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-corriente-de-turbidez> ;
     skos:prefLabel "Proceso asociado a evento"@es ;
     skos:prefLabel "Event Process"@en .
 

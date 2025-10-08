@@ -15,7 +15,7 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/depresion-artificial> ,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/drenaje-artificial> ,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/dique-artificial> ,
@@ -31,8 +31,7 @@
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/tierra-recuperada> ,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/embalse> ,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/escombrera> ,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/area-de-subsidencia-antropogenica>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/area-de-subsidencia-antropogenica> ;
     skos:prefLabel "Objeto geomorfológico antrópico"@es ;
     skos:prefLabel "Geomorphological anthropogenic feature"@en .
 

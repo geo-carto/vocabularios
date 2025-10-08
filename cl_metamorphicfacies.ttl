@@ -15,11 +15,10 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/metamorfismo-facies."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar> ,
         <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-desconocida> ,
-        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/sin-minerales-metamorficos>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/sin-minerales-metamorficos> ;
     skos:prefLabel "Facies metamórficas"@es ;
     skos:prefLabel "Metamorphic facies"@en .
 

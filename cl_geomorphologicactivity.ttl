@@ -15,13 +15,12 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/geomorfologia-actividad."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/activo> ,
         <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/latente> ,
         <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/reactivado> ,
         <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/estabilizado> ,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/inactivo>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/inactivo> ;
     skos:prefLabel "Actividad geomorfológica"@es ;
     skos:prefLabel "Geomorphologic activity"@en .
 

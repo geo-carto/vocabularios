@@ -15,15 +15,14 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/afloramiento-caracter."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/afloramiento-caracter/sin-afloramiento> ,
         <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-deficiente> ,
         <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-alterado> ,
         <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-aceptable> ,
         <https://geo-carto.github.io/vocabularios/afloramiento-caracter/buen-afloramiento> ,
         <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-en-bloques> ,
-        <https://geo-carto.github.io/vocabularios/afloramiento-caracter/acantilado>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/afloramiento-caracter/acantilado> ;
     skos:prefLabel "Carácter del afloramiento"@es ;
     skos:prefLabel "Outcrop character"@en .
 

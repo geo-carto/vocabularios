@@ -15,10 +15,9 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/rol-parte-composicion."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/rol-parte-composicion/solo-una-parte> ,
-        <https://geo-carto.github.io/vocabularios/rol-parte-composicion/parte-de>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/rol-parte-composicion/parte-de> ;
     skos:prefLabel "Rol de parte composicional"@es ;
     skos:prefLabel "Composition part role"@en .
 

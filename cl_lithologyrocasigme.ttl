@@ -15,9 +15,7 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/rocas-igme."@es ;
-    skos:hasTopConcept (
-        <https://geo-carto.github.io/vocabularios/rocas-igme/material-compuesto>
-    ) ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/rocas-igme/material-compuesto> ;
     skos:prefLabel "Litología IGME"@es ;
     skos:prefLabel "Lithology IGME"@en .
 

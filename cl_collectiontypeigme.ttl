@@ -15,14 +15,13 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/coleccion-tipo."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-datos-geofisicos> ,
         <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-sondeos> ,
         <https://geo-carto.github.io/vocabularios/coleccion-tipo/mapa-geologico> ,
         <https://geo-carto.github.io/vocabularios/coleccion-tipo/modelo-geologico> ,
         <https://geo-carto.github.io/vocabularios/coleccion-tipo/estacion> ,
-        <https://geo-carto.github.io/vocabularios/coleccion-tipo/documentacion>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/documentacion> ;
     skos:prefLabel "Tipo de colección"@es ;
     skos:prefLabel "Collection type"@en .
 

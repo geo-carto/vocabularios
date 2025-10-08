@@ -15,7 +15,7 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/unidad-geologica-composicion."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcilloso> ,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosico> ,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/asfaltico> ,
@@ -90,8 +90,7 @@
         <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfosales> ,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ultramafico> ,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ultrabasica> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/epiclastico>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/epiclastico> ;
     skos:prefLabel "Tipo de categoría de composición"@es ;
     skos:prefLabel "Composition category"@en .
 

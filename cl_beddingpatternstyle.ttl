@@ -15,7 +15,7 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/estratificación-patron-estilo."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/planar> ,
         <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/masiva> ,
         <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/ondulada> ,
@@ -27,8 +27,7 @@
         <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/boudinada> ,
         <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/nodulosa> ,
         <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/en-abanico> ,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/cuña>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/cuña> ;
     skos:prefLabel "Estilo del patrón de estratificación"@es ;
     skos:prefLabel "Bedding pattern style"@en .
 

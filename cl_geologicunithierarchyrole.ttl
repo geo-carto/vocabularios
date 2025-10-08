@@ -15,10 +15,9 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de> ;
     skos:prefLabel "Rol jerárquico de unidad geológica"@es ;
     skos:prefLabel "Geologic unit hierarchy role"@en .
 

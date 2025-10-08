@@ -15,7 +15,7 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/morfologia-arqueada> ,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-curvada> ,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuenca> ,
@@ -92,8 +92,7 @@
         <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-tridimensional> ,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/surco> ,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/vena> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuna>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuna> ;
     skos:prefLabel "Morfología de cuerpo geológico"@es ;
     skos:prefLabel "Body morphology"@en .
 

@@ -15,7 +15,7 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/evento-ambiente."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-en-el-interior-de-la-tierra> ,
         <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-en-la-superficie-de-la-tierra> ,
         <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-extraterrestre> ,
@@ -43,8 +43,7 @@
         <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-subglacial> ,
         <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-supraglacial> ,
         <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-zona-de-deposicion-de-residuos-y-materiales> ,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-humedo-a-subhumedo>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-humedo-a-subhumedo> ;
     skos:prefLabel "Ambiente asociado a evento"@es ;
     skos:prefLabel "Event Environment"@en .
 

@@ -15,9 +15,7 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/traza-de-capa."@es ;
-    skos:hasTopConcept (
-		<https://geo-carto.github.io/vocabularios/traza-de-capa/traza-de-capa>
-	) ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/traza-de-capa/traza-de-capa> ;
     skos:prefLabel "Traza de capa"@es ;
     skos:prefLabel "Layer trace"@en .
 
@@ -25,7 +23,9 @@
 <https://geo-carto.github.io/vocabularios/traza-de-capa/collection> a skos:Collection ;
     dcterms:provenance "este vocabulario" ;
     skos:definition "Todos los conceptos en este vocabulario." ;
-    skos:member <https://geo-carto.github.io/vocabularios/traza-de-capa/traza-de-capa> ;
+    skos:member (
+        <https://geo-carto.github.io/vocabularios/traza-de-capa/traza-de-capa>
+    ) ;
     skos:prefLabel "https://geo-carto.github.io/vocabularios/traza-de-capa - Todos los conceptos"@es .
 
 

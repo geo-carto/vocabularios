@@ -15,7 +15,7 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/alteracion-producto."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/alteracion-producto/regolito> ,
         <https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito> ,
         <https://geo-carto.github.io/vocabularios/alteracion-producto/alterita> ,
@@ -32,8 +32,7 @@
         <https://geo-carto.github.io/vocabularios/alteracion-producto/calcreta> ,
         <https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-rossa> ,
         <https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-fusca> ,
-        <https://geo-carto.github.io/vocabularios/alteracion-producto/travertino>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/alteracion-producto/travertino> ;
     skos:prefLabel "Producto de alteración"@es ;
     skos:prefLabel "Alteration product"@en .
 

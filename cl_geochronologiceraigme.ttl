@@ -15,7 +15,7 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/edad-geologica."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/edad-geologica/ageniense> ,
         <https://geo-carto.github.io/vocabularios/edad-geologica/aragoniense> ,
         <https://geo-carto.github.io/vocabularios/edad-geologica/arverniense> ,
@@ -60,8 +60,7 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica/vallesiense> ,
         <https://geo-carto.github.io/vocabularios/edad-geologica/triasico> ,
         <https://geo-carto.github.io/vocabularios/edad-geologica/turoliense> ,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/villafranquiense>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/edad-geologica/villafranquiense> ;
     skos:prefLabel "Edad Geológica IGME"@es ;
     skos:prefLabel "Geochronologic Era"@en .
 

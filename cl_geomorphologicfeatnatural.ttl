@@ -15,7 +15,7 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-geomorfologico-natural> ,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/modelo-de-drenaje> ,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/formacion-superficial> ,
@@ -53,8 +53,7 @@
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-karsticos-y-de-meteorizacion-quimica> ,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-aluviales-y-fluviales> ,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-lacustres> ,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-de-impacto>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-de-impacto> ;
     skos:prefLabel "Objeto geomorfológico natural"@es ;
     skos:prefLabel "Geomorphological natural feature"@en .
 

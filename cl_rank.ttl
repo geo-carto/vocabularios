@@ -15,13 +15,12 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/rango-estratigrafico."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/rango-estratigrafico/complejo> ,
         <https://geo-carto.github.io/vocabularios/rango-estratigrafico/megasecuencia> ,
         <https://geo-carto.github.io/vocabularios/rango-estratigrafico/supergrupo> ,
         <https://geo-carto.github.io/vocabularios/rango-estratigrafico/superzona> ,
-        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/no-especificado>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/no-especificado> ;
     skos:prefLabel "Rango estratigráfico"@es ;
     skos:prefLabel "Stratigraphic rank"@en .
 

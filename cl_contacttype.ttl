@@ -15,12 +15,11 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/contacto-tipo."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ,
         <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-mecanico> ,
         <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-diagenetico> ,
-        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-antropico>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-antropico> ;
     skos:prefLabel "Tipo de contacto"@es ;
     skos:prefLabel "Contact type"@en .
 

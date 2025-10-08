@@ -15,14 +15,13 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/alteracion-distribucion."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/alteracion-distribucion/bandeada> ,
         <https://geo-carto.github.io/vocabularios/alteracion-distribucion/moteada> ,
         <https://geo-carto.github.io/vocabularios/alteracion-distribucion/diseminada> ,
         <https://geo-carto.github.io/vocabularios/alteracion-distribucion/veteada> ,
         <https://geo-carto.github.io/vocabularios/alteracion-distribucion/irregular> ,
-        <https://geo-carto.github.io/vocabularios/alteracion-distribucion/completa>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/alteracion-distribucion/completa> ;
     skos:prefLabel "Distribución de la alteración"@es ;
     skos:prefLabel "Alteration distribution"@en .
 

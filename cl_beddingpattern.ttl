@@ -15,7 +15,7 @@
     dcterms:source "nan" ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/estratificacion-patron."@es ;
-    skos:hasTopConcept (
+    skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/estratificacion-patron/estratodecreciente> ,
         <https://geo-carto.github.io/vocabularios/estratificacion-patron/estratocreciente> ,
         <https://geo-carto.github.io/vocabularios/estratificacion-patron/regular> ,
@@ -25,8 +25,7 @@
         <https://geo-carto.github.io/vocabularios/estratificacion-patron/homogenea> ,
         <https://geo-carto.github.io/vocabularios/estratificacion-patron/heterogenea> ,
         <https://geo-carto.github.io/vocabularios/estratificacion-patron/ritmica> ,
-        <https://geo-carto.github.io/vocabularios/estratificacion-patron/ciclica>
-    ) ;
+        <https://geo-carto.github.io/vocabularios/estratificacion-patron/ciclica> ;
     skos:prefLabel "Patrón de estratificación"@es ;
     skos:prefLabel "Bedding pattern"@en .
 
