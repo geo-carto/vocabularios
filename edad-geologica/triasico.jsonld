@@ -9,13 +9,29 @@
     "es": "Límite inferior -251.902 +|-0.024 ma, límite superior -201.3 +|-0.2 ma",
     "en": "Older bound -251.902 +|-0.024 ma, younger bound -201.3 +|-0.2 ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesozoico",
-    "prefLabel": {
-      "es": "Mesozoico",
-      "en": "Mesozoic"
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-inferior",
+      "prefLabel": {
+        "es": "Triásico Inferior",
+        "en": "Lower Triassic"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-medio",
+      "prefLabel": {
+        "es": "Triásico Medio",
+        "en": "Middle Triassic"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-superior",
+      "prefLabel": {
+        "es": "Triásico Superior",
+        "en": "Upper Triassic"
+      }
     }
-  },
+  ],
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Triassic"
@@ -30,6 +46,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -60,6 +81,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

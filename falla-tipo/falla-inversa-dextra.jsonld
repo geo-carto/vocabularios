@@ -6,8 +6,15 @@
     "en": "right reverse fault"
   },
   "definition": {
-    "es": "Falla de ángulo alto con vector de deslizamiento que tiene una relación de desplazamiento paralelo de rumbo a paralelo de buzamiento entre 10 a 1 y 1 a 10 en al menos una ubicación a lo largo de la traza mapeada, con un componente paralelo de rumbo lateral derecho y un buzamiento paralelo inverso componente de deslizamiento sobre al menos la mitad de la traza mapeada de la falla.  Falla de alto ángulo en la que la componente del desplazamiento paralelo al rumbo tiene una relación de 10 a 1 como mínimo en una zona a lo largo de su traza cartográfica, con una componente lateral hacia la derecha paralela al rumbo y una componente inversa paralela al buzamiento  en más de la mitad de su traza cartográfica.",
+    "es": "Falla inversa de alto ángulo en la que la componente del desplazamiento paralelo al rumbo tiene una relación de 10 a 1 como mínimo en una zona a lo largo de su traza cartográfica y en la que un bloque se desplaza hacia la derecha del bloque desde donde se hace la observación.",
     "en": "High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with a right-lateral strike-parallel component and reverse dip-parallel component of slip over at least half the mapped trace of the fault."
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desplazamiento-oblicuo",
+    "prefLabel": {
+      "es": "falla de desplazamiento oblicuo",
+      "en": "oblique slip fault"
+    }
   },
   "exactMatch": [
     {
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

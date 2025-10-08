@@ -8,12 +8,19 @@
   "definition": {
     "es": "Sedimento detrítico no consolidado y mal clasificado que contiene clastos de un amplio rango de tamaños, desde partículas hasta bloques"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-sedimentario-hibrido",
+    "prefLabel": {
+      "es": "material sedimentario híbrido",
+      "en": "hybrid sedimentary material"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/diamicton"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/diamicton"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/diamicton"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

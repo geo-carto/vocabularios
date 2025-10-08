@@ -6,8 +6,15 @@
     "en": "scissor fault"
   },
   "definition": {
-    "es": "Falla en la que, a partir de un punto inicial sin ninguna separación, se da una separación creciente a lo largo del rumbo y una separación decreciente en la dirección opuesta.",
+    "es": "Falla en la que, a partir de un punto inicial sin ninguna separación, se da una separación creciente a lo largo de la dirección de la falla y una separación decreciente en la dirección opuesta.",
     "en": "A fault on which there is increasing offset or separation along the strike from an initial point of no offset, with the opposite sense of offset in the opposite direction."
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla",
+    "prefLabel": {
+      "es": "falla",
+      "en": "fault"
+    }
   },
   "exactMatch": [
     {
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

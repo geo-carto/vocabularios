@@ -6,9 +6,18 @@
     "en": "low angle normal fault"
   },
   "definition": {
-    "es": "Falla que buza menos de 45 grados en más de la mitad de la extensión reconocida de la falla con el bloque superior desplazado desde una posición estructuralmente más alta en relación con las rocas del bloque inferior.",
+    "es": "Falla normal que buza menos de 45 grados en más de la mitad de la extensión reconocida de la falla.",
     "en": "Fault that dips less than 45 degrees over more than half of the recognized extent of the fault with the hanging wall displaced from a structurally higher position relative to footwall rocks."
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/superficie-de-despegue",
+      "prefLabel": {
+        "es": "superficie de despegue",
+        "en": "detachment fault"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/faulttype/low_angle_normal_fault"
@@ -23,11 +32,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
     }
@@ -58,6 +62,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

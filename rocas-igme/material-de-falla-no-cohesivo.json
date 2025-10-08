@@ -8,12 +8,19 @@
   "definition": {
     "es": "Material de falla con rasgos que indican pérdida de cohesión durante la deformación, tales como espacios vacíos rellenos o no o material con matriz no consolidada entre los fragmentos. incluye las brechas y las harinas de falla"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-de-falla",
+    "prefLabel": {
+      "es": "material de falla",
+      "en": "fault material"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia_gouge_series"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/breccia-gougeSeries"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/breccia-gougeSeries"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

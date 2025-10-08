@@ -9,6 +9,13 @@
     "es": "Límite inferior -5.333 ma, límite superior -3.6 ma",
     "en": "Older bound -5.333 ma, younger bound -3.6 ma"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/plioceno-inferior",
+    "prefLabel": {
+      "es": "Plioceno Inferior",
+      "en": "Lower Pliocene"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Zanclean"
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

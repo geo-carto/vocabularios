@@ -9,13 +9,22 @@
     "es": "Límite inferior -2.58 ma, límite superior -0.0 ma",
     "en": "Older bound -2.58 ma, younger bound -0.0 ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cenozoico",
-    "prefLabel": {
-      "es": "Cenozoico",
-      "en": "Cenozoic"
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/holoceno",
+      "prefLabel": {
+        "es": "Holoceno",
+        "en": "Holocene"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno",
+      "prefLabel": {
+        "es": "Pleistoceno",
+        "en": "Pleistocene"
+      }
     }
-  },
+  ],
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Quaternary"
@@ -30,6 +39,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -60,6 +74,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

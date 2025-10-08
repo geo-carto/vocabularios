@@ -8,12 +8,19 @@
   "definition": {
     "es": "Porción de roca, vidrio o cristal volcánico, de dimensiones variables, formado por fragmentación del magma o de las rocas de la pared del conducto, proyectado al aire por una erupción volcánica explosiva"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/deposito-volcanoclastico",
+    "prefLabel": {
+      "es": "depósito volcanoclástico",
+      "en": "volcaniclastic deposit"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/tephra"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/tephra"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/tephra"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -8,17 +8,19 @@
   "definition": {
     "es": "Acumulación de basuras o escombros"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-antropico-no-consolidado",
+    "prefLabel": {
+      "es": "material antrópico no consolidado",
+      "en": "unconsolidated anthropic material"
+    }
+  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -49,6 +51,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

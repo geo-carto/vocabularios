@@ -8,12 +8,19 @@
   "definition": {
     "es": "roca formada por el mineral del mismo nombre, de fórmula kcl, perteneciente a la clase de los cloruros, que cristaliza en el sistema cúbico, apareciendo en masas granudas o espáticas. es incoloro a blanco, tiene brillo vítreo y varía de transparente a translúcido"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/evaporita",
+    "prefLabel": {
+      "es": "evaporita",
+      "en": "evaporite"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/evaporite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/evaporite"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

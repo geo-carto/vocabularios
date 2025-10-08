@@ -8,12 +8,19 @@
   "definition": {
     "es": "Macizo saliente que se construye a la orilla de un río o en la costa del mar, para defender las márgenes o modificar la corriente"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-antropico-consolidado",
+    "prefLabel": {
+      "es": "material antrópico consolidado",
+      "en": "consolidated anthropic material"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/anthropogenic_unconsolidated_material"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/anthropogenicUnconsolidatedMaterial"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/anthropogenicUnconsolidatedMaterial"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

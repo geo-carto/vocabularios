@@ -9,6 +9,29 @@
     "es": "Límite inferior -427.4 +|-0.5 ma, límite superior -423 +|-2.3 ma",
     "en": "Older bound -427.4 +|-0.5 ma, younger bound -423 +|-2.3 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/gorstiense",
+      "prefLabel": {
+        "es": "Gorstiense",
+        "en": "Gorstian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ludfordiense",
+      "prefLabel": {
+        "es": "Ludfordiense",
+        "en": "Ludfordian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/silurico",
+    "prefLabel": {
+      "es": "Silúrico",
+      "en": "Silurian"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Ludlow"
@@ -23,11 +46,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +76,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

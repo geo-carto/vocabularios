@@ -8,12 +8,19 @@
   "definition": {
     "es": "Roca detrítica constituida en un 30-50% por clastos angulosos de más de 2 mm de diámetro y con un contenido de elementos de tamaño pelita mayor que el de elementos de tamaño arena"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-clastico",
+    "prefLabel": {
+      "es": "material clástico",
+      "en": "clastic material"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/breccia"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/breccia"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

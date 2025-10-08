@@ -6,8 +6,45 @@
     "en": "oblique slip fault"
   },
   "definition": {
-    "es": "Falla en la que las componentes del desplazamiento en dirección y en la dirección de buzamiento tienen un valor apreciable. Falla en la que la relación del desplazamiento paralelo al rumbo y el desplazamiento paralelo al buzamiento está comprendida entre 10 a 1 y 1 a 10 al menos en un lugar a lo largo del trazado cartografiado.",
+    "es": "Falla en la que ambas componentes del desplazamiento: en la  dirección de la capa y en la dirección de buzamiento tienen un valor apreciable.",
     "en": "Fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace of the fault."
+  },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-sinistra",
+      "prefLabel": {
+        "es": "falla normal sinistra",
+        "en": "left normal fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-sinistra",
+      "prefLabel": {
+        "es": "falla inversa sinistra",
+        "en": "left reverse fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-dextra",
+      "prefLabel": {
+        "es": "falla normal dextra",
+        "en": "right normal fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-dextra",
+      "prefLabel": {
+        "es": "falla inversa dextra",
+        "en": "right reverse fault"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla",
+    "prefLabel": {
+      "es": "falla",
+      "en": "fault"
+    }
   },
   "exactMatch": [
     {
@@ -23,11 +60,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
     }
@@ -58,6 +90,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -6,9 +6,18 @@
     "en": "syncline"
   },
   "definition": {
-    "es": "Un pliegue cuyo núcleo contiene las rocas estratigráficamente más jóvenes; generalmente es cóncavo hacia arriba.",
-    "en": "A fold of which the core contains the stratigraphically younger rocks; it is generally concave upward."
+    "es": "Pliegue convexo hacia arriba o cóncavo hacia abajo. Este término se utiliza generalmente cuando las capas plegadas no tienen un orden estratigráfico, cuando no se conoce la sucesión estratigráfica de las capas plegadas o cuando el núcleo del pliegue contiene las rocas estratigráficamente más modernas.",
+    "en": "Any convex-upward, concave downward fold. The term is usually used when the folded layers do not possess a stratigraphic order, when the stratigraphic order of the folded layers is not known, or when the fold core also contains the stratigraphically younger rock."
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal-tumbado",
+      "prefLabel": {
+        "es": "sinclinal tumbado",
+        "en": "overturned syncline"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
@@ -50,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -8,12 +8,19 @@
   "definition": {
     "es": "Roca formada como resultado de la deformación en una zona de falla"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-metamorfico",
+    "prefLabel": {
+      "es": "material metamórfico",
+      "en": "metamorphic material"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/mylonitic_rock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/myloniticRock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/myloniticRock"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

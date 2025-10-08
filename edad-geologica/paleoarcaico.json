@@ -9,6 +9,13 @@
     "es": "Límite inferior -3600 ma, límite superior -3200 ma",
     "en": "Older bound -3600 ma, younger bound -3200 ma"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/arcaico",
+    "prefLabel": {
+      "es": "Arcaico",
+      "en": "Archean"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Paleoarchean"
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

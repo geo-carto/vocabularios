@@ -9,6 +9,29 @@
     "es": "Límite inferior -237 ma, límite superior -201.3 +|-0.2 ma",
     "en": "Older bound -237 ma, younger bound -201.3 +|-0.2 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/carniense",
+      "prefLabel": {
+        "es": "Carniense",
+        "en": "Carnian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/noriense",
+      "prefLabel": {
+        "es": "Noriense",
+        "en": "Norian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico",
+    "prefLabel": {
+      "es": "Triásico",
+      "en": "Triassic"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Late_Triassic"
@@ -23,11 +46,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +76,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

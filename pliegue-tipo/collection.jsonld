@@ -13,20 +13,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal-con-sentido-de-inmersion",
-      "prefLabel": {
-        "es": "anticlinal con sentido de inmersión",
-        "en": "plunging anticline"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal-tumbado-o-asimetrico",
-      "prefLabel": {
-        "es": "anticlinal tumbado o asimétrico",
-        "en": "overturned or asymmetrical anticline"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/antiforma",
       "prefLabel": {
         "es": "antiforma",
@@ -41,27 +27,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal-con-sentido-de-inmersion",
-      "prefLabel": {
-        "es": "sinclinal con sentido de inmersión",
-        "en": "plunging syncline"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal-tumbado-o-asimetrico",
-      "prefLabel": {
-        "es": "sinclinal tumbado o asimétrico",
-        "en": "overturned or asymmetrical syncline"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal-tumbado-n,-sentido-de-inmersion-w",
-      "prefLabel": {
-        "es": "sinclinal tumbado N, sentido de inmersión W",
-        "en": "west-plunging syncline, overturned to the north"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinforma",
       "prefLabel": {
         "es": "sinforma",
@@ -73,6 +38,48 @@
       "prefLabel": {
         "es": "monoclinal",
         "en": "monocline"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinorio",
+      "prefLabel": {
+        "es": "sinclinorio",
+        "en": "synclinorium"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinorio",
+      "prefLabel": {
+        "es": "anticlinorio",
+        "en": "anticlinorium"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/domo",
+      "prefLabel": {
+        "es": "domo",
+        "en": "dome"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/cubeta",
+      "prefLabel": {
+        "es": "cubeta",
+        "en": "basin"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal-tumbado",
+      "prefLabel": {
+        "es": "anticlinal tumbado",
+        "en": "overturned anticline"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal-tumbado",
+      "prefLabel": {
+        "es": "sinclinal tumbado",
+        "en": "overturned syncline"
       }
     }
   ],
@@ -102,6 +109,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

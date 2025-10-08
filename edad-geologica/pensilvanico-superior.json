@@ -9,6 +9,29 @@
     "es": "Límite inferior -307 +|-0.1 ma, límite superior -298.9 +|-0.15 ma",
     "en": "Older bound -307 +|-0.1 ma, younger bound -298.9 +|-0.15 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/gzheliense",
+      "prefLabel": {
+        "es": "Gzheliense",
+        "en": "Gzhelian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/kamisoviense",
+      "prefLabel": {
+        "es": "Kamisoviense",
+        "en": "Kasimovian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pensilvanico",
+    "prefLabel": {
+      "es": "Pensilvánico",
+      "en": "Pennsylvanian"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Late_Pennsylvanian"
@@ -23,11 +46,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +76,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

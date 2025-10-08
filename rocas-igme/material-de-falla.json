@@ -8,12 +8,119 @@
   "definition": {
     "es": "Material formado como resultado de la deformación en una zona de falla"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/blastomilonita",
+      "prefLabel": {
+        "es": "blastomilonita",
+        "en": "blastomylonite"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/brecha-de-falla",
+      "prefLabel": {
+        "es": "brecha de falla",
+        "en": "fault breccia"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/cataclasita",
+      "prefLabel": {
+        "es": "cataclasita",
+        "en": "cataclasitee"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/filonita",
+      "prefLabel": {
+        "es": "filonita",
+        "en": "phyllonite"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/harina-de-falla",
+      "prefLabel": {
+        "es": "harina de falla",
+        "en": "fault gouge"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-de-falla-no-cohesivo",
+      "prefLabel": {
+        "es": "material de falla no cohesivo",
+        "en": "non-cohesive fault material"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/milonita",
+      "prefLabel": {
+        "es": "milonita",
+        "en": "mylonite"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/protocataclasita",
+      "prefLabel": {
+        "es": "protocataclasita",
+        "en": "protocataclasitee"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/protomilonita",
+      "prefLabel": {
+        "es": "protomilonita",
+        "en": "protomylonite"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/pseudotaquilita",
+      "prefLabel": {
+        "es": "pseudotaquilita",
+        "en": "pseudotachylite"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-cataclastica",
+      "prefLabel": {
+        "es": "roca cataclástica",
+        "en": "cataclastic rock"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-milonitica",
+      "prefLabel": {
+        "es": "roca milonítica",
+        "en": "mylonitic rock"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/ultracataclasita",
+      "prefLabel": {
+        "es": "ultracataclasita",
+        "en": "ultracataclasitee"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/ultramilonita",
+      "prefLabel": {
+        "es": "ultramilonita",
+        "en": "ultramylonite"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-metamorfico",
+    "prefLabel": {
+      "es": "material metamórfico",
+      "en": "metamorphic material"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/fault_related_material"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/fault-relatedMaterial"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/fault-relatedMaterial"
     }
   ],
   "inScheme": [
@@ -22,11 +129,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +159,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

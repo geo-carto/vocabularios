@@ -9,6 +9,13 @@
     "es": "Límite inferior -485.4 +|-1.9 ma, límite superior -477.7 +|-1.4 ma",
     "en": "Older bound -485.4 +|-1.9 ma, younger bound -477.7 +|-1.4 ma"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-inferior",
+    "prefLabel": {
+      "es": "Ordovícico Inferior",
+      "en": "Lower Ordovician"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Tremadocian"
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

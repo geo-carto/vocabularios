@@ -8,12 +8,19 @@
   "definition": {
     "es": "Roca con un índice de saturación en alúmina al2o3/k2o+na2o+cao, en proporciones molares mayor que la unidad. suele tener minerales ricos en aluminio como moscovita, cordierita, sillimanita, granate, turmalina y/o andalucita"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-igneo",
+    "prefLabel": {
+      "es": "material ígneo",
+      "en": "igneous material"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/igneousRock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/igneousRock"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -216,31 +216,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales,-fluvioglaciares-y-de-permafrost",
-      "prefLabel": {
-        "es": "objetos glaciales, fluvioglaciares y de permafrost",
-        "en": "nival, periglacial and permafrost features"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales,-glaciofluviales,-glaciolacustres-y-glaciomarinos",
-      "prefLabel": {
-        "es": "objetos glaciales, glaciofluviales, glaciolacustres y glaciomarinos",
-        "en": "glacial, glaciofluvial, glaciolacustrine and glaciomarine features"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-eolicos",
       "prefLabel": {
         "es": "objetos eólicos",
         "en": "eolian features"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-marinos,-litorales-y-de-humedales-costeros",
-      "prefLabel": {
-        "es": "objetos marinos, litorales y de humedales costeros",
-        "en": "marine, littoral and coastal wetlands features"
       }
     },
     {
@@ -270,6 +249,27 @@
         "es": "objetos de impacto",
         "en": "impact features"
       }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales,-fluvioglaciares-y-de-permafrost",
+      "prefLabel": {
+        "es": "objetos glaciales, fluvioglaciares y de permafrost",
+        "en": "nival, periglacial and permafrost features"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales,-glaciofluviales,-glaciolacustres-y-glaciomarinos",
+      "prefLabel": {
+        "es": "objetos glaciales, glaciofluviales, glaciolacustres y glaciomarinos",
+        "en": "glacial, glaciofluvial, glaciolacustrine and glaciomarine features"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-marinos,-litorales-y-de-humedales-costeros",
+      "prefLabel": {
+        "es": "objetos marinos, litorales y de humedales costeros",
+        "en": "marine, littoral and coastal wetlands features"
+      }
     }
   ],
   "@context": {
@@ -298,6 +298,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

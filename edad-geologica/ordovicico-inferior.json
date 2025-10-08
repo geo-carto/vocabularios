@@ -9,6 +9,29 @@
     "es": "Límite inferior -485.4 +|-1.9 ma, límite superior -470.0 +|-1.4 ma",
     "en": "Older bound -485.4 +|-1.9 ma,younger bound -470.0 +|-1.4 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/floiense",
+      "prefLabel": {
+        "es": "Floiense",
+        "en": "Floian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/tremadociense",
+      "prefLabel": {
+        "es": "Tremadociense",
+        "en": "Tremadocian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico",
+    "prefLabel": {
+      "es": "Ordovícico",
+      "en": "Ordovician"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Early_Ordovician"
@@ -23,11 +46,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +76,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

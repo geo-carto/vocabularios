@@ -9,13 +9,15 @@
     "es": "Límite inferior -330.9 +|-0.2 ma, -298.9 +|-0.15 ma",
     "en": "Older bound -330.9 +|-0.2 ma, younger bound -298.9 +|-0.15 ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/misisipico",
-    "prefLabel": {
-      "es": "Misisípico",
-      "en": "Mississippian"
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/serpukhoviense",
+      "prefLabel": {
+        "es": "Serpukhoviense",
+        "en": "Serpukhovian"
+      }
     }
-  },
+  ],
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Mississippian"
@@ -30,6 +32,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -60,6 +67,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

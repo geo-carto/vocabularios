@@ -8,12 +8,19 @@
   "definition": {
     "es": "Roca volcánica mesocrática, intermedia o ácida, alcalina, perteneciente a la familia de las rocas traquíticas, diferenciada de la traquita por poseer más del 20% de cuarzo normativo"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-volcanica",
+    "prefLabel": {
+      "es": "roca volcánica",
+      "en": "volcanic rock"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/trachytoid"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/trachytoid"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/trachytoid"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -9,6 +9,29 @@
     "es": "Límite inferior -393.3 +|-1.2 ma, límite superior -382.7 +|-1.6 ma",
     "en": "Older bound -393.3 +|-1.2 ma, younger bound -382.7 +|-1.6 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/eifeliense",
+      "prefLabel": {
+        "es": "Eifeliense",
+        "en": "Eifelian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/givetiense",
+      "prefLabel": {
+        "es": "Givetiense",
+        "en": "Givetian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico",
+    "prefLabel": {
+      "es": "Devónico",
+      "en": "Devonian"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Middle_Devonian"
@@ -23,11 +46,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +76,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

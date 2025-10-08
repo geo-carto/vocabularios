@@ -8,12 +8,19 @@
   "definition": {
     "es": "Roca metamórfica de grado alto a muy alto, de textura generalmente granoblástica y estructura gnéisica o masiva, dominada por minerales anhidros y feldespatos. en caso de composición máfica, está constituida por clinopiroxeno augítico, ortopiroxeno, plagioclasa cálcica, con o sin granate, y cuarzo. en caso de composición cuarzo-feldespática, está constituida por cuarzo, plagioclasa, feldespato potásico y ortopiroxeno, con o sin biotita, granate, cordierita y sillimanita"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-metamorfica",
+    "prefLabel": {
+      "es": "roca metamórfica",
+      "en": "metamorphic rock"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/granulite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/granulite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/granulite"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

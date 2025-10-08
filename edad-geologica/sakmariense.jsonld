@@ -9,6 +9,13 @@
     "es": "Límite inferior -295.0 +|-0.18 ma, límite superior -290.1 +|-0.26 ma",
     "en": "Older bound -295.0 +|-0.18 ma, younger bound -290.1 +|-0.26 ma"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cisuraliense",
+    "prefLabel": {
+      "es": "Cisuraliense",
+      "en": "Cisuralian"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Sakmarian"
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

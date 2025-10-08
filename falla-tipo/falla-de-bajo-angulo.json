@@ -6,8 +6,38 @@
     "en": "low angle fault"
   },
   "definition": {
-    "es": "Falla que buza menos de 45 grados en más de la mitad de su extensión reconocida.",
+    "es": "Falla cuyo plano buza menos de 45 grados sobre más de la mitad de su extensión reconocida.",
     "en": "Fault that dips less than 45 degrees over more than half of the recognized extent of the fault."
+  },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-horizontal",
+      "prefLabel": {
+        "es": "falla horizontal",
+        "en": "horizontal fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-bajo-angulo",
+      "prefLabel": {
+        "es": "falla normal de bajo ángulo",
+        "en": "low angle normal fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/cabalgamiento",
+      "prefLabel": {
+        "es": "cabalgamiento",
+        "en": "thrust fault"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla",
+    "prefLabel": {
+      "es": "falla",
+      "en": "fault"
+    }
   },
   "exactMatch": [
     {
@@ -23,11 +53,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
     }
@@ -58,6 +83,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

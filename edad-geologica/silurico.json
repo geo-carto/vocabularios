@@ -9,6 +9,43 @@
     "es": "Límite inferior -443.8 +|-1.5 ma, límite superior -419.2 +|-3.2 ma",
     "en": "Older bound -443.8 +|-1.5 ma, younger bound -419.2 +|-3.2 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/llandovery",
+      "prefLabel": {
+        "es": "Llandovery",
+        "en": "Llandovery"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ludlow",
+      "prefLabel": {
+        "es": "Ludlow",
+        "en": "Ludlow"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pridoli",
+      "prefLabel": {
+        "es": "Prídoli",
+        "en": "Pridoli"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/wenlock",
+      "prefLabel": {
+        "es": "Wenlock",
+        "en": "Wenlock"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico",
+    "prefLabel": {
+      "es": "Paleozoico",
+      "en": "Paleozoic"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Silurian"
@@ -23,11 +60,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +90,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

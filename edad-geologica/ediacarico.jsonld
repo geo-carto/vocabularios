@@ -9,13 +9,6 @@
     "es": "Límite inferior -635 ma, límite superior -541.0 +|-1.0 ma",
     "en": "Older bound -635 ma, younger bound -541.0 +|-1.0 ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neoproterozoico",
-    "prefLabel": {
-      "es": "Neoproterozoico",
-      "en": "Neoproterozoic"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Ediacaran"
@@ -30,6 +23,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -60,6 +58,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

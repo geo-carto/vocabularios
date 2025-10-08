@@ -8,12 +8,19 @@
   "definition": {
     "es": "Canto de tamaño comprendido entre 64 y 256 mm"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-clastico",
+    "prefLabel": {
+      "es": "material clástico",
+      "en": "clastic material"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/pebble_gravel_size_sediment"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/pebbleGravelSizeSediment"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pebbleGravelSizeSediment"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

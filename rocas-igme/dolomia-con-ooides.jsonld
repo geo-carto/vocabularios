@@ -8,12 +8,19 @@
   "definition": {
     "es": "Dolomía en la que se reconocen fantasmas de aloquímicos, de entre los que predominan los ooides"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-dolomitica",
+    "prefLabel": {
+      "es": "roca dolomítica",
+      "en": "dolomitic rock"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/dolostone"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/dolomite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/dolomite"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

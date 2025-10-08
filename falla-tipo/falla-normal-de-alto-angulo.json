@@ -6,7 +6,7 @@
     "en": "high angle normal fault"
   },
   "definition": {
-    "es": "Falla que buza al menos 45 grados sobre más de la mitad de la extensión reconocida de la falla con el bloque superior desplazado desde una posición estructuralmente más alta en relación con las rocas del bloque inferior.  Falla que buza al menos 45 grados en más de la mitad de su extensión reconocida cuyo bloque superior ha sido desplazado desde un posición estructural más alto respecto el bloque inferior.",
+    "es": "Falla normal cuyo plano buza más de 45 grados sobre más de la mitad de su extensión reconocida.",
     "en": "Fault that dips at least 45 degrees over more than half of the recognized extent of the fault with the hanging wall displaced from a structurally higher position relative to footwall rocks."
   },
   "exactMatch": [
@@ -23,11 +23,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
     }
@@ -58,6 +53,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

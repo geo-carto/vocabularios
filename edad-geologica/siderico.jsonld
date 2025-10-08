@@ -9,13 +9,6 @@
     "es": "Límite inferior -2500 ma, límite superior -2300 ma",
     "en": "Older bound -2500 ma, younger bound -2300 ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleoproterozoico",
-    "prefLabel": {
-      "es": "Paleoproterozoico",
-      "en": "Paleoproterozoic"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Siderian"
@@ -30,6 +23,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -60,6 +58,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -9,6 +9,13 @@
     "es": "Límite inferior -303.7 +|-0.1 ma, límite superior -298.9 +|-0.15 ma",
     "en": "Older bound -303.7 +|-0.1 ma, younger bound -298.9 +|-0.15 ma"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pensilvanico-superior",
+    "prefLabel": {
+      "es": "Pensilvánico Superior",
+      "en": "Upper Pennsylvanian"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Gzhelian"
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -8,12 +8,19 @@
   "definition": {
     "es": "Basalto subsaturado rico en álcalis, caracterizado por la ausencia de ortopiroxeno y cuarzo, así como por la presencia de olivino, augita rica en titanio y nefelina normativa"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-volcanica",
+    "prefLabel": {
+      "es": "roca volcánica",
+      "en": "volcanic rock"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/alkali-olivine_basalt"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/alkaliOlivineBasalt"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/alkaliOlivineBasalt"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

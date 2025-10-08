@@ -9,29 +9,13 @@
     "es": "Límite inferior -358.9 +|-0.4 ma, límite superior -323.2 +|-0.4 ma",
     "en": "Older bound -358.9 +|-0.4 ma,younger bound -323.2 +|-0.4 ma"
   },
-  "narrower": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/misisipico-inferior",
-      "prefLabel": {
-        "es": "Misisípico Inferior",
-        "en": "Lower Mississippian"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/misisipico-medio",
-      "prefLabel": {
-        "es": "Misisípico Medio",
-        "en": "Middle Mississippian"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/misisipico-superior",
-      "prefLabel": {
-        "es": "Misisípico Superior",
-        "en": "Upper Mississippian"
-      }
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/carbonifero",
+    "prefLabel": {
+      "es": "Carbonífero",
+      "en": "Carboniferous"
     }
-  ],
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Mississippian"
@@ -46,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -81,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

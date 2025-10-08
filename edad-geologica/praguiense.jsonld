@@ -9,6 +9,13 @@
     "es": "Límite inferior -410.8 +|-2.8 ma, límite superior -407.6 +|-2.6 ma",
     "en": "Older bound -410.8 +|-2.8 ma, younger bound -407.6 +|-2.6 ma"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico-inferior",
+    "prefLabel": {
+      "es": "Devónico Inferior",
+      "en": "Lower Devonian"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Pragian"
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

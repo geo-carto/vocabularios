@@ -9,6 +9,64 @@
     "es": "Límite inferior -23.03 ma, límite superior -5.333 ma",
     "en": "Older bound -23.03 ma, younger bound -5.333 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aquitaniense",
+      "prefLabel": {
+        "es": "Aquitaniense",
+        "en": "Aquitanian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/burdigaliense",
+      "prefLabel": {
+        "es": "Burdigaliense",
+        "en": "Burdigalian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/langhiense",
+      "prefLabel": {
+        "es": "Langhiense",
+        "en": "Langhian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/messiniense",
+      "prefLabel": {
+        "es": "Messiniense",
+        "en": "Messinian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno-inferior",
+      "prefLabel": {
+        "es": "Mioceno Inferior",
+        "en": "Lower Miocene"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/serravalliense",
+      "prefLabel": {
+        "es": "Serravalliense",
+        "en": "Serravallian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/tortoniense",
+      "prefLabel": {
+        "es": "Tortoniense",
+        "en": "Tortonian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neogeno",
+    "prefLabel": {
+      "es": "Neógeno",
+      "en": "Neogene"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Miocene"
@@ -23,11 +81,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +111,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -8,12 +8,19 @@
   "definition": {
     "es": "Pequeño cuerpo vítreo, normalmente de tamaño inferior a 5 cm, de color negruzco, contorno redondeado y forma de gota, lágrima o pera, a veces de superficie no lisa, rico en sílice y con escaso contenido en agua. se supone que se trata de material fundido formado por el impacto de grandes meteoritos sobre la superficie de la tierra y lanzado a centenares de kilómetros de distancia, concentrándose en niveles estratigráficos muy concretos y en amplias extensiones"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-de-impacto",
+    "prefLabel": {
+      "es": "roca de impacto",
+      "en": "impact rock"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/impact_generated_material"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/impactGeneratedMaterial"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/impactGeneratedMaterial"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -6,8 +6,8 @@
     "en": "antiform"
   },
   "definition": {
-    "es": "Cualquier pliegue convexo hacia arriba o cóncavo hacia abajo.",
-    "en": "Any convex-upward, concave downward fold."
+    "es": "Pliegue cuyo núcleo contiene las rocas estratigráficamente más modernas; generalmente es cóncavo hacia arriba.",
+    "en": "A fold of which the core contains the stratigraphically younger rocks; it is generally concave upward."
   },
   "inScheme": [
     {
@@ -50,6 +50,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

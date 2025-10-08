@@ -8,17 +8,49 @@
   "definition": {
     "es": "Material consolidado de origen artificial (humano)"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/dique",
+      "prefLabel": {
+        "es": "dique",
+        "en": "dike"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/espigon",
+      "prefLabel": {
+        "es": "espigón",
+        "en": "breakwater"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/hormigon",
+      "prefLabel": {
+        "es": "hormigón",
+        "en": "concrete"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/malecon",
+      "prefLabel": {
+        "es": "malecón",
+        "en": "seawall"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-antropico",
+    "prefLabel": {
+      "es": "material antrópico",
+      "en": "anthropic material"
+    }
+  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -49,6 +81,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

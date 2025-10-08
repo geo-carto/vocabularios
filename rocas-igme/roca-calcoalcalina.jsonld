@@ -8,12 +8,19 @@
   "definition": {
     "es": "Roca ígnea que forma parte de una suite de rocas generalmente básico-intermedias. se caracteriza por ser saturada o sobresaturada en sílice, con índice de peacok entre 56 y 61, y por mantener la relación fe/fe+mg relativamente constante a lo largo de la secuencia de diferenciación"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-igneo",
+    "prefLabel": {
+      "es": "material ígneo",
+      "en": "igneous material"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/igneousRock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/igneousRock"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

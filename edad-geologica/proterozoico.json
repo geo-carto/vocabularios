@@ -11,6 +11,20 @@
   },
   "narrower": [
     {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesoproterozoico",
+      "prefLabel": {
+        "es": "Mesoproterozoico",
+        "en": "Mesoproterozoic"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neoproterozoico",
+      "prefLabel": {
+        "es": "Neoproterozoico",
+        "en": "Neoproterozoic"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleoproterozoico",
       "prefLabel": {
         "es": "Paleoproterozoico",
@@ -69,6 +83,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

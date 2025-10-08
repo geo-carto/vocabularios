@@ -9,6 +9,15 @@
     "es": "Límite inferior -323.2 +|-0.4 ma, límite superior -315.2 +|-0.2 ma",
     "en": "Older bound -323.2 +|-0.4 ma, younger bound -315.2 +|-0.2 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/bashkiriense",
+      "prefLabel": {
+        "es": "Bashkiriense",
+        "en": "Bashkirian"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/"
@@ -58,6 +67,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

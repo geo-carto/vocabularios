@@ -6,8 +6,38 @@
     "en": "strike slip fault"
   },
   "definition": {
-    "es": "Falla en la que el desplazamiento es paralelo a la dirección de la superficie de falla   Falla en la que la componente de desplazamiento paralelo al rumbo es más de 10 veces superior a la componente de desplazamiento paralelo al buzamiento al menos en una zona del trazado cartografiado.",
+    "es": "Falla en la que el componente de desplazamiento paralelo a la dirección de la superficie de falla es más de 10 veces superior al desplazamiento paralelo al buzamiento al menos en una zona del trazado cartografiado.",
     "en": "Fault with strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the mapped trace of the fault."
+  },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-de-alto-angulo",
+      "prefLabel": {
+        "es": "falla de desgarre de alto ángulo",
+        "en": "wrench fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-dextra",
+      "prefLabel": {
+        "es": "falla de desgarre dextra",
+        "en": "dextral strike slip fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-sinestral",
+      "prefLabel": {
+        "es": "falla de desgarre sinestral",
+        "en": "siniestral strike slip fault"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla",
+    "prefLabel": {
+      "es": "falla",
+      "en": "fault"
+    }
   },
   "exactMatch": [
     {
@@ -23,11 +53,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
     }
@@ -58,6 +83,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

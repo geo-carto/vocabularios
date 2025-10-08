@@ -9,6 +9,13 @@
     "es": "Falla que buza menos de 10 grados sobre más de la mitad de la extensión reconocida de la falla.",
     "en": "Fault that dips less than 10 degrees over more than half the recognized extent of the fault."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-bajo-angulo",
+    "prefLabel": {
+      "es": "falla de bajo ángulo",
+      "en": "low angle fault"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/faulttype/horizontal_fault"
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

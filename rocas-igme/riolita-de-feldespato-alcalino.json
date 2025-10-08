@@ -8,12 +8,19 @@
   "definition": {
     "es": "Roca volcánica leucocrática de la familia de las rocas riolíticas, en la que el feldespato alcalino constituye más del 90% del total de los feldespatos. su equivalente plutónico es el granito de feldespato alcalino"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-volcanica",
+    "prefLabel": {
+      "es": "roca volcánica",
+      "en": "volcanic rock"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_rhyolite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/alkaliFeldsparRhyolite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/alkaliFeldsparRhyolite"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -6,8 +6,15 @@
     "en": "mixed extraction fault"
   },
   "definition": {
-    "es": "Una falla de extracción con algún desplazamiento dentro del plano de falla.   Falla contraccional con algo de desplazamiento a lo largo del plano de falla.",
+    "es": "Falla contracional con algo de desplazamiento en la dirección del plano de falla.",
     "en": "An extraction fault with some displacement within the fault plane."
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional",
+    "prefLabel": {
+      "es": "falla contraccional",
+      "en": "extraction fault"
+    }
   },
   "exactMatch": [
     {
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

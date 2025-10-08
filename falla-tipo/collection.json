@@ -34,9 +34,9 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-gran-angulo",
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-alto-angulo",
       "prefLabel": {
-        "es": "falla de gran ángulo",
+        "es": "falla de alto ángulo",
         "en": "high angle fault"
       }
     },
@@ -48,16 +48,16 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-de-gran-angulo",
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-de-alto-angulo",
       "prefLabel": {
-        "es": "falla inversa de gran ángulo",
+        "es": "falla inversa de alto ángulo",
         "en": "high angle reverse"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-con-buzamiento-elevado",
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-de-alto-angulo",
       "prefLabel": {
-        "es": "falla de desgarre con buzamiento elevado",
+        "es": "falla de desgarre de alto ángulo",
         "en": "wrench fault"
       }
     },
@@ -83,9 +83,9 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-despegue",
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/superficie-de-despegue",
       "prefLabel": {
-        "es": "falla de despegue",
+        "es": "superficie de despegue",
         "en": "detachment fault"
       }
     },
@@ -111,16 +111,16 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-siniestra",
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-sinistra",
       "prefLabel": {
-        "es": "falla normal siniestra",
+        "es": "falla normal sinistra",
         "en": "left normal fault"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-siniestra",
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-sinistra",
       "prefLabel": {
-        "es": "falla inversa siniestra",
+        "es": "falla inversa sinistra",
         "en": "left reverse fault"
       }
     },
@@ -200,6 +200,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

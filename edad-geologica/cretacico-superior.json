@@ -9,6 +9,57 @@
     "es": "Límite inferior -100.5 ma, límite superior -66.0 ma",
     "en": "Older bound -100.5 ma, younger bound -66.0 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/campaniense",
+      "prefLabel": {
+        "es": "Campaniense",
+        "en": "Campanian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cenomaniense",
+      "prefLabel": {
+        "es": "Cenomaniense",
+        "en": "Cenomanian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/coniaciense",
+      "prefLabel": {
+        "es": "Coniaciense",
+        "en": "Coniacian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/maastrichtiense",
+      "prefLabel": {
+        "es": "Maastrichtiense",
+        "en": "Maastrichtian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/santoniense",
+      "prefLabel": {
+        "es": "Santoniense",
+        "en": "Santonian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/turoniense",
+      "prefLabel": {
+        "es": "Turoniense",
+        "en": "Turonian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico",
+    "prefLabel": {
+      "es": "Cretácico",
+      "en": "Cretaceous"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Later_Cretaceous"
@@ -23,11 +74,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +104,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

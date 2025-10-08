@@ -9,6 +9,43 @@
     "es": "Límite inferior -298.9 +|-0.15 ma, límite superior -272.95 +|-0.11 ma",
     "en": "Older bound -298.9 +|-0.15 ma, younger bound -272.95 +|-0.11 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/artinskiense",
+      "prefLabel": {
+        "es": "Artinskiense",
+        "en": "Artinskian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/asseliense",
+      "prefLabel": {
+        "es": "Asseliense",
+        "en": "Asselian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/kunguriense",
+      "prefLabel": {
+        "es": "Kunguriense",
+        "en": "Kungurian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/sakmariense",
+      "prefLabel": {
+        "es": "Sakmariense",
+        "en": "Sakmarian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/permico",
+    "prefLabel": {
+      "es": "Pérmico",
+      "en": "Permian"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Cisuralian"
@@ -23,11 +60,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +90,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

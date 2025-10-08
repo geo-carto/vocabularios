@@ -5,6 +5,13 @@
     "es": "Pleistoceno Inferior",
     "en": "Lower Pleistocene"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno",
+    "prefLabel": {
+      "es": "Pleistoceno",
+      "en": "Pleistocene"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/"
@@ -19,11 +26,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -54,6 +56,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

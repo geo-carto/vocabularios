@@ -8,12 +8,19 @@
   "definition": {
     "es": "Roca carbonatada originada por organismos ligados entre sí durante la sedimentación, por actividad de organismos encostrantes y envolventes"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-sedimentario-carbonatado",
+    "prefLabel": {
+      "es": "material sedimentario carbonatado",
+      "en": "carbonate sedimentary material"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/boundstone"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/boundstone"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/boundstone"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

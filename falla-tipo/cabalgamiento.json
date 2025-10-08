@@ -9,6 +9,13 @@
     "es": "Falla que buza menos de 45 grados en más de la mitad de la extensión reconocida de la falla, con un bloque superior desplazado desde una posición estructuralmente más profunda en relación con las rocas del bloque inferior.",
     "en": "Fault that dips less than 45 degrees over more than half of the recognized extent of the fault, with a hanging wall displaced from a structurally deeper position relative to footwall rocks."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-bajo-angulo",
+    "prefLabel": {
+      "es": "falla de bajo ángulo",
+      "en": "low angle fault"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/faulttype/thrust_fault"
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

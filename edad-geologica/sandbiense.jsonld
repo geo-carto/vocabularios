@@ -9,6 +9,13 @@
     "es": "Límite inferior -458.4 +|-0.9 ma, límite superior -453.0 +|-0.7 ma",
     "en": "Older bound -458.4 +|-0.9 ma, younger bound -453.0 +|-0.7 ma"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-superior",
+    "prefLabel": {
+      "es": "Ordovícico Superior",
+      "en": "Upper Ordovician"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Sandbian"
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

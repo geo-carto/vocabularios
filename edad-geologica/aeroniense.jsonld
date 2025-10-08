@@ -9,6 +9,13 @@
     "es": "Límite inferior -440.8 +|-1.2 ma, límite superior -438.5 +|-1.1 ma",
     "en": "Older bound -440.8 +|-1.2 ma , younger bound -438.5 +|-1.1 ma"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/llandovery",
+    "prefLabel": {
+      "es": "Llandovery",
+      "en": "Llandovery"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Aeronian"
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -5,6 +5,10 @@
     "es": "monoclinal",
     "en": "monocline"
   },
+  "definition": {
+    "es": "Pliegue con un flanco corto y fuerte buzamiento que enlaza dos flancos planos de tendencia horizontal.",
+    "en": "Fold with a short, steeply dipping limb that connects two flat limbs with a horizontal trend."
+  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
@@ -46,6 +50,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

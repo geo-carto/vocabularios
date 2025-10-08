@@ -9,6 +9,29 @@
     "es": "Límite inferior -541.0 +|-1.0 ma, límite superior -0.0 ma",
     "en": "Older bound -541.0 +|-1.0 ma, younger bound -0.0 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cenozoico",
+      "prefLabel": {
+        "es": "Cenozoico",
+        "en": "Cenozoic"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesozoico",
+      "prefLabel": {
+        "es": "Mesozoico",
+        "en": "Mesozoic"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico",
+      "prefLabel": {
+        "es": "Paleozoico",
+        "en": "Paleozoic"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Phanerozoic"
@@ -58,6 +81,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -9,6 +9,22 @@
     "es": "Falla en la que el componente de desplazamiento paralelo al buzamiento es más de 10 veces superior al componente de desplazamiento paralelo al rumbo al menos en un lugar del trazado cartografiado y la falla buza sistemáticamente en la misma dirección, estando el labio levantado desplazado hacia arriba en relación con el labio hundido al menos la mitad del trazado cartografiado.",
     "en": "Fault with dip-parallel displacement component of slip vector more than 10 times the strike-parallel component of the slip vector at at least one location along the mapped trace of the fault, and the fault dips consistently in the same direction with the hanging wall displaced up relative to the footwall over at least half the mapped trace of the fault."
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-de-alto-angulo",
+      "prefLabel": {
+        "es": "falla inversa de alto ángulo",
+        "en": "high angle reverse"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla",
+    "prefLabel": {
+      "es": "falla",
+      "en": "fault"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/faulttype/reverse_fault"
@@ -23,11 +39,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
     }
@@ -58,6 +69,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

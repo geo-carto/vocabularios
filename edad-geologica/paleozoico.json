@@ -5,6 +5,57 @@
     "es": "Paleozoico",
     "en": "Paleozoic"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cambrico",
+      "prefLabel": {
+        "es": "Cámbrico",
+        "en": "Cambrian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/carbonifero",
+      "prefLabel": {
+        "es": "Carbonífero",
+        "en": "Carboniferous"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico",
+      "prefLabel": {
+        "es": "Devónico",
+        "en": "Devonian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico",
+      "prefLabel": {
+        "es": "Ordovícico",
+        "en": "Ordovician"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/permico",
+      "prefLabel": {
+        "es": "Pérmico",
+        "en": "Permian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/silurico",
+      "prefLabel": {
+        "es": "Silúrico",
+        "en": "Silurian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/fanerozoico",
+    "prefLabel": {
+      "es": "Fanerozoico",
+      "en": "Phanerozoic"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Paleozoic"
@@ -19,11 +70,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -54,6 +100,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

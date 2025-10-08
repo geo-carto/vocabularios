@@ -6,8 +6,15 @@
     "en": "pure extraction fault"
   },
   "definition": {
-    "es": "Una falla de extracción sin desplazamiento perceptible dentro del plano de falla.   Falla contraccional sin  desplazamiento apreciable a lo largo del plano de falla.",
+    "es": "Falla contracional sin  desplazamiento apreciable a lo largo del plano de falla.",
     "en": "An extraction fault with no discernible displacement within the fault plane."
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional",
+    "prefLabel": {
+      "es": "falla contraccional",
+      "en": "extraction fault"
+    }
   },
   "exactMatch": [
     {
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

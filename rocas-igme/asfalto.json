@@ -8,17 +8,19 @@
   "definition": {
     "es": "Bitumen negro, muy viscoso o sólido, raramente en estado libre, pero frecuente en impregnaciones de determinadas rocas sedimentarias o sedimentos"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-rico-en-materia-organica",
+    "prefLabel": {
+      "es": "material rico en materia orgánica",
+      "en": "organic matter-rich material"
+    }
+  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -49,6 +51,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

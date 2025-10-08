@@ -9,6 +9,29 @@
     "es": "Falla cuyos dos lados se han aproximado notablemente entre sí en la dirección perpendicular a la falla.",
     "en": "A fault whose two sides have approached each other substantially in the direction perpendicular to the fault."
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional-mixta",
+      "prefLabel": {
+        "es": "falla contraccional mixta",
+        "en": "mixed extraction fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional-pura",
+      "prefLabel": {
+        "es": "falla contraccional pura",
+        "en": "pure extraction fault"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla",
+    "prefLabel": {
+      "es": "falla",
+      "en": "fault"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/faulttype/extraction_fault"
@@ -23,11 +46,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
     }
@@ -58,6 +76,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

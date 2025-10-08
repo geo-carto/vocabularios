@@ -9,6 +9,13 @@
     "es": "Límite inferior -387.7 +|-0.8 ma, límite superior -382.7 +|-1.6 ma",
     "en": "Older bound -387.7 +|-0.8 ma, younger bound -382.7 +|-1.6 ma"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico-medio",
+    "prefLabel": {
+      "es": "Devónico Medio",
+      "en": "Middle Devonian"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Givetian"
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

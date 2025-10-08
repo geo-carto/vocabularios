@@ -9,6 +9,36 @@
     "es": "Límite inferior -66.0 ma, límite superior -56 ma",
     "en": "Older bound -66.0 ma, younger bound -56 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/daniense",
+      "prefLabel": {
+        "es": "Daniense",
+        "en": "Danian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/selandiense",
+      "prefLabel": {
+        "es": "Selandiense",
+        "en": "Selandian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/thanetiense",
+      "prefLabel": {
+        "es": "Thanetiense",
+        "en": "Thanetian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleogeno",
+    "prefLabel": {
+      "es": "Paleógeno",
+      "en": "Paleogene"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Paleocene"
@@ -23,11 +53,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +83,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

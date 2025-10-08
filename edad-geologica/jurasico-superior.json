@@ -9,6 +9,36 @@
     "es": "Límite inferior -163.5 +|-1.0 ma, límite superior -145.0 ma",
     "en": "Older bound -163.5 +|-1.0 ma, younger bound -145.0 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/kimmeridgiense",
+      "prefLabel": {
+        "es": "Kimmeridgiense",
+        "en": "Kimmeridgian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/oxfordiense",
+      "prefLabel": {
+        "es": "Oxfordiense",
+        "en": "Oxfordian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/titoniense",
+      "prefLabel": {
+        "es": "Titoniense",
+        "en": "Tithonian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico",
+    "prefLabel": {
+      "es": "Jurásico",
+      "en": "Jurassic"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Late_Jurassic"
@@ -23,11 +53,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +83,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -9,6 +9,36 @@
     "es": "Límite inferior -298.9 +|-0.15 ma, límite superior -251.902 +|-0.024 ma",
     "en": "Older bound -298.9 +|-0.15 ma, younger bound -251.902 +|-0.024 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cisuraliense",
+      "prefLabel": {
+        "es": "Cisuraliense",
+        "en": "Cisuralian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/guadalupiense",
+      "prefLabel": {
+        "es": "Guadalupiense",
+        "en": "Guadalupian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/lopingiense",
+      "prefLabel": {
+        "es": "Lopingiense",
+        "en": "Lopingian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico",
+    "prefLabel": {
+      "es": "Paleozoico",
+      "en": "Paleozoic"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Permian"
@@ -23,11 +53,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +83,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -9,13 +9,29 @@
     "es": "Límite inferior -497 ma, límite superior -485.4 +|-1.9 ma",
     "en": "Older bound -497 ma, younger bound -485.4 +|-1.9 ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cambrico",
-    "prefLabel": {
-      "es": "Cámbrico",
-      "en": "Cambrian"
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/piso-10",
+      "prefLabel": {
+        "es": "Piso 10",
+        "en": "Stage 10"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jiangshaniense",
+      "prefLabel": {
+        "es": "Jiangshaniense",
+        "en": "Jiangshanian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paibiense",
+      "prefLabel": {
+        "es": "Paibiense",
+        "en": "Paibian"
+      }
     }
-  },
+  ],
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Furongian"
@@ -30,6 +46,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -60,6 +81,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

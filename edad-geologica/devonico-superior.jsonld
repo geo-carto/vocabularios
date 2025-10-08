@@ -9,6 +9,29 @@
     "es": "Límite inferior -382.7 +|-1.6 ma, límite superior -358.9 +|-0.4 ma",
     "en": "Older bound -382.7 +|-1.6 ma, younger bound -358.9 +|-0.4 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/fameniense",
+      "prefLabel": {
+        "es": "Fameniense",
+        "en": "Famennian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/frasniense",
+      "prefLabel": {
+        "es": "Frasniense",
+        "en": "Frasnian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico",
+    "prefLabel": {
+      "es": "Devónico",
+      "en": "Devonian"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Late_Devonian"
@@ -23,11 +46,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +76,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

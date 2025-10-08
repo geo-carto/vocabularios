@@ -9,6 +9,22 @@
     "es": "Límite inferior -0.781 ma, límite superior -0.126 ma",
     "en": "Older bound -0.781 ma, younger bound -0.126 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/chibaniense",
+      "prefLabel": {
+        "es": "Chibaniense",
+        "en": "Chibanian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno",
+    "prefLabel": {
+      "es": "Pleistoceno",
+      "en": "Pleistocene"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/"
@@ -23,11 +39,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +69,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

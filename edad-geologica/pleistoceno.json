@@ -9,6 +9,50 @@
     "es": "Límite inferior -2.58 ma, límite superior -0.0117 ma",
     "en": "Older bound -2.58 ma, younger bound -0.0117 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/calabriense",
+      "prefLabel": {
+        "es": "Calabriense",
+        "en": "Calabrian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/gelasiense",
+      "prefLabel": {
+        "es": "Gelasiense",
+        "en": "Gelasian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-inferior",
+      "prefLabel": {
+        "es": "Pleistoceno Inferior",
+        "en": "Lower Pleistocene"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-medio",
+      "prefLabel": {
+        "es": "Pleistoceno Medio",
+        "en": "Middle Pleistocene"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-superior",
+      "prefLabel": {
+        "es": "Pleistoceno Superior",
+        "en": "Upper Pleistocene"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cuaternario",
+    "prefLabel": {
+      "es": "Cuaternario",
+      "en": "Quaternary"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Pleistocene"
@@ -23,11 +67,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +97,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

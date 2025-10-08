@@ -3,17 +3,24 @@
   "type": "Concept",
   "prefLabel": {
     "es": "roca madre",
-    "en": "parent rock / bedrock"
+    "en": "parent rock"
   },
   "definition": {
-    "es": "término general para designar la roca sólida que subyace a un suelo u otro material no consolidado expuesto en la superficie terrestre"
+    "es": "Término general para designar la roca sólida que subyace a un suelo u otro material no consolidado expuesto en la superficie terrestre"
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca",
+    "prefLabel": {
+      "es": "roca",
+      "en": "rock"
+    }
   },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/compound_material"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/compoundMaterial"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/compoundMaterial"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -8,12 +8,19 @@
   "definition": {
     "es": "Caliza micrítica con aloquímicos, de entre los que predominan los intraclastos"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-sedimentario-carbonatado",
+    "prefLabel": {
+      "es": "material sedimentario carbonatado",
+      "en": "carbonate sedimentary material"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/limestone"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

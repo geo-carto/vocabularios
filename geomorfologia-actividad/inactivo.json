@@ -6,7 +6,7 @@
     "en": "inactive"
   },
   "definition": {
-    "es": "A relict or fossil geomorphologic process.",
+    "es": "Un proceso geomorfológico relicto o fósil.",
     "en": "A relict or fossil geomorphologic process."
   },
   "inScheme": [
@@ -50,6 +50,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -8,12 +8,28 @@
   "definition": {
     "es": "Material de origen natural sin compactar. incluye los sedimentos, los depósitos volcanoclásticos y los materiales de falla no cohesivos"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/deposito",
+      "prefLabel": {
+        "es": "depósito",
+        "en": "deposit"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-compuesto",
+    "prefLabel": {
+      "es": "material compuesto",
+      "en": "composite material"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/natural_unconsolidated_material"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/naturalUnconsolidatedMaterial"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/naturalUnconsolidatedMaterial"
     }
   ],
   "inScheme": [
@@ -22,11 +38,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +68,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

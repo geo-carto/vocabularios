@@ -9,6 +9,57 @@
     "es": "Límite inferior -145.0 ma, límite superior -100.5 ma",
     "en": "Older bound -145.0 ma, younger bound -100.5 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/albiense",
+      "prefLabel": {
+        "es": "Albiense",
+        "en": "Albian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aptiense",
+      "prefLabel": {
+        "es": "Aptiense",
+        "en": "Aptian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/barremiense",
+      "prefLabel": {
+        "es": "Barremiense",
+        "en": "Barremian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/berriasiense",
+      "prefLabel": {
+        "es": "Berriasiense",
+        "en": "Berriasian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/hauteriviense",
+      "prefLabel": {
+        "es": "Hauteriviense",
+        "en": "Hauterivian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/valanginiense",
+      "prefLabel": {
+        "es": "Valanginiense",
+        "en": "Valanginian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico",
+    "prefLabel": {
+      "es": "Cretácico",
+      "en": "Cretaceous"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Early_Cretaceous"
@@ -23,11 +74,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +104,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

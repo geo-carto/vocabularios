@@ -8,12 +8,98 @@
   "definition": {
     "es": "Material no consolidado de origen artificial humano"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/desecho",
+      "prefLabel": {
+        "es": "desecho",
+        "en": "waste"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/escombrera",
+      "prefLabel": {
+        "es": "escombrera",
+        "en": "waste dump"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/escombro",
+      "prefLabel": {
+        "es": "escombro",
+        "en": "rubble"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/escoria",
+      "prefLabel": {
+        "es": "escoria",
+        "en": "slag"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/fertilizante",
+      "prefLabel": {
+        "es": "fertilizante",
+        "en": "fertilizer"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/lodo-de-depuradora",
+      "prefLabel": {
+        "es": "lodo de depuradora",
+        "en": "sewage sludge"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/lodo-industrial",
+      "prefLabel": {
+        "es": "lodo industrial",
+        "en": "industrial sludge"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/polder",
+      "prefLabel": {
+        "es": "pólder",
+        "en": "polder"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/relleno",
+      "prefLabel": {
+        "es": "relleno",
+        "en": "fill"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/salina",
+      "prefLabel": {
+        "es": "salina",
+        "en": "salt works"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/vertedero",
+      "prefLabel": {
+        "es": "vertedero",
+        "en": "landfill"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-antropico",
+    "prefLabel": {
+      "es": "material antrópico",
+      "en": "anthropic material"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/anthropogenic_unconsolidated_material"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/anthropogenicUnconsolidatedMaterial"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/anthropogenicUnconsolidatedMaterial"
     }
   ],
   "inScheme": [
@@ -22,11 +108,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +138,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

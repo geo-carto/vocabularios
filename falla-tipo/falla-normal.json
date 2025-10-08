@@ -6,8 +6,31 @@
     "en": "normal fault"
   },
   "definition": {
-    "es": "Falla cuyo bloque elevado es el inferior y su superficie buza hacia el bloque hundido    Falla en la que la componente del desplazamiento paralelo al buzamiento es más de 10 superior a la componente del desplazamiento paralelo al rumbo en más de la mitad de la extensión en la que ha sido reconocida, en la que la falla buza sistemáticamente en la misma dirección y el bloque superior ha sido desplazado hacia abajo en relación el bloque inferior.",
+    "es": "Falla cuyo bloque elevado es el inferior y su superficie buza hacia el bloque hundido y en la que la componente del desplazamiento paralelo al buzamiento es más de 10 veces superior a la componente del desplazamiento paralelo al rumbo en más de la mitad de la extensión en la que ha sido reconocida.",
     "en": "Fault with dip-parallel displacement component of slip vector more than 10 times the strike-parallel component of the slip vector over more than half recognized extent of the fault, and for which the fault dips consistently in the same direction, and for which the hanging wall has been displaced down relative to the footwall."
+  },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-alto-angulo",
+      "prefLabel": {
+        "es": "falla normal de alto ángulo",
+        "en": "high angle normal fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-bajo-angulo",
+      "prefLabel": {
+        "es": "falla normal de bajo ángulo",
+        "en": "low angle normal fault"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla",
+    "prefLabel": {
+      "es": "falla",
+      "en": "fault"
+    }
   },
   "exactMatch": [
     {
@@ -23,11 +46,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
     }
@@ -58,6 +76,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

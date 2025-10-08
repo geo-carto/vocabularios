@@ -6,8 +6,8 @@
     "en": "synform"
   },
   "definition": {
-    "es": "Cualquier pliegue cuyos flancos cierran hacia la base.",
-    "en": "Any fold whose limbs close at the bottom."
+    "es": "Pliegue cuyos flancos se cierran hacia la parte inferior. Este término se utiliza generalmente cuando las capas plegadas no poseen un orden estratigráfico, cuando no se conoce la sucesión estratigráfica de las capas plegadas o cuando el núcleo del pliegue también contiene las rocas estratigráficamente más antiguas.",
+    "en": "Any fold whose limbs close at the bottom. The term is usually used when the folded layers do not possess a stratigraphic order, when the stratigraphic order of the folded layers is not known, or when the fold core also contains the stratigraphically older rock."
   },
   "inScheme": [
     {
@@ -50,6 +50,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -8,12 +8,19 @@
   "definition": {
     "es": "Roca calcárea en la que el contenido conjunto de calcita y dolomita no sobrepasa el 90% del total y el de dolomita es inferior al 10%"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-calcarea",
+    "prefLabel": {
+      "es": "roca calcárea",
+      "en": "calcareous rock"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/impure_limestone"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/impureLimestone"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/impureLimestone"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

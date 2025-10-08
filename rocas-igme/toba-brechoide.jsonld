@@ -8,12 +8,19 @@
   "definition": {
     "es": "Roca piroclástica cuyo contenido en fragmentos de diámetro superior a 64 mm está comprendido entre el 25 y el 75% del volumen de los piroclastos"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-piroclastica",
+    "prefLabel": {
+      "es": "roca piroclástica",
+      "en": "pyroclastic rock"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/tuff_breccia_agglomerate_or_pyroclastic_breccia"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/tuff-breccia,Agglomerate,OrPyroclasticBreccia"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/tuffBrecciaAgglomerateOrPyroclasticBreccia"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

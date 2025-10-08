@@ -8,12 +8,19 @@
   "definition": {
     "es": "Roca ígnea ácida, de composición dacítica o granodiorítica-tonalítica, rica en na2o y con relaciones elevadas de la/yb y sr/y mayor de 40 en este último ratio. la adakita puede formarse por fusión directa de la corteza oceánica subducida o por fusión parcial de una corteza máfica en condiciones de alta presión"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-ignea",
+    "prefLabel": {
+      "es": "roca ígnea",
+      "en": "igneous rock"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/granodiorite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/granodiorite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/granodiorite"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

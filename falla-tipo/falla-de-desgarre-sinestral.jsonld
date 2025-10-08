@@ -6,8 +6,15 @@
     "en": "siniestral strike slip fault"
   },
   "definition": {
-    "es": "Falla con componente de desplazamiento paralelo de rumbo lateral izquierdo del vector de deslizamiento más de 10 veces el componente paralelo de caída del vector de deslizamiento en al menos una ubicación a lo largo de la falla, y desplazamiento lateral izquierdo sobre más de la mitad de la traza mapeada de la falla  Falla en la que la componente de desplazamiento paralelo al rumbo hacia la izquierda es 10 veces superior a la componente de desplazamiento paralelo al buzamiento al menos en una zona a lo largo de la falla, y que en más de la mitad de su traza cartográfica se ha observado desplazamiento hacia la izquierda.",
+    "es": "Falla de desgarre en la que un bloque se desplaza hacia la izquierda del bloque desde donde se hace la observación.",
     "en": "Fault with left-lateral strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the fault, and left-lateral displacement over more than half the mapped trace of the fault."
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre",
+    "prefLabel": {
+      "es": "falla de desgarre",
+      "en": "strike slip fault"
+    }
   },
   "exactMatch": [
     {
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

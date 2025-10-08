@@ -9,6 +9,29 @@
     "es": "Límite inferior -247.2 ma, límite superior -237 ma",
     "en": "Older bound -247.2 ma, younger bound -237 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/anisiense",
+      "prefLabel": {
+        "es": "Anisiense",
+        "en": "Anisian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ladiniense",
+      "prefLabel": {
+        "es": "Ladiniense",
+        "en": "Ladinian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico",
+    "prefLabel": {
+      "es": "Triásico",
+      "en": "Triassic"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Middle_Triassic"
@@ -23,11 +46,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +76,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

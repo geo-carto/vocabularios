@@ -9,6 +9,13 @@
     "es": "Límite inferior -182.7 +|-0.7 ma, límite superior -174.1 +|-1.0 ma",
     "en": "Older bound -182.7 +|-0.7 ma, younger bound -174.1 +|-1.0 ma"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-inferior",
+    "prefLabel": {
+      "es": "Jurásico Inferior",
+      "en": "Lower Jurassic"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Toarcian"
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

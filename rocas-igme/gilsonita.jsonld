@@ -8,17 +8,19 @@
   "definition": {
     "es": "Asfaltita extraordinariamente pura, negra, brillante y de fractura concoidea. tiene una dureza de 2 a 2,5 y un peso específico de 1,07. contiene del 10 al 20% de carbono y arde fácilmente con llama luminosa"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-rico-en-materia-organica",
+    "prefLabel": {
+      "es": "material rico en materia orgánica",
+      "en": "organic matter-rich material"
+    }
+  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -49,6 +51,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

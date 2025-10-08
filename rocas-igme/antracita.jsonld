@@ -8,12 +8,19 @@
   "definition": {
     "es": "Variedad de carbón dura, negra, con brillo semimetálico y fractura semiconcoidea, que arde con dificultad y quema sin humo. su contenido en carbono es mayor del 90% y el de volátiles, menor del 14%"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-rico-en-materia-organica",
+    "prefLabel": {
+      "es": "material rico en materia orgánica",
+      "en": "organic matter-rich material"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/anthracite_coal"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/anthraciteCoal"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/anthraciteCoal"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

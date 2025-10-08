@@ -8,12 +8,19 @@
   "definition": {
     "es": "Material formado en más del 75% por fragmentos resultantes de un proceso ígneo, independientemente de su grado de consolidación. incluye los materiales piroclásticos y las brechas intrusivas y volcánicas"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-igneo",
+    "prefLabel": {
+      "es": "material ígneo",
+      "en": "igneous material"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/fragmental_igneous_material"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/Lithology/fragmentalIgneousMaterial"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/fragmentalIgneousMaterial"
     }
   ],
   "inScheme": [
@@ -22,11 +29,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
@@ -57,6 +59,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -9,6 +9,13 @@
     "es": "Límite inferior -470.0 +|-1.4 ma, límite superiord -467.3 +|-1.1 ma",
     "en": "Older bound -470.0 +|-1.4 ma, younger bound -467.3 +|-1.1 ma"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-medio",
+    "prefLabel": {
+      "es": "Ordovícico Medio",
+      "en": "Middle Ordovician"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Danpigian"
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

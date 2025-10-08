@@ -9,6 +9,36 @@
     "es": "Límite inferior -458.4 +|-0.9 ma, límite superior -443.8 +|-1.5 ma",
     "en": "Older bound -458.4 +|-0.9 ma, younger bound -443.8 +|-1.5 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/hirnantiense",
+      "prefLabel": {
+        "es": "Hirnantiense",
+        "en": "Hirnantian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/kaiense",
+      "prefLabel": {
+        "es": "Kaiense",
+        "en": "Katian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/sandbiense",
+      "prefLabel": {
+        "es": "Sandbiense",
+        "en": "Sandbian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico",
+    "prefLabel": {
+      "es": "Ordovícico",
+      "en": "Ordovician"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Late_Ordivician"
@@ -23,11 +53,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +83,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

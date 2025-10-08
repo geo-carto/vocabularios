@@ -9,6 +9,36 @@
     "es": "Límite inferior -272.95 +|-0.11 ma, límite superior -259.1 +|-0.5 ma",
     "en": "Older bound -272.95 +|-0.11 ma, younger bound -259.1 +|-0.5 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/capitaniense",
+      "prefLabel": {
+        "es": "Capitaniense",
+        "en": "Capitanian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/roadiense",
+      "prefLabel": {
+        "es": "Roadiense",
+        "en": "Roadian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/wordiense",
+      "prefLabel": {
+        "es": "Wordiense",
+        "en": "Wordian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/permico",
+    "prefLabel": {
+      "es": "Pérmico",
+      "en": "Permian"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Guadalupian"
@@ -23,11 +53,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +83,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

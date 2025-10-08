@@ -9,6 +9,29 @@
     "es": "Límite inferior -470.0 +|-1.4 ma, límite superior  -458.4 +|-0.9 ma",
     "en": "Older bound -470.0 +|-1.4 ma, younger bound -458.4 +|-0.9 ma"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/dapingiense",
+      "prefLabel": {
+        "es": "Dapingiense",
+        "en": "Dapingian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/darriwiliense",
+      "prefLabel": {
+        "es": "Darriwiliense",
+        "en": "Darriwilian"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico",
+    "prefLabel": {
+      "es": "Ordovícico",
+      "en": "Ordovician"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Middle_Ordivician"
@@ -23,11 +46,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -58,6 +76,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

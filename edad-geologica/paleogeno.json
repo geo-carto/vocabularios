@@ -9,13 +9,29 @@
     "es": "Límite inferior -66.0 ma, límite superior -23.03 ma",
     "en": "Older bound -66.0 ma, younger bound -23.03 ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cenozoico",
-    "prefLabel": {
-      "es": "Cenozoico",
-      "en": "Cenozoic"
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/eoceno",
+      "prefLabel": {
+        "es": "Eoceno",
+        "en": "Eocene"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/oligoceno",
+      "prefLabel": {
+        "es": "Oligoceno",
+        "en": "Oligocene"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleoceno",
+      "prefLabel": {
+        "es": "Paleoceno",
+        "en": "Paleocene"
+      }
     }
-  },
+  ],
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Paleogene"
@@ -30,6 +46,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
@@ -60,6 +81,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
