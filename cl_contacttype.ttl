@@ -460,11 +460,11 @@
     dcterms:provenance "this vocabulary"@en ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
     skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
-    skos:definition "Superficie que separa dos unidades geológicas y que se ha originado principalmente por procesos físicos, como la actividad tectónica (fallas, cabalgamientos) o erosivos (discordancias). Este tipo de contacto no implica necesariamente un cambio en el ambiente de sedimentación."@es ,
-         "Surface separating two geological units formed mainly by physical processes such as tectonic activity (faults, thrusts) or erosion (unconformities). This type of contact does not necessarily reflect a change in depositional environment."@en ;
+    skos:definition "Contacto entre dos unidades geológicas que no corresponde a un contacto estratigráfico ni ígneo/metamórfico, sino que supone un cierto grado de desplazamiento entre las dos unidades, pero que no puede asignarse a una categoría concreta de falla  por la complejidad del desplazamiento que implica"@es ,
+         "Contact between two geological units that does not correspond to a stratigraphic or igneous/metamorphic contact, but rather involves a certain degree of displacement between the two units, which cannot be assigned to a specific category of fault due to the complexity of the displacement involved."@en ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
     skos:prefLabel "contacto mecánico"@es ,
-        "mechanic contact"@en .
+        "mechanical contact"@en .
 
 <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-diagenetico> a skos:Concept ;
     dcterms:provenance "this vocabulary"@en ;
@@ -480,8 +480,8 @@
     dcterms:provenance "this vocabulary"@en ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
     skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
-    skos:definition "Superficie de separación entre materiales geológicos naturales y aquellos modificados, removidos o creados directamente por actividades humanas, como excavaciones, rellenos o construcciones."@es ,
-         "Surface separating natural geological materials from those modified, displaced, or created directly by human activities, such as excavations, landfills, or construction works."@en ;
+    skos:definition "Contacto que limita una unidad antrópica, es decir una unidad geológica producto de la actividad humana."@es ,
+         "Contact that limits an anthropic unit, that is, a geological unit resulting from human activity."@en ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
     skos:prefLabel "contacto antrópico"@es ,
         "anthropogenic contact"@en .

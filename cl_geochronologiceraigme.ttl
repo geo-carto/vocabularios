@@ -75,6 +75,8 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica/albiense> ,
         <https://geo-carto.github.io/vocabularios/edad-geologica/anisiense> ,
         <https://geo-carto.github.io/vocabularios/edad-geologica/aptiense> ,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/aptiense-superior> ,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/aptiense-inferior> ,
         <https://geo-carto.github.io/vocabularios/edad-geologica/aquitaniense> ,
         <https://geo-carto.github.io/vocabularios/edad-geologica/aragoniense> ,
         <https://geo-carto.github.io/vocabularios/edad-geologica/arcaico> ,
@@ -338,6 +340,26 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:prefLabel "Aptiense"@es ,
         "Aptian"@en .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/aptiense-superior> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/aptiense> ;
+    skos:definition "Límite inferior -119.4 ma, límite superior -113.0 ma"@es ,
+         "Older bound -119.4 ma, younger bound -113.0 ma"@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:prefLabel "Aptiense Superior"@es ,
+        "Upper Aptian"@en .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/aptiense-inferior> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/aptiense> ;
+    skos:definition "Límite inferior -125.0 ma, límite superior -119.4 ma"@es ,
+         "Older bound -125.0 ma, younger bound -119.4 ma"@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:prefLabel "Aptiense Inferior"@es ,
+        "Lower Aptian"@en .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/aquitaniense> a skos:Concept ;
     dcterms:provenance "this vocabulary"@en ;
