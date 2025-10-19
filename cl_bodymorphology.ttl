@@ -15,8 +15,8 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
-    skos:definition "La propiedad bodyMorphology (SWE::Category) proporciona un término de un vocabulario controlado que describe la geometría o forma de una unidad geológica. Ejemplos: dique, cono, abanico, lámina, etc. La morfología es independiente del material (EarthMaterial) que compone la unidad o del proceso que la formó."@es ;
-    skos:definition "The bodyMorphology property (SWE::Category) provides a term from a controlled vocabulary describing the geometry or form of a GeologicUnit.  Examples include: dike (dyke), cone, fan, sheet, etc. The morphology is independent of the substance (EarthMaterial) that composes the GeologicUnit or process that formed it"@en ;
+    dcterms:description "La propiedad bodyMorphology (SWE::Category) proporciona un término de un vocabulario controlado que describe la geometría o forma de una unidad geológica. Ejemplos: dique, cono, abanico, lámina, etc. La morfología es independiente del material (EarthMaterial) que compone la unidad o del proceso que la formó."@es ;
+    dcterms:description "The bodyMorphology property (SWE::Category) provides a term from a controlled vocabulary describing the geometry or form of a GeologicUnit.  Examples include: dike (dyke), cone, fan, sheet, etc. The morphology is independent of the substance (EarthMaterial) that composes the GeologicUnit or process that formed it"@en ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/morfologia-arqueada> ,

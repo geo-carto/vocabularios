@@ -15,8 +15,8 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
-    skos:definition "La propiedad beddingStyle (SWE::Category) proporciona un término de un vocabulario controlado que especifica el estilo de la estratificación en una unidad geológica estratificada (por ejemplo, lenticular, irregular, planar, vago, masivo)."@es ;
-    skos:definition "The property beddingStyle (SWE::Category) provides a term from a controlled vocabulary specifying the style of bedding in a stratified geologic unit (e.g. lenticular, irregular, planar, vague, and massive)."@en ;
+    dcterms:description "La propiedad beddingStyle (SWE::Category) proporciona un término de un vocabulario controlado que especifica el estilo de la estratificación en una unidad geológica estratificada (por ejemplo, lenticular, irregular, planar, vago, masivo)."@es ;
+    dcterms:description "The property beddingStyle (SWE::Category) provides a term from a controlled vocabulary specifying the style of bedding in a stratified geologic unit (e.g. lenticular, irregular, planar, vague, and massive)."@en ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/estratificación-patron-estilo."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/planar> ,

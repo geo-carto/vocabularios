@@ -15,8 +15,8 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
-    skos:definition "La propiedad role:GeologicUnitHierarchyRoleTerm proporciona un término que describe la naturaleza de las partes, por ejemplo: facies, estratigráfica, intercapas, geográfica, facies oriental."@es ;
-    skos:definition "The role:GeologicUnitHierarchyRoleTerm property provides a term describing the nature of the parts, e.g. facies, stratigraphic, interbeds, geographic, eastern facies."@en ;
+    dcterms:description "La propiedad role:GeologicUnitHierarchyRoleTerm proporciona un término que describe la naturaleza de las partes, por ejemplo: facies, estratigráfica, intercapas, geográfica, facies oriental."@es ;
+    dcterms:description "The role:GeologicUnitHierarchyRoleTerm property provides a term describing the nature of the parts, e.g. facies, stratigraphic, interbeds, geographic, eastern facies."@en ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte> ,

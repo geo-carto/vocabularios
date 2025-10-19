@@ -15,8 +15,8 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
-    skos:definition "La propiedad beddingPattern (SWE::Category) proporciona un término de un vocabulario controlado que especifica patrones de espesor o relaciones entre paquetes de estratificación (por ejemplo, adelgazamiento hacia arriba, engrosamiento hacia arriba)."@es ;
-    skos:definition "The property beddingPattern (SWE::Category) provides a term from a controlled vocabulary specifying patterns of bedding thickness or relationships between bedding packages. (e.g., thinning upward, thickening upward)."@en ;
+    dcterms:description "La propiedad beddingPattern (SWE::Category) proporciona un término de un vocabulario controlado que especifica patrones de espesor o relaciones entre paquetes de estratificación (por ejemplo, adelgazamiento hacia arriba, engrosamiento hacia arriba)."@es ;
+    dcterms:description "The property beddingPattern (SWE::Category) provides a term from a controlled vocabulary specifying patterns of bedding thickness or relationships between bedding packages. (e.g., thinning upward, thickening upward)."@en ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/estratificacion-patron."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/estratificacion-patron/estratodecreciente> ,

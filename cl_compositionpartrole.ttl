@@ -15,7 +15,7 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
-    skos:definition "Vocabulario que recoge términos referidos al rol de una parte composicional"@es ;
+    dcterms:description "Vocabulario que recoge términos referidos al rol de una parte composicional"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/rol-parte-composicion."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/rol-parte-composicion/solo-una-parte> ,

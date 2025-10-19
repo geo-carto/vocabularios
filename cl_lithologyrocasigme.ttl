@@ -15,7 +15,7 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
-    skos:definition "Este vocabulario recoge los términos que deben de utilizarse para indicar las distintas litologías de las unidades, así como las descripción litológica."@es ;
+    dcterms:description "Este vocabulario recoge los términos que deben de utilizarse para indicar las distintas litologías de las unidades, así como las descripción litológica."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/rocas-igme."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/rocas-igme/deposito> ,

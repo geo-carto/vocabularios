@@ -15,8 +15,8 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
-    skos:definition "La propiedad unitComposition (SWE::Category) proporciona un término basado en una clasificación composicional que resume el carácter general de la unidad. No es aplicable al nivel de material rocoso o de muestra. Ejemplos: alcalina, subaluminosa, peraluminosa, tipo I, carbonatada, fosfatada."@es ;
-    skos:definition "The unitComposition property (SWE::Category) provides a term from a composition-based classification that requires summarising the overall character of the unit.  It is not applicable at the rock material or specimen level. Examples are: alkalic, subaluminous, peraluminous, I-Type, carbonate, phosphate"@en ;
+    dcterms:description "La propiedad unitComposition (SWE::Category) proporciona un término basado en una clasificación composicional que resume el carácter general de la unidad. No es aplicable al nivel de material rocoso o de muestra. Ejemplos: alcalina, subaluminosa, peraluminosa, tipo I, carbonatada, fosfatada."@es ;
+    dcterms:description "The unitComposition property (SWE::Category) provides a term from a composition-based classification that requires summarising the overall character of the unit.  It is not applicable at the rock material or specimen level. Examples are: alkalic, subaluminous, peraluminous, I-Type, carbonate, phosphate"@en ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/unidad-geologica-composicion."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcilloso> ,

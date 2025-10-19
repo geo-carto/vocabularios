@@ -15,8 +15,8 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
-    skos:definition "Descripción: Los pliegues se clasifican según la geometría cóncava/convexa del pliegue respecto a la superficie terrestre y la relación con la dirección de rejuvenecimiento en los estratos plegados, si se conoce."@es ;
-    skos:definition "Description: Folds are typed according to the concave/convex geometry of the fold relative to the earth surface, and the relationship to younging direction in folded strata if known."@en ;
+    dcterms:description "Descripción: Los pliegues se clasifican según la geometría cóncava/convexa del pliegue respecto a la superficie terrestre y la relación con la dirección de rejuvenecimiento en los estratos plegados, si se conoce."@es ;
+    dcterms:description "Description: Folds are typed according to the concave/convex geometry of the fold relative to the earth surface, and the relationship to younging direction in folded strata if known."@en ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/pliegue-tipo."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal> ,

@@ -15,8 +15,8 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
-    skos:definition "Términos que especifican unidades de tiempo geológicas reconocidas. Por ejemplo, la Carta Cronoestratigráfica de la Comisión Internacional de Estratigrafía - http://www.stratigraphy.org/index.php/ics-chart-timescale"@es ;
-    skos:definition "Terms specifying recognised geological time units. Eg, the International Commission on Stratigraphy Chronostratigraphic Chart - http://www.stratigraphy.org/index.php/ics-chart-timescale"@en ;
+    dcterms:description "Términos que especifican unidades de tiempo geológicas reconocidas. Por ejemplo, la Carta Cronoestratigráfica de la Comisión Internacional de Estratigrafía - http://www.stratigraphy.org/index.php/ics-chart-timescale"@es ;
+    dcterms:description "Terms specifying recognised geological time units. Eg, the International Commission on Stratigraphy Chronostratigraphic Chart - http://www.stratigraphy.org/index.php/ics-chart-timescale"@en ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/edad-geologica."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/edad-geologica/ageniense> ,

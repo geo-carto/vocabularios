@@ -15,8 +15,8 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
-    skos:definition "La propiedad alterationDegree (SWE::Category) contiene un término de un vocabulario controlado que indica la magnitud de la alteración observada."@es ;
-    skos:definition "The property alterationDegree (SWE::Category) contains a term from a controlled vocabulary to indicate the magnitude of observed alteration."@en ;
+    dcterms:description "La propiedad alterationDegree (SWE::Category) contiene un término de un vocabulario controlado que indica la magnitud de la alteración observada."@es ;
+    dcterms:description "The property alterationDegree (SWE::Category) contains a term from a controlled vocabulary to indicate the magnitude of observed alteration."@en ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/alteracion-grado."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/alteracion-grado/alterita-residual-vi> ,
