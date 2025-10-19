@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca basáltica en la que no aparece ningún mineral fundamental leucocrático, en cuyo lugar hay vidrio. químicamente, equivale a basalto, basanita o nefelinita olivínica"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-volcanica",
-    "prefLabel": {
-      "es": "roca volcánica",
-      "en": "volcanic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/basalt"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

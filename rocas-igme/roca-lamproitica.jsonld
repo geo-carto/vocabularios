@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca basáltica a basanítica de composición ultrapotásica. su mineralogía varía considerablemente, siendo frecuente la presencia de flogopita, olivino, diópsido, richterita, sanidina y leucita, los dos últimos sólo en la matriz, también puede contener minerales potásicos muy poco frecuentes como ti-k-richterita, priderita, wadeíta y gepita"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-ignea",
-    "prefLabel": {
-      "es": "roca ígnea",
-      "en": "igneous rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

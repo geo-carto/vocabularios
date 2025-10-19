@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca ígnea potásica máfica o ultramáfica, cuyo contenido en olivino frecuentemente serpentinizado en la kimberlita y flogopita es significativo. incluye la kimberlita, la lamproíta y el lamprófido"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-ignea",
-    "prefLabel": {
-      "es": "roca ígnea",
-      "en": "igneous rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

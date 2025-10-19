@@ -8,13 +8,6 @@
   "definition": {
     "es": "Andesita rica en mg caracterizada por la presencia de ortopiroxeno y plagioclasa en una matriz vítrea. se distingue de la boninita por tener un contenido en tio2 mayor del 0,5%"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-ignea",
-    "prefLabel": {
-      "es": "roca ígnea",
-      "en": "igneous rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/andesite"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

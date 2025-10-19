@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca detrítica en la que los elementos de diámetro inferior a 2 mm constituyen más del 95% del total y, de ellos, el contenido de granos de arena está comprendido entre el 50 y el 90% y la relación de elementos de tamaño limo a tamaño arcilla es superior a 2:1"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-clastico",
-    "prefLabel": {
-      "es": "material clástico",
-      "en": "clastic material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sandstone"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

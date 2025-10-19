@@ -8,13 +8,6 @@
   "definition": {
     "es": "Caliza caracterizada por una fina laminación de forma variable domo, convexa, columnar, esferoidal, etc., que se origina principalmente por la actividad metabólica de las algas cianofíceas, que atrapan material sedimentario"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-calcarea",
-    "prefLabel": {
-      "es": "roca calcárea",
-      "en": "calcareous rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

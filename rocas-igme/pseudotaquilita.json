@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca cataclástica de aspecto vítreo, grano extrafino y color negro, originada como consecuencia de la fusión parcial debida al calor generado por el rozamiento de las rocas al deslizarse a lo largo de una superficie de falla. su formación puede deberse también al impacto de un meteorito"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-de-falla",
-    "prefLabel": {
-      "es": "material de falla",
-      "en": "fault material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/cataclasite_series"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

@@ -8,13 +8,6 @@
   "definition": {
     "es": "Depósito originado por un flujo denso de material volcánico producido en una erupción volcánica y constituido esencialmente por fragmentos calientes de vidrio volcánico, pómez, fragmentos de rocas y gas, que se desplaza rasante sobre la ladera de un volcán y tiende a acumularse en las zonas más bajas del mismo"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/deposito-volcanoclastico",
-    "prefLabel": {
-      "es": "depósito volcanoclástico",
-      "en": "volcaniclastic deposit"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_material"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

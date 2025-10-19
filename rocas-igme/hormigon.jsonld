@@ -8,19 +8,17 @@
   "definition": {
     "es": "Material que resulta de la mezcla de agua, arena, grava y cemento o cal, y que, al fraguar, adquiere más resistencia"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-antropico-consolidado",
-    "prefLabel": {
-      "es": "material antrópico consolidado",
-      "en": "consolidated anthropic material"
-    }
-  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

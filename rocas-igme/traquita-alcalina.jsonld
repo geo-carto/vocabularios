@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca volcánica perteneciente al grupo de las rocas traquíticas de feldespato alcalino, que puede contener cuarzo, en proporción inferior al 5% de los minerales félsicos. su equivalente plutónico es la sienita de feldespato alcalino"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-volcanica",
-    "prefLabel": {
-      "es": "roca volcánica",
-      "en": "volcanic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_trachyte"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

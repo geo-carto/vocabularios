@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca cuyo contenido en materia orgánica es suficientemente alto como para tener efectos notables en la litología"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-sedimentario",
-    "prefLabel": {
-      "es": "material sedimentario",
-      "en": "sedimentary material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/organic_rich_sedimentary_rock"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

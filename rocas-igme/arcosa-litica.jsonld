@@ -8,13 +8,6 @@
   "definition": {
     "es": "Arcosa cuya relación entre feldespatos y fragmentos de otras rocas no supera 3:1"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-clastico",
-    "prefLabel": {
-      "es": "material clástico",
-      "en": "clastic material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/arenite"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

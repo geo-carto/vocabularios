@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca sedimentaria compuesta al menos por un 30% de fragmentos redondeados o subangulosos de diámetro superior a 2 mm. si la roca está mal seleccionada, con granulometría muy variada, también puede ser considerada una diamictita"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-sedimentario",
-    "prefLabel": {
-      "es": "material sedimentario",
-      "en": "sedimentary material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/generic_conglomerate"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

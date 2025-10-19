@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca sedimentaria compuesta en más de un 50% por sílice de origen biogénico o químico. se excluyen las rocas detríticas"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-sedimentario",
-    "prefLabel": {
-      "es": "material sedimentario",
-      "en": "sedimentary material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_rock"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

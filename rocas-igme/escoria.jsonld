@@ -8,19 +8,17 @@
   "definition": {
     "es": "Subproducto de la fundición y el procesado de metales"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-antropico-no-consolidado",
-    "prefLabel": {
-      "es": "material antrópico no consolidado",
-      "en": "unconsolidated anthropic material"
-    }
-  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

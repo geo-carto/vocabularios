@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca volcánica ultramáfica formada a partir de magmas de muy alta temperatura, con un contenido en sio2 del 30-52%, mayor del 18% en mgo y menor del 2% en na2o+k2o. presenta texturas spinifex formadas por cristales alargados y dendríticos de olivino, resultado de un enfriamiento muy rápido"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-ignea",
-    "prefLabel": {
-      "es": "roca ígnea",
-      "en": "igneous rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/komatiitic_rock"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

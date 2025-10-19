@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca volcánica ácida, subalcalina, leucocrática, de textura porfídica, compuesta por fenocristales de cuarzo y plagioclasa sódica englobados en una matriz vítrea o microcristalina. puede contener cantidades subordinadas de feldespato alcalino, biotita, hornblenda y piroxeno. sus equivalentes plutónicos son la granodiorita y la tonalita"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-volcanica",
-    "prefLabel": {
-      "es": "roca volcánica",
-      "en": "volcanic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/dacite"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

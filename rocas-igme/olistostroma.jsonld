@@ -8,13 +8,6 @@
   "definition": {
     "es": "Acumulación, más o menos caótica, de materiales de muy diversa granulometría, desde bloques a lutitas, consolidado o no, que se ha emplazado gravitatoriamente en una cuenca sedimentaria"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-sedimentario",
-    "prefLabel": {
-      "es": "material sedimentario",
-      "en": "sedimentary material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/hybrid_sedimentary_rock"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

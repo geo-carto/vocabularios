@@ -8,19 +8,17 @@
   "definition": {
     "es": "Sustancia bituminosa sólida de origen natural, compuesta de hidrocarburos, más dura que el asfalto y con punto de fusión entre 121 y 316ºc"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-rico-en-materia-organica",
-    "prefLabel": {
-      "es": "material rico en materia orgánica",
-      "en": "organic matter-rich material"
-    }
-  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

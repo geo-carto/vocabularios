@@ -8,13 +8,6 @@
   "definition": {
     "es": "Material fundido viscoso que es expulsado al exterior por un volcán, a elevada temperatura, en el curso de una erupción. al enfriarse da lugar a la formación de rocas efusivas o a escorias volcánicas"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-volcanica",
-    "prefLabel": {
-      "es": "roca volcánica",
-      "en": "volcanic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_material"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

@@ -8,13 +8,6 @@
   "definition": {
     "es": "Arena en la que entre el 75 y el 95% de los granos son de cuarzo y el contenido de feldespatos es mayor que el de fragmentos de otras rocas"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-clastico",
-    "prefLabel": {
-      "es": "material clástico",
-      "en": "clastic material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/sand"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

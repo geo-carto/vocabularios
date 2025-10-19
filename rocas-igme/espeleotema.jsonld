@@ -8,13 +8,6 @@
   "definition": {
     "es": "Precipitado químico, generalmente de carbonato o sulfato cálcicos, formado por la acción del agua en una cueva. los más conocidos son las estalactitas y las estalagmitas"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-sedimentario",
-    "prefLabel": {
-      "es": "material sedimentario",
-      "en": "sedimentary material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

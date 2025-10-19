@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca metamórfica en la que al menos el 10% de sus componentes minerales tienen una fábrica planar o linear. la naturaleza cataclástica o vítrea excluyen la clasificación bajo este concepto"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-metamorfica",
-    "prefLabel": {
-      "es": "roca metamórfica",
-      "en": "metamorphic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/foliated_metamorphic_rock"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca volcánica básica o intermedia, alcalina, variedad potásica de la traquiandesita basáltica. el término “shoshonítico” es utilizado para denominar series de rocas potásicas alcalinas"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-volcanica",
-    "prefLabel": {
-      "es": "roca volcánica",
-      "en": "volcanic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/latitic_rock"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

@@ -8,19 +8,17 @@
   "definition": {
     "es": "Subproducto, más o menos líquido en el momento de su vertido, procedente del tratamiento de las aguas residuales"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-antropico-no-consolidado",
-    "prefLabel": {
-      "es": "material antrópico no consolidado",
-      "en": "unconsolidated anthropic material"
-    }
-  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

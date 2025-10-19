@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca de textura clástica generada por la mezcla de una lava o magma con sedimentos no consolidados saturados en agua"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/deposito-volcanoclastico",
-    "prefLabel": {
-      "es": "depósito volcanoclástico",
-      "en": "volcaniclastic deposit"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_rock"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

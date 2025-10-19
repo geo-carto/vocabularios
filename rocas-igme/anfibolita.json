@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca metamórfica de color verde oscuro, compuesta principalmente por anfíbol y plagioclasa más del 75 % en conjunto y más del 30% de anfíbol y que puede contener, en cantidades más subordinadas, cuarzo, clinopiroxeno, granate, minerales del grupo de la epidota, biotita, titanita, rutilo, ilmenita y escapolita"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-metamorfica",
-    "prefLabel": {
-      "es": "roca metamórfica",
-      "en": "metamorphic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/amphibolite"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

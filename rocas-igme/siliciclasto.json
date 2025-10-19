@@ -8,13 +8,6 @@
   "definition": {
     "es": "Elemento clástico silíceo, de cuarzo o de otros silicatos, presente en una roca sedimentaria"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-clastico",
-    "prefLabel": {
-      "es": "material clástico",
-      "en": "clastic material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sediment"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

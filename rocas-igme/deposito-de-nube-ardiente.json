@@ -8,13 +8,6 @@
   "definition": {
     "es": "Colada piroclástica generada por el colapso de un domo o de una colada de lava"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/deposito-volcanoclastico",
-    "prefLabel": {
-      "es": "depósito volcanoclástico",
-      "en": "volcaniclastic deposit"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_material"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

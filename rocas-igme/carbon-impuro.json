@@ -8,13 +8,6 @@
   "definition": {
     "es": "Carbón duro y compacto, con un contenido de impurezas superior al 50%"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-rico-en-materia-organica",
-    "prefLabel": {
-      "es": "material rico en materia orgánica",
-      "en": "organic matter-rich material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/coal"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

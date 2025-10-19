@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca derivada de la cristalización, separación por gravedad y acumulación de cristales, a partir de un magma silicatado generalmente de composición máfica o intermedia"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-igneo",
-    "prefLabel": {
-      "es": "material ígneo",
-      "en": "igneous material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/phaneritic_igneous_rock"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

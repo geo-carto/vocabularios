@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca de falla sin foliación tectónica o con un desarrollo pobre de ella, constituida en más de un 30% por porfiroclastos, habitualmente angulosos, y fragmentos de roca, embebidos en una matriz de composición similar producida por deformación frágil con reducción del tamaño de grano cristalino y ligeramente recristalizada"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-de-falla",
-    "prefLabel": {
-      "es": "material de falla",
-      "en": "fault material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia_gouge_series"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

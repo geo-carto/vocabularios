@@ -8,13 +8,6 @@
   "definition": {
     "es": "Lamprófido calcoalcalino rico en anfíbol y feldespato potásico"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-subvolcanica",
-    "prefLabel": {
-      "es": "roca subvolcánica",
-      "en": "subvolcanic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

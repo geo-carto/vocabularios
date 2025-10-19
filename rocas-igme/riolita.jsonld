@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca volcánica leucocrática, perteneciente a la familia de las rocas riolíticas, de textura fluidal, compuesta principalmente por cristales de cuarzo y feldespato alcalino, que constituye entre el 35 y el 90% de los feldespatos, con cantidades menores de biotita y plagioclasa, en una matriz vítrea o microcristalina, puede contener anfíbol y, en las variedades hiperalcalinas, piroxeno alcalino. su equivalente plutónico es el granito"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-volcanica",
-    "prefLabel": {
-      "es": "roca volcánica",
-      "en": "volcanic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/rhyolite"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

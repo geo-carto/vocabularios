@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca komatiítica con un contenido de tio2 superior al 1%. si el contenido en tio2 es menor del 1% la roca se llama komatiíta"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-ignea",
-    "prefLabel": {
-      "es": "roca ígnea",
-      "en": "igneous rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_composition_igneous_rock"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

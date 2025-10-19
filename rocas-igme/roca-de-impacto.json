@@ -8,36 +8,6 @@
   "definition": {
     "es": "Cualquier material producido por el impacto de un cuerpo extraterrestre"
   },
-  "narrower": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/brecha-de-impacto",
-      "prefLabel": {
-        "es": "brecha de impacto",
-        "en": "impact breccia"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-de-fundido-de-impacto",
-      "prefLabel": {
-        "es": "roca de fundido de impacto",
-        "en": "impact melt rock"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/tectita",
-      "prefLabel": {
-        "es": "tectita",
-        "en": "tektite"
-      }
-    }
-  ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-metamorfica",
-    "prefLabel": {
-      "es": "roca metamórfica",
-      "en": "metamorphic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/impact_generated_material"
@@ -52,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

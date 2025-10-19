@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca formada por el mineral del mismo nombre, de fórmula mgso4.h2o, perteneciente a la clase de los sulfatos, que cristaliza en el sistema monoclínico y se presenta en agregados granudos. es incoloro, blanco, gris o amarillento y presenta aspecto mate o brillo vítreo"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/evaporita",
-    "prefLabel": {
-      "es": "evaporita",
-      "en": "evaporite"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

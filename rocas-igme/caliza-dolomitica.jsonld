@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca calcárea en la que la calcita y la dolomita constituyen, conjuntamente, más del 90%, con un contenido de dolomita superior al 10% del total"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-calcarea",
-    "prefLabel": {
-      "es": "roca calcárea",
-      "en": "calcareous rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/impure_limestone"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

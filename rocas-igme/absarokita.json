@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca basáltica compuesta por fenocristales de olivino y clinopiroxeno en una matriz de plagioclasa cálcica labradorita, feldespato alcalino sanidina, olivino y, ocasionalmente, leucita. es similar a la shoshonita, pero sin fenocristales de plagioclasa"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-volcanica",
-    "prefLabel": {
-      "es": "roca volcánica",
-      "en": "volcanic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/basalt"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca ultrabásica potásica rica en volátiles, con textura inequigranular y macrocristales de olivino, ilmenita rica en mg, granate, diópsido, flogopita, enstatita y cromita rica en ti, incluidos en una matriz de grano fino formada por olivino, monticellita, flogopita, perovskita, espinela y apatito. generalmente, contiene xenolitos del manto en los que se pueden encontrar diamantes. ascienden rápido a través del manto superior y la corteza y se emplazan explosivamente formando diatremas"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-ignea",
-    "prefLabel": {
-      "es": "roca ígnea",
-      "en": "igneous rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

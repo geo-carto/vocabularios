@@ -8,13 +8,6 @@
   "definition": {
     "es": "Esquisto rico en mica, derivado de un protolito pelítico"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/esquisto",
-    "prefLabel": {
-      "es": "esquisto",
-      "en": "schist"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/foliated_metamorphic_rock"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

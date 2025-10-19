@@ -8,13 +8,6 @@
   "definition": {
     "es": "Material de falla sin cohesión, de grano fino o muy fino y rico en arcillas, que puede poseer una foliación tectónica y que contiene menos del 30% de fragmentos visibles"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-de-falla",
-    "prefLabel": {
-      "es": "material de falla",
-      "en": "fault material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia_gouge_series"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

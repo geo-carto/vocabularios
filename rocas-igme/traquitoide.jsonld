@@ -8,13 +8,6 @@
   "definition": {
     "es": "Nombre utilizado en la descripción provisional de rocas volcánicas ácidas o intermedias, alcalinas, similares a la traquita, generalmente leucocráticas, compuestas principalmente por feldespatos, de los que el feldespato alcalino constituye al menos el 35%, en una matriz microcristalina o, más raramente, vítrea, también pueden incluir cantidades menores de biotita, anfíbol y piroxeno, además de cuarzo o feldespatoides en proporción inferior al 20 y al 10%, respectivamente, de los minerales félsicos. su equivalente plutónico es el sienitoide"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-volcanica",
-    "prefLabel": {
-      "es": "roca volcánica",
-      "en": "volcanic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/trachytoid"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

@@ -8,13 +8,6 @@
   "definition": {
     "es": "Sedimento pelítico en el que la relación de componentes de tamaño limo a arcilla es superior a 2:1"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-clastico",
-    "prefLabel": {
-      "es": "material clástico",
-      "en": "clastic material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/silt"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca metamórfica de grano muy fino que presenta una esquistosidad pizarrosa, formada a partir de lutitas bajo condiciones de grado metamórfico muy bajo"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-metamorfica",
-    "prefLabel": {
-      "es": "roca metamórfica",
-      "en": "metamorphic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/slate"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

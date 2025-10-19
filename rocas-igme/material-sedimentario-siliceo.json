@@ -8,127 +8,6 @@
   "definition": {
     "es": "Material sedimentario compuesto en más de un 50% por sílice de origen biogénico o químico. se excluyen las rocas detríticas"
   },
-  "narrower": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/agata",
-      "prefLabel": {
-        "es": "Ágata",
-        "en": "agate"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/calcedonia",
-      "prefLabel": {
-        "es": "calcedonia",
-        "en": "chalcedony"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/chert",
-      "prefLabel": {
-        "es": "chert",
-        "en": "chert"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/diatomita",
-      "prefLabel": {
-        "es": "diatomita",
-        "en": "diatomite"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/espiculita",
-      "prefLabel": {
-        "es": "espiculita",
-        "en": "spiculite"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/fango-de-diatomeas",
-      "prefLabel": {
-        "es": "fango de diatomeas",
-        "en": "diatomaceous ooze"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/fango-de-espiculas-de-esponjas",
-      "prefLabel": {
-        "es": "fango de espículas de esponjas",
-        "en": "sponge spicule ooze"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/fango-de-radiolarios",
-      "prefLabel": {
-        "es": "fango de radiolarios",
-        "en": "radiolarian ooze"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/ftanita",
-      "prefLabel": {
-        "es": "ftanita",
-        "en": "phtanite"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/geiserita",
-      "prefLabel": {
-        "es": "geiserita",
-        "en": "geyserite"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/jaspe",
-      "prefLabel": {
-        "es": "jaspe",
-        "en": "jasper"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/lidita",
-      "prefLabel": {
-        "es": "lidita",
-        "en": "lydite"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/novaculita",
-      "prefLabel": {
-        "es": "novaculita",
-        "en": "novaculite"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/opalo",
-      "prefLabel": {
-        "es": "ópalo",
-        "en": "opal"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/porcelanita",
-      "prefLabel": {
-        "es": "porcelanita",
-        "en": "porcelanite"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/rocas-igme/radiolarita",
-      "prefLabel": {
-        "es": "radiolarita",
-        "en": "radiolarite"
-      }
-    }
-  ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-sedimentario",
-    "prefLabel": {
-      "es": "material sedimentario",
-      "en": "sedimentary material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_material"
@@ -143,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

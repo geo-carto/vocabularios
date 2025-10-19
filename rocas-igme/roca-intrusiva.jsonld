@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca ígnea solidificada en el interior de la corteza terrestre, a partir de un magma silicatado. las rocas plutónicas son generalmente de grano medio-grueso, aunque pueden tener facies de grano fino relacionadas"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-igneo",
-    "prefLabel": {
-      "es": "material ígneo",
-      "en": "igneous material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/phaneritic_igneous_rock"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

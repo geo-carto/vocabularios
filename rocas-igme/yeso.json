@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca formada por el mineral del mismo nombre, de fórmula caso4.2h2o, perteneciente a la clase de los sulfatos, que cristaliza en el sistema monoclínico y se presenta con aspecto fibroso, en cristales de gran tamaño o en maclas, entre ellas las de punta de flecha. tiene dureza 2 en la escala de mohs, rayándose con la uña. es incoloro o presenta color blanco, gris, amarillo o rojo, tiene brillo vítreo o nacarado y varía de transparente a translúcido"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/evaporita",
-    "prefLabel": {
-      "es": "evaporita",
-      "en": "evaporite"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/rock_gypsum_or_anhydrite"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

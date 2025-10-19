@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca metamórfica de grano fino a medio, caracterizada por una apariencia lustrosa y una esquistosidad bien definida que resulta de la orientación preferente de filosilicatos. generalmente, las filitas son rocas de grado metamórfico bajo"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-metamorfica",
-    "prefLabel": {
-      "es": "roca metamórfica",
-      "en": "metamorphic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/phyllite"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

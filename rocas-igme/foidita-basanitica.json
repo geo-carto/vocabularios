@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca volcánica perteneciente a la familia de las rocas foídicas en la que los feldespatoides representan menos del 90% del total de los minerales félsicos, la plagioclasa es más abundante que el feldespato alcalino y el olivino supera el 10% normativo"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-volcanica",
-    "prefLabel": {
-      "es": "roca volcánica",
-      "en": "volcanic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/basanitic_foidite"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

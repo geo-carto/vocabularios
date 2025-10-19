@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca cuyo contenido en cuarzo y minerales de color claro feldespato y plagioclasa es superior al 50% en volumen"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/material-igneo",
-    "prefLabel": {
-      "es": "material ígneo",
-      "en": "igneous material"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

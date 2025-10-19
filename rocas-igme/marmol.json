@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca metamórfica formada en más del 50 % por carbonatos calcita, aragonito, dolomita, generalmente de textura granoblástica y estructura masiva, derivada de calizas y dolomías. el mármol puro contiene más del 95% de carbonatos. cuando es impuro 50-95% de carbonatos contiene otros minerales, que pueden ser muy variados anfíbol y clinopiroxeno cálcicos, epidota, grosularia, olivino, talco, clorita, micas, etc.."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-metamorfica",
-    "prefLabel": {
-      "es": "roca metamórfica",
-      "en": "metamorphic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/marble"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

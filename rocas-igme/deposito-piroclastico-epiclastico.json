@@ -8,13 +8,6 @@
   "definition": {
     "es": "Depósito de carácter mixto constituido tanto por fragmentos de origen piroclástico como de origen epiclástico, ambos en un porcentaje comprendido entre el 25 y el 75% del volumen del depósito"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/deposito-volcanoclastico",
-    "prefLabel": {
-      "es": "depósito volcanoclástico",
-      "en": "volcaniclastic deposit"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/tephra"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }

@@ -8,13 +8,6 @@
   "definition": {
     "es": "Roca formada por metasomatismo inducido por intrusiones magmáticas sobre calizas o dolomías y que está constituida por carbonatos, cuarzo y una gran variedad de silicatos cálcicos como wollastonita, diópsido, grosularia, epidota, etc"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/rocas-igme/roca-metasomatica",
-    "prefLabel": {
-      "es": "roca metasomática",
-      "en": "metasomatic rock"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/skarn"
@@ -29,6 +22,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"
     }
