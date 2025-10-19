@@ -18,7 +18,7 @@
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/superficies-de-estratificacion."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa> ,
-        <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> ;
+        <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte> ;
     skos:prefLabel "Superfices de estratificación"@es ;
     skos:prefLabel "Stratigraphic surfaces"@en .
 
@@ -27,7 +27,7 @@
     dcterms:provenance "este vocabulario" ;
     skos:definition "Todos los conceptos en este vocabulario." ;
     skos:member <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa> ,
-    <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> ;
+    <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte> ;
     skos:prefLabel "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion - Todos los conceptos"@es .
 
 
@@ -40,7 +40,7 @@
     skos:prefLabel "traza de capa"@es ,
         "bedding surface"@en .
 
-<https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte> a skos:Concept ;
     dcterms:provenance "this vocabulary"@en ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> ;
     skos:definition "Un límite estratigráfico, superficie o interfaz a través del cual se observa un cambio significativo y distintivo en el carácter bioestratigráfico. Puede corresponder a una superficie límite entre biozonas o reconocerse dentro de una biozona. Las características en las que se basan comúnmente los biohorizontes en una sección estratigráfica incluyen los horizontes de primera aparición y los de última presencia, las ocurrencias distintivas, los cambios en la frecuencia y abundancia o los cambios en el carácter de taxones individuales."@es ,
