@@ -15,6 +15,8 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:definition "La propiedad outcropCharacter (SWE::Category) proporciona un término que describe la naturaleza de los afloramientos formados por una unidad geológica. Ejemplos: con bloques, formadora de acantilado, formadora de repisa, formadora de ladera, pobremente expuesta."@es ;
+    skos:definition "The property outcropCharacter (SWE::Category) provides a term that describes the nature of outcrops formed by a geologic unit. Examples are: bouldery, cliff-forming, ledge-forming, slope-forming, poorly exposed."@en ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/afloramiento-caracter."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/afloramiento-caracter/sin-afloramiento> ,

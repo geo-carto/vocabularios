@@ -15,6 +15,7 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:definition "Vocabulario que recoge términos referidos a procesos asociados a eventos geológicos"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/evento-proceso."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/evento-proceso/impacto-de-bolido> ,

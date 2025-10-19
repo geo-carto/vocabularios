@@ -15,6 +15,8 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:definition "La propiedad rank:RankTerm contiene un término que clasifica la unidad geológica en una jerarquía de generalización, desde la más local/de menor volumen hasta la más regional/de mayor volumen."@es ;
+    skos:definition "The property rank:RankTerm contains a term that classifies the geologic unit in a generalization hierarchy from most local/smallest volume to most regional/largest."@en ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/rango-estratigrafico."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/rango-estratigrafico/complejo> ,

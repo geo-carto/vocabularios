@@ -15,6 +15,8 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:definition "La propiedad metamorphicFacies (SWE::Category) contiene un término de un vocabulario controlado que describe conjuntos minerales característicos indicativos de determinadas condiciones de presión y temperatura metamórficas. Ejemplos: zonas metasedimentarias barrovianas (por ejemplo, facies de biotita, facies de cianita) o asociaciones desarrolladas en rocas de composición más máfica (por ejemplo, facies de esquistos verdes, facies de anfibolita)."@es ;
+    skos:definition "The metamorphicFacies property (SWE::Category) contains a term from a controlled vocabulary that describes a characteristic mineral assemblages indicative of certain metamorphic pressure and temperature conditions. Examples include Barrovian metasedimentary zones (e.g., biotite facies, kyanite facies) or assemblages developed in rocks of more mafic composition (e.g., greenschist facies, amphibolite facies)."@en ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/metamorfismo-facies."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar> ,

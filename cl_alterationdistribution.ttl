@@ -15,6 +15,8 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:definition "La propiedad alterationDistribution (SWE::Category) describe la distribución espacial o la geometría de las zonas de alteración mediante un término de un vocabulario controlado (por ejemplo: irregular, moteada, bandeada, con vetas, brecha de vetas, generalizada, diseminada, etc.)."@es ;
+    skos:definition "The alterationDistribution (SWE::Category) property describes the spatial distribution or geometry of alteration zones using a term from a controlled vocabulary. e.g., patchy, spotted, banded, veins, vein breccia, pervasive, disseminated, etc."@en ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/alteracion-distribucion."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/alteracion-distribucion/bandeada> ,

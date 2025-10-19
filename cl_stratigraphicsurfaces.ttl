@@ -15,6 +15,7 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:definition "Vocabulario que recoge términos referidos a superficies de estratificación"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/superficies-de-estratificacion."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa> ,
@@ -34,7 +35,7 @@
 <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa> a skos:Concept ;
     dcterms:provenance "this vocabulary"@en ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> ;
-    skos:definition "Una superficie de estratificación resaltante que se puede dibujar dentro de una unidad de rocas sedimentarias estratificadas que representa una superficie original de deposición."@es ,
+    skos:definition "Una superficie de estratificación resaltante que se puede dibujar dentro de una unidad de rocas sedimentarias estratificadas, que representa una superficie original de deposición."@es ,
          "A conspicuous  stratification surface, which can be delineated within a sedimentary stratified rock unit, representing an original surface of deposition."@en ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> ;
     skos:prefLabel "traza de capa"@es ,

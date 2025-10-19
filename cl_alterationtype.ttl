@@ -15,6 +15,8 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:definition "La propiedad alterationType:AlterationTypeTerm contiene un término de un vocabulario controlado de tipos de alteración (por ejemplo, potásica, argílica, argílica avanzada)."@es ;
+    skos:definition "The property alterationType:AlterationTypeTerm contains a term from a controlled vocabulary of alteration types (e.g., potassic, argillic, advanced argillic)."@en ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/alteracion-tipo."@es ;
     skos:hasTopConcept 
         <https://geo-carto.github.io/vocabularios/alteracion-tipo/meteorizacion> ,

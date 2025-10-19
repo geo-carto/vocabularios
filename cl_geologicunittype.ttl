@@ -15,6 +15,8 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:definition "La propiedad geologicUnitType:GeologicUnitTypeTerm proporciona un término de un vocabulario controlado que define el tipo de unidad geológica. Las restricciones lógicas y las cardinalidades válidas de las propiedades deben incluirse en la definición. Se recomienda el uso del vocabulario CGI Geologic Unit Type (por ejemplo, http://resource.geosciml.org/classifierscheme/cgi/201211/geologicunittype)."@es ;
+    skos:definition "The property geologicUnitType:GeologicUnitTypeTerm provides a term from a controlled vocabulary defining the type of geologic unit. Logical constraints of definition of unit and valid property cardinalities should be contained in the definition. Use of the CGI Geologic Unit Type vocabulary (e.g., http://resource.geosciml.org/classifierscheme/cgi/201211/geologicunittype) is recommended."@en ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/unidad-geologica-tipo."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica> ;
     skos:prefLabel "Tipo de unidad geológica"@es ;

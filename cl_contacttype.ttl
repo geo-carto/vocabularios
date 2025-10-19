@@ -15,6 +15,8 @@
     dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:definition "La propiedad contactType:ContactTypeTerm clasifica el contacto (por ejemplo: intrusivo, discordancia, superficie de estratificación, límite litológico, límite de fase) y es un término de un vocabulario controlado."@es ;
+    skos:definition "The property contactType:ContactTypeTerm classifies the contact (e.g. intrusive, unconformity, bedding surface, lithologic boundary, phase boundary) and is a term from a controlled vocabulary."@en ;
     skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/contacto-tipo."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
     skos:prefLabel "Tipo de contacto"@es ;
