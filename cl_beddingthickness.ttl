@@ -1,0 +1,107 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dt: <http://resource.geosciml.org/datatype/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://geo-carto.github.io/vocabularios/estratificación-grosor> a skos:ConceptScheme ;
+    dcterms:created "2025-10-07"^^xsd:date ;
+    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:provenance "Términos propios definidos por el IGME" ;
+    dcterms:publisher <https://www.igme.es/> ;
+    dcterms:source "nan" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    dcterms:description "La propiedad beddingThickness (SWE::Category) proporciona un término de un vocabulario controlado que caracteriza el espesor de la estratificación en la unidad."@es ;
+    dcterms:description "The property beddingThickness (SWE::Category) provides a term from a controlled vocabulary characterizing the thickness of bedding in the unit."@en ;
+    skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/estratificación-grosor."@es ;
+    skos:hasTopConcept 
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/milimetrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/centimetrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/decimetrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/metrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/decametrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/hectometrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/irregular> ;
+    skos:prefLabel "Grosor de estratificación"@es ;
+    skos:prefLabel "Bedding thickness"@en .
+
+
+<https://geo-carto.github.io/vocabularios/estratificación-grosor/collection> a skos:Collection ;
+    dcterms:provenance "este vocabulario" ;
+    skos:definition "Todos los conceptos en este vocabulario." ;
+    skos:member <https://geo-carto.github.io/vocabularios/estratificacion-grosor/milimetrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/centimetrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/decimetrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/metrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/decametrica> ,
+        <https://geo-carto.github.io/vocabularios/estratificacion-grosor/hectometrica> ,
+    <https://geo-carto.github.io/vocabularios/estratificacion-grosor/irregular> ;
+    skos:prefLabel "https://geo-carto.github.io/vocabularios/estratificación-grosor - Todos los conceptos"@es .
+
+
+<https://geo-carto.github.io/vocabularios/estratificacion-grosor/milimetrica> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/estratificación-grosor> ;
+    skos:definition "Espesor medio  de las capas inferior a 1 cm"@es ,
+         "Mean strata thickness inferior to 1 cm"@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/estratificación-grosor> ;
+    skos:prefLabel "milimétrica"@es ,
+        "milimetric"@en .
+
+<https://geo-carto.github.io/vocabularios/estratificacion-grosor/centimetrica> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/estratificación-grosor> ;
+    skos:definition "Espesor medio de las capas comprendido entre 1 y 10 cm"@es ,
+         "Mean strata thickness comprised between 1 and 10 cm"@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/estratificación-grosor> ;
+    skos:prefLabel "centimétrica"@es ,
+        "centimetric"@en .
+
+<https://geo-carto.github.io/vocabularios/estratificacion-grosor/decimetrica> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/estratificación-grosor> ;
+    skos:definition "Espesor medio de los estratos comprendido entre 10 cm y 1 m"@es ,
+         "Mean strata thickness comprised between 10 cm and 1m"@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/estratificación-grosor> ;
+    skos:prefLabel "decimétrica"@es ,
+        "decimetric"@en .
+
+<https://geo-carto.github.io/vocabularios/estratificacion-grosor/metrica> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/estratificación-grosor> ;
+    skos:definition "Espesor medio de los estratos comprendido entre 1 y 10 m"@es ,
+         "Mean strata thickness comprised between 1 and 10 m"@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/estratificación-grosor> ;
+    skos:prefLabel "métrica"@es ,
+        "metric"@en .
+
+<https://geo-carto.github.io/vocabularios/estratificacion-grosor/decametrica> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/estratificación-grosor> ;
+    skos:definition "Espesor medio de los estratos comprendido entre 10 y 100 m"@es ,
+         "Mean strata thickness comprised between 10 and 100 m"@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/estratificación-grosor> ;
+    skos:prefLabel "decamétrica"@es ,
+        "decametric"@en .
+
+<https://geo-carto.github.io/vocabularios/estratificacion-grosor/hectometrica> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/estratificación-grosor> ;
+    skos:definition "Espesor medio de los estratos superior a 100 m"@es ,
+         "Mean strata thickness superior to 100 m"@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/estratificación-grosor> ;
+    skos:prefLabel "hectométrica"@es ,
+        "hectometric"@en .
+
+<https://geo-carto.github.io/vocabularios/estratificacion-grosor/irregular> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/estratificación-grosor> ;
+    skos:definition "Espesor de los estratos muy variable, sin que pueda establecerse un valor medio"@es ,
+         "Strata thickness very variable, a mean value cannot be estabished"@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/estratificación-grosor> ;
+    skos:prefLabel "irregular"@es ,
+        "irregular"@en .

@@ -1,0 +1,193 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dt: <http://resource.geosciml.org/datatype/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://geo-carto.github.io/vocabularios/rango-estratigrafico> a skos:ConceptScheme ;
+    dcterms:created "2025-10-07"^^xsd:date ;
+    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME" ;
+    dcterms:publisher <https://www.igme.es/> ;
+    dcterms:source "nan" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    dcterms:description "La propiedad rank:RankTerm contiene un término que clasifica la unidad geológica en una jerarquía de generalización, desde la más local/de menor volumen hasta la más regional/de mayor volumen."@es ;
+    dcterms:description "The property rank:RankTerm contains a term that classifies the geologic unit in a generalization hierarchy from most local/smallest volume to most regional/largest."@en ;
+    skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/rango-estratigrafico."@es ;
+    skos:hasTopConcept 
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/complejo> ,
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/megasecuencia> ,
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/supergrupo> ,
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/superzona> ,
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/no-especificado> ;
+    skos:prefLabel "Rango estratigráfico"@es ;
+    skos:prefLabel "Stratigraphic rank"@en .
+
+
+<https://geo-carto.github.io/vocabularios/rango-estratigrafico/collection> a skos:Collection ;
+    dcterms:provenance "este vocabulario" ;
+    skos:definition "Todos los conceptos en este vocabulario." ;
+    skos:member <https://geo-carto.github.io/vocabularios/rango-estratigrafico/complejo> ,
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/megasecuencia> ,
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/supersecuencia> ,
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/secuencia> ,
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/supergrupo> ,
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/grupo> ,
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/subgrupo> ,
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/formacion> ,
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/miembro> ,
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/capa> ,
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/superzona> ,
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/zona> ,
+        <https://geo-carto.github.io/vocabularios/rango-estratigrafico/litodema> ,
+    <https://geo-carto.github.io/vocabularios/rango-estratigrafico/no-especificado> ;
+    skos:prefLabel "https://geo-carto.github.io/vocabularios/rango-estratigrafico - Todos los conceptos"@es .
+
+
+<https://geo-carto.github.io/vocabularios/rango-estratigrafico/complejo> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:definition "Unidad litoestratigráfica compuesta por diversos tipos de una o varias clases de roca (sedimentaria; ígnea; metamórfica); caracterizada por una irregular mezcla de litologías o por relaciones estructurales muy complicadas hasta el punto de que la secuencia original de los compomentes de las rocas puede no distinguirse y las rocas o secuencia de rocas pueden no diferenciarse fácilmente."@es ,
+         "A lithostratigraphic unit composed of diverse types of any class or classes of rock (sedimentary; igneous; metamorphic); and characterized by irregularly mixed lithology or by hightly complicated structure relations to the extent that the original sequence of the component rocks may be obscured and the individual rocks or rock sequence cannot be readily mapped."@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:prefLabel "complejo"@es ,
+        "complex"@en .
+
+<https://geo-carto.github.io/vocabularios/rango-estratigrafico/megasecuencia> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:definition "Una sucesión de estratos que comprende dos o más supersecuencias. Unidad de estratigrafía secuencial a gran escala depositada durante una fase distinta en la evolución de la cuenca; separados por grandes discordancias que marcan un cambio en los procesos fundamentales de control de cuencas."@es ,
+         "A succession of strata comprising two or more supersequences. A large-scale sequence-stratigraphic unit deposited during one distinct phase of basin evolution; separated by major unconformities that mark a change in fundamental basin-controlling processes."@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/rango-estratigrafico/supersecuencia> ;
+    skos:prefLabel "megasecuencia"@es ,
+        "megasequence"@en .
+
+<https://geo-carto.github.io/vocabularios/rango-estratigrafico/supersecuencia> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/rango-estratigrafico/megasecuencia> ;
+    skos:definition "Una sucesión de estratos que comprende dos o más secuencias."@es ,
+         "A succession of strata comprising two or more sequences."@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/rango-estratigrafico/secuencia> ;
+    skos:prefLabel "supersecuencia"@es ,
+        "supersequence"@en .
+
+<https://geo-carto.github.io/vocabularios/rango-estratigrafico/secuencia> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/rango-estratigrafico/supersecuencia> ;
+    skos:definition "Una sucesión de estratos relacionados genéticamente delimitados por inconformidades o sus contactos concordantes correlativos; y normalmente tiene un espesor de 10 a 100 metros."@es ,
+         "A genetically related succession of strata bounded by unconformites or their correlative conformable contacts; and typically having a thickness of 10-100 metres."@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:prefLabel "secuencia"@es ,
+        "sequence"@en .
+
+<https://geo-carto.github.io/vocabularios/rango-estratigrafico/supergrupo> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:definition "Relación formal de grupos relacionados o superpuestos, o de grupos y formaciones."@es ,
+         "A supergroup is a formal assemblage of related or superposed groups or of groups and formations."@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/rango-estratigrafico/grupo> ;
+    skos:prefLabel "supergrupo"@es ,
+        "supergroup"@en .
+
+<https://geo-carto.github.io/vocabularios/rango-estratigrafico/grupo> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/rango-estratigrafico/supergrupo> ;
+    skos:definition "Unidad litoestratigráfica que le sigue en rango superior al subgrupo o formación. Un grupo puede consistir en dos o más subgrupos o dos o más formaciones o una combinación de ambos."@es ,
+         "A group is the lithostratigraphic unit next higher in rank to either subgroup or formation. A groups may consist of two or more subgroups or two or more formations or a combination of both."@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/rango-estratigrafico/subgrupo> ;
+    skos:prefLabel "grupo"@es ,
+        "group"@en .
+
+<https://geo-carto.github.io/vocabularios/rango-estratigrafico/subgrupo> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/rango-estratigrafico/grupo> ;
+    skos:definition "Unidad litoestratigráfica siguiente en rango a la formación. Un subgrupo generalmente consta de varias formaciones."@es ,
+         "A subgroup is the lithostratigraphic unit next higher in rank to formation. A subgroup usually consists of several formations."@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/rango-estratigrafico/formacion> ;
+    skos:prefLabel "subgrupo"@es ,
+        "subgroup"@en .
+
+<https://geo-carto.github.io/vocabularios/rango-estratigrafico/formacion> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/rango-estratigrafico/subgrupo> ;
+    skos:definition "Cuerpo de roca identificado por características líticas y posición estratigráfica; por lo general, pero no necesariamente, es tabular y se puede mapear en la superficie de la Tierra o rastrear en el subsuelo."@es ,
+         "A body of rock identified by lithic characteristics and stratigraphic position; it is usually but not necessarily tabular and is mappable at the Earth's surface or traceable in the subsurface."@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/rango-estratigrafico/miembro> ;
+    skos:prefLabel "formación"@es ,
+        "formation"@en .
+
+<https://geo-carto.github.io/vocabularios/rango-estratigrafico/miembro> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/rango-estratigrafico/formacion> ;
+    skos:definition "Unidad litoestratigráfica formal siguiente en rango debajo de una formación; y siempre parte de una formación. Es una entidad con nombre dentro de una formación porque posee características que la distinguen de las partes adyacentes de la formación."@es ,
+         "A formal lithostratigraphic unit next in rank below a formation; and always part of a formation. It is a named entity within a formation because it possesses characteristics distinguishing it from adjacent parts of the formation."@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/rango-estratigrafico/capa> ;
+    skos:prefLabel "miembro"@es ,
+        "member"@en .
+
+<https://geo-carto.github.io/vocabularios/rango-estratigrafico/capa> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/rango-estratigrafico/miembro> ;
+    skos:definition "Unidad litoestratigráfica formal más pequeña; generalmente una entidad lítica distintiva que se puede distinguir de las rocas adyacentes por una o más características físicas."@es ,
+         "The smallest formal lithostratigraphic unit; usually a distinctive lithic entity which can be distinguished from adjacent rocks by one or more physical characteristics."@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:prefLabel "capa"@es ,
+        "bed"@en .
+
+<https://geo-carto.github.io/vocabularios/rango-estratigrafico/superzona> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:definition "Una unidad litodémica formal que sigue en rango superior a la zona. Comprende dos o más zonas que tienen un grado de relación natural entre sí."@es ,
+         "A formal lithodemic unit next higher in rank to suite. It comprises two or more suites having a degree of natural relationship to one another"@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/rango-estratigrafico/zona> ;
+    skos:prefLabel "superzona"@es ,
+        "supersuite"@en .
+
+<https://geo-carto.github.io/vocabularios/rango-estratigrafico/zona> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/rango-estratigrafico/superzona> ;
+    skos:definition "Una unidad litodémica formal siguiente en rango a la litodémica. Comprende dos o más litodemas asociados de la misma clase (por ejemplo, plutónico; metamórfico)."@es ,
+         "A formal lithodemic unit next higher in rank to lithodeme. It comprises two or more associated lithodemes of the same class (e.g.; plutonic; metamorphic)."@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/rango-estratigrafico/litodema> ;
+    skos:prefLabel "zona"@es ,
+        "suite"@en .
+
+<https://geo-carto.github.io/vocabularios/rango-estratigrafico/litodema> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/rango-estratigrafico/zona> ;
+    skos:definition "Un cuerpo de roca predominantemente intrusiva altamente deformada y/o altamente metamorfizada; distinguidos y delimitados en base a las características de la roca."@es ,
+         "A body of predominantly intrusivehighly deformed and/or highly metamorphosed rock; distinguished and delimited on the basis of rock characteristics."@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:prefLabel "litodema"@es ,
+        "lithodeme"@en .
+
+<https://geo-carto.github.io/vocabularios/rango-estratigrafico/no-especificado> a skos:Concept ;
+    dcterms:provenance "this vocabulary"@en ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:definition "La unidad no es parte de una jerarquía estratigráfica definida."@es ,
+         "unit is not part of a defined stratigraphic hierarchy."@en ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/rango-estratigrafico> ;
+    skos:prefLabel "no especificado"@es ,
+        "not specified"@en .
