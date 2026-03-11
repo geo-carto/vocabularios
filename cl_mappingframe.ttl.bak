@@ -25,7 +25,7 @@
 
 <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/collection> a skos:Collection ;
     dcterms:provenance "este vocabulario" ;
-    skos:prefLabel "Marco de cartografiado - Todos los conceptos"@es ;
+    rdfs:label "Marco de cartografiado - Todos los conceptos"@es ;
     skos:member
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/base-del-cuaternario> ,
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/geologia-superficial> ,
