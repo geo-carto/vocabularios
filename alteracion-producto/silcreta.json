@@ -9,17 +9,19 @@
     "es": "Acumulación predominantemente silícea, bien diferenciada, más o menos endurecida, que aparece en alteritas, depósitos superficiales o suelos.",
     "en": "Accumulation of mainly siliceous composition, well differentiated, indurated or not, in alterites, superficial deposits or soils."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta",
+    "prefLabel": {
+      "es": "duricreta",
+      "en": "duricrust"
+    }
+  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
     }

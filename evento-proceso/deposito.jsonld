@@ -11,6 +11,20 @@
   },
   "narrower": [
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/acumulacion-organica",
+      "prefLabel": {
+        "es": "acumulación orgánica",
+        "en": "organic accumulation"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito-mecanico",
+      "prefLabel": {
+        "es": "depósito mecánico",
+        "en": "mechanical deposition"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/precipitacion-biologica",
       "prefLabel": {
         "es": "precipitación biológica",
@@ -23,27 +37,6 @@
         "es": "precipitación química",
         "en": "chemical precipitation"
       }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/crecimiento-organismico-in-situ",
-      "prefLabel": {
-        "es": "crecimiento organísmico in-situ",
-        "en": "in-situ organismic growth"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito-mecanico",
-      "prefLabel": {
-        "es": "depósito mecánico",
-        "en": "mechanical deposition"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/acumulacion-organica",
-      "prefLabel": {
-        "es": "acumulación orgánica",
-        "en": "organic accumulation"
-      }
     }
   ],
   "broader": {
@@ -55,10 +48,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/deposition"
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/deposition"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/deposition"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/deposition"
     }
   ],
   "inScheme": [

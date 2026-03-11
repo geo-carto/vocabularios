@@ -9,17 +9,24 @@
     "es": "Cuerpo de roca en forma de lente, de extensión lateral inferior a 100 m, generalmente plano en la parte inferior, y cubierto por un onlap en sus flancos.",
     "en": "Lense like body of rock, lateral extent less than 100m, generally flat at bottom, with stratigraphic pinch out of beds (onlap) along upper sides"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-geologico",
+    "prefLabel": {
+      "es": "cuerpo geológico",
+      "en": "geologic body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/mound"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

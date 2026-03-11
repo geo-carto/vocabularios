@@ -3,11 +3,23 @@
   "type": "Concept",
   "prefLabel": {
     "es": "arcilla de descalcificación - terra rossa",
-    "en": "decarbonated clay - terra rossa"
+    "en": "decarbonated clay"
+  },
+  "altLabel": {
+    "es": [
+      "terra rossa"
+    ]
   },
   "definition": {
     "es": "Alterita originada por procesos químicos de disolución de rocas carbonatadas, en climas con estación seca bien definida, generando residuos rubefactados, compuestos por minerales de arcillas, óxidos de hierro y, a veces, sílice.",
     "en": "Alterite caused by chemical processes of dissolution of carbonate rocks in a well-defined dry season climate and characterized by rubefacted products, containing clay minerals, iron oxides and, sometimes, silica."
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion",
+    "prefLabel": {
+      "es": "arcilla de descalcificación",
+      "en": "decarbonated clay"
+    }
   },
   "inScheme": [
     {
@@ -15,11 +27,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
     }

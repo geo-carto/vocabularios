@@ -2,30 +2,9 @@
   "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/collection",
   "type": "Collection",
   "prefLabel": {
-    "es": "https://geo-carto.github.io/vocabularios/metamorfismo-grado - Todos los conceptos"
+    "es": "Grado de metamorfismo - Todos los conceptos"
   },
   "member": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-no-especificado",
-      "prefLabel": {
-        "es": "grado metamórfico no especificado",
-        "en": "metamorphic grade not specified"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-desconocido",
-      "prefLabel": {
-        "es": "grado metamórfico desconocido",
-        "en": "metamorphic grade unknown"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado",
-      "prefLabel": {
-        "es": "grado metamórfizado no especificado",
-        "en": "metamorphosed grade not specified"
-      }
-    },
     {
       "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-alto",
       "prefLabel": {
@@ -38,6 +17,13 @@
       "prefLabel": {
         "es": "grado metamórfico bajo",
         "en": "low metamorphic grade"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-desconocido",
+      "prefLabel": {
+        "es": "grado metamórfico desconocido",
+        "en": "metamorphic grade unknown"
       }
     },
     {
@@ -59,6 +45,20 @@
       "prefLabel": {
         "es": "grado metamórfico muy bajo",
         "en": "very low metamorphic grade"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-no-especificado",
+      "prefLabel": {
+        "es": "grado metamórfico no especificado",
+        "en": "metamorphic grade not specified"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado",
+      "prefLabel": {
+        "es": "grado metamórfizado no especificado",
+        "en": "metamorphosed grade not specified"
       }
     },
     {

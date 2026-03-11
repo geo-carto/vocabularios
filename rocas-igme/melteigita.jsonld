@@ -6,14 +6,15 @@
     "en": "melteigite"
   },
   "definition": {
-    "es": "Roca plutónica de la familia de las foidolitas, más melanocrática que la ijolita, compuesta por un 70-90% de augita egirínica o egirina y el resto, nefelina"
+    "es": "Roca plutónica de la familia de las foidolitas, más melanocrática que la ijolita, compuesta por un 70-90% de augita egirínica o egirina y el resto, nefelina",
+    "en": "Plutonic rock of the foidolite family, more melanocratic than ijolite, composed of 70-90% aegirine-augite or aegirine and the rest nepheline"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foidolite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidolite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foidolite"
     }
   ],
   "inScheme": [

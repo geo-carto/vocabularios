@@ -3,14 +3,29 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Ilerdiense",
-    "en": "Ilerdian"
+    "en": "Ilerdian",
+    "vl": "Ilerdià"
   },
-  "exactMatch": [
+  "notation": [
+    "a1.1.1.3.2.4",
+    "213010203091"
+  ],
+  "related": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Thanetian-Ypresian"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ypresiense",
+      "prefLabel": {
+        "es": "Ypresiense",
+        "en": "Ypresian",
+        "vl": "Ypresià"
+      }
+    }
+  ],
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ypresian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/thanetian-ypresian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Ypresian"
     }
   ],
   "inScheme": [

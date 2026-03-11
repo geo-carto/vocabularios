@@ -3,41 +3,53 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Jurásico",
-    "en": "Jurassic"
+    "en": "Jurassic",
+    "vl": "Juràssic"
   },
-  "definition": {
-    "es": "Límite inferior -201.3 +|-0.2 ma, límite superior -145.0 ma",
-    "en": "Older bound -201.3 +|-0.2 ma, younger bound -145.0 ma"
-  },
+  "notation": [
+    "212020000000",
+    "a1.1.2.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-inferior",
       "prefLabel": {
         "es": "Jurásico Inferior",
-        "en": "Lower Jurassic"
+        "en": "Lower Jurassic",
+        "vl": "Juràssic Inferior"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-medio",
       "prefLabel": {
         "es": "Jurásico Medio",
-        "en": "Middle Jurassic"
+        "en": "Middle Jurassic",
+        "vl": "Juràssic Mitjà"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-superior",
       "prefLabel": {
         "es": "Jurásico Superior",
-        "en": "Upper Jurassic"
+        "en": "Upper Jurassic",
+        "vl": "Juràssic Superior"
       }
     }
   ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesozoico",
+    "prefLabel": {
+      "es": "Mesozoico",
+      "en": "Mesozoic",
+      "vl": "Mesozoic"
+    }
+  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Jurassic"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/jurassic"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/jurassic"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Jurassic"
     }
   ],
   "inScheme": [
@@ -46,11 +58,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }

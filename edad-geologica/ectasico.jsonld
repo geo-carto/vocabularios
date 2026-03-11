@@ -5,16 +5,24 @@
     "es": "Ectásico",
     "en": "Ectasian"
   },
-  "definition": {
-    "es": "Límite inferior -1400 ma, límite superior -1200 ma",
-    "en": "Older bound -1400 ma, younger bound -1200 ma"
+  "notation": [
+    "132020000000",
+    "a2.1.2.2"
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesoproterozoico",
+    "prefLabel": {
+      "es": "Mesoproterozoico",
+      "en": "Mesoproterozoic",
+      "vl": "Mesoproterozoic"
+    }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Ectasian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ectasian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ectasian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Ectasian"
     }
   ],
   "inScheme": [
@@ -23,11 +31,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }

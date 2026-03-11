@@ -6,14 +6,15 @@
     "en": "fenite"
   },
   "definition": {
-    "es": "Roca metasomática, generalmente formada en torno a intrusiones de carbonatitas, ijolitas o, más raramente, sienitas nefelínicas, compuesta por feldespatos alcalinos, piroxenos y anfíboles sódicos y, ocasionalmente, feldespatoides y carbonatos"
+    "es": "Roca metasomática, generalmente formada en torno a intrusiones de carbonatitas, ijolitas o, más raramente, sienitas nefelínicas, compuesta por feldespatos alcalinos, piroxenos y anfíboles sódicos y, ocasionalmente, feldespatoides y carbonatos",
+    "en": "Metasomatic rock, generally formed around intrusions of carbonatites, ijolites or, more rarely, nepheline syenites, composed of alkali feldspars, sodic pyroxenes and amphiboles and, occasionally, feldspathoids and carbonates"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metasomatic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/metasomaticRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metasomatic_rock"
     }
   ],
   "inScheme": [

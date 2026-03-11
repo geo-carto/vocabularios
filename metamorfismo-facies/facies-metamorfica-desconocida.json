@@ -9,6 +9,11 @@
     "es": "Para usar en descripciones de instancias para indicar que no hay datos disponibles para constreñir la facies metamórfica. Puede ser metamorfizada o no-metamorfizada.",
     "en": "For use in instance descriptions to indicate that no data are available to constrain metamorphic facies. May be metamorphosed or non-metamorphosed."
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/metamorphic_facies_unknown"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"

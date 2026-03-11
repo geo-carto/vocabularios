@@ -9,17 +9,24 @@
     "es": "Vena con una longitud y un ancho significativamente mayores que su espesor, que le dan una forma tabular",
     "en": "Vein with length and width significantly greater than its thickness, giving the vein a tabular form"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/vena",
+    "prefLabel": {
+      "es": "vena",
+      "en": "vein-shape"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/planar_vein"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

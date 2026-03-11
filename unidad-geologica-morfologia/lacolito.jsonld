@@ -9,17 +9,24 @@
     "es": "Cuerpo ígneo tabular o lenticular cuyas dimensiones largas son paralelas a las capas de la roca encajante y que presenta un techo convexo y un muro plano conocido o supuesto",
     "en": "A tabular or lenticular igneous body whose long dimensions parallel layering in the host rock, and which as a convex-up roof and a known or assumed flat floor"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-geologico",
+    "prefLabel": {
+      "es": "cuerpo geológico",
+      "en": "geologic body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/laccolith"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

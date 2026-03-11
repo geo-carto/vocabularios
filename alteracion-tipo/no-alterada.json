@@ -9,6 +9,11 @@
     "es": "La roca no está alterada",
     "en": "Rock es not altered"
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/alterationtype/not_altered"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo"

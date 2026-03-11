@@ -6,14 +6,15 @@
     "en": "eolianite"
   },
   "definition": {
-    "es": "Arenisca formada por la consolidación de un sedimento arenoso acumulado por el viento"
+    "es": "Arenisca formada por la consolidación de un sedimento arenoso acumulado por el viento",
+    "en": "Sandstone formed by the consolidation of sandy sediment accumulated by wind"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sandstone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sandstone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sandstone"
     }
   ],
   "inScheme": [

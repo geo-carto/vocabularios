@@ -2,7 +2,7 @@
   "id": "https://geo-carto.github.io/vocabularios/alteracion-grado/collection",
   "type": "Collection",
   "prefLabel": {
-    "es": "https://geo-carto.github.io/vocabularios/alteracion-grado - Todos los conceptos"
+    "es": "Grado de alteración - Todos los conceptos"
   },
   "member": [
     {
@@ -13,24 +13,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-grado/muy-alto-v",
-      "prefLabel": {
-        "es": "muy alto (V)",
-        "en": "very high (V)"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-grado/alto-iv",
       "prefLabel": {
         "es": "alto (IV)",
         "en": "high (IV)"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-grado/moderado-iii",
-      "prefLabel": {
-        "es": "moderado (III)",
-        "en": "moderate (III)"
       }
     },
     {
@@ -45,6 +31,20 @@
       "prefLabel": {
         "es": "material fresco (I)",
         "en": "fresh material (I)"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-grado/moderado-iii",
+      "prefLabel": {
+        "es": "moderado (III)",
+        "en": "moderate (III)"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-grado/muy-alto-v",
+      "prefLabel": {
+        "es": "muy alto (V)",
+        "en": "very high (V)"
       }
     }
   ],

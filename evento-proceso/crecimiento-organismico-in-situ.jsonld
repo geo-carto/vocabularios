@@ -9,19 +9,22 @@
     "es": "Acumulación de materia orgánica muerta originada por las plantas, e. g. acumulación de turba en pantanos",
     "en": "Accumulation of dead organicmaterial originating from the plants, e.g. peat accumulation in bogs"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito",
-    "prefLabel": {
-      "es": "depósito",
-      "en": "deposition"
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/in-situOrganismicGrowth"
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

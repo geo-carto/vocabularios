@@ -5,12 +5,53 @@
     "es": "Rhenaniense",
     "en": "Rhenanian"
   },
-  "exactMatch": [
+  "notation": [
+    "213020109400"
+  ],
+  "related": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Lutetian/Priabonian"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/bartoniense",
+      "prefLabel": {
+        "es": "Bartoniense",
+        "en": "Bartonian",
+        "vl": "Bartonià"
+      }
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lutetian/priabonian"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/luteciense",
+      "prefLabel": {
+        "es": "Luteciense",
+        "en": "Lutetian",
+        "vl": "Lutecià"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/priaboniense",
+      "prefLabel": {
+        "es": "Priaboniense",
+        "en": "Priabonian",
+        "vl": "Priabonià"
+      }
+    }
+  ],
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bartonian"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lutetian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Bartonian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Lutetian"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/priabonian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Priabonian"
     }
   ],
   "inScheme": [

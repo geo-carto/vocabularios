@@ -9,17 +9,35 @@
     "es": "Alterita originada por procesos de meteorización química en climas tropicales o subtropicales, y enriquecida en óxidos e hidróxidos de hierro y/o aluminio, frecuentemente con cuarzo y caolinita.",
     "en": "Alterite caused by intense weathering in tropical to subtropical climate and enriched in oxides and hydroxides of iron, aluminum, or both, commonly with quartz and kaolinite."
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-aluminica",
+      "prefLabel": {
+        "es": "laterita alumínica",
+        "en": "aluminum-rich laterite"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-ferrica",
+      "prefLabel": {
+        "es": "laterita férrica",
+        "en": "iron-rich laterite"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita",
+    "prefLabel": {
+      "es": "alterita",
+      "en": "alterite"
+    }
+  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
     }

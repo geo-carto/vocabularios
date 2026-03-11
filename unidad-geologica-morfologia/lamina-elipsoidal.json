@@ -9,17 +9,24 @@
     "es": "Elipsoide con un eje mucho más pequeño que los otros dos. H es del orden de 0,001 de L o W",
     "en": "Ellipsoid with one axis much smaller than others H on order of .001 of L or W"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide",
+    "prefLabel": {
+      "es": "elipsoide",
+      "en": "ellipsoid"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/sheet_ellipsoid"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

@@ -9,6 +9,27 @@
     "es": "Contiene más del 5 por ciento de carbono reducido en compuestos que suelen ser productos diagenéticos de organismos muertos (por ejemplo, carbón, betún y petróleo). El valor del 5 por ciento se elige por coherencia con el uso del término carbonoso propuesto por el comité SLTT",
     "en": "Containing greater than 5 percent reduced carbon in compounds that are typically the diagenetic products of dead organisms (e.g. coal, bitumen and petroleum). 5 percent value is chosen for consistency with SLTTs usage of term carbonaceous"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-hierro",
+      "prefLabel": {
+        "es": "carbonato con hierro",
+        "en": "iron bearing carbonate chemistry"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-magnesico",
+      "prefLabel": {
+        "es": "carbonato magnésico",
+        "en": "magnesium rich carbonate chemistry"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonaceous_chemistry"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"

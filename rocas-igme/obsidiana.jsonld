@@ -6,14 +6,15 @@
     "en": "obsidian"
   },
   "definition": {
-    "es": "Vidrio volcánico de color negro brillante, frágil y con fractura concoidea. se origina por el enfriamiento rápido de lavas ácidas"
+    "es": "Vidrio volcánico de color negro brillante, frágil y con fractura concoidea. se origina por el enfriamiento rápido de lavas ácidas",
+    "en": "Volcanic glass of bright black colour, brittle and with conchoidal fracture. It originates from the rapid cooling of acid lavas"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/glassy_igneous_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/glassyIgneousRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/glassy_igneous_rock"
     }
   ],
   "inScheme": [

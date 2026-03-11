@@ -9,12 +9,19 @@
     "es": "Proceso de desaparición de una especie o de un taxón superior, que tiene como consecuencia su inexistencia en el registro fósil posterior.",
     "en": "Process of disappearance of a species or higher taxon, so that it no longer exists anywhere or in the subsequent fossil record."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
+    "prefLabel": {
+      "es": "proceso geológico",
+      "en": "geologic process"
+    }
+  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/extinction"
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/extinction"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/extinction"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/extinction"
     }
   ],
   "inScheme": [
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

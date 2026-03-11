@@ -3,25 +3,37 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Zancliense",
-    "en": "Zanclean"
+    "en": "Zanclean",
+    "vl": "Zanclià"
   },
-  "definition": {
-    "es": "Límite inferior -5.333 ma, límite superior -3.6 ma",
-    "en": "Older bound -5.333 ma, younger bound -3.6 ma"
-  },
+  "notation": [
+    "213020211000",
+    "a1.1.1.2.1.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/plioceno-inferior",
     "prefLabel": {
       "es": "Plioceno Inferior",
-      "en": "Lower Pliocene"
+      "en": "Lower Pliocene",
+      "vl": "Pliocè Inferior"
     }
   },
+  "related": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/rusciniense",
+      "prefLabel": {
+        "es": "Rusciniense",
+        "en": "Ruscinian",
+        "vl": "Ruscinià"
+      }
+    }
+  ],
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Zanclean"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/zanclean"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/zanclean"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Zanclean"
     }
   ],
   "inScheme": [

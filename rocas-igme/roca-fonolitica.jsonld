@@ -5,15 +5,21 @@
     "es": "roca fonolítica",
     "en": "phonolitic rock"
   },
+  "altLabel": {
+    "es": [
+      "fonolitoide"
+    ]
+  },
   "definition": {
-    "es": "Nombre utilizado en la descripción provisional de rocas volcánicas básicas o intermedias, fuertemente alcalinas, compuestas esencialmente por feldespatos, de los que el feldespato alcalino constituye más del 50%, y feldespatoides, que constituyen entre el 10% y el 60% de los minerales félsicos, contienen cantidades menores de minerales ferromagnesianos, como piroxeno y, en ocasiones, anfíbol"
+    "es": "Nombre utilizado en la descripción provisional de rocas volcánicas básicas o intermedias, fuertemente alcalinas, compuestas esencialmente por feldespatos, de los que el feldespato alcalino constituye más del 50%, y feldespatoides, que constituyen entre el 10% y el 60% de los minerales félsicos, contienen cantidades menores de minerales ferromagnesianos, como piroxeno y, en ocasiones, anfíbol",
+    "en": "Name used in the provisional description of basic or intermediate, strongly alkaline volcanic rocks, composed essentially of feldspars, of which alkali feldspar constitutes more than 50%, and feldspathoids, constituting between 10% and 60% of the felsic minerals, containing lesser amounts of ferromagnesian minerals, such as pyroxene and, occasionally, amphibole"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/phonolitoid"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/phonolitoid"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/phonolitoid"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/phonolitoid"
     }
   ],
   "inScheme": [

@@ -9,6 +9,18 @@
     "es": "Efectos metamórficos claramente visibles, estructuras del protolito típicamente todavía observables, incluye rocas metamorfizadas en facies de esquistos verdes de alta temperatura, esquistos azules, eclogitas de muy baja temperatura. Asociaciones minerales según Fry (1984) Tabla 10-1: Material ultramáfico: serpentina (talco, magnesita), material ígneo básico, porción máfica: clorita, actinolita (granate), porción calco-alumínica: albita, epidota; Material pelita y semi-pelita: mica blanca, clorita, cuarzo, biotita (granate, minerales alumínicos).",
     "en": "Metamorphic effects clearly visible, protolith structures typically still observable, includes rocks metamorphosed in greenschisthigh-temperature blueschist, very low temperature eclogite facies. Mineral assemblages according to Fry (1984) Table 10-1: ultramafic-serpentine (talc, magnesite), mafic-chlorite, actinolite (garnet), calc-aluminous basic-albite, epidote, pelite, semi-pelite -- white mica, chlorite, quartz, biotite (garnet, Al-minerals)."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado",
+    "prefLabel": {
+      "es": "grado metamórfizado no especificado",
+      "en": "metamorphosed grade not specified"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/low_metamorphic_grade"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado"

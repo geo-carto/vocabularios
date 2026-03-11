@@ -6,14 +6,15 @@
     "en": "dacitic rock"
   },
   "definition": {
-    "es": "Roca volcánica ácida, subalcalina o alcalina, cuyos componentes principales son el cuarzo, que constituye entre el 20 y el 60% de los minerales félsicos, y la plagioclasa, que constituye más del 65% de los feldespatos"
+    "es": "Roca volcánica ácida, subalcalina o alcalina, cuyos componentes principales son el cuarzo, que constituye entre el 20 y el 60% de los minerales félsicos, y la plagioclasa, que constituye más del 65% de los feldespatos",
+    "en": "Acid, subalkaline or alkaline volcanic rock whose principal components are quartz, constituting between 20 and 60% of the felsic minerals, and plagioclase, constituting more than 65% of the feldspars"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/dacite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/dacite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/dacite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/dacite"
     }
   ],
   "inScheme": [

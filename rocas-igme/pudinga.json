@@ -6,14 +6,15 @@
     "en": "pudding stone"
   },
   "definition": {
-    "es": "Conglomerado constituido por cantos rodados"
+    "es": "Conglomerado constituido por cantos rodados",
+    "en": "Conglomerate consisting of rounded pebbles"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/conglomerate"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate"
     }
   ],
   "inScheme": [

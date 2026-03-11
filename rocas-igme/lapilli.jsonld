@@ -6,14 +6,15 @@
     "en": "lapilli"
   },
   "definition": {
-    "es": "Piroclasto de diámetro comprendido entre 2 y 64 mm"
+    "es": "Piroclasto de diámetro comprendido entre 2 y 64 mm",
+    "en": "Pyroclast with a diameter between 2 and 64 mm"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/ash_and_lapilli"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/ashAndLapilli"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/ash_and_lapilli"
     }
   ],
   "inScheme": [

@@ -9,19 +9,12 @@
     "es": "Depósito de materia mineral por precipitación desde una solución o como resulultado de reacciones químicas. puede ser sedimentaria o hidrotermal.",
     "en": "The deposition of mineral matter by precipitation from solution or as a result of chemical reactions. may be sedimentary or hydrothermal."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito",
-    "prefLabel": {
-      "es": "depósito",
-      "en": "deposition"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/chemical_precipitation"
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/chemicalPrecipitation"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/chemicalPrecipitation"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/chemical_precipitation"
     }
   ],
   "inScheme": [

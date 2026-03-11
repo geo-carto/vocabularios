@@ -6,14 +6,15 @@
     "en": "foid-bearing diorite"
   },
   "definition": {
-    "es": "Roca plutónica perteneciente al grupo de las rocas dioríticas, que contiene feldespatoides"
+    "es": "Roca plutónica perteneciente al grupo de las rocas dioríticas, que contiene feldespatoides",
+    "en": "Plutonic rock belonging to the group of dioritic rocks, containing feldspathoids"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_diorite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidBearingDiorite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidBearingDiorite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_diorite"
     }
   ],
   "inScheme": [

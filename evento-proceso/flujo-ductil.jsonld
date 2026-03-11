@@ -11,13 +11,6 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/maclado-mecanico",
-      "prefLabel": {
-        "es": "maclado mecánico",
-        "en": "deformation twinning"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/arrastre-por-difusion-intracristalina",
       "prefLabel": {
         "es": "arrastre por difusión intracristalina",
@@ -30,6 +23,13 @@
         "es": "arrastre por disolución",
         "en": "dissolution creep"
       }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/maclado-mecanico",
+      "prefLabel": {
+        "es": "maclado mecánico",
+        "en": "deformation twinning"
+      }
     }
   ],
   "broader": {
@@ -41,10 +41,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/ductile_flow"
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/ductileFlow"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/ductileFlow"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/ductile_flow"
     }
   ],
   "inScheme": [

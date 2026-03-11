@@ -9,19 +9,26 @@
     "es": "Paisajes geomorfológicos y formas del relieve relacionados con procesos hidrotermales.",
     "en": "Geomorphologic landscapes and landforms related to hydrothermal processes."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-geomorfologico-natural",
+    "prefLabel": {
+      "es": "objeto geomorfológico natural",
+      "en": "natural geomorphologic feature"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/hydrothermal"
+    }
+  ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "@context": {

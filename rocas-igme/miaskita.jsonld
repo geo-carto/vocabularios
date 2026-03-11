@@ -6,14 +6,15 @@
     "en": "miaskite"
   },
   "definition": {
-    "es": "Monzosienita foídica con oligoclasa"
+    "es": "Monzosienita foídica con oligoclasa",
+    "en": "Foid monzosyenite with oligoclase"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_syenite"
-    },
+  "closeMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidSyenite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_syenite"
     }
   ],
   "inScheme": [

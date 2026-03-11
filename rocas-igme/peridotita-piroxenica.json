@@ -6,14 +6,15 @@
     "en": "pyroxene peridotite"
   },
   "definition": {
-    "es": "Peridotita con olivino y piroxeno como minerales esenciales"
+    "es": "Peridotita con olivino y piroxeno como minerales esenciales",
+    "en": "Peridotite with olivine and pyroxene as essential minerals"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/peridotite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/peridotite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/peridotite"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "exotic evaporite"
   },
   "definition": {
-    "es": "Evaporita que no contiene un porcentaje superior al 50% de halita, ni de yeso o anhidrita"
+    "es": "Evaporita que no contiene un porcentaje superior al 50% de halita, ni de yeso o anhidrita",
+    "en": "Evaporite that does not contain more than 50% halite, nor gypsum or anhydrite"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_evaporite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/exoticEvaporite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/exoticEvaporite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_evaporite"
     }
   ],
   "inScheme": [

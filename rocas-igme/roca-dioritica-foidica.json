@@ -5,15 +5,21 @@
     "es": "roca diorítica foídica",
     "en": "foidic dioritic rock"
   },
+  "altLabel": {
+    "es": [
+      "dioritoide foídico"
+    ]
+  },
   "definition": {
-    "es": "Nombre utilizado en la descripción provisional de las rocas de tipo diorita y monzodiorita foídicas"
+    "es": "Nombre utilizado en la descripción provisional de las rocas de tipo diorita y monzodiorita foídicas",
+    "en": "Name used in the provisional description of foidic diorite and monzodiorite type rocks"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_dioritoid"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidDioritoid"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidDioritoid"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_dioritoid"
     }
   ],
   "inScheme": [

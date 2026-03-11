@@ -6,14 +6,15 @@
     "en": "dolomitic sediment"
   },
   "definition": {
-    "es": "Sedimento carbonatado con un contenido de dolomita superior al de calcita más aragonito"
+    "es": "Sedimento carbonatado con un contenido de dolomita superior al de calcita más aragonito",
+    "en": "Carbonate sediment with a dolomite content greater than that of calcite plus aragonite"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/dolomitic_sediment"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/dolomiticSediment"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/dolomiticSediment"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/dolomitic_sediment"
     }
   ],
   "inScheme": [

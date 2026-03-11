@@ -9,6 +9,27 @@
     "es": "Presenta minerales de carbonato de cualquier tipo, pero en una proporción inferior al  50 por ciento de la roca",
     "en": "Carbonate minerals of any sort are present, but less than 50 percent of rock"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcareo",
+      "prefLabel": {
+        "es": "calcáreo",
+        "en": "calcareous"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/dolomitico",
+      "prefLabel": {
+        "es": "dolomítico",
+        "en": "dolomitic"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonate_bearing"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"

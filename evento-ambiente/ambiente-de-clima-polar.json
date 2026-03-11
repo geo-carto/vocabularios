@@ -9,6 +9,15 @@
     "es": "Ambiente con clima sujeto a temperaturas por debajo de la temperatura la congelación del agua. Incluye desiertos polares debido a que la precipitación es generalmente escasa a latitudes altas. Climáticamente controlado por las masas de aire ártico, ambiente frío y seco con verano corto.",
     "en": "Setting with climate dominated by temperatures below the freezing temperature of water. Includes polar deserts because precipitation is generally scant at high latitude. Climatically controlled by arctic air masses, cold dry environment with short summer."
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-relacionado-con-glaciares",
+      "prefLabel": {
+        "es": "ambiente relacionado con glaciares",
+        "en": "glacier related setting"
+      }
+    }
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-en-la-superficie-de-la-tierra",
     "prefLabel": {
@@ -18,10 +27,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/polar_climatic_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/polarClimaticSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/polarClimaticSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/polar_climatic_setting"
     }
   ],
   "inScheme": [

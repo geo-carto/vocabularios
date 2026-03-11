@@ -6,14 +6,15 @@
     "en": "micritic limestone with allochemicals"
   },
   "definition": {
-    "es": "Caliza microcristalina con un contenido de aloquímicos comprendido entre el 1 y el 10%"
+    "es": "Caliza microcristalina con un contenido de aloquímicos comprendido entre el 1 y el 10%",
+    "en": "Microcrystalline limestone with an allochem content between 1 and 10%"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
     }
   ],
   "inScheme": [

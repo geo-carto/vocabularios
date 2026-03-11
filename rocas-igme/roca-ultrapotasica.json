@@ -6,14 +6,15 @@
     "en": "ultrapotassic rock"
   },
   "definition": {
-    "es": "Roca ígnea ultramáfica o máfica enriquecida en potasio, con una relación molar de k2o/na2o mayor que 3"
+    "es": "Roca ígnea ultramáfica o máfica enriquecida en potasio, con una relación molar de k2o/na2o mayor que 3",
+    "en": "Ultramafic or mafic igneous rock enriched in potassium, with a molar K2O/Na2O ratio greater than 3"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/exoticAlkalineRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
     }
   ],
   "inScheme": [

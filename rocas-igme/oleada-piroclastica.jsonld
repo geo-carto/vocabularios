@@ -6,14 +6,15 @@
     "en": "pyroclastic surge"
   },
   "definition": {
-    "es": "Depósito originado en una oleada piroclástica"
+    "es": "Depósito originado en una oleada piroclástica",
+    "en": "Deposit originating from a pyroclastic surge"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_material"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pyroclasticMaterial"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_material"
     }
   ],
   "inScheme": [

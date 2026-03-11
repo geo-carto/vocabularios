@@ -9,12 +9,19 @@
     "es": "Proceso que da lugar a la aparición de una nueva especie.",
     "en": "Process that results inappearance of new species."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
+    "prefLabel": {
+      "es": "proceso geológico",
+      "en": "geologic process"
+    }
+  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/speciation"
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/speciation"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/speciation"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/speciation"
     }
   ],
   "inScheme": [
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

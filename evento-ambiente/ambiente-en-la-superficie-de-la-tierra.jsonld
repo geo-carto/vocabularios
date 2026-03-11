@@ -25,34 +25,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-cueva",
-      "prefLabel": {
-        "es": "ambiente de cueva",
-        "en": "cave setting"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-deltaico",
-      "prefLabel": {
-        "es": "ambiente de sistema deltaico",
-        "en": "deltaic system setting"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-relacionado-con-glaciares",
-      "prefLabel": {
-        "es": "ambiente relacionado con glaciares",
-        "en": "glacier related setting"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-laderas",
-      "prefLabel": {
-        "es": "ambiente de laderas",
-        "en": "hillslope setting"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-clima-humedo-y-templado",
       "prefLabel": {
         "es": "ambiente de clima húmedo y templado",
@@ -74,6 +46,27 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-cueva",
+      "prefLabel": {
+        "es": "ambiente de cueva",
+        "en": "cave setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-humedales",
+      "prefLabel": {
+        "es": "ambiente de humedales",
+        "en": "wetland setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-laderas",
+      "prefLabel": {
+        "es": "ambiente de laderas",
+        "en": "hillslope setting"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral",
       "prefLabel": {
         "es": "ambiente litoral",
@@ -81,10 +74,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-subaereo",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-relacionado-con-glaciares",
       "prefLabel": {
-        "es": "ambiente subaéreo",
-        "en": "subaerial setting"
+        "es": "ambiente relacionado con glaciares",
+        "en": "glacier related setting"
       }
     },
     {
@@ -95,26 +88,26 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-subaereo",
+      "prefLabel": {
+        "es": "ambiente subaéreo",
+        "en": "subaerial setting"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-terrestre",
       "prefLabel": {
         "es": "ambiente terrestre",
         "en": "terrestrial setting"
       }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-humedales",
-      "prefLabel": {
-        "es": "ambiente de humedales",
-        "en": "wetland setting"
-      }
     }
   ],
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/earth_surface_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/earthSurfaceSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/earthSurfaceSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/earth_surface_setting"
     }
   ],
   "inScheme": [

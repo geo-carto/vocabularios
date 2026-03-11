@@ -3,25 +3,27 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Viseense",
-    "en": "Viséan"
+    "en": "Visean",
+    "vl": "Viseà"
   },
-  "definition": {
-    "es": "Límite inferior -346.7 +|-0.4 ma, límite superior -330.9 +|-0.2 ma",
-    "en": "Older bound -346.7 +|-0.4 ma, younger bound -330.9 +|-0.2 ma"
-  },
+  "notation": [
+    "211051201000",
+    "a1.1.3.2.2.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/misisipico-medio",
     "prefLabel": {
-      "es": "Misisípico Medio",
-      "en": "Middle Mississippian"
+      "es": "Mississippiense Medio",
+      "en": "Middle Mississippian",
+      "vl": "Mississipià Mitjà"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Visean"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/visean"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/visean"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Visean"
     }
   ],
   "inScheme": [

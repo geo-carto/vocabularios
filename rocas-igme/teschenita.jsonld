@@ -6,14 +6,15 @@
     "en": "teschenite"
   },
   "definition": {
-    "es": "Gabro foídico en el que la analcima constituye el feldespatoide dominante"
+    "es": "Gabro foídico en el que la analcima constituye el feldespatoide dominante",
+    "en": "Foid gabbro in which analcime constitutes the dominant feldspathoid"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_gabbro"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidGabbro"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_gabbro"
     }
   ],
   "inScheme": [

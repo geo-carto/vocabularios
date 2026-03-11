@@ -6,14 +6,15 @@
     "en": "striated pebble"
   },
   "definition": {
-    "es": "Canto que presenta estrías a causa del roce a que durante su transporte ha sido sometido con las paredes y el lecho rocoso de un glaciar, o debido a deformación tectónica"
+    "es": "Canto que presenta estrías a causa del roce a que durante su transporte ha sido sometido con las paredes y el lecho rocoso de un glaciar, o debido a deformación tectónica",
+    "en": "Clast exhibiting striations resulting from friction during its transport against the walls and rocky floor of a glacier, or due to tectonic deformation"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pebble_gravel_size_sediment"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pebbleGravelSizeSediment"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pebble_gravel_size_sediment"
     }
   ],
   "inScheme": [

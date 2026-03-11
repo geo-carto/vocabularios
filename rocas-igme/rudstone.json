@@ -6,14 +6,15 @@
     "en": "rudstone"
   },
   "definition": {
-    "es": "Sedimento o roca carbonática, grano-soportados, con más del 10% de los clastos de tamaño superior a 2 mm"
+    "es": "Sedimento o roca carbonática, grano-soportados, con más del 10% de los clastos de tamaño superior a 2 mm",
+    "en": "Grain-supported carbonate sediment or rock, with more than 10% clasts with a diameter exceeding 2 mm"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/conglomerate"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate"
     }
   ],
   "inScheme": [

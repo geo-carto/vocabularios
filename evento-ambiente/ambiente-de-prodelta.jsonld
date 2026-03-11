@@ -9,19 +9,12 @@
     "es": "La parte de un delta que está por debajo de la profundidad de erosión efectiva de las olas, yace más allá del frente del delta, y se inclina suavemente hacia el fondo de la cuenca en la que el delta está avanzando y donde los sedimentos clásticos del río dejan de ser una parte importante de la depósitos del fondo de cuenca; está completamente por debajo del nivel de agua.",
     "en": "The part of a delta that is below the effective depth of wave erosion, lying beyond the delta front, and sloping gently down to the floor of the basin into which the delta is advancing and where clastic river sediment ceases to be a significant part of the basin-floor deposits; it is entirely below the water level."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-deltaico",
-    "prefLabel": {
-      "es": "ambiente de sistema deltaico",
-      "en": "deltaic system setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/prodelta"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/prodeltaSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/prodeltaSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/prodelta"
     }
   ],
   "inScheme": [

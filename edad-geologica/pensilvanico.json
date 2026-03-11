@@ -2,19 +2,42 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pensilvanico",
   "type": "Concept",
   "prefLabel": {
-    "es": "Pensilvánico",
-    "en": "Pennsylvanian"
+    "es": "Pennsylvaniense",
+    "en": "Pennsylvanian",
+    "vl": "Pennsilvanià"
   },
-  "definition": {
-    "es": "Límite inferior -323.2 +|-0.4 ma, límite superior -298.9 +|-0.15 ma",
-    "en": "Older bound -323.2 +|-0.4 ma, younger bound -298.9 +|-0.15 ma"
+  "altLabel": {
+    "es": [
+      "Pensilvánico"
+    ]
   },
+  "notation": [
+    "211052000000",
+    "a1.1.3.2.1"
+  ],
   "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pensilvanico-inferior",
+      "prefLabel": {
+        "es": "Pensilvánico Inferior",
+        "en": "Lower Pennsylvanian",
+        "vl": "Pennsilvanià Inferior"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pensilvanico-medio",
+      "prefLabel": {
+        "es": "Pensilvánico Medio",
+        "en": "Middle Pennsylvanian",
+        "vl": "Pennsilvanià Mitjà"
+      }
+    },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pensilvanico-superior",
       "prefLabel": {
-        "es": "Pensilvánico Superior",
-        "en": "Upper Pennsylvanian"
+        "es": "Pennsylvaniense Superior",
+        "en": "Upper Pennsylvanian",
+        "vl": "Pennsilvanià Superior"
       }
     }
   ],
@@ -22,15 +45,16 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/carbonifero",
     "prefLabel": {
       "es": "Carbonífero",
-      "en": "Carboniferous"
+      "en": "Carboniferous",
+      "vl": "Carbonífer"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Pennsylvanian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pennsylvanian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pennsylvanian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Pennsylvanian"
     }
   ],
   "inScheme": [

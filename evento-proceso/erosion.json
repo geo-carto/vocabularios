@@ -11,20 +11,6 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erosion-glacial",
-      "prefLabel": {
-        "es": "erosión glacial",
-        "en": "ice erosion"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/transporte-en-masa",
-      "prefLabel": {
-        "es": "transporte en masa",
-        "en": "mass wasting"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erosion-del-agua",
       "prefLabel": {
         "es": "erosión del agua",
@@ -37,6 +23,20 @@
         "es": "erosión del viento",
         "en": "wind erosion"
       }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erosion-glacial",
+      "prefLabel": {
+        "es": "erosión glacial",
+        "en": "ice erosion"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/transporte-en-masa",
+      "prefLabel": {
+        "es": "transporte en masa",
+        "en": "mass wasting"
+      }
     }
   ],
   "broader": {
@@ -48,10 +48,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/erosion"
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/erosion"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/erosion"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/erosion"
     }
   ],
   "inScheme": [

@@ -5,15 +5,21 @@
     "es": "roca vítrea",
     "en": "glassy rock"
   },
+  "altLabel": {
+    "es": [
+      "roca holohialina"
+    ]
+  },
   "definition": {
-    "es": "Roca ígnea que ha sufrido un enfriamiento rápido, dando lugar a una masa amorfa, sin cristales, presentando las características de un vidrio: fragilidad, fractura concoidea y ausencia de exfoliación"
+    "es": "Roca ígnea que ha sufrido un enfriamiento rápido, dando lugar a una masa amorfa, sin cristales, presentando las características de un vidrio: fragilidad, fractura concoidea y ausencia de exfoliación",
+    "en": "Igneous rock that has undergone rapid cooling, giving rise to an amorphous, crystal-free mass, exhibiting the characteristics of a glass: brittleness, conchoidal fracture and absence of cleavage"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/glassy_igneous_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/glassyIgneousRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/glassyIgneousRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/glassy_igneous_rock"
     }
   ],
   "inScheme": [

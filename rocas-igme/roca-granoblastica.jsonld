@@ -5,15 +5,21 @@
     "es": "roca granoblástica",
     "en": "granoblastic rock"
   },
+  "altLabel": {
+    "es": [
+      "granoblastita, granofelsita"
+    ]
+  },
   "definition": {
-    "es": "Roca metamórfica granuda, no foliada y masiva, de cualquier composición"
+    "es": "Roca metamórfica granuda, no foliada y masiva, de cualquier composición",
+    "en": "Granular, non-foliated, massive metamorphic rock of any composition"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/granofels"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/granofels"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/granofels"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/granofels"
     }
   ],
   "inScheme": [

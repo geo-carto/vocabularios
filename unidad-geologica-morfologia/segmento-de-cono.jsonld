@@ -9,17 +9,24 @@
     "es": "Cuerpo que es la sección de un cono formado al partir el cono a lo largo de una superficie paralela su eje, que intersecta aproximadamente a lo largo del eje",
     "en": "Body that is section of a cone formed by splitting the cone along a surface parallel to the cone axis, that interesect approximately along the axis"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-tridimensional",
+    "prefLabel": {
+      "es": "cuerpo tridimensional",
+      "en": "three dimensional body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/cone_segment"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

@@ -9,19 +9,56 @@
     "es": "Ambiente situado en la superficie terrestre definido geográficamente por su relación espacial con los glaciares (por ejemplo, encima de un glaciar, yuxtaglaciar o al lado de un glaciar, en frente de un glaciar ...). Los procesos relacionados con el hielo en movimiento dominan el transporte y deposición de sedimentos y el desarrollo de las formas de relieve.",
     "en": "Earth surface setting with geography defined by spatial relationship to glaciers (e.g. on top of a glacier, next to a glacier, in front of a glacier...). Processes related to moving ice dominate sediment transport and deposition and landform development."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-en-la-superficie-de-la-tierra",
-    "prefLabel": {
-      "es": "ambiente en la superficie de la Tierra",
-      "en": "earth surface setting"
-    }
-  },
-  "exactMatch": [
+  "narrower": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/glacier_related_setting"
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-aluvial-glacial",
+      "prefLabel": {
+        "es": "ambiente de llanura aluvial glacial",
+        "en": "glacial outwash plain setting"
+      }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-englacial",
+      "prefLabel": {
+        "es": "ambiente englacial",
+        "en": "englacial setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-proglacial",
+      "prefLabel": {
+        "es": "ambiente proglacial",
+        "en": "proglacial setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-subglacial",
+      "prefLabel": {
+        "es": "ambiente subglacial",
+        "en": "subglacial setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-supraglacial",
+      "prefLabel": {
+        "es": "ambiente supraglacial",
+        "en": "supraglacial setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-yuxtaglaciar",
+      "prefLabel": {
+        "es": "ambiente yuxtaglaciar",
+        "en": "glacier lateral setting"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
       "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/glacierRelatedSetting"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/glacier_related_setting"
     }
   ],
   "inScheme": [

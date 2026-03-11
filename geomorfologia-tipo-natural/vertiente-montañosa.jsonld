@@ -9,19 +9,24 @@
     "es": "Parte de una montaña comprendida entre la cumbre y la base.",
     "en": "A part of a mountain between the summit and the foot."
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountainslope"
+    }
+  ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "topConceptOf": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "@context": {

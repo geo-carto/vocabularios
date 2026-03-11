@@ -2,18 +2,19 @@
   "id": "https://geo-carto.github.io/vocabularios/rocas-igme/kainita",
   "type": "Concept",
   "prefLabel": {
-    "es": "Kainita",
+    "es": "kainita",
     "en": "kainite"
   },
   "definition": {
-    "es": "Roca formada por el mineral del mismo nombre, de fórmula kmgso4cl.3h2o, perteneciente a la clase de los sulfatos, que cristaliza en el sistema monoclínico y se presenta en masas compactas granulares. el mineral puro es incoloro, pero con frecuencia presenta impurezas que le confieren color amarillo, marrón, verde-gris, rojo, violeta o azul, tiene brillo vítreo y varía de transparente a translúcido"
+    "es": "Roca formada por el mineral del mismo nombre, de fórmula kmgso4cl.3h2o, perteneciente a la clase de los sulfatos, que cristaliza en el sistema monoclínico y se presenta en masas compactas granulares. el mineral puro es incoloro, pero con frecuencia presenta impurezas que le confieren color amarillo, marrón, verde-gris, rojo, violeta o azul, tiene brillo vítreo y varía de transparente a translúcido",
+    "en": "Rock formed by the mineral of the same name, with the formula KMgSO4Cl·3H2O, belonging to the class of sulfates, crystallizing in the monoclinic system and occurring as compact granular masses. The pure mineral is colourless, but it frequently presents impurities imparting yellow, brown, grey-green, red, violet or blue colour, with vitreous lustre and varying from transparent to translucent"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/evaporite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
     }
   ],
   "inScheme": [

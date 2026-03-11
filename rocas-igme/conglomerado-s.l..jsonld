@@ -6,14 +6,15 @@
     "en": "conglomerate s.l."
   },
   "definition": {
-    "es": "Roca sedimentaria compuesta al menos por un 30% de fragmentos redondeados o subangulosos de diámetro superior a 2 mm. si la roca está mal seleccionada, con granulometría muy variada, también puede ser considerada una diamictita"
+    "es": "Roca sedimentaria compuesta al menos por un 30% de fragmentos redondeados o subangulosos de diámetro superior a 2 mm. si la roca está mal seleccionada, con granulometría muy variada, también puede ser considerada una diamictita",
+    "en": "Sedimentary rock composed of at least 30% rounded or subangular fragments with a diameter exceeding 2 mm. If the rock is poorly sorted with very variable grain size, it may also be considered a diamictite"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/generic_conglomerate"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/genericConglomerate"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/genericConglomerate"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/generic_conglomerate"
     }
   ],
   "inScheme": [

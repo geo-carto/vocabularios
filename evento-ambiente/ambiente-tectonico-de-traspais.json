@@ -9,19 +9,12 @@
     "es": "Ambiente tectónico en la parte interna de un cinturón orogénico, caracterizado por la deformación plástica de las rocas acompañada de un metamorfismo significativo, típicamente involucrando a rocas del basamento cristalino. Típicamente denota la parte más engrosada estructuralmente de un cinturón orogénico, entre un arco magmático o zona de colisión y un ambiente más \"externo\" de antepaís.",
     "en": "Tectonic setting in the internal part of an orogenic belt, characterized by plastic deformation of rocks accompanied by significant metamorphism, typically involving crystalline basement rocks. Typically denotes the most structurally thickened part of an orogenic belt, between a magmatic arc or collision zone and a more 'external' foreland setting."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-corteza-continental",
-    "prefLabel": {
-      "es": "ambiente de corteza continental",
-      "en": "continental-crustal setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/hinterland_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/hinterlandTectonicSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/hinterlandTectonicSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/hinterland_setting"
     }
   ],
   "inScheme": [

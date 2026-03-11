@@ -5,15 +5,21 @@
     "es": "roca afanítica",
     "en": "aphanitic rock"
   },
+  "altLabel": {
+    "es": [
+      "afanita"
+    ]
+  },
   "definition": {
-    "es": "Roca ígnea en la que los granos minerales no se distinguen a simple vista"
+    "es": "Roca ígnea en la que los granos minerales no se distinguen a simple vista",
+    "en": "Igneous rock in which mineral grains are not distinguishable with the naked eye"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/aphanite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/aphanite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/aphanite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/aphanite"
     }
   ],
   "inScheme": [

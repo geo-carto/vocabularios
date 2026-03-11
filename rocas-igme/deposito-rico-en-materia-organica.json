@@ -5,15 +5,21 @@
     "es": "depósito rico en materia orgánica",
     "en": "organic matter-rich deposit"
   },
+  "altLabel": {
+    "es": [
+      "sedimento rico en materia orgánica"
+    ]
+  },
   "definition": {
-    "es": "Sedimento cuyo contenido en materia orgánica es suficientemente alto como para tener efectos notables en la litología"
+    "es": "Sedimento cuyo contenido en materia orgánica es suficientemente alto como para tener efectos notables en la litología",
+    "en": "Sediment whose organic matter content is sufficiently high to have notable effects on the lithology"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/organic_rich_sediment"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/organicRichSediment"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/organicRichSediment"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/organic_rich_sediment"
     }
   ],
   "inScheme": [

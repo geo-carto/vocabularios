@@ -6,14 +6,15 @@
     "en": "opal"
   },
   "definition": {
-    "es": "Mineral amorfo del grupo de la sílice, de fórmula sio2.nh2o, que forma nódulos y concreciones. de coloraciones y tonalidades muy diversas, varía de transparente a opaco, posee brillo de vítreo a resinoso y tiene fractura concoidea"
+    "es": "Mineral amorfo del grupo de la sílice, de fórmula sio2.nh2o, que forma nódulos y concreciones. de coloraciones y tonalidades muy diversas, varía de transparente a opaco, posee brillo de vítreo a resinoso y tiene fractura concoidea",
+    "en": "Amorphous mineral of the silica group, with the formula SiO2·nH2O, forming nodules and concretions. With very diverse colours and hues, varying from transparent to opaque, it has vitreous to resinous lustre and conchoidal fracture"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/non-clasticSiliceousSedimentaryRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_rock"
     }
   ],
   "inScheme": [

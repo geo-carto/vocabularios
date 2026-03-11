@@ -18,12 +18,19 @@
       }
     }
   ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-relacionado-con-glaciares",
+    "prefLabel": {
+      "es": "ambiente relacionado con glaciares",
+      "en": "glacier related setting"
+    }
+  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/proglacial_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/proglacialSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/proglacialSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/proglacial_setting"
     }
   ],
   "inScheme": [
@@ -32,11 +39,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
     }

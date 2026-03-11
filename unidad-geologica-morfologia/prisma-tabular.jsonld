@@ -9,17 +9,24 @@
     "es": "Cuerpo definido por pares de superficies paralelas, aproximadamente planas, separadas por bordes definibles. Grada al elipsoide cuando las esquinas pierden definición, al bloque cuando las dimensiones axiales se acercan a 1 y al cilindro poligonal cuando L se acerca a W. L >> W> H. H está en dirección vertical, L es horizontal",
     "en": "Body defined by pairs of parallel, approximately planar surfaces separated by definable edges. Grades to ellipsoid as edges lose definition, to block as axial ratios approach 1, to polygonal cylinder as L approaches W. L>>W>H. H is in vertical direction, L is horizontal"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/prisma",
+    "prefLabel": {
+      "es": "prisma",
+      "en": "prism"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/tabular_prism"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

@@ -3,12 +3,13 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Holoceno",
-    "en": "Holocene"
+    "en": "Holocene",
+    "vl": "Holocè"
   },
-  "definition": {
-    "es": "Límite inferior -0.0117 ma, límite superior -0.0 ma",
-    "en": "Older bound -0.0117 ma, younger bound -0.0 ma"
-  },
+  "notation": [
+    "213030200000",
+    "a1.1.1.1.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/groenlandiense",
@@ -28,7 +29,7 @@
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/norgripiense",
       "prefLabel": {
         "es": "Norgripiense",
-        "en": "NGRIP"
+        "en": "Northgrippian"
       }
     }
   ],
@@ -36,15 +37,16 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cuaternario",
     "prefLabel": {
       "es": "Cuaternario",
-      "en": "Quaternary"
+      "en": "Quaternary",
+      "vl": "Quaternari"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Holocene"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/holocene"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/holocene"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Holocene"
     }
   ],
   "inScheme": [

@@ -16,6 +16,13 @@
         "es": "ambiente de pantano o marisma",
         "en": "swamp or marsh setting"
       }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-pantanoso",
+      "prefLabel": {
+        "es": "ambiente pantanoso",
+        "en": "bog setting"
+      }
     }
   ],
   "broader": {
@@ -27,10 +34,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/wetland_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/wetlandSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/wetlandSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/wetland_setting"
     }
   ],
   "inScheme": [

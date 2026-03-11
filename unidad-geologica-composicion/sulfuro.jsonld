@@ -9,17 +9,24 @@
     "es": "Material compuesto predominantemente de sulfuros",
     "en": "Material predominantly composed of sulfide minerals"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-sulfuros",
+    "prefLabel": {
+      "es": "con sulfuros",
+      "en": "sulfide bearing"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfide"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }

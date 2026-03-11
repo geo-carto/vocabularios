@@ -6,14 +6,15 @@
     "en": "jasper"
   },
   "definition": {
-    "es": "Roca sedimentaria silícea constituida por una variedad de calcedonia granuda. conforma agregados masivos generalmente opacos, muy raramente translúcidos, de color amarillo, rojo, verde o pardo por inclusiones de clorita, hematites y óxidos de hierro"
+    "es": "Roca sedimentaria silícea constituida por una variedad de calcedonia granuda. conforma agregados masivos generalmente opacos, muy raramente translúcidos, de color amarillo, rojo, verde o pardo por inclusiones de clorita, hematites y óxidos de hierro",
+    "en": "Siliceous sedimentary rock consisting of a granular variety of chalcedony. It forms generally opaque, very rarely translucent, massive aggregates of yellow, red, green or brown colour due to inclusions of chlorite, haematite and iron oxides"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/non-clasticSiliceousSedimentaryRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_rock"
     }
   ],
   "inScheme": [

@@ -3,25 +3,52 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Carbonífero",
-    "en": "Carboniferous"
+    "en": "Carboniferous",
+    "vl": "Carbonífer"
   },
-  "definition": {
-    "es": "Límite inferior -358.9 +|-0.4 ma, límite superior -298.9 +|-0.15 ma",
-    "en": "Older bound -358.9 +|-0.4 ma, younger bound -298.9 +|-0.15 ma"
-  },
+  "notation": [
+    "211050000000",
+    "a1.1.3.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/misisipico",
       "prefLabel": {
-        "es": "Misisípico",
-        "en": "Mississippian"
+        "es": "Mississippiense",
+        "en": "Mississippian",
+        "vl": "Mississipià"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/misisipico-inferior",
+      "prefLabel": {
+        "es": "Mississippiense Inferior",
+        "en": "Lower Mississippian",
+        "vl": "Mississipià Inferior"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/misisipico-medio",
+      "prefLabel": {
+        "es": "Mississippiense Medio",
+        "en": "Middle Mississippian",
+        "vl": "Mississipià Mitjà"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/misisipico-superior",
+      "prefLabel": {
+        "es": "Mississippiense Superior",
+        "en": "Upper Mississippian",
+        "vl": "Mississipià Superior"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pensilvanico",
       "prefLabel": {
-        "es": "Pensilvánico",
-        "en": "Pennsylvanian"
+        "es": "Pennsylvaniense",
+        "en": "Pennsylvanian",
+        "vl": "Pennsilvanià"
       }
     }
   ],
@@ -29,15 +56,16 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico",
     "prefLabel": {
       "es": "Paleozoico",
-      "en": "Paleozoic"
+      "en": "Paleozoic",
+      "vl": "Paleozoic"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Carboniferous"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/carboniferous"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/carboniferous"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Carboniferous"
     }
   ],
   "inScheme": [

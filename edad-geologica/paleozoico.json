@@ -3,49 +3,60 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Paleozoico",
-    "en": "Paleozoic"
+    "en": "Paleozoic",
+    "vl": "Paleozoic"
   },
+  "notation": [
+    "211000000000",
+    "a1.1.3"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cambrico",
       "prefLabel": {
         "es": "Cámbrico",
-        "en": "Cambrian"
+        "en": "Cambrian",
+        "vl": "Cambrià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/carbonifero",
       "prefLabel": {
         "es": "Carbonífero",
-        "en": "Carboniferous"
+        "en": "Carboniferous",
+        "vl": "Carbonífer"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico",
       "prefLabel": {
         "es": "Devónico",
-        "en": "Devonian"
+        "en": "Devonian",
+        "vl": "Devonià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico",
       "prefLabel": {
         "es": "Ordovícico",
-        "en": "Ordovician"
+        "en": "Ordovician",
+        "vl": "Ordovicià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/permico",
       "prefLabel": {
         "es": "Pérmico",
-        "en": "Permian"
+        "en": "Permian",
+        "vl": "Permià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/silurico",
       "prefLabel": {
         "es": "Silúrico",
-        "en": "Silurian"
+        "en": "Silurian",
+        "vl": "Silurià"
       }
     }
   ],
@@ -58,10 +69,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Paleozoic"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/paleozoic"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/paleozoic"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Paleozoic"
     }
   ],
   "inScheme": [

@@ -2,18 +2,19 @@
   "id": "https://geo-carto.github.io/vocabularios/rocas-igme/kieserita",
   "type": "Concept",
   "prefLabel": {
-    "es": "Kieserita",
+    "es": "kieserita",
     "en": "kieserite"
   },
   "definition": {
-    "es": "Roca formada por el mineral del mismo nombre, de fórmula mgso4.h2o, perteneciente a la clase de los sulfatos, que cristaliza en el sistema monoclínico y se presenta en agregados granudos. es incoloro, blanco, gris o amarillento y presenta aspecto mate o brillo vítreo"
+    "es": "Roca formada por el mineral del mismo nombre, de fórmula mgso4.h2o, perteneciente a la clase de los sulfatos, que cristaliza en el sistema monoclínico y se presenta en agregados granudos. es incoloro, blanco, gris o amarillento y presenta aspecto mate o brillo vítreo",
+    "en": "Rock formed by the mineral of the same name, with the formula MgSO4·H2O, belonging to the class of sulfates, crystallizing in the monoclinic system and occurring in granular aggregates. It is colourless, white, grey or yellowish and has a matt or vitreous lustre"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/evaporite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "biogenic siliceous rock"
   },
   "definition": {
-    "es": "Roca sedimentaria compuesta, al menos en un 50%, por material mineral silíceo sedimentado como resultado de procesos biológicos"
+    "es": "Roca sedimentaria compuesta, al menos en un 50%, por material mineral silíceo sedimentado como resultado de procesos biológicos",
+    "en": "Sedimentary rock composed of at least 50% siliceous mineral material deposited as a result of biological processes"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/biogenic_silica_sedimentary_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/biogenicSilicaSedimentaryRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/biogenicSilicaSedimentaryRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/biogenic_silica_sedimentary_rock"
     }
   ],
   "inScheme": [

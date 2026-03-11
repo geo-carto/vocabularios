@@ -5,37 +5,41 @@
     "es": "Arcaico",
     "en": "Archean"
   },
-  "definition": {
-    "es": "Límite inferior -4000.0 ma, límite superior -2500.0 ma",
-    "en": "Older bound -4000.0 ma, younger bound -2500.0 ma"
-  },
+  "notation": [
+    "120000000000",
+    "a2.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/eoarcaico",
       "prefLabel": {
         "es": "Eoarcaico",
-        "en": "Eoarchean"
+        "en": "Eoarchean",
+        "vl": "Eoarqueà"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesoarcaico",
       "prefLabel": {
         "es": "Mesoarcaico",
-        "en": "Mesoarchean"
+        "en": "Mesoarchean",
+        "vl": "Mesoarqueà"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neoarcaico",
       "prefLabel": {
         "es": "Neoarcaico",
-        "en": "Neoarchean"
+        "en": "Neoarchean",
+        "vl": "Neoarqueà"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleoarcaico",
       "prefLabel": {
         "es": "Paleoarcaico",
-        "en": "Paleoarchean"
+        "en": "Paleoarchean",
+        "vl": "Paleoarqueà"
       }
     }
   ],
@@ -48,10 +52,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Archean"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/archean"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/archean"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Archean"
     }
   ],
   "inScheme": [

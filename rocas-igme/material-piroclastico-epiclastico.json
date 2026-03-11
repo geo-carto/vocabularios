@@ -6,14 +6,15 @@
     "en": "pyroclastic-epiclastic material"
   },
   "definition": {
-    "es": "Material de carácter mixto constituido tanto por fragmentos de origen piroclástico como de origen epiclástico, ambos en un porcentaje comprendido entre el 25 y el 75% del volumen del depósito"
+    "es": "Material de carácter mixto constituido tanto por fragmentos de origen piroclástico como de origen epiclástico, ambos en un porcentaje comprendido entre el 25 y el 75% del volumen del depósito",
+    "en": "Material of mixed character consisting of both pyroclastic and epiclastic fragments, each in a percentage between 25 and 75% of the deposit volume"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_material"
-    },
+  "closeMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pyroclasticMaterial"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_material"
     }
   ],
   "inScheme": [

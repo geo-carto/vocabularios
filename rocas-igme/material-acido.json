@@ -6,14 +6,15 @@
     "en": "acidic material"
   },
   "definition": {
-    "es": "Material ígneo que contiene más del 66% de sílice"
+    "es": "Material ígneo que contiene más del 66% de sílice",
+    "en": "Igneous material containing more than 66% silica"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/acidic_igneous_material"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/acidicIgneousMaterial"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/acidicIgneousMaterial"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/acidic_igneous_material"
     }
   ],
   "inScheme": [

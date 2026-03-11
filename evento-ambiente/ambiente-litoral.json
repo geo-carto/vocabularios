@@ -11,38 +11,10 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral-de-isla-barrera",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-cordon-litoral",
       "prefLabel": {
-        "es": "ambiente litoral de isla barrera",
-        "en": "barrier island coastline setting"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-playa",
-      "prefLabel": {
-        "es": "ambiente de playa",
-        "en": "beach setting"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral-dominado-por-carbonatos",
-      "prefLabel": {
-        "es": "ambiente litoral dominado por carbonatos",
-        "en": "carbonate dominated shoreline setting"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-litoral",
-      "prefLabel": {
-        "es": "ambiente de llanura litoral",
-        "en": "coastal plain setting"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-estuarino",
-      "prefLabel": {
-        "es": "ambiente estuarino",
-        "en": "estuary setting"
+        "es": "ambiente de cordon litoral",
+        "en": "strandplain setting"
       }
     },
     {
@@ -53,13 +25,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral-de-baja-energia",
-      "prefLabel": {
-        "es": "ambiente litoral de baja energía",
-        "en": "low energy shoreline setting"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-litoral-rocoso",
       "prefLabel": {
         "es": "ambiente de litoral rocoso",
@@ -67,17 +32,52 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-cordon-litoral",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-litoral",
       "prefLabel": {
-        "es": "ambiente de cordon litoral",
-        "en": "strandplain setting"
+        "es": "ambiente de llanura litoral",
+        "en": "coastal plain setting"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-supramareal",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-playa",
       "prefLabel": {
-        "es": "ambiente supramareal",
-        "en": "supratidal setting"
+        "es": "ambiente de playa",
+        "en": "beach setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-deltaico",
+      "prefLabel": {
+        "es": "ambiente de sistema deltaico",
+        "en": "deltaic system setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-estuarino",
+      "prefLabel": {
+        "es": "ambiente estuarino",
+        "en": "estuary setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral-de-baja-energia",
+      "prefLabel": {
+        "es": "ambiente litoral de baja energía",
+        "en": "low energy shoreline setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral-de-isla-barrera",
+      "prefLabel": {
+        "es": "ambiente litoral de isla barrera",
+        "en": "barrier island coastline setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral-dominado-por-carbonatos",
+      "prefLabel": {
+        "es": "ambiente litoral dominado por carbonatos",
+        "en": "carbonate dominated shoreline setting"
       }
     },
     {
@@ -85,6 +85,13 @@
       "prefLabel": {
         "es": "ambiente mareal",
         "en": "tidal setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-supramareal",
+      "prefLabel": {
+        "es": "ambiente supramareal",
+        "en": "supratidal setting"
       }
     }
   ],
@@ -97,10 +104,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/shoreline_settings"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/shorelineSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/shorelineSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/shoreline_settings"
     }
   ],
   "inScheme": [

@@ -9,6 +9,18 @@
     "es": "Una discontinuidad en la que los estratos superpuestos se truncan contra una superficie de relieve abrupto.",
     "en": "An unconformity in which onlapping strata are truncated against a steep topographic scarp."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/discontinuidad",
+    "prefLabel": {
+      "es": "discontinuidad",
+      "en": "unconformable contact"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/contacttype/buttress_unconformity"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo"

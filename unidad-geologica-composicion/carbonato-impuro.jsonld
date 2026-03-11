@@ -9,6 +9,20 @@
     "es": "Contiene más del 50 por ciento de calcosilicatos o carbonatos y se desconoce o no se especifica la proporción relativa de calcosilicatos y carbonatos",
     "en": "Material consists of greater than 50 percent calcsilicate or carbonate minerals and relative proportion of calcsilicate and carbonate minerals is unknown or not specified"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcosilicato",
+      "prefLabel": {
+        "es": "calcosilicato",
+        "en": "calcsilicate"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/impure_calcsilicate_or_carbonate"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"

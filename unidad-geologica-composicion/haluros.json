@@ -9,6 +9,20 @@
     "es": "Uno o más de los elementos del grupo de los haluros (F, Cl, Br, I) son el anión más abundante (porcentaje en moles)",
     "en": "One or more of halide group elements (F, Cl, Br, I) are most abundant (mole percent) anion"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-nitratos",
+      "prefLabel": {
+        "es": "con nitratos",
+        "en": "nitrate chemistry"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/halide_chemistry"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"

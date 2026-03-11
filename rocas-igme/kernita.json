@@ -2,18 +2,19 @@
   "id": "https://geo-carto.github.io/vocabularios/rocas-igme/kernita",
   "type": "Concept",
   "prefLabel": {
-    "es": "Kernita",
+    "es": "kernita",
     "en": "kernite"
   },
   "definition": {
-    "es": "Roca formada por el mineral del mismo nombre, de fórmula na2b4o7.4h2o, perteneciente a la clase de los boratos, que cristaliza en el sistema monoclínico en forma de masas espáticas. es incoloro o blanco, tiene brillo vítreo y varía de transparente a translúcido"
+    "es": "Roca formada por el mineral del mismo nombre, de fórmula na2b4o7.4h2o, perteneciente a la clase de los boratos, que cristaliza en el sistema monoclínico en forma de masas espáticas. es incoloro o blanco, tiene brillo vítreo y varía de transparente a translúcido",
+    "en": "Rock formed by the mineral of the same name, with the formula Na2B4O7·4H2O, belonging to the class of borates, crystallizing in the monoclinic system in the form of sparitic masses. It is colourless or white, with vitreous lustre and varying from transparent to translucent"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/evaporite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
     }
   ],
   "inScheme": [

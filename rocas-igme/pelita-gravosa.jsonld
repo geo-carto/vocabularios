@@ -6,14 +6,15 @@
     "en": "gravelly pelite"
   },
   "definition": {
-    "es": "Sedimento detrítico poco seleccionado, con un contenido de elementos de tamaño pelita superior al de elementos de tamaño arena y con un contenido de elementos de tamaño grava comprendido entre el 5 y el 30% del total"
+    "es": "Sedimento detrítico poco seleccionado, con un contenido de elementos de tamaño pelita superior al de elementos de tamaño arena y con un contenido de elementos de tamaño grava comprendido entre el 5 y el 30% del total",
+    "en": "Poorly sorted detrital sediment with a pelite-size element content greater than that of sand-size elements and a gravel-size element content between 5 and 30% of the total"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/mud"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/mud"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/mud"
     }
   ],
   "inScheme": [

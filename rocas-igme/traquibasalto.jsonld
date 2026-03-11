@@ -6,14 +6,15 @@
     "en": "trachybasalt"
   },
   "definition": {
-    "es": "Roca volcánica mesocrática básica, alcalina, formada esencialmente por plagioclasa y piroxeno, con contenidos menores de olivino. la variedad sódica recibe el nombre de hawaiita y la potásica, de traquibasalto potásico"
+    "es": "Roca volcánica mesocrática básica, alcalina, formada esencialmente por plagioclasa y piroxeno, con contenidos menores de olivino. la variedad sódica recibe el nombre de hawaiita y la potásica, de traquibasalto potásico",
+    "en": "Mesocratic, basic, alkaline volcanic rock formed essentially by plagioclase and pyroxene, with minor amounts of olivine. The sodic variety is called hawaiite and the potassic variety, potassic trachybasalt"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/latitic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/latiticRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/latitic_rock"
     }
   ],
   "inScheme": [

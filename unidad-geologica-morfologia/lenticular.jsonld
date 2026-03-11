@@ -9,17 +9,40 @@
     "es": "Cuerpo con dos lados que convergen para definir un borde de perfil circular, el borde separa una parte superior y otra inferior diferenciables. L = W> H. Puede evolucionar a  elipsoide si el borde que separa los lados se hace difuso o a cono si un lado se vuelve claramente plano",
     "en": "Body with two sides that converge to define an edge that is circular in profile, edge separates definable top and bottom. L=W>H. Grades to oblate ellipsoid as edge separating sides loses definition, cone as one side becomes distinctly planar"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cono",
+      "prefLabel": {
+        "es": "cono",
+        "en": "cone shape"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lente-alargada",
+      "prefLabel": {
+        "es": "lente alargada",
+        "en": "elongate discus"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-tridimensional",
+    "prefLabel": {
+      "es": "cuerpo tridimensional",
+      "en": "three dimensional body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/discus"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

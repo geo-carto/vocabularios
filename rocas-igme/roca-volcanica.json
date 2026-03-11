@@ -5,15 +5,21 @@
     "es": "roca volcánica",
     "en": "volcanic rock"
   },
-  "definition": {
-    "es": "Roca ígnea producida por actividad volcánica, normalmente de grano muy fino o vítrea. con frecuencia puede contener fragmentos de otras rocas, así como fenocristales"
+  "altLabel": {
+    "es": [
+      "roca efusiva, roca extrusiva"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/fine_grained_igneous_rock"
-    },
+  "definition": {
+    "es": "Roca ígnea producida por actividad volcánica, normalmente de grano muy fino o vítrea. con frecuencia puede contener fragmentos de otras rocas, así como fenocristales",
+    "en": "Igneous rock produced by volcanic activity, normally very fine-grained or glassy. It may frequently contain fragments of other rocks as well as phenocrysts"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/fineGrainedIgneousRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/fine_grained_igneous_rock"
     }
   ],
   "inScheme": [

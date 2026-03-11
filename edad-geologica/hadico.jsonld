@@ -5,10 +5,15 @@
     "es": "Hádico",
     "en": "Hadean"
   },
-  "definition": {
-    "es": "Límite inferior -4567 +|-1 ma, límite superior -4000 ma",
-    "en": "Older bound -4567 +|-1 ma, younger bound -4000 ma"
+  "altLabel": {
+    "es": [
+      "Hadeánico"
+    ]
   },
+  "notation": [
+    "110000000000",
+    "a2.3"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/precambrico",
     "prefLabel": {
@@ -18,10 +23,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Hadean"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/hadean"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/hadean"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Hadean"
     }
   ],
   "inScheme": [

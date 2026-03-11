@@ -9,17 +9,24 @@
     "es": "Un cuerpo ígneo intrusivo tabular con la dimensión mayor paralela a la estratificación o  foliación de la roca encajante sedimentaria o metamórfica",
     "en": "A tabular intrusive igneous body with long dimensions parallel to bedding or foliation of sedimentary or metamorphic host rock"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-geologico",
+    "prefLabel": {
+      "es": "cuerpo geológico",
+      "en": "geologic body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/sill_form"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

@@ -11,6 +11,13 @@
   },
   "narrower": [
     {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloque-tectonico",
+      "prefLabel": {
+        "es": "bloque tectónico",
+        "en": "tectonic block"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloques",
       "prefLabel": {
         "es": "bloques",
@@ -39,20 +46,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazo-de-techo",
-      "prefLabel": {
-        "es": "retazo de techo",
-        "en": "roof pendant"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloque-tectonico",
-      "prefLabel": {
-        "es": "bloque tectónico",
-        "en": "tectonic block"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/xenolito",
       "prefLabel": {
         "es": "xenolito",
@@ -67,6 +60,11 @@
       "en": "part of"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/inclusion"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"

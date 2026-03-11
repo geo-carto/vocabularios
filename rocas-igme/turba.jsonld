@@ -6,14 +6,15 @@
     "en": "peat"
   },
   "definition": {
-    "es": "Variedad de carbón constituida por un sedimento rico en materia orgánica, ligero, de color pardo amarillento a negro, que conserva la estructura vegetal. su contenido en carbono es inferior al 60% y el de volátiles, superior al 63%"
+    "es": "Variedad de carbón constituida por un sedimento rico en materia orgánica, ligero, de color pardo amarillento a negro, que conserva la estructura vegetal. su contenido en carbono es inferior al 60% y el de volátiles, superior al 63%",
+    "en": "Coal variety consisting of an organic matter-rich sediment, lightweight, brownish-yellow to black in colour, preserving plant structure. Its carbon content is below 60% and the volatile matter content exceeds 63%"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/peat"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/peat"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/peat"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/peat"
     }
   ],
   "inScheme": [

@@ -5,15 +5,21 @@
     "es": "roca sienítica foídica",
     "en": "foidic syenitic rock"
   },
+  "altLabel": {
+    "es": [
+      "sienitoide foídico"
+    ]
+  },
   "definition": {
-    "es": "Nombre utilizado en la descripción provisional de las rocas de tipo sienita y monzosienita foídicas"
+    "es": "Nombre utilizado en la descripción provisional de las rocas de tipo sienita y monzosienita foídicas",
+    "en": "Name used in the provisional description of foidic syenite and monzosyenite type rocks"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_syenitoid"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidSyenitoid"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidSyenitoid"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_syenitoid"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "norite"
   },
   "definition": {
-    "es": "Roca plutónica gabroica constituida por plagioclasa cálcica y ortopiroxeno"
+    "es": "Roca plutónica gabroica constituida por plagioclasa cálcica y ortopiroxeno",
+    "en": "Gabbroic plutonic rock consisting of calcic plagioclase and orthopyroxene"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gabbroic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gabbroicRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gabbroic_rock"
     }
   ],
   "inScheme": [

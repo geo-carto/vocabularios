@@ -6,14 +6,15 @@
     "en": "pillow lava"
   },
   "definition": {
-    "es": "Tipo de lava cuya superficie está conformada por una serie de abultamientos esferoidales, adosados o interferentes, con aspecto de almohadones. se genera en fondos subacuáticos por enfriamiento rápido de efusiones volcánicas, preferentemente submarinas, y es característica del volcanismo asociado a las dorsales centrooceánicas"
+    "es": "Tipo de lava cuya superficie está conformada por una serie de abultamientos esferoidales, adosados o interferentes, con aspecto de almohadones. se genera en fondos subacuáticos por enfriamiento rápido de efusiones volcánicas, preferentemente submarinas, y es característica del volcanismo asociado a las dorsales centrooceánicas",
+    "en": "Type of lava whose surface is shaped by a series of spheroidal bulges, adjoined or interfering, with a pillow-like appearance. It is generated on submarine floors by the rapid cooling of volcanic effusions, preferentially submarine, and is characteristic of volcanism associated with mid-oceanic ridges"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_material"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/igneousMaterial"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_material"
     }
   ],
   "inScheme": [

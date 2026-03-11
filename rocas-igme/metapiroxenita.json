@@ -6,14 +6,15 @@
     "en": "metapyroxenite"
   },
   "definition": {
-    "es": "Roca metamórfica derivada de una piroxenita"
+    "es": "Roca metamórfica derivada de una piroxenita",
+    "en": "Metamorphic rock derived from a pyroxenite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
     }
   ],
   "inScheme": [

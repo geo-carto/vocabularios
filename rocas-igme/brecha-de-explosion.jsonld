@@ -6,14 +6,15 @@
     "en": "explosion breccia"
   },
   "definition": {
-    "es": "Depósito piroclástico constituido por piroclastos líticos transportados balísticamente, característico de erupciones freáticas y freatomagmáticas"
+    "es": "Depósito piroclástico constituido por piroclastos líticos transportados balísticamente, característico de erupciones freáticas y freatomagmáticas",
+    "en": "Pyroclastic deposit consisting of lithic pyroclasts transported ballistically, characteristic of phreatic and phreatomagmatic eruptions"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_material"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pyroclasticMaterial"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_material"
     }
   ],
   "inScheme": [

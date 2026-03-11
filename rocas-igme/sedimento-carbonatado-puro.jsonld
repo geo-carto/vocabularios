@@ -6,14 +6,15 @@
     "en": "pure carbonate sediment"
   },
   "definition": {
-    "es": "Depósito compuesto en más de un 90% por minerales carbonatados"
+    "es": "Depósito compuesto en más de un 90% por minerales carbonatados",
+    "en": "Deposit composed of more than 90% carbonate minerals"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pure_carbonate_sediment"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pureCarbonateSediment"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pureCarbonateSediment"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pure_carbonate_sediment"
     }
   ],
   "inScheme": [

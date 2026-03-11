@@ -6,14 +6,15 @@
     "en": "amber"
   },
   "definition": {
-    "es": "Roca o mineral amorfo de origen orgánico, translúcido, de color amarillo o pardo y brillo resinoso, resultante de la polimerización espontánea de la resina de coníferas fósiles. puede contener fósiles, principalmente insectos, bien conservados"
+    "es": "Roca o mineral amorfo de origen orgánico, translúcido, de color amarillo o pardo y brillo resinoso, resultante de la polimerización espontánea de la resina de coníferas fósiles. puede contener fósiles, principalmente insectos, bien conservados",
+    "en": "Amorphous mineral of organic origin, translucent, yellow or brown in colour and with resinous lustre, resulting from the spontaneous polymerization of the resin of fossil conifers. It may contain fossils, mainly insects, well preserved"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/organic_rich_sedimentary_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/organicRichSedimentaryRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/organic_rich_sedimentary_rock"
     }
   ],
   "inScheme": [

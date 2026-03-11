@@ -6,14 +6,15 @@
     "en": "olivine-hornblende pyroxenite"
   },
   "definition": {
-    "es": "Piroxenita con olivino y hornblenda en cantidades superiores al 5%"
+    "es": "Piroxenita con olivino y hornblenda en cantidades superiores al 5%",
+    "en": "Pyroxenite with olivine and hornblende in amounts exceeding 5%"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroxenite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pyroxenite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroxenite"
     }
   ],
   "inScheme": [

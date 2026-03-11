@@ -3,25 +3,28 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Aptiense",
-    "en": "Aptian"
+    "en": "Aptian",
+    "vl": "Aptià"
   },
-  "definition": {
-    "es": "Límite inferior -125.0 ma, límite superior -113.0 ma",
-    "en": "Older bound -125.0 ma, younger bound -113.0 ma"
-  },
+  "notation": [
+    "212030105000",
+    "a1.1.2.1.2.2"
+  ],
   "narrower": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aptiense-superior",
-      "prefLabel": {
-        "es": "Aptiense Superior",
-        "en": "Upper Aptian"
-      }
-    },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aptiense-inferior",
       "prefLabel": {
         "es": "Aptiense Inferior",
-        "en": "Lower Aptian"
+        "en": "Lower Aptian",
+        "vl": "Aptià Inferior"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aptiense-superior",
+      "prefLabel": {
+        "es": "Aptiense Superior",
+        "en": "Upper Aptian",
+        "vl": "Aptià Superior"
       }
     }
   ],
@@ -29,15 +32,16 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-inferior",
     "prefLabel": {
       "es": "Cretácico Inferior",
-      "en": "Lower Cretaceous"
+      "en": "Lower Cretaceous",
+      "vl": "Cretaci Inferior"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Aptian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aptian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aptian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Aptian"
     }
   ],
   "inScheme": [

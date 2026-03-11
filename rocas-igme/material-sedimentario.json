@@ -6,14 +6,15 @@
     "en": "sedimentary material"
   },
   "definition": {
-    "es": "Material formado en el exterior de la corteza terrestre mediante un proceso de sedimentación. presenta estructuras características, como, principalmente, la estratificación"
+    "es": "Material formado en el exterior de la corteza terrestre mediante un proceso de sedimentación. presenta estructuras características, como, principalmente, la estratificación",
+    "en": "Material formed outside the Earth's crust by a sedimentary process. It exhibits characteristic structures, primarily stratification"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/sedimentary_material"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sedimentaryMaterial"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sedimentaryMaterial"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/sedimentary_material"
     }
   ],
   "inScheme": [

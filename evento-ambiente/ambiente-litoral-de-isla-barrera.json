@@ -11,17 +11,17 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-playa-de-barrera",
-      "prefLabel": {
-        "es": "ambiente de playa de barrera",
-        "en": "barrier beach setting"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-laguna-litoral-de-barrera",
       "prefLabel": {
         "es": "ambiente de laguna litoral de barrera",
         "en": "barrier lagoon setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-playa-de-barrera",
+      "prefLabel": {
+        "es": "ambiente de playa de barrera",
+        "en": "barrier beach setting"
       }
     }
   ],
@@ -34,10 +34,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/barrier_island_coastline_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/barrierIslandCoastlineSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/barrierIslandCoastlineSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/barrier_island_coastline_setting"
     }
   ],
   "inScheme": [

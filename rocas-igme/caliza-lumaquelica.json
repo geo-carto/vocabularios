@@ -5,15 +5,21 @@
     "es": "caliza lumaquélica",
     "en": "shell bed limestone"
   },
-  "definition": {
-    "es": "roca clástica formada por aglomeración de conchas de moluscos o braquiópodos, o por fragmentos de las mismas, de tamaño superior a 2 mm"
+  "altLabel": {
+    "es": [
+      "coquina, lumaquela"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
-    },
+  "definition": {
+    "es": "Roca clástica formada por aglomeración de conchas de moluscos o braquiópodos, o por fragmentos de las mismas, de tamaño superior a 2 mm",
+    "en": "Clastic rock formed by the agglomeration of mollusc or brachiopod shells, or their fragments, with a size exceeding 2 mm"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
     }
   ],
   "inScheme": [

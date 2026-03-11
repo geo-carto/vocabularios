@@ -9,19 +9,12 @@
     "es": "Una laguna costera producida por el cierre temporal del estuario de un río por una barrera de tormenta. Estas lagunas son generalmente temporales y duran hasta que el río rompe la barrera; ocurren en regiones de precipitación escasa y de caracter súbito.",
     "en": "A lagoon produced by the temporary sealing of a river estuary by a storm barrier. Such lagoons are usually seasonal and exist until the river breaches the barrier; they occur in regions of low or spasmodic rainfall."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-estuarino",
-    "prefLabel": {
-      "es": "ambiente estuarino",
-      "en": "estuary setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/estuarine_lagoon"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/estuarineLagoonSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/estuarineLagoonSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/estuarine_lagoon"
     }
   ],
   "inScheme": [

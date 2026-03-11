@@ -6,14 +6,15 @@
     "en": "metasomatic rock"
   },
   "definition": {
-    "es": "Roca derivada de un proceso metamórfico por el que se produce un cambio importante en la composición química de la roca sujeta a metamorfismo, debido a interacción con fluidos hidrotermales o magmas"
+    "es": "Roca derivada de un proceso metamórfico por el que se produce un cambio importante en la composición química de la roca sujeta a metamorfismo, debido a interacción con fluidos hidrotermales o magmas",
+    "en": "Rock derived from a metamorphic process in which an important change in the chemical composition of the rock subject to metamorphism occurs, due to interaction with hydrothermal fluids or magmas"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metasomatic_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/metasomaticRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/metasomaticRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metasomatic_rock"
     }
   ],
   "inScheme": [

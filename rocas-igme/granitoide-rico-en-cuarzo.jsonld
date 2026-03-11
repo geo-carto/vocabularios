@@ -6,14 +6,15 @@
     "en": "quartz-rich granitoid"
   },
   "definition": {
-    "es": "Nombre utilizado en la descripción provisional de rocas plutónicas leucocráticas en las que el cuarzo es el constituyente principal"
+    "es": "Nombre utilizado en la descripción provisional de rocas plutónicas leucocráticas en las que el cuarzo es el constituyente principal",
+    "en": "Name used in the provisional description of leucocratic plutonic rocks in which quartz is the main constituent"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/quartz_rich_igneous_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/quartzRichIgneousRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/quartzRichIgneousRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/quartz_rich_igneous_rock"
     }
   ],
   "inScheme": [

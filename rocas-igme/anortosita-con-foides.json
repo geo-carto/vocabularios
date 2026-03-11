@@ -6,14 +6,15 @@
     "en": "foid-bearing anorthosite"
   },
   "definition": {
-    "es": "Roca plutónica perteneciente al grupo de las rocas anortosíticas, que contiene feldespatoides"
+    "es": "Roca plutónica perteneciente al grupo de las rocas anortosíticas, que contiene feldespatoides",
+    "en": "Plutonic rock belonging to the group of anorthositic rocks, containing feldspathoids"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_anorthosite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidBearingAnorthosite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidBearingAnorthosite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_anorthosite"
     }
   ],
   "inScheme": [

@@ -25,17 +25,17 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion-por-descompresion",
-      "prefLabel": {
-        "es": "meteorización por descompresión",
-        "en": "pressure release weathering"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion-por-choque-termico",
       "prefLabel": {
         "es": "meteorización por choque térmico",
         "en": "thermal shock weathering"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion-por-descompresion",
+      "prefLabel": {
+        "es": "meteorización por descompresión",
+        "en": "pressure release weathering"
       }
     }
   ],
@@ -48,10 +48,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/physical_weathering"
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/physicalWeathering"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/physicalWeathering"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/physical_weathering"
     }
   ],
   "inScheme": [

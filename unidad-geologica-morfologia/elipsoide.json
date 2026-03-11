@@ -9,17 +9,75 @@
     "es": "Cuerpo que contiene tres ejes ortogonales que definen tres superficies con simetría y perfiles elípticos. No presenta bordes que puedan delimitar lados. Evoluciona a cilindro o disco cuando se puede distinguir una superficie limite paralela a uno de los ejes. L> = W> = H",
     "en": "Body that contains three orthogonal axes defining three surfaces of reflection symmetry, profiles along the surfaces are elliptical. Boundary can not be separated into sides (no edges). Becomes cylinder or disc when bounding surface can be considered parallel to one of the axis. L>=W>=H"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/almohadilla",
+      "prefLabel": {
+        "es": "almohadilla",
+        "en": "pillow ellipsoid"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide-achatado",
+      "prefLabel": {
+        "es": "elipsoide achatado",
+        "en": "pancake ellipsoid"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide-alargado",
+      "prefLabel": {
+        "es": "elipsoide alargado",
+        "en": "bread loaf ellipsoid"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide-amelonado",
+      "prefLabel": {
+        "es": "elipsoide amelonado",
+        "en": "football ellipsoid"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide-muy-alargado",
+      "prefLabel": {
+        "es": "elipsoide muy alargado",
+        "en": "dart ellipsoid"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/esferoide",
+      "prefLabel": {
+        "es": "esferoide",
+        "en": "spheroid"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-elipsoidal",
+      "prefLabel": {
+        "es": "lámina elipsoidal",
+        "en": "sheet ellipsoid"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-tridimensional",
+    "prefLabel": {
+      "es": "cuerpo tridimensional",
+      "en": "three dimensional body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/ellipsoid"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

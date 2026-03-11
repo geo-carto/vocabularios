@@ -3,21 +3,24 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Plioceno Inferior",
-    "en": "Lower Pliocene"
+    "en": "Lower Pliocene",
+    "vl": "Pliocè Inferior"
   },
+  "altLabel": {
+    "en": [
+      "Early Pliocene"
+    ]
+  },
+  "notation": [
+    "213020210000"
+  ],
   "narrower": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/piacenziense",
-      "prefLabel": {
-        "es": "Piacenziense",
-        "en": "Piacenzian"
-      }
-    },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/zancliense",
       "prefLabel": {
         "es": "Zancliense",
-        "en": "Zanclean"
+        "en": "Zanclean",
+        "vl": "Zanclià"
       }
     }
   ],
@@ -25,9 +28,26 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/plioceno",
     "prefLabel": {
       "es": "Plioceno",
-      "en": "Pliocene"
+      "en": "Pliocene",
+      "vl": "Pliocè"
     }
   },
+  "broadMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pliocene"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Pliocene"
+    }
+  ],
+  "narrowMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/zanclean"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Zanclean"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"

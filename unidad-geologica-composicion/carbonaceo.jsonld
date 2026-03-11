@@ -9,6 +9,20 @@
     "es": "Material que contiene importantes fases minerales de carbono o hidrocarburos, incluidos grafito, carbón, petróleo, gas, lignito, turba",
     "en": "Material containing significant carbon or hydrocarbon mineral phases, including graphite, coal, oil, gas, lignite, peat"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/asfaltico",
+      "prefLabel": {
+        "es": "asfáltico",
+        "en": "asphaltic"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonaceous"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"

@@ -9,19 +9,12 @@
     "es": "Un delta que ha llenado, o se encuentra en el proceso de llenar, un estuario.",
     "en": "A delta that has filled, or is in the process of filling, an estuary."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-deltaico",
-    "prefLabel": {
-      "es": "ambiente de sistema deltaico",
-      "en": "deltaic system setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/estuarine_delta"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/estuarineDeltaSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/estuarineDeltaSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/estuarine_delta"
     }
   ],
   "inScheme": [

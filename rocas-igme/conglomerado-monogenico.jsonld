@@ -3,17 +3,18 @@
   "type": "Concept",
   "prefLabel": {
     "es": "conglomerado monogénico",
-    "en": "monogenic conglomerate"
+    "en": "monomictic conglomerate"
   },
   "definition": {
-    "es": "Conglomerado constituido por cantos de un mismo tipo de roca"
+    "es": "Conglomerado constituido por cantos de un mismo tipo de roca",
+    "en": "Conglomerate consisting of clasts of a single rock type"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/conglomerate"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate"
     }
   ],
   "inScheme": [

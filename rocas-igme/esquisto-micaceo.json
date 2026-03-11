@@ -5,15 +5,21 @@
     "es": "esquisto micáceo",
     "en": "micaceous schist"
   },
-  "definition": {
-    "es": "Esquisto rico en mica, derivado de un protolito pelítico"
+  "altLabel": {
+    "es": [
+      "micacita, micaesquisto"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foliated_metamorphic_rock"
-    },
+  "definition": {
+    "es": "Esquisto rico en mica, derivado de un protolito pelítico",
+    "en": "Mica-rich schist derived from a pelitic protolith"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foliatedMetamorphicRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foliated_metamorphic_rock"
     }
   ],
   "inScheme": [

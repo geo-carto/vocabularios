@@ -3,25 +3,27 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Barremiense",
-    "en": "Barremian"
+    "en": "Barremian",
+    "vl": "Barremià"
   },
-  "definition": {
-    "es": "Límite inferior -129.4 ma, límite superior -125.0 ma",
-    "en": "Older bound -129.4 ma, younger bound -125.0 ma"
-  },
+  "notation": [
+    "212030104000",
+    "a1.1.2.1.2.3"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-inferior",
     "prefLabel": {
       "es": "Cretácico Inferior",
-      "en": "Lower Cretaceous"
+      "en": "Lower Cretaceous",
+      "vl": "Cretaci Inferior"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Barremian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/barremian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/barremian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Barremian"
     }
   ],
   "inScheme": [

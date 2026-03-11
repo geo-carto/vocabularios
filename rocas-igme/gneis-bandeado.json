@@ -6,14 +6,15 @@
     "en": "banded gneiss"
   },
   "definition": {
-    "es": "Gneis equigranular, con franjas claras y oscuras regulares y bien marcadas"
+    "es": "Gneis equigranular, con franjas claras y oscuras regulares y bien marcadas",
+    "en": "Equigranular gneiss with regular and well-marked light and dark bands"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gneiss"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gneiss"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gneiss"
     }
   ],
   "inScheme": [

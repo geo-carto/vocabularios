@@ -5,10 +5,10 @@
     "es": "Jiangshaniense",
     "en": "Jiangshanian"
   },
-  "definition": {
-    "es": "Límite inferior -494.0 ma, límite superior -489.5 ma",
-    "en": "Older bound -494.0 ma, younger bound -489.5 ma"
-  },
+  "notation": [
+    "211010402000",
+    "a1.1.3.6.1.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/furongiense",
     "prefLabel": {
@@ -18,10 +18,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Cambrian-Stage_9"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrianStage9"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrian-stage9"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Jiangshanian"
     }
   ],
   "inScheme": [

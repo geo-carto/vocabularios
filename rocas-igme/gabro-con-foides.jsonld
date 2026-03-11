@@ -6,14 +6,15 @@
     "en": "foid-bearing gabbro"
   },
   "definition": {
-    "es": "Roca plutónica perteneciente al grupo de las rocas gabroicas, que contiene feldespatoides"
+    "es": "Roca plutónica perteneciente al grupo de las rocas gabroicas, que contiene feldespatoides",
+    "en": "Plutonic rock belonging to the group of gabbroic rocks, containing feldspathoids"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_gabbro"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidBearingGabbro"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidBearingGabbro"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_gabbro"
     }
   ],
   "inScheme": [

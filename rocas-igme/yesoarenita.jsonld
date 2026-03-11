@@ -2,18 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/rocas-igme/yesoarenita",
   "type": "Concept",
   "prefLabel": {
-    "es": "Yesoarenita",
+    "es": "yesoarenita",
     "en": "gypsarenite"
   },
-  "definition": {
-    "es": "Arenita constituida por granos de yeso"
+  "altLabel": {
+    "es": [
+      "gypsarenita"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/arenite"
-    },
+  "definition": {
+    "es": "Arenita constituida por granos de yeso",
+    "en": "Arenite consisting of gypsum grains"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/arenite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/arenite"
     }
   ],
   "inScheme": [

@@ -3,12 +3,26 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Pleistoceno Medio",
-    "en": "Middle Pleistocene"
+    "en": "Middle Pleistocene",
+    "vl": "Plistocè Mitjà"
   },
-  "definition": {
-    "es": "Límite inferior -0.781 ma, límite superior -0.126 ma",
-    "en": "Older bound -0.781 ma, younger bound -0.126 ma"
+  "altLabel": {
+    "es": [
+      "Ioniense, Chibaniense"
+    ],
+    "en": [
+      "Ionian,Chibanian"
+    ]
   },
+  "changeNote": {
+    "es": [
+      "ICS: sustituido por Chibaniense"
+    ]
+  },
+  "notation": [
+    "213030120000",
+    "a1.1.1.1.2.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/chibaniense",
@@ -22,15 +36,18 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno",
     "prefLabel": {
       "es": "Pleistoceno",
-      "en": "Pleistocene"
+      "en": "Pleistocene",
+      "vl": "Plistocè"
     }
   },
+  "closeMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ionian"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/"
-    },
-    {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/MiddlePleistocene"
     }
   ],
   "inScheme": [

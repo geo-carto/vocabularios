@@ -9,19 +9,12 @@
     "es": "La parte de una cuenca subacuática que se localiza entre la orla del ambiente de plataforma, que separa la cuenca de la masa terrestre adyacente, y el ambiente de relieve muy bajo de la llanura de cuenca.",
     "en": "The part of a subaqueous basin that is between a bordering shelf setting, which separate the basin from an adjacent landmass, and a very low-relief basin plain setting."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-marino",
-    "prefLabel": {
-      "es": "ambiente marino",
-      "en": "marine setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/slope_rise_settings"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/slope-riseSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/slope-riseSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/slope_rise_settings"
     }
   ],
   "inScheme": [
@@ -30,6 +23,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
     }

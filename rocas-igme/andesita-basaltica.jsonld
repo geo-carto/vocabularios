@@ -6,14 +6,15 @@
     "en": "basaltic andesite"
   },
   "definition": {
-    "es": "Roca volcánica intermedia o básica, subalcalina o calcoalcalina, con plagioclasa de composición similar a la de la andesita y con minerales ferromagnesianos característicos de los basaltos"
+    "es": "Roca volcánica intermedia o básica, subalcalina o calcoalcalina, con plagioclasa de composición similar a la de la andesita y con minerales ferromagnesianos característicos de los basaltos",
+    "en": "Intermediate or basic, subalkaline or calc-alkaline volcanic rock, with plagioclase of similar composition to that of andesite and with ferromagnesian minerals characteristic of basalts"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/andesite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/andesite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/andesite"
     }
   ],
   "inScheme": [

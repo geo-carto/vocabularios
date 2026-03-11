@@ -5,15 +5,21 @@
     "es": "caliza arrecifal",
     "en": "reef limestone"
   },
-  "definition": {
-    "es": "Caliza formada por organismos constructores de arrecifes, generalmente corales, que permanecen frecuentemente en posición de vida"
+  "altLabel": {
+    "es": [
+      "biohermo, caliza biohérmica, caliza recifal"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/boundstone"
-    },
+  "definition": {
+    "es": "Caliza formada por organismos constructores de arrecifes, generalmente corales, que permanecen frecuentemente en posición de vida",
+    "en": "Limestone formed by reef-building organisms, generally corals, which frequently remain in life position"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/boundstone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/boundstone"
     }
   ],
   "inScheme": [

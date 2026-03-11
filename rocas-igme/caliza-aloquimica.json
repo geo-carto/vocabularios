@@ -6,14 +6,15 @@
     "en": "allochemical limestone"
   },
   "definition": {
-    "es": "Caliza con un contenido en aloquímicos superior al 10% del total de la roca"
+    "es": "Caliza con un contenido en aloquímicos superior al 10% del total de la roca",
+    "en": "Limestone with an allochem content exceeding 10% of the total rock"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
     }
   ],
   "inScheme": [

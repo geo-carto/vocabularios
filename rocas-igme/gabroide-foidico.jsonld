@@ -5,15 +5,21 @@
     "es": "gabroide foídico",
     "en": "foidic gabbroid"
   },
+  "altLabel": {
+    "es": [
+      "roca gabroica foídica"
+    ]
+  },
   "definition": {
-    "es": "Nombre utilizado en la descripción provisional de las rocas de tipo gabro y monzogabro foídicos"
+    "es": "Nombre utilizado en la descripción provisional de las rocas de tipo gabro y monzogabro foídicos",
+    "en": "Name used in the provisional description of foidic gabbro and monzogabbro type rocks"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_gabbroid"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidGabbroid"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidGabbroid"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_gabbroid"
     }
   ],
   "inScheme": [

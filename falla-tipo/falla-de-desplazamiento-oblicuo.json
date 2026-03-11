@@ -11,10 +11,10 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-sinistra",
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-dextra",
       "prefLabel": {
-        "es": "falla normal sinistra",
-        "en": "left normal fault"
+        "es": "falla inversa dextra",
+        "en": "right reverse fault"
       }
     },
     {
@@ -32,10 +32,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-dextra",
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-sinistra",
       "prefLabel": {
-        "es": "falla inversa dextra",
-        "en": "right reverse fault"
+        "es": "falla normal sinistra",
+        "en": "left normal fault"
       }
     }
   ],
@@ -48,10 +48,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/faulttype/oblique_slip_fault"
+      "id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/obliqueSlipFault"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/obliqueSlipFault"
+      "id": "http://resource.geosciml.org/classifier/cgi/faulttype/oblique_slip_fault"
     }
   ],
   "inScheme": [

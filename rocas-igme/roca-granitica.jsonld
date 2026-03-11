@@ -5,15 +5,21 @@
     "es": "roca granítica",
     "en": "granitic rock"
   },
+  "altLabel": {
+    "es": [
+      "granitoide"
+    ]
+  },
   "definition": {
-    "es": "Nombre utilizado en la descripción provisional de rocas plutónicas que tienen como minerales esenciales cuarzo, feldespato alcalino y/o plagioclasa, tentativamente identificadas como granito, granodiorita y tonalita"
+    "es": "Nombre utilizado en la descripción provisional de rocas plutónicas que tienen como minerales esenciales cuarzo, feldespato alcalino y/o plagioclasa, tentativamente identificadas como granito, granodiorita y tonalita",
+    "en": "Name used in the provisional description of plutonic rocks whose essential minerals are quartz, alkali feldspar and/or plagioclase, tentatively identified as granite, granodiorite and tonalite"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/granitoid"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/granitoid"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/granitoid"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/granitoid"
     }
   ],
   "inScheme": [

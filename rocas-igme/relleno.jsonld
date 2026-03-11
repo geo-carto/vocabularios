@@ -6,14 +6,15 @@
     "en": "fill"
   },
   "definition": {
-    "es": "Materiales térreos que se usan principalmente para mejorar, nivelar o elevar la superficie del terreno"
+    "es": "Materiales térreos que se usan principalmente para mejorar, nivelar o elevar la superficie del terreno",
+    "en": "Earthy materials used mainly to improve, level or raise the ground surface"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/anthropogenic_unconsolidated_material"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/anthropogenicUnconsolidatedMaterial"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/anthropogenic_unconsolidated_material"
     }
   ],
   "inScheme": [

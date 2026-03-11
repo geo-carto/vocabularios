@@ -2,35 +2,21 @@
   "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/collection",
   "type": "Collection",
   "prefLabel": {
-    "es": "https://geo-carto.github.io/vocabularios/estratificacion-patron - Todos los conceptos"
+    "es": "Patrón de estratificación - Todos los conceptos"
   },
   "member": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/estratodecreciente",
-      "prefLabel": {
-        "es": "estratodecreciente",
-        "en": "thinning upward"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/estratocreciente",
-      "prefLabel": {
-        "es": "estratocreciente",
-        "en": "thickening  upward"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/regular",
-      "prefLabel": {
-        "es": "regular",
-        "en": "regular"
-      }
-    },
     {
       "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/aleatoria",
       "prefLabel": {
         "es": "aleatoria",
         "en": "random"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/ciclica",
+      "prefLabel": {
+        "es": "cíclica",
+        "en": "cyclic"
       }
     },
     {
@@ -41,17 +27,17 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/masiva",
+      "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/estratocreciente",
       "prefLabel": {
-        "es": "masiva",
-        "en": "massive"
+        "es": "estratocreciente",
+        "en": "thickening  upward"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/homogenea",
+      "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/estratodecreciente",
       "prefLabel": {
-        "es": "homogénea",
-        "en": "homogeneous"
+        "es": "estratodecreciente",
+        "en": "thinning upward"
       }
     },
     {
@@ -62,17 +48,31 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/homogenea",
+      "prefLabel": {
+        "es": "homogénea",
+        "en": "homogeneous"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/masiva",
+      "prefLabel": {
+        "es": "masiva",
+        "en": "massive"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/regular",
+      "prefLabel": {
+        "es": "regular",
+        "en": "regular"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/ritmica",
       "prefLabel": {
         "es": "rítmica",
         "en": "rhythmic"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/ciclica",
-      "prefLabel": {
-        "es": "cíclica",
-        "en": "cyclic"
       }
     }
   ],

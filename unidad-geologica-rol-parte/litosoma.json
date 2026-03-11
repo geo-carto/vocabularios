@@ -18,24 +18,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/paquete-sedimentario-ciclico",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/dique-o-vena",
       "prefLabel": {
-        "es": "paquete sedimentario cíclico",
-        "en": "cyclic bedding package"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/matriz-de-unidad-geologica",
-      "prefLabel": {
-        "es": "matriz de unidad geológica",
-        "en": "geologic unit matrix"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-irregular",
-      "prefLabel": {
-        "es": "litosoma irregular",
-        "en": "irregular lithosome"
+        "es": "dique o vena",
+        "en": "vein or dike lithosome"
       }
     },
     {
@@ -46,6 +32,13 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-irregular",
+      "prefLabel": {
+        "es": "litosoma irregular",
+        "en": "irregular lithosome"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-lenticular",
       "prefLabel": {
         "es": "litosoma lenticular",
@@ -53,10 +46,17 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/dique-o-vena",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/matriz-de-unidad-geologica",
       "prefLabel": {
-        "es": "dique o vena",
-        "en": "vein or dike lithosome"
+        "es": "matriz de unidad geológica",
+        "en": "geologic unit matrix"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/paquete-sedimentario-ciclico",
+      "prefLabel": {
+        "es": "paquete sedimentario cíclico",
+        "en": "cyclic bedding package"
       }
     }
   ],
@@ -67,6 +67,14 @@
       "en": "part of"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/lithosome"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/lithosome"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"

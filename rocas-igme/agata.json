@@ -2,18 +2,19 @@
   "id": "https://geo-carto.github.io/vocabularios/rocas-igme/agata",
   "type": "Concept",
   "prefLabel": {
-    "es": "Ágata",
+    "es": "ágata",
     "en": "agate"
   },
   "definition": {
-    "es": "Variedad de la calcedonia, de textura característica, que se presenta en zonas concéntricas de diversa coloración"
+    "es": "Variedad de la calcedonia, de textura característica, que se presenta en zonas concéntricas de diversa coloración",
+    "en": "Variety of chalcedony with a characteristic texture, presenting concentric zones of diverse colouration"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/non-clasticSiliceousSedimentaryRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_rock"
     }
   ],
   "inScheme": [

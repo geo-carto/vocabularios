@@ -9,19 +9,21 @@
     "es": "Un marisma que bordea una costa (como en una laguna litoral somera o una bahía protegida), formado por fango y un resistente tapiz de raíces de plantas que toleran la sal, e inundado con regularidad durante la pleamar; un llanura mareal marismeña.",
     "en": "A marsh bordering a coast (as in a shallow lagoon or sheltered bay), formed of mud and of the resistant mat of roots of salt-tolerant plants, and regularly inundated during high tides; a marshy tidal flat."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-pantano-o-marisma",
-    "prefLabel": {
-      "es": "ambiente de pantano o marisma",
-      "en": "swamp or marsh setting"
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-marisma-mareal",
+      "prefLabel": {
+        "es": "ambiente de marisma mareal",
+        "en": "tidal marsh setting"
+      }
     }
-  },
+  ],
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/tidal_marsh"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/tidalMarshSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/tidalMarshSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/tidal_marsh"
     }
   ],
   "inScheme": [

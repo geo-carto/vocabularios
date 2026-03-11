@@ -9,6 +9,11 @@
     "es": "Ambiente con influencia humana debido a la agricultura intensiva o uso forestal del suelo, incluyendo las plantaciones forestales.",
     "en": "Human influence setting with intensive agricultural activity or forestry land use,  including forest plantations."
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/agriculturalAndForestryLandSetting"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"

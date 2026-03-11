@@ -9,17 +9,24 @@
     "es": "Cuerpo de roca que tiene una relación de longitud a anchura mayor de 10 a 1, con dos dimensiones inferiores similares",
     "en": "Rock body that has a length to width ratio greater than 10 to 1, with two sub equal width dimensions"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-geologico",
+    "prefLabel": {
+      "es": "cuerpo geológico",
+      "en": "geologic body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/pipe"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

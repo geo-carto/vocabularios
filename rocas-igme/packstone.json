@@ -6,14 +6,15 @@
     "en": "packstone"
   },
   "definition": {
-    "es": "Roca carbonatada grano-soportada, con matriz micrítica entre los granos, según la clasificación de dunham 1962"
+    "es": "Roca carbonatada grano-soportada, con matriz micrítica entre los granos, según la clasificación de dunham 1962",
+    "en": "Grain-supported carbonate rock, with micritic matrix between the grains, according to the Dunham (1962) classification"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/packstone"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/packstone"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/packstone"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/packstone"
     }
   ],
   "inScheme": [

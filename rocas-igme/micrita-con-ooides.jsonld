@@ -6,14 +6,15 @@
     "en": "micrite with ooids"
   },
   "definition": {
-    "es": "Caliza micrítica con aloquímicos, de entre los que predominan los ooides"
+    "es": "Caliza micrítica con aloquímicos, de entre los que predominan los ooides",
+    "en": "Micritic limestone with allochems, among which ooids predominate"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
     }
   ],
   "inScheme": [

@@ -5,12 +5,46 @@
     "es": "Headoniense",
     "en": "Headonian"
   },
-  "exactMatch": [
+  "definition": {
+    "es": "Límite inferior 37.71 Ma, límite superior 33.9 Ma",
+    "en": "Older bound 37.71 Ma, younger bound 33.9 Ma"
+  },
+  "notation": [
+    "213010207091",
+    "a1.1.1.3.2.1"
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/eoceno",
+    "prefLabel": {
+      "es": "Eoceno",
+      "en": "Eocene",
+      "vl": "Eocè"
+    }
+  },
+  "related": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Priabonian"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/bartoniense",
+      "prefLabel": {
+        "es": "Bartoniense",
+        "en": "Bartonian",
+        "vl": "Bartonià"
+      }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/priaboniense",
+      "prefLabel": {
+        "es": "Priaboniense",
+        "en": "Priabonian",
+        "vl": "Priabonià"
+      }
+    }
+  ],
+  "relatedMatch": [
+    {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/priabonian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Priabonian"
     }
   ],
   "inScheme": [

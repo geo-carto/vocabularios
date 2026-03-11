@@ -11,6 +11,13 @@
   },
   "narrower": [
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-fangosa",
+      "prefLabel": {
+        "es": "ambiente de llanura fangosa",
+        "en": "mud flat setting"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanuras-algares",
       "prefLabel": {
         "es": "ambiente de llanuras algares",
@@ -18,10 +25,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-fangosa",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-sabkha-marina-marginal",
       "prefLabel": {
-        "es": "ambiente de llanura fangosa",
-        "en": "mud flat setting"
+        "es": "ambiente sabkha marina marginal",
+        "en": "marginal marine sabkha setting"
       }
     }
   ],
@@ -34,10 +41,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/low_energy_shoreline_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/lowEnergyShorelineSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/lowEnergyShorelineSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/low_energy_shoreline_setting"
     }
   ],
   "inScheme": [

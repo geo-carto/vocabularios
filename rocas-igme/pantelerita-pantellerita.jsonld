@@ -6,14 +6,15 @@
     "en": "pantellerite"
   },
   "definition": {
-    "es": "Variedad de riolita, peralcalina, más pobre en óxido de aluminio frente a óxido ferroso que la comendita"
+    "es": "Variedad de riolita, peralcalina, más pobre en óxido de aluminio frente a óxido ferroso que la comendita",
+    "en": "Variety of rhyolite, peralkaline, poorer in aluminium oxide relative to ferrous oxide than comendite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/rhyolite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/rhyolite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/rhyolite"
     }
   ],
   "inScheme": [

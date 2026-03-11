@@ -9,17 +9,24 @@
     "es": "Cuerpo con superficie lisa, aproximadamente equidimensional con protuberancias irregulares, sin ejes de simetría ni bordes que puedan delimitar lados",
     "en": "Body with smooth surface, broadly equant shape, irregular protuberances, no symmetry axes, and a boundary that can not be separated into sides"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-tridimensional",
+    "prefLabel": {
+      "es": "cuerpo tridimensional",
+      "en": "three dimensional body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/blob"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

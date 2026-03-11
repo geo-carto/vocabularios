@@ -18,26 +18,33 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion-quimica",
-      "prefLabel": {
-        "es": "meteorización química",
-        "en": "chemical weathering"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion-fisica",
       "prefLabel": {
         "es": "meteorización física",
         "en": "physical weathering"
       }
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/weathering"
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion-quimica",
+      "prefLabel": {
+        "es": "meteorización química",
+        "en": "chemical weathering"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
+    "prefLabel": {
+      "es": "proceso geológico",
+      "en": "geologic process"
+    }
+  },
+  "exactMatch": [
+    {
       "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/weathering"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/weathering"
     }
   ],
   "inScheme": [
@@ -46,11 +53,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

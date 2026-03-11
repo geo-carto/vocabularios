@@ -9,19 +9,12 @@
     "es": "Perteneciente a la zona costera marginal a la zona litoral, justo por encima del nivel pleamar.",
     "en": "Pertaining to the shore area marginal to the littoral zone, just above high-tide level."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral",
-    "prefLabel": {
-      "es": "ambiente litoral",
-      "en": "shoreline setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/supratidal"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/supratidalSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/supratidalSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/supratidal"
     }
   ],
   "inScheme": [

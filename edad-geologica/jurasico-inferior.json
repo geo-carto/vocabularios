@@ -3,39 +3,49 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Jurásico Inferior",
-    "en": "Lower Jurassic"
+    "en": "Lower Jurassic",
+    "vl": "Juràssic Inferior"
   },
-  "definition": {
-    "es": "Límite inferior -201.3 +|-0.2 ma, límite superior -174.1 +|-1.0 ma",
-    "en": "Older bound -201.3 +|-0.2 ma, younger bound -174.1 +|-1.0 ma"
+  "altLabel": {
+    "en": [
+      "Early Jurassic"
+    ]
   },
+  "notation": [
+    "212020100000",
+    "a1.1.2.2.3"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/hettangiense",
       "prefLabel": {
         "es": "Hettangiense",
-        "en": "Hettangian"
+        "en": "Hettangian",
+        "vl": "Hettangià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pliensbachiense",
       "prefLabel": {
         "es": "Pliensbachiense",
-        "en": "Pliensbachian"
+        "en": "Pliensbachian",
+        "vl": "Pliensbaquià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/sinemuriense",
       "prefLabel": {
         "es": "Sinemuriense",
-        "en": "Sinemurian"
+        "en": "Sinemurian",
+        "vl": "Sinemurià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/toarciense",
       "prefLabel": {
         "es": "Toarciense",
-        "en": "Toarcian"
+        "en": "Toarcian",
+        "vl": "Toarcià"
       }
     }
   ],
@@ -43,15 +53,16 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico",
     "prefLabel": {
       "es": "Jurásico",
-      "en": "Jurassic"
+      "en": "Jurassic",
+      "vl": "Juràssic"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Early_Jurassic"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerJurassic"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/earlyJurassic"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/LowerJurassic"
     }
   ],
   "inScheme": [

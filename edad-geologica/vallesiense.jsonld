@@ -3,14 +3,28 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Vallesiense",
-    "en": "Vallesian"
+    "en": "Vallesian",
+    "vl": "Vallesià"
   },
-  "exactMatch": [
+  "notation": [
+    "213020105091"
+  ],
+  "related": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Tortonian"
-    },
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/tortoniense",
+      "prefLabel": {
+        "es": "Tortoniense",
+        "en": "Tortonian",
+        "vl": "Tortonià"
+      }
+    }
+  ],
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tortonian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Tortonian"
     }
   ],
   "inScheme": [

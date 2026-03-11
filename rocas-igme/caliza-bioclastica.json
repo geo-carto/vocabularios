@@ -6,14 +6,15 @@
     "en": "bioclastic limestone"
   },
   "definition": {
-    "es": "Caliza formada mayoritariamente por fragmentos de caparazones calcáreos de organismos"
+    "es": "Caliza formada mayoritariamente por fragmentos de caparazones calcáreos de organismos",
+    "en": "Limestone formed predominantly by fragments of calcite shells of organisms"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
     }
   ],
   "inScheme": [

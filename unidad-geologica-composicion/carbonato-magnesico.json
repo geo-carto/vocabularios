@@ -9,17 +9,17 @@
     "es": "El CO3 es el anión predominante y el Mg es el catión más abundante (porcentaje molar).",
     "en": "CO3 is the predominant anion, and Mg is the most abundant (mole percent) cation"
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/magnesium_rich_carbonate_chemistry"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }

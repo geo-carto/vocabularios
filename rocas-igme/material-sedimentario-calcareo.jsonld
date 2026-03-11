@@ -6,14 +6,15 @@
     "en": "calcareous sedimentary material"
   },
   "definition": {
-    "es": "Material sedimentario carbonatado con una proporción entre calcita más aragonito y dolomita mayor que 1"
+    "es": "Material sedimentario carbonatado con una proporción entre calcita más aragonito y dolomita mayor que 1",
+    "en": "Carbonate sedimentary material with a ratio of calcite plus aragonite to dolomite greater than 1"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/calcareous_carbonate_sedimentary_material"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/calcareousCarbonateSedimentaryMaterial"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/calcareousCarbonateSedimentaryMaterial"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/calcareous_carbonate_sedimentary_material"
     }
   ],
   "inScheme": [

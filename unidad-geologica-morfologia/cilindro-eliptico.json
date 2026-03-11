@@ -9,17 +9,33 @@
     "es": "Cilindro que tiene una sección transversal elíptica. No presenta bordes",
     "en": "Cylinder that has elliptical cross section, distinct side surfaces are not defined"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/clindro-circular",
+      "prefLabel": {
+        "es": "clindro circular",
+        "en": "circular cylinder"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro",
+    "prefLabel": {
+      "es": "cilindro",
+      "en": "cylinder"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/elliptical_cylinder"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

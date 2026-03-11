@@ -3,14 +3,28 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Rusciniense",
-    "en": "Ruscinian"
+    "en": "Ruscinian",
+    "vl": "Ruscinià"
   },
-  "exactMatch": [
+  "notation": [
+    "213020200091"
+  ],
+  "related": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Zancliense-Piacenziense"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/zancliense",
+      "prefLabel": {
+        "es": "Zancliense",
+        "en": "Zanclean",
+        "vl": "Zanclià"
+      }
+    }
+  ],
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/zanclean"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/zancliense-piacenziense"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Zanclean"
     }
   ],
   "inScheme": [

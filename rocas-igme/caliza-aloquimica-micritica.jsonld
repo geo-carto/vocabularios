@@ -6,14 +6,15 @@
     "en": "micritic allochemical limestone"
   },
   "definition": {
-    "es": "Caliza aloquímica con un contenido de micrita mayor que el de esparita"
+    "es": "Caliza aloquímica con un contenido de micrita mayor que el de esparita",
+    "en": "Allochemical limestone with a micrite content greater than that of sparite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
     }
   ],
   "inScheme": [

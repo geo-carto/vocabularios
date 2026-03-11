@@ -6,14 +6,15 @@
     "en": "salic rock"
   },
   "definition": {
-    "es": "Roca ígnea que tiene más sílice y silicatos alumínicos que silicatos ferromagnesianos y cálcicos"
+    "es": "Roca ígnea que tiene más sílice y silicatos alumínicos que silicatos ferromagnesianos y cálcicos",
+    "en": "Igneous rock that has more silica and aluminosilicates than ferromagnesian and calcic silicates"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/igneousRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock"
     }
   ],
   "inScheme": [

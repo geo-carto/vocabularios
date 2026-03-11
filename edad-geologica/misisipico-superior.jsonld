@@ -2,28 +2,40 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/misisipico-superior",
   "type": "Concept",
   "prefLabel": {
-    "es": "Misisípico Superior",
-    "en": "Upper Mississippian"
+    "es": "Mississippiense Superior",
+    "en": "Upper Mississippian",
+    "vl": "Mississipià Superior"
   },
-  "definition": {
-    "es": "Límite inferior -330.9 +|-0.2 ma, -298.9 +|-0.15 ma",
-    "en": "Older bound -330.9 +|-0.2 ma, younger bound -298.9 +|-0.15 ma"
+  "altLabel": {
+    "es": [
+      "Misisípico Superior"
+    ],
+    "en": [
+      "Late Mississippian"
+    ]
   },
+  "notation": [
+    "211051300000",
+    "x1.1.3.2.2.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/serpukhoviense",
       "prefLabel": {
         "es": "Serpukhoviense",
-        "en": "Serpukhovian"
+        "en": "Serpukhovian",
+        "vl": "Serpukhovià"
       }
+    }
+  ],
+  "closeMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/serpukhovian"
     }
   ],
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Mississippian"
-    },
-    {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/mississippian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/UpperMississippian"
     }
   ],
   "inScheme": [
@@ -32,11 +44,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }

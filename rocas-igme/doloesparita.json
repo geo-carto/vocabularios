@@ -6,14 +6,15 @@
     "en": "dolosparite"
   },
   "definition": {
-    "es": "Esparita dolomítica"
+    "es": "Esparita dolomítica",
+    "en": "Dolomitic sparite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/impure_limestone"
-    },
+  "closeMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/impureLimestone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/impure_limestone"
     }
   ],
   "inScheme": [

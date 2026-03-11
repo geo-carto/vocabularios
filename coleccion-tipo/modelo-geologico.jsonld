@@ -9,6 +9,11 @@
     "es": "Colección de objetos de un modelo de datos geológico 3D",
     "en": "Collection of objects for a 3D geological spatial model"
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geologicalModel"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"

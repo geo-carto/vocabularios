@@ -9,17 +9,54 @@
     "es": "Cuerpo definido por la traslación de una figura plana generadora con una sección transversal aproximadamente igual (círculo, elipsoide, polígono) a lo largo de una línea axial recta. H> = W = L. El eje es la dirección perpendicular a la figura del plano de generación, que forma superficies límitantes superior e inferior paralelas",
     "en": "Body defined by translation of a generating plane figure with approximately equant cross section (circle, ellipsoid, polygon) along a straight axial line. H>=W=L. Axis is direction normal to generating plane figure, which forms parallel top and bottom bounding surface"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro-eliptico",
+      "prefLabel": {
+        "es": "cilindro elíptico",
+        "en": "elliptical cylinder"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro-poligonal",
+      "prefLabel": {
+        "es": "cilindro poligonal",
+        "en": "polygonal cylinder"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/disco",
+      "prefLabel": {
+        "es": "disco",
+        "en": "disc"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/rod",
+      "prefLabel": {
+        "es": "rod",
+        "en": "rod"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-tridimensional",
+    "prefLabel": {
+      "es": "cuerpo tridimensional",
+      "en": "three dimensional body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/cylinder"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

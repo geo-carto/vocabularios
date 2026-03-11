@@ -9,27 +9,16 @@
     "es": "Colgante que se deriva demostrablemente del límite superior de un cuerpo ígneo",
     "en": "Pendant that is demonstrably derived from the upper boundary of an igneous body"
   },
-  "narrower": [
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazos",
+    "prefLabel": {
+      "es": "retazos",
+      "en": "pendants"
+    }
+  },
+  "exactMatch": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/balsas",
-      "prefLabel": {
-        "es": "balsas",
-        "en": "rafts"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazo-de-techo",
-      "prefLabel": {
-        "es": "retazo de techo",
-        "en": "roof pendant"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/cortina",
-      "prefLabel": {
-        "es": "cortina",
-        "en": "screen"
-      }
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/roof_pendant"
     }
   ],
   "inScheme": [

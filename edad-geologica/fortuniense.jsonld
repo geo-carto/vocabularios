@@ -5,10 +5,10 @@
     "es": "Fortuniense",
     "en": "Fortunian"
   },
-  "definition": {
-    "es": "Límite inferior -541.0 +|-1.0 ma, límite superior -529 ma",
-    "en": "Older bound -541.0 +|-1.0 ma, younger bound -529 ma"
-  },
+  "notation": [
+    "211010101000",
+    "a1.1.3.6.4.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/terreneuviense",
     "prefLabel": {
@@ -18,10 +18,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Fortunian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/fortunian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/fortunian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Fortunian"
     }
   ],
   "inScheme": [

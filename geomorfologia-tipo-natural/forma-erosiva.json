@@ -9,19 +9,24 @@
     "es": "Forma de relieve que debe su origen, su forma, su posición o su carácter general a procesos de eliminación de material por erosión o meteorización (degradación) resultantes del desgaste de la superficie terrestre.",
     "en": "Site of a landform that owes its origin, form, position, or general character to the removal of material by erosion and weathering (degradation) processes resulting from the wearing-down or away of the land surface."
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/destructionalFeature"
+    }
+  ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "topConceptOf": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "@context": {

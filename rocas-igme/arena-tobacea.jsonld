@@ -6,14 +6,15 @@
     "en": "tuffaceous sand"
   },
   "definition": {
-    "es": "Depósito mixto piroclástico-epiclástico formado en más de un 75% de su volumen por fragmentos de diámetro comprendido entre 1/16 mm y 2 mm"
+    "es": "Depósito mixto piroclástico-epiclástico formado en más de un 75% de su volumen por fragmentos de diámetro comprendido entre 1/16 mm y 2 mm",
+    "en": "Mixed pyroclastic-epiclastic deposit formed by more than 75% by volume of fragments with a diameter between 1/16 mm and 2 mm"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_material"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pyroclasticMaterial"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_material"
     }
   ],
   "inScheme": [

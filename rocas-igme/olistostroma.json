@@ -6,14 +6,15 @@
     "en": "olistostrome"
   },
   "definition": {
-    "es": "Acumulación, más o menos caótica, de materiales de muy diversa granulometría, desde bloques a lutitas, consolidado o no, que se ha emplazado gravitatoriamente en una cuenca sedimentaria"
+    "es": "Acumulación, más o menos caótica, de materiales de muy diversa granulometría, desde bloques a lutitas, consolidado o no, que se ha emplazado gravitatoriamente en una cuenca sedimentaria",
+    "en": "More or less chaotic accumulation of materials of very diverse grain size, from boulders to mudstones, consolidated or unconsolidated, emplaced gravitationally in a sedimentary basin"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/hybrid_sedimentary_rock"
-    },
+  "closeMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/hybridSedimentaryRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/hybrid_sedimentary_rock"
     }
   ],
   "inScheme": [

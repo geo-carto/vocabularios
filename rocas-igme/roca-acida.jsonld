@@ -6,14 +6,15 @@
     "en": "acidic rock"
   },
   "definition": {
-    "es": "Roca ígnea que contiene más del 66% de sílice"
+    "es": "Roca ígnea que contiene más del 66% de sílice",
+    "en": "Igneous rock containing more than 66% silica"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/acidic_igneous_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/acidicIgneousRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/acidicIgneousRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/acidic_igneous_rock"
     }
   ],
   "inScheme": [

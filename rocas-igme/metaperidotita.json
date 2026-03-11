@@ -6,14 +6,15 @@
     "en": "metaperidotite"
   },
   "definition": {
-    "es": "Roca metamórfica derivada de un protolito de composición peridotítica"
+    "es": "Roca metamórfica derivada de un protolito de composición peridotítica",
+    "en": "Metamorphic rock derived from a protolith of peridotitic composition"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
     }
   ],
   "inScheme": [

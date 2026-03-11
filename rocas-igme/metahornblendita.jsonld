@@ -6,14 +6,15 @@
     "en": "metahornblendite"
   },
   "definition": {
-    "es": "Roca metamórfica derivada de una hornblendita"
+    "es": "Roca metamórfica derivada de una hornblendita",
+    "en": "Metamorphic rock derived from a hornblendite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/amphibolite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/amphibolite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/amphibolite"
     }
   ],
   "inScheme": [

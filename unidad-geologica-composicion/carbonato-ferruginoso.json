@@ -9,17 +9,24 @@
     "es": "El CO3 es el anión predominante y el hierro es el catión más abundante (porcentaje molar)",
     "en": "CO3 is the predominant anion, and iron is the most abundant (mole percent) cation"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-hierro",
+    "prefLabel": {
+      "es": "carbonato con hierro",
+      "en": "iron bearing carbonate chemistry"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/iron_rich_carbonate_chemistry"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }

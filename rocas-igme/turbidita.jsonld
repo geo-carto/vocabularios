@@ -6,14 +6,15 @@
     "en": "turbidite"
   },
   "definition": {
-    "es": "Sedimento o roca sedimentaria formados por corrientes de turbidez. se trata de arenas o areniscas que presentan secuencias granodecrecientes con una ordenación de estructuras sedimentarias internas muy singular, denominada secuencia de bouma"
+    "es": "Sedimento o roca sedimentaria formados por corrientes de turbidez. se trata de arenas o areniscas que presentan secuencias granodecrecientes con una ordenación de estructuras sedimentarias internas muy singular, denominada secuencia de bouma",
+    "en": "Sediment or sedimentary rock formed by turbidity currents. They consist of sands or sandstones with graded bedding sequences and a very distinctive arrangement of internal sedimentary structures known as the Bouma sequence"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sandstone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sandstone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sandstone"
     }
   ],
   "inScheme": [

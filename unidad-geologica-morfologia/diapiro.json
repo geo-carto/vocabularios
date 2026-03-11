@@ -9,17 +9,24 @@
     "es": "Cuerpo con forma general de lágrima invertida. Cuerpo de material  magmático o sedimentario desplazado e intruido en las rocas suprayacentes",
     "en": "Broadly inverted tear drop morphology. Body of magmatic or mobile sedimentary material intruded into overlying rocks"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-geologico",
+    "prefLabel": {
+      "es": "cuerpo geológico",
+      "en": "geologic body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/diapir"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

@@ -9,6 +9,111 @@
     "es": "Cualquier cuerpo tridimensional",
     "en": "Any three dimensional body"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/anillo-discoidal",
+      "prefLabel": {
+        "es": "anillo discoidal",
+        "en": "discoid anulus"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro",
+      "prefLabel": {
+        "es": "cilindro",
+        "en": "cylinder"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-geologico",
+      "prefLabel": {
+        "es": "cuerpo geológico",
+        "en": "geologic body"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuna",
+      "prefLabel": {
+        "es": "cuña",
+        "en": "wedge"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide",
+      "prefLabel": {
+        "es": "elipsoide",
+        "en": "ellipsoid"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/gota",
+      "prefLabel": {
+        "es": "gota",
+        "en": "blob"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lagrima",
+      "prefLabel": {
+        "es": "lágrima",
+        "en": "tear drop"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina",
+      "prefLabel": {
+        "es": "lámina",
+        "en": "sheet"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lenticular",
+      "prefLabel": {
+        "es": "lenticular",
+        "en": "discus"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/prisma",
+      "prefLabel": {
+        "es": "prisma",
+        "en": "prism"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/ribbon",
+      "prefLabel": {
+        "es": "ribbon",
+        "en": "ribbon"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/seccion-longitudinal-de-un-cilindro",
+      "prefLabel": {
+        "es": "sección longitudinal de un cilindro",
+        "en": "longitudinal section of cylinder"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/segmento-de-cono",
+      "prefLabel": {
+        "es": "segmento de cono",
+        "en": "cone segment"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/semiesfera",
+      "prefLabel": {
+        "es": "semiesfera",
+        "en": "hemispheroid"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/three_dimensional_body"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"

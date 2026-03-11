@@ -9,12 +9,19 @@
     "es": "Cualquier proceso químico, físico o biológico que afecta a un material terrestre sedimentario después de su depósito inicial y durante o después de la litificación, con exclusión de la meteorización y el metamorfismo.",
     "en": "Any chemical, physical, or biological process that affects a sedimentary earth material after initial deposition, and during or after lithification, exclusive of weathering and metamorphism."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
+    "prefLabel": {
+      "es": "proceso geológico",
+      "en": "geologic process"
+    }
+  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/diagenetic_process"
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/diageneticProcess"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/diageneticProcess"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/diagenetic_process"
     }
   ],
   "inScheme": [
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

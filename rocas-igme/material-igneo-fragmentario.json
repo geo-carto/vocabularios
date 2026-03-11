@@ -6,14 +6,15 @@
     "en": "fragmental igneous material"
   },
   "definition": {
-    "es": "Material formado en más del 75% por fragmentos resultantes de un proceso ígneo, independientemente de su grado de consolidación. incluye los materiales piroclásticos y las brechas intrusivas y volcánicas"
+    "es": "Material formado en más del 75% por fragmentos resultantes de un proceso ígneo, independientemente de su grado de consolidación. incluye los materiales piroclásticos y las brechas intrusivas y volcánicas",
+    "en": "Material formed more than 75% by fragments resulting from an igneous process, regardless of its degree of consolidation. Includes pyroclastic materials and intrusive and volcanic breccias"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/fragmental_igneous_material"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/fragmentalIgneousMaterial"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/fragmentalIgneousMaterial"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/fragmental_igneous_material"
     }
   ],
   "inScheme": [

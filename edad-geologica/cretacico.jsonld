@@ -3,34 +3,45 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Cretácico",
-    "en": "Cretaceous"
+    "en": "Cretaceous",
+    "vl": "Cretaci"
   },
-  "definition": {
-    "es": "Límite inferior -145.0 ma, límite superior -66.0 ma",
-    "en": "Older bound -145.0 ma, younger bound -66.0 ma"
-  },
+  "notation": [
+    "212030000000",
+    "a1.1.2.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-inferior",
       "prefLabel": {
         "es": "Cretácico Inferior",
-        "en": "Lower Cretaceous"
+        "en": "Lower Cretaceous",
+        "vl": "Cretaci Inferior"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-superior",
       "prefLabel": {
         "es": "Cretácico Superior",
-        "en": "Upper Cretaceous"
+        "en": "Upper Cretaceous",
+        "vl": "Cretaci Superior"
       }
     }
   ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesozoico",
+    "prefLabel": {
+      "es": "Mesozoico",
+      "en": "Mesozoic",
+      "vl": "Mesozoic"
+    }
+  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Cretaceous"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cretaceous"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cretaceous"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Cretaceous"
     }
   ],
   "inScheme": [
@@ -39,11 +50,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }

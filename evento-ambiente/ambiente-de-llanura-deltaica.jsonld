@@ -11,17 +11,17 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-deltaica-baja",
-      "prefLabel": {
-        "es": "ambiente de llanura deltaica baja",
-        "en": "lower delta plain setting"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-deltaica-alta",
       "prefLabel": {
         "es": "ambiente de llanura deltaica alta",
         "en": "upper delta plain setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-deltaica-baja",
+      "prefLabel": {
+        "es": "ambiente de llanura deltaica baja",
+        "en": "lower delta plain setting"
       }
     }
   ],
@@ -34,10 +34,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/delta_plain"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/deltaPlainSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/deltaPlainSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/delta_plain"
     }
   ],
   "inScheme": [

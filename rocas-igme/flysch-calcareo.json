@@ -6,14 +6,15 @@
     "en": "calcareous flysch"
   },
   "definition": {
-    "es": "Tectofacies constituida por una ritmita de bancos de  areniscas turbidíticas con una mayoría de granos calcáreos y lutitas con un espesor de cientos o miles de metros, depositada en márgenes continentales en las etapas anteriores a su deformación orogénica"
+    "es": "Tectofacies constituida por una ritmita de bancos de  areniscas turbidíticas con una mayoría de granos calcáreos y lutitas con un espesor de cientos o miles de metros, depositada en márgenes continentales en las etapas anteriores a su deformación orogénica",
+    "en": "Tectofacies consisting of a rhythmite of turbiditic sandstone beds with a majority of calcareous grains and mudstones, hundreds to thousands of metres thick, deposited on continental margins in the stages prior to their orogenic deformation"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/hybrid_sedimentary_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/hybridSedimentaryRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/hybrid_sedimentary_rock"
     }
   ],
   "inScheme": [

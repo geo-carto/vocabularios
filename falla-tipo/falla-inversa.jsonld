@@ -11,6 +11,13 @@
   },
   "narrower": [
     {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/cabalgamiento",
+      "prefLabel": {
+        "es": "cabalgamiento",
+        "en": "thrust fault"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-de-alto-angulo",
       "prefLabel": {
         "es": "falla inversa de alto ángulo",
@@ -27,10 +34,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/faulttype/reverse_fault"
+      "id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/reverseFault"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/reverseFault"
+      "id": "http://resource.geosciml.org/classifier/cgi/faulttype/reverse_fault"
     }
   ],
   "inScheme": [

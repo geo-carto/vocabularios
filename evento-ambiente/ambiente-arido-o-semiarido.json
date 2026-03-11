@@ -11,6 +11,13 @@
   },
   "narrower": [
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-arenosa",
+      "prefLabel": {
+        "es": "ambiente de llanura arenosa",
+        "en": "sand plain setting"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-pedregosa",
       "prefLabel": {
         "es": "ambiente de llanura pedregosa",
@@ -18,17 +25,17 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-sabkha-marina-marginal",
-      "prefLabel": {
-        "es": "ambiente sabkha marina marginal",
-        "en": "marginal marine sabkha setting"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-playa-endorreica",
       "prefLabel": {
         "es": "ambiente de playa endorreica",
         "en": "playa setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-sabkha-marina-marginal",
+      "prefLabel": {
+        "es": "ambiente sabkha marina marginal",
+        "en": "marginal marine sabkha setting"
       }
     }
   ],
@@ -41,10 +48,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/arid_or_semi_arid_environment_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/aridOrSemiAridEnvironmentSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/aridOrSemiAridEnvironmentSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/arid_or_semi_arid_environment_setting"
     }
   ],
   "inScheme": [

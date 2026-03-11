@@ -6,14 +6,15 @@
     "en": "alabaster"
   },
   "definition": {
-    "es": "Variedad masiva del yeso formada por cristales de grano fino, generalmente blanca y translúcida, que se emplea en escultura y como piedra ornamental"
+    "es": "Variedad masiva del yeso formada por cristales de grano fino, generalmente blanca y translúcida, que se emplea en escultura y como piedra ornamental",
+    "en": "Massive variety of gypsum formed by fine-grained crystals, generally white and translucent, used in sculpture and as ornamental stone"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/rock_gypsum_or_anhydrite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gypsumOrAnhydrite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/rock_gypsum_or_anhydrite"
     }
   ],
   "inScheme": [

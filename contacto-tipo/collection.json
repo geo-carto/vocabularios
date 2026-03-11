@@ -2,7 +2,7 @@
   "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/collection",
   "type": "Collection",
   "prefLabel": {
-    "es": "https://geo-carto.github.io/vocabularios/contacto-tipo - Todos los conceptos"
+    "es": "Tipo de contacto - Todos los conceptos"
   },
   "member": [
     {
@@ -13,31 +13,31 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-zona-cronoestratigrafica",
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-antropico",
       "prefLabel": {
-        "es": "contacto de zona cronoestratigráfica",
-        "en": "chronostratigraphic-zone contact"
+        "es": "contacto antrópico",
+        "en": "anthropogenic contact"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-falla",
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-concordante",
       "prefLabel": {
-        "es": "contacto por falla",
-        "en": "faulted contact"
+        "es": "contacto concordante",
+        "en": "conformable contact"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-provincia-geologica",
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-alteracion",
       "prefLabel": {
-        "es": "contacto de provincia geológica",
-        "en": "geologic province contact"
+        "es": "contacto de alteración producto de metasomatismo",
+        "en": "alteration facies contact"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-geofisico",
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-asociacion-mineral",
       "prefLabel": {
-        "es": "contacto geofísico",
-        "en": "geophysical contact"
+        "es": "contacto de asociación mineral",
+        "en": "mineralisation assemblage contact"
       }
     },
     {
@@ -55,10 +55,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-magnetico",
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-magnetizacion",
       "prefLabel": {
-        "es": "contacto magnético",
-        "en": "magnetic contact"
+        "es": "contacto de magnetización",
+        "en": "magnetization contact"
       }
     },
     {
@@ -69,6 +69,13 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-provincia-geologica",
+      "prefLabel": {
+        "es": "contacto de provincia geológica",
+        "en": "geologic province contact"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-susceptibilidad-magnetica",
       "prefLabel": {
         "es": "contacto de susceptibilidad magnética",
@@ -76,38 +83,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-magnetizacion",
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-zona-cronoestratigrafica",
       "prefLabel": {
-        "es": "contacto de magnetización",
-        "en": "magnetization contact"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-radiometrico",
-      "prefLabel": {
-        "es": "contacto radiométrico",
-        "en": "radiometric contact"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-sismico",
-      "prefLabel": {
-        "es": "contacto sísmico",
-        "en": "seismic contact"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/linea-glaciar-estacionaria",
-      "prefLabel": {
-        "es": "línea glaciar estacionaria",
-        "en": "glacial stationary line"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico",
-      "prefLabel": {
-        "es": "contacto litogenético",
-        "en": "lithogenetic contact"
+        "es": "contacto de zona cronoestratigráfica",
+        "en": "chronostratigraphic-zone contact"
       }
     },
     {
@@ -125,17 +104,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-concordante",
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-diagenetico",
       "prefLabel": {
-        "es": "contacto concordante",
-        "en": "conformable contact"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/discontinuidad",
-      "prefLabel": {
-        "es": "discontinuidad",
-        "en": "unconformable contact"
+        "es": "contacto diagenético",
+        "en": "diagenetic contact"
       }
     },
     {
@@ -146,66 +118,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad-con-paleorrelieve",
-      "prefLabel": {
-        "es": "discontinuidad con paleorrelieve",
-        "en": "buttress unconformity"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad",
-      "prefLabel": {
-        "es": "disconformidad",
-        "en": "disconformable contact"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/inconformidad",
-      "prefLabel": {
-        "es": "inconformidad",
-        "en": "nonconformable contact"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/paraconformidad",
-      "prefLabel": {
-        "es": "paraconformidad",
-        "en": "paraconformable contact"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-intrusivo",
-      "prefLabel": {
-        "es": "contacto intrusivo",
-        "en": "igneous intrusive contact"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-igneas",
       "prefLabel": {
         "es": "contacto entre fases ígneas",
         "en": "igneous phase contact"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-estructura-de-impacto",
-      "prefLabel": {
-        "es": "límite de estructura de impacto",
-        "en": "impact structure boundary"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-metamorfico",
-      "prefLabel": {
-        "es": "contacto metamórfico",
-        "en": "metamorphic contact"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-alteracion",
-      "prefLabel": {
-        "es": "contacto de alteración producto de metasomatismo",
-        "en": "alteration facies contact"
       }
     },
     {
@@ -223,10 +139,17 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-asociacion-mineral",
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-geofisico",
       "prefLabel": {
-        "es": "contacto de asociación mineral",
-        "en": "mineralisation assemblage contact"
+        "es": "contacto geofísico",
+        "en": "geophysical contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-intrusivo",
+      "prefLabel": {
+        "es": "contacto intrusivo",
+        "en": "igneous intrusive contact"
       }
     },
     {
@@ -237,24 +160,17 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-intrusion-de-material-sedimentario",
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico",
       "prefLabel": {
-        "es": "contacto por intrusión de material sedimentario",
-        "en": "sedimentary intrusive contact"
+        "es": "contacto litogenético",
+        "en": "lithogenetic contact"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-zona-de-subsidencia-volcanica",
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-magnetico",
       "prefLabel": {
-        "es": "límite de zona de subsidencia volcánica",
-        "en": "volcanic subsidence zone boundary"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-meteorizacion",
-      "prefLabel": {
-        "es": "contacto por meteorización",
-        "en": "weathering contact"
+        "es": "contacto magnético",
+        "en": "magnetic contact"
       }
     },
     {
@@ -265,17 +181,101 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-diagenetico",
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-metamorfico",
       "prefLabel": {
-        "es": "contacto diagenético",
-        "en": "diagenetic contact"
+        "es": "contacto metamórfico",
+        "en": "metamorphic contact"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-antropico",
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-falla",
       "prefLabel": {
-        "es": "contacto antrópico",
-        "en": "anthropogenic contact"
+        "es": "contacto por falla",
+        "en": "faulted contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-intrusion-de-material-sedimentario",
+      "prefLabel": {
+        "es": "contacto por intrusión de material sedimentario",
+        "en": "sedimentary intrusive contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-meteorizacion",
+      "prefLabel": {
+        "es": "contacto por meteorización",
+        "en": "weathering contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-radiometrico",
+      "prefLabel": {
+        "es": "contacto radiométrico",
+        "en": "radiometric contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-sismico",
+      "prefLabel": {
+        "es": "contacto sísmico",
+        "en": "seismic contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad",
+      "prefLabel": {
+        "es": "disconformidad",
+        "en": "disconformable contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad-con-paleorrelieve",
+      "prefLabel": {
+        "es": "discontinuidad con paleorrelieve",
+        "en": "buttress unconformity"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/discontinuidad",
+      "prefLabel": {
+        "es": "discontinuidad",
+        "en": "unconformable contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/inconformidad",
+      "prefLabel": {
+        "es": "inconformidad",
+        "en": "nonconformable contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-estructura-de-impacto",
+      "prefLabel": {
+        "es": "límite de estructura de impacto",
+        "en": "impact structure boundary"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-zona-de-subsidencia-volcanica",
+      "prefLabel": {
+        "es": "límite de zona de subsidencia volcánica",
+        "en": "volcanic subsidence zone boundary"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/linea-glaciar-estacionaria",
+      "prefLabel": {
+        "es": "línea glaciar estacionaria",
+        "en": "glacial stationary line"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/paraconformidad",
+      "prefLabel": {
+        "es": "paraconformidad",
+        "en": "paraconformable contact"
       }
     }
   ],

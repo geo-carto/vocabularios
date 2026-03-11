@@ -9,19 +9,24 @@
     "es": "Elemento geomorfológico de una colina constituido por unas laderas convexas (perpendiculares al contorno) que convergen para formar la parte superior, estrecha y generalmente lineal, de la colina, cordillera o tierra alta, hasta el punto de que apenas subsiste una cumbre; está dominada por los procesos de erosión, lavado de laderas y movimiento de masas, y por los sedimentos",
     "en": "A geomorphologic component of hills consisting of the convex slopes (perpendicular to the contour) that form the narrow, roughly linear top area of a hill, ridge, or other upland where shoulders have converged to the extent that little or no summit remains; dominated by erosion, slope wash and mass movement processes and sediments"
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/crest"
+    }
+  ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "topConceptOf": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "@context": {

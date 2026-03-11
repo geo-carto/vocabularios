@@ -9,17 +9,24 @@
     "es": "Sulfuro en el que está presente un semimetal (As, Sb, Bi) como catión",
     "en": "Sulfide in which a semimetal (As, Sb, Bi) is present in a cation role"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfuroso",
+    "prefLabel": {
+      "es": "sulfuroso",
+      "en": "sulfide chemistry"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfosalt_chemistry"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }

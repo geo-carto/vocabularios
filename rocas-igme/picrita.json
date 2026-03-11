@@ -6,14 +6,15 @@
     "en": "picrite"
   },
   "definition": {
-    "es": "Roca ultrabásica negra de textura dolerítica o microlítica, con un contenido en sio2 del 30-52%, mgo mayor del 12% y na2o+k2o menor del 3%. es rica en minerales ferromagnesianos, con olivino dominante, augita y, accesoriamente, anfíbol, biotita y plagioclasa"
+    "es": "Roca ultrabásica negra de textura dolerítica o microlítica, con un contenido en sio2 del 30-52%, mgo mayor del 12% y na2o+k2o menor del 3%. es rica en minerales ferromagnesianos, con olivino dominante, augita y, accesoriamente, anfíbol, biotita y plagioclasa",
+    "en": "Black ultrabasic rock of doleritic or microlithic texture, with a SiO2 content of 30-52%, MgO greater than 12% and Na2O+K2O less than 3%. It is rich in ferromagnesian minerals, with dominant olivine, augite and, accessorily, amphibole, biotite and plagioclase"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/ultrabasic_igneous_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/ultrabasicIgneousRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/ultrabasic_igneous_rock"
     }
   ],
   "inScheme": [

@@ -18,6 +18,13 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-asociacion-mineral",
+      "prefLabel": {
+        "es": "contacto de asociación mineral",
+        "en": "mineralisation assemblage contact"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-metamorficas",
       "prefLabel": {
         "es": "contacto entre facies metamórficas",
@@ -30,13 +37,6 @@
         "es": "contacto entre facies metasomáticas",
         "en": "metasomatic facies contact"
       }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-asociacion-mineral",
-      "prefLabel": {
-        "es": "contacto de asociación mineral",
-        "en": "mineralisation assemblage contact"
-      }
     }
   ],
   "broader": {
@@ -46,6 +46,11 @@
       "en": "lithogenetic contact"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/contacttype/metamorphic_contact"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo"

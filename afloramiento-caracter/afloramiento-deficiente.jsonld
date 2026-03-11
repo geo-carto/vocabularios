@@ -2,12 +2,19 @@
   "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-deficiente",
   "type": "Concept",
   "prefLabel": {
-    "es": "Afloramiento deficiente",
+    "es": "afloramiento deficiente",
     "en": "poorly exposed"
   },
   "definition": {
     "es": "Afloramiento con muy mala calidad de exposición (como mucho se puede señalar la composición general de la unidad)",
     "en": "Bad exposed outrops, only suitable for determining the overall unit composition"
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento",
+    "prefLabel": {
+      "es": "con afloramiento",
+      "en": "with outcrop"
+    }
   },
   "inScheme": [
     {
@@ -15,11 +22,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter"
     }

@@ -6,14 +6,15 @@
     "en": "bindstone"
   },
   "definition": {
-    "es": "Roca carbonatada originada por organismos ligados entre sí durante la sedimentación, por actividad de organismos encostrantes y envolventes"
+    "es": "Roca carbonatada originada por organismos ligados entre sí durante la sedimentación, por actividad de organismos encostrantes y envolventes",
+    "en": "Carbonate rock produced by organisms bound together during sedimentation, by the activity of encrusting and enveloping organisms"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/boundstone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/boundstone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/boundstone"
     }
   ],
   "inScheme": [

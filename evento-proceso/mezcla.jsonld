@@ -9,19 +9,22 @@
     "es": "Mezcla",
     "en": "Mixing"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/actividad-humana",
-    "prefLabel": {
-      "es": "actividad humana",
-      "en": "human activity"
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/mixing"
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

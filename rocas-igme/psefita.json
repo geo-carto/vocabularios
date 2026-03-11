@@ -5,15 +5,21 @@
     "es": "psefita",
     "en": "psephite"
   },
+  "altLabel": {
+    "es": [
+      "rudácea, sefita"
+    ]
+  },
   "definition": {
-    "es": "Clase, grupo o textura de los sedimentos o rocas sedimentarias detríticas cuyo tamaño medio de los granos es superior a 2 mm"
+    "es": "Clase, grupo o textura de los sedimentos o rocas sedimentarias detríticas cuyo tamaño medio de los granos es superior a 2 mm",
+    "en": "Class, group or texture of detrital sediments or sedimentary rocks whose mean grain size exceeds 2 mm"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gravel"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gravel"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gravel"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gravel"
     }
   ],
   "inScheme": [

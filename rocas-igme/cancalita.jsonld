@@ -5,15 +5,21 @@
     "es": "cancalita",
     "en": "cancalite"
   },
-  "definition": {
-    "es": "Roca volcánica de la familia de las lamproítas, con olivino normativo, pero sin leucita normativa"
+  "altLabel": {
+    "es": [
+      "localismo de lamproíta con enstatita-sanidina-flogopita"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
-    },
+  "definition": {
+    "es": "Roca volcánica de la familia de las lamproítas, con olivino normativo, pero sin leucita normativa",
+    "en": "Volcanic rock of the lamproite family, with normative olivine but without normative leucite"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/exoticAlkalineRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
     }
   ],
   "inScheme": [

@@ -9,17 +9,24 @@
     "es": "Cuerpo discoidal con márgenes de gran pendiente, por ejemplo acumulaciones de lava de alta viscosidad sobre y en torno a un respiradero volcánico. Una estructura en la que la parte superior del cuerpo se hunde suavemente en todas las direcciones, p. Ej. domo de sal, domo de extrusión",
     "en": "Steep-sided disk-like body, for example and accumulation of high viscosity lava above and around a volcanic vent. A structure in which the top of the body dips gently away in all directions e.g. salt dome, extrusion dome"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-geologico",
+    "prefLabel": {
+      "es": "cuerpo geológico",
+      "en": "geologic body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/dome"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

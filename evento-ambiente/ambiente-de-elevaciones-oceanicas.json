@@ -23,6 +23,13 @@
         "es": "ambiente de meseta oceánica",
         "en": "oceanic plateau setting"
       }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-monte-submarino",
+      "prefLabel": {
+        "es": "ambiente de monte submarino",
+        "en": "seamount setting"
+      }
     }
   ],
   "broader": {
@@ -34,10 +41,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/ocean_highland_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/oceanHighlandSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/oceanHighlandSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/ocean_highland_setting"
     }
   ],
   "inScheme": [

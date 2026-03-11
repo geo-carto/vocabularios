@@ -23,41 +23,6 @@
         "es": "discontinuidad",
         "en": "unconformable contact"
       }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-discordante",
-      "prefLabel": {
-        "es": "contacto discordante",
-        "en": "angular unconformable contact"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad-con-paleorrelieve",
-      "prefLabel": {
-        "es": "discontinuidad con paleorrelieve",
-        "en": "buttress unconformity"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad",
-      "prefLabel": {
-        "es": "disconformidad",
-        "en": "disconformable contact"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/inconformidad",
-      "prefLabel": {
-        "es": "inconformidad",
-        "en": "nonconformable contact"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/paraconformidad",
-      "prefLabel": {
-        "es": "paraconformidad",
-        "en": "paraconformable contact"
-      }
     }
   ],
   "broader": {
@@ -67,6 +32,11 @@
       "en": "lithogenetic contact"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/contacttype/depositional_contact"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo"

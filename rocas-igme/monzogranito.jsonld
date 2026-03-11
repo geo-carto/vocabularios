@@ -5,15 +5,21 @@
     "es": "monzogranito",
     "en": "monzogranite"
   },
+  "altLabel": {
+    "es": [
+      "adamellita"
+    ]
+  },
   "definition": {
-    "es": "Variedad del granito en la que el feldespato alcalino constituye entre el 35 y el 65% de los feldespatos"
+    "es": "Variedad del granito en la que el feldespato alcalino constituye entre el 35 y el 65% de los feldespatos",
+    "en": "Variety of granite in which alkali feldspar constitutes between 35 and 65% of the feldspars"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/monzogranite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/monzogranite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/monzogranite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/monzogranite"
     }
   ],
   "inScheme": [

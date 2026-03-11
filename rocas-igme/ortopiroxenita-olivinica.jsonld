@@ -6,14 +6,15 @@
     "en": "olivine orthopyroxenite"
   },
   "definition": {
-    "es": "Piroxenita olivínica constituida esencialmente por olivino y ortopiroxeno"
+    "es": "Piroxenita olivínica constituida esencialmente por olivino y ortopiroxeno",
+    "en": "Olivine pyroxenite consisting essentially of olivine and orthopyroxene"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroxenite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pyroxenite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroxenite"
     }
   ],
   "inScheme": [

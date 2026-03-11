@@ -5,15 +5,24 @@
     "es": "roca madre",
     "en": "parent rock"
   },
-  "definition": {
-    "es": "Término general para designar la roca sólida que subyace a un suelo u otro material no consolidado expuesto en la superficie terrestre"
+  "altLabel": {
+    "es": [
+      "substrato rocoso"
+    ],
+    "en": [
+      "bedrock"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/compound_material"
-    },
+  "definition": {
+    "es": "Término general para designar la roca sólida que subyace a un suelo u otro material no consolidado expuesto en la superficie terrestre",
+    "en": "General term to designate the solid rock underlying soil or other unconsolidated material exposed at the Earth's surface"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/compoundMaterial"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/compound_material"
     }
   ],
   "inScheme": [

@@ -9,17 +9,19 @@
     "es": "Enriquecimiento de una roca, sedimento o suelo en hierro",
     "en": "Enrichment of a rock, sediment or soil in iron."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo/meteorizacion",
+    "prefLabel": {
+      "es": "meteorización",
+      "en": "weathering"
+    }
+  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo"
     }

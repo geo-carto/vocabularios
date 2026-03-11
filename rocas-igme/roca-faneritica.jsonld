@@ -6,14 +6,15 @@
     "en": "phaneritic rock"
   },
   "definition": {
-    "es": "Roca ígnea en la que los granos minerales se distinguen a simple vista"
+    "es": "Roca ígnea en la que los granos minerales se distinguen a simple vista",
+    "en": "Igneous rock in which mineral grains are distinguishable with the naked eye"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/phaneritic_igneous_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/phaneriticIgneousRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/phaneriticIgneousRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/phaneritic_igneous_rock"
     }
   ],
   "inScheme": [

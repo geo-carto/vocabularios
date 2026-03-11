@@ -9,19 +9,12 @@
     "es": "Porción de tierra aluvial baja, casi plana, en o cerca de la desembocadura de un río, comúnmente formando una llanura triangular o en forma de abanico de superficie considerable, atravesada por numerosos distributarios del río principal, que puede extenderse más allá de la línea de costa general del lago, que resulta de la acumulación de sedimentos suministrada por el río en cantidades tales que no se removilizan por las olas o las corrientes. La mayoría de los deltas son parcialmente subaéreos y en parte se ubican por debajo del agua.",
     "en": "The low, nearly flat, alluvial tract of land at or near the mouth of a river, commonly forming a triangular or fan-shaped plain of considerable area, crossed by many distributaries of the main river, perhaps extending beyond the general trend of the lake shore, resulting from the accumulation of sediment supplied by the river in such quantities that it is not removed by waves or currents. Most deltas are partly subaerial and partly below water."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-deltaico",
-    "prefLabel": {
-      "es": "ambiente de sistema deltaico",
-      "en": "deltaic system setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/lacustrine_delta"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/lacustrineDeltaSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/lacustrineDeltaSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/lacustrine_delta"
     }
   ],
   "inScheme": [

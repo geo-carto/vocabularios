@@ -9,6 +9,11 @@
     "es": "Terreno formado por material de relleno terroso que se ha extendido y dispuesto para darle un contorno aproximado al que tendría de forma natural, normalmente en el marco de las tareas de recuperación que se llevan a cabo una vez finalizada una explotación minera. O bien, terreno normalmente sumergido en su estado original, protegido con estructuras artificiales y drenado para fines agrícolas o de otro tipo.",
     "en": "A land area composed of earthy fill material that has been placed and shaped to approximate natural contours, commonly part of land-reclamation efforts after mining operations. Or a land area, commonly submerged in its native state, that has been protected by artificial structures and drained for agricultural or other purposes."
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/AnthropogenicGeomorphologicFeatureTypeValue/reclaimedLand"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico"

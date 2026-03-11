@@ -6,14 +6,15 @@
     "en": "tsunamite"
   },
   "definition": {
-    "es": "Material clástico depositado en la costa durante el paso de un tsunami"
+    "es": "Material clástico depositado en la costa durante el paso de un tsunami",
+    "en": "Clastic material deposited on the coast during the passage of a tsunami"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sedimentary_material"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/clasticSedimentaryMaterial"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sedimentary_material"
     }
   ],
   "inScheme": [

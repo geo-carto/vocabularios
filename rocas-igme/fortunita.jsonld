@@ -5,15 +5,21 @@
     "es": "fortunita",
     "en": "fortunite"
   },
-  "definition": {
-    "es": "Roca volcánica perteneciente a la familia de las lamproítas, de composición traquítica, caracterizada por la presencia de flogopita"
+  "altLabel": {
+    "es": [
+      "localismo de lamproíta con vidrio-enstatita-flogopita"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
-    },
+  "definition": {
+    "es": "Roca volcánica perteneciente a la familia de las lamproítas, de composición traquítica, caracterizada por la presencia de flogopita",
+    "en": "Volcanic rock belonging to the lamproite family, of trachytic composition, characterized by the presence of phlogopite"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/exoticAlkalineRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
     }
   ],
   "inScheme": [

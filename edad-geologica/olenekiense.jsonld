@@ -3,25 +3,27 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Olenekiense",
-    "en": "Olenekian"
+    "en": "Olenekian",
+    "vl": "Oleniokià"
   },
-  "definition": {
-    "es": "Límite inferior -251.2 ma, límite superior -247.2 ma",
-    "en": "Older bound -251.2 ma, younger bound -247.2 ma"
-  },
+  "notation": [
+    "212010102000",
+    "a1.1.2.3.3.1"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-inferior",
     "prefLabel": {
       "es": "Triásico Inferior",
-      "en": "Lower Triassic"
+      "en": "Lower Triassic",
+      "vl": "Triàsic Inferior"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Olenekian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/olenekian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/olenekian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Olenekian"
     }
   ],
   "inScheme": [

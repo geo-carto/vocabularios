@@ -9,17 +9,40 @@
     "es": "Cuerpo mineral epigenético de forma tabular o de lámina que constituye un relleno de una falla o fractura",
     "en": "A tabular or sheetlike epigenetic mineral filling of a fault or fracture"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/vena-planar",
+      "prefLabel": {
+        "es": "vena planar",
+        "en": "planar vein"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/vena-sigmoidal",
+      "prefLabel": {
+        "es": "vena sigmoidal",
+        "en": "sigmoidal vein"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-geologico",
+    "prefLabel": {
+      "es": "cuerpo geológico",
+      "en": "geologic body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/vein"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

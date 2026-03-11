@@ -6,14 +6,15 @@
     "en": "pelitic gravel"
   },
   "definition": {
-    "es": "Sedimento detrítico poco seleccionado, constituido en un 30-50% por clastos de más de 2 mm de diámetro y con un contenido de elementos de tamaño pelita mayor que el de elementos de tamaño arena"
+    "es": "Sedimento detrítico poco seleccionado, constituido en un 30-50% por clastos de más de 2 mm de diámetro y con un contenido de elementos de tamaño pelita mayor que el de elementos de tamaño arena",
+    "en": "Poorly sorted detrital sediment consisting of 30-50% clasts with a diameter exceeding 2 mm and with a pelite-size element content greater than that of sand-size elements"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gravel"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gravel"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gravel"
     }
   ],
   "inScheme": [

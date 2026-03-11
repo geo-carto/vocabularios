@@ -6,14 +6,15 @@
     "en": "calcirudite"
   },
   "definition": {
-    "es": "1. Caliza compuesta fundamentalmente por granos carbonáticos de tamaño grava. 2. Rudita constituida mayoritariamente por clastos de carbonatos"
+    "es": "1. Caliza compuesta fundamentalmente por granos carbonáticos de tamaño grava. 2. Rudita constituida mayoritariamente por clastos de carbonatos",
+    "en": "1. Limestone composed fundamentally of gravel-size carbonate grains. 2. Rudite consisting predominantly of carbonate clasts"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
     }
   ],
   "inScheme": [

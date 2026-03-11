@@ -2,7 +2,7 @@
   "id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/collection",
   "type": "Collection",
   "prefLabel": {
-    "es": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad - Todos los conceptos"
+    "es": "Actividad geomorfológica - Todos los conceptos"
   },
   "member": [
     {
@@ -10,20 +10,6 @@
       "prefLabel": {
         "es": "activo",
         "en": "active"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/latente",
-      "prefLabel": {
-        "es": "latente",
-        "en": "dormant"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/reactivado",
-      "prefLabel": {
-        "es": "reactivado",
-        "en": "reactivated"
       }
     },
     {
@@ -38,6 +24,20 @@
       "prefLabel": {
         "es": "inactivo",
         "en": "inactive"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/latente",
+      "prefLabel": {
+        "es": "latente",
+        "en": "dormant"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/reactivado",
+      "prefLabel": {
+        "es": "reactivado",
+        "en": "reactivated"
       }
     }
   ],

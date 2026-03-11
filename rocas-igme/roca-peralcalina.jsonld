@@ -6,14 +6,15 @@
     "en": "peralkaline rock"
   },
   "definition": {
-    "es": "Roca con un índice agpaítico [na2o+k2o/al2o3, en proporciones molares] mayor que la unidad. suele tener minerales ricos en álcalis y pobres en aluminio, como piroxenos o anfíboles sódicos"
+    "es": "Roca con un índice agpaítico [na2o+k2o/al2o3, en proporciones molares] mayor que la unidad. suele tener minerales ricos en álcalis y pobres en aluminio, como piroxenos o anfíboles sódicos",
+    "en": "Rock with an agpaitic index [Na2O+K2O/Al2O3, in molar proportions] greater than unity. It usually contains alkali-rich and aluminium-poor minerals, such as sodic pyroxenes or amphiboles"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/igneousRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock"
     }
   ],
   "inScheme": [

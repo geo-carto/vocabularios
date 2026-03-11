@@ -6,14 +6,15 @@
     "en": "evaporitic rock"
   },
   "definition": {
-    "es": "Roca formada a partir de la precipitación química de sales no carbonatadas, principalmente por sulfatos, cloratos y boratos"
+    "es": "Roca formada a partir de la precipitación química de sales no carbonatadas, principalmente por sulfatos, cloratos y boratos",
+    "en": "Rock formed by chemical precipitation of non-carbonate salts, mainly sulfates, chlorates and borates"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/evaporite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/evaporite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
     }
   ],
   "inScheme": [

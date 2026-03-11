@@ -9,19 +9,22 @@
     "es": "Transporte corto por agua que cambia predominantemente la organización física interna de las partículas sedomentarias.",
     "en": "Near-range transport by water with predominantly changing the inner physical organisation of the sediment particles"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/transporte-en-masa",
-    "prefLabel": {
-      "es": "transporte en masa",
-      "en": "mass wasting"
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/reworking"
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

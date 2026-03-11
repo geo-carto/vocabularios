@@ -5,15 +5,21 @@
     "es": "roca metaígnea",
     "en": "meta-igneous rock"
   },
-  "definition": {
-    "es": "Roca metamórfica cuyo protolito es una roca ígnea"
+  "altLabel": {
+    "es": [
+      "roca ortoderivada"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
-    },
+  "definition": {
+    "es": "Roca metamórfica cuyo protolito es una roca ígnea",
+    "en": "Metamorphic rock whose protolith is an igneous rock"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
     }
   ],
   "inScheme": [

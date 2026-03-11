@@ -6,14 +6,15 @@
     "en": "blastomylonite"
   },
   "definition": {
-    "es": "Roca milonítica que ha sufrido recristalización estática de parte de la fábrica después de la deformación"
+    "es": "Roca milonítica que ha sufrido recristalización estática de parte de la fábrica después de la deformación",
+    "en": "Mylonitic rock that has undergone static recrystallization of part of its fabric after deformation"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/mylonitic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/myloniticRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/mylonitic_rock"
     }
   ],
   "inScheme": [

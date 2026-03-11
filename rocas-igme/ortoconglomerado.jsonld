@@ -6,14 +6,15 @@
     "en": "orthoconglomerate"
   },
   "definition": {
-    "es": "Conglomerado constituido por cantos y bloques dispuestos en contacto entre sí, entre los que la matriz arenosa o pelítica se presenta en proporción inferior al 15%"
+    "es": "Conglomerado constituido por cantos y bloques dispuestos en contacto entre sí, entre los que la matriz arenosa o pelítica se presenta en proporción inferior al 15%",
+    "en": "Conglomerate consisting of clasts and blocks in mutual contact, with a sandy or pelitic matrix in proportions below 15%"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/conglomerate"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate"
     }
   ],
   "inScheme": [

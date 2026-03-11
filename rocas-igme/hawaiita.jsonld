@@ -6,14 +6,15 @@
     "en": "hawaiite"
   },
   "definition": {
-    "es": "Roca volcánica básica, alcalina, variedad sódica del traquibasalto"
+    "es": "Roca volcánica básica, alcalina, variedad sódica del traquibasalto",
+    "en": "Basic, alkaline volcanic rock, sodic variety of trachybasalt"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/basalt"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/basalt"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/basalt"
     }
   ],
   "inScheme": [

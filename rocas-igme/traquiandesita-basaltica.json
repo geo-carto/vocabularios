@@ -6,14 +6,15 @@
     "en": "basaltic trachyandesite"
   },
   "definition": {
-    "es": "Roca volcánica básica o intermedia, alcalina, con plagioclasa cálcica y piroxeno como minerales principales. la variedad sódica recibe el nombre de mugearita y la potásica, de shoshonita"
+    "es": "Roca volcánica básica o intermedia, alcalina, con plagioclasa cálcica y piroxeno como minerales principales. la variedad sódica recibe el nombre de mugearita y la potásica, de shoshonita",
+    "en": "Basic or intermediate, alkaline volcanic rock, with calcic plagioclase and pyroxene as principal minerals. The sodic variety is called mugearite and the potassic variety, shoshonite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/latitic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/latiticRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/latitic_rock"
     }
   ],
   "inScheme": [

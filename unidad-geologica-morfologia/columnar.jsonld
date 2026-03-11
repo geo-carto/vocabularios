@@ -9,17 +9,24 @@
     "es": "Cuerpo cilíndrico,  de sección transversal equidimensional, alargado en la dirección perpendicular a la a sección transversal. Morfología equivalente a tubería, sin que implique función de transporte",
     "en": "Cylindrical body, equant cross section, long in direction normal to equant cross section. Morphology equivalent to pipe, without denotation of transport function"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-geologico",
+    "prefLabel": {
+      "es": "cuerpo geológico",
+      "en": "geologic body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/column_shape"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

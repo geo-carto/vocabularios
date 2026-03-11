@@ -6,14 +6,15 @@
     "en": "subalkaline rock"
   },
   "definition": {
-    "es": "Término utilizado para las rocas ígneas que no son de naturaleza alcalina. las series magmáticas subalcalinas incluyen las rocas calcoalcalinas, o ricas en aluminio, y toleíticas, o pobres en potasio"
+    "es": "Término utilizado para las rocas ígneas que no son de naturaleza alcalina. las series magmáticas subalcalinas incluyen las rocas calcoalcalinas, o ricas en aluminio, y toleíticas, o pobres en potasio",
+    "en": "Term used for igneous rocks that are not of alkaline nature. Subalkaline magmatic series include calc-alkaline, or aluminium-rich rocks, and tholeiitic, or potassium-poor rocks"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/igneousRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock"
     }
   ],
   "inScheme": [

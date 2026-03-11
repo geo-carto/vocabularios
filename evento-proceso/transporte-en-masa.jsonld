@@ -9,29 +9,6 @@
     "es": "Desprendimiento y transporte ladera debajo de suelo y material rocoso bajo la aplicación directa de esfuerzos gravitacionales. en contraste a otros procesos de erosión, el material movilizado por deslizamiento en masa no es transportado dentro, sobre o bajo ningún otro medio. las propiedades físicas del material dependen de la interacción entre las partículas de suelo y roca y de su contenidoen humedad.",
     "en": "The dislodgement and downslope transport of soil and rock material under the direct application of gravitational body stresses. in contrast to other erosion processes, the debris removed by mass wasting is not carried within, on, or under another medium. the mass properties of the material being transported depend on the interaction of the soil and rock particles and on the moisture content."
   },
-  "narrower": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/crioturbacion",
-      "prefLabel": {
-        "es": "crioturbación",
-        "en": "cryoturbation"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/eluviacion",
-      "prefLabel": {
-        "es": "eluviación",
-        "en": "deluviation"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/retrabajamiento",
-      "prefLabel": {
-        "es": "retrabajamiento",
-        "en": "reworking"
-      }
-    }
-  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erosion",
     "prefLabel": {
@@ -41,10 +18,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/mass_wasting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/massWasting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/massWasting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/mass_wasting"
     }
   ],
   "inScheme": [

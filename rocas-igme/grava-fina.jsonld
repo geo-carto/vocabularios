@@ -5,15 +5,21 @@
     "es": "grava fina",
     "en": "fine gravel"
   },
-  "definition": {
-    "es": "Grava constituida por cantos de tamaño comprendido entre 2 y 4 mm"
+  "altLabel": {
+    "es": [
+      "gravilla"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gravel"
-    },
+  "definition": {
+    "es": "Grava constituida por cantos de tamaño comprendido entre 2 y 4 mm",
+    "en": "Gravel consisting of clasts with a size between 2 and 4 mm"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gravel"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gravel"
     }
   ],
   "inScheme": [

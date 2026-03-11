@@ -6,14 +6,15 @@
     "en": "urtite"
   },
   "definition": {
-    "es": "Foidolita leucocrática compuesta esencialmente por nefelina"
+    "es": "Foidolita leucocrática compuesta esencialmente por nefelina",
+    "en": "Leucocratic foidolite composed essentially of nepheline"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foidolite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidolite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foidolite"
     }
   ],
   "inScheme": [

@@ -9,6 +9,18 @@
     "es": "Rocas muy débilmente metamorfizadas, estructuras del protolito ubicuas, asociación mineral de facies de las zeolitas, facies de sub-esquistos verdes, o parte de baja temperatura de la facies de los esquistos azules. Asociaciones minerales según Fry (1984) Tabla 10-1: Material ultramáfico: serpentina (cuarzo, magnesita); material ígneo básico, porción máfica: arcilla, clorita, minerales ígneos relictos; porción calco-alumínica: zeolita básica, pumpellita, epidota, albita; material pelita y semi-pelita: arcillas, clorita, sericita, cuarzo.",
     "en": "Rock very slightly metamorphosed, protolith structure ubiquitous, mineral assemblage of zeolite facies, subgreenschist facies, or low temperature part of blueschist facies. Mineral assemblages according to Fry (1984) Table 10-1: ultramafic-serpentine (quartz, magnesite), mafic-clay, chlorite, relict igneous minerals, calc-aluminous basic-zeolite, pumpellite, epidote, albite, pelite, semi-pelite -- clays, chlorite, sericite, quartz."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado",
+    "prefLabel": {
+      "es": "grado metamórfizado no especificado",
+      "en": "metamorphosed grade not specified"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/very_low_metamorphic_grade"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado"

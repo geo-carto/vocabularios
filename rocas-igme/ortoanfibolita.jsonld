@@ -6,14 +6,15 @@
     "en": "orthoamphibolite"
   },
   "definition": {
-    "es": "Anfibolita cuyo protolito es una roca ígnea, generalmente un basalto o un gabro"
+    "es": "Anfibolita cuyo protolito es una roca ígnea, generalmente un basalto o un gabro",
+    "en": "Amphibolite whose protolith is an igneous rock, generally a basalt or a gabbro"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/amphibolite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/amphibolite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/amphibolite"
     }
   ],
   "inScheme": [

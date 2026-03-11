@@ -6,14 +6,15 @@
     "en": "spessartite"
   },
   "definition": {
-    "es": "Lamprófido calcoalcalino rico en anfíbol y plagioclasa"
+    "es": "Lamprófido calcoalcalino rico en anfíbol y plagioclasa",
+    "en": "Calc-alkaline lamprophyre rich in amphibole and plagioclase"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/exoticAlkalineRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
     }
   ],
   "inScheme": [

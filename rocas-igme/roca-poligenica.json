@@ -6,14 +6,15 @@
     "en": "polygenetic rock"
   },
   "definition": {
-    "es": "Roca formada por modificación geológica de rocas preexistentes al margen de los procesos ígneos y sedimentarios. incluye las rocas metamórficas y las generadas en procesos de alteración desarrollados en la superficie terrestre"
+    "es": "Roca formada por modificación geológica de rocas preexistentes al margen de los procesos ígneos y sedimentarios. incluye las rocas metamórficas y las generadas en procesos de alteración desarrollados en la superficie terrestre",
+    "en": "Rock formed by geological modification of pre-existing rocks outside of igneous and sedimentary processes. Includes metamorphic rocks and those generated in alteration processes developed at the Earth's surface"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/composite_genesis_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/compositeGenesisRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/composite_genesis_rock"
     }
   ],
   "inScheme": [

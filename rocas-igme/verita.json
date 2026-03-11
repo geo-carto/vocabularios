@@ -5,15 +5,21 @@
     "es": "verita",
     "en": "verite"
   },
-  "definition": {
-    "es": "Roca volcánica perteneciente a la familia de las lamproítas, de color negro, con fenocristales de flogopita, olivino y diópsido, en una matriz vítrea"
+  "altLabel": {
+    "es": [
+      "localismo de lamproíta con vidrio-olivino-diópsido-flogopita"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
-    },
+  "definition": {
+    "es": "Roca volcánica perteneciente a la familia de las lamproítas, de color negro, con fenocristales de flogopita, olivino y diópsido, en una matriz vítrea",
+    "en": "Volcanic rock belonging to the lamproite family, black in colour, with phenocrysts of phlogopite, olivine and diopside in a glassy groundmass"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/exoticAlkalineRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
     }
   ],
   "inScheme": [

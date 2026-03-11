@@ -5,23 +5,26 @@
     "es": "Groenlandiense",
     "en": "Greenlandian"
   },
-  "definition": {
-    "es": "Límite inferior -0.0117 ma, límite superior -0.0082 ma",
-    "en": "Older bound -0.0117 ma, younger bound -0.0082 ma"
-  },
+  "notation": [
+    "213030201000",
+    "a1.1.1.1.1.3"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/holoceno",
     "prefLabel": {
       "es": "Holoceno",
-      "en": "Holocene"
+      "en": "Holocene",
+      "vl": "Holocè"
     }
   },
+  "broadMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/holocene"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/"
-    },
-    {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Greenlandian"
     }
   ],
   "inScheme": [

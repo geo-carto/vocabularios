@@ -9,12 +9,19 @@
     "es": "Ambiente adyacente a los bordes de los glaciares confinados.",
     "en": "Settings adjacent to edges of confined glacier."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-relacionado-con-glaciares",
+    "prefLabel": {
+      "es": "ambiente relacionado con glaciares",
+      "en": "glacier related setting"
+    }
+  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/glacier_lateral_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/glacierLateralSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/glacierLateralSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/glacier_lateral_setting"
     }
   ],
   "inScheme": [
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
     }

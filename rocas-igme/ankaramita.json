@@ -6,14 +6,15 @@
     "en": "ankaramite"
   },
   "definition": {
-    "es": "Basalto picrítico en el que son muy abundantes los fenocristales de clinopiroxeno debido al contenido anómalamente alto en ca del magma del que proceden"
+    "es": "Basalto picrítico en el que son muy abundantes los fenocristales de clinopiroxeno debido al contenido anómalamente alto en ca del magma del que proceden",
+    "en": "Picritic basalt in which clinopyroxene phenocrysts are very abundant owing to the anomalously high Ca content of the parent magma"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/basalt"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/basalt"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/basalt"
     }
   ],
   "inScheme": [

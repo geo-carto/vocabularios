@@ -6,14 +6,15 @@
     "en": "hydrothermal rock"
   },
   "definition": {
-    "es": "Roca cuyas características son el resultado de la acción de soluciones hidrotermales"
+    "es": "Roca cuyas características son el resultado de la acción de soluciones hidrotermales",
+    "en": "Rock whose characteristics are the result of the action of hydrothermal solutions"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metasomatic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/metasomaticRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metasomatic_rock"
     }
   ],
   "inScheme": [

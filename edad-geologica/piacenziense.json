@@ -3,25 +3,37 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Piacenziense",
-    "en": "Piacenzian"
+    "en": "Piacenzian",
+    "vl": "Piacenzià"
   },
-  "definition": {
-    "es": "Límite inferior -3.6 ma, límite superior -2.58 ma",
-    "en": "Older bound -3.6 ma, younger bound -2.58 ma"
-  },
+  "notation": [
+    "213020221000",
+    "a1.1.1.2.1.1"
+  ],
   "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/plioceno-inferior",
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/plioceno-superior",
     "prefLabel": {
-      "es": "Plioceno Inferior",
-      "en": "Lower Pliocene"
+      "es": "Plioceno Superior",
+      "en": "Upper Pliocene",
+      "vl": "Pliocè Superior"
     }
   },
+  "related": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/villafranquiense",
+      "prefLabel": {
+        "es": "Villafranquiense",
+        "en": "Villafranchian",
+        "vl": "Vil-Lafranquià"
+      }
+    }
+  ],
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Piacenzian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/piacenzian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/piacenzian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Piacenzian"
     }
   ],
   "inScheme": [

@@ -3,25 +3,33 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Triásico Inferior",
-    "en": "Lower Triassic"
+    "en": "Lower Triassic",
+    "vl": "Triàsic Inferior"
   },
-  "definition": {
-    "es": "Límite inferior -251.902 +|-0.024 ma, límite superior -247.2 ma",
-    "en": "Older bound -251.902 +|-0.024 ma, younger bound -247.2 ma"
+  "altLabel": {
+    "en": [
+      "Early Triassic"
+    ]
   },
+  "notation": [
+    "212010100000",
+    "a1.1.2.3.3"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/induense",
       "prefLabel": {
         "es": "Induense",
-        "en": "Induan"
+        "en": "Induan",
+        "vl": "Indià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/olenekiense",
       "prefLabel": {
         "es": "Olenekiense",
-        "en": "Olenekian"
+        "en": "Olenekian",
+        "vl": "Oleniokià"
       }
     }
   ],
@@ -29,15 +37,16 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico",
     "prefLabel": {
       "es": "Triásico",
-      "en": "Triassic"
+      "en": "Triassic",
+      "vl": "Triàsic"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Early_Triassic"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerTriassic"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/earlyTriassic"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/LowerTriassic"
     }
   ],
   "inScheme": [

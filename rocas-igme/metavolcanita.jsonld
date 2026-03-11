@@ -5,15 +5,21 @@
     "es": "metavolcanita",
     "en": "metavolcanite"
   },
-  "definition": {
-    "es": "Roca metamórfica derivada de un protolito volcánico"
+  "altLabel": {
+    "es": [
+      "metavulcanita"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
-    },
+  "definition": {
+    "es": "Roca metamórfica derivada de un protolito volcánico",
+    "en": "Metamorphic rock derived from a volcanic protolith"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
     }
   ],
   "inScheme": [

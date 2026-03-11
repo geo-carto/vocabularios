@@ -6,8 +6,14 @@
     "en": "bitumen"
   },
   "definition": {
-    "es": "Hidrocarburo natural sólido o semisólido, de color negro o pardo oscuro, inflamable. incluye a los asfaltos, las ceras resinosas y los productos afines"
+    "es": "Hidrocarburo natural sólido o semisólido, de color negro o pardo oscuro, inflamable. incluye a los asfaltos, las ceras resinosas y los productos afines",
+    "en": "Solid or semi-solid, black or dark brown, flammable natural hydrocarbon. Includes asphalts, resinous waxes and related products"
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/bitumen"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"

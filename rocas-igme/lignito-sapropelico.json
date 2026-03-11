@@ -6,14 +6,15 @@
     "en": "sapropelic lignite"
   },
   "definition": {
-    "es": "Carbón de la serie sapropélica semejante al lignito húmico, pero de aspecto homogéneo y apariencia no estratificada. su contenido en carbono es del 60-70% y el de volátiles, del 52-63%"
+    "es": "Carbón de la serie sapropélica semejante al lignito húmico, pero de aspecto homogéneo y apariencia no estratificada. su contenido en carbono es del 60-70% y el de volátiles, del 52-63%",
+    "en": "Sapropelic series coal similar to humic lignite but of homogeneous appearance and non-stratified appearance. Its carbon content is 60-70% and the volatile matter content is 52-63%"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/lignite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/lignite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/lignite"
     }
   ],
   "inScheme": [

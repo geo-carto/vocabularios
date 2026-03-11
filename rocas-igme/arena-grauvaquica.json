@@ -6,14 +6,15 @@
     "en": "graywacke sand"
   },
   "definition": {
-    "es": "Arena en la que más del 15% del sedimento está constituido por elementos de tamaño pelita"
+    "es": "Arena en la que más del 15% del sedimento está constituido por elementos de tamaño pelita",
+    "en": "Sand in which more than 15% of the sediment consists of pelite-size elements"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/sand"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sand"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/sand"
     }
   ],
   "inScheme": [

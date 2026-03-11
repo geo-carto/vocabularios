@@ -1,0 +1,494 @@
+{
+  "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp/collection/col15",
+  "type": "Collection",
+  "prefLabel": {
+    "es": "Litoral"
+  },
+  "member": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/abanico-de-arena-washover-fan",
+      "prefLabel": {
+        "es": "abanico de arena; washover fan",
+        "en": "washover fan"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/acantilado",
+      "prefLabel": {
+        "es": "acantilado",
+        "en": "cliff"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/acantilado-entre-25-y-100-metros",
+      "prefLabel": {
+        "es": "acantilado entre 25 y 100 metros",
+        "en": "cliff 25-100 m"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/acantilado-fosil",
+      "prefLabel": {
+        "es": "acantilado fósil",
+        "en": "fossil cliff"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/acantilado-inferior-a-25-metros",
+      "prefLabel": {
+        "es": "acantilado inferior a 25 metros",
+        "en": "cliff less than 25 m"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/acantilado-superior-a-100-metros",
+      "prefLabel": {
+        "es": "acantilado superior a 100 metros",
+        "en": "cliff over 100 m"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/albardon-natural-dique-levee",
+      "prefLabel": {
+        "es": "albardón natural; dique; levée",
+        "en": "natural levee"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/albufera-colmatada-o-desecada",
+      "prefLabel": {
+        "es": "albufera colmatada o desecada",
+        "en": "infilled or desiccated coastal lagoon"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/albufera-laguna-costera-lagoon",
+      "prefLabel": {
+        "es": "albufera; laguna costera; lagoon",
+        "en": "coastal lagoon"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/banco-barra-fluvial",
+      "prefLabel": {
+        "es": "banco; barra fluvial",
+        "en": "fluvial bank; bar"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/barra-de-arena",
+      "prefLabel": {
+        "es": "barra de arena",
+        "en": "sand bar"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/barra-sumergida",
+      "prefLabel": {
+        "es": "barra sumergida",
+        "en": "submerged bar"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/boca-de-albufera-grao",
+      "prefLabel": {
+        "es": "boca de albufera; grao",
+        "en": "lagoon inlet"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/borde-de-terraza-con-indicacion-de-cota-en-metros",
+      "prefLabel": {
+        "es": "borde de terraza con indicación de cota en metros",
+        "en": "terrace edge with elevation in metres"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/brazo-fluvial",
+      "prefLabel": {
+        "es": "brazo fluvial",
+        "en": "distributary channel"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/brazo-fluvial-abandonado",
+      "prefLabel": {
+        "es": "brazo fluvial abandonado",
+        "en": "abandoned distributary channel"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/brazo-fluvial-abandonado-inundado-temporalmente",
+      "prefLabel": {
+        "es": "brazo fluvial abandonado inundado temporalmente",
+        "en": "temporarily flooded abandoned distributary"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/brazo-fluvial-con-flujo-de-marea",
+      "prefLabel": {
+        "es": "brazo fluvial con flujo de marea",
+        "en": "tidal distributary channel"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/canal-de-marea",
+      "prefLabel": {
+        "es": "canal de marea",
+        "en": "tidal channel"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/canal-de-marea-abandonado",
+      "prefLabel": {
+        "es": "canal de marea abandonado",
+        "en": "abandoned tidal channel"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/canal-de-marea-sumergido",
+      "prefLabel": {
+        "es": "canal de marea sumergido",
+        "en": "submerged tidal channel"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/construcciones-biogenicas",
+      "prefLabel": {
+        "es": "construcciones biogénicas",
+        "en": "biogenic constructions"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cordon-litoral",
+      "prefLabel": {
+        "es": "cordón litoral",
+        "en": "beach ridge; barrier"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/delta",
+      "prefLabel": {
+        "es": "delta",
+        "en": "delta"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/delta-sumergido-de-flujo",
+      "prefLabel": {
+        "es": "delta sumergido; de flujo",
+        "en": "submerged delta; flow delta"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/deriva-litoral",
+      "prefLabel": {
+        "es": "deriva litoral",
+        "en": "longshore drift"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/derrame-delta-de-ruptura-de-mota",
+      "prefLabel": {
+        "es": "derrame; delta de ruptura de mota",
+        "en": "crevasse splay"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/direccion-del-viento-dominante",
+      "prefLabel": {
+        "es": "dirección del viento dominante",
+        "en": "prevailing wind direction"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/estuario-marisma",
+      "prefLabel": {
+        "es": "estuario; marisma",
+        "en": "estuary; salt marsh"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/flecha-litoral",
+      "prefLabel": {
+        "es": "flecha litoral",
+        "en": "spit"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/frente-deltaico",
+      "prefLabel": {
+        "es": "frente deltaico",
+        "en": "delta front"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/llanura-de-marea",
+      "prefLabel": {
+        "es": "llanura de marea",
+        "en": "tidal flat"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/llanura-de-marea-arenosa",
+      "prefLabel": {
+        "es": "llanura de marea arenosa",
+        "en": "sandy tidal flat"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/llanura-deltaica",
+      "prefLabel": {
+        "es": "llanura deltaica",
+        "en": "delta plain"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/marisma-alta-schorre",
+      "prefLabel": {
+        "es": "marisma alta; schorre",
+        "en": "high marsh; schorre"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/marisma-baja-arenosa",
+      "prefLabel": {
+        "es": "marisma baja arenosa",
+        "en": "sandy low marsh"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/marisma-baja-slikke",
+      "prefLabel": {
+        "es": "marisma baja; slikke",
+        "en": "low marsh; slikke"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/plataforma-de-abrasion-degradada",
+      "prefLabel": {
+        "es": "plataforma de abrasión degradada",
+        "en": "degraded wave-cut platform"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/plataforma-de-abrasion-rasa",
+      "prefLabel": {
+        "es": "plataforma de abrasión; rasa",
+        "en": "wave-cut platform; strandflat"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/playa",
+      "prefLabel": {
+        "es": "playa",
+        "en": "beach"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/playa-de-arena",
+      "prefLabel": {
+        "es": "playa de arena",
+        "en": "sand beach"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/playa-de-cantos-o-bloques",
+      "prefLabel": {
+        "es": "playa de cantos o bloques",
+        "en": "pebble or boulder beach"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/playa-fangosa",
+      "prefLabel": {
+        "es": "playa fangosa",
+        "en": "muddy beach"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/playa-fosil",
+      "prefLabel": {
+        "es": "playa fósil",
+        "en": "fossil beach"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/surcos-lineas-de-crecimiento-del-cordon-litoral",
+      "prefLabel": {
+        "es": "surcos; líneas de crecimiento del cordón litoral",
+        "en": "beach ridge growth lines"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-litoral",
+      "prefLabel": {
+        "es": "terraza litoral",
+        "en": "terrace"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/turbera",
+      "prefLabel": {
+        "es": "turbera",
+        "en": "peat bog"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/zona-de-rompiente-zona-intermareal",
+      "prefLabel": {
+        "es": "zona de rompiente; zona intermareal",
+        "en": "surf zone; intertidal zone"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

@@ -5,15 +5,21 @@
     "es": "canto facetado",
     "en": "faceted pebble"
   },
-  "definition": {
-    "es": "Canto que ha sido pulimentado por la acción del viento cargado de arena, produciendo planos en su superficie que le dan aspecto poliédrico"
+  "altLabel": {
+    "es": [
+      "ventifacto"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pebble_gravel_size_sediment"
-    },
+  "definition": {
+    "es": "Canto que ha sido pulimentado por la acción del viento cargado de arena, produciendo planos en su superficie que le dan aspecto poliédrico",
+    "en": "Clast polished by wind-blown sand, producing planes on its surface that give it a polyhedral appearance"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pebbleGravelSizeSediment"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pebble_gravel_size_sediment"
     }
   ],
   "inScheme": [

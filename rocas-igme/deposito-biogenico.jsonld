@@ -5,15 +5,21 @@
     "es": "depósito biogénico",
     "en": "biogenic deposit"
   },
+  "altLabel": {
+    "es": [
+      "sedimento biogénico"
+    ]
+  },
   "definition": {
-    "es": "Sedimento producido por la acción o la presencia de organismos vivos o de sus restos"
+    "es": "Sedimento producido por la acción o la presencia de organismos vivos o de sus restos",
+    "en": "Sediment produced by the action or presence of living organisms or their remains"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/biogenic_sediment"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/biogenicSediment"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/biogenicSediment"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/biogenic_sediment"
     }
   ],
   "inScheme": [

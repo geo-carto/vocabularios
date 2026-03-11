@@ -2,12 +2,19 @@
   "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-alterado",
   "type": "Concept",
   "prefLabel": {
-    "es": "Afloramiento alterado",
+    "es": "afloramiento alterado",
     "en": "weathered outcrop"
   },
   "definition": {
     "es": "Afloramiento deficiente por estar afectada por una alteración no cartografiable",
     "en": "Bad outcrops, affected by non mappable alteration"
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento",
+    "prefLabel": {
+      "es": "con afloramiento",
+      "en": "with outcrop"
+    }
   },
   "inScheme": [
     {
@@ -15,11 +22,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter"
     }

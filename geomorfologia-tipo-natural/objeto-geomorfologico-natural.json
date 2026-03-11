@@ -9,19 +9,117 @@
     "es": "Objeto geomorfológico producido por la dinámica natural.",
     "en": "A geomorphologic feature produced by the natural dynamics."
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-de-impacto",
+      "prefLabel": {
+        "es": "objetos de impacto",
+        "en": "impact features"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-eolicos",
+      "prefLabel": {
+        "es": "objetos eólicos",
+        "en": "eolian features"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-aluviales-y-fluviales",
+      "prefLabel": {
+        "es": "objetos geográficos aluviales y fluviales",
+        "en": "alluvial and fluvial features"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-karsticos-y-de-meteorizacion-quimica",
+      "prefLabel": {
+        "es": "objetos geográficos kársticos y de meteorización química",
+        "en": "karst and chemical weathering features"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales-fluvioglaciares-y-de-permafrost",
+      "prefLabel": {
+        "es": "objetos glaciales, fluvioglaciares y de permafrost",
+        "en": "nival, periglacial and permafrost features"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales-glaciofluviales-glaciolacustres-y-glaciomarinos",
+      "prefLabel": {
+        "es": "objetos glaciales, glaciofluviales, glaciolacustres y glaciomarinos",
+        "en": "glacial, glaciofluvial, glaciolacustrine and glaciomarine features"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-hidrotermales",
+      "prefLabel": {
+        "es": "objetos hidrotermales",
+        "en": "hydrothermal features"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-lacustres",
+      "prefLabel": {
+        "es": "objetos lacustres",
+        "en": "lacustrine features"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-marinos-litorales-y-de-humedales-costeros",
+      "prefLabel": {
+        "es": "objetos marinos, litorales y de humedales costeros",
+        "en": "marine, littoral and coastal wetlands features"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-relacionados-con-las-laderas-y-con-la-gravedad",
+      "prefLabel": {
+        "es": "objetos relacionados con las laderas y con la gravedad",
+        "en": "slope and gravitational features"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-tectonicos-y-estructurales",
+      "prefLabel": {
+        "es": "objetos tectónicos y estructurales",
+        "en": "tectonic and structural features"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-volcanicos",
+      "prefLabel": {
+        "es": "objetos volcánicos",
+        "en": "volcanic features"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion",
+      "prefLabel": {
+        "es": "superficie de erosión",
+        "en": "erosion surface"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/naturalGeomorphologicFeature"
+    }
+  ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "topConceptOf": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "@context": {

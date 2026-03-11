@@ -9,19 +9,12 @@
     "es": "Una llanura de relieve bajo al borde de una masa de agua que se extiende tierra adentro en las elevaciones más cercanas, con una pendiente muy suave hacia la masa de agua. Se distingue de llanura aluvial por la presencia de depósitos o morfologías relictas relacionadas con el litoral.",
     "en": "A low relief plain bordering a water body extending inland to the nearest elevated land, sloping very gently towards the water body. Distinguished from alluvial plain by presence of relict shoreline-related deposits or morphology."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral",
-    "prefLabel": {
-      "es": "ambiente litoral",
-      "en": "shoreline setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/coastal_plain_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/coastalPlainSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/coastalPlainSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/coastal_plain_setting"
     }
   ],
   "inScheme": [

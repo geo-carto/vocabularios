@@ -3,25 +3,50 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Mesoproterozoico",
-    "en": "Mesoproterozoic"
+    "en": "Mesoproterozoic",
+    "vl": "Mesoproterozoic"
   },
-  "definition": {
-    "es": "Límite inferior -1600 ma, límite superior -1000 ma",
-    "en": "Older bound -1600 ma, younger bound -1000 ma"
-  },
+  "notation": [
+    "132000000000",
+    "a2.1.2"
+  ],
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/calimico",
+      "prefLabel": {
+        "es": "Calímico",
+        "en": "Calymmian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ectasico",
+      "prefLabel": {
+        "es": "Ectásico",
+        "en": "Ectasian"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/estenico",
+      "prefLabel": {
+        "es": "Esténico",
+        "en": "Stenian"
+      }
+    }
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/proterozoico",
     "prefLabel": {
       "es": "Proterozoico",
-      "en": "Proterozoic"
+      "en": "Proterozoic",
+      "vl": "Proterozoic"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Mesoproterozoic"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/mesoproterozoic"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/mesoproterozoic"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Mesoproterozoic"
     }
   ],
   "inScheme": [

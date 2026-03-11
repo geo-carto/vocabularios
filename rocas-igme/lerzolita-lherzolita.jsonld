@@ -6,14 +6,15 @@
     "en": "lherzolite"
   },
   "definition": {
-    "es": "Roca ultramáfica del grupo de las peridotitas compuesta por olivino y cantidades menores de ortopiroxeno y clinopiroxeno"
+    "es": "Roca ultramáfica del grupo de las peridotitas compuesta por olivino y cantidades menores de ortopiroxeno y clinopiroxeno",
+    "en": "Ultramafic rock of the peridotite group composed of olivine and lesser amounts of orthopyroxene and clinopyroxene"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/peridotite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/peridotite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/peridotite"
     }
   ],
   "inScheme": [

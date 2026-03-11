@@ -6,14 +6,15 @@
     "en": "quartzolite"
   },
   "definition": {
-    "es": "Roca plutónica en la que el cuarzo constituye más del 90% de los minerales félsicos"
+    "es": "Roca plutónica en la que el cuarzo constituye más del 90% de los minerales félsicos",
+    "en": "Plutonic rock in which quartz constitutes more than 90% of the felsic minerals"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/granite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/granite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/granite"
     }
   ],
   "inScheme": [

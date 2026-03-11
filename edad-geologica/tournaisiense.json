@@ -3,25 +3,32 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Tournaisiense",
-    "en": "Tournaisian"
+    "en": "Tournaisian",
+    "vl": "Tournaisià"
   },
-  "definition": {
-    "es": "Límite inferior -358.9 +|-0.4 ma, límite superior -346.7 +|-0.4 ma",
-    "en": "Older bound -358.9 +|-0.4 ma, younger bound -346.7 +|-0.4 ma"
+  "altLabel": {
+    "es": [
+      "Misisípico Inferior, Mississippiense Inferior"
+    ]
   },
+  "notation": [
+    "211051101000",
+    "a1.1.3.2.2.3"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/misisipico-inferior",
     "prefLabel": {
-      "es": "Misisípico Inferior",
-      "en": "Lower Mississippian"
+      "es": "Mississippiense Inferior",
+      "en": "Lower Mississippian",
+      "vl": "Mississipià Inferior"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Tournaisian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tournaisian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tournaisian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Tournaisian"
     }
   ],
   "inScheme": [

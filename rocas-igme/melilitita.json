@@ -6,14 +6,15 @@
     "en": "melilitite"
   },
   "definition": {
-    "es": "Roca volcánica ultrabásica y ultraalcalina del grupo de los melilitoides que tiene como minerales esenciales melilita en proporción superior al 10%, piroxeno y, con frecuencia, olivino y nefelina"
+    "es": "Roca volcánica ultrabásica y ultraalcalina del grupo de los melilitoides que tiene como minerales esenciales melilita en proporción superior al 10%, piroxeno y, con frecuencia, olivino y nefelina",
+    "en": "Ultrabasic, ultraalkaline volcanic rock of the melilitoid group having melilite in proportions exceeding 10%, pyroxene and, frequently, olivine and nepheline as essential minerals"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/kalsilitic_and_melilitic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/kalsiliticAndMeliliticRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/kalsilitic_and_melilitic_rock"
     }
   ],
   "inScheme": [

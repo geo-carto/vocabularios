@@ -6,17 +6,15 @@
     "en": "bomb or block tuff"
   },
   "definition": {
-    "es": "Roca piroclástica cuyo contenido en fragmentos de diámetro superior a 64 mm constituye más del 25% en volumen de los piroclastos"
+    "es": "Roca piroclástica cuyo contenido en fragmentos de diámetro superior a 64 mm constituye más del 25% en volumen de los piroclastos",
+    "en": "Pyroclastic rock whose content of fragments with a diameter exceeding 64 mm constitutes more than 25% by volume of the pyroclasts"
   },
-  "exactMatch": [
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/tuffBrecciaAgglomerateOrPyroclasticBreccia"
     },
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/tuff-breccia"
-    },
-    {
-      "id": "gglomerate_or_pyroclastic_breccia"
     }
   ],
   "inScheme": [

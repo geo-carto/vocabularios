@@ -2,28 +2,21 @@
   "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/collection",
   "type": "Collection",
   "prefLabel": {
-    "es": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico - Todos los conceptos"
+    "es": "Objeto geomorfológico antrópico - Todos los conceptos"
   },
   "member": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/depresion-artificial",
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/acumulo",
       "prefLabel": {
-        "es": "depresión artificial",
-        "en": "artificial collapsed depression"
+        "es": "acúmulo",
+        "en": "dump"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/drenaje-artificial",
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/area-de-subsidencia-antropogenica",
       "prefLabel": {
-        "es": "drenaje artificial",
-        "en": "artificial drainage"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/dique-artificial",
-      "prefLabel": {
-        "es": "dique artificial",
-        "en": "artificial levee"
+        "es": "área de subsidencia (antropogénico)",
+        "en": "subsidence area (anthropogenic)"
       }
     },
     {
@@ -34,17 +27,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/acumulo",
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/cantera",
       "prefLabel": {
-        "es": "acúmulo",
-        "en": "dump"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/deposito-de-relleno",
-      "prefLabel": {
-        "es": "depósito de relleno",
-        "en": "fill"
+        "es": "cantera",
+        "en": "quarry"
       }
     },
     {
@@ -55,10 +41,45 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/vertedero",
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/deposito-de-relleno",
       "prefLabel": {
-        "es": "vertedero",
-        "en": "landfill site"
+        "es": "depósito de relleno",
+        "en": "fill"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/depresion-artificial",
+      "prefLabel": {
+        "es": "depresión artificial",
+        "en": "artificial collapsed depression"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/dique-artificial",
+      "prefLabel": {
+        "es": "dique artificial",
+        "en": "artificial levee"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/drenaje-artificial",
+      "prefLabel": {
+        "es": "drenaje artificial",
+        "en": "artificial drainage"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/embalse",
+      "prefLabel": {
+        "es": "embalse",
+        "en": "reservoir lake"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/escombrera",
+      "prefLabel": {
+        "es": "escombrera",
+        "en": "spoil bank"
       }
     },
     {
@@ -83,13 +104,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/cantera",
-      "prefLabel": {
-        "es": "cantera",
-        "en": "quarry"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/tierra-recuperada",
       "prefLabel": {
         "es": "tierra recuperada",
@@ -97,24 +111,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/embalse",
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/vertedero",
       "prefLabel": {
-        "es": "embalse",
-        "en": "reservoir lake"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/escombrera",
-      "prefLabel": {
-        "es": "escombrera",
-        "en": "spoil bank"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/area-de-subsidencia-antropogenica",
-      "prefLabel": {
-        "es": "área de subsidencia (antropogénico)",
-        "en": "subsidence area (anthropogenic)"
+        "es": "vertedero",
+        "en": "landfill site"
       }
     }
   ],

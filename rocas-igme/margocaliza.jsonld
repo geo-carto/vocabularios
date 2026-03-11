@@ -6,14 +6,15 @@
     "en": "marly limestone"
   },
   "definition": {
-    "es": "Alternancia regular de capas decimétricas de calizas y margas. no es recomendable su uso para designar una caliza arcillosa o margosa"
+    "es": "Alternancia regular de capas decimétricas de calizas y margas. no es recomendable su uso para designar una caliza arcillosa o margosa",
+    "en": "Regular alternation of decimetre-thick layers of limestones and marls. Its use is not recommended to designate a clayey or marly limestone"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
     }
   ],
   "inScheme": [

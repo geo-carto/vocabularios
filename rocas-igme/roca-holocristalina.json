@@ -6,14 +6,15 @@
     "en": "holocrystalline rock"
   },
   "definition": {
-    "es": "Roca ígnea formada exclusivamente por cristales"
+    "es": "Roca ígnea formada exclusivamente por cristales",
+    "en": "Igneous rock formed exclusively by crystals"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/phaneritic_igneous_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/phaneriticIgneousRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/phaneritic_igneous_rock"
     }
   ],
   "inScheme": [

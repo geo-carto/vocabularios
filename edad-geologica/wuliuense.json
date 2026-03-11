@@ -5,16 +5,28 @@
     "es": "Wuliuense",
     "en": "Wuliuan"
   },
-  "definition": {
-    "es": "Límite inferior -509 ma, límite superior -504.5 ma",
-    "en": "Older bound -509 ma, younger bound -504.5 ma"
+  "altLabel": {
+    "es": [
+      "Cámbrico-Piso 5"
+    ]
+  },
+  "notation": [
+    "211010301000",
+    "a1.1.3.6.2.3"
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/miaolingiense",
+    "prefLabel": {
+      "es": "Miaolingiense",
+      "en": "Miaolingian"
+    }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Cambrian-Series_3-Stage_5"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrianSeries3Stage5"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrian-series3-stage5"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Wuliuan"
     }
   ],
   "inScheme": [
@@ -23,11 +35,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }

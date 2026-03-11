@@ -11,10 +11,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/glacial_outwash_plain_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/glacialOutwashPlainSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/glacialOutwashPlainSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/glacial_outwash_plain_setting"
     }
   ],
   "inScheme": [
@@ -23,11 +23,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
     }

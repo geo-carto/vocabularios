@@ -6,14 +6,15 @@
     "en": "anthracite"
   },
   "definition": {
-    "es": "Variedad de carbón dura, negra, con brillo semimetálico y fractura semiconcoidea, que arde con dificultad y quema sin humo. su contenido en carbono es mayor del 90% y el de volátiles, menor del 14%"
+    "es": "Variedad de carbón dura, negra, con brillo semimetálico y fractura semiconcoidea, que arde con dificultad y quema sin humo. su contenido en carbono es mayor del 90% y el de volátiles, menor del 14%",
+    "en": "Hard, black coal variety with semi-metallic lustre and semi-conchoidal fracture, which burns with difficulty and without smoke. Its carbon content exceeds 90% and the volatile matter content is below 14%"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/anthracite_coal"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/anthraciteCoal"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/anthraciteCoal"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/anthracite_coal"
     }
   ],
   "inScheme": [

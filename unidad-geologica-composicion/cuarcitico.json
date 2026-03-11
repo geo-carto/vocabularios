@@ -9,17 +9,24 @@
     "es": "Material compuesto por un porcentaje igual o superior al 75% de cuarzo",
     "en": "Material consists of greater than or equal to 75 percent quartz"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarzofeldespatico",
+    "prefLabel": {
+      "es": "cuarzofeldespático",
+      "en": "quartzo feldspathic"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/quartzose"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }

@@ -6,14 +6,15 @@
     "en": "metabasite"
   },
   "definition": {
-    "es": "Roca metamórfica derivada de una roca de composición básica"
+    "es": "Roca metamórfica derivada de una roca de composición básica",
+    "en": "Metamorphic rock derived from a rock of basic composition"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
     }
   ],
   "inScheme": [

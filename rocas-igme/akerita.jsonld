@@ -6,14 +6,15 @@
     "en": "akerite"
   },
   "definition": {
-    "es": "Microsienita o micromonzonita rica en ortosa y oligoclasa, que puede contener cantidades notables de biotita y clinopiroxeno, generalmente augita egirínica, así como cuarzo en cantidades accesorias"
+    "es": "Microsienita o micromonzonita rica en ortosa y oligoclasa, que puede contener cantidades notables de biotita y clinopiroxeno, generalmente augita egirínica, así como cuarzo en cantidades accesorias",
+    "en": "Microsyenite or micromonzonite rich in orthoclase and oligoclase, which may contain notable amounts of biotite and clinopyroxene, generally aegirine-augite, as well as accessory quartz"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/syenite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/syenite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/syenite"
     }
   ],
   "inScheme": [

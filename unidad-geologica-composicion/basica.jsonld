@@ -9,17 +9,24 @@
     "es": "Contiene del 44% al 52% de SiO2",
     "en": "Containing SiO2 in the range 44-52 percent. Syn basic"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-silicatada",
+    "prefLabel": {
+      "es": "roca silicatada",
+      "en": "silicate chemistry"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/low_silica_chemistry"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }

@@ -11,17 +11,17 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-rapido",
-      "prefLabel": {
-        "es": "ambiente de centro de expansión rápido",
-        "en": "fast spreading center setting"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-de-velocidad-media",
       "prefLabel": {
         "es": "ambiente de centro de expansión de velocidad media",
         "en": "medium-rate spreading center setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-rapido",
+      "prefLabel": {
+        "es": "ambiente de centro de expansión rápido",
+        "en": "fast spreading center setting"
       }
     },
     {
@@ -32,19 +32,12 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-margen-de-placa",
-    "prefLabel": {
-      "es": "ambiente de margen de placa",
-      "en": "plate margin setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/active_spreading_center"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/activeSpreadingCenterSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/activeSpreadingCenterSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/active_spreading_center"
     }
   ],
   "inScheme": [

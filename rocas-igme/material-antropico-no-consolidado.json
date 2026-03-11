@@ -5,15 +5,21 @@
     "es": "material antrópico no consolidado",
     "en": "unconsolidated anthropic material"
   },
+  "altLabel": {
+    "es": [
+      "depósito antrópico"
+    ]
+  },
   "definition": {
-    "es": "Material no consolidado de origen artificial humano"
+    "es": "Material no consolidado de origen artificial humano",
+    "en": "Unconsolidated material of artificial human origin"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/anthropogenic_unconsolidated_material"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/anthropogenicUnconsolidatedMaterial"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/anthropogenicUnconsolidatedMaterial"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/anthropogenic_unconsolidated_material"
     }
   ],
   "inScheme": [

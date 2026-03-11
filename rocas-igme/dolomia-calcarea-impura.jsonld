@@ -6,14 +6,15 @@
     "en": "impure calcareous dolomite"
   },
   "definition": {
-    "es": "Roca dolomítica con un contenido superior al 10% tanto de calcita como de impurezas"
+    "es": "Roca dolomítica con un contenido superior al 10% tanto de calcita como de impurezas",
+    "en": "Dolomitic rock with a content exceeding 10% of both calcite and impurities"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/impure_dolostone"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/impureDolomite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/impureDolomite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/impure_dolostone"
     }
   ],
   "inScheme": [

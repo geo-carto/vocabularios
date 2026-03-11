@@ -6,14 +6,15 @@
     "en": "basic material"
   },
   "definition": {
-    "es": "Material ígneo cuyo contenido en sílice está comprendido entre el 45 y el 52%"
+    "es": "Material ígneo cuyo contenido en sílice está comprendido entre el 45 y el 52%",
+    "en": "Igneous material whose silica content is between 45 and 52%"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/basic_igneous_material"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/basicIgneousMaterial"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/basicIgneousMaterial"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/basic_igneous_material"
     }
   ],
   "inScheme": [

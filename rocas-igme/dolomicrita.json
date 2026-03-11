@@ -6,14 +6,15 @@
     "en": "dolomicrite"
   },
   "definition": {
-    "es": "Dolomía microcristalina primaria, con menos del 10% de aloquímicos"
+    "es": "Dolomía microcristalina primaria, con menos del 10% de aloquímicos",
+    "en": "Primary microcrystalline dolomite, with less than 10% allochems"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/dolostone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/dolomite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/dolostone"
     }
   ],
   "inScheme": [

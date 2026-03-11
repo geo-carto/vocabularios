@@ -3,25 +3,27 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Langhiense",
-    "en": "Langhian"
+    "en": "Langhian",
+    "vl": "Languià"
   },
-  "definition": {
-    "es": "Límite inferior -15.97 ma, límite superior -13.82 ma",
-    "en": "Older bound -15.97 ma, younger bound -13.82 ma"
-  },
+  "notation": [
+    "213020103000",
+    "a1.1.1.2.2.4"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno",
     "prefLabel": {
       "es": "Mioceno",
-      "en": "Miocene"
+      "en": "Miocene",
+      "vl": "Miocè"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Langhian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/langhian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/langhian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Langhian"
     }
   ],
   "inScheme": [

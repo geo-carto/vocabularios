@@ -6,14 +6,15 @@
     "en": "pyroclastic material"
   },
   "definition": {
-    "es": "Material formado por piroclastos en más de un 75% de su volumen"
+    "es": "Material formado por piroclastos en más de un 75% de su volumen",
+    "en": "Material formed by pyroclasts in more than 75% of its volume"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_material"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pyroclasticMaterial"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pyroclasticMaterial"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_material"
     }
   ],
   "inScheme": [

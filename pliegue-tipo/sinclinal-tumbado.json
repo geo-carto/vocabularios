@@ -5,6 +5,11 @@
     "es": "sinclinal tumbado",
     "en": "overturned syncline"
   },
+  "altLabel": {
+    "es": [
+      "sinclinal volcado (RAC)"
+    ]
+  },
   "definition": {
     "es": "Pliegue sinclinal con un plano axial inclinado en el que los dos flancos buzan en la misma dirección, presentando, en consecuencia, un flanco inverso.",
     "en": "An asymmetrical syncline with a flank or limb that has been tilted beyond perpendicular so that the beds in that limb are upside-down"
@@ -15,6 +20,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
     }

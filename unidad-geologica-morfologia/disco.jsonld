@@ -9,17 +9,24 @@
     "es": "Cilindro con una altura menor que diámetro. L = W> H, los bordes separan el lado de la parte superior y la inferior. Evoluciona a elipsoide a medida que los bordes pierden definición",
     "en": "Cylinder with height less than diameter. L=W>H, edges separates side from top and bottom. Grades to oblate ellipsoid as edges lose definition"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro",
+    "prefLabel": {
+      "es": "cilindro",
+      "en": "cylinder"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/disc"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

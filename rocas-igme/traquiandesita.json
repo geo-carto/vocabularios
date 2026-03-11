@@ -6,14 +6,15 @@
     "en": "trachyandesite"
   },
   "definition": {
-    "es": "Roca volcánica intermedia, alcalina, que contiene habitualmente plagioclasa, feldespato alcalino y piroxeno. la variedad sódica recibe el nombre de benmoreíta y la potásica, de latita"
+    "es": "Roca volcánica intermedia, alcalina, que contiene habitualmente plagioclasa, feldespato alcalino y piroxeno. la variedad sódica recibe el nombre de benmoreíta y la potásica, de latita",
+    "en": "Intermediate, alkaline volcanic rock that usually contains plagioclase, alkali feldspar and pyroxene. The sodic variety is called benmoreite and the potassic variety, latite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/latitic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/latiticRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/latitic_rock"
     }
   ],
   "inScheme": [

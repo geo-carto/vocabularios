@@ -5,15 +5,21 @@
     "es": "basalto toleítico",
     "en": "tholeiitic basalt"
   },
+  "altLabel": {
+    "es": [
+      "toleíta"
+    ]
+  },
   "definition": {
-    "es": "Basalto pobre en álcalis, con enstatita normativa, plagioclasa y augita, con o sin olivino y, en ocasiones, con pigeonita"
+    "es": "Basalto pobre en álcalis, con enstatita normativa, plagioclasa y augita, con o sin olivino y, en ocasiones, con pigeonita",
+    "en": "Low-alkali basalt with normative enstatite, plagioclase and augite, with or without olivine and, occasionally, with pigeonite"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/tholeiitic_basalt"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/tholeiiticBasalt"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/tholeiiticBasalt"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/tholeiitic_basalt"
     }
   ],
   "inScheme": [

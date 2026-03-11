@@ -9,6 +9,11 @@
     "es": "Incluye minerales de silicato de calcio de cualquier tipo, pero en una proporción inferior al 50 por ciento de la roca",
     "en": "Calcsilicate minerals of any sort are present, but less than 50 percent of rock"
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/calcsilicate_bearing"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"

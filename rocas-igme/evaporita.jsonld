@@ -6,14 +6,15 @@
     "en": "evaporite"
   },
   "definition": {
-    "es": "Sedimento o roca sedimentaria formado por precipitación química de sales no carbonatadas, principalmente por sulfatos, cloruros y boratos"
+    "es": "Sedimento o roca sedimentaria formado por precipitación química de sales no carbonatadas, principalmente por sulfatos, cloruros y boratos",
+    "en": "Sediment or sedimentary rock formed by chemical precipitation of non-carbonate salts, mainly sulfates, chlorides and borates"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/evaporite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/evaporite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
     }
   ],
   "inScheme": [

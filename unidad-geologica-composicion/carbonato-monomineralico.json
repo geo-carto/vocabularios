@@ -9,17 +9,40 @@
     "es": "Roca compuesta por mas de un 75%  de minerales de carbonato",
     "en": "Rock in which carbonate minerals form greater than 75 percent of rock"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcareo-monomineralico",
+      "prefLabel": {
+        "es": "calcáreo monominerálico",
+        "en": "calcareous monomeralic carbonate"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/dolomita",
+      "prefLabel": {
+        "es": "dolomita",
+        "en": "dolomite monomineralic carbonate"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato",
+    "prefLabel": {
+      "es": "carbonato",
+      "en": "carbonate"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/monomineralic_carbonate"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }

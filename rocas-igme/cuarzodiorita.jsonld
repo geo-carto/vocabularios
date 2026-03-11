@@ -6,14 +6,15 @@
     "en": "quartz diorite"
   },
   "definition": {
-    "es": "Roca plutónica perteneciente al grupo de las rocas dioríticas, que contiene cuarzo en una cantidad comprendida entre el 5 y el 20% de los minerales félsicos"
+    "es": "Roca plutónica perteneciente al grupo de las rocas dioríticas, que contiene cuarzo en una cantidad comprendida entre el 5 y el 20% de los minerales félsicos",
+    "en": "Plutonic rock belonging to the group of dioritic rocks, containing quartz in an amount between 5 and 20% of the felsic minerals"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/quartz_diorite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/quartzDiorite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/quartzDiorite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/quartz_diorite"
     }
   ],
   "inScheme": [

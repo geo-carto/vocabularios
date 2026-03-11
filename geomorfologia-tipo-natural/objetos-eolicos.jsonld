@@ -9,19 +9,84 @@
     "es": "Paisajes geomorfológicos y formas del relieve relativos a entornos dominados por el viento.",
     "en": "Geomorphologic landscapes and landforms related to wind-dominated environments."
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/arenas-eolicas-manto-eolico",
+      "prefLabel": {
+        "es": "arenas eólicas; manto eólico",
+        "en": "aeolian sands; sand sheet"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/campo-de-dunas-cordon-de-dunas",
+      "prefLabel": {
+        "es": "campo de dunas; cordón de dunas",
+        "en": "dune field; dune ridge"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cresta-dunar",
+      "prefLabel": {
+        "es": "cresta dunar",
+        "en": "dune crest"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cubetas-de-deflaccion",
+      "prefLabel": {
+        "es": "cubetas de deflacción",
+        "en": "deflation hollows"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/dunas",
+      "prefLabel": {
+        "es": "dunas",
+        "en": "dunes"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/loess",
+      "prefLabel": {
+        "es": "loess",
+        "en": "loess"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ventifactos",
+      "prefLabel": {
+        "es": "ventifactos",
+        "en": "ventifacts"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/viento-dominante",
+      "prefLabel": {
+        "es": "viento dominante",
+        "en": "prevailing wind"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-geomorfologico-natural",
+    "prefLabel": {
+      "es": "objeto geomorfológico natural",
+      "en": "natural geomorphologic feature"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/eolian"
+    }
+  ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "@context": {

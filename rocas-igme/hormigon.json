@@ -6,8 +6,14 @@
     "en": "concrete"
   },
   "definition": {
-    "es": "Material que resulta de la mezcla de agua, arena, grava y cemento o cal, y que, al fraguar, adquiere más resistencia"
+    "es": "Material que resulta de la mezcla de agua, arena, grava y cemento o cal, y que, al fraguar, adquiere más resistencia",
+    "en": "Material resulting from mixing water, sand, gravel and cement or lime, which upon setting acquires greater resistance"
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/concrete"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"

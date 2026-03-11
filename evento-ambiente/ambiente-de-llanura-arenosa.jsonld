@@ -9,19 +9,12 @@
     "es": "Una llanura cubierta de arena dominada por procesos eólicos.",
     "en": "A sand-covered plain dominated by aeolian processes."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-procesos-eolicos",
-    "prefLabel": {
-      "es": "ambiente de procesos eólicos",
-      "en": "aeolian process setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/sand_plain"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/sandPlainSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/sandPlainSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/sand_plain"
     }
   ],
   "inScheme": [

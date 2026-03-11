@@ -6,14 +6,15 @@
     "en": "impure dolomite"
   },
   "definition": {
-    "es": "Roca dolomítica en la que el contenido conjunto de calcita y dolomita no sobrepasa el 90% del total de la roca y el de calcita es inferior al 10%"
+    "es": "Roca dolomítica en la que el contenido conjunto de calcita y dolomita no sobrepasa el 90% del total de la roca y el de calcita es inferior al 10%",
+    "en": "Dolomitic rock in which the combined content of calcite and dolomite does not exceed 90% of the total rock and the calcite content is below 10%"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/impure_dolostone"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/impureDolomite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/impureDolomite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/impure_dolostone"
     }
   ],
   "inScheme": [

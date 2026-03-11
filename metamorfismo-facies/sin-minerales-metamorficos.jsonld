@@ -9,6 +9,11 @@
     "es": "Corresponde a condiciones no-metamorfizadas, ya que la clasificación de facies metamórficas está basada en asociaciones minerales, la ausencia de minerales metamórficos significa que la clasificación no se aplica.",
     "en": "Corresponds to non-metamorphosed condition, since metamorphic facies classification is based on mineral assemblages, absence of metamorphic minerals means that the classification does not apply."
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/no_metamorphic_minerals"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"

@@ -5,12 +5,53 @@
     "es": "Ageniense",
     "en": "Agenian"
   },
-  "exactMatch": [
+  "notation": [
+    "213010000091"
+  ],
+  "related": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Chattian/Aquitanian_O_Burdigalian"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aquitaniense",
+      "prefLabel": {
+        "es": "Aquitaniense",
+        "en": "Aquitanian",
+        "vl": "Aquitanià"
+      }
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/chattian/aquitanianOBurdigalian"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/burdigaliense",
+      "prefLabel": {
+        "es": "Burdigaliense",
+        "en": "Burdigalian",
+        "vl": "Burdigalià"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/chattiense",
+      "prefLabel": {
+        "es": "Chattiense",
+        "en": "Chattian",
+        "vl": "Catià"
+      }
+    }
+  ],
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aquitanian"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/burdigalian"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/chattian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Aquitanian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Burdigalian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Chattian"
     }
   ],
   "inScheme": [

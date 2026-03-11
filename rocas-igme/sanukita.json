@@ -6,14 +6,15 @@
     "en": "sanukite"
   },
   "definition": {
-    "es": "Andesita rica en mg caracterizada por la presencia de ortopiroxeno y plagioclasa en una matriz vítrea. se distingue de la boninita por tener un contenido en tio2 mayor del 0,5%"
+    "es": "Andesita rica en mg caracterizada por la presencia de ortopiroxeno y plagioclasa en una matriz vítrea. se distingue de la boninita por tener un contenido en tio2 mayor del 0,5%",
+    "en": "Mg-rich andesite characterized by the presence of orthopyroxene and plagioclase in a glassy groundmass. Distinguished from boninite by having a TiO2 content above 0.5%"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/andesite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/andesite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/andesite"
     }
   ],
   "inScheme": [

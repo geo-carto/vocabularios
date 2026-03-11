@@ -6,14 +6,15 @@
     "en": "nephelinolite"
   },
   "definition": {
-    "es": "Variedad de foidolita en la que el feldespatoide es nefelina"
+    "es": "Variedad de foidolita en la que el feldespatoide es nefelina",
+    "en": "Variety of foidolite in which the feldspathoid is nepheline"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foidolite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidolite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foidolite"
     }
   ],
   "inScheme": [

@@ -2,14 +2,14 @@
   "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo/collection",
   "type": "Collection",
   "prefLabel": {
-    "es": "https://geo-carto.github.io/vocabularios/alteracion-tipo - Todos los conceptos"
+    "es": "Tipo de alteración - Todos los conceptos"
   },
   "member": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo/meteorizacion",
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo/alteracion-no-especificada",
       "prefLabel": {
-        "es": "meteorización",
-        "en": "weathering"
+        "es": "alteración no especificada",
+        "en": "alteration type not specified"
       }
     },
     {
@@ -41,13 +41,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo/silicificacion",
-      "prefLabel": {
-        "es": "silicificación",
-        "en": "silification"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo/ferruginizacion",
       "prefLabel": {
         "es": "ferruginización",
@@ -55,10 +48,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo/alteracion-no-especificada",
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo/meteorizacion",
       "prefLabel": {
-        "es": "alteración no especificada",
-        "en": "alteration type not specified"
+        "es": "meteorización",
+        "en": "weathering"
       }
     },
     {
@@ -66,6 +59,13 @@
       "prefLabel": {
         "es": "no alterada",
         "en": "not altered"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo/silicificacion",
+      "prefLabel": {
+        "es": "silicificación",
+        "en": "silification"
       }
     }
   ],

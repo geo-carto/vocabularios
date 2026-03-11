@@ -9,17 +9,19 @@
     "es": "Alterita originada por procesos químicos de hidrólisis de rocas metamórficas, especialmente gneises y micaesquistos caracterizados por feldespatos y biotitas, transformadas en minerales arcillosos.",
     "en": "Alterite caused by chemical processes of hydrolysis of metamorphic rocks, especially gneisses and micaschists characterized by feldespars and biotites, transformed into clay minerals."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita",
+    "prefLabel": {
+      "es": "alterita",
+      "en": "alterite"
+    }
+  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
     }

@@ -25,12 +25,19 @@
       }
     }
   ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
+    "prefLabel": {
+      "es": "proceso geológico",
+      "en": "geologic process"
+    }
+  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/sedimentary_process"
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/sedimentaryProcess"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/sedimentaryProcess"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/sedimentary_process"
     }
   ],
   "inScheme": [
@@ -39,11 +46,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

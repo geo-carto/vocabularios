@@ -9,19 +9,22 @@
     "es": "Cubrimiento de la superficie con un material líquido durante el proceso y que se solidifica después.",
     "en": "Covering of the surface with a material liquid during processing and solidifying afterwards"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/transporte-y-deposito-de-material",
-    "prefLabel": {
-      "es": "transporte y depósito de material",
-      "en": "material transport and deposition"
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/casting"
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

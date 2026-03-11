@@ -6,14 +6,15 @@
     "en": "pelitic breccia"
   },
   "definition": {
-    "es": "Roca detrítica constituida en un 30-50% por clastos angulosos de más de 2 mm de diámetro y con un contenido de elementos de tamaño pelita mayor que el de elementos de tamaño arena"
+    "es": "Roca detrítica constituida en un 30-50% por clastos angulosos de más de 2 mm de diámetro y con un contenido de elementos de tamaño pelita mayor que el de elementos de tamaño arena",
+    "en": "Detrital rock consisting of 30-50% angular clasts with a diameter exceeding 2 mm and with a pelite-size element content greater than that of sand-size elements"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/breccia"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia"
     }
   ],
   "inScheme": [

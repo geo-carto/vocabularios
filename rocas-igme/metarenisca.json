@@ -5,15 +5,21 @@
     "es": "metarenisca",
     "en": "metasandstone"
   },
-  "definition": {
-    "es": "Roca metamórfica derivada de una arenisca"
+  "altLabel": {
+    "es": [
+      "metapsamita, metasamita"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
-    },
+  "definition": {
+    "es": "Roca metamórfica derivada de una arenisca",
+    "en": "Metamorphic rock derived from a sandstone"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
     }
   ],
   "inScheme": [

@@ -9,6 +9,11 @@
     "es": "Presenta petróleo o gas natural, generalmente en cantidades mínimas, comúnmente detectado por el olor",
     "en": "Crude oil or natural gas is present, generally in trace amounts, commonly detected by smell"
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/petroliferous"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"

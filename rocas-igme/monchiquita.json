@@ -6,14 +6,15 @@
     "en": "monchiquite"
   },
   "definition": {
-    "es": "Lamprófido alcalino similar a la camptonita, pero sin plagioclasa y con vidrio o feldespatoides"
+    "es": "Lamprófido alcalino similar a la camptonita, pero sin plagioclasa y con vidrio o feldespatoides",
+    "en": "Alkaline lamprophyre similar to camptonite, but lacking plagioclase and with glass or feldspathoids"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/exoticAlkalineRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
     }
   ],
   "inScheme": [

@@ -9,17 +9,24 @@
     "es": "Cilindro de eje muy largo, generalmente de sección circular o elíptica (figura generadora). H >>> W = L. El eje largo puede estar en cualquier orientación y puede ser curvo",
     "en": "Cylinder with very long axis, generally circular or elliptical cross section (generating figure). H>>>W=L. Long axis may be in any orientation, and may be curved"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro",
+    "prefLabel": {
+      "es": "cilindro",
+      "en": "cylinder"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/rod"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

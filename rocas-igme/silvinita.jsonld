@@ -6,14 +6,15 @@
     "en": "sylvinite"
   },
   "definition": {
-    "es": "Roca sedimentaria formada por láminas alternantes de silvita y halita"
+    "es": "Roca sedimentaria formada por láminas alternantes de silvita y halita",
+    "en": "Sedimentary rock formed by alternating laminae of sylvite and halite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/evaporite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
     }
   ],
   "inScheme": [

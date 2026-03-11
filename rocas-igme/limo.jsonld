@@ -6,14 +6,15 @@
     "en": "silt"
   },
   "definition": {
-    "es": "Sedimento pelítico en el que la relación de componentes de tamaño limo a arcilla es superior a 2:1"
+    "es": "Sedimento pelítico en el que la relación de componentes de tamaño limo a arcilla es superior a 2:1",
+    "en": "Pelitic sediment in which the ratio of silt-size to clay-size components exceeds 2:1"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/silt"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/silt"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/silt"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/silt"
     }
   ],
   "inScheme": [

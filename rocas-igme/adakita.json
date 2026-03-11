@@ -6,14 +6,15 @@
     "en": "adakite"
   },
   "definition": {
-    "es": "Roca ígnea ácida, de composición dacítica o granodiorítica-tonalítica, rica en na2o y con relaciones elevadas de la/yb y sr/y mayor de 40 en este último ratio. la adakita puede formarse por fusión directa de la corteza oceánica subducida o por fusión parcial de una corteza máfica en condiciones de alta presión"
+    "es": "Roca ígnea ácida, de composición dacítica o granodiorítica-tonalítica, rica en na2o y con relaciones elevadas de la/yb y sr/y mayor de 40 en este último ratio. la adakita puede formarse por fusión directa de la corteza oceánica subducida o por fusión parcial de una corteza máfica en condiciones de alta presión",
+    "en": "Acid igneous rock of dacitic or granodioritic-tonalitic composition, rich in Na2O and with high La/Yb and Sr/Y ratios (greater than 40 for the latter). Adakite may form by direct melting of subducted oceanic crust or by partial melting of a mafic crust under high-pressure conditions"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/granodiorite"
-    },
+  "closeMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/granodiorite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/granodiorite"
     }
   ],
   "inScheme": [

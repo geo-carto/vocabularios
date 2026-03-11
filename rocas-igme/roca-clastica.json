@@ -5,15 +5,21 @@
     "es": "roca clástica",
     "en": "clastic rock"
   },
+  "altLabel": {
+    "es": [
+      "roca detrítica"
+    ]
+  },
   "definition": {
-    "es": "Roca compuesta en más de un 50% por fragmentos de otras rocas y minerales preexistentes"
+    "es": "Roca compuesta en más de un 50% por fragmentos de otras rocas y minerales preexistentes",
+    "en": "Rock composed of more than 50% fragments from pre-existing rocks and minerals"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sedimentary_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/clasticSedimentaryRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/clasticSedimentaryRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sedimentary_rock"
     }
   ],
   "inScheme": [

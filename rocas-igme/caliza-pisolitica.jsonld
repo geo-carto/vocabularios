@@ -6,14 +6,15 @@
     "en": "pisolitic limestone"
   },
   "definition": {
-    "es": "Caliza constituida mayoritariamente por pisoides ooides de más de 2 mm de diámetro y cemento calcítico"
+    "es": "Caliza constituida mayoritariamente por pisoides ooides de más de 2 mm de diámetro y cemento calcítico",
+    "en": "Limestone consisting predominantly of pisolites (ooids larger than 2 mm in diameter) and calcite cement"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
     }
   ],
   "inScheme": [

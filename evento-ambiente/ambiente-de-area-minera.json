@@ -9,6 +9,11 @@
     "es": "Ambiente con influencia humana en el que los recursos minerales se extraen de la tierra",
     "en": "Human influence setting in which mineral resources are extracted from the ground."
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/miningAreaSetting"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"

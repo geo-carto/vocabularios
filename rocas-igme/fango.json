@@ -6,14 +6,15 @@
     "en": "mud"
   },
   "definition": {
-    "es": "Sedimento pelágico constituido en más de un 30% por restos de organismos y el resto, por minerales de la arcilla"
+    "es": "Sedimento pelágico constituido en más de un 30% por restos de organismos y el resto, por minerales de la arcilla",
+    "en": "Pelagic sediment consisting of more than 30% organic remains with the rest being clay minerals"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/ooze"
-    },
+  "closeMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/ooze"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/ooze"
     }
   ],
   "inScheme": [

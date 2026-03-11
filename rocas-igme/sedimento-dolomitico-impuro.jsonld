@@ -6,14 +6,15 @@
     "en": "impure dolomitic sediment"
   },
   "definition": {
-    "es": "Sedimento con un contenido de dolomita superior al de calcita más aragonito y en el que los minerales carbonatados constituyen entre el 50 y el 90% del total"
+    "es": "Sedimento con un contenido de dolomita superior al de calcita más aragonito y en el que los minerales carbonatados constituyen entre el 50 y el 90% del total",
+    "en": "Sediment with a dolomite content greater than that of calcite plus aragonite and in which carbonate minerals constitute between 50 and 90% of the total"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/impure_dolomitic_sediment"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/impureDolomiticSediment"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/impureDolomiticSediment"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/impure_dolomitic_sediment"
     }
   ],
   "inScheme": [

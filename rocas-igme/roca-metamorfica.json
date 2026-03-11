@@ -6,14 +6,15 @@
     "en": "metamorphic rock"
   },
   "definition": {
-    "es": "Roca derivada de una roca preexistente, mediante cambios mineralógicos, químicos o estructurales, esencialmente en estado sólido y sin cambiar significativamente la composición química del conjunto de la roca, en respuesta a variaciones físico-químicas, principalmente de presión y temperatura, quedando excluidas las rocas derivadas de procesos de meteorización o formación de suelos"
+    "es": "Roca derivada de una roca preexistente, mediante cambios mineralógicos, químicos o estructurales, esencialmente en estado sólido y sin cambiar significativamente la composición química del conjunto de la roca, en respuesta a variaciones físico-químicas, principalmente de presión y temperatura, quedando excluidas las rocas derivadas de procesos de meteorización o formación de suelos",
+    "en": "Rock derived from a pre-existing rock, through mineralogical, chemical or structural changes, essentially in solid state and without significantly changing the overall chemical composition of the rock, in response to physicochemical variations, mainly of pressure and temperature, excluding rocks derived from weathering or soil-forming processes"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
     }
   ],
   "inScheme": [

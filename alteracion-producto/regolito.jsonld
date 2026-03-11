@@ -9,6 +9,29 @@
     "es": "Material que recubre la roca fresca. Incluye alteritas, depósitos superficiales y suelos.",
     "en": "Material that covers the unweathered bedrock. It includes alterites, superficial deposits and soils."
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta",
+      "prefLabel": {
+        "es": "duricreta",
+        "en": "duricrust"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito",
+      "prefLabel": {
+        "es": "saprolito",
+        "en": "saprolite"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/travertino",
+      "prefLabel": {
+        "es": "travertino",
+        "en": "travertine"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"

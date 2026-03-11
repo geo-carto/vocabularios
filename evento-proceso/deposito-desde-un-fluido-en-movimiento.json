@@ -9,12 +9,19 @@
     "es": "Depósito de sedimento desde agua o aire en movimiento, en el que el sedimento es transportado por arrastre del fluido que se está moviendo. es diferente del depósito por flujo en masa o por corriente de turbidez en que la que el movimiento de la mezcla fluido/sedimento se debe a la incorporación del sedimento en el fluido.",
     "en": "Deposition of sediment from moving water or air, in which the sediment is transported by entrainment in the moving fluid. constrast with debris flow or turbidity current deposition in which movement of fluid/sediment mixture is due to incorporation of sediment in fluid."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito-mecanico",
+    "prefLabel": {
+      "es": "depósito mecánico",
+      "en": "mechanical deposition"
+    }
+  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/traction_saltation_or_suspension_deposition"
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/depositionFromMovingFluid"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/depositionFromMovingFluid"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/traction_saltation_or_suspension_deposition"
     }
   ],
   "inScheme": [
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

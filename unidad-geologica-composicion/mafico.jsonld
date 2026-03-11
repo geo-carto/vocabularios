@@ -9,17 +9,24 @@
     "es": "Material compuesto por silicatos ferromagnesianos con proporciones comprendidas entre el 40% y 90%",
     "en": "Material consists of greater than or equal to 40 percent and less than 90 percent ferromagnesian silicate minerals"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ferromagnesiano",
+    "prefLabel": {
+      "es": "ferromagnesiano",
+      "en": "ferromagnesian"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/mafic"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }

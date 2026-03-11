@@ -6,14 +6,15 @@
     "en": "micrite with peloids"
   },
   "definition": {
-    "es": "Caliza micrítica con aloquímicos, de entre los que predominan los peloides"
+    "es": "Caliza micrítica con aloquímicos, de entre los que predominan los peloides",
+    "en": "Micritic limestone with allochems, among which peloids predominate"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
     }
   ],
   "inScheme": [

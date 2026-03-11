@@ -9,6 +9,14 @@
     "es": "Toda la unidad descrita consta de una sola parte o constituyente",
     "en": "Entire described unit consists of a single part or constituent"
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/onlyPart"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/only_part"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"

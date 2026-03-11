@@ -9,19 +9,22 @@
     "es": "Proceso de erosión selectiva no linear a escala granular.",
     "en": "Process of non-linear, grain-size selective erosion"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/transporte-en-masa",
-    "prefLabel": {
-      "es": "transporte en masa",
-      "en": "mass wasting"
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/deluviation"
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

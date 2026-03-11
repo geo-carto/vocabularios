@@ -6,14 +6,15 @@
     "en": "nepheline monzosyenite"
   },
   "definition": {
-    "es": "Monzosienita foídica en la que la nefelina constituye el feldespatoide dominante"
+    "es": "Monzosienita foídica en la que la nefelina constituye el feldespatoide dominante",
+    "en": "Foid monzosyenite in which nepheline constitutes the dominant feldspathoid"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_monzosyenite"
-    },
+  "closeMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidMonzosyenite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_monzosyenite"
     }
   ],
   "inScheme": [

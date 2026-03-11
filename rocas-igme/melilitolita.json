@@ -6,14 +6,15 @@
     "en": "melilitolite"
   },
   "definition": {
-    "es": "Roca plutónica ultrabásica y ultraalcalina del grupo de los melilitoides, que tiene como minerales esenciales melilita en proporción superior al 10%, piroxeno y, con frecuencia, olivino melilitita olivínica y nefelina"
+    "es": "Roca plutónica ultrabásica y ultraalcalina del grupo de los melilitoides, que tiene como minerales esenciales melilita en proporción superior al 10%, piroxeno y, con frecuencia, olivino melilitita olivínica y nefelina",
+    "en": "Ultrabasic, ultraalkaline plutonic rock of the melilitoid group, having melilite in proportions exceeding 10%, pyroxene and, frequently, olivine (olivine melilitolite) and nepheline as essential minerals"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/kalsilitic_and_melilitic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/kalsiliticAndMeliliticRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/kalsilitic_and_melilitic_rock"
     }
   ],
   "inScheme": [

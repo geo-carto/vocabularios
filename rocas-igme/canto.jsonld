@@ -5,15 +5,21 @@
     "es": "canto",
     "en": "cobble"
   },
-  "definition": {
-    "es": "Clasto correspondiente al tamaño de la fracción rudítica sefítica comprendido entre 2 y 256 mm"
+  "altLabel": {
+    "es": [
+      "guijarro"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pebble_gravel_size_sediment"
-    },
+  "definition": {
+    "es": "Clasto correspondiente al tamaño de la fracción rudítica sefítica comprendido entre 2 y 256 mm",
+    "en": "Clast of the rudite (psephite) size fraction with a diameter between 2 and 256 mm"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pebbleGravelSizeSediment"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pebble_gravel_size_sediment"
     }
   ],
   "inScheme": [

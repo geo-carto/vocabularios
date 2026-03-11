@@ -18,38 +18,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-eclogitas",
-      "prefLabel": {
-        "es": "facies metamórfica de las eclogitas",
-        "en": "eclogite metamorphic facies"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-anfibolitas-epidoticas",
       "prefLabel": {
         "es": "facies metamórfica de las anfibolitas epidóticas",
         "en": "epidote amphibolite metamorphic facies"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-los-esquistos-con-glaucofana",
-      "prefLabel": {
-        "es": "facies metamórfica de los esquistos con glaucofana",
-        "en": "glaucophane schist facies"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-granulitas",
-      "prefLabel": {
-        "es": "facies metamórfica de las granulitas",
-        "en": "granulite facies"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-los-esquistos-verdes",
-      "prefLabel": {
-        "es": "facies metamórfica de los esquistos verdes",
-        "en": "greenschist metamorphic facies"
       }
     },
     {
@@ -60,17 +32,24 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-eclogitas",
+      "prefLabel": {
+        "es": "facies metamórfica de las eclogitas",
+        "en": "eclogite metamorphic facies"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-granulitas",
+      "prefLabel": {
+        "es": "facies metamórfica de las granulitas",
+        "en": "granulite facies"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-sanidinitas",
       "prefLabel": {
         "es": "facies metamórfica de las sanidinitas",
         "en": "sanidinite metamorphic facies"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-sub-esquistos-verdes",
-      "prefLabel": {
-        "es": "facies metamórfica de sub-esquistos verdes",
-        "en": "subgreenschist metamorphic facies"
       }
     },
     {
@@ -79,6 +58,32 @@
         "es": "facies metamórfica de las zeolitas",
         "en": "zeolite metamorphic facies"
       }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-los-esquistos-con-glaucofana",
+      "prefLabel": {
+        "es": "facies metamórfica de los esquistos con glaucofana",
+        "en": "glaucophane schist facies"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-los-esquistos-verdes",
+      "prefLabel": {
+        "es": "facies metamórfica de los esquistos verdes",
+        "en": "greenschist metamorphic facies"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-sub-esquistos-verdes",
+      "prefLabel": {
+        "es": "facies metamórfica de sub-esquistos verdes",
+        "en": "subgreenschist metamorphic facies"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/metamorphic_facies_not_specified"
     }
   ],
   "inScheme": [

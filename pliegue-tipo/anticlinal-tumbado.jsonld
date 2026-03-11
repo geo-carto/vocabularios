@@ -5,16 +5,14 @@
     "es": "anticlinal tumbado",
     "en": "overturned anticline"
   },
+  "altLabel": {
+    "es": [
+      "anticlinal volcado (RAC)"
+    ]
+  },
   "definition": {
     "es": "Pliegue anticlinal con un plano axial inclinado en el que los dos flancos buzan en la misma dirección, presentando, en consecuencia, un flanco inverso.",
     "en": "An asymmetrical anticline with a flank or limb that has been tilted beyond perpendicular so that the beds in that limb are upside-down"
-  },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal",
-    "prefLabel": {
-      "es": "anticlinal",
-      "en": "anticline"
-    }
   },
   "inScheme": [
     {
@@ -22,6 +20,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
     }

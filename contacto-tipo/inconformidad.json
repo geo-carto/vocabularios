@@ -9,6 +9,18 @@
     "es": "Superficie de discontinuidad entre una unidad geológica subyacente, más antigua, no estratificada (generalmente rocas ígneas intrusivas o metamórficas) y una unidad geológica estratificada más joven y superpuesta.",
     "en": "An unconformable contact between an underlying, older nonstratified geological unit (usually intrusive igneous rocks or metamorphics) and an overlying, younger stratified geological unit."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/discontinuidad",
+    "prefLabel": {
+      "es": "discontinuidad",
+      "en": "unconformable contact"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/contacttype/nonconformable_contact"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo"

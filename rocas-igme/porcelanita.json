@@ -6,14 +6,15 @@
     "en": "porcelanite"
   },
   "definition": {
-    "es": "Roca sedimentaria silícea, generalmente con una porosidad del 15-30%, de aspecto semejante a la porcelana"
+    "es": "Roca sedimentaria silícea, generalmente con una porosidad del 15-30%, de aspecto semejante a la porcelana",
+    "en": "Siliceous sedimentary rock, generally with 15-30% porosity, of porcelain-like appearance"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/non-clasticSiliceousSedimentaryRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_rock"
     }
   ],
   "inScheme": [

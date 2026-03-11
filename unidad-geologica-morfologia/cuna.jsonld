@@ -9,17 +9,24 @@
     "es": "Una cuña es un poliedro definido por dos triángulos y tres caras trapezoidales. Dos de estas caras se articulan en un ángulo diedro muy agudo",
     "en": "A wedge is a polyhedron defined by two triangles and three trapezoid faces. A wedge has five faces, nine edges, and six vertices. A wedge is a subclass of the prismatoids with the base and opposite ridge in two parallel planes"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-tridimensional",
+    "prefLabel": {
+      "es": "cuerpo tridimensional",
+      "en": "three dimensional body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/wedge"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

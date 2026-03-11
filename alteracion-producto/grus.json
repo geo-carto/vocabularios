@@ -5,9 +5,21 @@
     "es": "grus",
     "en": "grus"
   },
+  "altLabel": {
+    "es": [
+      "arena"
+    ]
+  },
   "definition": {
     "es": "Alterita originada por procesos físicos de desintegración granular de rocas de grano grueso, transformadas en minerales y fragmentos de roca sin cohesión, caracterizados por su tamaño de grano, en el que las arenas (0,1-2,0 mm) y gravas (>2,0 mm) son la fracción predominante (Migon, 2004). Algunos autores restringen el término arene al grus derivado de la alteración de rocas plutónicas, fundamentalmente granitos y dioritas (Campy y Macaire, 1989).",
     "en": "Alterite caused by physical processes of granular disintegration of coarsed-grained rocks, transformed into minerals and rock fragments with no cohesion, characterized by its grain-size distribution, where the sand (0,1-2,0 mm) and gravel (>2,0 mm) fraction predominate (Migon, 2004). Some authors restrict the term arene to the grus derived from the weathering of plutonic rocks, mainly granites and diorites (Campy and Macaire, 1989)."
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita",
+    "prefLabel": {
+      "es": "alterita",
+      "en": "alterite"
+    }
   },
   "inScheme": [
     {
@@ -15,11 +27,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
     }

@@ -9,17 +9,24 @@
     "es": "El perfil no se ajusta a ninguna de las geometrías regulares asociadas con otras categorías en el vocabulario",
     "en": "Profile does not conform to any of the regular geometries associated with other categories in the vocabulary"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-planar",
+    "prefLabel": {
+      "es": "perfil planar",
+      "en": "planar profile"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/irregular_profile"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

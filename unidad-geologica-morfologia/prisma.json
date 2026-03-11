@@ -9,17 +9,33 @@
     "es": "Un poliedro compuesto por dos bases poligonales de n lados con la misma orientación espacial y otras n caras (necesariamente todos paralelogramos) que unen los lados correspondientes entre las bases. Todas las secciones transversales paralelas a las caras de la base son congruentes con las bases. Los prismas se nombran por su base, por lo que un prisma con una base pentagonal se llama prisma pentagonal",
     "en": "A polyhedron with an n-sided polygonal base, another congruent parallel base (with the same rotational orientation), and n other faces (necessarily all parallelograms) joining corresponding sides of the two bases. All cross-sections parallel to the base faces are congruent to the bases. Prisms are named for their base, so a prism with a pentagonal base is called a pentagonal prism"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/prisma-tabular",
+      "prefLabel": {
+        "es": "prisma tabular",
+        "en": "tabular prism"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-tridimensional",
+    "prefLabel": {
+      "es": "cuerpo tridimensional",
+      "en": "three dimensional body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/prism"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

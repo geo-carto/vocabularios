@@ -6,14 +6,15 @@
     "en": "wehrlite"
   },
   "definition": {
-    "es": "Roca ultramáfica del grupo de las peridotitas compuesta por olivino y clinopiroxeno como minerales esenciales"
+    "es": "Roca ultramáfica del grupo de las peridotitas compuesta por olivino y clinopiroxeno como minerales esenciales",
+    "en": "Ultramafic rock of the peridotite group composed of olivine and clinopyroxene as essential minerals"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/peridotite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/peridotite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/peridotite"
     }
   ],
   "inScheme": [

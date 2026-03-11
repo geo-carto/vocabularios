@@ -6,14 +6,15 @@
     "en": "black lignite"
   },
   "definition": {
-    "es": "Variedad del lignito, de color negro, brillo sedoso y más dura que el lignito pardo"
+    "es": "Variedad del lignito, de color negro, brillo sedoso y más dura que el lignito pardo",
+    "en": "Variety of lignite, black in colour, silky lustre and harder than brown lignite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/lignite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/lignite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/lignite"
     }
   ],
   "inScheme": [

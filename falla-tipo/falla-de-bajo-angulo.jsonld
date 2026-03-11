@@ -11,6 +11,13 @@
   },
   "narrower": [
     {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/cabalgamiento",
+      "prefLabel": {
+        "es": "cabalgamiento",
+        "en": "thrust fault"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-horizontal",
       "prefLabel": {
         "es": "falla horizontal",
@@ -23,13 +30,6 @@
         "es": "falla normal de bajo ángulo",
         "en": "low angle normal fault"
       }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/cabalgamiento",
-      "prefLabel": {
-        "es": "cabalgamiento",
-        "en": "thrust fault"
-      }
     }
   ],
   "broader": {
@@ -41,10 +41,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/faulttype/low_angle_fault"
+      "id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/lowAngleFault"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/lowAngleFault"
+      "id": "http://resource.geosciml.org/classifier/cgi/faulttype/low_angle_fault"
     }
   ],
   "inScheme": [

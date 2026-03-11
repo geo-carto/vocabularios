@@ -6,14 +6,15 @@
     "en": "bomb and block tephra"
   },
   "definition": {
-    "es": "Depósito piroclástico cuyo contenido en fragmentos de diámetro superior a 64 mm está comprendido entre el 25 y el 75% del volumen de los piroclastos"
+    "es": "Depósito piroclástico cuyo contenido en fragmentos de diámetro superior a 64 mm está comprendido entre el 25 y el 75% del volumen de los piroclastos",
+    "en": "Pyroclastic deposit whose content of fragments with a diameter exceeding 64 mm is between 25 and 75% of the pyroclast volume"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/ash_breccia_bomb_or_block_tephra"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/ashBrecciaBombOrBlockTephra"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/ash_breccia_bomb_or_block_tephra"
     }
   ],
   "inScheme": [

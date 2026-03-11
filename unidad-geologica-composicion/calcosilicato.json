@@ -9,17 +9,24 @@
     "es": "Material compuesto por calcosilicatos o carbonatos en una proporción mayor o igual al 50 por ciento, y en la que  los minerales de carbonato son minoritarios o tienen la misma proporcion que los calcosilicatos",
     "en": "Material consists of greater than or equal to 50 percent calcsilicate or carbonate minerals and carbonate minerals less than or equal to calcsilicate minerals in mineral mode"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-impuro",
+    "prefLabel": {
+      "es": "carbonato impuro",
+      "en": "impure calcsilicate or carbonate"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/calcsilicate"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }

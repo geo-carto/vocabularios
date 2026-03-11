@@ -9,17 +9,24 @@
     "es": "Transformación de minerales, especialmente feldespatos y otros silicatos, en minerales arcillosos del grupo de la caolinita.",
     "en": "Transformation of minerals, especially feldespars and other silicates into kaolinite-group clay minerals."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo/meteorizacion",
+    "prefLabel": {
+      "es": "meteorización",
+      "en": "weathering"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/alterationtype/kaolinitic_alteration"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo"
     }

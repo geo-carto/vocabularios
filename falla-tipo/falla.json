@@ -32,10 +32,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal",
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre",
       "prefLabel": {
-        "es": "falla normal",
-        "en": "normal fault"
+        "es": "falla de desgarre",
+        "en": "strike slip fault"
       }
     },
     {
@@ -46,13 +46,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa",
-      "prefLabel": {
-        "es": "falla inversa",
-        "en": "reverse fault"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-en-tijera",
       "prefLabel": {
         "es": "falla en tijera",
@@ -60,19 +53,26 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre",
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa",
       "prefLabel": {
-        "es": "falla de desgarre",
-        "en": "strike slip fault"
+        "es": "falla inversa",
+        "en": "reverse fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal",
+      "prefLabel": {
+        "es": "falla normal",
+        "en": "normal fault"
       }
     }
   ],
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/faulttype/fault"
+      "id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/fault"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/fault"
+      "id": "http://resource.geosciml.org/classifier/cgi/faulttype/fault"
     }
   ],
   "inScheme": [

@@ -5,15 +5,21 @@
     "es": "roca de impacto",
     "en": "impact rock"
   },
+  "altLabel": {
+    "es": [
+      "impactita"
+    ]
+  },
   "definition": {
-    "es": "Cualquier material producido por el impacto de un cuerpo extraterrestre"
+    "es": "Cualquier material producido por el impacto de un cuerpo extraterrestre",
+    "en": "Any material produced by the impact of an extraterrestrial body"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/impact_generated_material"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/impactGeneratedMaterial"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/impactGeneratedMaterial"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/impact_generated_material"
     }
   ],
   "inScheme": [

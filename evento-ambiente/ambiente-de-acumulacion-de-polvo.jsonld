@@ -9,19 +9,22 @@
     "es": "Ambiente en el que se acumulan partículas de grano fino, por ejemplo, deposición de loess.",
     "en": "Setting in which finegrained particles accumulate, e.g. loess deposition."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-procesos-eolicos",
-    "prefLabel": {
-      "es": "ambiente de procesos eólicos",
-      "en": "aeolian process setting"
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/dustAccumulationSetting"
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
     }

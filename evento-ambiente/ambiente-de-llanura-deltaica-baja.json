@@ -9,19 +9,12 @@
     "es": "La parte de una llanura deltaica en la que penetra el agua salina y está sometida a los procesos de marea.",
     "en": "The part of a delta plain which is penetrated by saline water and is subject to tidal processes."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-deltaica",
-    "prefLabel": {
-      "es": "ambiente de llanura deltaica",
-      "en": "delta plain setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/lower_delta_plain"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/lowerDeltaPlainSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/lowerDeltaPlainSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/lower_delta_plain"
     }
   ],
   "inScheme": [

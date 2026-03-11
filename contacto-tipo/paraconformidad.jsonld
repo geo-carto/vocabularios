@@ -9,6 +9,18 @@
     "es": "Discontinuidad estratigráfica en la que hay un paralelismo entre los materiales subyacentes y los superpuestos, siendo la superficie de discontinuidad paralela a los planos de estratificación.",
     "en": "An unconformable contact between two geological units in which the bedding of the older, underlying unit is parallel to the bedding of the younger, overlying unit, in which the contact between the two units is planar, and may be coincident with a bedding plane."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/discontinuidad",
+    "prefLabel": {
+      "es": "discontinuidad",
+      "en": "unconformable contact"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/contacttype/paraconformable_contact"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo"

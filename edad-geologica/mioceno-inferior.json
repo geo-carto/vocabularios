@@ -3,15 +3,65 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Mioceno Inferior",
-    "en": "Lower Miocene"
+    "en": "Lower Miocene",
+    "vl": "Miocè Inferior"
   },
+  "altLabel": {
+    "en": [
+      "Early Miocene"
+    ]
+  },
+  "notation": [
+    "213020110000"
+  ],
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aquitaniense",
+      "prefLabel": {
+        "es": "Aquitaniense",
+        "en": "Aquitanian",
+        "vl": "Aquitanià"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/burdigaliense",
+      "prefLabel": {
+        "es": "Burdigaliense",
+        "en": "Burdigalian",
+        "vl": "Burdigalià"
+      }
+    }
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno",
     "prefLabel": {
       "es": "Mioceno",
-      "en": "Miocene"
+      "en": "Miocene",
+      "vl": "Miocè"
     }
   },
+  "broadMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/miocene"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Miocene"
+    }
+  ],
+  "narrowMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aquitanian"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/burdigalian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Aquitanian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Burdigalian"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"

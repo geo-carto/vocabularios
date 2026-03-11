@@ -5,39 +5,42 @@
     "es": "Fanerozoico",
     "en": "Phanerozoic"
   },
-  "definition": {
-    "es": "Límite inferior -541.0 +|-1.0 ma, límite superior -0.0 ma",
-    "en": "Older bound -541.0 +|-1.0 ma, younger bound -0.0 ma"
-  },
+  "notation": [
+    "210000000000",
+    "a1.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cenozoico",
       "prefLabel": {
         "es": "Cenozoico",
-        "en": "Cenozoic"
+        "en": "Cenozoic",
+        "vl": "Cenozoic"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesozoico",
       "prefLabel": {
         "es": "Mesozoico",
-        "en": "Mesozoic"
+        "en": "Mesozoic",
+        "vl": "Mesozoic"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico",
       "prefLabel": {
         "es": "Paleozoico",
-        "en": "Paleozoic"
+        "en": "Paleozoic",
+        "vl": "Paleozoic"
       }
     }
   ],
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Phanerozoic"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/phanerozoic"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/phanerozoic"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Phanerozoic"
     }
   ],
   "inScheme": [

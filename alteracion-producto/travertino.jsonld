@@ -5,9 +5,21 @@
     "es": "travertino",
     "en": "travertine"
   },
+  "altLabel": {
+    "es": [
+      "caliza travertínica, toba calcárea"
+    ]
+  },
   "definition": {
     "es": "Caliza de color blanco o crema, con textura a menudo porosa o tubular, y formada por precipitación de carbonato cálcico en medios acuosos superficiales o subterráneos.",
     "en": "Limestone of white or cream color, commonly having a porous or tubular texture, and formed by precipitation of calcium carbonate in a subaerial or subterranean aqueous environment."
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/regolito",
+    "prefLabel": {
+      "es": "regolito",
+      "en": "regolith"
+    }
   },
   "inScheme": [
     {
@@ -15,11 +27,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
     }

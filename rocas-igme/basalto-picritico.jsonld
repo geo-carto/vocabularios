@@ -6,14 +6,15 @@
     "en": "picritic basalt"
   },
   "definition": {
-    "es": "Basalto rico en magnesio, con abundantes fenocristales de olivino y augita"
+    "es": "Basalto rico en magnesio, con abundantes fenocristales de olivino y augita",
+    "en": "Magnesium-rich basalt with abundant olivine and augite phenocrysts"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/basalt"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/basalt"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/basalt"
     }
   ],
   "inScheme": [

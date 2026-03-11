@@ -3,25 +3,37 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Messiniense",
-    "en": "Messinian"
+    "en": "Messinian",
+    "vl": "Messinià"
   },
-  "definition": {
-    "es": "Límite inferior -7.246 ma, límite superior -5.333 ma",
-    "en": "Older bound -7.246 ma, younger bound -5.333 ma"
-  },
+  "notation": [
+    "213020106000",
+    "a1.1.1.2.2.1"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno",
     "prefLabel": {
       "es": "Mioceno",
-      "en": "Miocene"
+      "en": "Miocene",
+      "vl": "Miocè"
     }
   },
+  "related": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/turoliense",
+      "prefLabel": {
+        "es": "Turoliense",
+        "en": "Turolian",
+        "vl": "Turiolià"
+      }
+    }
+  ],
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Messinian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/messinian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/messinian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Messinian"
     }
   ],
   "inScheme": [

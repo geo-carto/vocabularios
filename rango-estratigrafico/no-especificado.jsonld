@@ -9,6 +9,11 @@
     "es": "La unidad no es parte de una jerarquía estratigráfica definida.",
     "en": "unit is not part of a defined stratigraphic hierarchy."
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/stratigraphicrank/rank_not_specified"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico"

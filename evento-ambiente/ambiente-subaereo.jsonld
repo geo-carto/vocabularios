@@ -11,6 +11,34 @@
   },
   "narrower": [
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-cordon-litoral",
+      "prefLabel": {
+        "es": "ambiente de cordon litoral",
+        "en": "strandplain setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-litoral",
+      "prefLabel": {
+        "es": "ambiente de llanura litoral",
+        "en": "coastal plain setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-pedregosa",
+      "prefLabel": {
+        "es": "ambiente de llanura pedregosa",
+        "en": "gibber plain setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-playa-endorreica",
+      "prefLabel": {
+        "es": "ambiente de playa endorreica",
+        "en": "playa setting"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-procesos-eolicos",
       "prefLabel": {
         "es": "ambiente de procesos eólicos",
@@ -18,10 +46,24 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-de-llanura-fluvial",
+      "prefLabel": {
+        "es": "ambiente de sistema de llanura fluvial",
+        "en": "river plain system setting"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-vertiente-de-piedemonte",
       "prefLabel": {
         "es": "ambiente de sistema vertiente de piedemonte",
         "en": "piedmont slope system setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-supramareal",
+      "prefLabel": {
+        "es": "ambiente supramareal",
+        "en": "supratidal setting"
       }
     }
   ],
@@ -34,10 +76,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/subaerial_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/subaerialSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/subaerialSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/subaerial_setting"
     }
   ],
   "inScheme": [

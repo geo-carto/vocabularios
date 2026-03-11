@@ -6,8 +6,14 @@
     "en": "landfill"
   },
   "definition": {
-    "es": "Acumulación de basuras o escombros"
+    "es": "Acumulación de basuras o escombros",
+    "en": "Accumulation of rubbish or rubble"
   },
+  "closeMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/buildingRubble"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"

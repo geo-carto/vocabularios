@@ -6,14 +6,15 @@
     "en": "salt works"
   },
   "definition": {
-    "es": "Laguna costera o continental, natural o artificial, donde se produce precipitación de sales"
+    "es": "Laguna costera o continental, natural o artificial, donde se produce precipitación de sales",
+    "en": "Coastal or inland lagoon, natural or artificial, where salt precipitation takes place"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/hybrid_sediment"
-    },
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/hybridSediment"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/hybrid_sediment"
     }
   ],
   "inScheme": [

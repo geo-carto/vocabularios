@@ -6,14 +6,15 @@
     "en": "unconsolidated natural material"
   },
   "definition": {
-    "es": "Material de origen natural sin compactar. incluye los sedimentos, los depósitos volcanoclásticos y los materiales de falla no cohesivos"
+    "es": "Material de origen natural sin compactar. incluye los sedimentos, los depósitos volcanoclásticos y los materiales de falla no cohesivos",
+    "en": "Natural, unconsolidated material. Includes sediments, volcaniclastic deposits and non-cohesive fault materials"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/natural_unconsolidated_material"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/naturalUnconsolidatedMaterial"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/naturalUnconsolidatedMaterial"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/natural_unconsolidated_material"
     }
   ],
   "inScheme": [

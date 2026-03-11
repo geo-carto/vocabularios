@@ -9,6 +9,27 @@
     "es": "Material que tiene más del 40 por ciento de silicatos ferromagnesianos oscuros. Término estándar definido por Bates y Jackson (1987) como \"que contiene hierro y magnesio\". Incluye máficos y ultramáficos",
     "en": "Material consists of greater than 40 percent dark ferromagnesian silicate minerals. Standard term defined by Bates and Jackson (1987) to mean 'containing iron and magnesium'. Subsumes mafic and ultramafic"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/mafico",
+      "prefLabel": {
+        "es": "máfico",
+        "en": "mafic"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ultramafico",
+      "prefLabel": {
+        "es": "ultramáfico",
+        "en": "ultramafic"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/ferromagnesian"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"

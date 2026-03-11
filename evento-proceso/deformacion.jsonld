@@ -11,10 +11,10 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/flujo-ductil",
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/cizallamiento",
       "prefLabel": {
-        "es": "flujo dúctil",
-        "en": "ductile flow"
+        "es": "cizallamiento",
+        "en": "shearing"
       }
     },
     {
@@ -25,10 +25,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/plegamiento",
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/flujo-ductil",
       "prefLabel": {
-        "es": "plegamiento",
-        "en": "folding"
+        "es": "flujo dúctil",
+        "en": "ductile flow"
       }
     },
     {
@@ -39,19 +39,26 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/cizallamiento",
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/plegamiento",
       "prefLabel": {
-        "es": "cizallamiento",
-        "en": "shearing"
+        "es": "plegamiento",
+        "en": "folding"
       }
     }
   ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
+    "prefLabel": {
+      "es": "proceso geológico",
+      "en": "geologic process"
+    }
+  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/deformation"
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/deformation"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/deformation"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/deformation"
     }
   ],
   "inScheme": [
@@ -60,11 +67,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

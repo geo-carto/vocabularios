@@ -6,14 +6,15 @@
     "en": "biolithite"
   },
   "definition": {
-    "es": "Caliza bioconstruida, formada por organismos en posición de vida, como las que se forman en los arrecifes"
+    "es": "Caliza bioconstruida, formada por organismos en posición de vida, como las que se forman en los arrecifes",
+    "en": "Bioclastic limestone formed by reef-building organisms, generally in life position, such as those forming in reefs"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/boundstone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/boundstone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/boundstone"
     }
   ],
   "inScheme": [

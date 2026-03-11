@@ -9,17 +9,24 @@
     "es": "Gran proyección hacia arriba del techo de una intrusión ígnea en la roca encajante. Un cuerpo posiblemente irregular en forma de bóveda o columnar inserto en un cuerpo mayor",
     "en": "Large upward projection of the roof of an igneous intrusion into the country rock above. A possibly irregular dome like or columnar body rooted in a larger body"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-geologico",
+    "prefLabel": {
+      "es": "cuerpo geológico",
+      "en": "geologic body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/cupola"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

@@ -9,6 +9,11 @@
     "es": "Punto de concentración de residuos utilizado para el depósito controlado de residuos en o sobre el terreno.",
     "en": "Waste disposal site used for the controlled deposit of the waste onto or into land."
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/AnthropogenicGeomorphologicFeatureTypeValue/landfillSite"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico"

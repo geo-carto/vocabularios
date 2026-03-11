@@ -9,17 +9,24 @@
     "es": "Contiene dolomita  pero los minerales de carbonato forman menos del 50 por ciento de la roca",
     "en": "Dolomite is present, carbonate minerals form less than 50 percent of rock"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-carbonatos",
+    "prefLabel": {
+      "es": "con carbonatos",
+      "en": "carbonate bearing"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/dolomitic"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }

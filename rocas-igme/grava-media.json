@@ -6,14 +6,15 @@
     "en": "medium gravel"
   },
   "definition": {
-    "es": "Grava constituida por cantos de tamaño comprendido entre 4 y 64 mm"
+    "es": "Grava constituida por cantos de tamaño comprendido entre 4 y 64 mm",
+    "en": "Gravel consisting of clasts with a size between 4 and 64 mm"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gravel"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gravel"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gravel"
     }
   ],
   "inScheme": [

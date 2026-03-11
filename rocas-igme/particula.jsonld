@@ -6,14 +6,15 @@
     "en": "particle"
   },
   "definition": {
-    "es": "Mineral detrítico o fragmento de roca de tamaño arcilla inferior a 0.004 mm"
+    "es": "Mineral detrítico o fragmento de roca de tamaño arcilla inferior a 0.004 mm",
+    "en": "Detrital mineral or rock fragment of clay size (less than 0.004 mm)"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/mud_size_sediment"
-    },
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/mudSizeSediment"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/mud_size_sediment"
     }
   ],
   "inScheme": [

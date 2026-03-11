@@ -6,14 +6,15 @@
     "en": "foliated rock"
   },
   "definition": {
-    "es": "Roca metamórfica en la que al menos el 10% de sus componentes minerales tienen una fábrica planar o linear. la naturaleza cataclástica o vítrea excluyen la clasificación bajo este concepto"
+    "es": "Roca metamórfica en la que al menos el 10% de sus componentes minerales tienen una fábrica planar o linear. la naturaleza cataclástica o vítrea excluyen la clasificación bajo este concepto",
+    "en": "Metamorphic rock in which at least 10% of its mineral components exhibit a planar or linear fabric. Cataclastic or glassy nature excludes classification under this concept"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foliated_metamorphic_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foliatedMetamorphicRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foliatedMetamorphicRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foliated_metamorphic_rock"
     }
   ],
   "inScheme": [

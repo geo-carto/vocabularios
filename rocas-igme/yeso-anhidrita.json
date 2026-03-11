@@ -2,18 +2,19 @@
   "id": "https://geo-carto.github.io/vocabularios/rocas-igme/yeso-anhidrita",
   "type": "Concept",
   "prefLabel": {
-    "es": "Yeso-anhidrita",
+    "es": "yeso-anhidrita",
     "en": "gypsum-anhydrite"
   },
   "definition": {
-    "es": "Evaporita compuesta, al menos, por un 50% de yeso o anhidrita"
+    "es": "Evaporita compuesta, al menos, por un 50% de yeso o anhidrita",
+    "en": "Evaporite composed of at least 50% gypsum or anhydrite"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/rock_gypsum_or_anhydrite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gypsumOrAnhydrite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gypsumOrAnhydrite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/rock_gypsum_or_anhydrite"
     }
   ],
   "inScheme": [

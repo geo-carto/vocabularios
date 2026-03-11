@@ -9,19 +9,12 @@
     "es": "Ambiente en la corteza oceánica formado en un centro de expansión que ha sido abandonado.",
     "en": "Setting on oceanic crust formed at a spreading center that has been abandoned."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-tectonico-de-intraplaca",
-    "prefLabel": {
-      "es": "ambiente tectónico de intraplaca",
-      "en": "intraplate tectonic setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/inactive_spreading_center"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/inactiveSpreadingCenterSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/inactiveSpreadingCenterSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/inactive_spreading_center"
     }
   ],
   "inScheme": [

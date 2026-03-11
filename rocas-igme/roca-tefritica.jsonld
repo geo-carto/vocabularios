@@ -5,15 +5,21 @@
     "es": "roca tefrítica",
     "en": "tephritic rock"
   },
+  "altLabel": {
+    "es": [
+      "tefritoide"
+    ]
+  },
   "definition": {
-    "es": "Contienen cantidades menores de minerales ferromagnesianos, como piroxeno, anfíbol y, en ocasiones, olivino"
+    "es": "Contienen cantidades menores de minerales ferromagnesianos, como piroxeno, anfíbol y, en ocasiones, olivino",
+    "en": "Containing lesser amounts of ferromagnesian minerals, such as pyroxene, amphibole and, occasionally, olivine"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/tephritoid"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/tephritoid"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/tephritoid"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/tephritoid"
     }
   ],
   "inScheme": [

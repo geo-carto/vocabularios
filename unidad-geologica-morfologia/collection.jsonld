@@ -2,42 +2,28 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/collection",
   "type": "Collection",
   "prefLabel": {
-    "es": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia - Todos los conceptos"
+    "es": "Morfología de cuerpo geológico - Todos los conceptos"
   },
   "member": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/morfologia-arqueada",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/abanico",
       "prefLabel": {
-        "es": "morfología arqueada",
-        "en": "arch morphology"
+        "es": "abanico",
+        "en": "fan"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-curvada",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/almohadilla",
       "prefLabel": {
-        "es": "lámina curvada",
-        "en": "arcuate sheet"
+        "es": "almohadilla",
+        "en": "pillow ellipsoid"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuenca",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/anillo-discoidal",
       "prefLabel": {
-        "es": "cuenca",
-        "en": "basin shape"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/manto",
-      "prefLabel": {
-        "es": "manto",
-        "en": "blanket shape"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/gota",
-      "prefLabel": {
-        "es": "gota",
-        "en": "blob"
+        "es": "anillo discoidal",
+        "en": "discoid anulus"
       }
     },
     {
@@ -55,234 +41,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide-alargado",
-      "prefLabel": {
-        "es": "elipsoide alargado",
-        "en": "bread loaf ellipsoid"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/canaliforme",
       "prefLabel": {
         "es": "canaliforme",
         "en": "channel shape"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/clindro-circular",
-      "prefLabel": {
-        "es": "clindro circular",
-        "en": "circular cylinder"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-circular",
-      "prefLabel": {
-        "es": "perfil circular",
-        "en": "circular profile"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/columnar",
-      "prefLabel": {
-        "es": "columnar",
-        "en": "column shape"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/segmento-de-cono",
-      "prefLabel": {
-        "es": "segmento de cono",
-        "en": "cone segment"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cono",
-      "prefLabel": {
-        "es": "cono",
-        "en": "cone shape"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-conica",
-      "prefLabel": {
-        "es": "lámina cónica",
-        "en": "conical sheet"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cupula",
-      "prefLabel": {
-        "es": "cúpula",
-        "en": "cupola"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro",
-      "prefLabel": {
-        "es": "cilindro",
-        "en": "cylinder"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide-muy-alargado",
-      "prefLabel": {
-        "es": "elipsoide muy alargado",
-        "en": "dart ellipsoid"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/diapiro",
-      "prefLabel": {
-        "es": "diapiro",
-        "en": "diapir"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/dique",
-      "prefLabel": {
-        "es": "dique",
-        "en": "dike"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/disco",
-      "prefLabel": {
-        "es": "disco",
-        "en": "disc"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/anillo-discoidal",
-      "prefLabel": {
-        "es": "anillo discoidal",
-        "en": "discoid anulus"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lenticular",
-      "prefLabel": {
-        "es": "lenticular",
-        "en": "discus"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/domo",
-      "prefLabel": {
-        "es": "domo",
-        "en": "dome"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-domica",
-      "prefLabel": {
-        "es": "lámina domica",
-        "en": "dome sheet"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/ductolith",
-      "prefLabel": {
-        "es": "ductolith",
-        "en": "ductolith"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide",
-      "prefLabel": {
-        "es": "elipsoide",
-        "en": "ellipsoid"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro-eliptico",
-      "prefLabel": {
-        "es": "cilindro elíptico",
-        "en": "elliptical cylinder"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-eliptico",
-      "prefLabel": {
-        "es": "perfil elíptico",
-        "en": "elliptical profile"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lente-alargada",
-      "prefLabel": {
-        "es": "lente alargada",
-        "en": "elongate discus"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-isometrico-poligonal",
-      "prefLabel": {
-        "es": "perfil isometrico poligonal",
-        "en": "equant polygonal profile"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-isometrico",
-      "prefLabel": {
-        "es": "perfil isometrico",
-        "en": "equant profile"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/embudo",
-      "prefLabel": {
-        "es": "embudo",
-        "en": "ethmolith"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/abanico",
-      "prefLabel": {
-        "es": "abanico",
-        "en": "fan"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide-amelonado",
-      "prefLabel": {
-        "es": "elipsoide amelonado",
-        "en": "football ellipsoid"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-geologico",
-      "prefLabel": {
-        "es": "cuerpo geológico",
-        "en": "geologic body"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/graben",
-      "prefLabel": {
-        "es": "graben",
-        "en": "graben shape"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/semiesfera",
-      "prefLabel": {
-        "es": "semiesfera",
-        "en": "hemispheroid"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-irregular",
-      "prefLabel": {
-        "es": "perfil irregular",
-        "en": "irregular profile"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lacolito",
-      "prefLabel": {
-        "es": "lacolito",
-        "en": "laccolith"
       }
     },
     {
@@ -293,59 +55,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lente",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/capsula",
       "prefLabel": {
-        "es": "lente",
-        "en": "lens"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-lenticular",
-      "prefLabel": {
-        "es": "perfil lenticular",
-        "en": "lenticular profile"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/seccion-longitudinal-de-un-cilindro",
-      "prefLabel": {
-        "es": "sección longitudinal de un cilindro",
-        "en": "longitudinal section of cylinder"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lopolito",
-      "prefLabel": {
-        "es": "lopolito",
-        "en": "lopolith"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/monticulo",
-      "prefLabel": {
-        "es": "montículo",
-        "en": "mound"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide-achatado",
-      "prefLabel": {
-        "es": "elipsoide achatado",
-        "en": "pancake ellipsoid"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/facolito",
-      "prefLabel": {
-        "es": "facolito",
-        "en": "phacolith"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/almohadilla",
-      "prefLabel": {
-        "es": "almohadilla",
-        "en": "pillow ellipsoid"
+        "es": "cápsula",
+        "en": "pod"
       }
     },
     {
@@ -356,31 +69,17 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-planar",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro",
       "prefLabel": {
-        "es": "perfil planar",
-        "en": "planar profile"
+        "es": "cilindro",
+        "en": "cylinder"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-planar",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro-eliptico",
       "prefLabel": {
-        "es": "lámina planar",
-        "en": "planar sheet"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/vena-planar",
-      "prefLabel": {
-        "es": "vena planar",
-        "en": "planar vein"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/capsula",
-      "prefLabel": {
-        "es": "cápsula",
-        "en": "pod"
+        "es": "cilindro elíptico",
+        "en": "elliptical cylinder"
       }
     },
     {
@@ -391,31 +90,38 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-poligonal",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/clindro-circular",
       "prefLabel": {
-        "es": "perfil poligonal",
-        "en": "polygonal profile"
+        "es": "clindro circular",
+        "en": "circular cylinder"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/prisma",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/columnar",
       "prefLabel": {
-        "es": "prisma",
-        "en": "prism"
+        "es": "columnar",
+        "en": "column shape"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/ribbon",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cono",
       "prefLabel": {
-        "es": "ribbon",
-        "en": "ribbon"
+        "es": "cono",
+        "en": "cone shape"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/dique-anular",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuenca",
       "prefLabel": {
-        "es": "dique anular",
-        "en": "ring dike"
+        "es": "cuenca",
+        "en": "basin shape"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-geologico",
+      "prefLabel": {
+        "es": "cuerpo geológico",
+        "en": "geologic body"
       }
     },
     {
@@ -433,45 +139,108 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/rod",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-tridimensional",
       "prefLabel": {
-        "es": "rod",
-        "en": "rod"
+        "es": "cuerpo tridimensional",
+        "en": "three dimensional body"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuna",
       "prefLabel": {
-        "es": "lámina",
-        "en": "sheet"
+        "es": "cuña",
+        "en": "wedge"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-elipsoidal",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cupula",
       "prefLabel": {
-        "es": "lámina elipsoidal",
-        "en": "sheet ellipsoid"
+        "es": "cúpula",
+        "en": "cupola"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-sigmoidal",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/diapiro",
       "prefLabel": {
-        "es": "lámina sigmoidal",
-        "en": "sigmoid sheet"
+        "es": "diapiro",
+        "en": "diapir"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/vena-sigmoidal",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/dique",
       "prefLabel": {
-        "es": "vena sigmoidal",
-        "en": "sigmoidal vein"
+        "es": "dique",
+        "en": "dike"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/sill",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/dique-anular",
       "prefLabel": {
-        "es": "sill",
-        "en": "sill form"
+        "es": "dique anular",
+        "en": "ring dike"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/disco",
+      "prefLabel": {
+        "es": "disco",
+        "en": "disc"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/domo",
+      "prefLabel": {
+        "es": "domo",
+        "en": "dome"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/ductolith",
+      "prefLabel": {
+        "es": "ductolith",
+        "en": "ductolith"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide",
+      "prefLabel": {
+        "es": "elipsoide",
+        "en": "ellipsoid"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide-achatado",
+      "prefLabel": {
+        "es": "elipsoide achatado",
+        "en": "pancake ellipsoid"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide-alargado",
+      "prefLabel": {
+        "es": "elipsoide alargado",
+        "en": "bread loaf ellipsoid"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide-amelonado",
+      "prefLabel": {
+        "es": "elipsoide amelonado",
+        "en": "football ellipsoid"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide-muy-alargado",
+      "prefLabel": {
+        "es": "elipsoide muy alargado",
+        "en": "dart ellipsoid"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/embudo",
+      "prefLabel": {
+        "es": "embudo",
+        "en": "ethmolith"
       }
     },
     {
@@ -489,24 +258,31 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-cuadrado",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/facolito",
       "prefLabel": {
-        "es": "perfil cuadrado",
-        "en": "square profile"
+        "es": "facolito",
+        "en": "phacolith"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/tableta",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/gota",
       "prefLabel": {
-        "es": "tableta",
-        "en": "tablet"
+        "es": "gota",
+        "en": "blob"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/prisma-tabular",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/graben",
       "prefLabel": {
-        "es": "prisma tabular",
-        "en": "tabular prism"
+        "es": "graben",
+        "en": "graben shape"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lacolito",
+      "prefLabel": {
+        "es": "lacolito",
+        "en": "laccolith"
       }
     },
     {
@@ -517,10 +293,220 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-tridimensional",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina",
       "prefLabel": {
-        "es": "cuerpo tridimensional",
-        "en": "three dimensional body"
+        "es": "lámina",
+        "en": "sheet"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-conica",
+      "prefLabel": {
+        "es": "lámina cónica",
+        "en": "conical sheet"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-curvada",
+      "prefLabel": {
+        "es": "lámina curvada",
+        "en": "arcuate sheet"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-domica",
+      "prefLabel": {
+        "es": "lámina domica",
+        "en": "dome sheet"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-elipsoidal",
+      "prefLabel": {
+        "es": "lámina elipsoidal",
+        "en": "sheet ellipsoid"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-planar",
+      "prefLabel": {
+        "es": "lámina planar",
+        "en": "planar sheet"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-sigmoidal",
+      "prefLabel": {
+        "es": "lámina sigmoidal",
+        "en": "sigmoid sheet"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lente",
+      "prefLabel": {
+        "es": "lente",
+        "en": "lens"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lente-alargada",
+      "prefLabel": {
+        "es": "lente alargada",
+        "en": "elongate discus"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lenticular",
+      "prefLabel": {
+        "es": "lenticular",
+        "en": "discus"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lopolito",
+      "prefLabel": {
+        "es": "lopolito",
+        "en": "lopolith"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/manto",
+      "prefLabel": {
+        "es": "manto",
+        "en": "blanket shape"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/monticulo",
+      "prefLabel": {
+        "es": "montículo",
+        "en": "mound"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/morfologia-arqueada",
+      "prefLabel": {
+        "es": "morfología arqueada",
+        "en": "arch morphology"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-circular",
+      "prefLabel": {
+        "es": "perfil circular",
+        "en": "circular profile"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-cuadrado",
+      "prefLabel": {
+        "es": "perfil cuadrado",
+        "en": "square profile"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-eliptico",
+      "prefLabel": {
+        "es": "perfil elíptico",
+        "en": "elliptical profile"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-irregular",
+      "prefLabel": {
+        "es": "perfil irregular",
+        "en": "irregular profile"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-isometrico",
+      "prefLabel": {
+        "es": "perfil isometrico",
+        "en": "equant profile"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-isometrico-poligonal",
+      "prefLabel": {
+        "es": "perfil isometrico poligonal",
+        "en": "equant polygonal profile"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-lenticular",
+      "prefLabel": {
+        "es": "perfil lenticular",
+        "en": "lenticular profile"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-planar",
+      "prefLabel": {
+        "es": "perfil planar",
+        "en": "planar profile"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-poligonal",
+      "prefLabel": {
+        "es": "perfil poligonal",
+        "en": "polygonal profile"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/prisma",
+      "prefLabel": {
+        "es": "prisma",
+        "en": "prism"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/prisma-tabular",
+      "prefLabel": {
+        "es": "prisma tabular",
+        "en": "tabular prism"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/ribbon",
+      "prefLabel": {
+        "es": "ribbon",
+        "en": "ribbon"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/rod",
+      "prefLabel": {
+        "es": "rod",
+        "en": "rod"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/seccion-longitudinal-de-un-cilindro",
+      "prefLabel": {
+        "es": "sección longitudinal de un cilindro",
+        "en": "longitudinal section of cylinder"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/segmento-de-cono",
+      "prefLabel": {
+        "es": "segmento de cono",
+        "en": "cone segment"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/semiesfera",
+      "prefLabel": {
+        "es": "semiesfera",
+        "en": "hemispheroid"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/sill",
+      "prefLabel": {
+        "es": "sill",
+        "en": "sill form"
       }
     },
     {
@@ -531,6 +517,13 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/tableta",
+      "prefLabel": {
+        "es": "tableta",
+        "en": "tablet"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/vena",
       "prefLabel": {
         "es": "vena",
@@ -538,10 +531,17 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuna",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/vena-planar",
       "prefLabel": {
-        "es": "cuña",
-        "en": "wedge"
+        "es": "vena planar",
+        "en": "planar vein"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/vena-sigmoidal",
+      "prefLabel": {
+        "es": "vena sigmoidal",
+        "en": "sigmoidal vein"
       }
     }
   ],

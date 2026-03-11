@@ -3,14 +3,42 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Aragoniense",
-    "en": "Aragonian"
+    "en": "Aragonian",
+    "vl": "Aragonià"
   },
-  "exactMatch": [
+  "notation": [
+    "213020112091"
+  ],
+  "related": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Burdigalian/Tortonian"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/burdigaliense",
+      "prefLabel": {
+        "es": "Burdigaliense",
+        "en": "Burdigalian",
+        "vl": "Burdigalià"
+      }
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/burdigalian/tortonian"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/tortoniense",
+      "prefLabel": {
+        "es": "Tortoniense",
+        "en": "Tortonian",
+        "vl": "Tortonià"
+      }
+    }
+  ],
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/burdigalian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Burdigalian"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tortonian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Tortonian"
     }
   ],
   "inScheme": [

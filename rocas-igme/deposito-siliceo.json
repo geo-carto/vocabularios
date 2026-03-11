@@ -5,15 +5,21 @@
     "es": "depósito silíceo",
     "en": "siliceous deposit"
   },
+  "altLabel": {
+    "es": [
+      "sedimento silíceo"
+    ]
+  },
   "definition": {
-    "es": "Sedimento compuesto en más de un 50% por sílice de origen biogénico o químico. se excluyen los sedimentos detríticos"
+    "es": "Sedimento compuesto en más de un 50% por sílice de origen biogénico o químico. se excluyen los sedimentos detríticos",
+    "en": "Sediment composed of more than 50% silica of biogenic or chemical origin. Detrital sediments are excluded"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sediment"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/non-clasticSiliceousSediment"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/non-clasticSiliceousSediment"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sediment"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "graywacke"
   },
   "definition": {
-    "es": "Arenisca en la que el contenido de matriz detrítica fina está comprendido entre el 15 y el 75% del total de la roca"
+    "es": "Arenisca en la que el contenido de matriz detrítica fina está comprendido entre el 15 y el 75% del total de la roca",
+    "en": "Sandstone in which the content of fine detrital matrix is between 15 and 75% of the total rock"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/wacke"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/wacke"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/wacke"
     }
   ],
   "inScheme": [

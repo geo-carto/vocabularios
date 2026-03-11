@@ -5,15 +5,21 @@
     "es": "carbón",
     "en": "coal"
   },
+  "altLabel": {
+    "es": [
+      "carbón mineral"
+    ]
+  },
   "definition": {
-    "es": "Roca sedimentaria rica en materia orgánica utilizada como combustible, de color pardo a negro y de consistencia pétrea o terrosa, constituida por carbono amorfo acompañado de hidrocarburos, compuestos orgánicos complejos y materiales inorgánicos. tiene su origen en la carbonificación de vegetales en épocas geológicas pasadas, tras quedar sepultados en ambientes anóxicos"
+    "es": "Roca sedimentaria rica en materia orgánica utilizada como combustible, de color pardo a negro y de consistencia pétrea o terrosa, constituida por carbono amorfo acompañado de hidrocarburos, compuestos orgánicos complejos y materiales inorgánicos. tiene su origen en la carbonificación de vegetales en épocas geológicas pasadas, tras quedar sepultados en ambientes anóxicos",
+    "en": "Fine-grained organic matter-rich sedimentary rock used as fuel, brown to black in colour and of stony or earthy consistency, consisting of amorphous carbon accompanied by hydrocarbons, complex organic compounds and inorganic materials. It originates from the carbonification of plants in past geological periods after being buried in anoxic environments"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/coal"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/coal"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/coal"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/coal"
     }
   ],
   "inScheme": [

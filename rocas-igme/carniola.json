@@ -6,14 +6,15 @@
     "en": "carniola"
   },
   "definition": {
-    "es": "Roca carbonatada, rica en magnesio, de aspecto cavernoso y masivo, de color rojizo, anaranjado o amarillento"
+    "es": "Roca carbonatada, rica en magnesio, de aspecto cavernoso y masivo, de color rojizo, anaranjado o amarillento",
+    "en": "Carbonate rock, rich in magnesium, of cavernous and massive appearance, reddish, orange or yellowish in colour"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/carbonate_sedimentary_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/carbonateSedimentaryRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/carbonate_sedimentary_rock"
     }
   ],
   "inScheme": [

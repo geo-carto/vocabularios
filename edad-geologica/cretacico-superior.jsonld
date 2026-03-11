@@ -3,53 +3,65 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Cretácico Superior",
-    "en": "Upper Cretaceous"
+    "en": "Upper Cretaceous",
+    "vl": "Cretaci Superior"
   },
-  "definition": {
-    "es": "Límite inferior -100.5 ma, límite superior -66.0 ma",
-    "en": "Older bound -100.5 ma, younger bound -66.0 ma"
+  "altLabel": {
+    "en": [
+      "Late Cretaceous"
+    ]
   },
+  "notation": [
+    "212030200000",
+    "a1.1.2.1.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/campaniense",
       "prefLabel": {
         "es": "Campaniense",
-        "en": "Campanian"
+        "en": "Campanian",
+        "vl": "Campanià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cenomaniense",
       "prefLabel": {
         "es": "Cenomaniense",
-        "en": "Cenomanian"
+        "en": "Cenomanian",
+        "vl": "Cenomanià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/coniaciense",
       "prefLabel": {
         "es": "Coniaciense",
-        "en": "Coniacian"
+        "en": "Coniacian",
+        "vl": "Coniacià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/maastrichtiense",
       "prefLabel": {
         "es": "Maastrichtiense",
-        "en": "Maastrichtian"
+        "en": "Maastrichtian",
+        "vl": "Maastrichtià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/santoniense",
       "prefLabel": {
         "es": "Santoniense",
-        "en": "Santonian"
+        "en": "Santonian",
+        "vl": "Santonià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/turoniense",
       "prefLabel": {
         "es": "Turoniense",
-        "en": "Turonian"
+        "en": "Turonian",
+        "vl": "Turonià"
       }
     }
   ],
@@ -57,15 +69,16 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico",
     "prefLabel": {
       "es": "Cretácico",
-      "en": "Cretaceous"
+      "en": "Cretaceous",
+      "vl": "Cretaci"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Later_Cretaceous"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperCretaceous"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/laterCretaceous"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/UpperCretaceous"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "benmoreite"
   },
   "definition": {
-    "es": "Roca volcánica alcalina de composición intermedia, variedad sódica de la traquiandesita"
+    "es": "Roca volcánica alcalina de composición intermedia, variedad sódica de la traquiandesita",
+    "en": "Alkaline intermediate volcanic rock of intermediate composition, sodic variety of trachyandesite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/andesite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/andesite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/andesite"
     }
   ],
   "inScheme": [

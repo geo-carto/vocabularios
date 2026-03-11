@@ -3,25 +3,27 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Noriense",
-    "en": "Norian"
+    "en": "Norian",
+    "vl": "Norià"
   },
-  "definition": {
-    "es": "Límite inferior -227 ma, límite superior -208.5 ma",
-    "en": "Older bound -227 ma, younger bound -208.5 ma"
-  },
+  "notation": [
+    "212010302000",
+    "a1.1.2.3.1.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-superior",
     "prefLabel": {
       "es": "Triásico Superior",
-      "en": "Upper Triassic"
+      "en": "Upper Triassic",
+      "vl": "Triàsic Superior"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Norian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/norian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/norian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Norian"
     }
   ],
   "inScheme": [

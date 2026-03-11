@@ -3,25 +3,44 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Aquitaniense",
-    "en": "Aquitanian"
+    "en": "Aquitanian",
+    "vl": "Aquitanià"
   },
-  "definition": {
-    "es": "Límite inferior -23.03 ma, límite superior -20.44 ma",
-    "en": "Older bound -23.03 ma, younger bound -20.44 ma"
-  },
+  "notation": [
+    "213020111000",
+    "a1.1.1.2.2.6"
+  ],
   "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno",
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno-inferior",
     "prefLabel": {
-      "es": "Mioceno",
-      "en": "Miocene"
+      "es": "Mioceno Inferior",
+      "en": "Lower Miocene",
+      "vl": "Miocè Inferior"
     }
   },
-  "exactMatch": [
+  "related": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Aquitanian"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ageniense",
+      "prefLabel": {
+        "es": "Ageniense",
+        "en": "Agenian"
+      }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/rambliense",
+      "prefLabel": {
+        "es": "Rambliense",
+        "en": "Ramblian",
+        "vl": "Ramblià"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aquitanian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Aquitanian"
     }
   ],
   "inScheme": [

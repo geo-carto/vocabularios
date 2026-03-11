@@ -3,25 +3,32 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Bashkiriense",
-    "en": "Bashkirian"
+    "en": "Bashkirian",
+    "vl": "Baixkirià"
   },
-  "definition": {
-    "es": "Límite inferior -323.2 +|-0.4 ma, límite superior -315.2 +|-0.2 ma",
-    "en": "Older bound -323.2 +|-0.4 ma, younger bound -315.2 +|-0.2 ma"
+  "altLabel": {
+    "es": [
+      "Pensilvánico Inferior, Pensylvaniense Inferior"
+    ]
   },
+  "notation": [
+    "211052101000",
+    "a1.1.3.2.1.3"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pensilvanico-inferior",
     "prefLabel": {
       "es": "Pensilvánico Inferior",
-      "en": "Lower Pennsylvanian"
+      "en": "Lower Pennsylvanian",
+      "vl": "Pennsilvanià Inferior"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Bashkirian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bashkirian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bashkirian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Bashkirian"
     }
   ],
   "inScheme": [

@@ -5,23 +5,24 @@
     "es": "Kaiense",
     "en": "Katian"
   },
-  "definition": {
-    "es": "Límite inferior -453 +|-0.7 ma, límite superior -445.2 +|-1.4 ma",
-    "en": "Older bound -453 +|-0.7 ma, younger bound -445.2 +|-1.4 ma"
-  },
+  "notation": [
+    "211020302000",
+    "a1.1.3.5.1.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-superior",
     "prefLabel": {
       "es": "Ordovícico Superior",
-      "en": "Upper Ordovician"
+      "en": "Upper Ordovician",
+      "vl": "Ordovicià Superior"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Katian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/katian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/katian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Katian"
     }
   ],
   "inScheme": [

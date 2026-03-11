@@ -3,18 +3,27 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Rhaetiense",
-    "en": "Rhaetian"
+    "en": "Rhaetian",
+    "vl": "Retià"
   },
-  "definition": {
-    "es": "Límite inferior -208.5 ma, límite superior -201.3 +|-0.2 ma",
-    "en": "Older bound -208.5 ma, younger bound -201.3 +|-0.2 ma"
+  "notation": [
+    "212010303000",
+    "a1.1.2.3.1.1"
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-superior",
+    "prefLabel": {
+      "es": "Triásico Superior",
+      "en": "Upper Triassic",
+      "vl": "Triàsic Superior"
+    }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Rhaetian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/rhaetian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/rhaetian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Rhaetian"
     }
   ],
   "inScheme": [
@@ -23,11 +32,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }

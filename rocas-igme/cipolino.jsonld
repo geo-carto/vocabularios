@@ -6,14 +6,15 @@
     "en": "cipolino"
   },
   "definition": {
-    "es": "Mármol impuro rico en clorita y otros filosilicatos, generalmente concentrados en bandas"
+    "es": "Mármol impuro rico en clorita y otros filosilicatos, generalmente concentrados en bandas",
+    "en": "Impure marble rich in chlorite and other phyllosilicates, generally concentrated in bands"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/marble"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/marble"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/marble"
     }
   ],
   "inScheme": [

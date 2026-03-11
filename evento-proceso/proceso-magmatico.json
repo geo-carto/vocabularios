@@ -11,24 +11,17 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erupcion",
-      "prefLabel": {
-        "es": "erupción",
-        "en": "eruption"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/intrusion",
-      "prefLabel": {
-        "es": "intrusión",
-        "en": "intrusion"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/cristalizacion-magmatica",
       "prefLabel": {
         "es": "cristalización magmática",
         "en": "magmatic crystallisation"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erupcion",
+      "prefLabel": {
+        "es": "erupción",
+        "en": "eruption"
       }
     },
     {
@@ -37,14 +30,28 @@
         "es": "fusión",
         "en": "melting"
       }
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/magmatic_process"
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/intrusion",
+      "prefLabel": {
+        "es": "intrusión",
+        "en": "intrusion"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
+    "prefLabel": {
+      "es": "proceso geológico",
+      "en": "geologic process"
+    }
+  },
+  "exactMatch": [
+    {
       "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/magmaticProcess"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/magmatic_process"
     }
   ],
   "inScheme": [
@@ -53,11 +60,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

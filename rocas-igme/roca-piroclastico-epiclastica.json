@@ -5,15 +5,21 @@
     "es": "roca piroclástico-epiclástica",
     "en": "pyroclastic-epiclastic rock"
   },
+  "altLabel": {
+    "es": [
+      "tufita"
+    ]
+  },
   "definition": {
-    "es": "Roca de carácter mixto constituida tanto por fragmentos de origen piroclástico como de origen epiclástico, ambos en un porcentaje comprendido entre el 25 y el 75% del volumen de la roca"
+    "es": "Roca de carácter mixto constituida tanto por fragmentos de origen piroclástico como de origen epiclástico, ambos en un porcentaje comprendido entre el 25 y el 75% del volumen de la roca",
+    "en": "Rock of mixed character consisting of both pyroclastic and epiclastic fragments, each in a percentage between 25 and 75% of the rock volume"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/tuffite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/tuffite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/tuffite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/tuffite"
     }
   ],
   "inScheme": [

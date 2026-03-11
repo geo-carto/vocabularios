@@ -9,17 +9,61 @@
     "es": "Cuerpo que es muy delgado en relación con la extensión lateral, tan delgado que se considera que consta de dos superficies limítrofes unidas en un borde. La relación de aspecto es L = W >>> H. La geometría del borde que une las superficies no se especifica en la definición. Si la geometría del borde entra en juego en la definición, se convierte en cinta, disco o tableta (?). Incluye unidades geológicas en forma de dique, veta, sill y capa",
     "en": "Body that is very thin relative to lateral extent, so thin that is considered to consist of two bounding surfaces joined at an edge. Aspect ratio is L=W>>>H. The geometry of the edge joining the surfaces is not specified in the definition. If the geometry of the edge comes into play in the definition, becomes ribbon, disc or tablet(?). Includes dike, vein, sill and bed-shaped geologic units"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-conica",
+      "prefLabel": {
+        "es": "lámina cónica",
+        "en": "conical sheet"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-curvada",
+      "prefLabel": {
+        "es": "lámina curvada",
+        "en": "arcuate sheet"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-domica",
+      "prefLabel": {
+        "es": "lámina domica",
+        "en": "dome sheet"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-planar",
+      "prefLabel": {
+        "es": "lámina planar",
+        "en": "planar sheet"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-sigmoidal",
+      "prefLabel": {
+        "es": "lámina sigmoidal",
+        "en": "sigmoid sheet"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-tridimensional",
+    "prefLabel": {
+      "es": "cuerpo tridimensional",
+      "en": "three dimensional body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/sheet"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

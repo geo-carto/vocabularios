@@ -9,17 +9,24 @@
     "es": "Sección de un esferoide formada al eliminar todo el volumen del lado de una superficie que intersecta con el esferoide. Evoluciona a cono si la superficie generadora (la línea que rota sobre el eje para generar el volumen por encima del límite plano inferior) es recta",
     "en": "Section of a spheroid formed by removing everything on the smaller volume side of a surface that intersects the spheroid. Grades to cone as suface generator (line rotated about axis to generate volume above lower planar boundary) becomes straight"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-tridimensional",
+    "prefLabel": {
+      "es": "cuerpo tridimensional",
+      "en": "three dimensional body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/hemispheroid"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

@@ -3,25 +3,41 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Triásico Superior",
-    "en": "Upper Triassic"
+    "en": "Upper Triassic",
+    "vl": "Triàsic Superior"
   },
-  "definition": {
-    "es": "Límite inferior -237 ma, límite superior -201.3 +|-0.2 ma",
-    "en": "Older bound -237 ma, younger bound -201.3 +|-0.2 ma"
+  "altLabel": {
+    "en": [
+      "Late Triassic"
+    ]
   },
+  "notation": [
+    "212010300000",
+    "a1.1.2.3.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/carniense",
       "prefLabel": {
         "es": "Carniense",
-        "en": "Carnian"
+        "en": "Carnian",
+        "vl": "Carnià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/noriense",
       "prefLabel": {
         "es": "Noriense",
-        "en": "Norian"
+        "en": "Norian",
+        "vl": "Norià"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/rhaetiense",
+      "prefLabel": {
+        "es": "Rhaetiense",
+        "en": "Rhaetian",
+        "vl": "Retià"
       }
     }
   ],
@@ -29,15 +45,16 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico",
     "prefLabel": {
       "es": "Triásico",
-      "en": "Triassic"
+      "en": "Triassic",
+      "vl": "Triàsic"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Late_Triassic"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperTriassic"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lateTriassic"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/UpperTriassic"
     }
   ],
   "inScheme": [

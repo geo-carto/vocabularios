@@ -6,14 +6,15 @@
     "en": "sandy conglomerate"
   },
   "definition": {
-    "es": "Roca detrítica constituida en un 30-50% por clastos de más de 2 mm de diámetro y con un contenido de elementos de tamaño arena mayor que el de elementos de tamaño pelita"
+    "es": "Roca detrítica constituida en un 30-50% por clastos de más de 2 mm de diámetro y con un contenido de elementos de tamaño arena mayor que el de elementos de tamaño pelita",
+    "en": "Detrital rock consisting of 30-50% clasts with a diameter exceeding 2 mm and with a sand-size element content greater than that of pelite-size elements"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/conglomerate"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate"
     }
   ],
   "inScheme": [

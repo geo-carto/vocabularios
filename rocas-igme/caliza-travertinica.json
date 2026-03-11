@@ -5,15 +5,21 @@
     "es": "caliza travertínica",
     "en": "travertine limestone"
   },
+  "altLabel": {
+    "es": [
+      "masa travertínica, toba calcárea, travertino"
+    ]
+  },
   "definition": {
-    "es": "Caliza de color claro, con textura a menudo porosa o tubular, formada por precipitación de carbonato cálcico en el seno del agua, muchas veces sobre restos vegetales"
+    "es": "Caliza de color claro, con textura a menudo porosa o tubular, formada por precipitación de carbonato cálcico en el seno del agua, muchas veces sobre restos vegetales",
+    "en": "Light-coloured limestone, often with porous or tubular texture, formed by the precipitation of calcium carbonate in water, often around plant remains"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/travertine"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/travertine"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/travertine"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/travertine"
     }
   ],
   "inScheme": [

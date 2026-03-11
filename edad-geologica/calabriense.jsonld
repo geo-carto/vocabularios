@@ -3,25 +3,37 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Calabriense",
-    "en": "Calabrian"
+    "en": "Calabrian",
+    "vl": "Calabrià"
   },
-  "definition": {
-    "es": "Límite inferior -1.80 ma, límite superior -0.781 ma",
-    "en": "Older bound -1.80 ma, younger bound -0.781 ma"
-  },
+  "notation": [
+    "213030112000",
+    "a1.1.1.1.2.3"
+  ],
   "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno",
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-inferior",
     "prefLabel": {
-      "es": "Pleistoceno",
-      "en": "Pleistocene"
+      "es": "Pleistoceno Inferior",
+      "en": "Lower Pleistocene",
+      "vl": "Plistocè Inferior"
     }
   },
+  "related": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/villafranquiense",
+      "prefLabel": {
+        "es": "Villafranquiense",
+        "en": "Villafranchian",
+        "vl": "Vil-Lafranquià"
+      }
+    }
+  ],
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Calabrian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/calabrian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/calabrian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Calabrian"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "ossiferrous breccia"
   },
   "definition": {
-    "es": "Brecha constituida por huesos y fragmentos de huesos cementados, que se forma en cuevas o rellena grietas o cavidades cársticas"
+    "es": "Brecha constituida por huesos y fragmentos de huesos cementados, que se forma en cuevas o rellena grietas o cavidades cársticas",
+    "en": "Breccia consisting of cemented bones and bone fragments, forming in caves or filling karst fissures or cavities"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/breccia"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia"
     }
   ],
   "inScheme": [

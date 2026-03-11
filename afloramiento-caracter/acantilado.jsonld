@@ -9,17 +9,19 @@
     "es": "Afloramiento que da lugar a paredes verticales, frecuentemente inaccesibles",
     "en": "Outcrop that gives rise to vertical walls, often inaccessible"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento",
+    "prefLabel": {
+      "es": "con afloramiento",
+      "en": "with outcrop"
+    }
+  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter"
     }

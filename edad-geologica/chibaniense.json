@@ -5,23 +5,26 @@
     "es": "Chibaniense",
     "en": "Chibanian"
   },
-  "definition": {
-    "es": "Límite inferior -0.781 ma, límite superior -0.126 ma",
-    "en": "Older bound -0.781 ma; younger bound -0.126 ma"
+  "altLabel": {
+    "es": [
+      "Pleistoceno Medio, Ioniense"
+    ],
+    "en": [
+      "Middle Pleistocene, Ionian"
+    ]
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-medio",
-    "prefLabel": {
-      "es": "Pleistoceno Medio",
-      "en": "Middle Pleistocene"
+  "notation": [
+    "a1.1.1.1.2.2",
+    "213030121000"
+  ],
+  "closeMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ionian"
     }
-  },
+  ],
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/"
-    },
-    {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Chibanian"
     }
   ],
   "inScheme": [

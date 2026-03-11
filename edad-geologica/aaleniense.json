@@ -3,25 +3,27 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Aaleniense",
-    "en": "Aalenian"
+    "en": "Aalenian",
+    "vl": "Aalenià"
   },
-  "definition": {
-    "es": "Límite inferior -174.1 +|-1.0 ma, límite superior -170.3 +|-1.4 ma",
-    "en": "Older bound -174.1 +|-1.0 ma, younger bound -170.3 +|-1.4 ma"
-  },
+  "notation": [
+    "212020201000",
+    "a1.1.2.2.2.4"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-medio",
     "prefLabel": {
       "es": "Jurásico Medio",
-      "en": "Middle Jurassic"
+      "en": "Middle Jurassic",
+      "vl": "Juràssic Mitjà"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Aalenian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aalenian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aalenian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Aalenian"
     }
   ],
   "inScheme": [

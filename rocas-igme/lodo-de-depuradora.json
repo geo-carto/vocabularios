@@ -6,8 +6,14 @@
     "en": "sewage sludge"
   },
   "definition": {
-    "es": "Subproducto, más o menos líquido en el momento de su vertido, procedente del tratamiento de las aguas residuales"
+    "es": "Subproducto, más o menos líquido en el momento de su vertido, procedente del tratamiento de las aguas residuales",
+    "en": "More or less liquid by-product at the time of discharge, from the treatment of wastewater"
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sewageSludge"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"

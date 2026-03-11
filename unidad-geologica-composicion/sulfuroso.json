@@ -9,6 +9,20 @@
     "es": "El azufre es el anión más abundante, los cationes son metales o semimetales",
     "en": "Sulfur is the most abundant anion, cations are metals or semimetals"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfosales",
+      "prefLabel": {
+        "es": "sulfosales",
+        "en": "sulfosalt chemistry"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfide_chemistry"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"

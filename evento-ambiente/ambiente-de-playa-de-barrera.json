@@ -9,19 +9,12 @@
     "es": "Un cordón estrecho y alargado de arena o grava que se eleva ligeramente por encima del nivel de la marea alta y se extiende paralelo a la costa, pero separada de ella por una laguna costera o albufera (Shepard, 1954, p.1904), estuario o marisma; que se prolonga mediante el transporte litoral y rara vez se extiende a lo largo de más de varios kilómetros.",
     "en": "A narrow, elongate sand or gravel ridge rising slightly above the high-tide level and extending generally parallel with the shore, but separated from it by a lagoon (Shepard, 1954, p.1904), estuary, or marsh; it is extended by longshore transport and is rarely more than several kilometers long."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral-de-isla-barrera",
-    "prefLabel": {
-      "es": "ambiente litoral de isla barrera",
-      "en": "barrier island coastline setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/barrier_beach"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/barrierBeachSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/barrierBeachSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/barrier_beach"
     }
   ],
   "inScheme": [

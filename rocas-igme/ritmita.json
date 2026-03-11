@@ -6,14 +6,15 @@
     "en": "rhythmite"
   },
   "definition": {
-    "es": "Facies constituida por la alternancia repetida de estratos de dos tipos de rocas diferentes"
+    "es": "Facies constituida por la alternancia repetida de estratos de dos tipos de rocas diferentes",
+    "en": "Facies consisting of repeated alternations of strata of two different rock types"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/hybrid_sedimentary_rock"
-    },
+  "closeMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/hybridSedimentaryRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/hybrid_sedimentary_rock"
     }
   ],
   "inScheme": [

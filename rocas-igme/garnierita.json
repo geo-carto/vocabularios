@@ -6,14 +6,15 @@
     "en": "garnierite"
   },
   "definition": {
-    "es": "Serpentina portadora de níquel"
+    "es": "Serpentina portadora de níquel",
+    "en": "Nickel-bearing serpentine"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/serpentinite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/serpentinite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/serpentinite"
     }
   ],
   "inScheme": [

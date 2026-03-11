@@ -3,25 +3,35 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Bartoniense",
-    "en": "Bartonian"
+    "en": "Bartonian",
+    "vl": "Bartonià"
   },
-  "definition": {
-    "es": "Límite inferior -41.2 ma, límite superior -37.8 ma",
-    "en": "Older bound -41.2 ma, younger bound -37.8 ma"
-  },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/eoceno",
-    "prefLabel": {
-      "es": "Eoceno",
-      "en": "Eocene"
-    }
-  },
-  "exactMatch": [
+  "notation": [
+    "213010222000",
+    "a1.1.1.3.2.2"
+  ],
+  "related": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Bartonian"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/headoniense",
+      "prefLabel": {
+        "es": "Headoniense",
+        "en": "Headonian"
+      }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/rhenaniense",
+      "prefLabel": {
+        "es": "Rhenaniense",
+        "en": "Rhenanian"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bartonian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Bartonian"
     }
   ],
   "inScheme": [

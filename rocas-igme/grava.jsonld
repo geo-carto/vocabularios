@@ -6,14 +6,15 @@
     "en": "gravel"
   },
   "definition": {
-    "es": "Sedimento rudáceo constituido en más de un 50 % por cantos sin cementar"
+    "es": "Sedimento rudáceo constituido en más de un 50 % por cantos sin cementar",
+    "en": "Rudaceous sediment consisting of more than 50% uncemented clasts"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gravel"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gravel"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gravel"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gravel"
     }
   ],
   "inScheme": [

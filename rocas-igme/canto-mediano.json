@@ -6,14 +6,15 @@
     "en": "medium cobble"
   },
   "definition": {
-    "es": "Canto de tamaño comprendido entre 4 y 64 mm"
+    "es": "Canto de tamaño comprendido entre 4 y 64 mm",
+    "en": "Clast with a size between 4 and 64 mm"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pebble_gravel_size_sediment"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pebbleGravelSizeSediment"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pebble_gravel_size_sediment"
     }
   ],
   "inScheme": [

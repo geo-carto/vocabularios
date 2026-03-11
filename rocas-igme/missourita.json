@@ -6,14 +6,15 @@
     "en": "missourite"
   },
   "definition": {
-    "es": "Roca plutónica de la familia de las foidolitas, más melanocrática que la fergusita, compuesta por un 70-90% de augita egirínica o egirina y el resto, leucita"
+    "es": "Roca plutónica de la familia de las foidolitas, más melanocrática que la fergusita, compuesta por un 70-90% de augita egirínica o egirina y el resto, leucita",
+    "en": "Plutonic rock of the foidolite family, more melanocratic than fergussite, composed of 70-90% aegirine-augite or aegirine and the rest leucite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foidolite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidolite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foidolite"
     }
   ],
   "inScheme": [

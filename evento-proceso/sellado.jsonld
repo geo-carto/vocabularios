@@ -9,19 +9,22 @@
     "es": "Cubrimiento de la superficie con un material no líquido, nada o poco permeable al agua tras el proceso.",
     "en": "Covering of the surface with a non-liquid material not or little permeable for water after processing"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/transporte-y-deposito-de-material",
-    "prefLabel": {
-      "es": "transporte y depósito de material",
-      "en": "material transport and deposition"
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/sealing"
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

@@ -9,6 +9,11 @@
     "es": "Colección de sondeos",
     "en": "Collection of boreholes"
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/CollectionTypeValue/boreholeCollection"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"

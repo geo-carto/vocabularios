@@ -25,6 +25,14 @@
       "en": "part of"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/stratigraphicPart"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/stratigraphic_part"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"

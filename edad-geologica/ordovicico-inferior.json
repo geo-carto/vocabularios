@@ -3,12 +3,18 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Ordovícico Inferior",
-    "en": "Lower Ordovician"
+    "en": "Lower Ordovician",
+    "vl": "Ordovicià Inferior"
   },
-  "definition": {
-    "es": "Límite inferior -485.4 +|-1.9 ma, límite superior -470.0 +|-1.4 ma",
-    "en": "Older bound -485.4 +|-1.9 ma,younger bound -470.0 +|-1.4 ma"
+  "altLabel": {
+    "en": [
+      "Early Ordovician"
+    ]
   },
+  "notation": [
+    "211020100000",
+    "a1.1.3.5.3"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/floiense",
@@ -21,7 +27,8 @@
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/tremadociense",
       "prefLabel": {
         "es": "Tremadociense",
-        "en": "Tremadocian"
+        "en": "Tremadocian",
+        "vl": "Tremadocià"
       }
     }
   ],
@@ -29,15 +36,16 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico",
     "prefLabel": {
       "es": "Ordovícico",
-      "en": "Ordovician"
+      "en": "Ordovician",
+      "vl": "Ordovicià"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Early_Ordovician"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerOrdovician"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/earlyOrdovician"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/LowerOrdovician"
     }
   ],
   "inScheme": [

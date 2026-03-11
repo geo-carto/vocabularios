@@ -5,15 +5,21 @@
     "es": "cuarzarenita",
     "en": "quartz arenite"
   },
-  "definition": {
-    "es": "Arenita en la que más del 95% de los granos son de cuarzo"
+  "altLabel": {
+    "es": [
+      "ortocuarcita"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/arenite"
-    },
+  "definition": {
+    "es": "Arenita en la que más del 95% de los granos son de cuarzo",
+    "en": "Arenite in which more than 95% of the grains are quartz"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/arenite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/arenite"
     }
   ],
   "inScheme": [

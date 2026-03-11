@@ -11,6 +11,27 @@
   },
   "narrower": [
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-canal-mareal",
+      "prefLabel": {
+        "es": "ambiente de canal mareal",
+        "en": "tidal channel setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-la-bahia-interdistributaria",
+      "prefLabel": {
+        "es": "ambiente de la bahía interdistributaria",
+        "en": "interdistributary bay setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-prodelta",
+      "prefLabel": {
+        "es": "ambiente de prodelta",
+        "en": "prodelta setting"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-intermareal",
       "prefLabel": {
         "es": "ambiente intermareal",
@@ -23,13 +44,6 @@
         "es": "ambiente marino",
         "en": "marine setting"
       }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-canal-mareal",
-      "prefLabel": {
-        "es": "ambiente de canal mareal",
-        "en": "tidal channel setting"
-      }
     }
   ],
   "broader": {
@@ -41,10 +55,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/subaqueous_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/subaqueousSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/subaqueousSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/subaqueous_setting"
     }
   ],
   "inScheme": [

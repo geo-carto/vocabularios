@@ -25,19 +25,12 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-en-el-interior-de-la-tierra",
-    "prefLabel": {
-      "es": "ambiente en el interior de la Tierra",
-      "en": "earth interior setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/mantle"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/mantleSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/mantleSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/mantle"
     }
   ],
   "inScheme": [

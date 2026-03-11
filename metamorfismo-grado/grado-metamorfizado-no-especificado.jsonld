@@ -30,6 +30,20 @@
         "es": "grado metamórfico medio",
         "en": "medium metamorphic grade"
       }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-muy-alto",
+      "prefLabel": {
+        "es": "Grado metamórfico muy alto",
+        "en": "very high metamorphic grade"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-muy-bajo",
+      "prefLabel": {
+        "es": "grado metamórfico muy bajo",
+        "en": "very low metamorphic grade"
+      }
     }
   ],
   "broader": {
@@ -39,6 +53,11 @@
       "en": "metamorphic grade not specified"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/metamorphosed_grade_not_specified"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado"

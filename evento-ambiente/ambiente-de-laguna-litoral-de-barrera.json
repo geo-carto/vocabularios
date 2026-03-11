@@ -9,19 +9,12 @@
     "es": "Una laguna o albufera que es más o menos paralela a la costa y está separada del mar abierto por una franja de tierra o por una barrera de arrefices. La influencia de las mareas típicamente está restringida y la laguna costera comúnmente es hipersalina.",
     "en": "A lagoon that is roughly parallel to the coast and is separated from the open ocean by a strip of land or by a barrier reef. Tidal influence is typically restricted and the lagoon is commonly hypersaline."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral-de-isla-barrera",
-    "prefLabel": {
-      "es": "ambiente litoral de isla barrera",
-      "en": "barrier island coastline setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/barrier_lagoon"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/barrierLagoonSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/barrierLagoonSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/barrier_lagoon"
     }
   ],
   "inScheme": [

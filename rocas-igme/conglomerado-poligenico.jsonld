@@ -6,14 +6,15 @@
     "en": "polygenetic conglomerate"
   },
   "definition": {
-    "es": "Conglomerado constituido por cantos de diferentes tipos de roca"
+    "es": "Conglomerado constituido por cantos de diferentes tipos de roca",
+    "en": "Conglomerate consisting of clasts of different rock types"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/conglomerate"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate"
     }
   ],
   "inScheme": [

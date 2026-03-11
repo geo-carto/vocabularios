@@ -6,14 +6,15 @@
     "en": "impure carbonate sedimentary rock"
   },
   "definition": {
-    "es": "Roca sedimentaria con un contenido de minerales carbonatados comprendido entre el 50 y el 90% del total de la roca"
+    "es": "Roca sedimentaria con un contenido de minerales carbonatados comprendido entre el 50 y el 90% del total de la roca",
+    "en": "Sedimentary rock composed of 50 to 90% carbonate minerals"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/impure_carbonate_sedimentary_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/impureCarbonateSedimentaryRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/impureCarbonateSedimentaryRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/impure_carbonate_sedimentary_rock"
     }
   ],
   "inScheme": [

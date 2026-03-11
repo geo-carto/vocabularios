@@ -6,14 +6,15 @@
     "en": "marl"
   },
   "definition": {
-    "es": "Roca sedimentaria de aspecto terroso y fácilmente erosionable, que contiene entre un 35 y un 65% de carbonato cálcico y el resto, de lutita"
+    "es": "Roca sedimentaria de aspecto terroso y fácilmente erosionable, que contiene entre un 35 y un 65% de carbonato cálcico y el resto, de lutita",
+    "en": "Earthy-looking and easily erodible sedimentary rock containing between 35 and 65% calcium carbonate and the remainder mudstone"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/carbonate_mudstone"
-    },
+  "closeMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/carbonateMudstone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/carbonate_mudstone"
     }
   ],
   "inScheme": [

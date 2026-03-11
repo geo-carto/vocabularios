@@ -9,19 +9,12 @@
     "es": "El área exterior de un cinturón orogénico donde la deformación ocurre sin un metamorfismo significativo. Generalmente el antepaís está más proximo al interior del continente de lo que lo están otras partes del cinturón orogénico.",
     "en": "The exterior area of an orogenic belt where deformation occurs without significant metamorphism. Generally the foreland is closer to the continental interior than other portions of the orogenic belt are."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-corteza-continental",
-    "prefLabel": {
-      "es": "ambiente de corteza continental",
-      "en": "continental-crustal setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/foreland_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/forelandSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/forelandSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/foreland_setting"
     }
   ],
   "inScheme": [

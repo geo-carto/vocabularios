@@ -5,15 +5,21 @@
     "es": "depósito clástico",
     "en": "clastic deposit"
   },
+  "altLabel": {
+    "es": [
+      "depósito detrítico, sedimento clástico, sedimento detrítico"
+    ]
+  },
   "definition": {
-    "es": "Sedimento compuesto en más de un 50% por fragmentos de otras rocas y minerales preexistentes"
+    "es": "Sedimento compuesto en más de un 50% por fragmentos de otras rocas y minerales preexistentes",
+    "en": "Sediment composed of more than 50% fragments from pre-existing rocks and minerals"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sediment"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/clasticSediment"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/clasticSediment"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sediment"
     }
   ],
   "inScheme": [

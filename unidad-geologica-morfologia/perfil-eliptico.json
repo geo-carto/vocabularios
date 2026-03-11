@@ -9,17 +9,24 @@
     "es": "El perfil se aproxima a una elipse,  siendo la relación entre el eje largo y el eje corto mayor que 1.4",
     "en": "Profile approximates an ellipse, ratio of long axis to short axis is greater than 1.4"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-planar",
+    "prefLabel": {
+      "es": "perfil planar",
+      "en": "planar profile"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/elliptical_profile"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

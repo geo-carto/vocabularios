@@ -11,17 +11,17 @@
   },
   "narrower": [
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-canal-fluvial",
+      "prefLabel": {
+        "es": "ambiente de canal fluvial",
+        "en": "river channel setting"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-cauce-fluvial-abandonado",
       "prefLabel": {
         "es": "ambiente de cauce fluvial abandonado",
         "en": "abandoned river channel setting"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-meandro-estrangulado",
-      "prefLabel": {
-        "es": "ambiente meandro estrangulado",
-        "en": "cutoff meander setting"
       }
     },
     {
@@ -32,33 +32,19 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-canal-fluvial",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-meandro-estrangulado",
       "prefLabel": {
-        "es": "ambiente de canal fluvial",
-        "en": "river channel setting"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-manantial",
-      "prefLabel": {
-        "es": "ambiente de manantial",
-        "en": "spring setting"
+        "es": "ambiente meandro estrangulado",
+        "en": "cutoff meander setting"
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-terrestre",
-    "prefLabel": {
-      "es": "ambiente terrestre",
-      "en": "terrestrial setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/river_plain_system_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/riverPlainSystemSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/riverPlainSystemSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/river_plain_system_setting"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "dioritoid"
   },
   "definition": {
-    "es": "Nombre utilizado en la descripción provisional de rocas plutónicas de tipo diorita o monzodiorita"
+    "es": "Nombre utilizado en la descripción provisional de rocas plutónicas de tipo diorita o monzodiorita",
+    "en": "Name used in the provisional description of plutonic rocks of diorite or monzodiorite type"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/dioritoid"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/dioritoid"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/dioritoid"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/dioritoid"
     }
   ],
   "inScheme": [

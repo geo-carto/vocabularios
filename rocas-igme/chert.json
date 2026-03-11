@@ -5,15 +5,21 @@
     "es": "chert",
     "en": "chert"
   },
-  "definition": {
-    "es": "Roca sedimentaria silícea constituida por la variedad criptocristalina del cuarzo del mismo nombre. es densa, generalmente de porosidad inferior al 10%, muy dura y suele encontrarse en agregados de color variable, de pardo a amarillento o negro, asociada a formaciones sedimentarias. posee brillo vítreo"
+  "altLabel": {
+    "es": [
+      "pedernal, sílex"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_rock"
-    },
+  "definition": {
+    "es": "Roca sedimentaria silícea constituida por la variedad criptocristalina del cuarzo del mismo nombre. es densa, generalmente de porosidad inferior al 10%, muy dura y suele encontrarse en agregados de color variable, de pardo a amarillento o negro, asociada a formaciones sedimentarias. posee brillo vítreo",
+    "en": "Siliceous sedimentary rock consisting of the cryptocrystalline quartz variety of the same name. It is dense, generally with porosity below 10%, very hard and commonly found in aggregates of variable colour, from brown to yellowish or black, associated with sedimentary formations. It has a vitreous lustre"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/non-clasticSiliceousSedimentaryRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_rock"
     }
   ],
   "inScheme": [

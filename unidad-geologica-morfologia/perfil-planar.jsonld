@@ -9,6 +9,48 @@
     "es": "Forma definida por la intersección del cuerpo con alguna superficie, generalmente una sección transversal o una vista de mapa",
     "en": "Shape is defined by intersection of body with some surface, generally either a cross section or map view"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-eliptico",
+      "prefLabel": {
+        "es": "perfil elíptico",
+        "en": "elliptical profile"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-irregular",
+      "prefLabel": {
+        "es": "perfil irregular",
+        "en": "irregular profile"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-isometrico",
+      "prefLabel": {
+        "es": "perfil isometrico",
+        "en": "equant profile"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-lenticular",
+      "prefLabel": {
+        "es": "perfil lenticular",
+        "en": "lenticular profile"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-poligonal",
+      "prefLabel": {
+        "es": "perfil poligonal",
+        "en": "polygonal profile"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/planar_profile"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"

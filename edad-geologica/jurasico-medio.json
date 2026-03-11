@@ -3,39 +3,44 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Jurásico Medio",
-    "en": "Middle Jurassic"
+    "en": "Middle Jurassic",
+    "vl": "Juràssic Mitjà"
   },
-  "definition": {
-    "es": "Límite inferior -174.1 +|-1.0 ma, límite superior -163.5 +|-1.0 ma",
-    "en": "Older bound -174.1 +|-1.0 ma, younger bound -163.5 +|-1.0 ma"
-  },
+  "notation": [
+    "212020200000",
+    "a1.1.2.2.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aaleniense",
       "prefLabel": {
         "es": "Aaleniense",
-        "en": "Aalenian"
+        "en": "Aalenian",
+        "vl": "Aalenià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/bajociense",
       "prefLabel": {
         "es": "Bajociense",
-        "en": "Bajocian"
+        "en": "Bajocian",
+        "vl": "Bajocià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/bathoniense",
       "prefLabel": {
         "es": "Bathoniense",
-        "en": "Bathonian"
+        "en": "Bathonian",
+        "vl": "Bathonià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/calloviense",
       "prefLabel": {
         "es": "Calloviense",
-        "en": "Callovian"
+        "en": "Callovian",
+        "vl": "Cal·Lovià"
       }
     }
   ],
@@ -43,15 +48,16 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico",
     "prefLabel": {
       "es": "Jurásico",
-      "en": "Jurassic"
+      "en": "Jurassic",
+      "vl": "Juràssic"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Middle_Jurassic"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/middleJurassic"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/middleJurassic"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/MiddleJurassic"
     }
   ],
   "inScheme": [

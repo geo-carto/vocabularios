@@ -5,15 +5,21 @@
     "es": "boundstone",
     "en": "boundstone"
   },
+  "altLabel": {
+    "es": [
+      "caliza bioconstruida"
+    ]
+  },
   "definition": {
-    "es": "Caliza formada por la actividad vital de los organismos coloniales y atrapadores de partículas sedimentarias, según la clasificación de dunham 1962"
+    "es": "Caliza formada por la actividad vital de los organismos coloniales y atrapadores de partículas sedimentarias, según la clasificación de dunham 1962",
+    "en": "Limestone formed by the vital activity of colonial and sediment-trapping organisms, according to the Dunham (1962) classification"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/boundstone"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/boundstone"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/boundstone"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/boundstone"
     }
   ],
   "inScheme": [

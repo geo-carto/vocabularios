@@ -6,14 +6,15 @@
     "en": "feldspathic graywacke"
   },
   "definition": {
-    "es": "Grauvaca en la que la proporción de cuarzo es inferior al 95% de los granos y el contenido de feldespatos es mayor que el de fragmentos de otras rocas"
+    "es": "Grauvaca en la que la proporción de cuarzo es inferior al 95% de los granos y el contenido de feldespatos es mayor que el de fragmentos de otras rocas",
+    "en": "Greywacke in which the proportion of quartz is below 95% of the grains and the feldspar content is greater than that of rock fragments"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/wacke"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/wacke"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/wacke"
     }
   ],
   "inScheme": [

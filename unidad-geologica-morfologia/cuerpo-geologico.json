@@ -9,17 +9,229 @@
     "es": "Un cuerpo tridimensional definido en base a una forma geométrica, con alguna connotación o denotación geológica",
     "en": "A 3 dimensional body defined based on geometric shape, with some geologic connotation or denotation"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/abanico",
+      "prefLabel": {
+        "es": "abanico",
+        "en": "fan"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/boudin",
+      "prefLabel": {
+        "es": "boudin",
+        "en": "boudin shape"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/canaliforme",
+      "prefLabel": {
+        "es": "canaliforme",
+        "en": "channel shape"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/capa-de-forma-tabular",
+      "prefLabel": {
+        "es": "capa de forma tabular",
+        "en": "layer shape"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/capsula",
+      "prefLabel": {
+        "es": "cápsula",
+        "en": "pod"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/chimenea",
+      "prefLabel": {
+        "es": "chimenea",
+        "en": "pipe"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/columnar",
+      "prefLabel": {
+        "es": "columnar",
+        "en": "column shape"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuenca",
+      "prefLabel": {
+        "es": "cuenca",
+        "en": "basin shape"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-rocoso-de-geometria-irregular",
+      "prefLabel": {
+        "es": "cuerpo rocoso de geometría irregular",
+        "en": "rock body geometry irregular"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-rocoso-de-geometria-no-especificada",
+      "prefLabel": {
+        "es": "cuerpo rocoso de geometría no especificada",
+        "en": "rock body geometry not specified"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cupula",
+      "prefLabel": {
+        "es": "cúpula",
+        "en": "cupola"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/diapiro",
+      "prefLabel": {
+        "es": "diapiro",
+        "en": "diapir"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/dique",
+      "prefLabel": {
+        "es": "dique",
+        "en": "dike"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/dique-anular",
+      "prefLabel": {
+        "es": "dique anular",
+        "en": "ring dike"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/domo",
+      "prefLabel": {
+        "es": "domo",
+        "en": "dome"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/ductolith",
+      "prefLabel": {
+        "es": "ductolith",
+        "en": "ductolith"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/embudo",
+      "prefLabel": {
+        "es": "embudo",
+        "en": "ethmolith"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/esfenolito",
+      "prefLabel": {
+        "es": "esfenolito",
+        "en": "sphenolith"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/facolito",
+      "prefLabel": {
+        "es": "facolito",
+        "en": "phacolith"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/graben",
+      "prefLabel": {
+        "es": "graben",
+        "en": "graben shape"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lacolito",
+      "prefLabel": {
+        "es": "lacolito",
+        "en": "laccolith"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lente",
+      "prefLabel": {
+        "es": "lente",
+        "en": "lens"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lopolito",
+      "prefLabel": {
+        "es": "lopolito",
+        "en": "lopolith"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/manto",
+      "prefLabel": {
+        "es": "manto",
+        "en": "blanket shape"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/monticulo",
+      "prefLabel": {
+        "es": "montículo",
+        "en": "mound"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/morfologia-arqueada",
+      "prefLabel": {
+        "es": "morfología arqueada",
+        "en": "arch morphology"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/sill",
+      "prefLabel": {
+        "es": "sill",
+        "en": "sill form"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/surco",
+      "prefLabel": {
+        "es": "surco",
+        "en": "trough shape"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/vena",
+      "prefLabel": {
+        "es": "vena",
+        "en": "vein-shape"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-tridimensional",
+    "prefLabel": {
+      "es": "cuerpo tridimensional",
+      "en": "three dimensional body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/geologic_body"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

@@ -6,14 +6,15 @@
     "en": "gravel s.l."
   },
   "definition": {
-    "es": "Sedimento constituido en más de un 30% por fragmentos de tamaño grava >2 mm de diámetro, sin especificar su composición o su génesis"
+    "es": "Sedimento constituido en más de un 30% por fragmentos de tamaño grava >2 mm de diámetro, sin especificar su composición o su génesis",
+    "en": "Sediment consisting of more than 30% gravel-size fragments (>2 mm diameter), without specifying composition or genesis"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gravel_size_sediment"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gravelSizeSediment"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gravelSizeSediment"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gravel_size_sediment"
     }
   ],
   "inScheme": [

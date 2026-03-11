@@ -5,15 +5,21 @@
     "es": "roca foídica",
     "en": "foidic rock"
   },
+  "altLabel": {
+    "es": [
+      "foiditoide"
+    ]
+  },
   "definition": {
-    "es": "nombre utilizado en la descripción provisional de rocas volcánicas básicas o ultrabásicas, ultraalcalinas, en las que los feldespatoides representan más del 60% del total de los minerales félsicos, contienen cantidades menores de minerales ferromagnesianos, como piroxeno y, en ocasiones, anfíbol"
+    "es": "nombre utilizado en la descripción provisional de rocas volcánicas básicas o ultrabásicas, ultraalcalinas, en las que los feldespatoides representan más del 60% del total de los minerales félsicos, contienen cantidades menores de minerales ferromagnesianos, como piroxeno y, en ocasiones, anfíbol",
+    "en": "Name used in the provisional description of basic or ultrabasic, ultraalkaline volcanic rocks in which feldspathoids represent more than 60% of the total felsic minerals, containing lesser amounts of ferromagnesian minerals, such as pyroxene and, occasionally, amphibole"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foiditoid"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foiditoid"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foiditoid"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foiditoid"
     }
   ],
   "inScheme": [

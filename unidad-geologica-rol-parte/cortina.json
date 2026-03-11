@@ -9,6 +9,18 @@
     "es": "Colgante que es una hoja vertical como colgante en un cuerpo de roca ígnea intrusiva",
     "en": "Pendant that is a vertical sheet like pendant in an intrusive igneous rock body"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazos",
+    "prefLabel": {
+      "es": "retazos",
+      "en": "pendants"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/screen"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"

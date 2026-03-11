@@ -11,10 +11,59 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-pantanoso",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-aluvial-glacial",
       "prefLabel": {
-        "es": "ambiente pantanoso",
-        "en": "bog setting"
+        "es": "ambiente de llanura aluvial glacial",
+        "en": "glacial outwash plain setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-arenosa",
+      "prefLabel": {
+        "es": "ambiente de llanura arenosa",
+        "en": "sand plain setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-deltaica-alta",
+      "prefLabel": {
+        "es": "ambiente de llanura deltaica alta",
+        "en": "upper delta plain setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-pedregosa",
+      "prefLabel": {
+        "es": "ambiente de llanura pedregosa",
+        "en": "gibber plain setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-playa-endorreica",
+      "prefLabel": {
+        "es": "ambiente de playa endorreica",
+        "en": "playa setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-procesos-eolicos",
+      "prefLabel": {
+        "es": "ambiente de procesos eólicos",
+        "en": "aeolian process setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-de-llanura-fluvial",
+      "prefLabel": {
+        "es": "ambiente de sistema de llanura fluvial",
+        "en": "river plain system setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-vertiente-de-piedemonte",
+      "prefLabel": {
+        "es": "ambiente de sistema vertiente de piedemonte",
+        "en": "piedmont slope system setting"
       }
     },
     {
@@ -25,10 +74,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-de-llanura-fluvial",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-pantanoso",
       "prefLabel": {
-        "es": "ambiente de sistema de llanura fluvial",
-        "en": "river plain system setting"
+        "es": "ambiente pantanoso",
+        "en": "bog setting"
       }
     }
   ],
@@ -41,10 +90,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/terrestrial_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/terrestrialSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/terrestrialSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/terrestrial_setting"
     }
   ],
   "inScheme": [

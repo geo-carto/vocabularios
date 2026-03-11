@@ -5,15 +5,21 @@
     "es": "cuarcita",
     "en": "quartzite"
   },
+  "altLabel": {
+    "es": [
+      "metacuarcita"
+    ]
+  },
   "definition": {
-    "es": "Roca metamórfica derivada de una arenisca, con más de un 80% de cuarzo"
+    "es": "Roca metamórfica derivada de una arenisca, con más de un 80% de cuarzo",
+    "en": "Metamorphic rock derived from a sandstone, with more than 80% quartz"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/quartzite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/quartzite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/quartzite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/quartzite"
     }
   ],
   "inScheme": [

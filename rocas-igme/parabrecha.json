@@ -6,14 +6,15 @@
     "en": "parabreccia"
   },
   "definition": {
-    "es": "Brecha en la que la matriz arenosa o pelítica se presenta en proporción superior al 15%, con cantos y bloques angulosos flotando dentro de ella"
+    "es": "Brecha en la que la matriz arenosa o pelítica se presenta en proporción superior al 15%, con cantos y bloques angulosos flotando dentro de ella",
+    "en": "Breccia in which the sandy or pelitic matrix is present in proportions exceeding 15%, with angular clasts and blocks floating within it"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/breccia"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia"
     }
   ],
   "inScheme": [

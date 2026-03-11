@@ -11,17 +11,17 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-rio-de-canal-trenzado",
-      "prefLabel": {
-        "es": "ambiente de rio de canal trenzado",
-        "en": "braided river channel setting"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-canal-de-rio-meandriforme",
       "prefLabel": {
         "es": "ambiente de canal de río meandriforme",
         "en": "meandering river channel setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-rio-de-canal-trenzado",
+      "prefLabel": {
+        "es": "ambiente de rio de canal trenzado",
+        "en": "braided river channel setting"
       }
     }
   ],
@@ -34,10 +34,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/river_channel"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/riverChannelSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/riverChannelSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/river_channel"
     }
   ],
   "inScheme": [

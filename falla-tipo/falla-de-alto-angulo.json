@@ -11,10 +11,10 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-alto-angulo",
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-de-alto-angulo",
       "prefLabel": {
-        "es": "falla normal de alto ángulo",
-        "en": "high angle normal fault"
+        "es": "falla de desgarre de alto ángulo",
+        "en": "wrench fault"
       }
     },
     {
@@ -25,10 +25,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-de-alto-angulo",
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-alto-angulo",
       "prefLabel": {
-        "es": "falla de desgarre de alto ángulo",
-        "en": "wrench fault"
+        "es": "falla normal de alto ángulo",
+        "en": "high angle normal fault"
       }
     }
   ],
@@ -41,10 +41,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/faulttype/high_angle_fault"
+      "id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/highAngleFault"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/highAngleFault"
+      "id": "http://resource.geosciml.org/classifier/cgi/faulttype/high_angle_fault"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "metaluminous rock"
   },
   "definition": {
-    "es": "Roca cuyos índices de saturación en alúmina al2o3/k2o+na2o+cao, en proporciones molares y agpaítico [na2o+k2o/al2o3, en proporciones molares] son menores que la unidad. suele tener minerales ricos en calcio como hornblenda, augita o epidota"
+    "es": "Roca cuyos índices de saturación en alúmina al2o3/k2o+na2o+cao, en proporciones molares y agpaítico [na2o+k2o/al2o3, en proporciones molares] son menores que la unidad. suele tener minerales ricos en calcio como hornblenda, augita o epidota",
+    "en": "Rock whose alumina saturation index Al2O3/K2O+Na2O+CaO, in molar proportions, and agpaitic index [Na2O+K2O/Al2O3, in molar proportions] are less than unity. It usually contains calcium-rich minerals such as hornblende, augite or epidote"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/igneousRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock"
     }
   ],
   "inScheme": [

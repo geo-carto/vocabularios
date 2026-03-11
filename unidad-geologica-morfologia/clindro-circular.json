@@ -9,17 +9,24 @@
     "es": "Cilindro elíptico que tiene simetría circular sobre el eje largo. Las superficies laterales distintas no están definidas. La sección transversal es circular",
     "en": "Elliptical cylinder that has circular symmetry about long axis, distinct side surfaces are not defined. Cross section is circular"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro-eliptico",
+    "prefLabel": {
+      "es": "cilindro elíptico",
+      "en": "elliptical cylinder"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/circular_cylinder"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

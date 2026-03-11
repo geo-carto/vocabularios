@@ -6,14 +6,15 @@
     "en": "impure carbonate sediment"
   },
   "definition": {
-    "es": "Depósito con un contenido de minerales carbonatados comprendido entre el 50 y el 90%"
+    "es": "Depósito con un contenido de minerales carbonatados comprendido entre el 50 y el 90%",
+    "en": "Deposit with a carbonate mineral content between 50 and 90%"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/impure_carbonate_sediment"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/impureCarbonateSediment"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/impureCarbonateSediment"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/impure_carbonate_sediment"
     }
   ],
   "inScheme": [

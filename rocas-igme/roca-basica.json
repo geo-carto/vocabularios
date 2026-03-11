@@ -6,14 +6,15 @@
     "en": "basic rock"
   },
   "definition": {
-    "es": "Roca ígnea cuyo contenido en sílice está comprendido entre el 45 y el 52%"
+    "es": "Roca ígnea cuyo contenido en sílice está comprendido entre el 45 y el 52%",
+    "en": "Igneous rock whose silica content is between 45 and 52%"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/basic_igneous_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/basicIgneousRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/basicIgneousRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/basic_igneous_rock"
     }
   ],
   "inScheme": [

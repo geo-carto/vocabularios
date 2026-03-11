@@ -6,14 +6,15 @@
     "en": "jet"
   },
   "definition": {
-    "es": "Variedad del lignito, negra y brillante"
+    "es": "Variedad del lignito, negra y brillante",
+    "en": "Black and shiny variety of lignite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/lignite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/lignite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/lignite"
     }
   ],
   "inScheme": [

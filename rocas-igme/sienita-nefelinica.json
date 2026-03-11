@@ -6,14 +6,15 @@
     "en": "nepheline syenite"
   },
   "definition": {
-    "es": "Sienita foídica en la que la nefelina constituye el feldespatoide dominante"
+    "es": "Sienita foídica en la que la nefelina constituye el feldespatoide dominante",
+    "en": "Foid syenite in which nepheline constitutes the dominant feldspathoid"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_syenite"
-    },
+  "closeMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidBearingSyenite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_syenite"
     }
   ],
   "inScheme": [

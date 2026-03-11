@@ -6,14 +6,15 @@
     "en": "glaciolacustrine varve"
   },
   "definition": {
-    "es": "Varva propia de lagos localizados en la cabecera de un glaciar, en los que las láminas claras de limos y arenas se depositan en verano, cuando el lago está desprovisto de hielo, mientras que las láminas oscuras de arcilla se depositan en invierno, cuando el lago está helado"
+    "es": "Varva propia de lagos localizados en la cabecera de un glaciar, en los que las láminas claras de limos y arenas se depositan en verano, cuando el lago está desprovisto de hielo, mientras que las láminas oscuras de arcilla se depositan en invierno, cuando el lago está helado",
+    "en": "Varve characteristic of lakes located at the head of a glacier, in which the light silt and sand laminae are deposited in summer when the lake is free of ice, while the dark clay laminae are deposited in winter when the lake is frozen"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sediment"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/clasticSediment"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sediment"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "impact breccia"
   },
   "definition": {
-    "es": "Brecha que contiene fragmentos que muestran evidencias inequívocas de haber sufrido un metamorfismo de choque, típicamente se produce alrededor, dentro y debajo de un cráter de impacto"
+    "es": "Brecha que contiene fragmentos que muestran evidencias inequívocas de haber sufrido un metamorfismo de choque, típicamente se produce alrededor, dentro y debajo de un cráter de impacto",
+    "en": "Breccia containing fragments that show unequivocal evidence of having undergone shock metamorphism; typically produced around, within and below an impact crater"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/impact_generated_material"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/impactGeneratedMaterial"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/impact_generated_material"
     }
   ],
   "inScheme": [

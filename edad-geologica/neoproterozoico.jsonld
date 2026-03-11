@@ -3,25 +3,53 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Neoproterozoico",
-    "en": "Neoproterozoic"
+    "en": "Neoproterozoic",
+    "vl": "Neoproterozoic"
   },
-  "definition": {
-    "es": "Límitie inferior -1000 ma, límite superior -541.0 +|-1.0 ma",
-    "en": "Older bound -1000 ma, younger bound -541.0 +|-1.0 ma"
-  },
+  "notation": [
+    "133000000000",
+    "a2.1.1"
+  ],
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/criogenico",
+      "prefLabel": {
+        "es": "Criogénico",
+        "en": "Cryogenian",
+        "vl": "Criogenià"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ediacarico",
+      "prefLabel": {
+        "es": "Ediacárico",
+        "en": "Ediacaran",
+        "vl": "Ediacarià"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/tonico",
+      "prefLabel": {
+        "es": "Tónico",
+        "en": "Tonian",
+        "vl": "Tonià"
+      }
+    }
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/proterozoico",
     "prefLabel": {
       "es": "Proterozoico",
-      "en": "Proterozoic"
+      "en": "Proterozoic",
+      "vl": "Proterozoic"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Neoproterozoic"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/neoproterozoic"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/neoproterozoic"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Neoproterozoic"
     }
   ],
   "inScheme": [

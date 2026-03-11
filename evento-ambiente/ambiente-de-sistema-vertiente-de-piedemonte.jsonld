@@ -32,19 +32,12 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-subaereo",
-    "prefLabel": {
-      "es": "ambiente subaéreo",
-      "en": "subaerial setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/piedmont_slope_system_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/piedmontSlopeSystemSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/piedmontSlopeSystemSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/piedmont_slope_system_setting"
     }
   ],
   "inScheme": [

@@ -9,17 +9,19 @@
     "es": "Laterita rica en óxidos de hierro, fundamentalmente goethita y limonita.",
     "en": "Laterite enriched in oxides of iron, especially goethite and limonite."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita",
+    "prefLabel": {
+      "es": "laterita",
+      "en": "laterite"
+    }
+  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
     }

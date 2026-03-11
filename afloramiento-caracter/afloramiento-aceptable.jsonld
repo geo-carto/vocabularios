@@ -2,12 +2,19 @@
   "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-aceptable",
   "type": "Concept",
   "prefLabel": {
-    "es": "Afloramiento aceptable",
+    "es": "afloramiento aceptable",
     "en": "medium quality outcrop"
   },
   "definition": {
     "es": "Afloramiento con una moderada calidad de exposición (se puede detallar algo más la composición de la unidad y, en su caso, esbozar algún rasgo textural o estructural)",
     "en": "Outcrop with a moderate quality of exposure (the composition of the unit can be further detailed and, where appropriate, some textural or structural features can be outlined)"
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento",
+    "prefLabel": {
+      "es": "con afloramiento",
+      "en": "with outcrop"
+    }
   },
   "inScheme": [
     {
@@ -15,11 +22,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter"
     }

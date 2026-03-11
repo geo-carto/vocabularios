@@ -9,17 +9,24 @@
     "es": "Lenticular con un lado plano y simetría circular en el eje. Los conos geológicos típicamente tienen una altura muy inferior al diámetro",
     "en": "Discus with one planar side, and circular symmetry on axis, geologic cones typically have height <(<) diameter"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lenticular",
+    "prefLabel": {
+      "es": "lenticular",
+      "en": "discus"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/cone"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

@@ -9,6 +9,20 @@
     "es": "La roca está alterada, pero el tipo de alteración no está especificada",
     "en": "Rock is altered, but type not specified. Any alteration type allowed"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo/meteorizacion",
+      "prefLabel": {
+        "es": "meteorización",
+        "en": "weathering"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/alterationtype/alteration_not_specified"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo"

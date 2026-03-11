@@ -6,8 +6,14 @@
     "en": "asphalt"
   },
   "definition": {
-    "es": "Bitumen negro, muy viscoso o sólido, raramente en estado libre, pero frecuente en impregnaciones de determinadas rocas sedimentarias o sedimentos"
+    "es": "Bitumen negro, muy viscoso o sólido, raramente en estado libre, pero frecuente en impregnaciones de determinadas rocas sedimentarias o sedimentos",
+    "en": "Black, highly viscous or solid bitumen, rarely in a free state, but frequently as impregnations in certain sedimentary rocks or sediments"
   },
+  "broadMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/bitumen"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"

@@ -6,14 +6,15 @@
     "en": "epiclastic material"
   },
   "definition": {
-    "es": "Material volcanoclástico que contiene fragmentos de origen volcánico con evidencias de haber sido transportados por algún medio sedimentario"
+    "es": "Material volcanoclástico que contiene fragmentos de origen volcánico con evidencias de haber sido transportados por algún medio sedimentario",
+    "en": "Volcaniclastic material containing volcanic fragments showing evidence of having been transported by some sedimentary medium"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_material"
-    },
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pyroclasticMaterial"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_material"
     }
   ],
   "inScheme": [

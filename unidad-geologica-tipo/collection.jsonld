@@ -2,14 +2,14 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/collection",
   "type": "Collection",
   "prefLabel": {
-    "es": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo - Todos los conceptos"
+    "es": "Tipo de unidad geológica - Todos los conceptos"
   },
   "member": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/suelo-artificial",
       "prefLabel": {
-        "es": "unidad geológica",
-        "en": "geologic unit"
+        "es": "suelo artificial",
+        "en": "artificial ground"
       }
     },
     {
@@ -17,13 +17,6 @@
       "prefLabel": {
         "es": "unidad aloestratigráfica",
         "en": "allostratigraphic unit"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-alteracion",
-      "prefLabel": {
-        "es": "unidad de alteración",
-        "en": "alteration unit"
       }
     },
     {
@@ -41,31 +34,24 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geofisica",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-cronoestratigrafica-de-polaridad",
       "prefLabel": {
-        "es": "unidad geofísica",
-        "en": "geophysical unit"
+        "es": "unidad cronoestratigráfica de polaridad",
+        "en": "polarity chronostratigraphic unit"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-magnetoestratigrafica",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-alteracion",
       "prefLabel": {
-        "es": "unidad magnetoestratigráfica",
-        "en": "magnetostratigraphic unit"
+        "es": "unidad de alteración",
+        "en": "alteration unit"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litogenetica",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-deformacion",
       "prefLabel": {
-        "es": "unidad litogenética",
-        "en": "lithogenetic unit"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/suelo-artificial",
-      "prefLabel": {
-        "es": "suelo artificial",
-        "en": "artificial ground"
+        "es": "unidad de deformación",
+        "en": "deformation unit"
       }
     },
     {
@@ -83,17 +69,24 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litologica",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-edafoestratigrafica",
       "prefLabel": {
-        "es": "unidad litológica",
-        "en": "lithologic unit"
+        "es": "unidad edafoestratigráfica",
+        "en": "pedostratigraphic unit"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litoestratigrafica",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geofisica",
       "prefLabel": {
-        "es": "unidad litoestratigráfica",
-        "en": "lithostratigraphic unit"
+        "es": "unidad geofísica",
+        "en": "geophysical unit"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica",
+      "prefLabel": {
+        "es": "unidad geológica",
+        "en": "geologic unit"
       }
     },
     {
@@ -104,6 +97,27 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litoestratigrafica",
+      "prefLabel": {
+        "es": "unidad litoestratigráfica",
+        "en": "lithostratigraphic unit"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litogenetica",
+      "prefLabel": {
+        "es": "unidad litogenética",
+        "en": "lithogenetic unit"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litologica",
+      "prefLabel": {
+        "es": "unidad litológica",
+        "en": "lithologic unit"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litotectonica",
       "prefLabel": {
         "es": "unidad litotectónica",
@@ -111,24 +125,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-deformacion",
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-magnetoestratigrafica",
       "prefLabel": {
-        "es": "unidad de deformación",
-        "en": "deformation unit"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-edafoestratigrafica",
-      "prefLabel": {
-        "es": "unidad edafoestratigráfica",
-        "en": "pedostratigraphic unit"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-cronoestratigrafica-de-polaridad",
-      "prefLabel": {
-        "es": "unidad cronoestratigráfica de polaridad",
-        "en": "polarity chronostratigraphic unit"
+        "es": "unidad magnetoestratigráfica",
+        "en": "magnetostratigraphic unit"
       }
     }
   ],

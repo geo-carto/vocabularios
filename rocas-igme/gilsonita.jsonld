@@ -6,8 +6,14 @@
     "en": "gilsonite"
   },
   "definition": {
-    "es": "Asfaltita extraordinariamente pura, negra, brillante y de fractura concoidea. tiene una dureza de 2 a 2,5 y un peso específico de 1,07. contiene del 10 al 20% de carbono y arde fácilmente con llama luminosa"
+    "es": "Asfaltita extraordinariamente pura, negra, brillante y de fractura concoidea. tiene una dureza de 2 a 2,5 y un peso específico de 1,07. contiene del 10 al 20% de carbono y arde fácilmente con llama luminosa",
+    "en": "Extraordinarily pure asphaltite, black, shiny and with conchoidal fracture. It has a hardness of 2 to 2.5 and a specific gravity of 1.07. It contains 10 to 20% carbon and burns readily with a luminous flame"
   },
+  "broadMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/bitumen"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rocas-igme"

@@ -3,14 +3,42 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Turoliense",
-    "en": "Turolian"
+    "en": "Turolian",
+    "vl": "Turiolià"
   },
-  "exactMatch": [
+  "notation": [
+    "213020105092"
+  ],
+  "related": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Tortoniense-Messiniense"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/messiniense",
+      "prefLabel": {
+        "es": "Messiniense",
+        "en": "Messinian",
+        "vl": "Messinià"
+      }
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tortoniense-messiniense"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/tortoniense",
+      "prefLabel": {
+        "es": "Tortoniense",
+        "en": "Tortonian",
+        "vl": "Tortonià"
+      }
+    }
+  ],
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tortonian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Tortonian"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/messinian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Messinian"
     }
   ],
   "inScheme": [

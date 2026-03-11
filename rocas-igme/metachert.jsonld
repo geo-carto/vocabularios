@@ -6,14 +6,15 @@
     "en": "metachert"
   },
   "definition": {
-    "es": "Roca metamórfica derivada de un chert"
+    "es": "Roca metamórfica derivada de un chert",
+    "en": "Metamorphic rock derived from a chert"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
     }
   ],
   "inScheme": [

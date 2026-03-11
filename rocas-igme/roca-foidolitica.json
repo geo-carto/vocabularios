@@ -5,15 +5,21 @@
     "es": "roca foidolítica",
     "en": "foidolitic rock"
   },
+  "altLabel": {
+    "es": [
+      "foidolita"
+    ]
+  },
   "definition": {
-    "es": "Es el equivalente intrusivo de la roca foídica"
+    "es": "Es el equivalente intrusivo de la roca foídica",
+    "en": "It is the intrusive equivalent of foidic rock"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foidolite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidolite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidolite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foidolite"
     }
   ],
   "inScheme": [

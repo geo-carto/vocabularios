@@ -9,17 +9,24 @@
     "es": "El CO3 es el anión predominante y el Ca es el catión más abundante (porcentaje en moles)",
     "en": "CO3 is the predominante anion, and the Ca is the most abundant (mole percent) cation"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonatico",
+    "prefLabel": {
+      "es": "carbonático",
+      "en": "carbonate chemistry"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/calcium_rich_carbonate_chemistry"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }

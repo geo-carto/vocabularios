@@ -9,17 +9,24 @@
     "es": "Cilindro poligonal equivalente, L = W = H, los bordes definibles separan las superficies limítrofes. Grada al prisma tabular cuando una dimensión horizontal se vuelve claramente más larga que la otra, y a la tableta o columna cuando el eje vertical se vuelve claramente más corto o más largo que los ejes horizontales",
     "en": "Equant polygonal cylinder, L=W=H, definable edges separate bounding surfaces. Grades to tabular prism as one horizontal dimension becomes distinctly longer than the other, and tablet or polygonal cylinder as one vertical axis becomes distinctly shorter or longer than the horizontal axes"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro-poligonal",
+    "prefLabel": {
+      "es": "cilindro poligonal",
+      "en": "polygonal cylinder"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/block"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

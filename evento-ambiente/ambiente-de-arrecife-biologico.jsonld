@@ -11,13 +11,6 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-postarrecifal",
-      "prefLabel": {
-        "es": "ambiente postarrecifal",
-        "en": "backreef setting"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-frente-arrecifal",
       "prefLabel": {
         "es": "ambiente de frente arrecifal",
@@ -30,6 +23,13 @@
         "es": "ambiente de llanura arrecifal",
         "en": "reef flat setting"
       }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-postarrecifal",
+      "prefLabel": {
+        "es": "ambiente postarrecifal",
+        "en": "backreef setting"
+      }
     }
   ],
   "broader": {
@@ -41,10 +41,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/biological_reef_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/biologicalReefSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/biologicalReefSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/biological_reef_setting"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "biostrome"
   },
   "definition": {
-    "es": "Roca detrítica estratificada resultante de la diagénesis de los fragmentos desprendidos del biohermo y acumulados formando un talud en la parte exterior del arrecife barrera, hacia el mar libre"
+    "es": "Roca detrítica estratificada resultante de la diagénesis de los fragmentos desprendidos del biohermo y acumulados formando un talud en la parte exterior del arrecife barrera, hacia el mar libre",
+    "en": "Stratified detrital rock resulting from the diagenesis of fragments derived from the bioherm and accumulated as a talus on the outer side of the barrier reef towards the open sea"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sedimentary_rock"
-    },
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/clasticSedimentaryRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sedimentary_rock"
     }
   ],
   "inScheme": [

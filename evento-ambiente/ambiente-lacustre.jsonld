@@ -9,6 +9,15 @@
     "es": "Marco asociado a un lago. Siempre solapa con terrestres pueden solaparse con subaéreos, subacuático, o costa.",
     "en": "Setting associated with a lake. Always overlaps with terrestrial, may overlap with subaerial, subaqueous, or shoreline."
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-delta-lacustre",
+      "prefLabel": {
+        "es": "ambiente de delta lacustre",
+        "en": "lacustrine delta setting"
+      }
+    }
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-terrestre",
     "prefLabel": {
@@ -18,10 +27,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/lacustrine_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/lacustrineSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/lacustrineSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/lacustrine_setting"
     }
   ],
   "inScheme": [

@@ -5,15 +5,21 @@
     "es": "roca ígnea",
     "en": "igneous rock"
   },
+  "altLabel": {
+    "es": [
+      "roca magmática"
+    ]
+  },
   "definition": {
-    "es": "Roca resultante del enfriamiento y la solidificación de un magma. puede ser volcánica o plutónica, según se emplace en la superficie o en el interior de la corteza terrestre"
+    "es": "Roca resultante del enfriamiento y la solidificación de un magma. puede ser volcánica o plutónica, según se emplace en la superficie o en el interior de la corteza terrestre",
+    "en": "Rock resulting from the cooling and solidification of a magma. It can be volcanic or plutonic, depending on whether it is emplaced at the surface or in the interior of the Earth's crust"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/igneousRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/igneousRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock"
     }
   ],
   "inScheme": [

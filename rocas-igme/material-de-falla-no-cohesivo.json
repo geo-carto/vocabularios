@@ -6,14 +6,15 @@
     "en": "non-cohesive fault material"
   },
   "definition": {
-    "es": "Material de falla con rasgos que indican pérdida de cohesión durante la deformación, tales como espacios vacíos rellenos o no o material con matriz no consolidada entre los fragmentos. incluye las brechas y las harinas de falla"
+    "es": "Material de falla con rasgos que indican pérdida de cohesión durante la deformación, tales como espacios vacíos rellenos o no o material con matriz no consolidada entre los fragmentos. incluye las brechas y las harinas de falla",
+    "en": "Fault material with features indicating loss of cohesion during deformation, such as empty or filled void spaces or non-consolidated matrix material between the fragments. Includes breccias and fault gouges"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia_gouge_series"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/breccia-gougeSeries"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia_gouge_series"
     }
   ],
   "inScheme": [

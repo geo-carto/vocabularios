@@ -9,12 +9,19 @@
     "es": "Contenido en, incorporado o transportando en el interior del cuerpo de un glaciar o un manto de hielo; dicho de las corrientes de agua de deshielo, till, derrubios, morrena.",
     "en": "Contained, embedded, or carried within the body of a glacier or ice sheet; said of meltwater streams, till, drift, moraine."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-relacionado-con-glaciares",
+    "prefLabel": {
+      "es": "ambiente relacionado con glaciares",
+      "en": "glacier related setting"
+    }
+  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/englacial_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/englacialSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/englacialSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/englacial_setting"
     }
   ],
   "inScheme": [
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
     }

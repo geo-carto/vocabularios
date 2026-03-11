@@ -6,14 +6,15 @@
     "en": "carnallite"
   },
   "definition": {
-    "es": "Roca formada por el mineral del mismo nombre, de fórmula kcl, perteneciente a la clase de los cloruros, que cristaliza en el sistema rómbico formando masas granudas o nodulares. es incoloro cuando es puro y de color blanco con diferentes tonalidades cuando contiene impurezas, tiene brillo vítreo a graso y varía de transparente a translúcido"
+    "es": "Roca formada por el mineral del mismo nombre, de fórmula kcl, perteneciente a la clase de los cloruros, que cristaliza en el sistema rómbico formando masas granudas o nodulares. es incoloro cuando es puro y de color blanco con diferentes tonalidades cuando contiene impurezas, tiene brillo vítreo a graso y varía de transparente a translúcido",
+    "en": "Rock formed by the mineral of the same name, with the formula KCl, belonging to the class of chlorides, crystallizing in the orthorhombic system forming granular or nodular masses. It is colourless when pure and white with different shades when containing impurities, with vitreous to greasy lustre and varying from transparent to translucent"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/evaporite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
     }
   ],
   "inScheme": [

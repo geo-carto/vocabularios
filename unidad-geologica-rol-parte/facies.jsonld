@@ -16,6 +16,14 @@
       "en": "part of"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/facies"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/facies"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"

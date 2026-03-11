@@ -11,17 +11,10 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-zona-cronoestratigrafica",
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-antropico",
       "prefLabel": {
-        "es": "contacto de zona cronoestratigráfica",
-        "en": "chronostratigraphic-zone contact"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-falla",
-      "prefLabel": {
-        "es": "contacto por falla",
-        "en": "faulted contact"
+        "es": "contacto antrópico",
+        "en": "anthropogenic contact"
       }
     },
     {
@@ -32,17 +25,24 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-zona-cronoestratigrafica",
+      "prefLabel": {
+        "es": "contacto de zona cronoestratigráfica",
+        "en": "chronostratigraphic-zone contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-diagenetico",
+      "prefLabel": {
+        "es": "contacto diagenético",
+        "en": "diagenetic contact"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-geofisico",
       "prefLabel": {
         "es": "contacto geofísico",
         "en": "geophysical contact"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/linea-glaciar-estacionaria",
-      "prefLabel": {
-        "es": "línea glaciar estacionaria",
-        "en": "glacial stationary line"
       }
     },
     {
@@ -60,18 +60,23 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-diagenetico",
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-falla",
       "prefLabel": {
-        "es": "contacto diagenético",
-        "en": "diagenetic contact"
+        "es": "contacto por falla",
+        "en": "faulted contact"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-antropico",
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/linea-glaciar-estacionaria",
       "prefLabel": {
-        "es": "contacto antrópico",
-        "en": "anthropogenic contact"
+        "es": "línea glaciar estacionaria",
+        "en": "glacial stationary line"
       }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/contacttype/contact"
     }
   ],
   "inScheme": [

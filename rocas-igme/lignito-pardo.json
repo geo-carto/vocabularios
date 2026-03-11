@@ -6,14 +6,15 @@
     "en": "brown lignite"
   },
   "definition": {
-    "es": "Variedad del lignito, de color pardo, brillo mate, aspecto laminado y estructura fibrosa"
+    "es": "Variedad del lignito, de color pardo, brillo mate, aspecto laminado y estructura fibrosa",
+    "en": "Variety of lignite, brown in colour, matt lustre, laminated appearance and fibrous structure"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/lignite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/lignite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/lignite"
     }
   ],
   "inScheme": [

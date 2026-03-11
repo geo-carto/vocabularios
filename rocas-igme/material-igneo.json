@@ -6,14 +6,15 @@
     "en": "igneous material"
   },
   "definition": {
-    "es": "Material resultante del enfriamiento y la solidificación de un magma. puede ser volcánico o plutónico, según se emplace en la superficie o en el interior de la corteza terrestre"
+    "es": "Material resultante del enfriamiento y la solidificación de un magma. puede ser volcánico o plutónico, según se emplace en la superficie o en el interior de la corteza terrestre",
+    "en": "Material resulting from the cooling and solidification of a magma. It can be volcanic or plutonic, depending on whether it is emplaced at the surface or in the interior of the Earth's crust"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_material"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/igneousMaterial"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/igneousMaterial"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_material"
     }
   ],
   "inScheme": [

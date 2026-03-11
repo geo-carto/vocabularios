@@ -5,15 +5,21 @@
     "es": "roca epiclástica",
     "en": "epiclastic rock"
   },
-  "definition": {
-    "es": "Roca volcanoclástica que contiene fragmentos de origen volcánico con evidencias de haber sido transportados por algún medio sedimentario"
+  "altLabel": {
+    "es": [
+      "epiclastita"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/sedimentary_rock"
-    },
+  "definition": {
+    "es": "Roca volcanoclástica que contiene fragmentos de origen volcánico con evidencias de haber sido transportados por algún medio sedimentario",
+    "en": "Volcaniclastic rock containing volcanic fragments showing evidence of having been transported by some sedimentary medium"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sedimentaryRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/sedimentary_rock"
     }
   ],
   "inScheme": [

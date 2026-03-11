@@ -9,6 +9,11 @@
     "es": "Red de drenaje artificial construida principalmente para reducir o controlar el nivel freático local.",
     "en": "Human-made network built primarily to lower or control the local water table."
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/AnthropogenicGeomorphologicFeatureTypeValue/artificialDrainage"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico"

@@ -2,21 +2,21 @@
   "id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/collection",
   "type": "Collection",
   "prefLabel": {
-    "es": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion - Todos los conceptos"
+    "es": "Superfices de estratificación - Todos los conceptos"
   },
   "member": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa",
-      "prefLabel": {
-        "es": "traza de capa",
-        "en": "bedding surface"
-      }
-    },
     {
       "id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte",
       "prefLabel": {
         "es": "biohorizonte",
         "en": "biohorizon"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa",
+      "prefLabel": {
+        "es": "traza de capa",
+        "en": "bedding surface"
       }
     }
   ],

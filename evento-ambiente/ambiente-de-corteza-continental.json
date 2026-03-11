@@ -25,13 +25,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-tectonico-de-traspais",
-      "prefLabel": {
-        "es": "ambiente tectónico de traspaís",
-        "en": "hinterland tectonic setting"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-corteza-continental-inferior",
       "prefLabel": {
         "es": "ambiente de corteza continental inferior",
@@ -51,6 +44,13 @@
         "es": "ambiente de corteza continental superior",
         "en": "upper continental crustal setting"
       }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-tectonico-de-traspais",
+      "prefLabel": {
+        "es": "ambiente tectónico de traspaís",
+        "en": "hinterland tectonic setting"
+      }
     }
   ],
   "broader": {
@@ -62,10 +62,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/continental_crust"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/continental-crustalSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/continental-crustalSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/continental_crust"
     }
   ],
   "inScheme": [

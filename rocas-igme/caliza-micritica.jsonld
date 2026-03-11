@@ -6,14 +6,15 @@
     "en": "micritic limestone"
   },
   "definition": {
-    "es": "Caliza microcristalina con una proporción de aloquímicos inferior al 1%"
+    "es": "Caliza microcristalina con una proporción de aloquímicos inferior al 1%",
+    "en": "Microcrystalline limestone with an allochem proportion below 1%"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "dolomitic-magnesian sedimentary material"
   },
   "definition": {
-    "es": "Material sedimentario carbonatado cuya proporción entre calcita más aragonito y dolomita es menor que 1"
+    "es": "Material sedimentario carbonatado cuya proporción entre calcita más aragonito y dolomita es menor que 1",
+    "en": "Carbonate sedimentary material whose ratio of calcite plus aragonite to dolomite is less than 1"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/dolomitic_or_magnesian_sedimentary_material"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/dolomiticOrMagnesianSedimentaryMaterial"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/dolomiticOrMagnesianSedimentaryMaterial"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/dolomitic_or_magnesian_sedimentary_material"
     }
   ],
   "inScheme": [

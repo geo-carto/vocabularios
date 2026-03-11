@@ -6,14 +6,15 @@
     "en": "volcaniclastic deposit"
   },
   "definition": {
-    "es": "Depósito compuesto, al menos en un 10% de su volumen, por fragmentos de naturaleza volcánica, independientemente del mecanismo de fragmentación y de acumulación"
+    "es": "Depósito compuesto, al menos en un 10% de su volumen, por fragmentos de naturaleza volcánica, independientemente del mecanismo de fragmentación y de acumulación",
+    "en": "Deposit composed of at least 10% by volume of fragments of volcanic nature, regardless of the fragmentation and accumulation mechanism"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/compound_material"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/compoundMaterial"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/compound_material"
     }
   ],
   "inScheme": [

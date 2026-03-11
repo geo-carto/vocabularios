@@ -9,6 +9,11 @@
     "es": "Un proceso geomorfológico que actualmente está en acción, o que ha sido reactivado desde hace un período de tiempo convencionalmente corto.",
     "en": "A geomorphologic process that is currently in a state of action, or that has been reactivated since a conventionally short period of time."
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/active"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad"

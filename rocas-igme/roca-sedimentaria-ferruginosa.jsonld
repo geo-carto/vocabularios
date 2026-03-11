@@ -6,14 +6,15 @@
     "en": "ferruginous sedimentary rock"
   },
   "definition": {
-    "es": "Roca sedimentaria compuesta en más de un 50% por minerales ferruginosos"
+    "es": "Roca sedimentaria compuesta en más de un 50% por minerales ferruginosos",
+    "en": "Sedimentary rock composed of more than 50% ferruginous minerals"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/iron_rich_sedimentary_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/ironRichSedimentaryRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/ironRichSedimentaryRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/iron_rich_sedimentary_rock"
     }
   ],
   "inScheme": [

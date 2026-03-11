@@ -6,14 +6,15 @@
     "en": "tholeiitic rock"
   },
   "definition": {
-    "es": "Término utilizado para rocas basálticas pobres en potasio que forman parte de series magmáticas subalcalinas con fuerte enriquecimiento en hierro en las etapas iniciales de la diferenciación"
+    "es": "Término utilizado para rocas basálticas pobres en potasio que forman parte de series magmáticas subalcalinas con fuerte enriquecimiento en hierro en las etapas iniciales de la diferenciación",
+    "en": "Term used for potassium-poor basaltic rocks forming part of subalkaline magmatic series with strong iron enrichment in the early stages of differentiation"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/tholeiitic_basalt"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/tholeiiticBasalt"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/tholeiitic_basalt"
     }
   ],
   "inScheme": [

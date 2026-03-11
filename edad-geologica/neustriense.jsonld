@@ -3,14 +3,41 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Neustriense",
-    "en": "Neustrien"
+    "en": "Ypresian-Lutetian"
   },
-  "exactMatch": [
+  "notation": [
+    "213010203093"
+  ],
+  "related": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Ypresian-Lutetian"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/luteciense",
+      "prefLabel": {
+        "es": "Luteciense",
+        "en": "Lutetian",
+        "vl": "Lutecià"
+      }
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ypresian-lutetian"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ypresiense",
+      "prefLabel": {
+        "es": "Ypresiense",
+        "en": "Ypresian",
+        "vl": "Ypresià"
+      }
+    }
+  ],
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ypresian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Ypresian"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lutetian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Lutetian"
     }
   ],
   "inScheme": [

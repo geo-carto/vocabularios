@@ -9,19 +9,12 @@
     "es": "Litoral progradante construido mar adentro por el oleaje y las corrientes, y que continua durante alguna distancia a lo largo de la costa. Se caracteriza por los cordones y surcos de playa subparalelos, en lugares con dunas asociadas.",
     "en": "A prograded shore built seaward by waves and currents, and continuous for some distance along the coast. It is characterized by subparallel beach ridges and swales, in places with associated dunes."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral",
-    "prefLabel": {
-      "es": "ambiente litoral",
-      "en": "shoreline setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/strandplain_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/strandplainSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/strandplainSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/strandplain_setting"
     }
   ],
   "inScheme": [

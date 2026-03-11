@@ -9,6 +9,11 @@
     "es": "De uso en descripciones de instancias para indicar que no hay información disponible acerca del grado metamórfico",
     "en": "For use in instance descriptions to indicate that no information is available on metamorphic grade"
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/metamorphic_grade_unknown"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado"

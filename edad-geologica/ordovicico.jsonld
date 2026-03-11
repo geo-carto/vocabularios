@@ -3,32 +3,36 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Ordovícico",
-    "en": "Ordovician"
+    "en": "Ordovician",
+    "vl": "Ordovicià"
   },
-  "definition": {
-    "es": "Límite inferior -485.4 +|-1.9 ma, límite superior -443.8 +|-1.5 ma",
-    "en": "Older bound -485.4 +|-1.9 ma, younger bound -443.8 +|-1.5 ma"
-  },
+  "notation": [
+    "211020000000",
+    "a1.1.3.5"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-inferior",
       "prefLabel": {
         "es": "Ordovícico Inferior",
-        "en": "Lower Ordovician"
+        "en": "Lower Ordovician",
+        "vl": "Ordovicià Inferior"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-medio",
       "prefLabel": {
         "es": "Ordovícico Medio",
-        "en": "Middle Ordovician"
+        "en": "Middle Ordovician",
+        "vl": "Ordovicià Mitjà"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-superior",
       "prefLabel": {
         "es": "Ordovícico Superior",
-        "en": "Upper Ordovician"
+        "en": "Upper Ordovician",
+        "vl": "Ordovicià Superior"
       }
     }
   ],
@@ -36,15 +40,16 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico",
     "prefLabel": {
       "es": "Paleozoico",
-      "en": "Paleozoic"
+      "en": "Paleozoic",
+      "vl": "Paleozoic"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Ordovician"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ordovician"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ordovician"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Ordovician"
     }
   ],
   "inScheme": [

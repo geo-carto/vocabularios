@@ -18,6 +18,20 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-delta-estuarino",
+      "prefLabel": {
+        "es": "ambiente de delta estuarino",
+        "en": "estuarine delta setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-delta-lacustre",
+      "prefLabel": {
+        "es": "ambiente de delta lacustre",
+        "en": "lacustrine delta setting"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-desembocadura-de-distributario-de-delta",
       "prefLabel": {
         "es": "ambiente de desembocadura de distributario de delta",
@@ -32,20 +46,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-deltaica",
-      "prefLabel": {
-        "es": "ambiente de llanura deltaica",
-        "en": "delta plain setting"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-delta-estuarino",
-      "prefLabel": {
-        "es": "ambiente de delta estuarino",
-        "en": "estuarine delta setting"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-la-bahia-interdistributaria",
       "prefLabel": {
         "es": "ambiente de la bahía interdistributaria",
@@ -53,10 +53,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-delta-lacustre",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-deltaica",
       "prefLabel": {
-        "es": "ambiente de delta lacustre",
-        "en": "lacustrine delta setting"
+        "es": "ambiente de llanura deltaica",
+        "en": "delta plain setting"
       }
     },
     {
@@ -68,18 +68,18 @@
     }
   ],
   "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-en-la-superficie-de-la-tierra",
+    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral",
     "prefLabel": {
-      "es": "ambiente en la superficie de la Tierra",
-      "en": "earth surface setting"
+      "es": "ambiente litoral",
+      "en": "shoreline setting"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/deltaic_system_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/deltaicSystemSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/deltaicSystemSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/deltaic_system_setting"
     }
   ],
   "inScheme": [

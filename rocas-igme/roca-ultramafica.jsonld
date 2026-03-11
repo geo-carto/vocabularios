@@ -6,14 +6,15 @@
     "en": "ultramafic rock"
   },
   "definition": {
-    "es": "Roca ígnea con un contenido en minerales oscuros superior al 90% en volumen"
+    "es": "Roca ígnea con un contenido en minerales oscuros superior al 90% en volumen",
+    "en": "Igneous rock with a dark mineral content exceeding 90% by volume"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/ultramafic_igneous_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/ultramaficIgneousRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/ultramaficIgneousRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/ultramafic_igneous_rock"
     }
   ],
   "inScheme": [

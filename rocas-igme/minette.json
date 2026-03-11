@@ -6,14 +6,15 @@
     "en": "minette"
   },
   "definition": {
-    "es": "Lamprófido calcoalcalino con biotita y feldespato potásico como minerales dominantes"
+    "es": "Lamprófido calcoalcalino con biotita y feldespato potásico como minerales dominantes",
+    "en": "Calc-alkaline lamprophyre with biotite and potassic feldspar as dominant minerals"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/exoticAlkalineRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
     }
   ],
   "inScheme": [

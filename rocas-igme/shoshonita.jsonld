@@ -6,14 +6,15 @@
     "en": "shoshonite"
   },
   "definition": {
-    "es": "Roca volcánica básica o intermedia, alcalina, variedad potásica de la traquiandesita basáltica. el término “shoshonítico” es utilizado para denominar series de rocas potásicas alcalinas"
+    "es": "Roca volcánica básica o intermedia, alcalina, variedad potásica de la traquiandesita basáltica. el término “shoshonítico” es utilizado para denominar series de rocas potásicas alcalinas",
+    "en": "Basic or intermediate, alkaline volcanic rock, potassic variety of basaltic trachyandesite. The term 'shoshonitic' is used to designate series of alkaline potassic rocks"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/latitic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/latiticRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/latitic_rock"
     }
   ],
   "inScheme": [

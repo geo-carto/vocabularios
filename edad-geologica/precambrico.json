@@ -5,10 +5,10 @@
     "es": "Precámbrico",
     "en": "Precambrian"
   },
-  "definition": {
-    "es": "Límite inferior -4567 +|-1 ma, límite superior -541.0 +|-1.0 ma",
-    "en": "Older bound -4567 +|-1 ma, younger bound -541.0 +|-1.0 ma"
-  },
+  "notation": [
+    "100000000000",
+    "a2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/arcaico",
@@ -28,16 +28,17 @@
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/proterozoico",
       "prefLabel": {
         "es": "Proterozoico",
-        "en": "Proterozoic"
+        "en": "Proterozoic",
+        "vl": "Proterozoic"
       }
     }
   ],
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Precambrian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/precambrian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/precambrian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Precambrian"
     }
   ],
   "inScheme": [

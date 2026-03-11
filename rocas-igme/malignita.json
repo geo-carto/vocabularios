@@ -6,14 +6,15 @@
     "en": "malignite"
   },
   "definition": {
-    "es": "Sienita nefelínica peralcalina"
+    "es": "Sienita nefelínica peralcalina",
+    "en": "Peralkaline nepheline syenite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_syenite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidBearingSyenite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_syenite"
     }
   ],
   "inScheme": [

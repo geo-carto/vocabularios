@@ -6,14 +6,15 @@
     "en": "phosphate sedimentary material"
   },
   "definition": {
-    "es": "Material sedimentario compuesto en más de un 50% por fosfatos"
+    "es": "Material sedimentario compuesto en más de un 50% por fosfatos",
+    "en": "Sedimentary material composed of more than 50% phosphates"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/phosphate_rich_sedimentary_material"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/phosphateRichSedimentaryMaterial"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/phosphateRichSedimentaryMaterial"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/phosphate_rich_sedimentary_material"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "leucocratic rock"
   },
   "definition": {
-    "es": "Roca ígnea con un contenido en minerales oscuros inferior al 35% en volumen"
+    "es": "Roca ígnea con un contenido en minerales oscuros inferior al 35% en volumen",
+    "en": "Igneous rock with a content of dark minerals below 35% by volume"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/igneousRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock"
     }
   ],
   "inScheme": [

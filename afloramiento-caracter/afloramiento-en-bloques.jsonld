@@ -9,17 +9,19 @@
     "es": "Afloramientos constituido por grandes bloques, individualizados por la erosión  o la meteorización",
     "en": "Outcrops made up of large blocks, individualized by erosion or weathering"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento",
+    "prefLabel": {
+      "es": "con afloramiento",
+      "en": "with outcrop"
+    }
+  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter"
     }

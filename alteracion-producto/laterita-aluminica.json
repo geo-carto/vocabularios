@@ -5,9 +5,21 @@
     "es": "laterita alumínica",
     "en": "aluminum-rich laterite"
   },
+  "altLabel": {
+    "es": [
+      "bauxita"
+    ]
+  },
   "definition": {
     "es": "Laterita rica en hidróxidos de aluminio, fundamentalmente gibbsita, boehmita y diásporo.",
     "en": "Laterite enriched in hydroxides of aluminum, especially gibbsite, boehmite and diaspore."
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita",
+    "prefLabel": {
+      "es": "laterita",
+      "en": "laterite"
+    }
   },
   "inScheme": [
     {
@@ -15,11 +27,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
     }

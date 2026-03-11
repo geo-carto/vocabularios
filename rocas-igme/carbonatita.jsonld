@@ -6,14 +6,15 @@
     "en": "carbonatite"
   },
   "definition": {
-    "es": "Roca ígnea con un contenido en carbonatos primarios superior al 50% en volumen"
+    "es": "Roca ígnea con un contenido en carbonatos primarios superior al 50% en volumen",
+    "en": "Igneous rock with a primary carbonate content exceeding 50% by volume"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/carbonatite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/carbonatite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/carbonatite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/carbonatite"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "stromatolitic limestone"
   },
   "definition": {
-    "es": "Caliza caracterizada por una fina laminación de forma variable domo, convexa, columnar, esferoidal, etc., que se origina principalmente por la actividad metabólica de las algas cianofíceas, que atrapan material sedimentario"
+    "es": "Caliza caracterizada por una fina laminación de forma variable domo, convexa, columnar, esferoidal, etc., que se origina principalmente por la actividad metabólica de las algas cianofíceas, que atrapan material sedimentario",
+    "en": "Limestone characterized by fine lamination of variable form (dome, convex, columnar, spheroidal, etc.), originating mainly by the metabolic activity of cyanobacteria, which trap sedimentary material"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
     }
   ],
   "inScheme": [

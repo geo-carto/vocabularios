@@ -9,12 +9,19 @@
     "es": "\"Transportado sobre, depositado a partir de, o en relación con la superficie superior de un manto de hielo o un glaciar; dicho de corrientes de agua de deshielo, el till, derrubios, etc.\" (Jackson, 1997, p 639.). Dreimanis (1988, p. 39) recomienda que \"supraglacial\" reemplace \"superglacial\".",
     "en": "\"Carried upon, deposited from, or pertaining to the top surface of a glacier or ice sheet; said of meltwater streams, till, drift, etc. \" (Jackson, 1997, p. 639). Dreimanis (1988, p. 39) recommendation that \"supraglacial\" supersede \"superglacial\" is followed."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-relacionado-con-glaciares",
+    "prefLabel": {
+      "es": "ambiente relacionado con glaciares",
+      "en": "glacier related setting"
+    }
+  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/supraglacial_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/supraglacialSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/supraglacialSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/supraglacial_setting"
     }
   ],
   "inScheme": [
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
     }

@@ -6,14 +6,15 @@
     "en": "pure calcareous sediment"
   },
   "definition": {
-    "es": "Sedimento compuesto en más de un 90% por minerales carbonatados y con un contenido de calcita más aragonito superior al de dolomita"
+    "es": "Sedimento compuesto en más de un 90% por minerales carbonatados y con un contenido de calcita más aragonito superior al de dolomita",
+    "en": "Sediment composed of more than 90% carbonate minerals and with a calcite plus aragonite content greater than that of dolomite"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pure_calcareous_carbonate_sediment"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pureCalcareousCarbonateSediment"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pureCalcareousCarbonateSediment"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pure_calcareous_carbonate_sediment"
     }
   ],
   "inScheme": [

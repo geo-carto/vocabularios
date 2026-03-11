@@ -5,15 +5,21 @@
     "es": "gabro nefelínico",
     "en": "nepheline gabbro"
   },
-  "definition": {
-    "es": "Gabro foídico en el que la nefelina constituye el feldespatoide dominante"
+  "altLabel": {
+    "es": [
+      "theralita"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_gabbro"
-    },
+  "definition": {
+    "es": "Gabro foídico en el que la nefelina constituye el feldespatoide dominante",
+    "en": "Foid gabbro in which nepheline constitutes the dominant feldspathoid"
+  },
+  "closeMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidGabbro"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_gabbro"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "olistolith"
   },
   "definition": {
-    "es": "Bloque de roca exótico transportado por un deslizamiento gravitatorio submarino o subaéreo, que se incluye dentro de rocas sedimentarias más modernas o que forma parte de un olistostroma"
+    "es": "Bloque de roca exótico transportado por un deslizamiento gravitatorio submarino o subaéreo, que se incluye dentro de rocas sedimentarias más modernas o que forma parte de un olistostroma",
+    "en": "Exotic rock block transported by submarine or subaerial gravitational sliding, included within younger sedimentary rocks or forming part of an olistostrome"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/boulder_gravel_size_sediment"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/boulderGravelSizeSediment"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/boulder_gravel_size_sediment"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "agpaite"
   },
   "definition": {
-    "es": "Sienita nefelínica peralcalina en la que el índice agpaítico [na2o+k2o/al2o3, en proporciones molares] es superior a 1"
+    "es": "Sienita nefelínica peralcalina en la que el índice agpaítico [na2o+k2o/al2o3, en proporciones molares] es superior a 1",
+    "en": "Peralkaline nepheline syenite in which the agpaitic index [Na2O+K2O/Al2O3, in molar proportions] exceeds 1"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_syenite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidBearingSyenite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_syenite"
     }
   ],
   "inScheme": [

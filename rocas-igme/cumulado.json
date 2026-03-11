@@ -6,14 +6,15 @@
     "en": "cumulate"
   },
   "definition": {
-    "es": "Roca derivada de la cristalización, separación por gravedad y acumulación de cristales, a partir de un magma silicatado generalmente de composición máfica o intermedia"
+    "es": "Roca derivada de la cristalización, separación por gravedad y acumulación de cristales, a partir de un magma silicatado generalmente de composición máfica o intermedia",
+    "en": "Rock derived from the crystallization, gravitational separation and accumulation of crystals from a silicate magma generally of mafic or intermediate composition"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/phaneritic_igneous_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/phaneriticIgneousRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/phaneritic_igneous_rock"
     }
   ],
   "inScheme": [

@@ -9,17 +9,19 @@
     "es": "Roca constituida principalmente por minerales del grupo de la caolinita, y frecuentemente conteniendo una proporción variable de cuarzo, feldespato y mica, independientemente de su origen.",
     "en": "Rock with kaolinite-group minerals predominating over accompanying minerals such as quartz, feldespar and mica, irrespective of their origin."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla",
+    "prefLabel": {
+      "es": "arcilla",
+      "en": "clay"
+    }
+  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
     }

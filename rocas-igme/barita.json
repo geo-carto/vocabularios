@@ -5,15 +5,21 @@
     "es": "barita",
     "en": "barite"
   },
-  "definition": {
-    "es": "Roca formada por el mineral del mismo nombre, de fórmula baso4, perteneciente a la clase de los sulfatos, que cristaliza en el sistema rómbico, formando masas espáticas compactas, fibrosas o granudas, de apariencia marmórea o estalactítica. es incoloro, blanco o amarillento y varía de transparente a opaco"
+  "altLabel": {
+    "es": [
+      "baritina"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
-    },
+  "definition": {
+    "es": "Roca formada por el mineral del mismo nombre, de fórmula baso4, perteneciente a la clase de los sulfatos, que cristaliza en el sistema rómbico, formando masas espáticas compactas, fibrosas o granudas, de apariencia marmórea o estalactítica. es incoloro, blanco o amarillento y varía de transparente a opaco",
+    "en": "Rock formed by the mineral of the same name, with the formula BaSO4, belonging to the class of sulfates, crystallizing in the orthorhombic system, forming compact sparitic, fibrous or granular masses of marble-like or stalactitic appearance. It is colourless, white or yellowish and varies from transparent to opaque"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/evaporite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/evaporite"
     }
   ],
   "inScheme": [

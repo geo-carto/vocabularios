@@ -3,32 +3,41 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Devónico Inferior",
-    "en": "Lower Devonian"
+    "en": "Lower Devonian",
+    "vl": "Devonià Inferior"
   },
-  "definition": {
-    "es": "Límite inferior -419.2 +|-3.2 ma, límite superior -393.3 +|-1.2 ma",
-    "en": "Older bound -419.2 +|-3.2 ma, younger bound -393.3 +|-1.2 ma"
+  "altLabel": {
+    "en": [
+      "Early Devonian"
+    ]
   },
+  "notation": [
+    "211040100000",
+    "a1.1.3.3.3"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/emsiense",
       "prefLabel": {
         "es": "Emsiense",
-        "en": "Emsian"
+        "en": "Emsian",
+        "vl": "Emsià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/lochkoviense",
       "prefLabel": {
         "es": "Lochkoviense",
-        "en": "Lochkovian"
+        "en": "Lochkovian",
+        "vl": "Lochkovià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/praguiense",
       "prefLabel": {
-        "es": "Praguiense",
-        "en": "Pragian"
+        "es": "Pragiense",
+        "en": "Pragian",
+        "vl": "Praguià"
       }
     }
   ],
@@ -36,15 +45,16 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico",
     "prefLabel": {
       "es": "Devónico",
-      "en": "Devonian"
+      "en": "Devonian",
+      "vl": "Devonià"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Early_Devonian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerDevonian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/earlyDevonian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/LowerDevonian"
     }
   ],
   "inScheme": [

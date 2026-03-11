@@ -9,17 +9,24 @@
     "es": "Contiene entre aproximadamente un 20 y un 44 por ciento de SiO2. Una encuesta de análisis químicos en la base de datos de Georock (consulta PARA TODOS LOS ENTORNOS GEOLÓGICOS, MATERIAL: ROCA ENTERA (Y VIDRIO VOLCÁNICO), PUB. AÑOS: 2005-1970), 10/10/2005, http: //georoc.mpch-mainz .gwdg. Sinónimo: ultrabásico",
     "en": "Containing between about 20 and 44 percent SiO2. A survey of chemical analyses in the Georock database (query FOR ALL GEOLOGICAL SETTINGS, MATERIAL: WHOLE ROCK (AND VOLCANIC GLASS), PUB. YEARS: 2005-1970), 10/10/2005, http://georoc.mpch-mainz.gwdg. syn ultrabasic"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-silicatada",
+    "prefLabel": {
+      "es": "roca silicatada",
+      "en": "silicate chemistry"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/very_low_silica_chemistry"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }

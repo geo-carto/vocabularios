@@ -18,17 +18,17 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazo-de-techo",
-      "prefLabel": {
-        "es": "retazo de techo",
-        "en": "roof pendant"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/cortina",
       "prefLabel": {
         "es": "cortina",
         "en": "screen"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazo-de-techo",
+      "prefLabel": {
+        "es": "retazo de techo",
+        "en": "roof pendant"
       }
     }
   ],
@@ -39,6 +39,11 @@
       "en": "inclusion"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/pendants"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"

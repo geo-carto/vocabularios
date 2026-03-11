@@ -6,14 +6,15 @@
     "en": "brecciated tuff"
   },
   "definition": {
-    "es": "Roca piroclástica cuyo contenido en fragmentos de diámetro superior a 64 mm está comprendido entre el 25 y el 75% del volumen de los piroclastos"
+    "es": "Roca piroclástica cuyo contenido en fragmentos de diámetro superior a 64 mm está comprendido entre el 25 y el 75% del volumen de los piroclastos",
+    "en": "Pyroclastic rock whose content of fragments with a diameter exceeding 64 mm is between 25 and 75% of the pyroclast volume"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/tuff_breccia_agglomerate_or_pyroclastic_breccia"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/tuffBrecciaAgglomerateOrPyroclasticBreccia"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/tuff_breccia_agglomerate_or_pyroclastic_breccia"
     }
   ],
   "inScheme": [

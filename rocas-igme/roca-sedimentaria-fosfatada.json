@@ -5,15 +5,21 @@
     "es": "roca sedimentaria fosfatada",
     "en": "phosphate sedimentary rock"
   },
+  "altLabel": {
+    "es": [
+      "fosforita"
+    ]
+  },
   "definition": {
-    "es": "Roca sedimentaria compuesta en más de un 50% por minerales fosfatados"
+    "es": "Roca sedimentaria compuesta en más de un 50% por minerales fosfatados",
+    "en": "Sedimentary rock composed of more than 50% phosphate minerals"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/phosphorite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/phosphorite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/phosphorite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/phosphorite"
     }
   ],
   "inScheme": [

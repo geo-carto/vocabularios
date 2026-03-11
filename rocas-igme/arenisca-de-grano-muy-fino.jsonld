@@ -6,14 +6,15 @@
     "en": "very fine-grained sandstone"
   },
   "definition": {
-    "es": "Arenisca en la que predominan los granos de diámetro comprendido entre 0.062 y 0.125 mm"
+    "es": "Arenisca en la que predominan los granos de diámetro comprendido entre 0.062 y 0.125 mm",
+    "en": "Sandstone in which grains with a diameter between 0.062 and 0.125 mm predominate"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sandstone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sandstone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sandstone"
     }
   ],
   "inScheme": [

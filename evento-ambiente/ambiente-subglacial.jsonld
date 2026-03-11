@@ -9,12 +9,19 @@
     "es": "Formado o acumulada en o por el fondo de un glaciar o manto de hielo; dicho de las corrientes de agua de deshielo, el till, morrenas, etc.",
     "en": "Formed or accumulated in or by the bottom parts of a glacier or ice sheet; said of meltwater streams, till, moraine, etc."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-relacionado-con-glaciares",
+    "prefLabel": {
+      "es": "ambiente relacionado con glaciares",
+      "en": "glacier related setting"
+    }
+  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/subglacial_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/subglacialSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/subglacialSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/subglacial_setting"
     }
   ],
   "inScheme": [
@@ -23,11 +30,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
     }

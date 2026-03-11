@@ -9,6 +9,20 @@
     "es": "Contiene una proporción de sulfuros superior a la de componente accesorio (más del 5 por ciento en volumen)",
     "en": "Greater than accessory amount (greater than 5 percent by volume) of sulfide mineral are present"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfuro",
+      "prefLabel": {
+        "es": "sulfuro",
+        "en": "sulfide"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfide_bearing"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"

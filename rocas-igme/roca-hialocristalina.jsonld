@@ -6,14 +6,15 @@
     "en": "hyalocrystalline rock"
   },
   "definition": {
-    "es": "Roca ígnea formada por cristales y vidrio"
+    "es": "Roca ígnea formada por cristales y vidrio",
+    "en": "Igneous rock formed by crystals and glass"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/glass_rich_igneous_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/glassRichIgneousRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/glassRichIgneousRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/glass_rich_igneous_rock"
     }
   ],
   "inScheme": [

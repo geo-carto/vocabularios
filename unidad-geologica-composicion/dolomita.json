@@ -9,17 +9,24 @@
     "es": "Los minerales carbonatados forman más del 75 por ciento de la roca y la dolomita forma más del 75 por ciento de los minerales carbonatados",
     "en": "Carbonate minerals form greater than 75 percent of rock, and dolomite forms greater than 75 percent of carbonate minerals"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-monomineralico",
+    "prefLabel": {
+      "es": "carbonato monominerálico",
+      "en": "monomineralic carbonate"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/dolomite_monomineralic_carbonate"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }

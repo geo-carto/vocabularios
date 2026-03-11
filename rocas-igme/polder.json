@@ -6,14 +6,15 @@
     "en": "polder"
   },
   "definition": {
-    "es": "Materiales empleados para ganar artificialmente terreno al mar o a un lago"
+    "es": "Materiales empleados para ganar artificialmente terreno al mar o a un lago",
+    "en": "Materials used to artificially reclaim land from the sea or a lake"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/anthropogenic_material"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/anthropogenicMaterial"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/anthropogenic_material"
     }
   ],
   "inScheme": [

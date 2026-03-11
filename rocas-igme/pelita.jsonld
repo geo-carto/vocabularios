@@ -6,14 +6,15 @@
     "en": "pelite"
   },
   "definition": {
-    "es": "Sedimento detrítico constituido en más del 50% por partículas muy finas, de menos de 0.062 mm. contiene menos de un 10% de carbonatos"
+    "es": "Sedimento detrítico constituido en más del 50% por partículas muy finas, de menos de 0.062 mm. contiene menos de un 10% de carbonatos",
+    "en": "Detrital sediment consisting of more than 50% very fine particles, less than 0.062 mm. Contains less than 10% carbonates"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/mud"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/mud"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/mud"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/mud"
     }
   ],
   "inScheme": [

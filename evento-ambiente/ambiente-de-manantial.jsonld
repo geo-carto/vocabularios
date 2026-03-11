@@ -9,19 +9,22 @@
     "es": "Ambiente que se caracteriza por ser el lugar donde el agua subterránea fluye de manera natural de la roca o el suelo a la superficie del terreno o a una masa de agua.",
     "en": "Setting characterized by a place where groundwater flows naturally from a rock or the soil onto the land surface or into a water body."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-de-llanura-fluvial",
-    "prefLabel": {
-      "es": "ambiente de sistema de llanura fluvial",
-      "en": "river plain system setting"
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/springSetting"
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
     }

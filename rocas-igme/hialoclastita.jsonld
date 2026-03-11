@@ -6,14 +6,15 @@
     "en": "hyaloclastite"
   },
   "definition": {
-    "es": "Roca piroclástica formada por fragmentos angulosos de vidrio, más o menos desvitrificados, originados por el contacto súbito del magma que sale en una erupción volcánica submarina, con el agua o con sedimentos saturados en agua"
+    "es": "Roca piroclástica formada por fragmentos angulosos de vidrio, más o menos desvitrificados, originados por el contacto súbito del magma que sale en una erupción volcánica submarina, con el agua o con sedimentos saturados en agua",
+    "en": "Pyroclastic rock formed by angular glass fragments, more or less devitrified, originating from the sudden contact of magma emerging in a submarine volcanic eruption with water or water-saturated sediments"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pyroclasticRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_rock"
     }
   ],
   "inScheme": [

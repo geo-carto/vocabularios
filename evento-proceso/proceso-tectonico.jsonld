@@ -18,17 +18,24 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/ruptura-continental",
-      "prefLabel": {
-        "es": "ruptura continental",
-        "en": "continental breakup"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/colision-continental",
       "prefLabel": {
         "es": "colisión continental",
         "en": "continental collision"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/expansion-oceanica",
+      "prefLabel": {
+        "es": "expansión oceánica",
+        "en": "spreading"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/falla-transformante",
+      "prefLabel": {
+        "es": "falla transformante",
+        "en": "transform faulting"
       }
     },
     {
@@ -46,10 +53,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/expansion-oceanica",
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/ruptura-continental",
       "prefLabel": {
-        "es": "expansión oceánica",
-        "en": "spreading"
+        "es": "ruptura continental",
+        "en": "continental breakup"
       }
     },
     {
@@ -58,21 +65,21 @@
         "es": "subducción",
         "en": "subduction"
       }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/falla-transformante",
-      "prefLabel": {
-        "es": "falla transformante",
-        "en": "transform faulting"
-      }
     }
   ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
+    "prefLabel": {
+      "es": "proceso geológico",
+      "en": "geologic process"
+    }
+  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/tectonic_process"
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/tectonicProcess"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/tectonicProcess"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/tectonic_process"
     }
   ],
   "inScheme": [
@@ -81,11 +88,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

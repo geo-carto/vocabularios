@@ -3,14 +3,42 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Rambliense",
-    "en": "Ramblian"
+    "en": "Ramblian",
+    "vl": "Ramblià"
   },
-  "exactMatch": [
+  "notation": [
+    "213020109300"
+  ],
+  "related": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Aquitanian/Burdigalian"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aquitaniense",
+      "prefLabel": {
+        "es": "Aquitaniense",
+        "en": "Aquitanian",
+        "vl": "Aquitanià"
+      }
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aquitanian/burdigalian"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/burdigaliense",
+      "prefLabel": {
+        "es": "Burdigaliense",
+        "en": "Burdigalian",
+        "vl": "Burdigalià"
+      }
+    }
+  ],
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aquitanian"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/burdigalian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Aquitanian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Burdigalian"
     }
   ],
   "inScheme": [

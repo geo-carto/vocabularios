@@ -6,14 +6,15 @@
     "en": "absarokite"
   },
   "definition": {
-    "es": "Roca basáltica compuesta por fenocristales de olivino y clinopiroxeno en una matriz de plagioclasa cálcica labradorita, feldespato alcalino sanidina, olivino y, ocasionalmente, leucita. es similar a la shoshonita, pero sin fenocristales de plagioclasa"
+    "es": "Roca basáltica compuesta por fenocristales de olivino y clinopiroxeno en una matriz de plagioclasa cálcica labradorita, feldespato alcalino sanidina, olivino y, ocasionalmente, leucita. es similar a la shoshonita, pero sin fenocristales de plagioclasa",
+    "en": "Basaltic rock composed of olivine and clinopyroxene phenocrysts in a matrix of calcic plagioclase (labradorite), alkali feldspar (sanidine), olivine and, occasionally, leucite. It is similar to shoshonite but lacks plagioclase phenocrysts"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/basalt"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/basalt"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/basalt"
     }
   ],
   "inScheme": [

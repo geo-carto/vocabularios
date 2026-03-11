@@ -9,6 +9,34 @@
     "es": "Material para el cual la suma de cuarzo modal + feldespato + mica + mineral alumínico es mayor o igual al 70%",
     "en": "Material for which the sum of modal quartz+feldspar+ mica + aluminous mineral is greater than or equal to 70 percent"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarzofeldespatico",
+      "prefLabel": {
+        "es": "cuarzofeldespático",
+        "en": "quartzo feldspathic"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico",
+      "prefLabel": {
+        "es": "pelítico",
+        "en": "pelitic"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/semipelitico",
+      "prefLabel": {
+        "es": "semipelítico",
+        "en": "semi pelitic"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/quartz_feldspar_pelitic"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"

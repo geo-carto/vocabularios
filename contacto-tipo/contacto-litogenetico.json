@@ -25,13 +25,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-intrusivo",
-      "prefLabel": {
-        "es": "contacto intrusivo",
-        "en": "igneous intrusive contact"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-igneas",
       "prefLabel": {
         "es": "contacto entre fases ígneas",
@@ -39,17 +32,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-estructura-de-impacto",
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-intrusivo",
       "prefLabel": {
-        "es": "límite de estructura de impacto",
-        "en": "impact structure boundary"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-metamorfico",
-      "prefLabel": {
-        "es": "contacto metamórfico",
-        "en": "metamorphic contact"
+        "es": "contacto intrusivo",
+        "en": "igneous intrusive contact"
       }
     },
     {
@@ -60,6 +46,13 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-metamorfico",
+      "prefLabel": {
+        "es": "contacto metamórfico",
+        "en": "metamorphic contact"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-intrusion-de-material-sedimentario",
       "prefLabel": {
         "es": "contacto por intrusión de material sedimentario",
@@ -67,17 +60,24 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-zona-de-subsidencia-volcanica",
-      "prefLabel": {
-        "es": "límite de zona de subsidencia volcánica",
-        "en": "volcanic subsidence zone boundary"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-meteorizacion",
       "prefLabel": {
         "es": "contacto por meteorización",
         "en": "weathering contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-estructura-de-impacto",
+      "prefLabel": {
+        "es": "límite de estructura de impacto",
+        "en": "impact structure boundary"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-zona-de-subsidencia-volcanica",
+      "prefLabel": {
+        "es": "límite de zona de subsidencia volcánica",
+        "en": "volcanic subsidence zone boundary"
       }
     }
   ],
@@ -88,6 +88,11 @@
       "en": "contact"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/contacttype/lithogenetic_contact"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo"

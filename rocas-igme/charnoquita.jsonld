@@ -6,14 +6,15 @@
     "en": "charnockite"
   },
   "definition": {
-    "es": "Roca perteneciente a la familia de las rocas charnoquíticas, equivalente a un granito con ortopiroxeno"
+    "es": "Roca perteneciente a la familia de las rocas charnoquíticas, equivalente a un granito con ortopiroxeno",
+    "en": "Rock belonging to the charnockitic rock family, equivalent to a granite with orthopyroxene"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/granulite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/granulite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/granulite"
     }
   ],
   "inScheme": [

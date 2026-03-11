@@ -3,34 +3,45 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Neógeno",
-    "en": "Neogene"
+    "en": "Neogene",
+    "vl": "Neogen"
   },
-  "definition": {
-    "es": "Límite inferior -23.03 ma, límite superior -2.58 ma",
-    "en": "Older bound -23.03 ma, younger bound -2.58 ma"
-  },
+  "notation": [
+    "213020000000",
+    "a1.1.1.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno",
       "prefLabel": {
         "es": "Mioceno",
-        "en": "Miocene"
+        "en": "Miocene",
+        "vl": "Miocè"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/plioceno",
       "prefLabel": {
         "es": "Plioceno",
-        "en": "Pliocene"
+        "en": "Pliocene",
+        "vl": "Pliocè"
       }
     }
   ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cenozoico",
+    "prefLabel": {
+      "es": "Cenozoico",
+      "en": "Cenozoic",
+      "vl": "Cenozoic"
+    }
+  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Neogene"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/neogene"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/neogene"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Neogene"
     }
   ],
   "inScheme": [
@@ -39,11 +50,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }

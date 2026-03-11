@@ -5,12 +5,39 @@
     "es": "Arverniense",
     "en": "Arvernian"
   },
-  "exactMatch": [
+  "notation": [
+    "213010301092"
+  ],
+  "related": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Rupelian/Chattain"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/chattiense",
+      "prefLabel": {
+        "es": "Chattiense",
+        "en": "Chattian",
+        "vl": "Catià"
+      }
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/rupelian/chattain"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/rupeliense",
+      "prefLabel": {
+        "es": "Rupeliense",
+        "en": "Rupelian",
+        "vl": "Rupelià"
+      }
+    }
+  ],
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/chattian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Chattian"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/rupelian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Rupelian"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "rounded pebble"
   },
   "definition": {
-    "es": "Canto de forma redondeada, causada por haber sufrido durante mucho tiempo el arrastre por un transporte fluvial o marino"
+    "es": "Canto de forma redondeada, causada por haber sufrido durante mucho tiempo el arrastre por un transporte fluvial o marino",
+    "en": "Rounded clast, shaped by prolonged transport by fluvial or marine action"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pebble_gravel_size_sediment"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pebbleGravelSizeSediment"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pebble_gravel_size_sediment"
     }
   ],
   "inScheme": [

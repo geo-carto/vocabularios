@@ -3,25 +3,27 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Campaniense",
-    "en": "Campanian"
+    "en": "Campanian",
+    "vl": "Campanià"
   },
-  "definition": {
-    "es": "Límite inferior -83.6 +|-0.2 ma, límite superior -72.1 +|-0.2 ma",
-    "en": "Older bound -83.6 +|-0.2 ma, younger bound -72.1 +|-0.2 ma"
-  },
+  "notation": [
+    "212030205000",
+    "a1.1.2.1.1.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-superior",
     "prefLabel": {
       "es": "Cretácico Superior",
-      "en": "Upper Cretaceous"
+      "en": "Upper Cretaceous",
+      "vl": "Cretaci Superior"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Campanian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/campanian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/campanian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Campanian"
     }
   ],
   "inScheme": [

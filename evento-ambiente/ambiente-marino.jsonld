@@ -11,24 +11,10 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-por-encima-de-la-profundidad-de-compensacion-del-carbonato",
-      "prefLabel": {
-        "es": "ambiente por encima de la profundidad de compensación del carbonato",
-        "en": "above carbonate compensation depth setting"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-abisal",
       "prefLabel": {
         "es": "ambiente abisal",
         "en": "abyssal setting"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-de-cuenca",
-      "prefLabel": {
-        "es": "ambiente de llanura de cuenca",
-        "en": "basin plain setting"
       }
     },
     {
@@ -39,10 +25,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-por-debajo-de-la-profundidad-de-compensacion-del-carbonato",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-abanico-submarino",
       "prefLabel": {
-        "es": "ambiente por debajo de la profundidad de compensación del carbonato",
-        "en": "below carbonate compensation depth setting"
+        "es": "ambiente de abanico submarino",
+        "en": "submarine fan setting"
       }
     },
     {
@@ -60,10 +46,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-plataforma-continental",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-elevaciones-oceanicas",
       "prefLabel": {
-        "es": "ambiente de plataforma continental",
-        "en": "continental shelf setting"
+        "es": "ambiente de elevaciones océanicas",
+        "en": "ocean highland setting"
       }
     },
     {
@@ -74,10 +60,17 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-marino-epicontinental",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-de-cuenca",
       "prefLabel": {
-        "es": "ambiente marino epicontinental",
-        "en": "epicontinental marine setting"
+        "es": "ambiente de llanura de cuenca",
+        "en": "basin plain setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-plataforma-continental",
+      "prefLabel": {
+        "es": "ambiente de plataforma continental",
+        "en": "continental shelf setting"
       }
     },
     {
@@ -88,10 +81,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-plataforma-carbonatada-marina",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-marino-epicontinental",
       "prefLabel": {
-        "es": "ambiente plataforma carbonatada marina",
-        "en": "marine carbonate platform setting"
+        "es": "ambiente marino epicontinental",
+        "en": "epicontinental marine setting"
       }
     },
     {
@@ -102,24 +95,24 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-elevaciones-oceanicas",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-plataforma-carbonatada-marina",
       "prefLabel": {
-        "es": "ambiente de elevaciones océanicas",
-        "en": "ocean highland setting"
+        "es": "ambiente plataforma carbonatada marina",
+        "en": "marine carbonate platform setting"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-talud",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-por-debajo-de-la-profundidad-de-compensacion-del-carbonato",
       "prefLabel": {
-        "es": "ambiente de talud",
-        "en": "slope-rise setting"
+        "es": "ambiente por debajo de la profundidad de compensación del carbonato",
+        "en": "below carbonate compensation depth setting"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-abanico-submarino",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-por-encima-de-la-profundidad-de-compensacion-del-carbonato",
       "prefLabel": {
-        "es": "ambiente de abanico submarino",
-        "en": "submarine fan setting"
+        "es": "ambiente por encima de la profundidad de compensación del carbonato",
+        "en": "above carbonate compensation depth setting"
       }
     }
   ],
@@ -132,10 +125,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/marine_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/marineSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/marineSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/marine_setting"
     }
   ],
   "inScheme": [

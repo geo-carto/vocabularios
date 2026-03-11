@@ -5,15 +5,21 @@
     "es": "roca riolítica",
     "en": "rhyolitic rock"
   },
+  "altLabel": {
+    "es": [
+      "riolitoide"
+    ]
+  },
   "definition": {
-    "es": "Nombre utilizado en la descripción provisional de rocas volcánicas ácidas similares a la riolita, subalcalinas o alcalinas, cuyos componentes principales son el cuarzo, que constituye entre el 20 y el 60% de los minerales félsicos, y los feldespatos, de entre los que el feldespato alcalino supone al menos el 35%"
+    "es": "Nombre utilizado en la descripción provisional de rocas volcánicas ácidas similares a la riolita, subalcalinas o alcalinas, cuyos componentes principales son el cuarzo, que constituye entre el 20 y el 60% de los minerales félsicos, y los feldespatos, de entre los que el feldespato alcalino supone al menos el 35%",
+    "en": "Name used in the provisional description of acid volcanic rocks similar to rhyolite, subalkaline or alkaline, whose principal components are quartz, constituting between 20 and 60% of the felsic minerals, and feldspars, of which alkali feldspar accounts for at least 35%"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/rhyolitoid"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/rhyolitoid"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/rhyolitoid"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/rhyolitoid"
     }
   ],
   "inScheme": [

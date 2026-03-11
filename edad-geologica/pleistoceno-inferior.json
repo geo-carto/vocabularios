@@ -3,21 +3,63 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Pleistoceno Inferior",
-    "en": "Lower Pleistocene"
+    "en": "Lower Pleistocene",
+    "vl": "Plistocè Inferior"
   },
+  "altLabel": {
+    "en": [
+      "Early Pleistocene"
+    ]
+  },
+  "notation": [
+    "213030110000"
+  ],
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/calabriense",
+      "prefLabel": {
+        "es": "Calabriense",
+        "en": "Calabrian",
+        "vl": "Calabrià"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/gelasiense",
+      "prefLabel": {
+        "es": "Gelasiense",
+        "en": "Gelasian",
+        "vl": "Gelasià"
+      }
+    }
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno",
     "prefLabel": {
       "es": "Pleistoceno",
-      "en": "Pleistocene"
+      "en": "Pleistocene",
+      "vl": "Plistocè"
     }
   },
-  "exactMatch": [
+  "broadMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pleistocene"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Pleistocene"
+    }
+  ],
+  "narrowMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/calabrian"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/gelasian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Calabrian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Gelasian"
     }
   ],
   "inScheme": [

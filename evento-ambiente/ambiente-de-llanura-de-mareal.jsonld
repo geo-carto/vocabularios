@@ -9,6 +9,15 @@
     "es": "Un terreno extenso, casi horizontal, y yermo cubierto y descubierto alternativamente por las mareas, y que consiste en sedimentos no consolidados (en su mayoría fango y arena). Puede formarse en la superficie superior de un depósito deltaico.",
     "en": "An extensive, nearly horizontal, barren tract of land that is alternately covered and uncovered by the tide, and consisting of unconsolidated sediment (mostly mud and sand). It may form the top surface of a deltaic deposit."
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-marisma-mareal",
+      "prefLabel": {
+        "es": "ambiente de marisma mareal",
+        "en": "tidal marsh setting"
+      }
+    }
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-mareal",
     "prefLabel": {
@@ -18,10 +27,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/tidal_flat_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/tidalFlatSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/tidalFlatSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/tidal_flat_setting"
     }
   ],
   "inScheme": [

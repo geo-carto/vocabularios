@@ -5,15 +5,21 @@
     "es": "jumillita",
     "en": "jumillite"
   },
-  "definition": {
-    "es": "Roca volcánica variedad de una leucitita fonolítica, compuesta esencialmente por leucita, diópsido y, en menor proporción, olivino, feldespato alcalino y flogopita"
+  "altLabel": {
+    "es": [
+      "localismo de lamproíta con olivino-diópsido-richterita"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
-    },
+  "definition": {
+    "es": "Roca volcánica variedad de una leucitita fonolítica, compuesta esencialmente por leucita, diópsido y, en menor proporción, olivino, feldespato alcalino y flogopita",
+    "en": "Volcanic rock, variety of phonolitic leucitite, composed essentially of leucite, diopside and, in lesser proportion, olivine, alkali feldspar and phlogopite"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/exoticAlkalineRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock"
     }
   ],
   "inScheme": [

@@ -3,53 +3,65 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Cretácico Inferior",
-    "en": "Lower Cretaceous"
+    "en": "Lower Cretaceous",
+    "vl": "Cretaci Inferior"
   },
-  "definition": {
-    "es": "Límite inferior -145.0 ma, límite superior -100.5 ma",
-    "en": "Older bound -145.0 ma, younger bound -100.5 ma"
+  "altLabel": {
+    "en": [
+      "Early Cretaceous"
+    ]
   },
+  "notation": [
+    "212030100000",
+    "a1.1.2.1.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/albiense",
       "prefLabel": {
         "es": "Albiense",
-        "en": "Albian"
+        "en": "Albian",
+        "vl": "Albià Superior"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aptiense",
       "prefLabel": {
         "es": "Aptiense",
-        "en": "Aptian"
+        "en": "Aptian",
+        "vl": "Aptià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/barremiense",
       "prefLabel": {
         "es": "Barremiense",
-        "en": "Barremian"
+        "en": "Barremian",
+        "vl": "Barremià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/berriasiense",
       "prefLabel": {
         "es": "Berriasiense",
-        "en": "Berriasian"
+        "en": "Berriasian",
+        "vl": "Berriasià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/hauteriviense",
       "prefLabel": {
         "es": "Hauteriviense",
-        "en": "Hauterivian"
+        "en": "Hauterivian",
+        "vl": "Hauterivià"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/valanginiense",
       "prefLabel": {
         "es": "Valanginiense",
-        "en": "Valanginian"
+        "en": "Valanginian",
+        "vl": "Valanginià"
       }
     }
   ],
@@ -57,15 +69,16 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico",
     "prefLabel": {
       "es": "Cretácico",
-      "en": "Cretaceous"
+      "en": "Cretaceous",
+      "vl": "Cretaci"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Early_Cretaceous"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerCretaceous"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/earlyCretaceous"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/LowerCretaceous"
     }
   ],
   "inScheme": [

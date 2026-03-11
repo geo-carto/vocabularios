@@ -6,14 +6,15 @@
     "en": "siliceous sedimentary rock"
   },
   "definition": {
-    "es": "Roca sedimentaria compuesta en más de un 50% por sílice de origen biogénico o químico. se excluyen las rocas detríticas"
+    "es": "Roca sedimentaria compuesta en más de un 50% por sílice de origen biogénico o químico. se excluyen las rocas detríticas",
+    "en": "Sedimentary rock composed of more than 50% silica of biogenic or chemical origin. Detrital rocks are excluded"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/non-clasticSiliceousSedimentaryRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/non-clasticSiliceousSedimentaryRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_rock"
     }
   ],
   "inScheme": [

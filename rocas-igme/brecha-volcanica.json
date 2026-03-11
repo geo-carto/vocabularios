@@ -6,14 +6,15 @@
     "en": "volcanic breccia"
   },
   "definition": {
-    "es": "Brecha constituida por fragmentos de rocas volcánicas, incluyendo fragmentos de lava solidificada y de material arrancado de los conductos volcánicos durante las erupciones"
+    "es": "Brecha constituida por fragmentos de rocas volcánicas, incluyendo fragmentos de lava solidificada y de material arrancado de los conductos volcánicos durante las erupciones",
+    "en": "Breccia composed of volcanic rock fragments, including fragments of solidified lava and material torn from volcanic conduits during eruptions"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/fragmental_igneous_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/fragmentalIgneousRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/fragmental_igneous_rock"
     }
   ],
   "inScheme": [

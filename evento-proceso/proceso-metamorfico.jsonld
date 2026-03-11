@@ -30,14 +30,28 @@
         "es": "metamorfismo de dislocación",
         "en": "dislocation metamorphism"
       }
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/metamorphic_process"
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/precipitacion-quimica",
+      "prefLabel": {
+        "es": "precipitación química",
+        "en": "chemical precipitation"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
+    "prefLabel": {
+      "es": "proceso geológico",
+      "en": "geologic process"
+    }
+  },
+  "exactMatch": [
+    {
       "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/metamorphicProcess"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/metamorphic_process"
     }
   ],
   "inScheme": [
@@ -46,11 +60,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

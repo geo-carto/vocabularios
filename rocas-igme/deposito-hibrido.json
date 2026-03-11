@@ -5,15 +5,21 @@
     "es": "depósito híbrido",
     "en": "hybrid deposit"
   },
+  "altLabel": {
+    "es": [
+      "sedimento híbrido"
+    ]
+  },
   "definition": {
-    "es": "Sedimento integrado por tres o más componentes, cada uno de los cuales constituye entre el 5 y el 50% del mismo, y que no puede incluirse en ninguna otra categoría de sedimento por su composición u origen"
+    "es": "Sedimento integrado por tres o más componentes, cada uno de los cuales constituye entre el 5 y el 50% del mismo, y que no puede incluirse en ninguna otra categoría de sedimento por su composición u origen",
+    "en": "Sediment composed of three or more components, each of which constitutes between 5 and 50% of the total, and which cannot be included in any other sediment category by its composition or origin"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/hybrid_sediment"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/hybridSediment"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/hybridSediment"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/hybrid_sediment"
     }
   ],
   "inScheme": [

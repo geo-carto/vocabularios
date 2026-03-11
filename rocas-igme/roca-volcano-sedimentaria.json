@@ -6,14 +6,15 @@
     "en": "volcano-sedimentary rock"
   },
   "definition": {
-    "es": "Roca en cuya formación se reconoce la participación de procesos volcánicos y sedimentarios"
+    "es": "Roca en cuya formación se reconoce la participación de procesos volcánicos y sedimentarios",
+    "en": "Rock in whose formation the participation of both volcanic and sedimentary processes is recognized"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_rock"
-    },
+  "closeMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pyroclasticRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_rock"
     }
   ],
   "inScheme": [

@@ -3,12 +3,39 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Cenozoico",
-    "en": "Cenozoic"
+    "en": "Cenozoic",
+    "vl": "Cenozoic"
   },
-  "definition": {
-    "es": "Límite inferior -66.0 ma, límite superior -0.0 ma",
-    "en": "Older bound -66.0 ma, younger bound -0.0 ma"
-  },
+  "notation": [
+    "213000000000",
+    "a1.1.1"
+  ],
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cuaternario",
+      "prefLabel": {
+        "es": "Cuaternario",
+        "en": "Quaternary",
+        "vl": "Quaternari"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neogeno",
+      "prefLabel": {
+        "es": "Neógeno",
+        "en": "Neogene",
+        "vl": "Neogen"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleogeno",
+      "prefLabel": {
+        "es": "Paleógeno",
+        "en": "Paleogene",
+        "vl": "Paleogen"
+      }
+    }
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/fanerozoico",
     "prefLabel": {
@@ -18,10 +45,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Cenozoic"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cenozoic"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cenozoic"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Cenozoic"
     }
   ],
   "inScheme": [

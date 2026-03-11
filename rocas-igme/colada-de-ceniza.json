@@ -6,14 +6,15 @@
     "en": "ash flow"
   },
   "definition": {
-    "es": "Colada piroclástica formada mayoritariamente por cenizas"
+    "es": "Colada piroclástica formada mayoritariamente por cenizas",
+    "en": "Pyroclastic flow formed predominantly by ash"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/ash_tuff_lapillistone_and_lapilli_tuff"
-    },
+  "closeMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/ashTuffLapillistoneAndLapilliTuff"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/ash_tuff_lapillistone_and_lapilli_tuff"
     }
   ],
   "inScheme": [

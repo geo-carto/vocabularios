@@ -2,23 +2,9 @@
   "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/collection",
   "type": "Collection",
   "prefLabel": {
-    "es": "https://geo-carto.github.io/vocabularios/alteracion-producto - Todos los conceptos"
+    "es": "Producto de alteración - Todos los conceptos"
   },
   "member": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/regolito",
-      "prefLabel": {
-        "es": "regolito",
-        "en": "regolith"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito",
-      "prefLabel": {
-        "es": "saprolito",
-        "en": "saprolite"
-      }
-    },
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita",
       "prefLabel": {
@@ -27,10 +13,59 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/grus",
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla",
       "prefLabel": {
-        "es": "grus",
-        "en": "grus"
+        "es": "arcilla",
+        "en": "clay"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion",
+      "prefLabel": {
+        "es": "arcilla de descalcificación",
+        "en": "decarbonated clay"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-fusca",
+      "prefLabel": {
+        "es": "arcilla de descalcificación - terra fusca",
+        "en": "decarbonated clay - terra fusca"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-rossa",
+      "prefLabel": {
+        "es": "arcilla de descalcificación - terra rossa",
+        "en": "decarbonated clay"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/calcreta",
+      "prefLabel": {
+        "es": "calcreta",
+        "en": "calcrete"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/caolin",
+      "prefLabel": {
+        "es": "caolín",
+        "en": "kaolin"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta",
+      "prefLabel": {
+        "es": "duricreta",
+        "en": "duricrust"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/ferricreta",
+      "prefLabel": {
+        "es": "ferricreta",
+        "en": "ferricrete"
       }
     },
     {
@@ -38,6 +73,13 @@
       "prefLabel": {
         "es": "gore",
         "en": "gore"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/grus",
+      "prefLabel": {
+        "es": "grus",
+        "en": "grus"
       }
     },
     {
@@ -62,24 +104,17 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla",
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/regolito",
       "prefLabel": {
-        "es": "arcilla",
-        "en": "clay"
+        "es": "regolito",
+        "en": "regolith"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/caolin",
+      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito",
       "prefLabel": {
-        "es": "caolín",
-        "en": "kaolin"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta",
-      "prefLabel": {
-        "es": "duricreta",
-        "en": "duricrust"
+        "es": "saprolito",
+        "en": "saprolite"
       }
     },
     {
@@ -87,34 +122,6 @@
       "prefLabel": {
         "es": "silcreta",
         "en": "silcrete"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/ferricreta",
-      "prefLabel": {
-        "es": "ferricreta",
-        "en": "ferricrete"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/calcreta",
-      "prefLabel": {
-        "es": "calcreta",
-        "en": "calcrete"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-rossa",
-      "prefLabel": {
-        "es": "arcilla de descalcificación - terra rossa",
-        "en": "decarbonated clay - terra rossa"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-fusca",
-      "prefLabel": {
-        "es": "arcilla de descalcificación - terra fusca",
-        "en": "decarbonated clay - terra fusca"
       }
     },
     {

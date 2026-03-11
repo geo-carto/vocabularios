@@ -9,6 +9,11 @@
     "es": "Colección de objetos de un mapa geológico que describen las unidades geológicas, las estructuras y los objetos geomorfológicos.",
     "en": "Collection of features for a geological map which described geological units, structures geomorphologic features, etc"
   },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geologicalMap"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"

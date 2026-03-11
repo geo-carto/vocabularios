@@ -9,12 +9,112 @@
     "es": "Proceso que afecta al registro geológico.",
     "en": "Process that effects the geologic record"
   },
-  "exactMatch": [
+  "narrower": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/geologic_process"
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/actividad-humana",
+      "prefLabel": {
+        "es": "actividad humana",
+        "en": "human activity"
+      }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/agotamiento-del-oxigeno-en-aguas-profundas",
+      "prefLabel": {
+        "es": "agotamiento del oxígeno en aguas profundas",
+        "en": "deep water oxygen depletion"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deformacion",
+      "prefLabel": {
+        "es": "deformación",
+        "en": "deformation"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/especiacion",
+      "prefLabel": {
+        "es": "especiación",
+        "en": "speciation"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/extincion",
+      "prefLabel": {
+        "es": "extinción",
+        "en": "extinction"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/impacto-de-bolido",
+      "prefLabel": {
+        "es": "impacto de bólido",
+        "en": "bolide impact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion",
+      "prefLabel": {
+        "es": "meteorización",
+        "en": "weathering"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-diagenetico",
+      "prefLabel": {
+        "es": "proceso diagenético",
+        "en": "diagenetic process"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geomagnetico",
+      "prefLabel": {
+        "es": "proceso geomagnético",
+        "en": "geomagnetic process"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-magmatico",
+      "prefLabel": {
+        "es": "proceso magmático",
+        "en": "magmatic process"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-metamorfico",
+      "prefLabel": {
+        "es": "proceso metamórfico",
+        "en": "metamorphic process"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-sedimentario",
+      "prefLabel": {
+        "es": "proceso sedimentario",
+        "en": "sedimentary process"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-tectonico",
+      "prefLabel": {
+        "es": "proceso tectónico",
+        "en": "tectonic process"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/variacion-del-nivel-del-mar",
+      "prefLabel": {
+        "es": "variación del nivel del mar",
+        "en": "sea level change"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
       "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/geologicProcess"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/geologic_process"
     }
   ],
   "inScheme": [

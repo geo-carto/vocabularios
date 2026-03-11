@@ -3,32 +3,36 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Proterozoico",
-    "en": "Proterozoic"
+    "en": "Proterozoic",
+    "vl": "Proterozoic"
   },
-  "definition": {
-    "es": "Límite inferior -2500 ma, límite superior -541.0 +|-1.0 ma",
-    "en": "Older bound -2500 ma, younger bound -541.0 +|-1.0 ma"
-  },
+  "notation": [
+    "130000000000",
+    "a2.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesoproterozoico",
       "prefLabel": {
         "es": "Mesoproterozoico",
-        "en": "Mesoproterozoic"
+        "en": "Mesoproterozoic",
+        "vl": "Mesoproterozoic"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neoproterozoico",
       "prefLabel": {
         "es": "Neoproterozoico",
-        "en": "Neoproterozoic"
+        "en": "Neoproterozoic",
+        "vl": "Neoproterozoic"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleoproterozoico",
       "prefLabel": {
         "es": "Paleoproterozoico",
-        "en": "Paleoproterozoic"
+        "en": "Paleoproterozoic",
+        "vl": "Paleoproterozoic"
       }
     }
   ],
@@ -41,10 +45,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Proterozoic"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/proterozoic"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/proterozoic"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Proterozoic"
     }
   ],
   "inScheme": [

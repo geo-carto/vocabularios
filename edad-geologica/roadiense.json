@@ -3,25 +3,27 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Roadiense",
-    "en": "Roadian"
+    "en": "Roadian",
+    "vl": "Roadià"
   },
-  "definition": {
-    "es": "Límite inferior -272.95 +|-0.11 ma, límite superior -268.8 +|-0.5 ma",
-    "en": "Older bound -272.95 +|-0.11 ma, younger bound -268.8 +|-0.5 ma"
-  },
+  "notation": [
+    "211060201000",
+    "a1.1.3.1.2.3"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/guadalupiense",
     "prefLabel": {
       "es": "Guadalupiense",
-      "en": "Guadalupian"
+      "en": "Guadalupian",
+      "vl": "Guadalupià"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Roadian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/roadian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/roadian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Roadian"
     }
   ],
   "inScheme": [

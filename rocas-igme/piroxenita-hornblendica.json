@@ -6,14 +6,15 @@
     "en": "hornblende pyroxenite"
   },
   "definition": {
-    "es": "Roca ultramáfica constituida esencialmente por piroxeno y, en menor proporción, hornblenda"
+    "es": "Roca ultramáfica constituida esencialmente por piroxeno y, en menor proporción, hornblenda",
+    "en": "Ultramafic rock consisting essentially of pyroxene and, in lesser proportion, hornblende"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroxenite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pyroxenite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroxenite"
     }
   ],
   "inScheme": [

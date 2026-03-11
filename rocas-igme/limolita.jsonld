@@ -6,14 +6,15 @@
     "en": "siltstone"
   },
   "definition": {
-    "es": "Roca detrítica constituida, al menos en un 50%, por elementos de tamaño comprendido entre 0.004 y 0.062 mm"
+    "es": "Roca detrítica constituida, al menos en un 50%, por elementos de tamaño comprendido entre 0.004 y 0.062 mm",
+    "en": "Detrital rock consisting of at least 50% elements with a size between 0.004 and 0.062 mm"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/siltstone"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/siltstone"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/siltstone"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/siltstone"
     }
   ],
   "inScheme": [

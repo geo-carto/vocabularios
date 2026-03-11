@@ -6,14 +6,15 @@
     "en": "organic matter-rich rock"
   },
   "definition": {
-    "es": "Roca cuyo contenido en materia orgánica es suficientemente alto como para tener efectos notables en la litología"
+    "es": "Roca cuyo contenido en materia orgánica es suficientemente alto como para tener efectos notables en la litología",
+    "en": "Rock whose organic matter content is sufficiently high to have notable effects on the lithology"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/organic_rich_sedimentary_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/organicRichSedimentaryRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/organicRichSedimentaryRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/organic_rich_sedimentary_rock"
     }
   ],
   "inScheme": [

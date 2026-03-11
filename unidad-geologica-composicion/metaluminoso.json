@@ -9,6 +9,11 @@
     "es": "Término de composición química utilizado para rocas ígneas, que indica que el contenido de óxido de aluminio es mayor que el óxido de sodio más el óxido de potasio, pero el óxido de aluminio es menor que la suma de óxido de Na, K y Ca",
     "en": "Chemical composition term used for igneous rocks, denoting that content of aluminum oxide is greater than sodium oxide plus potassium oxide, but aluminum oxide less than sum of Na, K and Ca oxide"
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/metaluminous"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"

@@ -6,14 +6,15 @@
     "en": "exotic igneous rock"
   },
   "definition": {
-    "es": "Roca ígnea con características mineralógicas, texturales o de afloramiento poco comunes, entre las que se encuentran: un contenido mayor del 10% de melilita o leucita, la presencia de kalsilita o un porcentaje superior al 50% de minerales carbonatados. generalmente oscura y con abundantes fenocristales, incluye las carbonatitas, rocas kalsilíticas y melilíticas, kimberlitas, lamproítas, leucititas y los lamprófidos"
+    "es": "Roca ígnea con características mineralógicas, texturales o de afloramiento poco comunes, entre las que se encuentran: un contenido mayor del 10% de melilita o leucita, la presencia de kalsilita o un porcentaje superior al 50% de minerales carbonatados. generalmente oscura y con abundantes fenocristales, incluye las carbonatitas, rocas kalsilíticas y melilíticas, kimberlitas, lamproítas, leucititas y los lamprófidos",
+    "en": "Igneous rock with uncommon mineralogical, textural or outcrop characteristics, including: a melilite or leucite content greater than 10%, the presence of kalsilite, or a carbonate mineral percentage exceeding 50%. Generally dark and with abundant phenocrysts, it includes carbonatites, kalsilitic and melilitic rocks, kimberlites, lamproites, leucitites and lamprophyres"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_composition_igneous_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/exoticCompositionIgneousRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/exoticCompositionIgneousRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/exotic_composition_igneous_rock"
     }
   ],
   "inScheme": [

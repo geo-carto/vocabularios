@@ -6,14 +6,15 @@
     "en": "sand"
   },
   "definition": {
-    "es": "Sedimento compuesto mayoritariamente por granos minerales de tamaño comprendido entre 0.062 y 2 mm"
+    "es": "Sedimento compuesto mayoritariamente por granos minerales de tamaño comprendido entre 0.062 y 2 mm",
+    "en": "Sediment composed predominantly of mineral grains with a size between 0.062 and 2 mm"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/sand"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sand"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sand"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/sand"
     }
   ],
   "inScheme": [

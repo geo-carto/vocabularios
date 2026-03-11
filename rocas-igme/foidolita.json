@@ -5,15 +5,21 @@
     "es": "foidolita",
     "en": "foidolite"
   },
+  "altLabel": {
+    "es": [
+      "roca foidolítica"
+    ]
+  },
   "definition": {
-    "es": "Roca plutónica cuyo contenido en feldespatoides es mayor del 60% del total de los minerales félsicos, con cantidades menores de feldespato alcalino, plagioclasa, anfíbol, clinopiroxeno y, ocasionalmente, olivino"
+    "es": "Roca plutónica cuyo contenido en feldespatoides es mayor del 60% del total de los minerales félsicos, con cantidades menores de feldespato alcalino, plagioclasa, anfíbol, clinopiroxeno y, ocasionalmente, olivino",
+    "en": "Plutonic rock whose feldspathoid content exceeds 60% of the total felsic minerals, with lesser amounts of alkali feldspar, plagioclase, amphibole, clinopyroxene and, occasionally, olivine"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foidolite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidolite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidolite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foidolite"
     }
   ],
   "inScheme": [

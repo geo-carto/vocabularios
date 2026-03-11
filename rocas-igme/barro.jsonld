@@ -5,15 +5,21 @@
     "es": "barro",
     "en": "mud"
   },
+  "altLabel": {
+    "es": [
+      "lodo"
+    ]
+  },
   "definition": {
-    "es": "sedimento pelítico impregnado de agua, que puede incluir materiales de otros tamaños, en muy baja proporción"
+    "es": "sedimento pelítico impregnado de agua, que puede incluir materiales de otros tamaños, en muy baja proporción",
+    "en": "Water-saturated pelitic sediment, which may include materials of other sizes in very low proportions"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/mud"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/mud"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/mud"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/mud"
     }
   ],
   "inScheme": [

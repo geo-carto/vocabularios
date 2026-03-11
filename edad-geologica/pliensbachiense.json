@@ -3,25 +3,27 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Pliensbachiense",
-    "en": "Pliensbachian"
+    "en": "Pliensbachian",
+    "vl": "Pliensbaquià"
   },
-  "definition": {
-    "es": "Límite inferior -190.8 +|-1.0 ma, límite superior -182.7 +|-0.7 ma",
-    "en": "Older bound -190.8 +|-1.0 ma, younger bound -182.7 +|-0.7 ma"
-  },
+  "notation": [
+    "212020103000",
+    "a1.1.2.2.3.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-inferior",
     "prefLabel": {
       "es": "Jurásico Inferior",
-      "en": "Lower Jurassic"
+      "en": "Lower Jurassic",
+      "vl": "Juràssic Inferior"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Pliensbachian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pliensbachian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pliensbachian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Pliensbachian"
     }
   ],
   "inScheme": [

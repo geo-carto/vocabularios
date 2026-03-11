@@ -6,14 +6,15 @@
     "en": "ankaratrite"
   },
   "definition": {
-    "es": "Nefelinita olivínica melanocrática con biotita"
+    "es": "Nefelinita olivínica melanocrática con biotita",
+    "en": "Melanocratic olivine nephelinite with biotite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foidite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foidite"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "intermediate rock"
   },
   "definition": {
-    "es": "Roca ígnea cuyo contenido en sílice está comprendido entre el 52 y el 66%"
+    "es": "Roca ígnea cuyo contenido en sílice está comprendido entre el 52 y el 66%",
+    "en": "Igneous rock whose silica content is between 52 and 66%"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/intermediate_composition_igneous_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/intermediateCompositionIgneousRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/intermediateCompositionIgneousRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/intermediate_composition_igneous_rock"
     }
   ],
   "inScheme": [

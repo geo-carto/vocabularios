@@ -5,15 +5,21 @@
     "es": "roca sedimentaria carbonatada",
     "en": "carbonate sedimentary rock"
   },
+  "altLabel": {
+    "es": [
+      "roca carbonática"
+    ]
+  },
   "definition": {
-    "es": "Roca sedimentaria compuesta en más de un 50% por minerales carbonatados"
+    "es": "Roca sedimentaria compuesta en más de un 50% por minerales carbonatados",
+    "en": "Sedimentary rock composed of more than 50% carbonate minerals"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/carbonate_sedimentary_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/carbonateSedimentaryRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/carbonateSedimentaryRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/carbonate_sedimentary_rock"
     }
   ],
   "inScheme": [

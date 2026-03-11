@@ -9,17 +9,24 @@
     "es": "Transformación de minerales de calcio, magnesio, sodio, potasio o hierro en carbonatos o bicarbonatos, debido a la acción del dióxido de carbono contenido en el agua",
     "en": "Transformation of calcium, magnesium, sodium, potassium or iron minerals into carbonates or bicarbonates, by carbon dioxide contained in water."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo/meteorizacion",
+    "prefLabel": {
+      "es": "meteorización",
+      "en": "weathering"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/alterationtype/carbonate_alteration?"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo"
     }

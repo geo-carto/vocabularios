@@ -9,6 +9,22 @@
     "es": "Ambiente tectónico donde se está formando o ha sido formada nueva corteza oceánica en un límite divergente de placas. Incluye centros de expansión activos e inactivos.",
     "en": "Tectonic setting where new oceanic crust is being or has been formed at a divergent plate boundary. Includes active and inactive spreading centers."
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-activo",
+      "prefLabel": {
+        "es": "ambiente de centro de expansión activo",
+        "en": "active spreading center setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-inactivo",
+      "prefLabel": {
+        "es": "ambiente de centro de expansión inactivo",
+        "en": "inactive spreading center setting"
+      }
+    }
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-tectonicamente-definido",
     "prefLabel": {
@@ -18,10 +34,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/plate_spreading_center"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/plateSpreadingCenterSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/plateSpreadingCenterSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/plate_spreading_center"
     }
   ],
   "inScheme": [

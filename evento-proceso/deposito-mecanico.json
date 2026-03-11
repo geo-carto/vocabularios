@@ -11,6 +11,20 @@
   },
   "narrower": [
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-un-fluido-en-movimiento",
+      "prefLabel": {
+        "es": "depósito desde un fluido en movimiento",
+        "en": "deposition from moving fluid"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-corriente-de-turbidez",
+      "prefLabel": {
+        "es": "depósito por corriente de turbidez",
+        "en": "turbidity current deposition"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-flujo-en-masa",
       "prefLabel": {
         "es": "depósito por flujo en masa",
@@ -18,10 +32,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-un-fluido",
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-transporte-en-masa",
       "prefLabel": {
-        "es": "depósito desde un fluido",
-        "en": "deposition from fluid"
+        "es": "depósito por transporte en masa",
+        "en": "mass wasting deposition"
       }
     }
   ],
@@ -34,10 +48,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/mechanical_deposition"
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/mechanicalDeposition"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/mechanicalDeposition"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/mechanical_deposition"
     }
   ],
   "inScheme": [

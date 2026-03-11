@@ -18,17 +18,17 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad-con-paleorrelieve",
-      "prefLabel": {
-        "es": "discontinuidad con paleorrelieve",
-        "en": "buttress unconformity"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad",
       "prefLabel": {
         "es": "disconformidad",
         "en": "disconformable contact"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad-con-paleorrelieve",
+      "prefLabel": {
+        "es": "discontinuidad con paleorrelieve",
+        "en": "buttress unconformity"
       }
     },
     {
@@ -53,6 +53,11 @@
       "en": "depositional contact"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/contacttype/unconformable_contact"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo"

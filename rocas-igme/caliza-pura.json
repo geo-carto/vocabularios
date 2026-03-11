@@ -6,14 +6,15 @@
     "en": "pure limestone"
   },
   "definition": {
-    "es": "Roca calcárea con un contenido de carbonato cálcico superior al 95%"
+    "es": "Roca calcárea con un contenido de carbonato cálcico superior al 95%",
+    "en": "Calcareous rock with a calcium carbonate content exceeding 95%"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "coarse sand"
   },
   "definition": {
-    "es": "Arena en la que predominan los granos de diámetro comprendido entre 0.5 y 1.0 mm"
+    "es": "Arena en la que predominan los granos de diámetro comprendido entre 0.5 y 1.0 mm",
+    "en": "Sand in which grains with a diameter between 0.5 and 1.0 mm predominate"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/sand"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sand"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/sand"
     }
   ],
   "inScheme": [

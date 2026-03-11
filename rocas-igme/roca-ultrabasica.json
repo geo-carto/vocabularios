@@ -6,14 +6,15 @@
     "en": "ultrabasic rock"
   },
   "definition": {
-    "es": "Roca ígnea que contiene menos de un 45% de sílice"
+    "es": "Roca ígnea que contiene menos de un 45% de sílice",
+    "en": "Igneous rock containing less than 45% silica"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/ultrabasic_igneous_rock"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/ultrabasicIgneousRock"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/ultrabasicIgneousRock"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/ultrabasic_igneous_rock"
     }
   ],
   "inScheme": [

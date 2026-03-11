@@ -6,14 +6,15 @@
     "en": "pyroclastic block"
   },
   "definition": {
-    "es": "Piroclasto anguloso o subanguloso de diámetro superior a 64 mm"
+    "es": "Piroclasto anguloso o subanguloso de diámetro superior a 64 mm",
+    "en": "Angular or subangular pyroclast with a diameter exceeding 64 mm"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/tephra"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/tephra"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/tephra"
     }
   ],
   "inScheme": [

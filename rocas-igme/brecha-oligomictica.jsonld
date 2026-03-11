@@ -6,14 +6,15 @@
     "en": "oligomictic breccia"
   },
   "definition": {
-    "es": "Brecha constituida por cantos de un reducido número de tipos de roca"
+    "es": "Brecha constituida por cantos de un reducido número de tipos de roca",
+    "en": "Breccia consisting of clasts of a small number of rock types"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/breccia"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia"
     }
   ],
   "inScheme": [

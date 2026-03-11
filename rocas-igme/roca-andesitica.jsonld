@@ -6,14 +6,15 @@
     "en": "andesitic rock"
   },
   "definition": {
-    "es": "Roca volcánica/subvolcánica intermedia, calcoalcalina, constituida principalmente por plagioclasa, piroxeno y anfíbol, pudiendo incluir cantidades menores de biotita, olivino o cuarzo"
+    "es": "Roca volcánica/subvolcánica intermedia, calcoalcalina, constituida principalmente por plagioclasa, piroxeno y anfíbol, pudiendo incluir cantidades menores de biotita, olivino o cuarzo",
+    "en": "Intermediate, calc-alkaline volcanic/subvolcanic rock, composed mainly of plagioclase, pyroxene and amphibole, and possibly including lesser amounts of biotite, olivine or quartz"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/andesite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/andesite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/andesite"
     }
   ],
   "inScheme": [

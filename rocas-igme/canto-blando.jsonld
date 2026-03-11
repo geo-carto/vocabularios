@@ -6,14 +6,15 @@
     "en": "soft pebble"
   },
   "definition": {
-    "es": "Canto que se origina por una agregación de partículas de tamaño fino, como consecuencia de la erosión de las corrientes en materiales arcillosos"
+    "es": "Canto que se origina por una agregación de partículas de tamaño fino, como consecuencia de la erosión de las corrientes en materiales arcillosos",
+    "en": "Clast originating by aggregation of fine-size particles, resulting from current erosion of clayey materials"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pebble_gravel_size_sediment"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pebbleGravelSizeSediment"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pebble_gravel_size_sediment"
     }
   ],
   "inScheme": [

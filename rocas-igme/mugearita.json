@@ -6,14 +6,15 @@
     "en": "mugearite"
   },
   "definition": {
-    "es": "Roca volcánica básica o intermedia, alcalina, variedad sódica de la traquiandesita basáltica"
+    "es": "Roca volcánica básica o intermedia, alcalina, variedad sódica de la traquiandesita basáltica",
+    "en": "Basic or intermediate, alkaline volcanic rock, sodic variety of basaltic trachyandesite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/latitic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/latiticRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/latitic_rock"
     }
   ],
   "inScheme": [

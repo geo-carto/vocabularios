@@ -11,20 +11,6 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-margen-continental-activo",
-      "prefLabel": {
-        "es": "ambiente de margen continental activo",
-        "en": "active continental margin setting"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-activo",
-      "prefLabel": {
-        "es": "ambiente de centro de expansión activo",
-        "en": "active spreading center setting"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-antearco",
       "prefLabel": {
         "es": "ambiente de antearco",
@@ -32,10 +18,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-zona-de-subducion",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-arco-volcanico",
       "prefLabel": {
-        "es": "ambiente de zona de subdución",
-        "en": "subduction zone setting"
+        "es": "ambiente de arco volcánico",
+        "en": "volcanic arc setting"
       }
     },
     {
@@ -46,10 +32,24 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-arco-volcanico",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-activo",
       "prefLabel": {
-        "es": "ambiente de arco volcánico",
-        "en": "volcanic arc setting"
+        "es": "ambiente de centro de expansión activo",
+        "en": "active spreading center setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-margen-continental-activo",
+      "prefLabel": {
+        "es": "ambiente de margen continental activo",
+        "en": "active continental margin setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-zona-de-subducion",
+      "prefLabel": {
+        "es": "ambiente de zona de subdución",
+        "en": "subduction zone setting"
       }
     }
   ],
@@ -62,10 +62,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/plate_margin_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/plateMarginSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/plateMarginSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/plate_margin_setting"
     }
   ],
   "inScheme": [

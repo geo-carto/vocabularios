@@ -9,19 +9,12 @@
     "es": "Un canal principal recorrido por las corrientes de marea, que se extiende desde el mar abierto hacia el interior de una marisma mareal o una llanura mareal.",
     "en": "A major channel followed by the tidal currents, extending from offshore into a tidal marsh or a tidal flat."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-subacuatico",
-    "prefLabel": {
-      "es": "ambiente subacuático",
-      "en": "subaqueous setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/tidal_channel"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/tidalChannelSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/tidalChannelSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/tidal_channel"
     }
   ],
   "inScheme": [

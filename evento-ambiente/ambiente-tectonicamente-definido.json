@@ -11,31 +11,31 @@
   },
   "narrower": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-trasera-de-arco",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-colisional",
       "prefLabel": {
-        "es": "ambiente de trasera de arco",
-        "en": "back arc setting"
+        "es": "ambiente colisional",
+        "en": "collisional setting"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-terreno-extendido",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-cortical",
       "prefLabel": {
-        "es": "ambiente de terreno extendido",
-        "en": "extended terrane setting"
+        "es": "ambiente cortical",
+        "en": "crustal setting"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-punto-caliente",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-antepais",
       "prefLabel": {
-        "es": "ambiente de punto caliente",
-        "en": "hot spot setting"
+        "es": "ambiente de antepaís",
+        "en": "foreland setting"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-tectonico-de-intraplaca",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-de-placa",
       "prefLabel": {
-        "es": "ambiente tectónico de intraplaca",
-        "en": "intraplate tectonic setting"
+        "es": "ambiente de centro de expansión de placa",
+        "en": "plate spreading center setting"
       }
     },
     {
@@ -53,19 +53,54 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-de-placa",
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-punto-caliente",
       "prefLabel": {
-        "es": "ambiente de centro de expansión de placa",
-        "en": "plate spreading center setting"
+        "es": "ambiente de punto caliente",
+        "en": "hot spot setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-terreno-extendido",
+      "prefLabel": {
+        "es": "ambiente de terreno extendido",
+        "en": "extended terrane setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-trasera-de-arco",
+      "prefLabel": {
+        "es": "ambiente de trasera de arco",
+        "en": "back arc setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-mantelico",
+      "prefLabel": {
+        "es": "ambiente mantélico",
+        "en": "mantle setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-tectonico-de-intraplaca",
+      "prefLabel": {
+        "es": "ambiente tectónico de intraplaca",
+        "en": "intraplate tectonic setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-tectonico-de-traspais",
+      "prefLabel": {
+        "es": "ambiente tectónico de traspaís",
+        "en": "hinterland tectonic setting"
       }
     }
   ],
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/tectonic_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/tectonicallyDefinedSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/tectonicallyDefinedSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/tectonic_setting"
     }
   ],
   "inScheme": [

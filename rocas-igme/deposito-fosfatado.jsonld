@@ -5,15 +5,21 @@
     "es": "depósito fosfatado",
     "en": "phosphate deposit"
   },
+  "altLabel": {
+    "es": [
+      "sedimento fosfatado"
+    ]
+  },
   "definition": {
-    "es": "Sedimento compuesto en más de un 50% por minerales fosfatados"
+    "es": "Sedimento compuesto en más de un 50% por minerales fosfatados",
+    "en": "Sediment composed of more than 50% phosphate minerals"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/phosphate_rich_sediment"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/phosphateRichSediment"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/phosphateRichSediment"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/phosphate_rich_sediment"
     }
   ],
   "inScheme": [

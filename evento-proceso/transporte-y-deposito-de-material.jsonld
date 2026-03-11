@@ -9,29 +9,6 @@
     "es": "Transporte y amontonamiento de material, como en un vertedero, escombrera de mina, operaciones de dragado.",
     "en": "Transport and heaping of material, as in a land fill, mine dump, dredging operations"
   },
-  "narrower": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/moldeado",
-      "prefLabel": {
-        "es": "moldeado",
-        "en": "casting"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/vertido",
-      "prefLabel": {
-        "es": "vertido",
-        "en": "dumping"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/sellado",
-      "prefLabel": {
-        "es": "sellado",
-        "en": "sealing"
-      }
-    }
-  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/actividad-humana",
     "prefLabel": {
@@ -41,10 +18,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/material_transport_and_deposition"
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/materialTransportAndDeposition"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/materialTransportAndDeposition"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/material_transport_and_deposition"
     }
   ],
   "inScheme": [

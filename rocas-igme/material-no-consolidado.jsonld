@@ -6,14 +6,15 @@
     "en": "unconsolidated material"
   },
   "definition": {
-    "es": "Material compuesto constituido por una agregación de partículas sin compactar"
+    "es": "Material compuesto constituido por una agregación de partículas sin compactar",
+    "en": "Composite material consisting of an aggregation of unconsolidated particles"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/unconsolidated_material"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/unconsolidatedMaterial"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/unconsolidatedMaterial"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/unconsolidated_material"
     }
   ],
   "inScheme": [

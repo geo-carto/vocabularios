@@ -9,6 +9,27 @@
     "es": "Material compuesto por más del 50 por ciento de calcosilicatos o carbonatos en el que la proporción de carbonatos es mayor que la de los calcosilicatos.  Corresponde al término metacarbonato de la terminología NADMSC SLTT (2004), que se adopta aquí sin consideraciones genéticas",
     "en": "Material consists of greater than 50 percent calcsilicate or carbonate minerals and carbonate minerals greater than calcsilicate minerals in mineral mode. Metacarbonate of NADMSC SLTTm (2004) terminology, adopted here for non-genetic use"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-barita",
+      "prefLabel": {
+        "es": "carbonato con barita",
+        "en": "barium bearing carbonate chemistry"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-monomineralico",
+      "prefLabel": {
+        "es": "carbonato monominerálico",
+        "en": "monomineralic carbonate"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonate"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"

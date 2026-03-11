@@ -2,42 +2,42 @@
   "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/collection",
   "type": "Collection",
   "prefLabel": {
-    "es": "https://geo-carto.github.io/vocabularios/afloramiento-caracter - Todos los conceptos"
+    "es": "Carácter del afloramiento - Todos los conceptos"
   },
   "member": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/sin-afloramiento",
+      "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/acantilado",
       "prefLabel": {
-        "es": "Sin afloramiento",
-        "en": "not outcrop"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-deficiente",
-      "prefLabel": {
-        "es": "Afloramiento deficiente",
-        "en": "poorly exposed"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-alterado",
-      "prefLabel": {
-        "es": "Afloramiento alterado",
-        "en": "weathered outcrop"
+        "es": "acantilado",
+        "en": "cliff-forming"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-aceptable",
       "prefLabel": {
-        "es": "Afloramiento aceptable",
+        "es": "afloramiento aceptable",
         "en": "medium quality outcrop"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/buen-afloramiento",
+      "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-alterado",
       "prefLabel": {
-        "es": "buen afloramiento",
+        "es": "afloramiento alterado",
+        "en": "weathered outcrop"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-bueno",
+      "prefLabel": {
+        "es": "afloramiento bueno",
         "en": "well exposed"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-deficiente",
+      "prefLabel": {
+        "es": "afloramiento deficiente",
+        "en": "poorly exposed"
       }
     },
     {
@@ -48,10 +48,17 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/acantilado",
+      "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento",
       "prefLabel": {
-        "es": "acantilado",
-        "en": "cliff-forming"
+        "es": "con afloramiento",
+        "en": "with outcrop"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/afloramiento-caracter/sin-afloramiento",
+      "prefLabel": {
+        "es": "sin afloramiento",
+        "en": "no outcrop"
       }
     }
   ],

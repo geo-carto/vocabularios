@@ -6,14 +6,15 @@
     "en": "block gravel"
   },
   "definition": {
-    "es": "Rudita sin cementar constituida en más de un 50% por bloques"
+    "es": "Rudita sin cementar constituida en más de un 50% por bloques",
+    "en": "Uncemented rudite consisting of more than 50% boulders"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/boulder_gravel_size_sediment"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/boulderGravelSizeSediment"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/boulder_gravel_size_sediment"
     }
   ],
   "inScheme": [

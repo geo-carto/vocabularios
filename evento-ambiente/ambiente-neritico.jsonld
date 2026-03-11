@@ -11,6 +11,13 @@
   },
   "narrower": [
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-neritico-externo",
+      "prefLabel": {
+        "es": "ambiente nerítico externo",
+        "en": "outer neritic setting"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-neritico-interno",
       "prefLabel": {
         "es": "ambiente nerítico interno",
@@ -23,13 +30,6 @@
         "es": "ambiente nerítico medio",
         "en": "middle neritic setting"
       }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-neritico-externo",
-      "prefLabel": {
-        "es": "ambiente nerítico externo",
-        "en": "outer neritic setting"
-      }
     }
   ],
   "broader": {
@@ -41,10 +41,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/neritic"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/neriticSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/neriticSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/neritic"
     }
   ],
   "inScheme": [

@@ -6,14 +6,15 @@
     "en": "olivine norite"
   },
   "definition": {
-    "es": "Norita con un contenido de olivino superior al 5%"
+    "es": "Norita con un contenido de olivino superior al 5%",
+    "en": "Norite with an olivine content exceeding 5%"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gabbroic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gabbroicRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gabbroic_rock"
     }
   ],
   "inScheme": [

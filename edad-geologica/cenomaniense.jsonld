@@ -3,25 +3,27 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Cenomaniense",
-    "en": "Cenomanian"
+    "en": "Cenomanian",
+    "vl": "Cenomanià"
   },
-  "definition": {
-    "es": "Límite inferior -100.5 ma, límite superior -93.9 ma",
-    "en": "Older bound -100.5 ma, younger bound -93.9 ma"
-  },
+  "notation": [
+    "212030201000",
+    "a1.1.2.1.1.6"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-superior",
     "prefLabel": {
       "es": "Cretácico Superior",
-      "en": "Upper Cretaceous"
+      "en": "Upper Cretaceous",
+      "vl": "Cretaci Superior"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Cenomanian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cenomanian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cenomanian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Cenomanian"
     }
   ],
   "inScheme": [

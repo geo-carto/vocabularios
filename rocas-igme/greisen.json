@@ -6,14 +6,15 @@
     "en": "greisen"
   },
   "definition": {
-    "es": "Roca granítica alterada por fluidos pneumatolíticos, compuesta esencialmente por cuarzo y moscovita, a veces con topacio y turmalina. puede estar mineralizada, generalmente por casiterita"
+    "es": "Roca granítica alterada por fluidos pneumatolíticos, compuesta esencialmente por cuarzo y moscovita, a veces con topacio y turmalina. puede estar mineralizada, generalmente por casiterita",
+    "en": "Granitic rock altered by pneumatolytic fluids, composed essentially of quartz and muscovite, sometimes with topaz and tourmaline. It may be mineralized, generally by cassiterite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metasomatic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/metasomaticRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metasomatic_rock"
     }
   ],
   "inScheme": [

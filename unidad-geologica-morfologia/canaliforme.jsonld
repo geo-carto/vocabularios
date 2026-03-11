@@ -9,17 +9,24 @@
     "es": "Cuerpo lenticular muy alargado o en forma de cinta con una superficie inferior convexa hacia abajo, cerca de la superficie superior plana. La morfología es equivalente al arco invertido",
     "en": "Strongly elongate lens or ribbon with a convex downward lower surface, near planar upper surface. Morphology is equivalent to upside down arch"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-geologico",
+    "prefLabel": {
+      "es": "cuerpo geológico",
+      "en": "geologic body"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/channel_shape"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

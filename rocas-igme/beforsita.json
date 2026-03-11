@@ -6,14 +6,15 @@
     "en": "bef orsite"
   },
   "definition": {
-    "es": "Carbonatita dolomítica de grano medio a fino, que se manifiesta generalmente en forma de diques"
+    "es": "Carbonatita dolomítica de grano medio a fino, que se manifiesta generalmente en forma de diques",
+    "en": "Dolomitic carbonatite of medium to fine grain, generally occurring as dykes"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/carbonatite"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/carbonatite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/carbonatite"
     }
   ],
   "inScheme": [

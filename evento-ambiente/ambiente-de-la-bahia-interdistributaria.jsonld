@@ -9,19 +9,12 @@
     "es": "Una indentación pronunciada del frente del delta entre corrientes distributarias avanzadas, ocupada por aguas poco profundas, y ya sea abierta al mar o parcialmente delimitada por distributarios menores.",
     "en": "A pronounced indentation of the delta front between advancing stream distributaries, occupied by shallow water, and either open to the sea or partly enclosed by minor distributaries."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-deltaico",
-    "prefLabel": {
-      "es": "ambiente de sistema deltaico",
-      "en": "deltaic system setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/interdistributary_bay"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/interdistributaryBaySetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/interdistributaryBaySetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/interdistributary_bay"
     }
   ],
   "inScheme": [

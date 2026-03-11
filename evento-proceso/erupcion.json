@@ -18,6 +18,13 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erupcion-estromboliana",
+      "prefLabel": {
+        "es": "erupción estromboliana",
+        "en": "strombolian eruption"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erupcion-hawaiana",
       "prefLabel": {
         "es": "erupción hawaiana",
@@ -30,13 +37,6 @@
         "es": "erupción piroclástica",
         "en": "pyroclastic eruption"
       }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erupcion-estromboliana",
-      "prefLabel": {
-        "es": "erupción estromboliana",
-        "en": "strombolian eruption"
-      }
     }
   ],
   "broader": {
@@ -48,10 +48,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/eruption"
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/eruption"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/eruption"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventprocess/eruption"
     }
   ],
   "inScheme": [

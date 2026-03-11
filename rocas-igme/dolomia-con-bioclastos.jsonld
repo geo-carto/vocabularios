@@ -6,14 +6,15 @@
     "en": "dolomite with bioclasts"
   },
   "definition": {
-    "es": "Dolomía en la que se reconocen fantasmas de aloquímicos, de entre los que predominan los bioclastos"
+    "es": "Dolomía en la que se reconocen fantasmas de aloquímicos, de entre los que predominan los bioclastos",
+    "en": "Dolostone in which ghosts of allochems are recognized, among which bioclasts predominate"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/dolostone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/dolomite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/dolostone"
     }
   ],
   "inScheme": [

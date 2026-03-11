@@ -2,7 +2,7 @@
   "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/collection",
   "type": "Collection",
   "prefLabel": {
-    "es": "https://geo-carto.github.io/vocabularios/coleccion-tipo - Todos los conceptos"
+    "es": "Tipo de colección - Todos los conceptos"
   },
   "member": [
     {
@@ -20,6 +20,20 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/documentacion",
+      "prefLabel": {
+        "es": "documentación",
+        "en": "documentation"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/estacion",
+      "prefLabel": {
+        "es": "estación",
+        "en": "station"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/mapa-geologico",
       "prefLabel": {
         "es": "mapa geológico",
@@ -31,20 +45,6 @@
       "prefLabel": {
         "es": "modelo geológico",
         "en": "geological model"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/estacion",
-      "prefLabel": {
-        "es": "estación",
-        "en": "station"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/documentacion",
-      "prefLabel": {
-        "es": "documentación",
-        "en": "documentation"
       }
     }
   ],

@@ -11,10 +11,31 @@
   },
   "narrower": [
     {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-canal-mareal",
+      "prefLabel": {
+        "es": "ambiente de canal mareal",
+        "en": "tidal channel setting"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-de-mareal",
       "prefLabel": {
         "es": "ambiente de llanura de mareal",
         "en": "tidal flat setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-deltaica-baja",
+      "prefLabel": {
+        "es": "ambiente de llanura deltaica baja",
+        "en": "lower delta plain setting"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-intermareal",
+      "prefLabel": {
+        "es": "ambiente intermareal",
+        "en": "intertidal setting"
       }
     }
   ],
@@ -27,10 +48,10 @@
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/tidal_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/tidalSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/tidalSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/tidal_setting"
     }
   ],
   "inScheme": [

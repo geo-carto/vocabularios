@@ -9,19 +9,12 @@
     "es": "Llanura desértica cubierta de cantos desgastado por el viento (gibbers); un desierto pedregoso.",
     "en": "A desert plain strewn with wind-abraded pebbles, or gibbers; a gravelly desert."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-arido-o-semiarido",
-    "prefLabel": {
-      "es": "ambiente árido o semiárido",
-      "en": "arid or semi arid environment setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/gibber_plain"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/gibberPlainSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/gibberPlainSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/gibber_plain"
     }
   ],
   "inScheme": [

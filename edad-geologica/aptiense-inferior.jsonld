@@ -3,19 +3,33 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Aptiense Inferior",
-    "en": "Lower Aptian"
+    "en": "Lower Aptian",
+    "vl": "Aptià Inferior"
   },
-  "definition": {
-    "es": "Límite inferior -125.0 ma, límite superior -119.4 ma",
-    "en": "Older bound -125.0 ma, younger bound -119.4 ma"
+  "altLabel": {
+    "en": [
+      "Early Aptian"
+    ]
   },
+  "notation": [
+    "212030105100"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aptiense",
     "prefLabel": {
       "es": "Aptiense",
-      "en": "Aptian"
+      "en": "Aptian",
+      "vl": "Aptià"
     }
   },
+  "broadMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aptian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Aptian"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"

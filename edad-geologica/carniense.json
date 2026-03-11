@@ -3,25 +3,27 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Carniense",
-    "en": "Carnian"
+    "en": "Carnian",
+    "vl": "Carnià"
   },
-  "definition": {
-    "es": "Límite inferior -237 ma, límite superior -227 ma",
-    "en": "Older bound -237 ma, younger bound -227 ma"
-  },
+  "notation": [
+    "212010301000",
+    "a1.1.2.3.1.3"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-superior",
     "prefLabel": {
       "es": "Triásico Superior",
-      "en": "Upper Triassic"
+      "en": "Upper Triassic",
+      "vl": "Triàsic Superior"
     }
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/ics/ischart/Carnian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/carnian"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/carnian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Carnian"
     }
   ],
   "inScheme": [

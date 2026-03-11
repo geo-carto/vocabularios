@@ -6,14 +6,15 @@
     "en": "albitite"
   },
   "definition": {
-    "es": "Roca ígnea o metasomática compuesta esencialmente de albita"
+    "es": "Roca ígnea o metasomática compuesta esencialmente de albita",
+    "en": "Igneous or metasomatic rock composed essentially of albite"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_syenite"
-    },
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/alkaliFeldsparSyenite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_syenite"
     }
   ],
   "inScheme": [

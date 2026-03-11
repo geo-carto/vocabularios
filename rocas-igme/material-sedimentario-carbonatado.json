@@ -6,14 +6,15 @@
     "en": "carbonate sedimentary material"
   },
   "definition": {
-    "es": "Material sedimentario compuesto en más de un 50% por minerales carbonatados"
+    "es": "Material sedimentario compuesto en más de un 50% por minerales carbonatados",
+    "en": "Sedimentary material composed of more than 50% carbonate minerals"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/carbonate_sedimentary_material"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/carbonateSedimentaryMaterial"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/carbonateSedimentaryMaterial"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/carbonate_sedimentary_material"
     }
   ],
   "inScheme": [

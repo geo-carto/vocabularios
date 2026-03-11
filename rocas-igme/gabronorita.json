@@ -6,14 +6,15 @@
     "en": "gabbronorite"
   },
   "definition": {
-    "es": "Roca plutónica constituida por plagioclasa cálcica e igual cantidad de clinopiroxeno y ortopiroxeno"
+    "es": "Roca plutónica constituida por plagioclasa cálcica e igual cantidad de clinopiroxeno y ortopiroxeno",
+    "en": "Plutonic rock consisting of calcic plagioclase and equal amounts of clinopyroxene and orthopyroxene"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gabbroic_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gabbroicRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gabbroic_rock"
     }
   ],
   "inScheme": [

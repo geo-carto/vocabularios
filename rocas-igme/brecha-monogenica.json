@@ -5,15 +5,21 @@
     "es": "brecha monogénica",
     "en": "monogenic breccia"
   },
-  "definition": {
-    "es": "Brecha constituida por cantos de un mismo tipo de roca"
+  "altLabel": {
+    "es": [
+      "brecha monomíctica"
+    ]
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia"
-    },
+  "definition": {
+    "es": "Brecha constituida por cantos de un mismo tipo de roca",
+    "en": "Breccia consisting of clasts of a single rock type"
+  },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/breccia"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/breccia"
     }
   ],
   "inScheme": [

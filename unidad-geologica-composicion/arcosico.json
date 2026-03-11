@@ -9,17 +9,24 @@
     "es": "Término de composición petrográfica de arenitas que tienen menos del 75 por ciento de cuarzo y la relación de feldespatos  a componentes líticos es mayor de 3 a 1. Esto corresponde al campo de las arcosas de Folk (1968). Para rocas clásticas con poca o ninguna matriz y cemento, las rocas en esta categoría de composición detrítica también tendrán una composición mineralógica cuarzo-feldespática.",
     "en": "Sandstone petrographic composition term indicating that detrital mode for clastic rock (Q-F-L) includes less than 75 percent quartz and the feldspar to lithic ratio is greater than 3 to 1. This corresponds to the arkose field of Folk (1968). For clastic rocks with little or no matrix and cement, rocks in this detrital mode composition category will also have quartz-feldspathic mineralogical composition."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa-litica",
+    "prefLabel": {
+      "es": "arcosa lítica",
+      "en": "feldspathic lithic detrital mode"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/compositioncategory/arkosic_detrital_mode"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion"
     }

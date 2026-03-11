@@ -9,19 +9,22 @@
     "es": "Amontonamiento de material mayoritariamente sólido, como en un vertedero, escombrera de mina u operaciones de dragado.",
     "en": "Heaping of mostly solid material, as in a land fill, mine dump, dredging operations"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/transporte-y-deposito-de-material",
-    "prefLabel": {
-      "es": "transporte y depósito de material",
-      "en": "material transport and deposition"
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/dumping"
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

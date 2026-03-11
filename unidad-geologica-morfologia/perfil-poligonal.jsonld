@@ -9,17 +9,33 @@
     "es": "Perfil para el que la relación entre la longitud de la cuerda más larga y la cuerda más corta es superior a 1,4. Perfil y límite que se puede dividir en distintos lados rectos separados por esquinas de curvatura más alta",
     "en": "Profile for which the ratio of length of longest chord to shortest chord is greater than 1.4.profile and a boundary that can be divided into distinct straight sides separated by higher curvature corners"
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-cuadrado",
+      "prefLabel": {
+        "es": "perfil cuadrado",
+        "en": "square profile"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-planar",
+    "prefLabel": {
+      "es": "perfil planar",
+      "en": "planar profile"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/polygonal_profile"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia"
     }

@@ -25,19 +25,12 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-terrestre",
-    "prefLabel": {
-      "es": "ambiente terrestre",
-      "en": "terrestrial setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/bog"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/bogSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/bogSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/bog"
     }
   ],
   "inScheme": [

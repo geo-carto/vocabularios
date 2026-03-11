@@ -9,19 +9,22 @@
     "es": "Término colectivo para describir la perturbación y alteración de material no consolidado como resultado de la acción de las heladas.",
     "en": "A collective term to describe the stirring and churning of unconsolidated material resulting from frost action"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-proceso/transporte-en-masa",
-    "prefLabel": {
-      "es": "transporte en masa",
-      "en": "mass wasting"
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/EventProcessValue/cryoturbation"
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
     }

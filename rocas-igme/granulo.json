@@ -6,14 +6,15 @@
     "en": "granule"
   },
   "definition": {
-    "es": "Mineral detrítico o fragmento de roca de tamaño limo 0.004-0.062 mm"
+    "es": "Mineral detrítico o fragmento de roca de tamaño limo 0.004-0.062 mm",
+    "en": "Detrital mineral or rock fragment of silt size (0.004-0.062 mm)"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/mud_size_sediment"
-    },
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/mudSizeSediment"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/mud_size_sediment"
     }
   ],
   "inScheme": [

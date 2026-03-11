@@ -5,15 +5,21 @@
     "es": "liparita",
     "en": "liparite"
   },
+  "altLabel": {
+    "es": [
+      "localismo de riolita"
+    ]
+  },
   "definition": {
-    "es": "roca volcánica leucocrática, perteneciente a la familia de las rocas riolíticas, de textura fluidal, compuesta principalmente por cristales de cuarzo y feldespato alcalino, que constituye entre el 35 y el 90% de los feldespatos, con cantidades menores de biotita y plagioclasa, en una matriz vítrea o microcristalina, puede contener anfíbol y, en las variedades hiperalcalinas, piroxeno alcalino. su equivalente plutónico es el granito"
+    "es": "roca volcánica leucocrática, perteneciente a la familia de las rocas riolíticas, de textura fluidal, compuesta principalmente por cristales de cuarzo y feldespato alcalino, que constituye entre el 35 y el 90% de los feldespatos, con cantidades menores de biotita y plagioclasa, en una matriz vítrea o microcristalina, puede contener anfíbol y, en las variedades hiperalcalinas, piroxeno alcalino. su equivalente plutónico es el granito",
+    "en": "Leucocratic volcanic rock belonging to the rhyolitic rock family, of fluidal texture, composed mainly of quartz and alkali feldspar crystals constituting between 35 and 90% of the feldspars, with lesser amounts of biotite and plagioclase, in a glassy or microcrystalline groundmass; may contain amphibole and, in hyperalkaline varieties, alkalic pyroxene. Its plutonic equivalent is granite"
   },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/rhyolite"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/rhyolite"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/rhyolite"
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/rhyolite"
     }
   ],
   "inScheme": [

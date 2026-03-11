@@ -6,14 +6,15 @@
     "en": "oosparite"
   },
   "definition": {
-    "es": "Caliza aloquímica esparítica en la que menos del 25% de los aloquímicos corresponden a intraclastos y más del 25%, a ooides"
+    "es": "Caliza aloquímica esparítica en la que menos del 25% de los aloquímicos corresponden a intraclastos y más del 25%, a ooides",
+    "en": "Sparitic allochemical limestone in which less than 25% of the allochems correspond to intraclasts and more than 25% to ooids"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
     }
   ],
   "inScheme": [

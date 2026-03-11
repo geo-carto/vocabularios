@@ -18,13 +18,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-acumulacion-de-polvo",
-      "prefLabel": {
-        "es": "ambiente de acumulación de polvo",
-        "en": "dust accumulation setting"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-arenosa",
       "prefLabel": {
         "es": "ambiente de llanura arenosa",
@@ -32,19 +25,12 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-subaereo",
-    "prefLabel": {
-      "es": "ambiente subaéreo",
-      "en": "subaerial setting"
-    }
-  },
   "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/aeolian_process_setting"
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/aeolianProcessSetting"
     },
     {
-      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/aeolianProcessSetting"
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/aeolian_process_setting"
     }
   ],
   "inScheme": [

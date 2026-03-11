@@ -6,14 +6,15 @@
     "en": "microcrystalline rock"
   },
   "definition": {
-    "es": "Roca ígnea que tiene cristales identificables al microscopio"
+    "es": "Roca ígnea que tiene cristales identificables al microscopio",
+    "en": "Igneous rock that has crystals identifiable under the microscope"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/fine_grained_igneous_rock"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/fineGrainedIgneousRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/fine_grained_igneous_rock"
     }
   ],
   "inScheme": [

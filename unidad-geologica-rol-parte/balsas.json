@@ -9,6 +9,18 @@
     "es": "Colgantes de roca campestre preintrusiva en matriz ígnea intrusiva que tienen una gran extensión horizontal en relación con su espesor",
     "en": "Pendants of pre-intrusive country rock in intrusive igneous matrix that have large horizontal extent relative to their thickness"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazos",
+    "prefLabel": {
+      "es": "retazos",
+      "en": "pendants"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/rafts"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"

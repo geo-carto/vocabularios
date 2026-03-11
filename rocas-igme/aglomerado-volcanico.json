@@ -6,14 +6,15 @@
     "en": "volcanic agglomerate"
   },
   "definition": {
-    "es": "Roca piroclástica formada en más de un 75% de su volumen por fragmentos de diámetro mayor de 64 mm, entre los que predominan las bombas volcánicas"
+    "es": "Roca piroclástica formada en más de un 75% de su volumen por fragmentos de diámetro mayor de 64 mm, entre los que predominan las bombas volcánicas",
+    "en": "Pyroclastic rock formed by more than 75% by volume of fragments with a diameter greater than 64 mm, among which volcanic bombs predominate"
   },
-  "exactMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/tuff_breccia_agglomerate_or_pyroclastic_breccia"
-    },
+  "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/tuffBrecciaAgglomerateOrPyroclasticBreccia"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/tuff_breccia_agglomerate_or_pyroclastic_breccia"
     }
   ],
   "inScheme": [

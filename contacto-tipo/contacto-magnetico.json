@@ -11,6 +11,13 @@
   },
   "narrower": [
     {
+      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-magnetizacion",
+      "prefLabel": {
+        "es": "contacto de magnetización",
+        "en": "magnetization contact"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-polaridad-magnetica",
       "prefLabel": {
         "es": "contacto de polaridad magnética",
@@ -23,13 +30,6 @@
         "es": "contacto de susceptibilidad magnética",
         "en": "magnetic susceptiblity contact"
       }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-magnetizacion",
-      "prefLabel": {
-        "es": "contacto de magnetización",
-        "en": "magnetization contact"
-      }
     }
   ],
   "broader": {
@@ -39,6 +39,11 @@
       "en": "geophysical contact"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/contacttype/magnetic_contact"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo"
