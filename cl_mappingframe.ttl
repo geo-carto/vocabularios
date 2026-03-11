@@ -12,38 +12,36 @@
     dcterms:modified "2025-10-07"^^xsd:date ;
     dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
-    dcterms:source "nan" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
     dcterms:description "Vocabulario que recoge términos referidos al marco de cartografiado"@es ;
-    skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/marco-de-cartografiado."@es ;
-    skos:hasTopConcept 
+    skos:prefLabel "Marco de cartografiado"@es ;
+    skos:prefLabel "Mapping frame"@en ;
+    skos:hasTopConcept
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/base-del-cuaternario> ,
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/geologia-superficial> ,
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-de-la-roca-madre> ,
-        <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-del-basamento> ;
-    skos:prefLabel "Marco de cartografiado"@es ;
-    skos:prefLabel "Mapping frame"@en .
+        <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-del-basamento> .
 
 
 <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/collection> a skos:Collection ;
     dcterms:provenance "este vocabulario" ;
-    skos:definition "Todos los conceptos en este vocabulario." ;
-    skos:member <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/base-del-cuaternario> ,
+    rdfs:label "Marco de cartografiado - Todos los conceptos"@es ;
+    skos:member
+        <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/base-del-cuaternario> ,
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/geologia-superficial> ,
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-de-la-roca-madre> ,
-    <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-del-basamento> ;
-    skos:prefLabel "https://geo-carto.github.io/vocabularios/marco-de-cartografiado - Todos los conceptos"@es .
+        <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-del-basamento> .
 
 
 <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/base-del-cuaternario> a skos:Concept ;
     dcterms:provenance "this vocabulary"@en ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> ;
     skos:definition "Base de material sedimentario predominantemente no consolidado del período cuaternario"@es ,
-         "Base of the predominantly unconsolidated sedimentary material of Quaternary age, also referred to as superficial deposits"@en ;
-    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/mappingframe/base_of_quaternary>,
+        "Base of the predominantly unconsolidated sedimentary material of Quaternary age, also referred to as superficial deposits"@en ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/mappingframe/base_of_quaternary> ,
         <http://inspire.ec.europa.eu/codelist/MappingFrameValue/baseOfQuaternary> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> ;
     skos:prefLabel "base del cuaternario"@es ,
         "base of Quaternary"@en .
 
@@ -51,10 +49,11 @@
     dcterms:provenance "this vocabulary"@en ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> ;
     skos:definition "Roca y depósitos superficiales que se hacen visibles si se retira el suelo suprayacente o que están expuestos en la superficie topográfica"@es ,
-         "Bedrock and predominantly unconsolidated sedimentary material of Quaternary age (superficial deposits) that would be visible if the overlying soil was removed or are exposed at the topographic surface"@en ;
-    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/mappingframe/surface_geology>,
+        "Bedrock and predominantly unconsolidated sedimentary material of Quaternary age (superficial deposits) that would be visible if the overlying soil was removed or are exposed at the topographic surface"@en ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/mappingframe/surface_geology> ,
         <http://inspire.ec.europa.eu/codelist/MappingFrameValue/surfaceGeology> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> ;
     skos:prefLabel "geología superficial"@es ,
         "surface geology"@en .
 
@@ -62,20 +61,22 @@
     dcterms:provenance "this vocabulary"@en ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> ;
     skos:definition "Superficie superior de la roca, generalmente consolidada, que o bien está expuesta en la superficie topográfica o bien está cubierta por otros depósitos no consolidados"@es ,
-         "The surface in the crust of the Earth below sedimentary or volcanic deposits, or tectonically transported rock unit. What constitutes basement can depend on the context and may comprise other sedimentary, igneous and/or metamorphic rocks"@en ;
-    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/mappingframe/top_of_basement>,
+        "Top surface of the usually solid rock that may either be exposed at the topographic surface or covered by other younger unconsolidated deposits of Quaternary age (superficial deposits)"@en ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/mappingframe/top_of_bedrock> ,
         <http://inspire.ec.europa.eu/codelist/MappingFrameValue/topOfBedrock> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> ;
     skos:prefLabel "techo de la roca madre"@es ,
-        "top of basement"@en .
+        "top of bedrock"@en .
 
 <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-del-basamento> a skos:Concept ;
     dcterms:provenance "this vocabulary"@en ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> ;
     skos:definition "Superficie de la corteza terrestre existente debajo de los depósitos sedimentarios o volcánicos, o unidad de roca transportada tectónicamente"@es ,
-         "Top surface of the usually solid rock that may either be exposed at the topographic surface or covered by other younger unconsolidated deposits of Quaternary age (superficial deposits)"@en ;
-    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/mappingframe/top_of_bedrock>,
+        "The surface in the crust of the Earth below sedimentary or volcanic deposits, or tectonically transported rock unit. What constitutes basement can depend on the context and may comprise other sedimentary, igneous and/or metamorphic rocks"@en ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/mappingframe/top_of_basement> ,
         <http://inspire.ec.europa.eu/codelist/MappingFrameValue/topOfBasement> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> ;
     skos:prefLabel "techo del basamento"@es ,
-        "top of bedrock"@en .
+        "top of basement"@en .
