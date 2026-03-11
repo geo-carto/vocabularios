@@ -1,0 +1,326 @@
+{
+  "id": "https://geo-carto.github.io/vocabularios/falla-tipo/collection",
+  "type": "Collection",
+  "prefLabel": {
+    "es": "https://geo-carto.github.io/vocabularios/falla-tipo - Todos los conceptos"
+  },
+  "member": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla",
+      "prefLabel": {
+        "es": "falla",
+        "en": "fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional",
+      "prefLabel": {
+        "es": "falla contraccional",
+        "en": "extraction fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional-mixta",
+      "prefLabel": {
+        "es": "falla contraccional mixta",
+        "en": "mixed extraction fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional-pura",
+      "prefLabel": {
+        "es": "falla contraccional pura",
+        "en": "pure extraction fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-alto-angulo",
+      "prefLabel": {
+        "es": "falla de alto ángulo",
+        "en": "high angle fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-alto-angulo",
+      "prefLabel": {
+        "es": "falla normal de alto ángulo",
+        "en": "high angle normal fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-de-alto-angulo",
+      "prefLabel": {
+        "es": "falla inversa de alto ángulo",
+        "en": "high angle reverse"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-de-alto-angulo",
+      "prefLabel": {
+        "es": "falla de desgarre de alto ángulo",
+        "en": "wrench fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-bajo-angulo",
+      "prefLabel": {
+        "es": "falla de bajo ángulo",
+        "en": "low angle fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-horizontal",
+      "prefLabel": {
+        "es": "falla horizontal",
+        "en": "horizontal fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-bajo-angulo",
+      "prefLabel": {
+        "es": "falla normal de bajo ángulo",
+        "en": "low angle normal fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/superficie-de-despegue",
+      "prefLabel": {
+        "es": "superficie de despegue",
+        "en": "detachment fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/cabalgamiento",
+      "prefLabel": {
+        "es": "cabalgamiento",
+        "en": "thrust fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal",
+      "prefLabel": {
+        "es": "falla normal",
+        "en": "normal fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desplazamiento-oblicuo",
+      "prefLabel": {
+        "es": "falla de desplazamiento oblicuo",
+        "en": "oblique slip fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-sinistra",
+      "prefLabel": {
+        "es": "falla normal sinistra",
+        "en": "left normal fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-sinistra",
+      "prefLabel": {
+        "es": "falla inversa sinistra",
+        "en": "left reverse fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-dextra",
+      "prefLabel": {
+        "es": "falla normal dextra",
+        "en": "right normal fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-dextra",
+      "prefLabel": {
+        "es": "falla inversa dextra",
+        "en": "right reverse fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa",
+      "prefLabel": {
+        "es": "falla inversa",
+        "en": "reverse fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-en-tijera",
+      "prefLabel": {
+        "es": "falla en tijera",
+        "en": "scissor fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre",
+      "prefLabel": {
+        "es": "falla de desgarre",
+        "en": "strike slip fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-dextra",
+      "prefLabel": {
+        "es": "falla de desgarre dextra",
+        "en": "dextral strike slip fault"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-sinestral",
+      "prefLabel": {
+        "es": "falla de desgarre sinestral",
+        "en": "siniestral strike slip fault"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}
