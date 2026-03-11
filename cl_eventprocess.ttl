@@ -111,149 +111,6 @@
     sdo:name "CGI Geoscience Terminology Working Group" ;
     sdo:url <http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html> .
 
-<https://geo-carto.github.io/vocabularios/evento-proceso/arado-profundo> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:broader <isTopConcept> ;
-    skos:definition "Mixing of loose surface material by ploughing deeper than frequently done during annual soil cultivation"@en,
-        "Mezcla de material suelto por arado más profundo que lo frecuentemente hecho durante el cultivo anual del suelo."@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/deepPloughing> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
-    skos:prefLabel "deep ploughing"@en,
-        "arado profundo"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/evento-proceso/cavado> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:broader <isTopConcept> ;
-    skos:definition "Repeated mixing of loose surface material by digging with a spade or similar tool"@en,
-        "Repetida pérdida de material superficial por cavar con una pala o herramienta similar."@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/digging> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
-    skos:prefLabel "digging"@en,
-        "cavado"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/evento-proceso/crioturbacion> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:broader <isTopConcept> ;
-    skos:definition "A collective term to describe the stirring and churning of unconsolidated material resulting from frost action"@en,
-        "Término colectivo para describir la perturbación y alteración de material no consolidado como resultado de la acción de las heladas."@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/cryoturbation> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
-    skos:prefLabel "cryoturbation"@en,
-        "crioturbación"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-el-agua> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:broader <isTopConcept> ;
-    skos:definition "Deposition of sediment from water, in which the sediment has been transported after entrainment in the moving water or after deposition from other moving fluids."@en,
-        "Depósito de sedimento desde el agua, en la cual el sedimento ha sido transportado tras haber entrado en el agua en movimiento o tras haber sido depositado desde otros fluidos en movimiento."@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/depositionFromWater> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
-    skos:prefLabel "deposition from water"@en,
-        "depósito desde el agua"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-el-aire> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:broader <isTopConcept> ;
-    skos:definition "Deposition of sediment from air, in which the sediment has been transported after entrainment in the moving air."@en,
-        "Depósito de sedimento desde el aire, en el cual el sedimento ha sido transportado tras su entrada en el aire en movimiento."@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/depositionFromAir> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
-    skos:prefLabel "deposition from air"@en,
-        "depósito desde el aire"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-un-fluido> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:broader <isTopConcept> ;
-    skos:definition "Deposition of sediment from moving water or air, in which the sediment is transported by entrainment in the moving fluid. constrast with debris flow or turbidity current deposition in which movement of fluid/sediment mixture is due to incorporation of sediment in fluid."@en,
-        "Depósito de sedimento desde agua o aire, en el cual el sedimento es depositado tras entrar en el fluido."@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/depositionFromFluid> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
-    skos:prefLabel "deposition from fluid"@en,
-        "depósito desde un fluido"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-o-desde-hielos-en-movimiento> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:broader <isTopConcept> ;
-    skos:definition "Deposition of sediment from ice by melting or pushing. the material has been transported in the ice after entrainment in the moving ice or after deposition from other moving fluids on the ice."@en,
-        "Depósito de sedimentos a partir de hielo por fusión o empuje. el material ha sido transportado en el hielo tras su entrada en el hielo en movimiento o tras depósito sobre el hielo desde otros fluidos en movimiento."@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/depositionByOrFromMovingIce> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
-    skos:prefLabel "deposition by or from moving ice"@en,
-        "depósito por o desde hielos en movimiento"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/evento-proceso/eluviacion> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:broader <isTopConcept> ;
-    skos:definition "Process of non-linear, grain-size selective erosion"@en,
-        "Proceso de erosión selectiva no linear a escala granular."@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/deluviation> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
-    skos:prefLabel "deluviation"@en,
-        "eluviación"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/evento-proceso/retrabajamiento> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:broader <isTopConcept> ;
-    skos:definition "Near-range transport by water with predominantly changing the inner physical organisation of the sediment particles"@en,
-        "Transporte corto por agua que cambia predominantemente la organización física interna de las partículas sedomentarias."@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/reworking> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
-    skos:prefLabel "reworking"@en,
-        "retrabajamiento"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/evento-proceso/sellado> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:broader <isTopConcept> ;
-    skos:definition "Covering of the surface with a non-liquid material not or little permeable for water after processing"@en,
-        "Cubrimiento de la superficie con un material no líquido, nada o poco permeable al agua tras el proceso."@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/sealing> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
-    skos:prefLabel "sealing"@en,
-        "sellado"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/evento-proceso/vertido> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:broader <isTopConcept> ;
-    skos:definition "Heaping of mostly solid material, as in a land fill, mine dump, dredging operations"@en,
-        "Amontonamiento de material mayoritariamente sólido, como en un vertedero, escombrera de mina u operaciones de dragado."@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/dumping> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
-    skos:prefLabel "dumping"@en,
-        "vertido"@es ;
-    adms:status "Válido" .
-
 <https://linked.data.gov.au/org/cgi> a sdo:Organization ;
     sdo:name "Commission for the Management and Application of Geoscience Information" ;
     sdo:url <http://www.cgi-iugs.org> .
@@ -267,7 +124,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/accretion>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/accretion> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "accretion"@en,
         "acrección"@es ;
     adms:status "Válido" .
@@ -281,7 +137,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/organicAccumulation>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/organic_accumulation> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "organic accumulation"@en,
         "acumulación orgánica"@es ;
     adms:status "Válido" .
@@ -295,7 +150,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/deepWaterOxygenDepletion>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/deep_water_oxygen_depletion> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "deep water oxygen depletion"@en,
         "agotamiento del oxígeno en aguas profundas"@es ;
     adms:status "Válido" .
@@ -309,7 +163,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/alteration>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/alteration> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "alteration"@en,
         "alteración"@es ;
     adms:status "Válido" .
@@ -323,9 +176,20 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/rifting>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/rifting> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "rifting"@en,
         "apertura cortical"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/evento-proceso/arado-profundo> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:definition "Mixing of loose surface material by ploughing deeper than frequently done during annual soil cultivation"@en,
+        "Mezcla de material suelto por arado más profundo que lo frecuentemente hecho durante el cultivo anual del suelo."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/deepPloughing> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:prefLabel "deep ploughing"@en,
+        "arado profundo"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/evento-proceso> ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/evento-proceso/arrastre-por-difusion-intracristalina> a skos:Concept ;
@@ -337,7 +201,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/diffusionCreep>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/diffusion_creep> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "diffusion creep"@en,
         "arrastre por difusión intracristalina"@es ;
     adms:status "Válido" .
@@ -351,7 +214,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/dissolutionCreep>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/dissolution_creep> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "dissolution creep"@en,
         "arrastre por disolución"@es ;
     adms:status "Válido" .
@@ -365,7 +227,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/seaLevelRise>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/sea_level_rise> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "sea level rise"@en,
         "ascenso del nivel del mar"@es ;
     adms:status "Válido" .
@@ -379,9 +240,20 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/seaLevelFall>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/sea_level_fall> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "sea level fall"@en,
         "caída del nivel del mar"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/evento-proceso/cavado> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:definition "Repeated mixing of loose surface material by digging with a spade or similar tool"@en,
+        "Repetida pérdida de material superficial por cavar con una pala o herramienta similar."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/digging> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:prefLabel "digging"@en,
+        "cavado"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/evento-proceso> ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/evento-proceso/cizallamiento> a skos:Concept ;
@@ -393,7 +265,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/shearing>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/shearing> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "shearing"@en,
         "cizallamiento"@es ;
     adms:status "Válido" .
@@ -407,7 +278,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/continentalCollision>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/continental_collision> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "continental collision"@en,
         "colisión continental"@es ;
     adms:status "Válido" .
@@ -419,9 +289,20 @@
         "Acumulación de materia orgánica muerta originada por las plantas, e. g. acumulación de turba en pantanos"@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/in-situOrganismicGrowth> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "in-situ organismic growth"@en,
         "crecimiento organísmico in-situ"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/evento-proceso/crioturbacion> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:definition "A collective term to describe the stirring and churning of unconsolidated material resulting from frost action"@en,
+        "Término colectivo para describir la perturbación y alteración de material no consolidado como resultado de la acción de las heladas."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/cryoturbation> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:prefLabel "cryoturbation"@en,
+        "crioturbación"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/evento-proceso> ;
     adms:status "Válido" .
 
@@ -434,9 +315,44 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/magmaticCrystallisation>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/magmatic_crystallisation> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "magmatic crystallisation"@en,
         "cristalización magmática"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-el-agua> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:definition "Deposition of sediment from water, in which the sediment has been transported after entrainment in the moving water or after deposition from other moving fluids."@en,
+        "Depósito de sedimento desde el agua, en la cual el sedimento ha sido transportado tras haber entrado en el agua en movimiento o tras haber sido depositado desde otros fluidos en movimiento."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/depositionFromWater> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:prefLabel "deposition from water"@en,
+        "depósito desde el agua"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-el-aire> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:definition "Deposition of sediment from air, in which the sediment has been transported after entrainment in the moving air."@en,
+        "Depósito de sedimento desde el aire, en el cual el sedimento ha sido transportado tras su entrada en el aire en movimiento."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/depositionFromAir> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:prefLabel "deposition from air"@en,
+        "depósito desde el aire"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-un-fluido> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:definition "Deposition of sediment from moving water or air, in which the sediment is transported by entrainment in the moving fluid. constrast with debris flow or turbidity current deposition in which movement of fluid/sediment mixture is due to incorporation of sediment in fluid."@en,
+        "Depósito de sedimento desde agua o aire, en el cual el sedimento es depositado tras entrar en el fluido."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/depositionFromFluid> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:prefLabel "deposition from fluid"@en,
+        "depósito desde un fluido"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/evento-proceso> ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-un-fluido-en-movimiento> a skos:Concept ;
@@ -448,7 +364,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/depositionFromMovingFluid>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/traction_saltation_or_suspension_deposition> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "deposition from moving fluid"@en,
         "depósito desde un fluido en movimiento"@es ;
     adms:status "Válido" .
@@ -462,7 +377,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/turbidityCurrentDeposition>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/turbidity_current_deposition> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "turbidity current deposition"@en,
         "depósito por corriente de turbidez"@es ;
     adms:status "Válido" .
@@ -476,9 +390,20 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/debrisFlowDeposition>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/debris_flow_deposition> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "debris flow deposition"@en,
         "depósito por flujo en masa"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-o-desde-hielos-en-movimiento> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:definition "Deposition of sediment from ice by melting or pushing. the material has been transported in the ice after entrainment in the moving ice or after deposition from other moving fluids on the ice."@en,
+        "Depósito de sedimentos a partir de hielo por fusión o empuje. el material ha sido transportado en el hielo tras su entrada en el hielo en movimiento o tras depósito sobre el hielo desde otros fluidos en movimiento."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/depositionByOrFromMovingIce> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:prefLabel "deposition by or from moving ice"@en,
+        "depósito por o desde hielos en movimiento"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/evento-proceso> ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-transporte-en-masa> a skos:Concept ;
@@ -490,7 +415,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/massWastingDeposition>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/mass_wasting_deposition> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "mass wasting deposition"@en,
         "depósito por transporte en masa"@es ;
     adms:status "Válido" .
@@ -504,7 +428,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/polarWander>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/polar_wander> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "polar wander"@en,
         "deriva polar"@es ;
     adms:status "Válido" .
@@ -518,9 +441,20 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/dissolution>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/dissolution> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "dissolution"@en,
         "disolución"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/evento-proceso/eluviacion> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:definition "Process of non-linear, grain-size selective erosion"@en,
+        "Proceso de erosión selectiva no linear a escala granular."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/deluviation> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:prefLabel "deluviation"@en,
+        "eluviación"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/evento-proceso> ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/evento-proceso/erosion-del-agua> a skos:Concept ;
@@ -532,7 +466,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/waterErosion>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/water_erosion> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "water erosion"@en,
         "erosión del agua"@es ;
     adms:status "Válido" .
@@ -546,7 +479,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/windErosion>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/wind_erosion> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "wind erosion"@en,
         "erosión del viento"@es ;
     adms:status "Válido" .
@@ -560,7 +492,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/iceErosion>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/ice_erosion> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "ice erosion"@en,
         "erosión glacial"@es ;
     adms:status "Válido" .
@@ -574,7 +505,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/effusiveEruption>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/effusive_eruption> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "effusive eruption"@en,
         "erupción efusiva"@es ;
     adms:status "Válido" .
@@ -588,7 +518,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/strombolianEruption>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/strombolian_eruption> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "strombolian eruption"@en,
         "erupción estromboliana"@es ;
     adms:status "Válido" .
@@ -602,7 +531,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/hawaiianEruption>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/hawaiian_eruption> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "hawaiian eruption"@en,
         "erupción hawaiana"@es ;
     adms:status "Válido" .
@@ -616,7 +544,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/plinianEruption>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/plinian_eruption> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "plinian eruption"@en,
         "erupción pliniana"@es ;
     adms:status "Válido" .
@@ -630,7 +557,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/vulcanianEruption>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/vulcanian_eruption> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "vulcanian eruption"@en,
         "erupción vulcaniana"@es ;
     adms:status "Válido" .
@@ -644,7 +570,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/speciation>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/speciation> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "speciation"@en,
         "especiación"@es ;
     adms:status "Válido" .
@@ -658,7 +583,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/excavation>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/excavation> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "excavation"@en,
         "excavación"@es ;
     adms:status "Válido" .
@@ -672,7 +596,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/spreading>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/spreading> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "spreading"@en,
         "expansión oceánica"@es ;
     adms:status "Válido" .
@@ -686,7 +609,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/extinction>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/extinction> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "extinction"@en,
         "extinción"@es ;
     adms:status "Válido" .
@@ -700,7 +622,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/transformFaulting>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/transform_faulting> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "transform faulting"@en,
         "falla transformante"@es ;
     adms:status "Válido" .
@@ -714,7 +635,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/faulting>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/faulting> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "faulting"@en,
         "fallamiento"@es ;
     adms:status "Válido" .
@@ -728,7 +648,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/partialMelting>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/partial_melting> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "partial melting"@en,
         "fusión parcial"@es ;
     adms:status "Válido" .
@@ -742,7 +661,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/frostShattering>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/frost_shattering> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "frost shattering"@en,
         "gelifracción"@es ;
     adms:status "Válido" .
@@ -756,7 +674,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/grading>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/grading> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "grading"@en,
         "grada"@es ;
     adms:status "Válido" .
@@ -770,7 +687,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/haloclasty>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/haloclasty> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "haloclasty"@en,
         "haloclastia"@es ;
     adms:status "Válido" .
@@ -784,7 +700,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/hydration>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/hydration> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "hydration"@en,
         "hidratación"@es ;
     adms:status "Válido" .
@@ -798,7 +713,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/hydrolysis>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/hydrolysis> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "hydrolysis"@en,
         "hidrólisis"@es ;
     adms:status "Válido" .
@@ -812,7 +726,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/cometaryImpact>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/cometary_impact> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "cometary impact"@en,
         "impacto cometario"@es ;
     adms:status "Válido" .
@@ -826,7 +739,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/meteoriteImpact>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/meteorite_impact> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "meteorite impact"@en,
         "impacto meteorítico"@es ;
     adms:status "Válido" .
@@ -840,7 +752,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/intrusion>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/intrusion> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "intrusion"@en,
         "intrusión"@es ;
     adms:status "Válido" .
@@ -854,7 +765,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/magneticFieldReversal>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/magnetic_field_reversal> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "magnetic field reversal"@en,
         "inversión del campo magnético"@es ;
     adms:status "Válido" .
@@ -868,7 +778,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/deformationTwinning>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/deformation_twinning> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "deformation twinning"@en,
         "maclado mecánico"@es ;
     adms:status "Válido" .
@@ -882,7 +791,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/contactMetamorphism>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/contact_metamorphism> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "contact metamorphism"@en,
         "metamorfismo de contacto"@es ;
     adms:status "Válido" .
@@ -896,7 +804,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/dislocationMetamorphism>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/dislocation_metamorphism> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "dislocation metamorphism"@en,
         "metamorfismo de dislocación"@es ;
     adms:status "Válido" .
@@ -910,7 +817,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/biologicalWeathering>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/biological_weathering> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "biological weathering"@en,
         "meteorización biológica"@es ;
     adms:status "Válido" .
@@ -924,7 +830,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/thermalShockWeathering>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/thermal_shock_weathering> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "thermal shock weathering"@en,
         "meteorización por choque térmico"@es ;
     adms:status "Válido" .
@@ -938,7 +843,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/pressureReleaseWeathering>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/pressure_release_weathering> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "pressure release weathering"@en,
         "meteorización por descompresión"@es ;
     adms:status "Válido" .
@@ -950,7 +854,6 @@
         "Mezcla"@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/mixing> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "mixing"@en,
         "mezcla"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/evento-proceso> ;
@@ -965,7 +868,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/microfracturing>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/microfracturing> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "microfracturing"@en,
         "microfracturación"@es ;
     adms:status "Válido" .
@@ -977,7 +879,6 @@
         "Cubrimiento de la superficie con un material líquido durante el proceso y que se solidifica después."@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/casting> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "casting"@en,
         "moldeado"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/evento-proceso> ;
@@ -992,7 +893,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/obduction>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/obduction> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "obduction"@en,
         "obducción"@es ;
     adms:status "Válido" .
@@ -1006,7 +906,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/oxidation>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/oxidation> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "oxidation"@en,
         "oxidación"@es ;
     adms:status "Válido" .
@@ -1020,7 +919,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/folding>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/folding> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "folding"@en,
         "plegamiento"@es ;
     adms:status "Válido" .
@@ -1034,7 +932,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/biologicalPrecipitation>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/biological_precipitation> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "biological precipitation"@en,
         "precipitación biológica"@es ;
     adms:status "Válido" .
@@ -1048,7 +945,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/diageneticProcess>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/diagenetic_process> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "diagenetic process"@en,
         "proceso diagenético"@es ;
     adms:status "Válido" .
@@ -1062,9 +958,32 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/orogenicProcess>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/orogenic_process> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "orogenic process"@en,
         "proceso orogénico"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/evento-proceso/retrabajamiento> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:definition "Near-range transport by water with predominantly changing the inner physical organisation of the sediment particles"@en,
+        "Transporte corto por agua que cambia predominantemente la organización física interna de las partículas sedomentarias."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/reworking> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:prefLabel "reworking"@en,
+        "retrabajamiento"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/evento-proceso/sellado> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:definition "Covering of the surface with a non-liquid material not or little permeable for water after processing"@en,
+        "Cubrimiento de la superficie con un material no líquido, nada o poco permeable al agua tras el proceso."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/sealing> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:prefLabel "sealing"@en,
+        "sellado"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/evento-proceso> ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/evento-proceso/subduccion> a skos:Concept ;
@@ -1076,7 +995,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/subduction>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/subduction> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "subduction"@en,
         "subducción"@es ;
     adms:status "Válido" .
@@ -1090,7 +1008,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/massWasting>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/mass_wasting> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "mass wasting"@en,
         "transporte en masa"@es ;
     adms:status "Válido" .
@@ -1104,9 +1021,20 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/materialTransportAndDeposition>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/material_transport_and_deposition> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "material transport and deposition"@en,
         "transporte y depósito de material"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/evento-proceso/vertido> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:definition "Heaping of mostly solid material, as in a land fill, mine dump, dredging operations"@en,
+        "Amontonamiento de material mayoritariamente sólido, como en un vertedero, escombrera de mina u operaciones de dragado."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/dumping> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
+    skos:prefLabel "dumping"@en,
+        "vertido"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/evento-proceso> ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/evento-proceso/fracturacion> a skos:Concept ;
@@ -1147,7 +1075,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/chemicalPrecipitation>,
         <http://resource.geosciml.org/classifier/cgi/eventprocess/chemical_precipitation> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "chemical precipitation"@en,
         "precipitación química"@es ;
     adms:status "Válido" .
@@ -1467,7 +1394,6 @@
 <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:broader <isTopConcept> ;
     skos:definition "Process that effects the geologic record"@en,
         "Proceso que afecta al registro geológico."@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventProcessValue/geologicProcess>,
@@ -1489,6 +1415,7 @@
         <https://geo-carto.github.io/vocabularios/evento-proceso/variacion-del-nivel-del-mar> ;
     skos:prefLabel "geologic process"@en,
         "proceso geológico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/evento-proceso> ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/evento-proceso> a skos:ConceptScheme ;
@@ -1502,9 +1429,21 @@
     skos:definition "Terms referring to processes associated with geological events."@en,
         "Términos referidos a procesos asociados a eventos geológicos"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Proceso asociado a evento."@es ;
-    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/evento-proceso/crecimiento-organismico-in-situ>,
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/evento-proceso/arado-profundo>,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/cavado>,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/crecimiento-organismico-in-situ>,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/crioturbacion>,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-el-agua>,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-el-aire>,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-un-fluido>,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-o-desde-hielos-en-movimiento>,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/eluviacion>,
         <https://geo-carto.github.io/vocabularios/evento-proceso/mezcla>,
-        <https://geo-carto.github.io/vocabularios/evento-proceso/moldeado> ;
+        <https://geo-carto.github.io/vocabularios/evento-proceso/moldeado>,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico>,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/retrabajamiento>,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/sellado>,
+        <https://geo-carto.github.io/vocabularios/evento-proceso/vertido> ;
     skos:prefLabel "Event Process"@en,
         "Proceso asociado a evento"@es .
 

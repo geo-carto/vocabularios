@@ -93,7 +93,6 @@
         "Colgantes de roca campestre preintrusiva en matriz ígnea intrusiva que tienen una gran extensión horizontal en relación con su espesor"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/rafts> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "rafts"@en,
         "balsas"@es ;
     adms:status "Válido" .
@@ -106,7 +105,6 @@
         "La parte de la unidad geológica se presenta como masas discretas con límites fallados, emplazadas en la unidad anfitriona por procesos tectónicos dentro de la tierra, p. bloques en mezcla tectónica"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/tectonic_block> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "tectonic block"@en,
         "bloque tectónico"@es ;
     adms:status "Válido" .
@@ -119,7 +117,6 @@
         "El constituyente de la unidad geológica está presente como masas con límites generalmente nítidos y geometría en forma de bloque dentro de una matriz de algún otro material emplazado por procesos en la superficie de la tierra, p. erupción volcánica o pérdida de masa. La implicación es que los bloques se derivaron de la misma unidad geológica de origen y se colocaron en la unidad descrita"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/blocks> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "blocks"@en,
         "bloques"@es ;
     adms:status "Válido" .
@@ -132,7 +129,6 @@
         "Parte estratigráfica que es un lecho delgado lateralmente continuo dentro de otra unidad"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/marker_bed> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "marker bed"@en,
         "capa guía"@es ;
     adms:status "Válido" .
@@ -145,7 +141,6 @@
         "Litosoma en unidad litoestratigráfica que se presenta como lechos individuales intercalados con otros constituyentes en la escala de afloramiento (m) o mayor"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/bed_lithosome> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "bed lithosome"@en,
         "capa litológica"@es ;
     adms:status "Válido" .
@@ -158,7 +153,6 @@
         "Masa o agregado duro y compacto de materia mineral, normalmente subesférica pero comúnmente achatado, en forma de disco o irregular. Formado a partir de la precipitación de una solución alrededor de un núcleo o centro. El uso como parte de una unidad geológica debe restringirse a las concreciones que son demasiado grandes para considerarlas como constituyentes del material rocoso que compone la unidad"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/concretion> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "concretion"@en,
         "concreción"@es ;
     adms:status "Válido" .
@@ -171,7 +165,6 @@
         "Colgante que es una hoja vertical como colgante en un cuerpo de roca ígnea intrusiva"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/screen> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "screen"@en,
         "cortina"@es ;
     adms:status "Válido" .
@@ -184,7 +177,6 @@
         "El litosoma se presenta como cuerpos intrusivos en forma de lámina dentro de la unidad como parte esencial de la unidad"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/vein_or_dike_lithosome> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "vein or dike lithosome"@en,
         "dique o vena"@es ;
     adms:status "Válido" .
@@ -197,7 +189,6 @@
         "Término general para un agregado polimineral encerrado en un granitoide"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/enclave> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "enclave"@en,
         "enclave"@es ;
     adms:status "Válido" .
@@ -210,7 +201,6 @@
         "Litosoma en una unidad geológica ígnea o metamórfica que se presenta como capas que se alternan con otros constituyentes"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/layer_lithosome> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "layer lithosome"@en,
         "litosoma estratificado"@es ;
     adms:status "Válido" .
@@ -223,7 +213,6 @@
         "Litosoma en una unidad litodémica mixta/heterogénea que se presenta en cuerpos irregulares dentro de la unidad"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/irregular_lithosome> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "irregular lithosome"@en,
         "litosoma irregular"@es ;
     adms:status "Válido" .
@@ -236,7 +225,6 @@
         "El litosoma se presenta como cuerpos discretos en forma de lente, no conectados con otros cuerpos"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/lenticular_lithosome> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "lenticular lithosome"@en,
         "litosoma lenticular"@es ;
     adms:status "Válido" .
@@ -249,7 +237,6 @@
         "Litosoma en una unidad geológica que generalmente es intersticial con otros constituyentes, p. en un depósito de desgaste masivo, melange, brecha de toba"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/geologic_unit_matrix> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "geologic unit matrix"@en,
         "matriz de unidad geológica"@es ;
     adms:status "Válido" .
@@ -262,7 +249,6 @@
         "Litosoma caracterizado por una secuencia interna de unidades, que se repite en una secuencia apilada, p. secuencia ascendente de afinación, secuencia ascendente de engrosamiento, secuencia bouma"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/cyclic_bedding_package> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "cyclic bedding package"@en,
         "paquete sedimentario cíclico"@es ;
     adms:status "Válido" .
@@ -275,23 +261,8 @@
         "Colgante que se deriva demostrablemente del límite superior de un cuerpo ígneo"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/roof_pendant> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "roof pendant"@en,
         "retazo de techo"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:broader <isTopConcept> ;
-    skos:definition "Entire described unit consists of a single part or constituent"@en,
-        "Toda la unidad descrita consta de una sola parte o constituyente"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/onlyPart>,
-        <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/only_part> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
-    skos:prefLabel "only part"@en,
-        "solo una parte"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/xenolito> a skos:Concept ;
@@ -302,7 +273,6 @@
         "Inclusión de roca de campo pre-intrusiva en matriz ígnea intrusiva, de cm a unos 10 metros de diámetro en su dimensión más larga. Utilice término colgante para bloques más grandes"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/xenolith> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "xenolith"@en,
         "xenolito"@es ;
     adms:status "Válido" .
@@ -316,7 +286,6 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/facies>,
         <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/facies> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "facies"@en,
         "facies"@es ;
     adms:status "Válido" .
@@ -330,9 +299,21 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/unspecifiedPartRole>,
         <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/unspecified_part_role> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:narrower <isBottomConcept> ;
     skos:prefLabel "unspecified part role"@en,
         "rol no especificado de una parte"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
+    skos:definition "Entire described unit consists of a single part or constituent"@en,
+        "Toda la unidad descrita consta de una sola parte o constituyente"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/onlyPart>,
+        <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/only_part> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
+    skos:prefLabel "only part"@en,
+        "solo una parte"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica> a skos:Concept ;
@@ -367,7 +348,6 @@
 <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:broader <isTopConcept> ;
     skos:definition "The geologic unit part role is not known in any greater detail"@en,
         "No se conoce con más detalle la función de la parte de la unidad geológica."@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf>,
@@ -380,6 +360,7 @@
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte> ;
     skos:prefLabel "part of"@en,
         "parte de"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion> a skos:Concept ;
@@ -431,6 +412,8 @@
     skos:definition "The GeologicUnitHierarchyRoleTerm property provides a term describing the nature of the parts, e.g. facies, stratigraphic, interbeds, geographic, eastern facies."@en,
         "Términos que describe la naturaleza de las partes, por ejemplo: facies, estratigráfica, intercapas, geográfica, facies oriental."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Rol jerárquico de unidad geológica."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte> ;
     skos:prefLabel "Geologic unit hierarchy role"@en,
         "Rol jerárquico de unidad geológica"@es .
 
