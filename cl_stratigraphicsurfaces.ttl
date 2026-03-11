@@ -1,51 +1,62 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dt: <http://resource.geosciml.org/datatype/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-<https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
-    dcterms:provenance "Términos propios definidos por el IGME" ;
-    dcterms:publisher <https://www.igme.es/> ;
-    dcterms:source "nan" ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
-    dcterms:description "Vocabulario que recoge términos referidos a superficies de estratificación"@es ;
-    skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/superficies-de-estratificacion."@es ;
-    skos:hasTopConcept 
-        <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa> ,
-        <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte> ;
-    skos:prefLabel "Superfices de estratificación"@es ;
-    skos:prefLabel "Stratigraphic surfaces"@en .
-
 
 <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/collection> a skos:Collection ;
     dcterms:provenance "este vocabulario" ;
-    skos:definition "Todos los conceptos en este vocabulario." ;
-    skos:member <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa> ,
-    <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte> ;
-    skos:prefLabel "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion - Todos los conceptos"@es .
+    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:member <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte>,
+        <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa> ;
+    skos:prefLabel "Superfices de estratificación - Todos los conceptos"@es .
 
+<https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
+    sdo:name "CGI Geoscience Terminology Working Group" ;
+    sdo:url <http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html> .
 
-<https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> ;
-    skos:definition "Una superficie de estratificación resaltante que se puede dibujar dentro de una unidad de rocas sedimentarias estratificadas, que representa una superficie original de deposición."@es ,
-         "A conspicuous  stratification surface, which can be delineated within a sedimentary stratified rock unit, representing an original surface of deposition."@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> ;
-    skos:prefLabel "traza de capa"@es ,
-        "bedding surface"@en .
+<https://linked.data.gov.au/org/cgi> a sdo:Organization ;
+    sdo:name "Commission for the Management and Application of Geoscience Information" ;
+    sdo:url <http://www.cgi-iugs.org> .
 
 <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> ;
-    skos:definition "Un límite estratigráfico, superficie o interfaz a través del cual se observa un cambio significativo y distintivo en el carácter bioestratigráfico. Puede corresponder a una superficie límite entre biozonas o reconocerse dentro de una biozona. Las características en las que se basan comúnmente los biohorizontes en una sección estratigráfica incluyen los horizontes de primera aparición y los de última presencia, las ocurrencias distintivas, los cambios en la frecuencia y abundancia o los cambios en el carácter de taxones individuales."@es ,
-         "A stratigraphic boundary, surface or interface across which there is a significant and distinctive change in biostratigraphic character. It may correspond to a boundary surface between biozones or be recognized within a biozone. The features on which biohorizons are commonly based in a given stratigraphic section include lowest occurrences, highest occurrences, distinctive occurrences, changes in frequency and abundance, or changes in the character of individual taxa."@en ;
+    skos:definition "A stratigraphic boundary, surface or interface across which there is a significant and distinctive change in biostratigraphic character. It may correspond to a boundary surface between biozones or be recognized within a biozone. The features on which biohorizons are commonly based in a given stratigraphic section include lowest occurrences, highest occurrences, distinctive occurrences, changes in frequency and abundance, or changes in the character of individual taxa."@en,
+        "Un límite estratigráfico, superficie o interfaz a través del cual se observa un cambio significativo y distintivo en el carácter bioestratigráfico. Puede corresponder a una superficie límite entre biozonas o reconocerse dentro de una biozona. Las características en las que se basan comúnmente los biohorizontes en una sección estratigráfica incluyen los horizontes de primera aparición y los de última presencia, las ocurrencias distintivas, los cambios en la frecuencia y abundancia o los cambios en el carácter de taxones individuales."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> ;
-    skos:prefLabel "biohorizonte"@es ,
-        "biohorizon"@en .
+    skos:prefLabel "biohorizon"@en,
+        "biohorizonte"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> ;
+    skos:definition "A conspicuous  stratification surface, which can be delineated within a sedimentary stratified rock unit, representing an original surface of deposition."@en,
+        "Una superficie de estratificación resaltante que se puede dibujar dentro de una unidad de rocas sedimentarias estratificadas, que representa una superficie original de deposición."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> ;
+    skos:prefLabel "bedding surface"@en,
+        "traza de capa"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> a skos:ConceptScheme ;
+    dcterms:created "2025-10-07"^^xsd:date ;
+    dcterms:creator "Insituto Geológico y Minero de España (CN CSIC-IGME)" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:provenance "Términos propios definidos por el IGME" ;
+    dcterms:publisher <https://www.igme.es/> ;
+    owl:versionInfo "1.0.0" ;
+    skos:definition "Terms referring to bedding surfaces."@en,
+        "Términos referidos a superficies de estratificación"@es ;
+    skos:editorialNote "Este archivo contiene el vocabulario Superfices de estratificación."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte>,
+        <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa> ;
+    skos:prefLabel "Stratigraphic surfaces"@en,
+        "Superfices de estratificación"@es .
+

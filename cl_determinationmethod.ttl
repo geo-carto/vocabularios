@@ -1,0 +1,148 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://geo-carto.github.io/vocabularios/metodo-determinacion/collection> a skos:Collection ;
+    dcterms:provenance "este vocabulario" ;
+    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:member <https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-fotogeologica>,
+        <https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-por-tres-puntos>,
+        <https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-distancia>,
+        <https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-partir-de-fotografia-aerea>,
+        <https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-visual-en-afloramiento>,
+        <https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento>,
+        <https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-instrumental-en-campo>,
+        <https://geo-carto.github.io/vocabularios/metodo-determinacion/orientacion-media-calculada> ;
+    skos:prefLabel "Método de determinación - Todos los conceptos"@es .
+
+<https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
+    sdo:name "CGI Geoscience Terminology Working Group" ;
+    sdo:url <http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html> .
+
+<https://linked.data.gov.au/org/cgi> a sdo:Organization ;
+    sdo:name "Commission for the Management and Application of Geoscience Information" ;
+    sdo:url <http://www.cgi-iugs.org> .
+
+<https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-fotogeologica> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    skos:definition "Orientation determined based on measurements from aerial photography or satellite imagery (in conjunction with an elevation model."@en,
+        "Orientación determinada a partir de mediciones sobre fotografía aérea o imágenes de satélite (junto con un modelo de elevación)."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/photogeologic_determination> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    skos:prefLabel "photogeologic determination"@en,
+        "determinación fotogeológica"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-por-tres-puntos> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    skos:definition "Orientation determined by fitting a plane to three or more points located on the geologic surface of interest."@en,
+        "Orientación determinada ajustando un plano a tres o más puntos situados en la superficie geológica de interés."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/three_point_determination> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    skos:prefLabel "three point determination"@en,
+        "determinación por tres puntos"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-distancia> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    skos:definition "Orientation of a geologic structure based on observation from a distance great enough to preclude direct inspection of the structure to determine orientation."@en,
+        "Orientación de una estructura geológica basada en la observación a una distancia suficiente como para impedir la inspección directa de la estructura."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/estimate_from_distance> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    skos:prefLabel "estimate from distance"@en,
+        "estimación a distancia"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-partir-de-fotografia-aerea> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    skos:definition "Orientation of a geologic structure estimated based on inspection or measurements on an air photograph."@en,
+        "Orientación de una estructura geológica estimada a partir de la inspección o mediciones sobre una fotografía aérea."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/estimate_from_air_photo> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    skos:prefLabel "estimate from air photo"@en,
+        "estimación a partir de fotografía aérea"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-visual-en-afloramiento> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento> ;
+    skos:definition "Orientation of a surface is measured by visually averaging across one or more outcrops in a small area--e.g. approximating dip by looking down strike of beds, approximating strike by outcrop trace of one or more beds."@en,
+        "Orientación de una superficie medida promediando visualmente en uno o más afloramientos en un área reducida, por ejemplo, aproximando el buzamiento mirando a lo largo del rumbo de las capas."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/visual_surface_estimation_on_outcrop> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    skos:prefLabel "visual surface estimation on outcrop"@en,
+        "estimación visual en afloramiento"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-instrumental-en-campo> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento> ;
+    skos:definition "Orientation measured using compass or other instrument directly on or at an outcrop of the structure."@en,
+        "Orientación medida usando brújula u otro instrumento directamente sobre o en un afloramiento de la estructura."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/standard_on_site_measure> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    skos:prefLabel "standard on site measure"@en,
+        "medida instrumental en campo"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metodo-determinacion/orientacion-media-calculada> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    skos:definition "Orientation value is specified using a calculated average of a collection of related orientations (computer generalization)."@en,
+        "El valor de orientación se especifica usando una media calculada de un conjunto de orientaciones relacionadas (generalización por computador)."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/calculated_average_orientation> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    skos:prefLabel "calculated average orientation"@en,
+        "orientación media calculada"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    skos:definition "Orientation of surface or line is measured on an outcrop of that surface or line directly, e.g. by measuring a particular bedding surface, a 3-D exposure of a fold hinge, a particular stretched mineral grain in a foliation surface."@en,
+        "La orientación de la superficie o línea se mide directamente sobre un afloramiento de dicha superficie o línea, por ejemplo, midiendo una superficie de estratificación particular, una exposición 3D de una charnela de pliegue, un grano mineral estirado en una superficie de foliación."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/measure_on_outcrop> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-visual-en-afloramiento>,
+        <https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-instrumental-en-campo> ;
+    skos:prefLabel "measure on outcrop"@en,
+        "medida en afloramiento"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metodo-determinacion> a skos:ConceptScheme ;
+    dcterms:created "2025-10-07"^^xsd:date ;
+    dcterms:creator "Insituto Geológico y Minero de España (CN CSIC-IGME)" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:provenance "Términos propios definidos por el IGME" ;
+    dcterms:publisher <https://www.igme.es/> ;
+    owl:versionInfo "1.0.0" ;
+    skos:definition "Method used to determine the orientation of a geological structure."@en,
+        "Método utilizado para determinar la orientación de una estructura geológica."@es ;
+    skos:editorialNote "Este archivo contiene el vocabulario Método de determinación."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-fotogeologica>,
+        <https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-por-tres-puntos>,
+        <https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-distancia>,
+        <https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-partir-de-fotografia-aerea>,
+        <https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento>,
+        <https://geo-carto.github.io/vocabularios/metodo-determinacion/orientacion-media-calculada> ;
+    skos:prefLabel "Determination Method"@en,
+        "Método de determinación"@es .
+

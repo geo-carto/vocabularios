@@ -1,855 +1,1086 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dt: <http://resource.geosciml.org/datatype/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
-    dcterms:provenance "Términos propios definidos por el IGME" ;
-    dcterms:publisher <https://www.igme.es/> ;
-    dcterms:source "nan" ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    skos:changeNote "2025-10-07. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
-    dcterms:description "La propiedad unitComposition (SWE::Category) proporciona un término basado en una clasificación composicional que resume el carácter general de la unidad. No es aplicable al nivel de material rocoso o de muestra. Ejemplos: alcalina, subaluminosa, peraluminosa, tipo I, carbonatada, fosfatada."@es ;
-    dcterms:description "The unitComposition property (SWE::Category) provides a term from a composition-based classification that requires summarising the overall character of the unit.  It is not applicable at the rock material or specimen level. Examples are: alkalic, subaluminous, peraluminous, I-Type, carbonate, phosphate"@en ;
-    skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/unidad-geologica-composicion."@es ;
-    skos:hasTopConcept 
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcilloso> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/asfaltico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-barita> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/bioclastico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcareo> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcareo-monomineralico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-rico-en-calcio> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcosilicato> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-calcosilicatos> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonaceo> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonoso> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-carbonatos> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonatico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/clorado> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cloritico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sin-especificar> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/dolomita> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/dolomitico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/feldespatico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa-litica> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ferromagnesiano> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ferruginoso> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fluoruros> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/haluros> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/acida> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-impuro> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-intermedia> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/intracastico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-hierro> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-ferruginoso> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarcosa> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarenita> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarenitico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/basica> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/mafico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-magnesico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-oxidos> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/metaluminoso> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/micaceo> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/monomineralico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/monomictico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-monomineralico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-nitratos> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/otra-composicion> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/oxido> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/peralcalino> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/peraluminoso> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/petrolifero> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fosfato> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fosfatico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/polimictico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico-cuarzofeldespatico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarzofeldespatico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarcitico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarzarenita> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/semipelitico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-silicatada> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/silicico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/subarcosa> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sublitarenita> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/subaluminoso> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfato> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfatado> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfuro> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-sulfuros> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfuroso> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfosales> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ultramafico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ultrabasica> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/epiclastico> ;
-    skos:prefLabel "Tipo de categoría de composición"@es ;
-    skos:prefLabel "Composition category"@en .
-
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/collection> a skos:Collection ;
     dcterms:provenance "este vocabulario" ;
-    skos:definition "Todos los conceptos en este vocabulario." ;
-    skos:member <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcilloso> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/asfaltico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-barita> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/bioclastico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcareo> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcareo-monomineralico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-rico-en-calcio> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcosilicato> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-calcosilicatos> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonaceo> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonoso> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-carbonatos> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonatico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/clorado> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cloritico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sin-especificar> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/dolomita> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/dolomitico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/feldespatico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa-litica> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ferromagnesiano> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ferruginoso> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fluoruros> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/haluros> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/acida> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-impuro> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-intermedia> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/intracastico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-hierro> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-ferruginoso> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarcosa> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarenita> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarenitico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/basica> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/mafico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-magnesico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-oxidos> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/metaluminoso> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/micaceo> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/monomineralico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/monomictico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-monomineralico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-nitratos> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/otra-composicion> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/oxido> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/peralcalino> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/peraluminoso> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/petrolifero> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fosfato> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fosfatico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/polimictico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico-cuarzofeldespatico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarzofeldespatico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarcitico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarzarenita> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/semipelitico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-silicatada> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/silicico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/subarcosa> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sublitarenita> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/subaluminoso> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfato> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfatado> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfuro> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-sulfuros> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfuroso> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfosales> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ultramafico> ,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ultrabasica> ,
-    <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/epiclastico> ;
-    skos:prefLabel "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion - Todos los conceptos"@es .
+    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:member <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/acida>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcilloso>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa-litica>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/asfaltico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/basica>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/bioclastico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcareo>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcareo-monomineralico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcosilicato>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonaceo>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonatico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-barita>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-hierro>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-ferruginoso>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-impuro>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-magnesico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-monomineralico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-rico-en-calcio>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonoso>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/clorado>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cloritico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-calcosilicatos>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-carbonatos>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-nitratos>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-oxidos>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-sulfuros>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarcitico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarzarenita>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarzofeldespatico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/dolomita>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/dolomitico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/epiclastico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/feldespatico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ferromagnesiano>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ferruginoso>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fluoruros>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fosfatico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fosfato>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/haluros>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/intracastico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarcosa>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarenita>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarenitico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/mafico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/metaluminoso>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/micaceo>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/monomictico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/monomineralico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/otra-composicion>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/oxido>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico-cuarzofeldespatico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/peralcalino>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/peraluminoso>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/petrolifero>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/polimictico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-intermedia>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-silicatada>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/semipelitico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/silicico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sin-especificar>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/subaluminoso>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/subarcosa>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sublitarenita>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfatado>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfato>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfosales>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfuro>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfuroso>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ultrabasica>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ultramafico> ;
+    skos:prefLabel "Tipo de categoría de composición - Todos los conceptos"@es .
 
+<https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
+    sdo:name "CGI Geoscience Terminology Working Group" ;
+    sdo:url <http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html> .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcilloso> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Hay una cantidad de arcilla mayor que como componente accesorio (más del 5 por ciento en volumen)"@es ,
-         "Greater than accessory amount (greater than 5 percent by volume) of clay is present"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "arcilloso"@es ,
-        "argillic"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Término de composición petrográfica de arenitas que tienen menos del 75 por ciento de cuarzo y la relación de feldespatos  a componentes líticos es mayor de 3 a 1. Esto corresponde al campo de las arcosas de Folk (1968). Para rocas clásticas con poca o ninguna matriz y cemento, las rocas en esta categoría de composición detrítica también tendrán una composición mineralógica cuarzo-feldespática."@es ,
-         "Sandstone petrographic composition term indicating that detrital mode for clastic rock (Q-F-L) includes less than 75 percent quartz and the feldspar to lithic ratio is greater than 3 to 1. This corresponds to the arkose field of Folk (1968). For clastic rocks with little or no matrix and cement, rocks in this detrital mode composition category will also have quartz-feldspathic mineralogical composition."@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "arcosico"@es ,
-        "arkosic detrital mode"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/asfaltico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El material contiene una cantidad significativa de asfalto, que es un \"líquido viscoso de color marrón oscuro a negro o un betún sólido de bajo punto de fusión que consiste casi en su totalidad en carbono e hidrógeno ... [y] formado en rocas que contienen petróleo por la evaporación de volátiles. .. \"(Jackson, 1997, pág. 39)."@es ,
-         "Material contains a significant amount of asphalt, which is a 'dark brown to black viscous liquid or low-melting solid bitumen that consists almost entirely of carbon and hydrogen...[and] formed in oil-bearing rocks by the evaporation of volatiles...' (Jackson, 1997, p. 39)."@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "asfáltico"@es ,
-        "asphaltic"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-barita> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El CO3 es el anión predominante y más del 5 por ciento son cationes de Ba (porcentaje en moles)."@es ,
-         "CO3 is the predominant anion, and greater than 5 mole percent of cations are Ba."@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "carbonato con barita"@es ,
-        "barium bearing carbonate chemistry"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/bioclastico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Material sedimentario carbonatado ccon una cantidad significativa de material esquelético fracturado"@es ,
-         "Carbonate sedimentary material contains significant broken skeletal material"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "bioclástico"@es ,
-        "bioclastic"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcareo> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Presencia de carbonato de calcio, los minerales carbonatados constituyen menos del 50 por ciento de la roca y el material contiene suficiente CaCO3 para reaccionar formando burbujas cuando se aplica ácido clorhídrico"@es ,
-         "Calcium carbonate minerals are present, carbonate minerals form less than 50 percent of rock, material contains sufficient CaCO3 to react forming bubbles when hydrochloric acid is applied"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "calcáreo"@es ,
-        "calcareous"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcareo-monomineralico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Los minerales carbonatados forman más del 75 por ciento de la roca y el carbonato de calcio representa más del 75 por ciento de los minerales carbonatados"@es ,
-         "Carbonate minerals form greater than 75 percent of rock, and calcium carbonate minerals forms greater than 75 percent of carbonate minerals"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "calcáreo monominerálico"@es ,
-        "calcareous monomeralic carbonate"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-rico-en-calcio> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El CO3 es el anión predominante y el Ca es el catión más abundante (porcentaje en moles)"@es ,
-         "CO3 is the predominante anion, and the Ca is the most abundant (mole percent) cation"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "carbonato rico en calcio"@es ,
-        "calcium rich carbonate chemistry"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcosilicato> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Material compuesto por calcosilicatos o carbonatos en una proporción mayor o igual al 50 por ciento, y en la que  los minerales de carbonato son minoritarios o tienen la misma proporcion que los calcosilicatos"@es ,
-         "Material consists of greater than or equal to 50 percent calcsilicate or carbonate minerals and carbonate minerals less than or equal to calcsilicate minerals in mineral mode"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "calcosilicato"@es ,
-        "calcsilicate"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-calcosilicatos> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Incluye minerales de silicato de calcio de cualquier tipo, pero en una proporción inferior al 50 por ciento de la roca"@es ,
-         "Calcsilicate minerals of any sort are present, but less than 50 percent of rock"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "con calcosilicatos"@es ,
-        "calcsilicate bearing"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonaceo> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Material que contiene importantes fases minerales de carbono o hidrocarburos, incluidos grafito, carbón, petróleo, gas, lignito, turba"@es ,
-         "Material containing significant carbon or hydrocarbon mineral phases, including graphite, coal, oil, gas, lignite, peat"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "carbonáceo"@es ,
-        "carbonaceous"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonoso> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Contiene más del 5 por ciento de carbono reducido en compuestos que suelen ser productos diagenéticos de organismos muertos (por ejemplo, carbón, betún y petróleo). El valor del 5 por ciento se elige por coherencia con el uso del término carbonoso propuesto por el comité SLTT"@es ,
-         "Containing greater than 5 percent reduced carbon in compounds that are typically the diagenetic products of dead organisms (e.g. coal, bitumen and petroleum). 5 percent value is chosen for consistency with SLTTs usage of term carbonaceous"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "carbonoso"@es ,
-        "carbonaceous chemistry"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Material compuesto por más del 50 por ciento de calcosilicatos o carbonatos en el que la proporción de carbonatos es mayor que la de los calcosilicatos.  Corresponde al término metacarbonato de la terminología NADMSC SLTT (2004), que se adopta aquí sin consideraciones genéticas"@es ,
-         "Material consists of greater than 50 percent calcsilicate or carbonate minerals and carbonate minerals greater than calcsilicate minerals in mineral mode. Metacarbonate of NADMSC SLTTm (2004) terminology, adopted here for non-genetic use"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "carbonato"@es ,
-        "carbonate"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-carbonatos> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Presenta minerales de carbonato de cualquier tipo, pero en una proporción inferior al  50 por ciento de la roca"@es ,
-         "Carbonate minerals of any sort are present, but less than 50 percent of rock"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "con carbonatos"@es ,
-        "carbonate bearing"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonatico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El anión carbonato (CO3) es el anión predominante (por porcentaje molar) en el análisis químico. Las subcategorías pueden definirse por el catión dominante. El material de esta clase química se superpone con la clase de carbonato monomineral y probablemente se superpone con la clase de carbonato en la clasificación de composición mineralógica"@es ,
-         "The carbonate (CO3) anion is the predominant anion (by mole percent) in chemical analysis. Sub-categories may be defined by dominant cation. Material in this chemical class overlaps with the monomineralic carbonate class, and probably overlaps with the Carbonate class in the mineralogical composition classification"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "carbonático"@es ,
-        "carbonate chemistry"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/clorado> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El cloruro es el anión más abundante (porcentaje en moles)"@es ,
-         "Chloride is the most abundant (mole percent) anion"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "clorado"@es ,
-        "chloride chemistry"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cloritico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Presenta una cantidad mayor de minerales del grupo de la clorita que como componente accesorio (5 por ciento en volumen)"@es ,
-         "Greater than accessory amount (greater than 5 percent by volume) of chlorite group minerals are present"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "clorítico"@es ,
-        "chloritic"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sin-especificar> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Composición no especificada. Usar en descripciones normativas donde se permite cualquier propiedad de composición"@es ,
-         "Composition not specified. Use in normative descriptions where any composition property is allowed"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "sin especificar"@es ,
-        "composition not specified"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/dolomita> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Los minerales carbonatados forman más del 75 por ciento de la roca y la dolomita forma más del 75 por ciento de los minerales carbonatados"@es ,
-         "Carbonate minerals form greater than 75 percent of rock, and dolomite forms greater than 75 percent of carbonate minerals"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "dolomita"@es ,
-        "dolomite monomineralic carbonate"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/dolomitico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Contiene dolomita  pero los minerales de carbonato forman menos del 50 por ciento de la roca"@es ,
-         "Dolomite is present, carbonate minerals form less than 50 percent of rock"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "dolomítico"@es ,
-        "dolomitic"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/feldespatico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El material sedimentario tiene un impotante contenido de feldespatos"@es ,
-         "Sedimentary material contains significant feldspar mineral content"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "feldespático"@es ,
-        "feldspathic"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Término de composición petrográfica para arenitas en la que la proporción de cuarzo es inferior al 75% con respecto al total de elementos terrígenos y en la que el contenido de feldespatos es mayor que el de fragmentos de otras rocas. Incluye clases de composición petrográfica de arenisca arcosica y arcosa lítica. El uso del modificador feldespático es consistente con las subdivisiones petrográficas de Dott (1964) y Williams, Turner y Gilbert (1982"@es ,
-         "General sandstone petrography term for a sandstone in which the ratio of feldspar to lithic fragments is greater than 1:1 and less than 75 percent quartz is present in the detrital mode. Subsumes lithic arkosic and arkosic sandstone petrographic composition classes. Usage of modifier feldspathic is consistent with petrographic subdivisions of Dott (1964) and Williams, Turner and Gilbert (1982)"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "arcosa"@es ,
-        "feldspathic detrital mode"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa-litica> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Término de composición petrográfica para arenitas en la que la proporción de cuarzo es inferior al 75% con respecto al total de elementos terrígenos y en la que la relación entre feldespatos y fragmentos de otras rocas no supera 3:1. Esto corresponde al campo de litarenita feldespática de Folk (1968). Es probable que las rocas de esta clase sean cuarzo-feldespáticas en términos de composición mineralógica en este vocabulario, pero debido a que la composición mineralógica de la fracción lítica no está restringida, esta correlación no es necesaria"@es ,
-         "Sandstone petrographic composition term indicating that detrital mode for clastic rock (Q-F-L) includes less than 75 percent quartz and the feldspar to lithic ratio is between 1 to 1 and 1 to 3. This corresponds to the feldspathic litharenite field of Folk (1968). Rocks in this class are likely to be quartzo-feldspathic in terms of mineralogical composition terms in this vocablary, but because the mineralogical composition of the lithic fraction is not constrainged, this correlation is not necessary"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "arcosa lítica"@es ,
-        "feldspathic lithic detrital mode"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ferromagnesiano> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Material que tiene más del 40 por ciento de silicatos ferromagnesianos oscuros. Término estándar definido por Bates y Jackson (1987) como \"que contiene hierro y magnesio\". Incluye máficos y ultramáficos"@es ,
-         "Material consists of greater than 40 percent dark ferromagnesian silicate minerals. Standard term defined by Bates and Jackson (1987) to mean 'containing iron and magnesium'. Subsumes mafic and ultramafic"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "ferromagnesiano"@es ,
-        "ferromagnesian"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ferruginoso> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Presenta una cantidad mayor que como componente accesorio (más del 5 por ciento en volumen) de minerales de hierro no silicatados (hematita, magnetita, siderita ...). Las rocas que contienen abundantes silicatos ricos en hierro corresponderían a los términos 'ferromagnesianos'"@es ,
-         "Greater than accessory amount (greater than 5 percent by volume) of non-silicate iron minerals (hematite, magnetite, siderite...) are present. Rocks containing abundant iron-rich silicate minerals would use the 'Ferromagnesian' terms"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "ferruginoso"@es ,
-        "ferruginous"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fluoruros> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El flúor es el anión más abundante (porcentaje en moles)"@es ,
-         "Fluorine is the most abundant (mole percent) anion"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "fluoruros"@es ,
-        "fluoride chemistry"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/haluros> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Uno o más de los elementos del grupo de los haluros (F, Cl, Br, I) son el anión más abundante (porcentaje en moles)"@es ,
-         "One or more of halide group elements (F, Cl, Br, I) are most abundant (mole percent) anion"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "haluros"@es ,
-        "halide chemistry"@en .
+<https://linked.data.gov.au/org/cgi> a sdo:Organization ;
+    sdo:name "Commission for the Management and Application of Geoscience Information" ;
+    sdo:url <http://www.cgi-iugs.org> .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/acida> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Contiene mas de de un 65% de SiO2 en peso"@es ,
-         "Containing 65 percent or more SiO2 by weight. Syn acid"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-silicatada> ;
+    skos:definition "Containing 65 percent or more SiO2 by weight. Syn acid"@en,
+        "Contiene mas de de un 65% de SiO2 en peso"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/high_silica_chemistry> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "ácida"@es ,
-        "high silica chemistry"@en .
+    skos:prefLabel "high silica chemistry"@en,
+        "ácida"@es ;
+    adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-impuro> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcilloso> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Contiene más del 50 por ciento de calcosilicatos o carbonatos y se desconoce o no se especifica la proporción relativa de calcosilicatos y carbonatos"@es ,
-         "Material consists of greater than 50 percent calcsilicate or carbonate minerals and relative proportion of calcsilicate and carbonate minerals is unknown or not specified"@en ;
+    skos:definition "Greater than accessory amount (greater than 5 percent by volume) of clay is present"@en,
+        "Hay una cantidad de arcilla mayor que como componente accesorio (más del 5 por ciento en volumen)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/argillic> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "carbonato impuro"@es ,
-        "impure calcsilicate or carbonate"@en .
+    skos:prefLabel "argillic"@en,
+        "arcilloso"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-intermedia> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Roca ígnea cuyo contenido en SIO2 está comprendido entre el 52 y el 65%"@es ,
-         "Containing SiO2 in the range 52-65 percent, sometimes described as \\intermediate\\ rocks"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa-litica> ;
+    skos:definition "Sandstone petrographic composition term indicating that detrital mode for clastic rock (Q-F-L) includes less than 75 percent quartz and the feldspar to lithic ratio is greater than 3 to 1. This corresponds to the arkose field of Folk (1968). For clastic rocks with little or no matrix and cement, rocks in this detrital mode composition category will also have quartz-feldspathic mineralogical composition."@en,
+        "Término de composición petrográfica de arenitas que tienen menos del 75 por ciento de cuarzo y la relación de feldespatos  a componentes líticos es mayor de 3 a 1. Esto corresponde al campo de las arcosas de Folk (1968). Para rocas clásticas con poca o ninguna matriz y cemento, las rocas en esta categoría de composición detrítica también tendrán una composición mineralógica cuarzo-feldespática."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/arkosic_detrital_mode> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "roca intermedia"@es ,
-        "intermediate silica chemistry"@en .
+    skos:prefLabel "arkosic detrital mode"@en,
+        "arcosico"@es ;
+    adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/intracastico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/asfaltico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Carbonatos sedimentarios con un contenido importante de intraclastos"@es ,
-         "Carbonate sedimentary material contains signficant intraclast content"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonaceo> ;
+    skos:definition "Material contains a significant amount of asphalt, which is a 'dark brown to black viscous liquid or low-melting solid bitumen that consists almost entirely of carbon and hydrogen...[and] formed in oil-bearing rocks by the evaporation of volatiles...' (Jackson, 1997, p. 39)."@en,
+        "El material contiene una cantidad significativa de asfalto, que es un \"líquido viscoso de color marrón oscuro a negro o un betún sólido de bajo punto de fusión que consiste casi en su totalidad en carbono e hidrógeno ... [y] formado en rocas que contienen petróleo por la evaporación de volátiles. .. \"(Jackson, 1997, pág. 39)."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/asphaltic> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "intracástico"@es ,
-        "intraclastic"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-hierro> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El CO3 es el anión predominante y el hierro es superior al 5 por ciento en moles de los cationes (incluye Fe, Mg, Mn, Ba, Sr, Ca ...)"@es ,
-         "CO3 is the predominant anion, and iron is greater than 5 mole percent of the cations (includes Fe, Mg, Mn, Ba, Sr, Ca...)"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "carbonato con hierro"@es ,
-        "iron bearing carbonate chemistry"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-ferruginoso> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El CO3 es el anión predominante y el hierro es el catión más abundante (porcentaje molar)"@es ,
-         "CO3 is the predominant anion, and iron is the most abundant (mole percent) cation"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "carbonato ferruginoso"@es ,
-        "iron rich carbonate chemistry"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El material sedimentario tiene un contenido significativo de fragmentos de roca derivados de la erosión de materiales rocosos preexistentes"@es ,
-         "Sedimentary material contains significant detrital rock fragments derived by erosion from older, pre-existing rock materials"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "lítico"@es ,
-        "lithic"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarcosa> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Término de composición petrográfica para arenitas en la que la proporción de cuarzo es inferior al 75% con respecto al total de elementos terrígenos y en la que el contenido de fragmentos de otras rocas respecto al de feldespatos está comprendido entre 1: 1 y 1: 3. Esto corresponde al campo arcoso lítico de Folk (1968). Debido a la abundancia de fragmentos líticos para los cuales no se especifica la composición mineralógica, y la presencia de matriz y cemento no discernibles no incluidos como componentes detríticos, la correspondencia con los términos de composición mineralógica es muy aproximada"@es ,
-         "Sandstone petrographic composition term indicating that detrital mode for clastic rock (Q-F-L) includes less than 75 percent quartz and the ratio of lithic fragments to feldspar is between 1:1 and 1:3. This corresponds to the lithic arkose field of Folk (1968), the 75 percent quartz boundary is chosen to be consistent with quartzsose composition as defined in the mineralogic compostion terms vocabulary. Because of the abundance of lithic fragments for which the mineralogic composition is not specified, and the presence of undiscernible matrix and cement that are not incuded in the detrital mode, corresondence with the mineralogical composition terms is very approximate"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "litarcosa"@es ,
-        "lithic arkosic detrital mode"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarenita> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Término de composición petrográfica para arenitas en la que la proporción de cuarzo es inferior al 75% con respecto al total de elementos terrígenos y en la que el contenido de fragmentos de otras rocas respecto al de feldespatos es mayor de 3 a 1. Esto corresponde al campo de litarenita de Folk (1968). Debido a que la mineralogía de los fragmentos líticos no está definida, no puede establecerse una composición mineralógica determinada"@es ,
-         "Sandstone petrographic composition term indicating that detrital mode for clastic rock (Q-F-L) includes less than 75 percent quartz and the lithic to feldspar ratio is greater than 3 to 1. This corresponds to the litharenite field of Folk (1968). Because the mineralogy of the lithic fragments is not constrained, the mineralogical composition is largely independent of the detrital mode composition for this class"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "litarenita"@es ,
-        "lithic detrital mode"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarenitico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Término de composición petrográfica para en la que la proporción de cuarzo es inferior al 75% con respecto al total de elementos terrígenos y en la que el contenido de fragmentos de otras rocas es mayor que el de feldespatos. Debido a que la mineralogía de los fragmentos líticos no está definida, no puede establecerse una composición mineralógica determinada"@es ,
-         "Sandstone petrographic composition term indicating that the ratio of lithic fragments to feldspar is greater than 1:1, and less than 75 percent quartz is present in the detrital mode. Because the mineralogy of the lithic fragments is not constrained, the mineralogical composition is largely independent of the detrital mode composition for this class"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "litarenítico"@es ,
-        "lithic rich detrital mode"@en .
+    skos:prefLabel "asphaltic"@en,
+        "asfáltico"@es ;
+    adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/basica> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Contiene del 44% al 52% de SiO2"@es ,
-         "Containing SiO2 in the range 44-52 percent. Syn basic"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-silicatada> ;
+    skos:definition "Containing SiO2 in the range 44-52 percent. Syn basic"@en,
+        "Contiene del 44% al 52% de SiO2"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/low_silica_chemistry> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "básica"@es ,
-        "low silica chemistry"@en .
+    skos:prefLabel "low silica chemistry"@en,
+        "básica"@es ;
+    adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/mafico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/bioclastico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Material compuesto por silicatos ferromagnesianos con proporciones comprendidas entre el 40% y 90%"@es ,
-         "Material consists of greater than or equal to 40 percent and less than 90 percent ferromagnesian silicate minerals"@en ;
+    skos:definition "Carbonate sedimentary material contains significant broken skeletal material"@en,
+        "Material sedimentario carbonatado ccon una cantidad significativa de material esquelético fracturado"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/bioclastic> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "máfico"@es ,
-        "mafic"@en .
+    skos:prefLabel "bioclastic"@en,
+        "bioclástico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcareo> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-carbonatos> ;
+    skos:definition "Calcium carbonate minerals are present, carbonate minerals form less than 50 percent of rock, material contains sufficient CaCO3 to react forming bubbles when hydrochloric acid is applied"@en,
+        "Presencia de carbonato de calcio, los minerales carbonatados constituyen menos del 50 por ciento de la roca y el material contiene suficiente CaCO3 para reaccionar formando burbujas cuando se aplica ácido clorhídrico"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/calcareous> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "calcareous"@en,
+        "calcáreo"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcareo-monomineralico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-monomineralico> ;
+    skos:definition "Carbonate minerals form greater than 75 percent of rock, and calcium carbonate minerals forms greater than 75 percent of carbonate minerals"@en,
+        "Los minerales carbonatados forman más del 75 por ciento de la roca y el carbonato de calcio representa más del 75 por ciento de los minerales carbonatados"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/calcareous_monomeralic_carbonate> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "calcareous monomeralic carbonate"@en,
+        "calcáreo monominerálico"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcosilicato> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-impuro> ;
+    skos:definition "Material consists of greater than or equal to 50 percent calcsilicate or carbonate minerals and carbonate minerals less than or equal to calcsilicate minerals in mineral mode"@en,
+        "Material compuesto por calcosilicatos o carbonatos en una proporción mayor o igual al 50 por ciento, y en la que  los minerales de carbonato son minoritarios o tienen la misma proporcion que los calcosilicatos"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/calcsilicate> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "calcsilicate"@en,
+        "calcosilicato"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-barita> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato> ;
+    skos:definition "CO3 is the predominant anion, and greater than 5 mole percent of cations are Ba."@en,
+        "El CO3 es el anión predominante y más del 5 por ciento son cationes de Ba (porcentaje en moles)."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/barium_bearing_carbonate_chemistry> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "barium bearing carbonate chemistry"@en,
+        "carbonato con barita"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-ferruginoso> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-hierro> ;
+    skos:definition "CO3 is the predominant anion, and iron is the most abundant (mole percent) cation"@en,
+        "El CO3 es el anión predominante y el hierro es el catión más abundante (porcentaje molar)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/iron_rich_carbonate_chemistry> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "iron rich carbonate chemistry"@en,
+        "carbonato ferruginoso"@es ;
+    adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-magnesico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El CO3 es el anión predominante y el Mg es el catión más abundante (porcentaje molar)."@es ,
-         "CO3 is the predominant anion, and Mg is the most abundant (mole percent) cation"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonatico> ;
+    skos:definition "CO3 is the predominant anion, and Mg is the most abundant (mole percent) cation"@en,
+        "El CO3 es el anión predominante y el Mg es el catión más abundante (porcentaje molar)."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/magnesium_rich_carbonate_chemistry> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "carbonato magnésico"@es ,
-        "magnesium rich carbonate chemistry"@en .
+    skos:prefLabel "magnesium rich carbonate chemistry"@en,
+        "carbonato magnésico"@es ;
+    adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-oxidos> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-rico-en-calcio> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "(Hay una cantidad mayor)Contiene cantidades de óxidos metálicos como magnetita (Fe3O4) o pirolusita (MnO2) que como componentes accesorios (5% en volumen)"@es ,
-         "Greater than accessory amounts (greater than 5 percent by volume) of base metal oxide minerals such as magnetite (Fe3O4) or pyrolusite (MnO2) are present"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonatico> ;
+    skos:definition "CO3 is the predominante anion, and the Ca is the most abundant (mole percent) cation"@en,
+        "El CO3 es el anión predominante y el Ca es el catión más abundante (porcentaje en moles)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/calcium_rich_carbonate_chemistry> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "con óxidos"@es ,
-        "metallic oxide bearing"@en .
+    skos:prefLabel "calcium rich carbonate chemistry"@en,
+        "carbonato rico en calcio"@es ;
+    adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/metaluminoso> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonoso> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Término de composición química utilizado para rocas ígneas, que indica que el contenido de óxido de aluminio es mayor que el óxido de sodio más el óxido de potasio, pero el óxido de aluminio es menor que la suma de óxido de Na, K y Ca"@es ,
-         "Chemical composition term used for igneous rocks, denoting that content of aluminum oxide is greater than sodium oxide plus potassium oxide, but aluminum oxide less than sum of Na, K and Ca oxide"@en ;
+    skos:definition "Containing greater than 5 percent reduced carbon in compounds that are typically the diagenetic products of dead organisms (e.g. coal, bitumen and petroleum). 5 percent value is chosen for consistency with SLTTs usage of term carbonaceous"@en,
+        "Contiene más del 5 por ciento de carbono reducido en compuestos que suelen ser productos diagenéticos de organismos muertos (por ejemplo, carbón, betún y petróleo). El valor del 5 por ciento se elige por coherencia con el uso del término carbonoso propuesto por el comité SLTT"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonaceous_chemistry> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "metaluminoso"@es ,
-        "metaluminous"@en .
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-hierro>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-magnesico> ;
+    skos:prefLabel "carbonaceous chemistry"@en,
+        "carbonoso"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/micaceo> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/clorado> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Hay una cantidad mayor de  minerales del grupo de la mica que como componentes accesorios ( 5 por ciento en volumen)"@es ,
-         "Greater than accessory amount (greater than 5 percent by volume) of mica group mineral are present"@en ;
+    skos:definition "Chloride is the most abundant (mole percent) anion"@en,
+        "El cloruro es el anión más abundante (porcentaje en moles)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/chloride_chemistry> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "micáceo"@es ,
-        "micaceous"@en .
+    skos:prefLabel "chloride chemistry"@en,
+        "clorado"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/monomineralico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cloritico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Más del 75 por ciento del material consiste en una sola especie mineral"@es ,
-         "Greater than 75 percent of the material consists of a single mineral species"@en ;
+    skos:definition "Greater than accessory amount (greater than 5 percent by volume) of chlorite group minerals are present"@en,
+        "Presenta una cantidad mayor de minerales del grupo de la clorita que como componente accesorio (5 por ciento en volumen)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/chloritic> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "monominerálico"@es ,
-        "mono mineralic"@en .
+    skos:prefLabel "chloritic"@en,
+        "clorítico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/monomictico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-calcosilicatos> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Los granos o clastos están compuestos por un solo tipo de roca o mineral (Jackson, 1997)"@es ,
-         "Grains or clasts are composed of a single rock or mineral type (Jackson, 1997)"@en ;
+    skos:definition "Calcsilicate minerals of any sort are present, but less than 50 percent of rock"@en,
+        "Incluye minerales de silicato de calcio de cualquier tipo, pero en una proporción inferior al 50 por ciento de la roca"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/calcsilicate_bearing> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "monomíctico"@es ,
-        "monomictic"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-monomineralico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Roca compuesta por mas de un 75%  de minerales de carbonato"@es ,
-         "Rock in which carbonate minerals form greater than 75 percent of rock"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "carbonato monominerálico"@es ,
-        "monomineralic carbonate"@en .
+    skos:prefLabel "calcsilicate bearing"@en,
+        "con calcosilicatos"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-nitratos> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El nitrato (NO3) es el anión más abundante (porcentaje en moles)"@es ,
-         "Nitrate (NO3) is most abundant (mole percent) anion"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/haluros> ;
+    skos:definition "Nitrate (NO3) is most abundant (mole percent) anion"@en,
+        "El nitrato (NO3) es el anión más abundante (porcentaje en moles)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/nitrate_chemistry> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "con nitratos"@es ,
-        "nitrate chemistry"@en .
+    skos:prefLabel "nitrate chemistry"@en,
+        "con nitratos"@es ;
+    adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/otra-composicion> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-oxidos> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "De composición  conocida pero que no encaja en ninguna otra categoría"@es ,
-         "Composition is known but doesn’t' fit in any other category"@en ;
+    skos:definition "Greater than accessory amounts (greater than 5 percent by volume) of base metal oxide minerals such as magnetite (Fe3O4) or pyrolusite (MnO2) are present"@en,
+        "(Hay una cantidad mayor)Contiene cantidades de óxidos metálicos como magnetita (Fe3O4) o pirolusita (MnO2) que como componentes accesorios (5% en volumen)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/metallic_oxide_bearing> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "otra composición"@es ,
-        "other composition"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/oxido> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Material compuesto predominantemente por óxidos metálicos"@es ,
-         "Material predominantly composed of oxide minerals"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "óxido"@es ,
-        "oxide"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Material para el cual la suma de cuarzo modal + feldespato + mica + mineral aluminoso es mayor o igual al 70 por ciento, y el contenido de mineral aluminoso + mica es mayor o igual al 40 por ciento"@es ,
-         "Material for which the sum of modal quartz+feldspar+ mica + aluminous mineral is greater than or equal to 70 percent, and aluminous mineral + mica content is greater than or equal to 40 percent"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "pelítico"@es ,
-        "pelitic"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/peralcalino> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El contenido de óxido de aluminio (Al2O3) es menor que la suma de los óxidos de K y Na"@es ,
-         "Aluminum oxide (Al2O3) is less than sum of K and Na oxide"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "peralcalino"@es ,
-        "peralkaline"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/peraluminoso> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El contenido de óxido de aluminio (Al2O3) es mayor que la suma de los óxidos de Na, K y Ca"@es ,
-         "Aluminum oxide (Al2O3) greater than sum of Na, K and Ca oxide"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "peraluminoso"@es ,
-        "peraluminous"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/petrolifero> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Presenta petróleo o gas natural, generalmente en cantidades mínimas, comúnmente detectado por el olor"@es ,
-         "Crude oil or natural gas is present, generally in trace amounts, commonly detected by smell"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "petrolífero"@es ,
-        "petroliferous"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fosfato> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El fosfato (PO4) es el anión más abundante (en porcentaje molar)"@es ,
-         "Phosphate (PO4) is the most abundant (mole percent) anion"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "fosfato"@es ,
-        "phosphate chemistry"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fosfatico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Presenta una cantidad mayor que la accesoria (más del 5 por ciento en volumen) de minerales de fosfato"@es ,
-         "Greater than accessory amount (greater than 5 percent by volume) of phosphate minerals are present"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "fosfático"@es ,
-        "phosphatic"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/polimictico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Los granos o clastos son de muchos tipos de minerales o rocas"@es ,
-         "Grains or clasts are composed of many mineral or rock types"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "polimíctico"@es ,
-        "polymictic"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico-cuarzofeldespatico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Material para el cual la suma de cuarzo modal + feldespato + mica + mineral alumínico es mayor o igual al 70%"@es ,
-         "Material for which the sum of modal quartz+feldspar+ mica + aluminous mineral is greater than or equal to 70 percent"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "pelítico cuarzofeldespático"@es ,
-        "quartz feldspar pelitic"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarzofeldespatico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Material para el cual la suma de cuarzo modal + feldespato + mica + mineral alumínico es mayor o igual del 70%, y cuarzo + feldespato (sensu Robertson, 1999) mayor del 60%"@es ,
-         "Material for which the sum of modal quartz+feldspar+ mica + aluminous mineral is greater than or equal to 70 percent, and quartz + feldspar (sensu Robertson, 1999) greater than 60 percent"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "cuarzofeldespático"@es ,
-        "quartzo feldspathic"@en .
+    skos:prefLabel "metallic oxide bearing"@en,
+        "con óxidos"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarcitico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Material compuesto por un porcentaje igual o superior al 75% de cuarzo"@es ,
-         "Material consists of greater than or equal to 75 percent quartz"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarzofeldespatico> ;
+    skos:definition "Material consists of greater than or equal to 75 percent quartz"@en,
+        "Material compuesto por un porcentaje igual o superior al 75% de cuarzo"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/quartzose> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "cuarcítico"@es ,
-        "quartzose"@en .
+    skos:prefLabel "quartzose"@en,
+        "cuarcítico"@es ;
+    adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarzarenita> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Arenita en la que más del 95% de los granos son de cuarzo. Este criterio petrográfico sigue la definición más restrictiva del campo de composición en el vértice de cuarzo del triángulo QFL de las areniscas (Folk, 1968). Este uso del término cuarzo es más restrictivo que el usado en el vocabulario de términos de composición mineralógica, lo que refleja el significado interpretativo de las areniscas de cuarzo puro en la petrología sedimentaria"@es ,
-         "Detrital mineral grains in a granular rock consist of greater than 95 percent quartz. This petrographic criteria follows the most restrictive definition of the composition field at the quartz vertex of the sandstone QFL triangle (Folk, 1968). This use of term quartzose is more restrictive that that used in the mineralogical composition term vocabulary, reflecting the interpretive significance of pure quartz sandstones in sedimentary petrology"@en ;
+    skos:definition "Detrital mineral grains in a granular rock consist of greater than 95 percent quartz. This petrographic criteria follows the most restrictive definition of the composition field at the quartz vertex of the sandstone QFL triangle (Folk, 1968). This use of term quartzose is more restrictive that that used in the mineralogical composition term vocabulary, reflecting the interpretive significance of pure quartz sandstones in sedimentary petrology"@en,
+        "Arenita en la que más del 95% de los granos son de cuarzo. Este criterio petrográfico sigue la definición más restrictiva del campo de composición en el vértice de cuarzo del triángulo QFL de las areniscas (Folk, 1968). Este uso del término cuarzo es más restrictivo que el usado en el vocabulario de términos de composición mineralógica, lo que refleja el significado interpretativo de las areniscas de cuarzo puro en la petrología sedimentaria"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/quartzose_detrital_mode> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "cuarzarenita"@es ,
-        "quartzose detrital mode"@en .
+    skos:prefLabel "quartzose detrital mode"@en,
+        "cuarzarenita"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/semipelitico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/dolomita> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Material para el cual la suma de cuarzo modal + feldespato + mica + mineral aluminoso es mayor o igual al 70 por ciento, y cuarzo + feldespato menor del 60 por ciento"@es ,
-         "Material for which the sum of modal quartz+feldspar+ mica + aluminous mineral is greater than or equal to 70 percent, and quartz+ feldspar less than 60 percent"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-monomineralico> ;
+    skos:definition "Carbonate minerals form greater than 75 percent of rock, and dolomite forms greater than 75 percent of carbonate minerals"@en,
+        "Los minerales carbonatados forman más del 75 por ciento de la roca y la dolomita forma más del 75 por ciento de los minerales carbonatados"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/dolomite_monomineralic_carbonate> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "semipelítico"@es ,
-        "semi pelitic"@en .
+    skos:prefLabel "dolomite monomineralic carbonate"@en,
+        "dolomita"@es ;
+    adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-silicatada> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/dolomitico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Compuesto por minerales cuya estructura cristalina contiene tetraedros de SiO4, ya sea aislados o unidos a través de uno o más átomos de oxígeno para formar grupos, cadenas, láminas o estructuras tridimensionales con cationes metálicos. La composición varía entre el 20 y el 100 por ciento de SiO2. Típicamente, algunos sustitutos de la sílice son Al. Una encuesta de análisis químicos en la base de datos de Georock (consulta PARA TODOS LOS ENTORNOS GEOLÓGICOS, MATERIAL: ROCA ENTERA (Y VIDRIO VOLCÁNICO), PUB. AÑOS: 2005-1970), 10/10/2005, http: //georoc.mpch-mainz .gwdg.de / georoc / Entry.html) descubrió que el contenido más bajo de sílice (Si02) para las rocas ígneas es de aproximadamente el 20 por ciento. Esto concuerda con que el contenido de sílice más bajo encontrado para un mineral de silicato es aproximadamente un 21 por ciento para una variedad de clorita que se encuentra al escanear los análisis de minerales en Deer, Howie y Zussman (1966)"@es ,
-         "Composed of minerals whose crystal structure contains SiO4 tetrahedra, either isolated or joined through one or more oxygen atoms to form groups, chains, sheets or three-dimensional structures with metallic cations. Composition ranges from 20-100 percent SiO2. Typically some Al substitutues for silica. A survey of chemical analyses in the Georock database (query FOR ALL GEOLOGICAL SETTINGS, MATERIAL: WHOLE ROCK (AND VOLCANIC GLASS), PUB. YEARS: 2005-1970), 10/10/2005, http://georoc.mpch-mainz.gwdg.de/georoc/Entry.html) discovered that the lowest silica (Si02) content for igneous rock is about 20 percent. This is consistent with the lowest silica content found for a silicate mineral is about 21 percent for a chlorite variety found by scanning the mineral analyses in Deer, Howie, and Zussman (1966)"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-carbonatos> ;
+    skos:definition "Dolomite is present, carbonate minerals form less than 50 percent of rock"@en,
+        "Contiene dolomita  pero los minerales de carbonato forman menos del 50 por ciento de la roca"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/dolomitic> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "roca silicatada"@es ,
-        "silicate chemistry"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/silicico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Hay una cantidad mayor que la accesoria (más del 5 por ciento en volumen) de sílice, amorfa, como cuarzo o cualquiera de los polimorfos de sílice"@es ,
-         "Greater than accessory amount (greater than 5 percent by volume) of silica, amorphous, as quartz, or any of the silica polymorphs are present"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "silícico"@es ,
-        "silicic"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/subarcosa> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Término de composición petrográfica de arenitas en la que la proporción de cuarzo está comprendida entre el 75 y el 95% con respecto al total de elementos terrígenos y en la que el contenido de feldespatos es mayor que el de fragmentos de otras rocas. Se corresponde con el campo de subarcosa de Folk (1968)."@es ,
-         "Sandstone petrographic composition term indicating that detrital mode for clastic rock (Q-F-L) includes less than 50 percent lithic fragments, between 75 and 95 percent quartz (thus less than 25 percent feldspar). This corresponds to the subarkose field of Folk (1968), the 75 percent quartz boundary is consistent with the quartzsose composition as defined in the mineralogic compostion terms vocabulary, but if more than a few percent 'matrix' or cement is present, this is not necessarily equivalent to the mineralogical composition term."@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "subarcosa"@es ,
-        "sub feldspathic detrital mode"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sublitarenita> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Término de composición petrográfica de arenitas en la que la proporción de cuarzo está comprendida entre el 75 y el 95% con respecto al total de elementos terrígenos y en la que el contenido de fragmentos de otras rocas es mayor que el de feldespatos. Se corresponde con el campo de sublitarenita de Folk (1968)."@es ,
-         "Sandstone petrographic composition term indicating that detrital mode for clastic rock (Q-F-L) includes more than 50 percent lithic fragments, between 75 and 95 percent quartz (thus less than 25 percent feldspar). This corresponds to the sublitharenite field of Folk (1968), the 75 percent quartz boundary is consistent with quartzsose composition as defined in the mineralogic compostion terms vocabulary"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "sublitarenita"@es ,
-        "sub lithic detrital mode"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/subaluminoso> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Con una proporción de óxido de aluminio inferior al 10 por ciento de la suma de  los óxidos de Na y K"@es ,
-         "Aluminum oxide within 10 percent of sum of Na and K oxide"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "subaluminoso"@es ,
-        "subaluminous"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfato> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Material compuesto predominantemente de sulfatos"@es ,
-         "Material predominantly composed of sulfate minerals"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "sulfato"@es ,
-        "sulfate"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfatado> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El sulfato es el anión más abundante"@es ,
-         "Sulfate is the most abundant anion"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "sulfatado"@es ,
-        "sulfate chemistry"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfuro> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Material compuesto predominantemente de sulfuros"@es ,
-         "Material predominantly composed of sulfide minerals"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "sulfuro"@es ,
-        "sulfide"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-sulfuros> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Contiene una proporción de sulfuros superior a la de componente accesorio (más del 5 por ciento en volumen)"@es ,
-         "Greater than accessory amount (greater than 5 percent by volume) of sulfide mineral are present"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "con sulfuros"@es ,
-        "sulfide bearing"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfuroso> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "El azufre es el anión más abundante, los cationes son metales o semimetales"@es ,
-         "Sulfur is the most abundant anion, cations are metals or semimetals"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "sulfuroso"@es ,
-        "sulfide chemistry"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfosales> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Sulfuro en el que está presente un semimetal (As, Sb, Bi) como catión"@es ,
-         "Sulfide in which a semimetal (As, Sb, Bi) is present in a cation role"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "sulfosales"@es ,
-        "sulfosalt chemistry"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ultramafico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Material compuesto por más del 90 por ciento de silicatos ferromagnesianos"@es ,
-         "Material consists of greater than 90 percent ferromagnesian silicate minerals"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "ultramáfico"@es ,
-        "ultramafic"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ultrabasica> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Contiene entre aproximadamente un 20 y un 44 por ciento de SiO2. Una encuesta de análisis químicos en la base de datos de Georock (consulta PARA TODOS LOS ENTORNOS GEOLÓGICOS, MATERIAL: ROCA ENTERA (Y VIDRIO VOLCÁNICO), PUB. AÑOS: 2005-1970), 10/10/2005, http: //georoc.mpch-mainz .gwdg. Sinónimo: ultrabásico"@es ,
-         "Containing between about 20 and 44 percent SiO2. A survey of chemical analyses in the Georock database (query FOR ALL GEOLOGICAL SETTINGS, MATERIAL: WHOLE ROCK (AND VOLCANIC GLASS), PUB. YEARS: 2005-1970), 10/10/2005, http://georoc.mpch-mainz.gwdg. syn ultrabasic"@en ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "ultrabásica"@es ,
-        "very low silica chemistry"@en .
+    skos:prefLabel "dolomitic"@en,
+        "dolomítico"@es ;
+    adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/epiclastico> a skos:Concept ;
-    dcterms:provenance "this vocabulary"@en ;
+    dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Material sedimentario  que contiene importantes fragmentos de roca volcánica rotos o fragmentos vítreos, independientemente de su origen piroclástico o epiclástico"@es ,
-         "Sedimentary material contains significant broken volcanic rock fragments or vitric fragments, irrespective of their pyroclastic or epiclastic origin"@en ;
+    skos:definition "Sedimentary material contains significant broken volcanic rock fragments or vitric fragments, irrespective of their pyroclastic or epiclastic origin"@en,
+        "Material sedimentario  que contiene importantes fragmentos de roca volcánica rotos o fragmentos vítreos, independientemente de su origen piroclástico o epiclástico"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/volcanic_lithic> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "epiclástico"@es ,
-        "volcanic lithic"@en .
+    skos:prefLabel "volcanic lithic"@en,
+        "epiclástico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/feldespatico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Sedimentary material contains significant feldspar mineral content"@en,
+        "El material sedimentario tiene un impotante contenido de feldespatos"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/feldspathic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "feldspathic"@en,
+        "feldespático"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ferruginoso> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Greater than accessory amount (greater than 5 percent by volume) of non-silicate iron minerals (hematite, magnetite, siderite...) are present. Rocks containing abundant iron-rich silicate minerals would use the 'Ferromagnesian' terms"@en,
+        "Presenta una cantidad mayor que como componente accesorio (más del 5 por ciento en volumen) de minerales de hierro no silicatados (hematita, magnetita, siderita ...). Las rocas que contienen abundantes silicatos ricos en hierro corresponderían a los términos 'ferromagnesianos'"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/ferruginous> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "ferruginous"@en,
+        "ferruginoso"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fluoruros> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Fluorine is the most abundant (mole percent) anion"@en,
+        "El flúor es el anión más abundante (porcentaje en moles)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/fluoride_chemistry> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "fluoride chemistry"@en,
+        "fluoruros"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fosfatico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Greater than accessory amount (greater than 5 percent by volume) of phosphate minerals are present"@en,
+        "Presenta una cantidad mayor que la accesoria (más del 5 por ciento en volumen) de minerales de fosfato"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/phosphatic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "phosphatic"@en,
+        "fosfático"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fosfato> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Phosphate (PO4) is the most abundant (mole percent) anion"@en,
+        "El fosfato (PO4) es el anión más abundante (en porcentaje molar)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/phosphate_chemistry> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "phosphate chemistry"@en,
+        "fosfato"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/intracastico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Carbonate sedimentary material contains signficant intraclast content"@en,
+        "Carbonatos sedimentarios con un contenido importante de intraclastos"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/intraclastic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "intraclastic"@en,
+        "intracástico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarcosa> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa> ;
+    skos:definition "Sandstone petrographic composition term indicating that detrital mode for clastic rock (Q-F-L) includes less than 75 percent quartz and the ratio of lithic fragments to feldspar is between 1:1 and 1:3. This corresponds to the lithic arkose field of Folk (1968), the 75 percent quartz boundary is chosen to be consistent with quartzsose composition as defined in the mineralogic compostion terms vocabulary. Because of the abundance of lithic fragments for which the mineralogic composition is not specified, and the presence of undiscernible matrix and cement that are not incuded in the detrital mode, corresondence with the mineralogical composition terms is very approximate"@en,
+        "Término de composición petrográfica para arenitas en la que la proporción de cuarzo es inferior al 75% con respecto al total de elementos terrígenos y en la que el contenido de fragmentos de otras rocas respecto al de feldespatos está comprendido entre 1: 1 y 1: 3. Esto corresponde al campo arcoso lítico de Folk (1968). Debido a la abundancia de fragmentos líticos para los cuales no se especifica la composición mineralógica, y la presencia de matriz y cemento no discernibles no incluidos como componentes detríticos, la correspondencia con los términos de composición mineralógica es muy aproximada"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/lithic_arkosic_detrital_mode> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "lithic arkosic detrital mode"@en,
+        "litarcosa"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarenita> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Sandstone petrographic composition term indicating that detrital mode for clastic rock (Q-F-L) includes less than 75 percent quartz and the lithic to feldspar ratio is greater than 3 to 1. This corresponds to the litharenite field of Folk (1968). Because the mineralogy of the lithic fragments is not constrained, the mineralogical composition is largely independent of the detrital mode composition for this class"@en,
+        "Término de composición petrográfica para arenitas en la que la proporción de cuarzo es inferior al 75% con respecto al total de elementos terrígenos y en la que el contenido de fragmentos de otras rocas respecto al de feldespatos es mayor de 3 a 1. Esto corresponde al campo de litarenita de Folk (1968). Debido a que la mineralogía de los fragmentos líticos no está definida, no puede establecerse una composición mineralógica determinada"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/lithic_detrital_mode> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "lithic detrital mode"@en,
+        "litarenita"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarenitico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Sandstone petrographic composition term indicating that the ratio of lithic fragments to feldspar is greater than 1:1, and less than 75 percent quartz is present in the detrital mode. Because the mineralogy of the lithic fragments is not constrained, the mineralogical composition is largely independent of the detrital mode composition for this class"@en,
+        "Término de composición petrográfica para en la que la proporción de cuarzo es inferior al 75% con respecto al total de elementos terrígenos y en la que el contenido de fragmentos de otras rocas es mayor que el de feldespatos. Debido a que la mineralogía de los fragmentos líticos no está definida, no puede establecerse una composición mineralógica determinada"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/lithic_rich_detrital_mode> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "lithic rich detrital mode"@en,
+        "litarenítico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Sedimentary material contains significant detrital rock fragments derived by erosion from older, pre-existing rock materials"@en,
+        "El material sedimentario tiene un contenido significativo de fragmentos de roca derivados de la erosión de materiales rocosos preexistentes"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/lithic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "lithic"@en,
+        "lítico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/mafico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ferromagnesiano> ;
+    skos:definition "Material consists of greater than or equal to 40 percent and less than 90 percent ferromagnesian silicate minerals"@en,
+        "Material compuesto por silicatos ferromagnesianos con proporciones comprendidas entre el 40% y 90%"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/mafic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "mafic"@en,
+        "máfico"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/metaluminoso> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Chemical composition term used for igneous rocks, denoting that content of aluminum oxide is greater than sodium oxide plus potassium oxide, but aluminum oxide less than sum of Na, K and Ca oxide"@en,
+        "Término de composición química utilizado para rocas ígneas, que indica que el contenido de óxido de aluminio es mayor que el óxido de sodio más el óxido de potasio, pero el óxido de aluminio es menor que la suma de óxido de Na, K y Ca"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/metaluminous> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "metaluminous"@en,
+        "metaluminoso"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/micaceo> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Greater than accessory amount (greater than 5 percent by volume) of mica group mineral are present"@en,
+        "Hay una cantidad mayor de  minerales del grupo de la mica que como componentes accesorios ( 5 por ciento en volumen)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/micaceous> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "micaceous"@en,
+        "micáceo"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/monomictico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Grains or clasts are composed of a single rock or mineral type (Jackson, 1997)"@en,
+        "Los granos o clastos están compuestos por un solo tipo de roca o mineral (Jackson, 1997)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/monomictic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "monomictic"@en,
+        "monomíctico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/monomineralico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Greater than 75 percent of the material consists of a single mineral species"@en,
+        "Más del 75 por ciento del material consiste en una sola especie mineral"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/mono_mineralic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "mono mineralic"@en,
+        "monominerálico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/otra-composicion> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Composition is known but doesn’t' fit in any other category"@en,
+        "De composición  conocida pero que no encaja en ninguna otra categoría"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/other_composition> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "other composition"@en,
+        "otra composición"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/oxido> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Material predominantly composed of oxide minerals"@en,
+        "Material compuesto predominantemente por óxidos metálicos"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/oxide> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "oxide"@en,
+        "óxido"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico-cuarzofeldespatico> ;
+    skos:definition "Material for which the sum of modal quartz+feldspar+ mica + aluminous mineral is greater than or equal to 70 percent, and aluminous mineral + mica content is greater than or equal to 40 percent"@en,
+        "Material para el cual la suma de cuarzo modal + feldespato + mica + mineral aluminoso es mayor o igual al 70 por ciento, y el contenido de mineral aluminoso + mica es mayor o igual al 40 por ciento"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/pelitic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "pelitic"@en,
+        "pelítico"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/peralcalino> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Aluminum oxide (Al2O3) is less than sum of K and Na oxide"@en,
+        "El contenido de óxido de aluminio (Al2O3) es menor que la suma de los óxidos de K y Na"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/peralkaline> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "peralkaline"@en,
+        "peralcalino"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/peraluminoso> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Aluminum oxide (Al2O3) greater than sum of Na, K and Ca oxide"@en,
+        "El contenido de óxido de aluminio (Al2O3) es mayor que la suma de los óxidos de Na, K y Ca"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/peraluminous> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "peraluminous"@en,
+        "peraluminoso"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/petrolifero> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Crude oil or natural gas is present, generally in trace amounts, commonly detected by smell"@en,
+        "Presenta petróleo o gas natural, generalmente en cantidades mínimas, comúnmente detectado por el olor"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/petroliferous> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "petroliferous"@en,
+        "petrolífero"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/polimictico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Grains or clasts are composed of many mineral or rock types"@en,
+        "Los granos o clastos son de muchos tipos de minerales o rocas"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/polymictic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "polymictic"@en,
+        "polimíctico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-intermedia> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-silicatada> ;
+    skos:definition "Containing SiO2 in the range 52-65 percent, sometimes described as \\intermediate\\ rocks"@en,
+        "Roca ígnea cuyo contenido en SIO2 está comprendido entre el 52 y el 65%"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/intermediate_silica_chemistry> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "intermediate silica chemistry"@en,
+        "roca intermedia"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/semipelitico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico-cuarzofeldespatico> ;
+    skos:definition "Material for which the sum of modal quartz+feldspar+ mica + aluminous mineral is greater than or equal to 70 percent, and quartz+ feldspar less than 60 percent"@en,
+        "Material para el cual la suma de cuarzo modal + feldespato + mica + mineral aluminoso es mayor o igual al 70 por ciento, y cuarzo + feldespato menor del 60 por ciento"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/semi_pelitic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "semi pelitic"@en,
+        "semipelítico"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/silicico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Greater than accessory amount (greater than 5 percent by volume) of silica, amorphous, as quartz, or any of the silica polymorphs are present"@en,
+        "Hay una cantidad mayor que la accesoria (más del 5 por ciento en volumen) de sílice, amorfa, como cuarzo o cualquiera de los polimorfos de sílice"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/silicic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "silicic"@en,
+        "silícico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sin-especificar> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Composition not specified. Use in normative descriptions where any composition property is allowed"@en,
+        "Composición no especificada. Usar en descripciones normativas donde se permite cualquier propiedad de composición"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/composition_not_specified> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "composition not specified"@en,
+        "sin especificar"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/subaluminoso> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Aluminum oxide within 10 percent of sum of Na and K oxide"@en,
+        "Con una proporción de óxido de aluminio inferior al 10 por ciento de la suma de  los óxidos de Na y K"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/subaluminous> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "subaluminous"@en,
+        "subaluminoso"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/subarcosa> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Sandstone petrographic composition term indicating that detrital mode for clastic rock (Q-F-L) includes less than 50 percent lithic fragments, between 75 and 95 percent quartz (thus less than 25 percent feldspar). This corresponds to the subarkose field of Folk (1968), the 75 percent quartz boundary is consistent with the quartzsose composition as defined in the mineralogic compostion terms vocabulary, but if more than a few percent 'matrix' or cement is present, this is not necessarily equivalent to the mineralogical composition term."@en,
+        "Término de composición petrográfica de arenitas en la que la proporción de cuarzo está comprendida entre el 75 y el 95% con respecto al total de elementos terrígenos y en la que el contenido de feldespatos es mayor que el de fragmentos de otras rocas. Se corresponde con el campo de subarcosa de Folk (1968)."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/sub_feldspathic_detrital_mode> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "sub feldspathic detrital mode"@en,
+        "subarcosa"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sublitarenita> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Sandstone petrographic composition term indicating that detrital mode for clastic rock (Q-F-L) includes more than 50 percent lithic fragments, between 75 and 95 percent quartz (thus less than 25 percent feldspar). This corresponds to the sublitharenite field of Folk (1968), the 75 percent quartz boundary is consistent with quartzsose composition as defined in the mineralogic compostion terms vocabulary"@en,
+        "Término de composición petrográfica de arenitas en la que la proporción de cuarzo está comprendida entre el 75 y el 95% con respecto al total de elementos terrígenos y en la que el contenido de fragmentos de otras rocas es mayor que el de feldespatos. Se corresponde con el campo de sublitarenita de Folk (1968)."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/sub_lithic_detrital_mode> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "sub lithic detrital mode"@en,
+        "sublitarenita"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfatado> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Sulfate is the most abundant anion"@en,
+        "El sulfato es el anión más abundante"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfate_chemistry> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "sulfate chemistry"@en,
+        "sulfatado"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfato> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Material predominantly composed of sulfate minerals"@en,
+        "Material compuesto predominantemente de sulfatos"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfate> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "sulfate"@en,
+        "sulfato"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfosales> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfuroso> ;
+    skos:definition "Sulfide in which a semimetal (As, Sb, Bi) is present in a cation role"@en,
+        "Sulfuro en el que está presente un semimetal (As, Sb, Bi) como catión"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfosalt_chemistry> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "sulfosalt chemistry"@en,
+        "sulfosales"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfuro> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-sulfuros> ;
+    skos:definition "Material predominantly composed of sulfide minerals"@en,
+        "Material compuesto predominantemente de sulfuros"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfide> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "sulfide"@en,
+        "sulfuro"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ultrabasica> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-silicatada> ;
+    skos:definition "Containing between about 20 and 44 percent SiO2. A survey of chemical analyses in the Georock database (query FOR ALL GEOLOGICAL SETTINGS, MATERIAL: WHOLE ROCK (AND VOLCANIC GLASS), PUB. YEARS: 2005-1970), 10/10/2005, http://georoc.mpch-mainz.gwdg. syn ultrabasic"@en,
+        "Contiene entre aproximadamente un 20 y un 44 por ciento de SiO2. Una encuesta de análisis químicos en la base de datos de Georock (consulta PARA TODOS LOS ENTORNOS GEOLÓGICOS, MATERIAL: ROCA ENTERA (Y VIDRIO VOLCÁNICO), PUB. AÑOS: 2005-1970), 10/10/2005, http: //georoc.mpch-mainz .gwdg. Sinónimo: ultrabásico"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/very_low_silica_chemistry> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "very low silica chemistry"@en,
+        "ultrabásica"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ultramafico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ferromagnesiano> ;
+    skos:definition "Material consists of greater than 90 percent ferromagnesian silicate minerals"@en,
+        "Material compuesto por más del 90 por ciento de silicatos ferromagnesianos"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/ultramafic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "ultramafic"@en,
+        "ultramáfico"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "General sandstone petrography term for a sandstone in which the ratio of feldspar to lithic fragments is greater than 1:1 and less than 75 percent quartz is present in the detrital mode. Subsumes lithic arkosic and arkosic sandstone petrographic composition classes. Usage of modifier feldspathic is consistent with petrographic subdivisions of Dott (1964) and Williams, Turner and Gilbert (1982)"@en,
+        "Término de composición petrográfica para arenitas en la que la proporción de cuarzo es inferior al 75% con respecto al total de elementos terrígenos y en la que el contenido de feldespatos es mayor que el de fragmentos de otras rocas. Incluye clases de composición petrográfica de arenisca arcosica y arcosa lítica. El uso del modificador feldespático es consistente con las subdivisiones petrográficas de Dott (1964) y Williams, Turner y Gilbert (1982"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/feldspathic_detrital_mode> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarcosa> ;
+    skos:prefLabel "feldspathic detrital mode"@en,
+        "arcosa"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa-litica> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Sandstone petrographic composition term indicating that detrital mode for clastic rock (Q-F-L) includes less than 75 percent quartz and the feldspar to lithic ratio is between 1 to 1 and 1 to 3. This corresponds to the feldspathic litharenite field of Folk (1968). Rocks in this class are likely to be quartzo-feldspathic in terms of mineralogical composition terms in this vocablary, but because the mineralogical composition of the lithic fraction is not constrainged, this correlation is not necessary"@en,
+        "Término de composición petrográfica para arenitas en la que la proporción de cuarzo es inferior al 75% con respecto al total de elementos terrígenos y en la que la relación entre feldespatos y fragmentos de otras rocas no supera 3:1. Esto corresponde al campo de litarenita feldespática de Folk (1968). Es probable que las rocas de esta clase sean cuarzo-feldespáticas en términos de composición mineralógica en este vocabulario, pero debido a que la composición mineralógica de la fracción lítica no está restringida, esta correlación no es necesaria"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/feldspathic_lithic_detrital_mode> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosico> ;
+    skos:prefLabel "feldspathic lithic detrital mode"@en,
+        "arcosa lítica"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonaceo> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Material containing significant carbon or hydrocarbon mineral phases, including graphite, coal, oil, gas, lignite, peat"@en,
+        "Material que contiene importantes fases minerales de carbono o hidrocarburos, incluidos grafito, carbón, petróleo, gas, lignito, turba"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonaceous> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/asfaltico> ;
+    skos:prefLabel "carbonaceous"@en,
+        "carbonáceo"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-hierro> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonatico> ;
+    skos:definition "CO3 is the predominant anion, and iron is greater than 5 mole percent of the cations (includes Fe, Mg, Mn, Ba, Sr, Ca...)"@en,
+        "El CO3 es el anión predominante y el hierro es superior al 5 por ciento en moles de los cationes (incluye Fe, Mg, Mn, Ba, Sr, Ca ...)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/iron_bearing_carbonate_chemistry> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-ferruginoso> ;
+    skos:prefLabel "iron bearing carbonate chemistry"@en,
+        "carbonato con hierro"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-impuro> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Material consists of greater than 50 percent calcsilicate or carbonate minerals and relative proportion of calcsilicate and carbonate minerals is unknown or not specified"@en,
+        "Contiene más del 50 por ciento de calcosilicatos o carbonatos y se desconoce o no se especifica la proporción relativa de calcosilicatos y carbonatos"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/impure_calcsilicate_or_carbonate> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcosilicato> ;
+    skos:prefLabel "impure calcsilicate or carbonate"@en,
+        "carbonato impuro"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-sulfuros> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Greater than accessory amount (greater than 5 percent by volume) of sulfide mineral are present"@en,
+        "Contiene una proporción de sulfuros superior a la de componente accesorio (más del 5 por ciento en volumen)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfide_bearing> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfuro> ;
+    skos:prefLabel "sulfide bearing"@en,
+        "con sulfuros"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarzofeldespatico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico-cuarzofeldespatico> ;
+    skos:definition "Material for which the sum of modal quartz+feldspar+ mica + aluminous mineral is greater than or equal to 70 percent, and quartz + feldspar (sensu Robertson, 1999) greater than 60 percent"@en,
+        "Material para el cual la suma de cuarzo modal + feldespato + mica + mineral alumínico es mayor o igual del 70%, y cuarzo + feldespato (sensu Robertson, 1999) mayor del 60%"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/quartzo_feldspathic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarcitico> ;
+    skos:prefLabel "quartzo feldspathic"@en,
+        "cuarzofeldespático"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/haluros> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "One or more of halide group elements (F, Cl, Br, I) are most abundant (mole percent) anion"@en,
+        "Uno o más de los elementos del grupo de los haluros (F, Cl, Br, I) son el anión más abundante (porcentaje en moles)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/halide_chemistry> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-nitratos> ;
+    skos:prefLabel "halide chemistry"@en,
+        "haluros"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfuroso> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Sulfur is the most abundant anion, cations are metals or semimetals"@en,
+        "El azufre es el anión más abundante, los cationes son metales o semimetales"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfide_chemistry> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfosales> ;
+    skos:prefLabel "sulfide chemistry"@en,
+        "sulfuroso"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Material consists of greater than 50 percent calcsilicate or carbonate minerals and carbonate minerals greater than calcsilicate minerals in mineral mode. Metacarbonate of NADMSC SLTTm (2004) terminology, adopted here for non-genetic use"@en,
+        "Material compuesto por más del 50 por ciento de calcosilicatos o carbonatos en el que la proporción de carbonatos es mayor que la de los calcosilicatos.  Corresponde al término metacarbonato de la terminología NADMSC SLTT (2004), que se adopta aquí sin consideraciones genéticas"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonate> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-barita>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-monomineralico> ;
+    skos:prefLabel "carbonate"@en,
+        "carbonato"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-monomineralico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato> ;
+    skos:definition "Rock in which carbonate minerals form greater than 75 percent of rock"@en,
+        "Roca compuesta por mas de un 75%  de minerales de carbonato"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/monomineralic_carbonate> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcareo-monomineralico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/dolomita> ;
+    skos:prefLabel "monomineralic carbonate"@en,
+        "carbonato monominerálico"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-carbonatos> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Carbonate minerals of any sort are present, but less than 50 percent of rock"@en,
+        "Presenta minerales de carbonato de cualquier tipo, pero en una proporción inferior al  50 por ciento de la roca"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonate_bearing> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcareo>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/dolomitico> ;
+    skos:prefLabel "carbonate bearing"@en,
+        "con carbonatos"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ferromagnesiano> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Material consists of greater than 40 percent dark ferromagnesian silicate minerals. Standard term defined by Bates and Jackson (1987) to mean 'containing iron and magnesium'. Subsumes mafic and ultramafic"@en,
+        "Material que tiene más del 40 por ciento de silicatos ferromagnesianos oscuros. Término estándar definido por Bates y Jackson (1987) como \"que contiene hierro y magnesio\". Incluye máficos y ultramáficos"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/ferromagnesian> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/mafico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ultramafico> ;
+    skos:prefLabel "ferromagnesian"@en,
+        "ferromagnesiano"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonatico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "The carbonate (CO3) anion is the predominant anion (by mole percent) in chemical analysis. Sub-categories may be defined by dominant cation. Material in this chemical class overlaps with the monomineralic carbonate class, and probably overlaps with the Carbonate class in the mineralogical composition classification"@en,
+        "El anión carbonato (CO3) es el anión predominante (por porcentaje molar) en el análisis químico. Las subcategorías pueden definirse por el catión dominante. El material de esta clase química se superpone con la clase de carbonato monomineral y probablemente se superpone con la clase de carbonato en la clasificación de composición mineralógica"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonate_chemistry> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-rico-en-calcio> ;
+    skos:prefLabel "carbonate chemistry"@en,
+        "carbonático"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico-cuarzofeldespatico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Material for which the sum of modal quartz+feldspar+ mica + aluminous mineral is greater than or equal to 70 percent"@en,
+        "Material para el cual la suma de cuarzo modal + feldespato + mica + mineral alumínico es mayor o igual al 70%"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/quartz_feldspar_pelitic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarzofeldespatico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/semipelitico> ;
+    skos:prefLabel "quartz feldspar pelitic"@en,
+        "pelítico cuarzofeldespático"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-silicatada> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Composed of minerals whose crystal structure contains SiO4 tetrahedra, either isolated or joined through one or more oxygen atoms to form groups, chains, sheets or three-dimensional structures with metallic cations. Composition ranges from 20-100 percent SiO2. Typically some Al substitutues for silica. A survey of chemical analyses in the Georock database (query FOR ALL GEOLOGICAL SETTINGS, MATERIAL: WHOLE ROCK (AND VOLCANIC GLASS), PUB. YEARS: 2005-1970), 10/10/2005, http://georoc.mpch-mainz.gwdg.de/georoc/Entry.html) discovered that the lowest silica (Si02) content for igneous rock is about 20 percent. This is consistent with the lowest silica content found for a silicate mineral is about 21 percent for a chlorite variety found by scanning the mineral analyses in Deer, Howie, and Zussman (1966)"@en,
+        "Compuesto por minerales cuya estructura cristalina contiene tetraedros de SiO4, ya sea aislados o unidos a través de uno o más átomos de oxígeno para formar grupos, cadenas, láminas o estructuras tridimensionales con cationes metálicos. La composición varía entre el 20 y el 100 por ciento de SiO2. Típicamente, algunos sustitutos de la sílice son Al. Una encuesta de análisis químicos en la base de datos de Georock (consulta PARA TODOS LOS ENTORNOS GEOLÓGICOS, MATERIAL: ROCA ENTERA (Y VIDRIO VOLCÁNICO), PUB. AÑOS: 2005-1970), 10/10/2005, http: //georoc.mpch-mainz .gwdg.de / georoc / Entry.html) descubrió que el contenido más bajo de sílice (Si02) para las rocas ígneas es de aproximadamente el 20 por ciento. Esto concuerda con que el contenido de sílice más bajo encontrado para un mineral de silicato es aproximadamente un 21 por ciento para una variedad de clorita que se encuentra al escanear los análisis de minerales en Deer, Howie y Zussman (1966)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/silicate_chemistry> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/acida>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/basica>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-intermedia>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ultrabasica> ;
+    skos:prefLabel "silicate chemistry"@en,
+        "roca silicatada"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> a skos:ConceptScheme ;
+    dcterms:created "2025-10-07"^^xsd:date ;
+    dcterms:creator "Insituto Geológico y Minero de España (CN CSIC-IGME)" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:provenance "Términos propios definidos por el IGME" ;
+    dcterms:publisher <https://www.igme.es/> ;
+    owl:versionInfo "1.0.0" ;
+    skos:definition "The unitComposition property provides a term from a composition-based classification that requires summarising the overall character of the unit. It is not applicable at the rock material or specimen level. Examples are: alkalic, subaluminous, peraluminous, I-Type, carbonate, phosphate."@en,
+        "Términos basado en una clasificación composicional que resume el carácter general de la unidad. No es aplicable al nivel de material rocoso o de muestra. Ejemplos: alcalina, subaluminosa, peraluminosa, tipo I, carbonatada, fosfatada."@es ;
+    skos:editorialNote "Este archivo contiene el vocabulario Tipo de categoría de composición."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcilloso>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa-litica>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/bioclastico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonaceo>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonatico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-impuro>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonoso>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/clorado>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cloritico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-calcosilicatos>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-carbonatos>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-oxidos>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-sulfuros>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarzarenita>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/epiclastico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/feldespatico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ferromagnesiano>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/ferruginoso>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fluoruros>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fosfatico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/fosfato>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/haluros>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/intracastico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarenita>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litarenitico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/litico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/metaluminoso>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/micaceo>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/monomictico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/monomineralico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/otra-composicion>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/oxido>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico-cuarzofeldespatico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/peralcalino>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/peraluminoso>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/petrolifero>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/polimictico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/roca-silicatada>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/silicico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sin-especificar>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/subaluminoso>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/subarcosa>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sublitarenita>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfatado>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfato>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfuroso> ;
+    skos:prefLabel "Composition category"@en,
+        "Tipo de categoría de composición"@es .
+

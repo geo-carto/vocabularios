@@ -1,0 +1,106 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://geo-carto.github.io/vocabularios/estado/collection> a skos:Collection ;
+    dcterms:provenance "este vocabulario" ;
+    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:member <https://geo-carto.github.io/vocabularios/estado/invalido>,
+        <https://geo-carto.github.io/vocabularios/estado/propuesto>,
+        <https://geo-carto.github.io/vocabularios/estado/retirado>,
+        <https://geo-carto.github.io/vocabularios/estado/sustituido>,
+        <https://geo-carto.github.io/vocabularios/estado/valido> ;
+    skos:prefLabel "Estado - Todos los conceptos"@es .
+
+<https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
+    sdo:name "CGI Geoscience Terminology Working Group" ;
+    sdo:url <http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html> .
+
+<https://linked.data.gov.au/org/cgi> a sdo:Organization ;
+    sdo:name "Commission for the Management and Application of Geoscience Information" ;
+    sdo:url <http://www.cgi-iugs.org> .
+
+<https://geo-carto.github.io/vocabularios/estado/invalido> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/estado> ;
+    skos:definition "A decision has been made that a previously valid register item contains a substantial error and is invalid, and will normally have been replaced by a corrected item."@en,
+        "Se ha determinado que un elemento previamente válido contiene un error sustancial y es inválido; normalmente habrá sido reemplazado por un elemento corregido."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/registry/status/invalid> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/estado> ;
+    skos:prefLabel "Invalid"@en,
+        "Inválido"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/estado> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/estado/propuesto> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/estado> ;
+    skos:definition "The item has been entered into the register, but the control body has not accepted the proposal to add it."@en,
+        "El elemento ha sido incorporado al registro, pero el órgano de control no ha aceptado la propuesta de añadirlo."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/registry/status/submitted> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/estado> ;
+    skos:prefLabel "Submitted"@en,
+        "Propuesto"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/estado> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/estado/retirado> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/estado> ;
+    skos:definition "A decision has been made that the item is no longer recommended for use. It has not been superseded by another item."@en,
+        "Se ha decidido que el elemento ya no se recomienda para su uso. No ha sido sustituido por otro elemento."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/registry/status/retired> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/estado> ;
+    skos:prefLabel "Retired"@en,
+        "Retirado"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/estado> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/estado/sustituido> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/estado> ;
+    skos:definition "The item has been superseded by another item and is no longer recommended for use."@en,
+        "El elemento ha sido sustituido por otro y ya no se recomienda su uso."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/registry/status/superseded> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/estado> ;
+    skos:prefLabel "Superseded"@en,
+        "Sustituido"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/estado> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/estado/valido> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/estado> ;
+    skos:definition "The item has been accepted, is recommended for use, and has not been superseded or retired."@en,
+        "El elemento ha sido aceptado, se recomienda su uso y no ha sido sustituido ni retirado."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/registry/status/valid> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/estado> ;
+    skos:prefLabel "Valid"@en,
+        "Válido"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/estado> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/estado> a skos:ConceptScheme ;
+    dcterms:created "2025-10-07"^^xsd:date ;
+    dcterms:creator "ISO 19135:2026" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:provenance "Términos definidos en ISO 19135:2026" ;
+    dcterms:publisher <https://www.igme.es/> ;
+    owl:versionInfo "1.0.1" ;
+    skos:definition "Status from ISO 19135:2026"@en,
+        "Estados tomados de ISO 19135:2026"@es ;
+    skos:editorialNote "Este archivo contiene el vocabulario Estado."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/estado/invalido>,
+        <https://geo-carto.github.io/vocabularios/estado/propuesto>,
+        <https://geo-carto.github.io/vocabularios/estado/retirado>,
+        <https://geo-carto.github.io/vocabularios/estado/sustituido>,
+        <https://geo-carto.github.io/vocabularios/estado/valido> ;
+    skos:prefLabel "Status"@en,
+        "Estado"@es .
+
