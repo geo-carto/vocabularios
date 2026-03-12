@@ -30,16 +30,16 @@
   ],
   "relatedMatch": [
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ypresian"
-    },
-    {
-      "id": "http://resource.geosciml.org/classifier/ics/ischart/Ypresian"
-    },
-    {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lutetian"
     },
     {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ypresian"
+    },
+    {
       "id": "http://resource.geosciml.org/classifier/ics/ischart/Lutetian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Ypresian"
     }
   ],
   "inScheme": [
@@ -48,11 +48,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }

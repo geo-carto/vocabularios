@@ -37,22 +37,22 @@
   ],
   "relatedMatch": [
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/piacenzian"
-    },
-    {
-      "id": "http://resource.geosciml.org/classifier/ics/ischart/Piacenzian"
-    },
-    {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/calabrian"
     },
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/gelasian"
     },
     {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/piacenzian"
+    },
+    {
       "id": "http://resource.geosciml.org/classifier/ics/ischart/Calabrian"
     },
     {
       "id": "http://resource.geosciml.org/classifier/ics/ischart/Gelasian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Piacenzian"
     }
   ],
   "inScheme": [
@@ -61,11 +61,6 @@
     }
   ],
   "inSchemeAll": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
-    }
-  ],
-  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
