@@ -1,0 +1,195 @@
+{
+  "id": "https://geo-carto.github.io/vocabularios/litologia/andesita",
+  "type": "Concept",
+  "prefLabel": {
+    "es": "andesita",
+    "en": "andesite"
+  },
+  "definition": {
+    "es": "Roca volcánica con un contenido inferior al 20 por ciento de cuarzo y al 10 por ciento de feldespatoide, entre los componentes qapf; la relación entre la plagioclasa y el total de feldespato es superior al 65 por ciento. normalmente está formada por plagioclasa (frecuentemente zonada de labradorita a oligoclasa), piroxeno, hormblenda y/o biotita. es el equivalente de grano fino de las rocas dioríticas. incluye a las rocas cuya composición modal corresponde a los sectores 9 y 10 del diagrama qapf, o cuya composición química se sitúa en el campo o2 del diagrama tas. el basalto y la andesita comparten los mismos sectores en el diagrama qapf, diferenciándose químicamente por su contenido en sílice, siendo el del basalto inferior al 52 por ciento de su peso. si no se dispone de la composición química, se clasifican a partir del índice de color, en cuyo caso el basalto contiene más de un 35 por ciento de minerales máficos en volumen o más del 40 por ciento en peso.",
+    "en": "Fine-grained igneous rock with less than 20 percent quartz and less than 10 percent feldspathoid minerals in the qapf fraction, in which the ratio of plagioclase to total feldspar is greater 0.65. includes rocks defined modally in qapf fields 9 and 10 or chemically in tas field o2 as andesite. basalt and andesite, which share the same qapf fields, are distinguished chemically based on silica content, with basalt defined to contain less than 52 weight percent silica. if chemical data are not available, the color index is used to distinguish the categories, with basalt defined to contain greater than 35 percent mafic minerals by volume or greater than 40 percent mafic minerals by weight. typically consists of plagioclase (frequently zoned from labradorite to oligoclase), pyroxene, hornblende and/or biotite. fine grained equivalent of dioritic rock."
+  },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia/boninita",
+      "prefLabel": {
+        "es": "boninita",
+        "en": "boninite"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/litologia/roca-afanitica",
+    "prefLabel": {
+      "es": "roca afanítica",
+      "en": "fine grained igneous rock"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/Lithology/andesite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/andesite"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia"
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}
