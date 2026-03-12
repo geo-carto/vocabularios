@@ -3,27 +3,21 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Eoceno Medio",
-    "en": "Middle Eocene",
-    "vl": "Eocè Mitjà"
+    "en": "Middle Eocene"
   },
-  "notation": [
-    "213010220000"
-  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/bartoniense",
       "prefLabel": {
         "es": "Bartoniense",
-        "en": "Bartonian",
-        "vl": "Bartonià"
+        "en": "Bartonian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/luteciense",
       "prefLabel": {
         "es": "Luteciense",
-        "en": "Lutetian",
-        "vl": "Lutecià"
+        "en": "Lutetian"
       }
     }
   ],
@@ -31,8 +25,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/eoceno",
     "prefLabel": {
       "es": "Eoceno",
-      "en": "Eocene",
-      "vl": "Eocè"
+      "en": "Eocene"
     }
   },
   "broadMatch": [

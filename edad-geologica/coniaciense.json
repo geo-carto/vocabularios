@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Coniaciense",
-    "en": "Coniacian",
-    "vl": "Coniacià"
+    "en": "Coniacian"
   },
-  "notation": [
-    "212030203000",
-    "a1.1.2.1.1.4"
-  ],
+  "definition": {
+    "es": "Límite inferior 89.8 +|-0.3 Ma, límite superior 86.3 +|-0.5 Ma",
+    "en": "Older bound 89.8 +|-0.3 Ma, younger bound 86.3 +|-0.5 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-superior",
     "prefLabel": {
       "es": "Cretácico Superior",
-      "en": "Upper Cretaceous",
-      "vl": "Cretaci Superior"
+      "en": "Upper Cretaceous"
     }
   },
   "exactMatch": [

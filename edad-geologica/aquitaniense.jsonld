@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Aquitaniense",
-    "en": "Aquitanian",
-    "vl": "Aquitanià"
+    "en": "Aquitanian"
   },
-  "notation": [
-    "213020111000",
-    "a1.1.1.2.2.6"
-  ],
+  "definition": {
+    "es": "Límite inferior 23.03 Ma, límite superior 20.44 Ma",
+    "en": "Older bound 23.03 Ma, younger bound 20.44 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno-inferior",
     "prefLabel": {
       "es": "Mioceno Inferior",
-      "en": "Lower Miocene",
-      "vl": "Miocè Inferior"
+      "en": "Lower Miocene"
     }
   },
   "related": [
@@ -30,8 +28,7 @@
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/rambliense",
       "prefLabel": {
         "es": "Rambliense",
-        "en": "Ramblian",
-        "vl": "Ramblià"
+        "en": "Ramblian"
       }
     }
   ],

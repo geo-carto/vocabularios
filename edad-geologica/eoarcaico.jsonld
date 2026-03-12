@@ -3,13 +3,12 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Eoarcaico",
-    "en": "Eoarchean",
-    "vl": "Eoarqueà"
+    "en": "Eoarchean"
   },
-  "notation": [
-    "121000000000",
-    "a2.2.4"
-  ],
+  "definition": {
+    "es": "Límite inferior 4031 +|-3 Ma, límite superior 3600 Ma",
+    "en": "Older bound 4031 +|-3 Ma, younger bound 3600 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/arcaico",
     "prefLabel": {

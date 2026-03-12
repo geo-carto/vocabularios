@@ -5,16 +5,15 @@
     "es": "Sidérico",
     "en": "Siderian"
   },
-  "notation": [
-    "131010000000",
-    "a2.1.3.4"
-  ],
+  "definition": {
+    "es": "Límite inferior 2500 Ma, límite superior 2300 Ma",
+    "en": "Older bound 2500 Ma, younger bound 2300 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleoproterozoico",
     "prefLabel": {
       "es": "Paleoproterozoico",
-      "en": "Paleoproterozoic",
-      "vl": "Paleoproterozoic"
+      "en": "Paleoproterozoic"
     }
   },
   "exactMatch": [

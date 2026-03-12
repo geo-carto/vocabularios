@@ -3,32 +3,26 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Mioceno Inferior",
-    "en": "Lower Miocene",
-    "vl": "Miocè Inferior"
+    "en": "Lower Miocene"
   },
   "altLabel": {
     "en": [
       "Early Miocene"
     ]
   },
-  "notation": [
-    "213020110000"
-  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aquitaniense",
       "prefLabel": {
         "es": "Aquitaniense",
-        "en": "Aquitanian",
-        "vl": "Aquitanià"
+        "en": "Aquitanian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/burdigaliense",
       "prefLabel": {
         "es": "Burdigaliense",
-        "en": "Burdigalian",
-        "vl": "Burdigalià"
+        "en": "Burdigalian"
       }
     }
   ],
@@ -36,8 +30,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno",
     "prefLabel": {
       "es": "Mioceno",
-      "en": "Miocene",
-      "vl": "Miocè"
+      "en": "Miocene"
     }
   },
   "broadMatch": [

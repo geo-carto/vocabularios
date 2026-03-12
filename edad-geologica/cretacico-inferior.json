@@ -3,65 +3,58 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Cretácico Inferior",
-    "en": "Lower Cretaceous",
-    "vl": "Cretaci Inferior"
+    "en": "Lower Cretaceous"
   },
   "altLabel": {
     "en": [
       "Early Cretaceous"
     ]
   },
-  "notation": [
-    "212030100000",
-    "a1.1.2.1.2"
-  ],
+  "definition": {
+    "es": "Límite inferior 145 Ma, límite superior 100.5 Ma",
+    "en": "Older bound 145 Ma, younger bound 100.5 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/albiense",
       "prefLabel": {
         "es": "Albiense",
-        "en": "Albian",
-        "vl": "Albià Superior"
+        "en": "Albian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aptiense",
       "prefLabel": {
         "es": "Aptiense",
-        "en": "Aptian",
-        "vl": "Aptià"
+        "en": "Aptian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/barremiense",
       "prefLabel": {
         "es": "Barremiense",
-        "en": "Barremian",
-        "vl": "Barremià"
+        "en": "Barremian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/berriasiense",
       "prefLabel": {
         "es": "Berriasiense",
-        "en": "Berriasian",
-        "vl": "Berriasià"
+        "en": "Berriasian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/hauteriviense",
       "prefLabel": {
         "es": "Hauteriviense",
-        "en": "Hauterivian",
-        "vl": "Hauterivià"
+        "en": "Hauterivian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/valanginiense",
       "prefLabel": {
         "es": "Valanginiense",
-        "en": "Valanginian",
-        "vl": "Valanginià"
+        "en": "Valanginian"
       }
     }
   ],
@@ -69,8 +62,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico",
     "prefLabel": {
       "es": "Cretácico",
-      "en": "Cretaceous",
-      "vl": "Cretaci"
+      "en": "Cretaceous"
     }
   },
   "exactMatch": [

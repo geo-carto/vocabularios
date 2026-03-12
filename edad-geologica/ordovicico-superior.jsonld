@@ -3,25 +3,23 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Ordovícico Superior",
-    "en": "Upper Ordovician",
-    "vl": "Ordovicià Superior"
+    "en": "Upper Ordovician"
   },
   "altLabel": {
     "en": [
       "Late Ordovician"
     ]
   },
-  "notation": [
-    "211020300000",
-    "a1.1.3.5.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 458.4 +|-0.9 Ma, límite superior 443.8 +|-1.5 Ma",
+    "en": "Older bound 458.4 +|-0.9 Ma, younger bound 443.8 +|-1.5 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/hirnantiense",
       "prefLabel": {
         "es": "Hirnantiense",
-        "en": "Hirnantian",
-        "vl": "Hirnantià"
+        "en": "Hirnantian"
       }
     },
     {
@@ -43,8 +41,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico",
     "prefLabel": {
       "es": "Ordovícico",
-      "en": "Ordovician",
-      "vl": "Ordovicià"
+      "en": "Ordovician"
     }
   },
   "exactMatch": [

@@ -3,28 +3,25 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Plioceno",
-    "en": "Pliocene",
-    "vl": "Pliocè"
+    "en": "Pliocene"
   },
-  "notation": [
-    "213020200000",
-    "a1.1.1.2.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 5.333 Ma, límite superior 2.58 Ma",
+    "en": "Older bound 5.333 Ma, younger bound 2.58 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/plioceno-inferior",
       "prefLabel": {
         "es": "Plioceno Inferior",
-        "en": "Lower Pliocene",
-        "vl": "Pliocè Inferior"
+        "en": "Lower Pliocene"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/plioceno-superior",
       "prefLabel": {
         "es": "Plioceno Superior",
-        "en": "Upper Pliocene",
-        "vl": "Pliocè Superior"
+        "en": "Upper Pliocene"
       }
     }
   ],
@@ -32,8 +29,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neogeno",
     "prefLabel": {
       "es": "Neógeno",
-      "en": "Neogene",
-      "vl": "Neogen"
+      "en": "Neogene"
     }
   },
   "exactMatch": [

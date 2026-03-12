@@ -3,36 +3,32 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Llandovery",
-    "en": "Llandovery",
-    "vl": "Llandoverià"
+    "en": "Llandovery"
   },
-  "notation": [
-    "211030100000",
-    "a1.1.3.4.4"
-  ],
+  "definition": {
+    "es": "Límite inferior 443.8 +|-1.5 Ma, límite superior 433.4 +|-0.8 Ma",
+    "en": "Older bound 443.8 +|-1.5 Ma, younger bound 433.4 +|-0.8 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aeroniense",
       "prefLabel": {
         "es": "Aeroniense",
-        "en": "Aeronian",
-        "vl": "Aeronià"
+        "en": "Aeronian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/rhuddaniense",
       "prefLabel": {
         "es": "Rhuddaniense",
-        "en": "Rhuddanian",
-        "vl": "Rhuddanià"
+        "en": "Rhuddanian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/telychiense",
       "prefLabel": {
         "es": "Telychiense",
-        "en": "Telychian",
-        "vl": "Telychià"
+        "en": "Telychian"
       }
     }
   ],
@@ -40,8 +36,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/silurico",
     "prefLabel": {
       "es": "Silúrico",
-      "en": "Silurian",
-      "vl": "Silurià"
+      "en": "Silurian"
     }
   },
   "exactMatch": [

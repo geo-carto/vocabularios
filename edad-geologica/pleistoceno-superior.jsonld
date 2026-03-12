@@ -3,24 +3,22 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Pleistoceno Superior",
-    "en": "Upper Pleistocene",
-    "vl": "Plistocè Superior"
+    "en": "Upper Pleistocene"
   },
   "altLabel": {
     "en": [
       "Late Pleistocene"
     ]
   },
-  "notation": [
-    "213030130000",
-    "a1.1.1.1.2.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 0.129 Ma, límite superior 0.0117 Ma",
+    "en": "Older bound 0.129 Ma, younger bound 0.0117 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno",
     "prefLabel": {
       "es": "Pleistoceno",
-      "en": "Pleistocene",
-      "vl": "Plistocè"
+      "en": "Pleistocene"
     }
   },
   "exactMatch": [

@@ -3,49 +3,44 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Jurásico Inferior",
-    "en": "Lower Jurassic",
-    "vl": "Juràssic Inferior"
+    "en": "Lower Jurassic"
   },
   "altLabel": {
     "en": [
       "Early Jurassic"
     ]
   },
-  "notation": [
-    "212020100000",
-    "a1.1.2.2.3"
-  ],
+  "definition": {
+    "es": "Límite inferior 201.4 +|-0.2 Ma, límite superior 174.7 +|-0.8 Ma",
+    "en": "Older bound 201.4 +|-0.2 Ma, younger bound 174.7 +|-0.8 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/hettangiense",
       "prefLabel": {
         "es": "Hettangiense",
-        "en": "Hettangian",
-        "vl": "Hettangià"
+        "en": "Hettangian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pliensbachiense",
       "prefLabel": {
         "es": "Pliensbachiense",
-        "en": "Pliensbachian",
-        "vl": "Pliensbaquià"
+        "en": "Pliensbachian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/sinemuriense",
       "prefLabel": {
         "es": "Sinemuriense",
-        "en": "Sinemurian",
-        "vl": "Sinemurià"
+        "en": "Sinemurian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/toarciense",
       "prefLabel": {
         "es": "Toarciense",
-        "en": "Toarcian",
-        "vl": "Toarcià"
+        "en": "Toarcian"
       }
     }
   ],
@@ -53,8 +48,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico",
     "prefLabel": {
       "es": "Jurásico",
-      "en": "Jurassic",
-      "vl": "Juràssic"
+      "en": "Jurassic"
     }
   },
   "exactMatch": [

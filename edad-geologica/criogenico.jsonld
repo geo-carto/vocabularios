@@ -3,24 +3,22 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Criogénico",
-    "en": "Cryogenian",
-    "vl": "Criogenià"
+    "en": "Cryogenian"
   },
   "altLabel": {
     "es": [
       "Criogeniense"
     ]
   },
-  "notation": [
-    "133020000000",
-    "a2.1.1.2"
-  ],
+  "definition": {
+    "es": "Límite inferior 720 Ma, límite superior 635 Ma",
+    "en": "Older bound 720 Ma, younger bound 635 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neoproterozoico",
     "prefLabel": {
       "es": "Neoproterozoico",
-      "en": "Neoproterozoic",
-      "vl": "Neoproterozoic"
+      "en": "Neoproterozoic"
     }
   },
   "exactMatch": [

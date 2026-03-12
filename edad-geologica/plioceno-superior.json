@@ -3,24 +3,19 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Plioceno Superior",
-    "en": "Upper Pliocene",
-    "vl": "Pliocè Superior"
+    "en": "Upper Pliocene"
   },
   "altLabel": {
     "en": [
       "Late Pliocene"
     ]
   },
-  "notation": [
-    "213020220000"
-  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/piacenziense",
       "prefLabel": {
         "es": "Piacenziense",
-        "en": "Piacenzian",
-        "vl": "Piacenzià"
+        "en": "Piacenzian"
       }
     }
   ],
@@ -28,8 +23,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/plioceno",
     "prefLabel": {
       "es": "Plioceno",
-      "en": "Pliocene",
-      "vl": "Pliocè"
+      "en": "Pliocene"
     }
   },
   "broadMatch": [

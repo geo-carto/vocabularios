@@ -3,32 +3,26 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Pleistoceno Inferior",
-    "en": "Lower Pleistocene",
-    "vl": "Plistocè Inferior"
+    "en": "Lower Pleistocene"
   },
   "altLabel": {
     "en": [
       "Early Pleistocene"
     ]
   },
-  "notation": [
-    "213030110000"
-  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/calabriense",
       "prefLabel": {
         "es": "Calabriense",
-        "en": "Calabrian",
-        "vl": "Calabrià"
+        "en": "Calabrian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/gelasiense",
       "prefLabel": {
         "es": "Gelasiense",
-        "en": "Gelasian",
-        "vl": "Gelasià"
+        "en": "Gelasian"
       }
     }
   ],
@@ -36,8 +30,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno",
     "prefLabel": {
       "es": "Pleistoceno",
-      "en": "Pleistocene",
-      "vl": "Plistocè"
+      "en": "Pleistocene"
     }
   },
   "broadMatch": [

@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Kunguriense",
-    "en": "Kungurian",
-    "vl": "Kungurià"
+    "en": "Kungurian"
   },
-  "notation": [
-    "211060104000",
-    "a1.1.3.1.3.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 283.5 +|-0.6 Ma, límite superior 273.01 +|-0.14 Ma",
+    "en": "Older bound 283.5 +|-0.6 Ma, younger bound 273.01 +|-0.14 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cisuraliense",
     "prefLabel": {
       "es": "Cisuraliense",
-      "en": "Cisuralian",
-      "vl": "Cisuralià"
+      "en": "Cisuralian"
     }
   },
   "exactMatch": [

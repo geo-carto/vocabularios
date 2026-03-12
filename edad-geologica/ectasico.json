@@ -5,16 +5,15 @@
     "es": "Ectásico",
     "en": "Ectasian"
   },
-  "notation": [
-    "132020000000",
-    "a2.1.2.2"
-  ],
+  "definition": {
+    "es": "Límite inferior 1400 Ma, límite superior 1200 Ma",
+    "en": "Older bound 1400 Ma, younger bound 1200 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesoproterozoico",
     "prefLabel": {
       "es": "Mesoproterozoico",
-      "en": "Mesoproterozoic",
-      "vl": "Mesoproterozoic"
+      "en": "Mesoproterozoic"
     }
   },
   "exactMatch": [

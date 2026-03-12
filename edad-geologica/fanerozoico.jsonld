@@ -5,33 +5,30 @@
     "es": "Fanerozoico",
     "en": "Phanerozoic"
   },
-  "notation": [
-    "210000000000",
-    "a1.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 538.8 +|-0.2 Ma, límite superior 0.0 Ma",
+    "en": "Older bound 538.8 +|-0.2 Ma, younger bound 0.0 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cenozoico",
       "prefLabel": {
         "es": "Cenozoico",
-        "en": "Cenozoic",
-        "vl": "Cenozoic"
+        "en": "Cenozoic"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesozoico",
       "prefLabel": {
         "es": "Mesozoico",
-        "en": "Mesozoic",
-        "vl": "Mesozoic"
+        "en": "Mesozoic"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico",
       "prefLabel": {
         "es": "Paleozoico",
-        "en": "Paleozoic",
-        "vl": "Paleozoic"
+        "en": "Paleozoic"
       }
     }
   ],

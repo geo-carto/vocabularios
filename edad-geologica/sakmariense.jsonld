@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Sakmariense",
-    "en": "Sakmarian",
-    "vl": "Sakmarià"
+    "en": "Sakmarian"
   },
-  "notation": [
-    "211060102000",
-    "a1.1.3.1.3.3"
-  ],
+  "definition": {
+    "es": "Límite inferior 293.51 +|-0.17 Ma, límite superior 290.1 +|-0.26 Ma",
+    "en": "Older bound 293.51 +|-0.17 Ma, younger bound 290.1 +|-0.26 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cisuraliense",
     "prefLabel": {
       "es": "Cisuraliense",
-      "en": "Cisuralian",
-      "vl": "Cisuralià"
+      "en": "Cisuralian"
     }
   },
   "exactMatch": [

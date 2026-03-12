@@ -3,13 +3,12 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Neoarcaico",
-    "en": "Neoarchean",
-    "vl": "Neoarqueà"
+    "en": "Neoarchean"
   },
-  "notation": [
-    "124000000000",
-    "a2.2.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 2800 Ma, límite superior 2500 Ma",
+    "en": "Older bound 2800 Ma, younger bound 2500 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/arcaico",
     "prefLabel": {

@@ -3,13 +3,12 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Holoceno",
-    "en": "Holocene",
-    "vl": "Holocè"
+    "en": "Holocene"
   },
-  "notation": [
-    "213030200000",
-    "a1.1.1.1.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 0.0117 Ma, límite superior 0.0 Ma",
+    "en": "Older bound 0.0117 Ma, younger bound 0.0 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/groenlandiense",
@@ -37,8 +36,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cuaternario",
     "prefLabel": {
       "es": "Cuaternario",
-      "en": "Quaternary",
-      "vl": "Quaternari"
+      "en": "Quaternary"
     }
   },
   "exactMatch": [

@@ -3,13 +3,12 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Mesoarcaico",
-    "en": "Mesoarchean",
-    "vl": "Mesoarqueà"
+    "en": "Mesoarchean"
   },
-  "notation": [
-    "123000000000",
-    "a2.2.2"
-  ],
+  "definition": {
+    "es": "Límite inferior 3200 Ma, límite superior 2800 Ma",
+    "en": "Older bound 3200 Ma, younger bound 2800 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/arcaico",
     "prefLabel": {

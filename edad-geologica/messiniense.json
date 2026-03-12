@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Messiniense",
-    "en": "Messinian",
-    "vl": "Messinià"
+    "en": "Messinian"
   },
-  "notation": [
-    "213020106000",
-    "a1.1.1.2.2.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 7.246 Ma, límite superior 5.333 Ma",
+    "en": "Older bound 7.246 Ma, younger bound 5.333 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno",
     "prefLabel": {
       "es": "Mioceno",
-      "en": "Miocene",
-      "vl": "Miocè"
+      "en": "Miocene"
     }
   },
   "related": [
@@ -23,8 +21,7 @@
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/turoliense",
       "prefLabel": {
         "es": "Turoliense",
-        "en": "Turolian",
-        "vl": "Turiolià"
+        "en": "Turolian"
       }
     }
   ],

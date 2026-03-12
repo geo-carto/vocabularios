@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Serravalliense",
-    "en": "Serravallian",
-    "vl": "Serraval·Lià"
+    "en": "Serravallian"
   },
-  "notation": [
-    "213020104000",
-    "a1.1.1.2.2.3"
-  ],
+  "definition": {
+    "es": "Límite inferior 13.82 Ma, límite superior 11.63 Ma",
+    "en": "Older bound 13.82 Ma, younger bound 11.63 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno",
     "prefLabel": {
       "es": "Mioceno",
-      "en": "Miocene",
-      "vl": "Miocè"
+      "en": "Miocene"
     }
   },
   "exactMatch": [

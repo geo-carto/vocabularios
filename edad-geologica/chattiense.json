@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Chattiense",
-    "en": "Chattian",
-    "vl": "Catià"
+    "en": "Chattian"
   },
-  "notation": [
-    "213010302000",
-    "a1.1.1.3.1.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 27.82 Ma, límite superior 23.03 Ma",
+    "en": "Older bound 27.82 Ma, younger bound 23.03 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/oligoceno",
     "prefLabel": {
       "es": "Oligoceno",
-      "en": "Oligocene",
-      "vl": "Oligocè"
+      "en": "Oligocene"
     }
   },
   "related": [

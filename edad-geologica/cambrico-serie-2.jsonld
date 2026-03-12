@@ -5,10 +5,10 @@
     "es": "Cámbrico Serie 2",
     "en": "Cambrian Series 2"
   },
-  "notation": [
-    "211010200000",
-    "a1.1.3.6.3"
-  ],
+  "definition": {
+    "es": "Límite inferior 521 Ma, límite superior 509 Ma",
+    "en": "Older bound 521 Ma, younger bound 509 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cambrico-piso-3",
@@ -29,8 +29,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cambrico",
     "prefLabel": {
       "es": "Cámbrico",
-      "en": "Cambrian",
-      "vl": "Cambrià"
+      "en": "Cambrian"
     }
   },
   "exactMatch": [

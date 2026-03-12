@@ -3,36 +3,32 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Proterozoico",
-    "en": "Proterozoic",
-    "vl": "Proterozoic"
+    "en": "Proterozoic"
   },
-  "notation": [
-    "130000000000",
-    "a2.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 2500 Ma, límite superior 538.8 +|-0.2 Ma",
+    "en": "Older bound 2500 Ma, younger bound 538.8 +|-0.2 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesoproterozoico",
       "prefLabel": {
         "es": "Mesoproterozoico",
-        "en": "Mesoproterozoic",
-        "vl": "Mesoproterozoic"
+        "en": "Mesoproterozoic"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neoproterozoico",
       "prefLabel": {
         "es": "Neoproterozoico",
-        "en": "Neoproterozoic",
-        "vl": "Neoproterozoic"
+        "en": "Neoproterozoic"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleoproterozoico",
       "prefLabel": {
         "es": "Paleoproterozoico",
-        "en": "Paleoproterozoic",
-        "vl": "Paleoproterozoic"
+        "en": "Paleoproterozoic"
       }
     }
   ],

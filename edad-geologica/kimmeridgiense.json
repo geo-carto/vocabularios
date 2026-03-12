@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Kimmeridgiense",
-    "en": "Kimmeridgian",
-    "vl": "Kimmeridgià"
+    "en": "Kimmeridgian"
   },
-  "notation": [
-    "212020302000",
-    "a1.1.2.2.1.2"
-  ],
+  "definition": {
+    "es": "Límite inferior 154.8 +|-0.8 Ma, límite superior 149.2 +|-0.7 Ma",
+    "en": "Older bound 154.8 +|-0.8 Ma, younger bound 149.2 +|-0.7 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-superior",
     "prefLabel": {
       "es": "Jurásico Superior",
-      "en": "Upper Jurassic",
-      "vl": "Juràssic Superior"
+      "en": "Upper Jurassic"
     }
   },
   "exactMatch": [

@@ -3,13 +3,12 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Mesoproterozoico",
-    "en": "Mesoproterozoic",
-    "vl": "Mesoproterozoic"
+    "en": "Mesoproterozoic"
   },
-  "notation": [
-    "132000000000",
-    "a2.1.2"
-  ],
+  "definition": {
+    "es": "Límite inferior 1600 Ma, límite superior 1000 Ma",
+    "en": "Older bound 1600 Ma, younger bound 1000 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/calimico",
@@ -37,8 +36,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/proterozoico",
     "prefLabel": {
       "es": "Proterozoico",
-      "en": "Proterozoic",
-      "vl": "Proterozoic"
+      "en": "Proterozoic"
     }
   },
   "exactMatch": [

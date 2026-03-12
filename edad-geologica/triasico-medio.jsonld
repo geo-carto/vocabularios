@@ -3,28 +3,25 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Triásico Medio",
-    "en": "Middle Triassic",
-    "vl": "Triàssic Mitjà"
+    "en": "Middle Triassic"
   },
-  "notation": [
-    "212010200000",
-    "a1.1.2.3.2"
-  ],
+  "definition": {
+    "es": "Límite inferior 247.2 Ma, límite superior 237 Ma",
+    "en": "Older bound 247.2 Ma, younger bound 237 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/anisiense",
       "prefLabel": {
         "es": "Anisiense",
-        "en": "Anisian",
-        "vl": "Anisià"
+        "en": "Anisian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ladiniense",
       "prefLabel": {
         "es": "Ladiniense",
-        "en": "Ladinian",
-        "vl": "Ladinià"
+        "en": "Ladinian"
       }
     }
   ],
@@ -32,8 +29,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico",
     "prefLabel": {
       "es": "Triásico",
-      "en": "Triassic",
-      "vl": "Triàsic"
+      "en": "Triassic"
     }
   },
   "exactMatch": [

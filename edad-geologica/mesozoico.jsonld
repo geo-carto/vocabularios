@@ -3,36 +3,32 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Mesozoico",
-    "en": "Mesozoic",
-    "vl": "Mesozoic"
+    "en": "Mesozoic"
   },
-  "notation": [
-    "212000000000",
-    "a1.1.2"
-  ],
+  "definition": {
+    "es": "Límite inferior 251.902 +|-0.024 Ma, límite superior 66 Ma",
+    "en": "Older bound 251.902 +|-0.024 Ma, younger bound 66 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico",
       "prefLabel": {
         "es": "Cretácico",
-        "en": "Cretaceous",
-        "vl": "Cretaci"
+        "en": "Cretaceous"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico",
       "prefLabel": {
         "es": "Jurásico",
-        "en": "Jurassic",
-        "vl": "Juràssic"
+        "en": "Jurassic"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico",
       "prefLabel": {
         "es": "Triásico",
-        "en": "Triassic",
-        "vl": "Triàsic"
+        "en": "Triassic"
       }
     }
   ],

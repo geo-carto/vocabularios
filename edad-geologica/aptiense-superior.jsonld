@@ -3,23 +3,22 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Aptiense Superior",
-    "en": "Upper Aptian",
-    "vl": "Aptià Superior"
+    "en": "Upper Aptian"
   },
   "altLabel": {
     "en": [
       "Late Aptian"
     ]
   },
-  "notation": [
-    "212030105200"
-  ],
+  "definition": {
+    "es": "Límite inferior 119.4 Ma, límite superior 113 Ma",
+    "en": "Older bound 119.4 Ma, younger bound 113 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aptiense",
     "prefLabel": {
       "es": "Aptiense",
-      "en": "Aptian",
-      "vl": "Aptià"
+      "en": "Aptian"
     }
   },
   "broadMatch": [

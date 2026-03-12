@@ -3,28 +3,25 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Eoceno",
-    "en": "Eocene",
-    "vl": "Eocè"
+    "en": "Eocene"
   },
-  "notation": [
-    "213010200000",
-    "a1.1.1.3.2"
-  ],
+  "definition": {
+    "es": "Límite inferior 56 Ma, límite superior 33.9 Ma",
+    "en": "Older bound 56 Ma, younger bound 33.9 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/bartoniense",
       "prefLabel": {
         "es": "Bartoniense",
-        "en": "Bartonian",
-        "vl": "Bartonià"
+        "en": "Bartonian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/eoceno-medio",
       "prefLabel": {
         "es": "Eoceno Medio",
-        "en": "Middle Eocene",
-        "vl": "Eocè Mitjà"
+        "en": "Middle Eocene"
       }
     },
     {
@@ -38,24 +35,21 @@
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/luteciense",
       "prefLabel": {
         "es": "Luteciense",
-        "en": "Lutetian",
-        "vl": "Lutecià"
+        "en": "Lutetian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/priaboniense",
       "prefLabel": {
         "es": "Priaboniense",
-        "en": "Priabonian",
-        "vl": "Priabonià"
+        "en": "Priabonian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ypresiense",
       "prefLabel": {
         "es": "Ypresiense",
-        "en": "Ypresian",
-        "vl": "Ypresià"
+        "en": "Ypresian"
       }
     }
   ],
@@ -63,8 +57,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleogeno",
     "prefLabel": {
       "es": "Paleógeno",
-      "en": "Paleogene",
-      "vl": "Paleogen"
+      "en": "Paleogene"
     }
   },
   "exactMatch": [

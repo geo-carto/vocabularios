@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Anisiense",
-    "en": "Anisian",
-    "vl": "Anisià"
+    "en": "Anisian"
   },
-  "notation": [
-    "212010201000",
-    "a1.1.2.3.2.2"
-  ],
+  "definition": {
+    "es": "Límite inferior 247.2 Ma, límite superior 242 Ma",
+    "en": "Older bound 247.2 Ma, younger bound 242 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-medio",
     "prefLabel": {
       "es": "Triásico Medio",
-      "en": "Middle Triassic",
-      "vl": "Triàssic Mitjà"
+      "en": "Middle Triassic"
     }
   },
   "exactMatch": [

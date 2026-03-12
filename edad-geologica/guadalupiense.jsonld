@@ -3,36 +3,32 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Guadalupiense",
-    "en": "Guadalupian",
-    "vl": "Guadalupià"
+    "en": "Guadalupian"
   },
-  "notation": [
-    "211060200000",
-    "a1.1.3.1.2"
-  ],
+  "definition": {
+    "es": "Límite inferior 273.01 +|-0.14 Ma, límite superior 259.51 +|-0.21 Ma",
+    "en": "Older bound 273.01 +|-0.14 Ma, younger bound 259.51 +|-0.21 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/capitaniense",
       "prefLabel": {
         "es": "Capitaniense",
-        "en": "Capitanian",
-        "vl": "Capitanià"
+        "en": "Capitanian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/roadiense",
       "prefLabel": {
         "es": "Roadiense",
-        "en": "Roadian",
-        "vl": "Roadià"
+        "en": "Roadian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/wordiense",
       "prefLabel": {
         "es": "Wordiense",
-        "en": "Wordian",
-        "vl": "Wordià"
+        "en": "Wordian"
       }
     }
   ],
@@ -40,8 +36,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/permico",
     "prefLabel": {
       "es": "Pérmico",
-      "en": "Permian",
-      "vl": "Permià"
+      "en": "Permian"
     }
   },
   "exactMatch": [

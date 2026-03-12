@@ -3,36 +3,32 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Albiense",
-    "en": "Albian",
-    "vl": "Albià Superior"
+    "en": "Albian"
   },
-  "notation": [
-    "212030106000",
-    "a1.1.2.1.2.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 113 Ma, límite superior 100.5 Ma",
+    "en": "Older bound 113 Ma, younger bound 100.5 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/albiense-inferior",
       "prefLabel": {
         "es": "Albiense Inferior",
-        "en": "Lower Albian",
-        "vl": "Albià Inferior"
+        "en": "Lower Albian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/albiense-medio",
       "prefLabel": {
         "es": "Albiense Medio",
-        "en": "Middle Albian",
-        "vl": "Albià Mitjà"
+        "en": "Middle Albian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/albiense-superior",
       "prefLabel": {
         "es": "Albiense Superior",
-        "en": "Upper Albian",
-        "vl": "Albià"
+        "en": "Upper Albian"
       }
     }
   ],
@@ -40,8 +36,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-inferior",
     "prefLabel": {
       "es": "Cretácico Inferior",
-      "en": "Lower Cretaceous",
-      "vl": "Cretaci Inferior"
+      "en": "Lower Cretaceous"
     }
   },
   "exactMatch": [

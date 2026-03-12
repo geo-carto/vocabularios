@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Turoniense",
-    "en": "Turonian",
-    "vl": "Turonià"
+    "en": "Turonian"
   },
-  "notation": [
-    "212030202000",
-    "a1.1.2.1.1.5"
-  ],
+  "definition": {
+    "es": "Límite inferior 93.9 Ma, límite superior 89.8 +|-0.3 Ma",
+    "en": "Older bound 93.9 Ma, younger bound 89.8 +|-0.3 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-superior",
     "prefLabel": {
       "es": "Cretácico Superior",
-      "en": "Upper Cretaceous",
-      "vl": "Cretaci Superior"
+      "en": "Upper Cretaceous"
     }
   },
   "exactMatch": [

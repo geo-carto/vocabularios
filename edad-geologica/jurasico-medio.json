@@ -3,44 +3,39 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Jurásico Medio",
-    "en": "Middle Jurassic",
-    "vl": "Juràssic Mitjà"
+    "en": "Middle Jurassic"
   },
-  "notation": [
-    "212020200000",
-    "a1.1.2.2.2"
-  ],
+  "definition": {
+    "es": "Límite inferior 174.7 +|-0.8 Ma, límite superior 161.5 +|-1 Ma",
+    "en": "Older bound 174.7 +|-0.8 Ma, younger bound 161.5 +|-1 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aaleniense",
       "prefLabel": {
         "es": "Aaleniense",
-        "en": "Aalenian",
-        "vl": "Aalenià"
+        "en": "Aalenian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/bajociense",
       "prefLabel": {
         "es": "Bajociense",
-        "en": "Bajocian",
-        "vl": "Bajocià"
+        "en": "Bajocian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/bathoniense",
       "prefLabel": {
         "es": "Bathoniense",
-        "en": "Bathonian",
-        "vl": "Bathonià"
+        "en": "Bathonian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/calloviense",
       "prefLabel": {
         "es": "Calloviense",
-        "en": "Callovian",
-        "vl": "Cal·Lovià"
+        "en": "Callovian"
       }
     }
   ],
@@ -48,8 +43,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico",
     "prefLabel": {
       "es": "Jurásico",
-      "en": "Jurassic",
-      "vl": "Juràssic"
+      "en": "Jurassic"
     }
   },
   "exactMatch": [

@@ -3,28 +3,25 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Oligoceno",
-    "en": "Oligocene",
-    "vl": "Oligocè"
+    "en": "Oligocene"
   },
-  "notation": [
-    "213010300000",
-    "a1.1.1.3.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 33.9 Ma, límite superior 23.03 Ma",
+    "en": "Older bound 33.9 Ma, younger bound 23.03 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/chattiense",
       "prefLabel": {
         "es": "Chattiense",
-        "en": "Chattian",
-        "vl": "Catià"
+        "en": "Chattian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/rupeliense",
       "prefLabel": {
         "es": "Rupeliense",
-        "en": "Rupelian",
-        "vl": "Rupelià"
+        "en": "Rupelian"
       }
     }
   ],
@@ -32,8 +29,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleogeno",
     "prefLabel": {
       "es": "Paleógeno",
-      "en": "Paleogene",
-      "vl": "Paleogen"
+      "en": "Paleogene"
     }
   },
   "exactMatch": [

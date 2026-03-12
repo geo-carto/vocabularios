@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Sinemuriense",
-    "en": "Sinemurian",
-    "vl": "Sinemurià"
+    "en": "Sinemurian"
   },
-  "notation": [
-    "212020102000",
-    "a1.1.2.2.3.3"
-  ],
+  "definition": {
+    "es": "Límite inferior 199.5 +|-0.3 Ma, límite superior 192.9 +|-0.3 Ma",
+    "en": "Older bound 199.5 +|-0.3 Ma, younger bound 192.9 +|-0.3 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-inferior",
     "prefLabel": {
       "es": "Jurásico Inferior",
-      "en": "Lower Jurassic",
-      "vl": "Juràssic Inferior"
+      "en": "Lower Jurassic"
     }
   },
   "exactMatch": [

@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Maastrichtiense",
-    "en": "Maastrichtian",
-    "vl": "Maastrichtià"
+    "en": "Maastrichtian"
   },
-  "notation": [
-    "212030206000",
-    "a1.1.2.1.1.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 72.1 +|-0.2 Ma, límite superior 66 Ma",
+    "en": "Older bound 72.1 +|-0.2 Ma, younger bound 66 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-superior",
     "prefLabel": {
       "es": "Cretácico Superior",
-      "en": "Upper Cretaceous",
-      "vl": "Cretaci Superior"
+      "en": "Upper Cretaceous"
     }
   },
   "exactMatch": [

@@ -3,18 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Albiense Medio",
-    "en": "Middle Albian",
-    "vl": "Albià Mitjà"
+    "en": "Middle Albian"
   },
-  "notation": [
-    "212030106200"
-  ],
+  "definition": {
+    "es": "Límite inferior 110.2 Ma, límite superior 104 Ma",
+    "en": "Older bound 110.2 Ma, younger bound 104 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/albiense",
     "prefLabel": {
       "es": "Albiense",
-      "en": "Albian",
-      "vl": "Albià Superior"
+      "en": "Albian"
     }
   },
   "broadMatch": [

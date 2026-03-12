@@ -5,16 +5,15 @@
     "es": "Estatérico",
     "en": "Statherian"
   },
-  "notation": [
-    "131040000000",
-    "a2.1.3.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 1800 Ma, límite superior 1600 Ma",
+    "en": "Older bound 1800 Ma, younger bound 1600 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleoproterozoico",
     "prefLabel": {
       "es": "Paleoproterozoico",
-      "en": "Paleoproterozoic",
-      "vl": "Paleoproterozoic"
+      "en": "Paleoproterozoic"
     }
   },
   "exactMatch": [

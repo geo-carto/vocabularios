@@ -5,16 +5,15 @@
     "es": "Norgripiense",
     "en": "Northgrippian"
   },
-  "notation": [
-    "213030202000",
-    "a1.1.1.1.1.2"
-  ],
+  "definition": {
+    "es": "Límite inferior 0.0082 Ma, límite superior 0.0042 Ma",
+    "en": "Older bound 0.0082 Ma, younger bound 0.0042 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/holoceno",
     "prefLabel": {
       "es": "Holoceno",
-      "en": "Holocene",
-      "vl": "Holocè"
+      "en": "Holocene"
     }
   },
   "broadMatch": [

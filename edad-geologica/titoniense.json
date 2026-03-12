@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Titoniense",
-    "en": "Tithonian",
-    "vl": "Titonià"
+    "en": "Tithonian"
   },
-  "notation": [
-    "212020303000",
-    "a1.1.2.2.1.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 149.2 +|-0.7 Ma, límite superior 145 Ma",
+    "en": "Older bound 149.2 +|-0.7 Ma, younger bound 145 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-superior",
     "prefLabel": {
       "es": "Jurásico Superior",
-      "en": "Upper Jurassic",
-      "vl": "Juràssic Superior"
+      "en": "Upper Jurassic"
     }
   },
   "exactMatch": [

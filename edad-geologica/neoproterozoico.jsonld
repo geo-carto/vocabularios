@@ -3,36 +3,32 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Neoproterozoico",
-    "en": "Neoproterozoic",
-    "vl": "Neoproterozoic"
+    "en": "Neoproterozoic"
   },
-  "notation": [
-    "133000000000",
-    "a2.1.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 1000 Ma, límite superior 538.8 +|-0.2 Ma",
+    "en": "Older bound 1000 Ma, younger bound 538.8 +|-0.2 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/criogenico",
       "prefLabel": {
         "es": "Criogénico",
-        "en": "Cryogenian",
-        "vl": "Criogenià"
+        "en": "Cryogenian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ediacarico",
       "prefLabel": {
         "es": "Ediacárico",
-        "en": "Ediacaran",
-        "vl": "Ediacarià"
+        "en": "Ediacaran"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/tonico",
       "prefLabel": {
         "es": "Tónico",
-        "en": "Tonian",
-        "vl": "Tonià"
+        "en": "Tonian"
       }
     }
   ],
@@ -40,8 +36,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/proterozoico",
     "prefLabel": {
       "es": "Proterozoico",
-      "en": "Proterozoic",
-      "vl": "Proterozoic"
+      "en": "Proterozoic"
     }
   },
   "exactMatch": [

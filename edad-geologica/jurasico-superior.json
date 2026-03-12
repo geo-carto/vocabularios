@@ -3,41 +3,37 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Jurásico Superior",
-    "en": "Upper Jurassic",
-    "vl": "Juràssic Superior"
+    "en": "Upper Jurassic"
   },
   "altLabel": {
     "en": [
       "Late Jurassic"
     ]
   },
-  "notation": [
-    "212020300000",
-    "a1.1.2.2.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 161.5 +|-1 Ma, límite superior 145 Ma",
+    "en": "Older bound 161.5 +|-1 Ma, younger bound 145 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/kimmeridgiense",
       "prefLabel": {
         "es": "Kimmeridgiense",
-        "en": "Kimmeridgian",
-        "vl": "Kimmeridgià"
+        "en": "Kimmeridgian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/oxfordiense",
       "prefLabel": {
         "es": "Oxfordiense",
-        "en": "Oxfordian",
-        "vl": "Oxfordià"
+        "en": "Oxfordian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/titoniense",
       "prefLabel": {
         "es": "Titoniense",
-        "en": "Tithonian",
-        "vl": "Titonià"
+        "en": "Tithonian"
       }
     }
   ],
@@ -45,8 +41,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico",
     "prefLabel": {
       "es": "Jurásico",
-      "en": "Jurassic",
-      "vl": "Juràssic"
+      "en": "Jurassic"
     }
   },
   "exactMatch": [

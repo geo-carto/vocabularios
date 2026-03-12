@@ -5,41 +5,37 @@
     "es": "Arcaico",
     "en": "Archean"
   },
-  "notation": [
-    "120000000000",
-    "a2.2"
-  ],
+  "definition": {
+    "es": "Límite inferior 4031 +|-3 Ma, límite superior 2500 Ma",
+    "en": "Older bound 4031 +|-3 Ma, younger bound 2500 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/eoarcaico",
       "prefLabel": {
         "es": "Eoarcaico",
-        "en": "Eoarchean",
-        "vl": "Eoarqueà"
+        "en": "Eoarchean"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesoarcaico",
       "prefLabel": {
         "es": "Mesoarcaico",
-        "en": "Mesoarchean",
-        "vl": "Mesoarqueà"
+        "en": "Mesoarchean"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neoarcaico",
       "prefLabel": {
         "es": "Neoarcaico",
-        "en": "Neoarchean",
-        "vl": "Neoarqueà"
+        "en": "Neoarchean"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleoarcaico",
       "prefLabel": {
         "es": "Paleoarcaico",
-        "en": "Paleoarchean",
-        "vl": "Paleoarqueà"
+        "en": "Paleoarchean"
       }
     }
   ],

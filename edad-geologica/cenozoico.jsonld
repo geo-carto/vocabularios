@@ -3,36 +3,32 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Cenozoico",
-    "en": "Cenozoic",
-    "vl": "Cenozoic"
+    "en": "Cenozoic"
   },
-  "notation": [
-    "213000000000",
-    "a1.1.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 66 Ma, límite superior 0.0 Ma",
+    "en": "Older bound 66 Ma, younger bound 0.0 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cuaternario",
       "prefLabel": {
         "es": "Cuaternario",
-        "en": "Quaternary",
-        "vl": "Quaternari"
+        "en": "Quaternary"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neogeno",
       "prefLabel": {
         "es": "Neógeno",
-        "en": "Neogene",
-        "vl": "Neogen"
+        "en": "Neogene"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleogeno",
       "prefLabel": {
         "es": "Paleógeno",
-        "en": "Paleogene",
-        "vl": "Paleogen"
+        "en": "Paleogene"
       }
     }
   ],

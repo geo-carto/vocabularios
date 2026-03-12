@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Prídoli",
-    "en": "Pridoli",
-    "vl": "Pridoli"
+    "en": "Pridoli"
   },
-  "notation": [
-    "211030400000",
-    "a1.1.3.4.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 423 +|-2.3 Ma, límite superior 419.2 +|-3.2 Ma",
+    "en": "Older bound 423 +|-2.3 Ma, younger bound 419.2 +|-3.2 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/silurico",
     "prefLabel": {
       "es": "Silúrico",
-      "en": "Silurian",
-      "vl": "Silurià"
+      "en": "Silurian"
     }
   },
   "exactMatch": [

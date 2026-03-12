@@ -3,28 +3,25 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Cuaternario",
-    "en": "Quaternary",
-    "vl": "Quaternari"
+    "en": "Quaternary"
   },
-  "notation": [
-    "213030000000",
-    "a1.1.1.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 2.58 Ma, límite superior 0.0 Ma",
+    "en": "Older bound 2.58 Ma, younger bound 0.0 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/holoceno",
       "prefLabel": {
         "es": "Holoceno",
-        "en": "Holocene",
-        "vl": "Holocè"
+        "en": "Holocene"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno",
       "prefLabel": {
         "es": "Pleistoceno",
-        "en": "Pleistocene",
-        "vl": "Plistocè"
+        "en": "Pleistocene"
       }
     }
   ],
@@ -32,8 +29,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cenozoico",
     "prefLabel": {
       "es": "Cenozoico",
-      "en": "Cenozoic",
-      "vl": "Cenozoic"
+      "en": "Cenozoic"
     }
   },
   "exactMatch": [

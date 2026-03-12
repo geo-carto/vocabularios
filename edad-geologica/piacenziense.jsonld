@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Piacenziense",
-    "en": "Piacenzian",
-    "vl": "Piacenzià"
+    "en": "Piacenzian"
   },
-  "notation": [
-    "213020221000",
-    "a1.1.1.2.1.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 3.6 Ma, límite superior 2.58 Ma",
+    "en": "Older bound 3.6 Ma, younger bound 2.58 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/plioceno-superior",
     "prefLabel": {
       "es": "Plioceno Superior",
-      "en": "Upper Pliocene",
-      "vl": "Pliocè Superior"
+      "en": "Upper Pliocene"
     }
   },
   "related": [
@@ -23,8 +21,7 @@
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/villafranquiense",
       "prefLabel": {
         "es": "Villafranquiense",
-        "en": "Villafranchian",
-        "vl": "Vil-Lafranquià"
+        "en": "Villafranchian"
       }
     }
   ],

@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Burdigaliense",
-    "en": "Burdigalian",
-    "vl": "Burdigalià"
+    "en": "Burdigalian"
   },
-  "notation": [
-    "213020112000",
-    "a1.1.1.2.2.5"
-  ],
+  "definition": {
+    "es": "Límite inferior 20.44 Ma, límite superior 15.98 Ma",
+    "en": "Older bound 20.44 Ma, younger bound 15.98 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno-inferior",
     "prefLabel": {
       "es": "Mioceno Inferior",
-      "en": "Lower Miocene",
-      "vl": "Miocè Inferior"
+      "en": "Lower Miocene"
     }
   },
   "related": [
@@ -30,16 +28,14 @@
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aragoniense",
       "prefLabel": {
         "es": "Aragoniense",
-        "en": "Aragonian",
-        "vl": "Aragonià"
+        "en": "Aragonian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/rambliense",
       "prefLabel": {
         "es": "Rambliense",
-        "en": "Ramblian",
-        "vl": "Ramblià"
+        "en": "Ramblian"
       }
     }
   ],

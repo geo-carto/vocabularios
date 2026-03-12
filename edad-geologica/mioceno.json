@@ -3,52 +3,46 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Mioceno",
-    "en": "Miocene",
-    "vl": "Miocè"
+    "en": "Miocene"
   },
-  "notation": [
-    "213020100000",
-    "a1.1.1.2.2"
-  ],
+  "definition": {
+    "es": "Límite inferior 23.03 Ma, límite superior 5.333 Ma",
+    "en": "Older bound 23.03 Ma, younger bound 5.333 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/langhiense",
       "prefLabel": {
         "es": "Langhiense",
-        "en": "Langhian",
-        "vl": "Languià"
+        "en": "Langhian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/messiniense",
       "prefLabel": {
         "es": "Messiniense",
-        "en": "Messinian",
-        "vl": "Messinià"
+        "en": "Messinian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno-inferior",
       "prefLabel": {
         "es": "Mioceno Inferior",
-        "en": "Lower Miocene",
-        "vl": "Miocè Inferior"
+        "en": "Lower Miocene"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/serravalliense",
       "prefLabel": {
         "es": "Serravalliense",
-        "en": "Serravallian",
-        "vl": "Serraval·Lià"
+        "en": "Serravallian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/tortoniense",
       "prefLabel": {
         "es": "Tortoniense",
-        "en": "Tortonian",
-        "vl": "Tortonià"
+        "en": "Tortonian"
       }
     }
   ],
@@ -56,8 +50,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neogeno",
     "prefLabel": {
       "es": "Neógeno",
-      "en": "Neogene",
-      "vl": "Neogen"
+      "en": "Neogene"
     }
   },
   "exactMatch": [

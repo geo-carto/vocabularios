@@ -3,65 +3,58 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Cretácico Superior",
-    "en": "Upper Cretaceous",
-    "vl": "Cretaci Superior"
+    "en": "Upper Cretaceous"
   },
   "altLabel": {
     "en": [
       "Late Cretaceous"
     ]
   },
-  "notation": [
-    "212030200000",
-    "a1.1.2.1.1"
-  ],
+  "definition": {
+    "es": "Límite inferior 100.5 Ma, límite superior 66 Ma",
+    "en": "Older bound 100.5 Ma, younger bound 66 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/campaniense",
       "prefLabel": {
         "es": "Campaniense",
-        "en": "Campanian",
-        "vl": "Campanià"
+        "en": "Campanian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cenomaniense",
       "prefLabel": {
         "es": "Cenomaniense",
-        "en": "Cenomanian",
-        "vl": "Cenomanià"
+        "en": "Cenomanian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/coniaciense",
       "prefLabel": {
         "es": "Coniaciense",
-        "en": "Coniacian",
-        "vl": "Coniacià"
+        "en": "Coniacian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/maastrichtiense",
       "prefLabel": {
         "es": "Maastrichtiense",
-        "en": "Maastrichtian",
-        "vl": "Maastrichtià"
+        "en": "Maastrichtian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/santoniense",
       "prefLabel": {
         "es": "Santoniense",
-        "en": "Santonian",
-        "vl": "Santonià"
+        "en": "Santonian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/turoniense",
       "prefLabel": {
         "es": "Turoniense",
-        "en": "Turonian",
-        "vl": "Turonià"
+        "en": "Turonian"
       }
     }
   ],
@@ -69,8 +62,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico",
     "prefLabel": {
       "es": "Cretácico",
-      "en": "Cretaceous",
-      "vl": "Cretaci"
+      "en": "Cretaceous"
     }
   },
   "exactMatch": [

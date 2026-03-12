@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Hettangiense",
-    "en": "Hettangian",
-    "vl": "Hettangià"
+    "en": "Hettangian"
   },
-  "notation": [
-    "212020101000",
-    "a1.1.2.2.3.4"
-  ],
+  "definition": {
+    "es": "Límite inferior 201.4 +|-0.2 Ma, límite superior 199.5 +|-0.3 Ma",
+    "en": "Older bound 201.4 +|-0.2 Ma, younger bound 199.5 +|-0.3 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-inferior",
     "prefLabel": {
       "es": "Jurásico Inferior",
-      "en": "Lower Jurassic",
-      "vl": "Juràssic Inferior"
+      "en": "Lower Jurassic"
     }
   },
   "exactMatch": [

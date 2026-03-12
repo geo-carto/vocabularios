@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Bajociense",
-    "en": "Bajocian",
-    "vl": "Bajocià"
+    "en": "Bajocian"
   },
-  "notation": [
-    "212020202000",
-    "a1.1.2.2.2.3"
-  ],
+  "definition": {
+    "es": "Límite inferior 170.9 +|-0.8 Ma, límite superior 168.2 +|-1.2 Ma",
+    "en": "Older bound 170.9 +|-0.8 Ma, younger bound 168.2 +|-1.2 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-medio",
     "prefLabel": {
       "es": "Jurásico Medio",
-      "en": "Middle Jurassic",
-      "vl": "Juràssic Mitjà"
+      "en": "Middle Jurassic"
     }
   },
   "exactMatch": [

@@ -3,36 +3,32 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Devónico",
-    "en": "Devonian",
-    "vl": "Devonià"
+    "en": "Devonian"
   },
-  "notation": [
-    "211040000000",
-    "a1.1.3.3"
-  ],
+  "definition": {
+    "es": "Límite inferior 419.2 +|-3.2 Ma, límite superior 358.9 +|-0.4 Ma",
+    "en": "Older bound 419.2 +|-3.2 Ma, younger bound 358.9 +|-0.4 Ma"
+  },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico-inferior",
       "prefLabel": {
         "es": "Devónico Inferior",
-        "en": "Lower Devonian",
-        "vl": "Devonià Inferior"
+        "en": "Lower Devonian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico-medio",
       "prefLabel": {
         "es": "Devónico Medio",
-        "en": "Middle Devonian",
-        "vl": "Devonià Mitjà"
+        "en": "Middle Devonian"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico-superior",
       "prefLabel": {
         "es": "Devónico Superior",
-        "en": "Upper Devonian",
-        "vl": "Devonià Superior"
+        "en": "Upper Devonian"
       }
     }
   ],
@@ -40,8 +36,7 @@
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico",
     "prefLabel": {
       "es": "Paleozoico",
-      "en": "Paleozoic",
-      "vl": "Paleozoic"
+      "en": "Paleozoic"
     }
   },
   "exactMatch": [

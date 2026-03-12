@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Oxfordiense",
-    "en": "Oxfordian",
-    "vl": "Oxfordià"
+    "en": "Oxfordian"
   },
-  "notation": [
-    "212020301000",
-    "a1.1.2.2.1.3"
-  ],
+  "definition": {
+    "es": "Límite inferior 161.5 +|-1 Ma, límite superior 154.8 +|-0.8 Ma",
+    "en": "Older bound 161.5 +|-1 Ma, younger bound 154.8 +|-0.8 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-superior",
     "prefLabel": {
       "es": "Jurásico Superior",
-      "en": "Upper Jurassic",
-      "vl": "Juràssic Superior"
+      "en": "Upper Jurassic"
     }
   },
   "exactMatch": [

@@ -3,19 +3,17 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Frasniense",
-    "en": "Frasnian",
-    "vl": "Frasnià"
+    "en": "Frasnian"
   },
-  "notation": [
-    "211040301000",
-    "a1.1.3.3.1.2"
-  ],
+  "definition": {
+    "es": "Límite inferior 382.7 +|-1.6 Ma, límite superior 372.2 +|-1.6 Ma",
+    "en": "Older bound 382.7 +|-1.6 Ma, younger bound 372.2 +|-1.6 Ma"
+  },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico-superior",
     "prefLabel": {
       "es": "Devónico Superior",
-      "en": "Upper Devonian",
-      "vl": "Devonià Superior"
+      "en": "Upper Devonian"
     }
   },
   "exactMatch": [
