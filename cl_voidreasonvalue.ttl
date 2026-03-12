@@ -43,7 +43,7 @@
         "No existe un valor correspondiente para el elemento espacial, por ejemplo, no es posible medir la profundidad en un punto seco."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/void-reason> ;
     skos:prefLabel "inapplicable"@en,
-        "no-aplicable"@es ;
+        "no aplicable"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/void-reason> ;
     adms:status "Válido" .
 

@@ -86,7 +86,7 @@
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/metamorphicgrade/very_high_metamorphic_grade> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/metamorfismo-grado> ;
     skos:prefLabel "very high metamorphic grade"@en,
-        "Grado metamórfico muy alto"@es ;
+        "grado metamórfico muy alto"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-muy-bajo> a skos:Concept ;
