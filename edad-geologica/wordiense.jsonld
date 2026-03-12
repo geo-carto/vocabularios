@@ -9,13 +9,9 @@
     "es": "Límite inferior 266.9 +|-0.4 Ma, límite superior 264.28 +|-0.16 Ma",
     "en": "Older bound 266.9 +|-0.4 Ma, younger bound 264.28 +|-0.16 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/guadalupiense",
-    "prefLabel": {
-      "es": "Guadalupiense",
-      "en": "Guadalupian"
-    }
-  },
+  "notation": [
+    "a1.1.3.1.2.2"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/wordian"

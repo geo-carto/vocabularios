@@ -9,13 +9,9 @@
     "es": "Límite inferior 199.5 +|-0.3 Ma, límite superior 192.9 +|-0.3 Ma",
     "en": "Older bound 199.5 +|-0.3 Ma, younger bound 192.9 +|-0.3 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-inferior",
-    "prefLabel": {
-      "es": "Jurásico Inferior",
-      "en": "Lower Jurassic"
-    }
-  },
+  "notation": [
+    "a1.1.2.2.3.3"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/sinemurian"

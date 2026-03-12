@@ -9,13 +9,9 @@
     "es": "Límite inferior 93.9 Ma, límite superior 89.8 +|-0.3 Ma",
     "en": "Older bound 93.9 Ma, younger bound 89.8 +|-0.3 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-superior",
-    "prefLabel": {
-      "es": "Cretácico Superior",
-      "en": "Upper Cretaceous"
-    }
-  },
+  "notation": [
+    "a1.1.2.1.1.5"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/turonian"

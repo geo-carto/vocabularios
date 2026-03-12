@@ -9,6 +9,9 @@
     "es": "Límite inferior 121.4 Ma, límite superior 113 Ma",
     "en": "Older bound 121.4 Ma, younger bound 113 Ma"
   },
+  "notation": [
+    "a1.1.2.1.2.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aptiense-inferior",
@@ -25,13 +28,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-inferior",
-    "prefLabel": {
-      "es": "Cretácico Inferior",
-      "en": "Lower Cretaceous"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aptian"

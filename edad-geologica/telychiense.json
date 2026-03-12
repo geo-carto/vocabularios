@@ -9,13 +9,9 @@
     "es": "Límite inferior 438.5 +|-1.1 Ma, límite superior 433.4 +|-0.8 Ma",
     "en": "Older bound 438.5 +|-1.1 Ma, younger bound 433.4 +|-0.8 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/llandovery",
-    "prefLabel": {
-      "es": "Llandovery",
-      "en": "Llandovery"
-    }
-  },
+  "notation": [
+    "a1.1.3.4.4.1"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/telychian"

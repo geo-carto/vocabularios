@@ -9,13 +9,9 @@
     "es": "Límite inferior 293.51 +|-0.17 Ma, límite superior 290.1 +|-0.26 Ma",
     "en": "Older bound 293.51 +|-0.17 Ma, younger bound 290.1 +|-0.26 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cisuraliense",
-    "prefLabel": {
-      "es": "Cisuraliense",
-      "en": "Cisuralian"
-    }
-  },
+  "notation": [
+    "a1.1.3.1.3.3"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/sakmarian"

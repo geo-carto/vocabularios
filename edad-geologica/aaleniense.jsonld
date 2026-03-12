@@ -9,13 +9,9 @@
     "es": "Límite inferior 174.7 +|-0.8 Ma, límite superior 170.9 +|-0.8 Ma",
     "en": "Older bound 174.7 +|-0.8 Ma, younger bound 170.9 +|-0.8 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-medio",
-    "prefLabel": {
-      "es": "Jurásico Medio",
-      "en": "Middle Jurassic"
-    }
-  },
+  "notation": [
+    "a1.1.2.2.2.4"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aalenian"

@@ -9,6 +9,9 @@
     "es": "Límite inferior 251.902 +|-0.024 Ma, límite superior 66 Ma",
     "en": "Older bound 251.902 +|-0.024 Ma, younger bound 66 Ma"
   },
+  "notation": [
+    "a1.1.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico",
@@ -32,13 +35,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/fanerozoico",
-    "prefLabel": {
-      "es": "Fanerozoico",
-      "en": "Phanerozoic"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/mesozoic"

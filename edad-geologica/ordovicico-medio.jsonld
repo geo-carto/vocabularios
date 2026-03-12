@@ -9,6 +9,9 @@
     "es": "Límite inferior 470 +|-1.4 Ma, límite superior 458.4 +|-0.9 Ma",
     "en": "Older bound 470 +|-1.4 Ma, younger bound 458.4 +|-0.9 Ma"
   },
+  "notation": [
+    "a1.1.3.5.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/dapingiense",
@@ -25,13 +28,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico",
-    "prefLabel": {
-      "es": "Ordovícico",
-      "en": "Ordovician"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/middleOrdovician"

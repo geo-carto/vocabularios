@@ -9,6 +9,9 @@
     "es": "Límite inferior 1000 Ma, límite superior 538.8 +|-0.2 Ma",
     "en": "Older bound 1000 Ma, younger bound 538.8 +|-0.2 Ma"
   },
+  "notation": [
+    "a2.1.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/criogenico",
@@ -32,13 +35,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/proterozoico",
-    "prefLabel": {
-      "es": "Proterozoico",
-      "en": "Proterozoic"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/neoproterozoic"

@@ -9,13 +9,9 @@
     "es": "Límite inferior 1.8 Ma, límite superior 0.774 Ma",
     "en": "Older bound 1.8 Ma, younger bound 0.774 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-inferior",
-    "prefLabel": {
-      "es": "Pleistoceno Inferior",
-      "en": "Lower Pleistocene"
-    }
-  },
+  "notation": [
+    "a1.1.1.1.2.3"
+  ],
   "related": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/villafranquiense",

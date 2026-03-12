@@ -9,13 +9,9 @@
     "es": "Límite inferior 443.8 +|-1.5 Ma, límite superior 440.8 +|-1.2 Ma",
     "en": "Older bound 443.8 +|-1.5 Ma, younger bound 440.8 +|-1.2 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/llandovery",
-    "prefLabel": {
-      "es": "Llandovery",
-      "en": "Llandovery"
-    }
-  },
+  "notation": [
+    "a1.1.3.4.4.3"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/rhuddanian"

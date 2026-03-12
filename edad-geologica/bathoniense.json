@@ -9,13 +9,9 @@
     "es": "Límite inferior 168.2 +|-1.2 Ma, límite superior 165.3 +|-1.1 Ma",
     "en": "Older bound 168.2 +|-1.2 Ma, younger bound 165.3 +|-1.1 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-medio",
-    "prefLabel": {
-      "es": "Jurásico Medio",
-      "en": "Middle Jurassic"
-    }
-  },
+  "notation": [
+    "a1.1.2.2.2.2"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bathonian"

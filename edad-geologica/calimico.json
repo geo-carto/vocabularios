@@ -9,13 +9,9 @@
     "es": "Límite inferior 1600 Ma, límite superior 1400 Ma",
     "en": "Older bound 1600 Ma, younger bound 1400 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesoproterozoico",
-    "prefLabel": {
-      "es": "Mesoproterozoico",
-      "en": "Mesoproterozoic"
-    }
-  },
+  "notation": [
+    "a2.1.2.3"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/calymmian"

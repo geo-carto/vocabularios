@@ -14,6 +14,9 @@
     "es": "Límite inferior 237 Ma, límite superior 201.4 +|-0.2 Ma",
     "en": "Older bound 237 Ma, younger bound 201.4 +|-0.2 Ma"
   },
+  "notation": [
+    "a1.1.2.3.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/carniense",
@@ -37,13 +40,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico",
-    "prefLabel": {
-      "es": "Triásico",
-      "en": "Triassic"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperTriassic"

@@ -9,6 +9,9 @@
     "es": "Límite inferior 4031 +|-3 Ma, límite superior 2500 Ma",
     "en": "Older bound 4031 +|-3 Ma, younger bound 2500 Ma"
   },
+  "notation": [
+    "a2.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/eoarcaico",
@@ -39,13 +42,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/precambrico",
-    "prefLabel": {
-      "es": "Precámbrico",
-      "en": "Precambrian"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/archean"

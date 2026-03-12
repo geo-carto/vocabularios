@@ -9,13 +9,9 @@
     "es": "Límite inferior 251.2 Ma, límite superior 247.2 Ma",
     "en": "Older bound 251.2 Ma, younger bound 247.2 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-inferior",
-    "prefLabel": {
-      "es": "Triásico Inferior",
-      "en": "Lower Triassic"
-    }
-  },
+  "notation": [
+    "a1.1.2.3.3.1"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/olenekian"

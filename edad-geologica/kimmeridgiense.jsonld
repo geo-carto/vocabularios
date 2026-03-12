@@ -9,13 +9,9 @@
     "es": "Límite inferior 154.8 +|-0.8 Ma, límite superior 149.2 +|-0.7 Ma",
     "en": "Older bound 154.8 +|-0.8 Ma, younger bound 149.2 +|-0.7 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-superior",
-    "prefLabel": {
-      "es": "Jurásico Superior",
-      "en": "Upper Jurassic"
-    }
-  },
+  "notation": [
+    "a1.1.2.2.1.2"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/kimmeridgian"

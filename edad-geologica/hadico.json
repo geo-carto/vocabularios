@@ -14,13 +14,9 @@
     "es": "Límite inferior 4567 Ma, límite superior 4031 +|-3 Ma",
     "en": "Older bound 4567 Ma, younger bound 4031 +|-3 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/precambrico",
-    "prefLabel": {
-      "es": "Precámbrico",
-      "en": "Precambrian"
-    }
-  },
+  "notation": [
+    "a2.3"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/hadean"

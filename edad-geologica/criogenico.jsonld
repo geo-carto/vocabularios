@@ -14,13 +14,9 @@
     "es": "Límite inferior 720 Ma, límite superior 635 Ma",
     "en": "Older bound 720 Ma, younger bound 635 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neoproterozoico",
-    "prefLabel": {
-      "es": "Neoproterozoico",
-      "en": "Neoproterozoic"
-    }
-  },
+  "notation": [
+    "a2.1.1.2"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cryogenian"

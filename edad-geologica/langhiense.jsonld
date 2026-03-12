@@ -9,13 +9,9 @@
     "es": "Límite inferior 15.98 Ma, límite superior 13.82 Ma",
     "en": "Older bound 15.98 Ma, younger bound 13.82 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno",
-    "prefLabel": {
-      "es": "Mioceno",
-      "en": "Miocene"
-    }
-  },
+  "notation": [
+    "a1.1.1.2.2.4"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/langhian"

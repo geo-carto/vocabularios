@@ -9,6 +9,9 @@
     "es": "Límite inferior 538.8 +|-0.2 Ma, límite superior 521 Ma",
     "en": "Older bound 538.8 +|-0.2 Ma, younger bound 521 Ma"
   },
+  "notation": [
+    "a1.1.3.6.4"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cambrico-piso-2",
@@ -25,13 +28,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cambrico",
-    "prefLabel": {
-      "es": "Cámbrico",
-      "en": "Cambrian"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/terreneuvian"

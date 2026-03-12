@@ -14,6 +14,9 @@
     "es": "Límite inferior 145 Ma, límite superior 100.5 Ma",
     "en": "Older bound 145 Ma, younger bound 100.5 Ma"
   },
+  "notation": [
+    "a1.1.2.1.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/albiense",
@@ -58,13 +61,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico",
-    "prefLabel": {
-      "es": "Cretácico",
-      "en": "Cretaceous"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerCretaceous"

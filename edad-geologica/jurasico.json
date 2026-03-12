@@ -9,6 +9,9 @@
     "es": "Límite inferior 201.4 +|-0.2 Ma, límite superior 145 Ma",
     "en": "Older bound 201.4 +|-0.2 Ma, younger bound 145 Ma"
   },
+  "notation": [
+    "a1.1.2.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-inferior",
@@ -32,13 +35,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesozoico",
-    "prefLabel": {
-      "es": "Mesozoico",
-      "en": "Mesozoic"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/jurassic"

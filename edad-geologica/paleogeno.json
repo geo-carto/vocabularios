@@ -9,6 +9,9 @@
     "es": "Límite inferior 66 Ma, límite superior 23.03 Ma",
     "en": "Older bound 66 Ma, younger bound 23.03 Ma"
   },
+  "notation": [
+    "a1.1.1.3"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/eoceno",
@@ -32,13 +35,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cenozoico",
-    "prefLabel": {
-      "es": "Cenozoico",
-      "en": "Cenozoic"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/paleogene"

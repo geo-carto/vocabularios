@@ -14,6 +14,9 @@
     "es": "Límite inferior 458.4 +|-0.9 Ma, límite superior 443.8 +|-1.5 Ma",
     "en": "Older bound 458.4 +|-0.9 Ma, younger bound 443.8 +|-1.5 Ma"
   },
+  "notation": [
+    "a1.1.3.5.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/hirnantiense",
@@ -37,13 +40,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico",
-    "prefLabel": {
-      "es": "Ordovícico",
-      "en": "Ordovician"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperOrdovician"

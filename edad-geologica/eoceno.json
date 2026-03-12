@@ -9,6 +9,9 @@
     "es": "Límite inferior 56 Ma, límite superior 33.9 Ma",
     "en": "Older bound 56 Ma, younger bound 33.9 Ma"
   },
+  "notation": [
+    "a1.1.1.3.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/bartoniense",
@@ -53,13 +56,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleogeno",
-    "prefLabel": {
-      "es": "Paleógeno",
-      "en": "Paleogene"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/eocene"

@@ -22,6 +22,9 @@
       "ICS: sustituido por Chibaniense"
     ]
   },
+  "notation": [
+    "a1.1.1.1.2.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/chibaniense",
@@ -31,13 +34,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno",
-    "prefLabel": {
-      "es": "Pleistoceno",
-      "en": "Pleistocene"
-    }
-  },
   "closeMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ionian"

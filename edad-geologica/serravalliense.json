@@ -9,13 +9,9 @@
     "es": "Límite inferior 13.82 Ma, límite superior 11.63 Ma",
     "en": "Older bound 13.82 Ma, younger bound 11.63 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno",
-    "prefLabel": {
-      "es": "Mioceno",
-      "en": "Miocene"
-    }
-  },
+  "notation": [
+    "a1.1.1.2.2.3"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/serravallian"

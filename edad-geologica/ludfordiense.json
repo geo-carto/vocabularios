@@ -9,13 +9,9 @@
     "es": "Límite inferior 425.6 +|-0.9 Ma, límite superior 423 +|-2.3 Ma",
     "en": "Older bound 425.6 +|-0.9 Ma, younger bound 423 +|-2.3 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ludlow",
-    "prefLabel": {
-      "es": "Ludlow",
-      "en": "Ludlow"
-    }
-  },
+  "notation": [
+    "a1.1.3.4.2.1"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ludfordian"

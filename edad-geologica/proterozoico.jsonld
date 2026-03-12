@@ -9,6 +9,9 @@
     "es": "Límite inferior 2500 Ma, límite superior 538.8 +|-0.2 Ma",
     "en": "Older bound 2500 Ma, younger bound 538.8 +|-0.2 Ma"
   },
+  "notation": [
+    "a2.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesoproterozoico",
@@ -32,13 +35,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/precambrico",
-    "prefLabel": {
-      "es": "Precámbrico",
-      "en": "Precambrian"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/proterozoic"

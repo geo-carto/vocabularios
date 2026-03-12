@@ -14,13 +14,9 @@
     "es": "Límite inferior 635 Ma, límite superior 538.8 +|-0.2 Ma",
     "en": "Older bound 635 Ma, younger bound 538.8 +|-0.2 Ma"
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neoproterozoico",
-    "prefLabel": {
-      "es": "Neoproterozoico",
-      "en": "Neoproterozoic"
-    }
-  },
+  "notation": [
+    "a2.1.1.1"
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ediacaran"

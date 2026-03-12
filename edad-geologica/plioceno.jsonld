@@ -9,6 +9,9 @@
     "es": "Límite inferior 5.333 Ma, límite superior 2.58 Ma",
     "en": "Older bound 5.333 Ma, younger bound 2.58 Ma"
   },
+  "notation": [
+    "a1.1.1.2.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/plioceno-inferior",
@@ -25,13 +28,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neogeno",
-    "prefLabel": {
-      "es": "Neógeno",
-      "en": "Neogene"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pliocene"
