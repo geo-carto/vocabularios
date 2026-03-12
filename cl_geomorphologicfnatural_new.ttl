@@ -442,7 +442,7 @@
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/zona-de-rompiente-zona-intermareal>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/zona-intensamente-fracturada>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/zona-o-superficie-de-pulido-y-abrasion-con-indicacion-de-flujo> ;
-    skos:prefLabel "Objeto geomorfológico natural - Todos los conceptos"@es .
+    skos:prefLabel "Objeto geomorfológico natural - ampliado - Todos los conceptos"@es .
 
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp/collection/col1> a skos:Collection ;
     dcterms:provenance "este vocabulario" ;
@@ -6543,7 +6543,7 @@
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms referring to natural geomorphological features."@en,
         "Términos referidos al objeto geomorfológico natural"@es ;
-    skos:editorialNote "Este archivo contiene el vocabulario Objeto geomorfológico natural."@es ;
+    skos:editorialNote "Este archivo contiene el vocabulario Objeto geomorfológico natural - ampliado."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-de-montaña>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-del-talud>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cara-desnuda>,
@@ -6570,6 +6570,6 @@
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/relicto>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/vertiente-montañosa> ;
-    skos:prefLabel "Geomorphological natural feature"@en,
-        "Objeto geomorfológico natural"@es .
+    skos:prefLabel "Geomorphological natural feature - extended"@en,
+        "Objeto geomorfológico natural - ampliado"@es .
 
