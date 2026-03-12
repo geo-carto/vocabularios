@@ -22,15 +22,6 @@
       "ICS: sustituido por Chibaniense"
     ]
   },
-  "narrower": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/chibaniense",
-      "prefLabel": {
-        "es": "Chibaniense",
-        "en": "Chibanian"
-      }
-    }
-  ],
   "closeMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ionian"
@@ -47,6 +38,11 @@
     }
   ],
   "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
+    }
+  ],
+  "topConceptOf": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }

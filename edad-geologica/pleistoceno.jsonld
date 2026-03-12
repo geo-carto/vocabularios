@@ -25,13 +25,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-medio",
-      "prefLabel": {
-        "es": "Pleistoceno Medio",
-        "en": "Middle Pleistocene"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-superior",
       "prefLabel": {
         "es": "Pleistoceno Superior",
@@ -39,6 +32,13 @@
       }
     }
   ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cuaternario",
+    "prefLabel": {
+      "es": "Cuaternario",
+      "en": "Quaternary"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pleistocene"

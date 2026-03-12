@@ -9,6 +9,13 @@
     "es": "Límite inferior 0.0117 Ma, límite superior 0.0082 Ma",
     "en": "Older bound 0.0117 Ma, younger bound 0.0082 Ma"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/holoceno",
+    "prefLabel": {
+      "es": "Holoceno",
+      "en": "Holocene"
+    }
+  },
   "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/holocene"

@@ -18,27 +18,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense-inferior",
-      "prefLabel": {
-        "es": "Mississippiense Inferior",
-        "en": "Lower Mississippian"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense-medio",
-      "prefLabel": {
-        "es": "Mississippiense Medio",
-        "en": "Middle Mississippian"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense-superior",
-      "prefLabel": {
-        "es": "Mississippiense Superior",
-        "en": "Upper Mississippian"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pennsylvaniense",
       "prefLabel": {
         "es": "Pennsylvaniense",
@@ -46,6 +25,13 @@
       }
     }
   ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico",
+    "prefLabel": {
+      "es": "Paleozoico",
+      "en": "Paleozoic"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/carboniferous"

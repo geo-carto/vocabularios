@@ -9,6 +9,13 @@
     "es": "Límite inferior 1000 Ma, límite superior 720 Ma",
     "en": "Older bound 1000 Ma, younger bound 720 Ma"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neoproterozoico",
+    "prefLabel": {
+      "es": "Neoproterozoico",
+      "en": "Neoproterozoic"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tonian"

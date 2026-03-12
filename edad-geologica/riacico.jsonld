@@ -9,6 +9,13 @@
     "es": "Límite inferior 2300 Ma, límite superior 2050 Ma",
     "en": "Older bound 2300 Ma, younger bound 2050 Ma"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleoproterozoico",
+    "prefLabel": {
+      "es": "Paleoproterozoico",
+      "en": "Paleoproterozoic"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/rhyacian"

@@ -9,6 +9,13 @@
     "es": "Límite inferior 3600 Ma, límite superior 3200 Ma",
     "en": "Older bound 3600 Ma, younger bound 3200 Ma"
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/arcaico",
+    "prefLabel": {
+      "es": "Arcaico",
+      "en": "Archean"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/paleoarchean"

@@ -21,6 +21,13 @@
       }
     }
   ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/edad-geologica/eoceno",
+    "prefLabel": {
+      "es": "Eoceno",
+      "en": "Eocene"
+    }
+  },
   "broadMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/eocene"
@@ -31,16 +38,16 @@
   ],
   "narrowMatch": [
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lutetian"
-    },
-    {
-      "id": "http://resource.geosciml.org/classifier/ics/ischart/Lutetian"
-    },
-    {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bartonian"
     },
     {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lutetian"
+    },
+    {
       "id": "http://resource.geosciml.org/classifier/ics/ischart/Bartonian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Lutetian"
     }
   ],
   "inScheme": [
