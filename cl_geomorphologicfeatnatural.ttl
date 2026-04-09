@@ -7,8 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural> ;
     skos:member <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-de-montaña>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-del-talud>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cara-desnuda>,
@@ -515,15 +516,16 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "European Commission – INSPIRE Directive" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://commission.europa.eu/" ;
+    dcterms:description "Términos referidos al objeto geomorfológico natural."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms referring to natural geomorphological features."@en,
-        "Términos referidos al objeto geomorfológico natural"@es ;
+        "Términos referidos al objeto geomorfológico natural."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Objeto geomorfológico natural."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-de-montaña>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-del-talud>,

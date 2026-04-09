@@ -7,8 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/pliegue-tipo/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/pliegue-tipo> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/pliegue-tipo> ;
     skos:member <https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal>,
         <https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal-tumbado>,
         <https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinorio>,
@@ -160,10 +161,11 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/pliegue-tipo> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "European Commission – INSPIRE Directive" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://commission.europa.eu/" ;
+    dcterms:description "Términos que clasifican los pliegues según la geometría cóncava/convexa del pliegue respecto a la superficie terrestre y la relación con la dirección de rejuvenecimiento en los estratos plegados, si se conoce."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;

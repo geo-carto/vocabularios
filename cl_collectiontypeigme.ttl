@@ -7,8 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/coleccion-tipo/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
     skos:member <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-datos-geofisicos>,
         <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-sondeos>,
         <https://geo-carto.github.io/vocabularios/coleccion-tipo/documentacion>,
@@ -97,16 +98,17 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/coleccion-tipo> a skos:ConceptScheme ;
-    dcterms:contributor "Insituto Geológico y Minero de España (CN CSIC-IGME)" ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "Commission for the Management and Application of Geoscience Information (CGI) (IUGS)" ;
+    dcterms:contributor "https://www.igme.es" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://cgi-iugs.org/" ;
+    dcterms:description "Términos referidos a rango estratigráfico."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos de Inspire ampliada por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms referring to stratigraphic rank."@en,
-        "Términos referidos a rango estratigráfico"@es ;
+        "Términos referidos a rango estratigráfico."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Tipo de colección."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-datos-geofisicos>,
         <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-sondeos>,

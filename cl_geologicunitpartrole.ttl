@@ -7,8 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
     skos:member <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/balsas>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloque-tectonico>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloques>,
@@ -35,8 +36,10 @@
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/xenolito> ;
     skos:prefLabel "Rol jerárquico de unidad geológica - Todos los conceptos"@es .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection/1> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+<https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection/composition-part-role> a skos:Collection ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
+    skos:definition "Colección: Composition part role"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
     skos:member <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/facies>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma>,
@@ -44,11 +47,12 @@
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte> ;
-    skos:prefLabel "Composition part role"@en,
-        "Roles de partes de composición"@es .
+    skos:prefLabel "Composition part role"@en .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection/2> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+<https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection/geologic-unit-hierarchy-role> a skos:Collection ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
+    skos:definition "Colección: Geologic unit hierarchy role"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
     skos:member <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/balsas>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloque-tectonico>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloques>,
@@ -73,8 +77,50 @@
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/xenolito> ;
-    skos:prefLabel "Geologic unit hierarchy role"@en,
-        "Roles jerárquicos de unidad geológica"@es .
+    skos:prefLabel "Geologic unit hierarchy role"@en .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection/roles-de-partes-de-composicion> a skos:Collection ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
+    skos:definition "Colección: Roles de partes de composición"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
+    skos:member <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/facies>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte> ;
+    skos:prefLabel "Roles de partes de composición"@es .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection/roles-jerarquicos-de-unidad-geologica> a skos:Collection ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
+    skos:definition "Colección: Roles jerárquicos de unidad geológica"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
+    skos:member <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/balsas>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloque-tectonico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloques>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-guia>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-litologica>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/concrecion>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/cortina>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/dique-o-vena>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/enclave>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/facies>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-estratificado>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-irregular>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-lenticular>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/matriz-de-unidad-geologica>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/paquete-sedimentario-ciclico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazo-de-techo>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazos>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/xenolito> ;
+    skos:prefLabel "Roles jerárquicos de unidad geológica"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
@@ -402,10 +448,11 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "Commission for the Management and Application of Geoscience Information (CGI) (IUGS)" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://cgi-iugs.org/" ;
+    dcterms:description "Términos que describe la naturaleza de las partes, por ejemplo: facies, estratigráfica, intercapas, geográfica, facies oriental."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;

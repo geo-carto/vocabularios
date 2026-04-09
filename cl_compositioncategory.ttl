@@ -7,8 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
     skos:member <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/acida>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcilloso>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa>,
@@ -1023,10 +1024,11 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "Insituto Geológico y Minero de España (CN CSIC-IGME)" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://www.igme.es" ;
+    dcterms:description "Términos basado en una clasificación composicional que resume el carácter general de la unidad. No es aplicable al nivel de material rocoso o de muestra. Ejemplos: alcalina, subaluminosa, peraluminosa, tipo I, carbonatada, fosfatada."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;

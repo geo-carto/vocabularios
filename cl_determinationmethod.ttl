@@ -7,8 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/metodo-determinacion/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
     skos:member <https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-fotogeologica>,
         <https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-por-tres-puntos>,
         <https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-distancia>,
@@ -127,10 +128,11 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/metodo-determinacion> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "Insituto Geológico y Minero de España (CN CSIC-IGME)" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://www.igme.es" ;
+    dcterms:description "Método utilizado para determinar la orientación de una estructura geológica."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;

@@ -7,8 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/afloramiento-caracter/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
     skos:member <https://geo-carto.github.io/vocabularios/afloramiento-caracter/acantilado>,
         <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-aceptable>,
         <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-alterado>,
@@ -108,6 +109,7 @@
 <https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:definition "con afloramiento"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/afloramiento-caracter/acantilado>,
         <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-aceptable>,
@@ -121,10 +123,11 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/afloramiento-caracter> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "Insituto Geológico y Minero de España (CN CSIC-IGME)" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://www.igme.es" ;
+    dcterms:description "Términos que describen la naturaleza de los afloramientos formados por una unidad geológica. Ejemplos: con bloques, formadora de acantilado, formadora de repisa, formadora de ladera, pobremente expuesta."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;

@@ -7,8 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo> ;
     skos:member <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/suelo-artificial>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-aloestratigrafica>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-bioestratigrafica>,
@@ -290,10 +291,11 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "European Commission – INSPIRE Directive" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://commission.europa.eu/" ;
+    dcterms:description "Términos que definen el tipo de unidad geológica."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;

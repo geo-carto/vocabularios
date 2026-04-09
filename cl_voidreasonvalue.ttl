@@ -7,10 +7,10 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/void-reason/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/void-reason> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/void-reason> ;
     skos:member <https://geo-carto.github.io/vocabularios/void-reason/desconocido>,
-        <https://geo-carto.github.io/vocabularios/void-reason/no-aplicable>,
         <https://geo-carto.github.io/vocabularios/void-reason/no-poblado>,
         <https://geo-carto.github.io/vocabularios/void-reason/retenido> ;
     skos:prefLabel "Razón de valor vacío - Todos los conceptos"@es .
@@ -33,17 +33,6 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/void-reason> ;
     skos:prefLabel "unknown"@en,
         "desconocido"@es ;
-    skos:topConceptOf <https://geo-carto.github.io/vocabularios/void-reason> ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/void-reason/no-aplicable> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/void-reason> ;
-    skos:definition "There is no corresponding value for the spatial object, e.g. depth of a dry spot."@en,
-        "No existe un valor correspondiente para el elemento espacial, por ejemplo, no es posible medir la profundidad en un punto seco."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/void-reason> ;
-    skos:prefLabel "inapplicable"@en,
-        "no aplicable"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/void-reason> ;
     adms:status "Válido" .
 
@@ -72,10 +61,11 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/void-reason> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "European Commission – INSPIRE Directive" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://commission.europa.eu/" ;
+    dcterms:description "Términos que describen las razones por las que un valor puede estar vacío o no proporcionado en un atributo."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;
@@ -83,7 +73,6 @@
         "Términos que describen las razones por las que un valor puede estar vacío o no proporcionado en un atributo."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Razón de valor vacío."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/void-reason/desconocido>,
-        <https://geo-carto.github.io/vocabularios/void-reason/no-aplicable>,
         <https://geo-carto.github.io/vocabularios/void-reason/no-poblado>,
         <https://geo-carto.github.io/vocabularios/void-reason/retenido> ;
     skos:prefLabel "Void Reason Value"@en,

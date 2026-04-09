@@ -7,8 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/estado/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/estado> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/estado> ;
     skos:member <https://geo-carto.github.io/vocabularios/estado/invalido>,
         <https://geo-carto.github.io/vocabularios/estado/propuesto>,
         <https://geo-carto.github.io/vocabularios/estado/retirado>,
@@ -40,8 +41,8 @@
 <https://geo-carto.github.io/vocabularios/estado/propuesto> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/estado> ;
-    skos:definition "The item has been entered into the register, but the control body has not accepted the proposal to add it."@en,
-        "El elemento ha sido incorporado al registro, pero el órgano de control no ha aceptado la propuesta de añadirlo."@es ;
+    skos:definition "The item has been entered into the register, but definitive approval of the control body is pending."@en,
+        "El elemento ha sido incorporado al registro, pero está pendiente de aprobación definitiva por el órgano de control."@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/registry/status/submitted> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/estado> ;
     skos:prefLabel "Submitted"@en,
@@ -86,10 +87,11 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/estado> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "ISO 19135:2026" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://www.iso.org/" ;
+    dcterms:description "Estados tomados de ISO 19135:2026"@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos definidos en ISO 19135:2026" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.1" ;

@@ -7,8 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo> ;
     skos:member <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/boudinada>,
         <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/canaliforme>,
         <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/cuña>,
@@ -165,10 +166,11 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "Insituto Geológico y Minero de España (CN CSIC-IGME)" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://www.igme.es" ;
+    dcterms:description "Término que especifican el estilo de la estratificación en una unidad geológica estratificada (por ejemplo, lenticular, irregular, planar, vago, masivo)."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;

@@ -7,8 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/convencion-codigo/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/convencion-codigo> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/convencion-codigo> ;
     skos:member <https://geo-carto.github.io/vocabularios/convencion-codigo/direccion-de-buzamiento>,
         <https://geo-carto.github.io/vocabularios/convencion-codigo/regla-de-la-mano-derecha> ;
     skos:prefLabel "Código de convención - Todos los conceptos"@es .
@@ -47,10 +48,11 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/convencion-codigo> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "European Commission – INSPIRE Directive" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://commission.europa.eu/" ;
+    dcterms:description "Código de convención utilizado para expresar la orientación de una medida estructural."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;

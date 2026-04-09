@@ -7,8 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> ;
     skos:member <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/base-del-cuaternario>,
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/geologia-superficial>,
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-de-la-roca-madre>,
@@ -77,16 +78,17 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> a skos:ConceptScheme ;
-    dcterms:contributor "Insituto Geológico y Minero de España (CN CSIC-IGME)" ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "Commission for the Management and Application of Geoscience Information (CGI) (IUGS)" ;
+    dcterms:contributor "https://www.igme.es" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://cgi-iugs.org/" ;
+    dcterms:description "Términos referidos al marco de cartografiado."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms referring to the mapping framework."@en,
-        "Términos referidos al marco de cartografiado"@es ;
+        "Términos referidos al marco de cartografiado."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Marco de cartografiado."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/base-del-cuaternario>,
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/geologia-superficial>,

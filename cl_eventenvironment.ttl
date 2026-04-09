@@ -7,8 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/evento-ambiente/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-ambiente> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-ambiente> ;
     skos:member <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-abisal>,
         <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-anoxico>,
         <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-arido-o-semiarido>,
@@ -2539,10 +2540,11 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/evento-ambiente> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "European Commission – INSPIRE Directive" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://commission.europa.eu/" ;
+    dcterms:description "Términos que describen el entorno geológico en el que ocurre un evento geológico. El entorno puede referirse, por ejemplo, a condiciones deposicionales, tectónicas, metamórficas o magmáticas en las que tuvo lugar el evento."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;

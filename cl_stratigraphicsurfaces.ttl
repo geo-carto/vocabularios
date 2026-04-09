@@ -7,8 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> ;
     skos:member <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte>,
         <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa> ;
     skos:prefLabel "Superfices de estratificación - Todos los conceptos"@es .
@@ -45,15 +46,16 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "Insituto Geológico y Minero de España (CN CSIC-IGME)" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://www.igme.es" ;
+    dcterms:description "Términos referidos a superficies de estratificación."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms referring to bedding surfaces."@en,
-        "Términos referidos a superficies de estratificación"@es ;
+        "Términos referidos a superficies de estratificación."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Superfices de estratificación."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte>,
         <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa> ;

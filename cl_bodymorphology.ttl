@@ -7,8 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia> ;
     skos:member <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/abanico>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/almohadilla>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/anillo-discoidal>,
@@ -1097,10 +1098,11 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "Insituto Geológico y Minero de España (CN CSIC-IGME)" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://www.igme.es" ;
+    dcterms:description "Términos que describe la geometría o forma de una unidad geológica. Ejemplos: dique, cono, abanico, lámina, etc. La morfología es independiente del material (EarthMaterial) que compone la unidad o del proceso que la formó."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;

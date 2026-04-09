@@ -7,8 +7,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://geo-carto.github.io/vocabularios/responsible-party-role/collection> a skos:Collection ;
-    dcterms:provenance "este vocabulario" ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/responsible-party-role> ;
     skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/responsible-party-role> ;
     skos:member <https://geo-carto.github.io/vocabularios/responsible-party-role/autor>,
         <https://geo-carto.github.io/vocabularios/responsible-party-role/co-autor>,
         <https://geo-carto.github.io/vocabularios/responsible-party-role/colaborador>,
@@ -261,10 +262,11 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/responsible-party-role> a skos:ConceptScheme ;
-    dcterms:created "2025-10-07"^^xsd:date ;
-    dcterms:creator "ISO 19115" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://www.iso.org/" ;
+    dcterms:description "Función desempeñada por la parte responsable según ISO 19115 CI_RoleCode."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2025-10-07"^^xsd:date ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales de ISO 19115" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;
