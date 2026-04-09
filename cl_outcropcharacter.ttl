@@ -8,7 +8,8 @@
 
 <https://geo-carto.github.io/vocabularios/afloramiento-caracter/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
     skos:member <https://geo-carto.github.io/vocabularios/afloramiento-caracter/acantilado>,
         <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-aceptable>,
@@ -18,7 +19,8 @@
         <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-en-bloques>,
         <https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento>,
         <https://geo-carto.github.io/vocabularios/afloramiento-caracter/sin-afloramiento> ;
-    skos:prefLabel "Carácter del afloramiento - Todos los conceptos"@es .
+    skos:prefLabel "Outcrop character - All concepts"@en,
+        "Carácter del afloramiento - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;

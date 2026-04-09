@@ -8,12 +8,14 @@
 
 <https://geo-carto.github.io/vocabularios/polaridad/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/polaridad> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/polaridad> ;
     skos:member <https://geo-carto.github.io/vocabularios/polaridad/invertida>,
         <https://geo-carto.github.io/vocabularios/polaridad/normal>,
         <https://geo-carto.github.io/vocabularios/polaridad/vertical> ;
-    skos:prefLabel "Polaridad - Todos los conceptos"@es .
+    skos:prefLabel "Polarity - All concepts"@en,
+        "Polaridad - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;

@@ -8,7 +8,8 @@
 
 <https://geo-carto.github.io/vocabularios/mappedfobservationmethod/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/mappedfobservationmethod> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/mappedfobservationmethod> ;
     skos:member <https://geo-carto.github.io/vocabularios/mappedfobservationmethod/cartografiado>,
         <https://geo-carto.github.io/vocabularios/mappedfobservationmethod/compilacion>,
@@ -37,7 +38,8 @@
         <https://geo-carto.github.io/vocabularios/mappedfobservationmethod/proyeccion-inferida-oculta-por-vegetacion>,
         <https://geo-carto.github.io/vocabularios/mappedfobservationmethod/ubicacion-de-afloramiento-observada-con-GPS>,
         <https://geo-carto.github.io/vocabularios/mappedfobservationmethod/ubicacion-de-afloramiento-observada-en-mapa-topografico> ;
-    skos:prefLabel "Método de observación de objetos cartografiados - Todos los conceptos"@es .
+    skos:prefLabel "Mapped feature observation method - All concepts"@en,
+        "Método de observación de objetos cartografiados - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;

@@ -8,7 +8,8 @@
 
 <https://geo-carto.github.io/vocabularios/alteracion-grado/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
     skos:member <https://geo-carto.github.io/vocabularios/alteracion-grado/alterita-residual-vi>,
         <https://geo-carto.github.io/vocabularios/alteracion-grado/alto-iv>,
@@ -16,7 +17,8 @@
         <https://geo-carto.github.io/vocabularios/alteracion-grado/material-fresco-i>,
         <https://geo-carto.github.io/vocabularios/alteracion-grado/moderado-iii>,
         <https://geo-carto.github.io/vocabularios/alteracion-grado/muy-alto-v> ;
-    skos:prefLabel "Grado de alteración - Todos los conceptos"@es .
+    skos:prefLabel "Alteration grade - All concepts"@en,
+        "Grado de alteración - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;

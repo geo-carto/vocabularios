@@ -8,7 +8,8 @@
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia> ;
     skos:member <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/abanico>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/almohadilla>,
@@ -87,7 +88,8 @@
         <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/vena>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/vena-planar>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/vena-sigmoidal> ;
-    skos:prefLabel "Morfología de cuerpo geológico - Todos los conceptos"@es .
+    skos:prefLabel "Body morphology - All concepts"@en,
+        "Morfología de cuerpo geológico - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;

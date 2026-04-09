@@ -8,13 +8,15 @@
 
 <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/marco-de-cartografiado> ;
     skos:member <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/base-del-cuaternario>,
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/geologia-superficial>,
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-de-la-roca-madre>,
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-del-basamento> ;
-    skos:prefLabel "Marco de cartografiado - Todos los conceptos"@es .
+    skos:prefLabel "Mapping frame - All concepts"@en,
+        "Marco de cartografiado - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;

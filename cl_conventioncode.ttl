@@ -8,11 +8,13 @@
 
 <https://geo-carto.github.io/vocabularios/convencion-codigo/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/convencion-codigo> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/convencion-codigo> ;
     skos:member <https://geo-carto.github.io/vocabularios/convencion-codigo/direccion-de-buzamiento>,
         <https://geo-carto.github.io/vocabularios/convencion-codigo/regla-de-la-mano-derecha> ;
-    skos:prefLabel "Código de convención - Todos los conceptos"@es .
+    skos:prefLabel "Convention Code - All concepts"@en,
+        "Código de convención - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;

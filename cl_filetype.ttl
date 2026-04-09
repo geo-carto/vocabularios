@@ -8,7 +8,8 @@
 
 <https://geo-carto.github.io/vocabularios/file-type/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
     skos:member <https://geo-carto.github.io/vocabularios/file-type/7z>,
         <https://geo-carto.github.io/vocabularios/file-type/aab>,
@@ -260,7 +261,8 @@
         <https://geo-carto.github.io/vocabularios/file-type/z>,
         <https://geo-carto.github.io/vocabularios/file-type/zarr>,
         <https://geo-carto.github.io/vocabularios/file-type/zip> ;
-    skos:prefLabel "Tipo de archivo - Todos los conceptos"@es .
+    skos:prefLabel "File Type - All concepts"@en,
+        "Tipo de archivo - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
@@ -281,8 +283,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/7Z>,
         <https://www.iana.org/assignments/media-types/application/x-7z-compressed> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".7z"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-7z-compressed"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".7z",
+        "application/x-7z-compressed" ;
     skos:prefLabel "7z"@en,
         "7z"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -298,8 +300,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/AAB>,
         <https://www.iana.org/assignments/media-types/application/x-authorware-bin> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".aab"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-authorware-bin"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".aab",
+        "application/x-authorware-bin" ;
     skos:prefLabel "AAB"@en,
         "AAB"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -315,8 +317,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/AAC>,
         <https://www.iana.org/assignments/media-types/audio/aac> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".adts; .ass; .aac; .loas"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "audio/aac"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".adts; .ass; .aac; .loas",
+        "audio/aac" ;
     skos:prefLabel "AAC"@en,
         "AAC"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -332,8 +334,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/AKN4EU>,
         <https://www.iana.org/assignments/media-types/application/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xml; .akn"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xml; .akn",
+        "application/xml" ;
     skos:prefLabel "AKN4EU file"@en,
         "AKN4EU file"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -349,8 +351,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/AKN4EU_LEG>,
         <https://www.iana.org/assignments/media-types/application/zip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".leg"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/zip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".leg",
+        "application/zip" ;
     skos:prefLabel "AKN4EU LEG"@en,
         "AKN4EU LEG"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -380,8 +382,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/APK>,
         <https://www.iana.org/assignments/media-types/application/vnd.android.package-archive> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".apk; .xapk"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.android.package-archive"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".apk; .xapk",
+        "application/vnd.android.package-archive" ;
     skos:prefLabel "APK"@en,
         "APK"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -397,8 +399,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/APPX>,
         <https://www.iana.org/assignments/media-types/application/octet-stream> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".appxbundle; .appx"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/octet-stream"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".appxbundle; .appx",
+        "application/octet-stream" ;
     skos:prefLabel "AppX"@en,
         "AppX"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -412,8 +414,8 @@
         "Un archivo APRX es un proyecto de ArcGIS Pro. Almacena la información del proyecto, incluyendo mapas, diseños de mapa, conexiones a datos, herramientas de geoprocesamiento y otros recursos utilizados en el proyecto. Es el formato de archivo de proyecto principal de la aplicación de escritorio ArcGIS Pro de Esri."@es ;
     skos:exactMatch <https://www.iana.org/assignments/media-types/application/octet-stream> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".aprx"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/octet-stream"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".aprx",
+        "application/octet-stream" ;
     skos:prefLabel "APRX"@en,
         "APRX"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -428,8 +430,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ARC>,
         <https://www.iana.org/assignments/media-types/application/octet-stream> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".arc"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/octet-stream"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".arc",
+        "application/octet-stream" ;
     skos:prefLabel "ARC"@en,
         "ARC"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -445,8 +447,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ARC_GZ>,
         <https://www.iana.org/assignments/media-types/application/gzip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".arc.gz"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/gzip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".arc.gz",
+        "application/gzip" ;
     skos:prefLabel "ARC GZ"@en,
         "ARC GZ"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -459,7 +461,7 @@
     skos:definition "An ArcGIS Image Service provides access to large collections of raster data and imagery through the ArcGIS REST API. It supports accessing data as pre-generated static tiles and dynamically generated images. It is suitable for sharing satellite imagery, aerial photography, digital elevation models, and other raster data."@en,
         "Un servicio de imágenes (Image Service) de ArcGIS proporciona acceso a grandes colecciones de datos rasterizados e imágenes a través de la API REST de ArcGIS. Soporta el acceso a datos como teselas estáticas pregeneradas e imágenes generadas dinámicamente. Es adecuado para compartir imágenes de satélite, fotografía aérea, modelos digitales de elevación y otros datos rasterizados."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "arcgis_image_service"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "arcgis_image_service" ;
     skos:prefLabel "ArcGIS Image Service"@en,
         "ArcGIS Image Service"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -471,7 +473,7 @@
     skos:definition "An ArcGIS Map Service makes the contents of a map document available through the ArcGIS REST API. It can operate dynamically, generating map images on demand, or as a cached service with pre-generated tiles for faster performance. It supports multiple optional capabilities such as Feature Access, WMS, WFS, and KML."@en,
         "Un servicio de mapas (Map Service) de ArcGIS hace disponible los contenidos de un documento de mapa a través de la API REST de ArcGIS. Puede funcionar de forma dinámica, generando imágenes de mapa bajo demanda, o como servicio cacheado con teselas pregeneradas para un rendimiento más rápido. Soporta múltiples capacidades opcionales como acceso a entidades (Feature Access), WMS, WFS y KML."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "arcgis_map_service"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "arcgis_map_service" ;
     skos:prefLabel "ArcGIS Map Service"@en,
         "ArcGIS Map Service"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -483,7 +485,7 @@
     skos:definition "An ArcGIS Vector Tile Service provides access to pre-cached vector data in PBF (Protocol Buffer Format) through the ArcGIS REST API. Vector tiles enable high-performance client-side rendering by leveraging the browser GPU. Styling is applied dynamically on the client side using the Mapbox Style specification."@en,
         "Un servicio de teselas vectoriales (Vector Tile Service) de ArcGIS proporciona acceso a datos vectoriales precacheados en formato PBF (Protocol Buffer Format) a través de la API REST de ArcGIS. Las teselas vectoriales permiten la representación de alto rendimiento en el cliente aprovechando la GPU del navegador. El estilo se aplica dinámicamente en el lado del cliente utilizando la especificación Mapbox Style."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "arcgis_vector_tile_service"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "arcgis_vector_tile_service" ;
     skos:prefLabel "ArcGIS Vector Tile Service"@en,
         "ArcGIS Vector Tile Service"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -498,7 +500,7 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ARCINFO_COV>,
         <https://www.iana.org/assignments/media-types/multipart/mixed> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "multipart/mixed"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "multipart/mixed" ;
     skos:prefLabel "ArcInfo coverage"@en,
         "ArcInfo coverage"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -514,8 +516,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ARFF>,
         <https://www.iana.org/assignments/media-types/text/plain> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".arff"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/plain"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".arff",
+        "text/plain" ;
     skos:prefLabel "ARFF"@en,
         "ARFF"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -531,8 +533,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ARJ>,
         <https://www.iana.org/assignments/media-types/application/x-arj> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".arj"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-arj"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".arj",
+        "application/x-arj" ;
     skos:prefLabel "ARJ"@en,
         "ARJ"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -548,8 +550,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ARROW_FILE>,
         <https://www.iana.org/assignments/media-types/application/vnd.apache.arrow.file> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".arrow"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.apache.arrow.file"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".arrow",
+        "application/vnd.apache.arrow.file" ;
     skos:prefLabel "Arrow file"@en,
         "Arrow file"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -565,8 +567,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ARROW_STREAM>,
         <https://www.iana.org/assignments/media-types/application/vnd.apache.arrow.stream> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".arrows"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.apache.arrow.stream"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".arrows",
+        "application/vnd.apache.arrow.stream" ;
     skos:prefLabel "Arrow stream"@en,
         "Arrow stream"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -582,8 +584,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ATOM>,
         <https://www.iana.org/assignments/media-types/application/atom+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xml; .atom"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/atom+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xml; .atom",
+        "application/atom+xml" ;
     skos:prefLabel "Atom Feed"@en,
         "Atom Feed"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -599,8 +601,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/AZW>,
         <https://www.iana.org/assignments/media-types/application/vnd.amazon.ebook> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".azw"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.amazon.ebook"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".azw",
+        "application/vnd.amazon.ebook" ;
     skos:prefLabel "Amazon Kindle eBook"@en,
         "Amazon Kindle eBook"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -614,8 +616,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/BIN>,
         <https://www.iana.org/assignments/media-types/application/octet-stream> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".bin"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/octet-stream"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".bin",
+        "application/octet-stream" ;
     skos:prefLabel "Binary Data"@en,
         "Binary Data"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -631,8 +633,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/BITS>,
         <https://www.iana.org/assignments/media-types/application/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xml",
+        "application/xml" ;
     skos:prefLabel "BITS XML"@en,
         "BITS XML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -646,8 +648,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/BMP>,
         <https://www.iana.org/assignments/media-types/image/x-ms-bmp> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".bm; .dib; .bmp"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "image/x-ms-bmp"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".bm; .dib; .bmp",
+        "image/x-ms-bmp" ;
     skos:prefLabel "Bitmap Image File"@en,
         "Bitmap Image File"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -663,8 +665,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/BWF>,
         <https://www.iana.org/assignments/media-types/audio/vnd.wave> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".wav; .bwf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "audio/vnd.wave"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".wav; .bwf",
+        "audio/vnd.wave" ;
     skos:prefLabel "BWF"@en,
         "BWF"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -680,8 +682,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/BZIP2>,
         <https://www.iana.org/assignments/media-types/application/x-bzip2> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".bz2"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-bzip2"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".bz2",
+        "application/x-bzip2" ;
     skos:prefLabel "bzip2"@en,
         "bzip2"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -695,8 +697,8 @@
         "Cloud Optimized GeoTIFF (COG) es una variante del formato de imagen GeoTIFF que especifica una organización interna particular de los datos para permitir el acceso optimizado (subconjuntos o agregados) a través de una red. Se basa en dos características del formato TIFF v6 (teselas y subarchivos de resolución reducida), claves GeoTIFF para georreferenciación y solicitudes HTTP range para la descarga eficiente de partes de datos de imágenes y coberturas de cuadrícula en la web."@es ;
     skos:exactMatch <https://www.iana.org/assignments/media-types/image/tiff> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".tiff; .tif"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "image/tiff"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".tiff; .tif",
+        "image/tiff" ;
     skos:prefLabel "COG"@en,
         "COG"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -709,8 +711,8 @@
         "Cloud Optimized Point Cloud (COPC) es un formato de archivo que almacena datos de nubes de puntos organizados en un octree agrupado dentro de un archivo LAZ 1.4. Permite el acceso eficiente por streaming a subconjuntos espaciales y de resolución de grandes conjuntos de datos de nubes de puntos a través de solicitudes HTTP range, de forma análoga a Cloud Optimized GeoTIFF (COG) para datos rasterizados. Es retrocompatible con cualquier lector LAZ 1.4."@es ;
     skos:exactMatch <https://www.iana.org/assignments/media-types/application/x-laz> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".copc.laz"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-laz"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".copc.laz",
+        "application/x-laz" ;
     skos:prefLabel "COPC"@en,
         "COPC"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -725,8 +727,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/CSS>,
         <https://www.iana.org/assignments/media-types/text/css> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".css"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/css"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".css",
+        "text/css" ;
     skos:prefLabel "CSS"@en,
         "CSS"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -742,8 +744,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/CSV>,
         <https://www.iana.org/assignments/media-types/text/csv> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".csv"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/csv"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".csv",
+        "text/csv" ;
     skos:prefLabel "CSV"@en,
         "CSV"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -759,8 +761,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/DAPK>,
         <https://www.iana.org/assignments/media-types/application/vnd.android.package-archive> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".apk; .xapk"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.android.package-archive"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".apk; .xapk",
+        "application/vnd.android.package-archive" ;
     skos:prefLabel "DAPK"@en,
         "DAPK"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -776,8 +778,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/DBF>,
         <https://www.iana.org/assignments/media-types/application/x-dbase> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".dbf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-dbase"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".dbf",
+        "application/x-dbase" ;
     skos:prefLabel "DBF"@en,
         "DBF"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -791,8 +793,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/DCR>,
         <https://www.iana.org/assignments/media-types/application/x-director> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".dcr"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-director"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".dcr",
+        "application/x-director" ;
     skos:prefLabel "DCR File"@en,
         "DCR File"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -808,8 +810,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/DEB>,
         <https://www.iana.org/assignments/media-types/application/vnd.debian.binary-package> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".deb"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.debian.binary-package"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".deb",
+        "application/vnd.debian.binary-package" ;
     skos:prefLabel "deb"@en,
         "deb"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -825,8 +827,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/DGN>,
         <https://www.iana.org/assignments/media-types/application/octet-stream> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".dgn"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/octet-stream"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".dgn",
+        "application/octet-stream" ;
     skos:prefLabel "DGN"@en,
         "DGN"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -842,8 +844,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/DMG>,
         <https://www.iana.org/assignments/media-types/application/x-apple-diskimage> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".dmg"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-apple-diskimage"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".dmg",
+        "application/x-apple-diskimage" ;
     skos:prefLabel "DMG"@en,
         "DMG"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -857,8 +859,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/DMP>,
         <https://www.iana.org/assignments/media-types/application/x-oracledump> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".dmp"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-oracledump"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".dmp",
+        "application/x-oracledump" ;
     skos:prefLabel "Oracle Dump"@en,
         "Oracle Dump"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -874,8 +876,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/DOC>,
         <https://www.iana.org/assignments/media-types/application/msword> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".doc"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/msword"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".doc",
+        "application/msword" ;
     skos:prefLabel "Word DOC"@en,
         "Word DOC"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -891,8 +893,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/DOCX>,
         <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.wordprocessingml.document> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".docx"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.openxmlformats-officedocument.wordprocessingml.document"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".docx",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document" ;
     skos:prefLabel "Word DOCX"@en,
         "Word DOCX"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -908,8 +910,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/DTD_SGML>,
         <https://www.iana.org/assignments/media-types/application/sgml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".dtd"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/sgml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".dtd",
+        "application/sgml" ;
     skos:prefLabel "SGML DTD"@en,
         "SGML DTD"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -925,8 +927,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/DTD_XML>,
         <https://www.iana.org/assignments/media-types/application/xml-dtd> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".dtd"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml-dtd"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".dtd",
+        "application/xml-dtd" ;
     skos:prefLabel "XML DTD"@en,
         "XML DTD"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -943,8 +945,8 @@
         <https://www.iana.org/assignments/media-types/application/gzip>,
         <https://www.iana.org/assignments/media-types/application/zip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".tar.gz; .zip"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/gzip; application/zip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".tar.gz; .zip",
+        "application/gzip; application/zip" ;
     skos:prefLabel "DwC-A"@en,
         "DwC-A"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -961,8 +963,8 @@
         <https://www.iana.org/assignments/media-types/application/dwg>,
         <https://www.iana.org/assignments/media-types/image/vnd.dwg> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".dwg"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "image/vnd.dwg; application/dwg"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".dwg",
+        "image/vnd.dwg; application/dwg" ;
     skos:prefLabel "DWG"@en,
         "DWG"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -978,8 +980,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/DXF>,
         <https://www.iana.org/assignments/media-types/image/vnd.dxf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".dxf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "image/vnd.dxf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".dxf",
+        "image/vnd.dxf" ;
     skos:prefLabel "DXF"@en,
         "DXF"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -995,8 +997,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/E00>,
         <https://www.iana.org/assignments/media-types/application/x-e00> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".e00"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-e00"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".e00",
+        "application/x-e00" ;
     skos:prefLabel "E00"@en,
         "E00"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1012,8 +1014,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/EAR>,
         <https://www.iana.org/assignments/media-types/application/java-archive> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".ear"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/java-archive"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".ear",
+        "application/java-archive" ;
     skos:prefLabel "EAR"@en,
         "EAR"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1029,8 +1031,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ECW>,
         <https://www.iana.org/assignments/media-types/application/x-ecw> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".ecw"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-ecw"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".ecw",
+        "application/x-ecw" ;
     skos:prefLabel "ECW"@en,
         "ECW"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1046,8 +1048,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/EFORMS_XML>,
         <https://www.iana.org/assignments/media-types/application/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xml",
+        "application/xml" ;
     skos:prefLabel "eForms XML"@en,
         "eForms XML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1061,8 +1063,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/EPS>,
         <https://www.iana.org/assignments/media-types/application/postscript> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".eps"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/postscript"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".eps",
+        "application/postscript" ;
     skos:prefLabel "Encapsulated Postscript"@en,
         "Encapsulated Postscript"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1078,8 +1080,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/EPUB>,
         <https://www.iana.org/assignments/media-types/application/epub+zip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".epub"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/epub+zip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".epub",
+        "application/epub+zip" ;
     skos:prefLabel "EPUB"@en,
         "EPUB"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1095,8 +1097,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ETSI_TSL>,
         <https://www.iana.org/assignments/media-types/application/vnd.etsi.tsl+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xml; .xtsl"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.etsi.tsl+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xml; .xtsl",
+        "application/vnd.etsi.tsl+xml" ;
     skos:prefLabel "ETSI TSL"@en,
         "ETSI TSL"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1112,8 +1114,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ETSI_XML>,
         <https://www.iana.org/assignments/media-types/application/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xml",
+        "application/xml" ;
     skos:prefLabel "ETSI signature validation report"@en,
         "ETSI signature validation report"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1129,8 +1131,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/EXE>,
         <https://www.iana.org/assignments/media-types/application/octet-stream> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".exe"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/octet-stream"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".exe",
+        "application/octet-stream" ;
     skos:prefLabel "EXE"@en,
         "EXE"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1143,7 +1145,7 @@
     skos:definition "An ArcGIS Feature Service provides access to vector geospatial features through the ArcGIS REST API. It allows querying, editing, updating, exporting, and displaying records of geographic data (points, lines, polygons) with their attributes. Features can be output in JSON, GeoJSON, and PBF formats."@en,
         "Un servicio de entidades (Feature Service) de ArcGIS proporciona acceso a características geoespaciales vectoriales a través de la API REST de ArcGIS. Permite consultar, editar, actualizar, exportar y visualizar registros de datos geográficos (puntos, líneas, polígonos) con sus atributos. Las entidades pueden devolvorse en formatos JSON, GeoJSON y PBF."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "arcgis_feature_service"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "arcgis_feature_service" ;
     skos:prefLabel "ArcGIS Feature Service"@en,
         "ArcGIS Feature Service"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -1155,8 +1157,8 @@
     skos:definition "FlatGeobuf is a binary file format for geographic vector data (points, lines, polygons) based on FlatBuffers. It is designed to be suitable for large volumes of static data, significantly faster than legacy formats, without size limitations, and suitable for streaming and random access. It optionally supports a packed Hilbert R-Tree spatial index."@en,
         "FlatGeobuf es un formato de archivo binario para datos vectoriales geográficos (puntos, líneas, polígonos) basado en FlatBuffers. Está diseñado para ser adecuado para grandes volúmenes de datos estáticos, significativamente más rápido que los formatos heredados, sin limitaciones de tamaño y apto para streaming y acceso aleatorio. Soporta opcionalmente un índice espacial R-Tree de Hilbert empaquetado."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".fgb"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/flatgeobuf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".fgb",
+        "application/flatgeobuf" ;
     skos:prefLabel "FlatGeobuf"@en,
         "FlatGeobuf"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -1171,8 +1173,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/FMX2>,
         <https://www.iana.org/assignments/media-types/text/sgml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/sgml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xml",
+        "text/sgml" ;
     skos:prefLabel "Formex 2"@en,
         "Formex 2"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1188,8 +1190,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/FMX3>,
         <https://www.iana.org/assignments/media-types/text/sgml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/sgml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xml",
+        "text/sgml" ;
     skos:prefLabel "Formex 3"@en,
         "Formex 3"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1205,8 +1207,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/FMX4>,
         <https://www.iana.org/assignments/media-types/application/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xml",
+        "application/xml" ;
     skos:prefLabel "Formex 4"@en,
         "Formex 4"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1222,8 +1224,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/FMX4_ZIP>,
         <https://www.iana.org/assignments/media-types/application/zip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".zip"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/zip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".zip",
+        "application/zip" ;
     skos:prefLabel "FMX4 ZIP"@en,
         "FMX4 ZIP"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1239,8 +1241,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/GDB>,
         <https://www.iana.org/assignments/media-types/application/x-filegdb> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".gdb"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-filegdb"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".gdb",
+        "application/x-filegdb" ;
     skos:prefLabel "Esri File Geodatabase"@en,
         "Esri File Geodatabase"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1256,8 +1258,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/GEOJSON>,
         <https://www.iana.org/assignments/media-types/application/geo+json> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".json; .geojson"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/geo+json"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".json; .geojson",
+        "application/geo+json" ;
     skos:prefLabel "GeoJSON"@en,
         "GeoJSON"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1271,8 +1273,8 @@
         "GeoParquet es una especificación para almacenar datos vectoriales geoespaciales (puntos, líneas, polígonos) en formato Apache Parquet. Define cómo deben almacenarse los datos geoespaciales en Parquet, incluyendo la representación de geometrías y los metadatos adicionales necesarios. Es un formato columnar de código abierto estandarizado, optimizado para flujos de trabajo analíticos de lectura intensiva."@es ;
     skos:exactMatch <https://www.iana.org/assignments/media-types/application/vnd.apache.parquet> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".parquet"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.apache.parquet"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".parquet",
+        "application/vnd.apache.parquet" ;
     skos:prefLabel "GeoParquet"@en,
         "GeoParquet"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -1287,8 +1289,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/GEOTIFF>,
         <https://www.iana.org/assignments/media-types/image/tiff> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".tiff"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "image/tiff"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".tiff",
+        "image/tiff" ;
     skos:prefLabel "GeoTIFF"@en,
         "GeoTIFF"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1304,8 +1306,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/GIF>,
         <https://www.iana.org/assignments/media-types/image/gif> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".gif"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "image/gif"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".gif",
+        "image/gif" ;
     skos:prefLabel "GIF"@en,
         "GIF"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1321,8 +1323,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/GML>,
         <https://www.iana.org/assignments/media-types/application/gml+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".gml .xml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/gml+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".gml .xml",
+        "application/gml+xml" ;
     skos:prefLabel "GML"@en,
         "GML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1338,8 +1340,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/GMZ>,
         <https://www.iana.org/assignments/media-types/application/x-gmz> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".gmz"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-gmz"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".gmz",
+        "application/x-gmz" ;
     skos:prefLabel "Zipped GML"@en,
         "Zipped GML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1355,8 +1357,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/GPKG>,
         <https://www.iana.org/assignments/media-types/application/geopackage+sqlite3> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".gpkg"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/geopackage+sqlite3"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".gpkg",
+        "application/geopackage+sqlite3" ;
     skos:prefLabel "GeoPackage"@en,
         "GeoPackage"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1372,8 +1374,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/GPX>,
         <https://www.iana.org/assignments/media-types/application/octet-stream> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".gpx"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/octet-stream"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".gpx",
+        "application/octet-stream" ;
     skos:prefLabel "GPX"@en,
         "GPX"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1390,7 +1392,7 @@
         <https://www.iana.org/assignments/media-types/application/x-esri-grid>,
         <https://www.iana.org/assignments/media-types/application/x-grid> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "application/x-esri-grid; application/x-grid"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "application/x-esri-grid; application/x-grid" ;
     skos:prefLabel "Esri binary grid"@en,
         "Esri binary grid"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1406,8 +1408,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/GRID_ASCII>,
         <https://www.iana.org/assignments/media-types/application/x-ascii-grid> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".asc"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-ascii-grid"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".asc",
+        "application/x-ascii-grid" ;
     skos:prefLabel "Esri ASCII grid"@en,
         "Esri ASCII grid"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1423,8 +1425,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/GTFS>,
         <https://www.iana.org/assignments/media-types/application/zip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".zip"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/zip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".zip",
+        "application/zip" ;
     skos:prefLabel "GTFS"@en,
         "GTFS"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1439,8 +1441,8 @@
         <https://www.iana.org/assignments/media-types/application/gzip>,
         <https://www.iana.org/assignments/media-types/application/x-gzip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".gz"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/gzip; application/x-gzip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".gz",
+        "application/gzip; application/x-gzip" ;
     skos:prefLabel "GNU zip"@en,
         "GNU zip"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1456,8 +1458,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/HDF>,
         <https://www.iana.org/assignments/media-types/application/x-hdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".h5; .hdf5; .h4; .hdf; .he2; .hdf4; .he5"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-hdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".h5; .hdf5; .h4; .hdf; .he2; .hdf4; .he5",
+        "application/x-hdf" ;
     skos:prefLabel "HDF"@en,
         "HDF"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1471,8 +1473,8 @@
         "HDF5 (Hierarchical Data Format versión 5) es un formato de archivo y un conjunto de herramientas diseñados para gestionar colecciones de datos complejas. Permite almacenar y organizar grandes cantidades de datos numéricos heterogéneos en una estructura jerárquica de grupos y conjuntos de datos dentro de un único archivo. Es ampliamente utilizado en investigación científica, ingeniería y observación de la Tierra."@es ;
     skos:exactMatch <https://www.iana.org/assignments/media-types/application/x-hdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".h5; .hdf5"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-hdf5"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".h5; .hdf5",
+        "application/x-hdf5" ;
     skos:prefLabel "HDF5"@en,
         "HDF5"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -1487,8 +1489,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/HDT>,
         <https://www.iana.org/assignments/media-types/application/vnd.hdt> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".hdt"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.hdt"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".hdt",
+        "application/vnd.hdt" ;
     skos:prefLabel "HDT"@en,
         "HDT"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1504,8 +1506,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/HTML>,
         <https://www.iana.org/assignments/media-types/text/html> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".html; .htm"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/html"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".html; .htm",
+        "text/html" ;
     skos:prefLabel "HTML"@en,
         "HTML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1521,8 +1523,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/HTML5>,
         <https://www.iana.org/assignments/media-types/text/html> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".html; .htm"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/html"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".html; .htm",
+        "text/html" ;
     skos:prefLabel "HTML5"@en,
         "HTML5"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1538,8 +1540,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/HTML_SIMPL>,
         <https://www.iana.org/assignments/media-types/text/html> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".html; .htm"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/html"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".html; .htm",
+        "text/html" ;
     skos:prefLabel "HTML simplified"@en,
         "HTML simplified"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1555,8 +1557,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ICS>,
         <https://www.iana.org/assignments/media-types/text/calendar> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".ical; .icalendar; .ifb; .ics"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/calendar"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".ical; .icalendar; .ifb; .ics",
+        "text/calendar" ;
     skos:prefLabel "ICalendar"@en,
         "ICalendar"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1570,8 +1572,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/IMMC_XML>,
         <https://www.iana.org/assignments/media-types/application/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "_immc.xml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "_immc.xml",
+        "application/xml" ;
     skos:prefLabel "IMMC XML message"@en,
         "IMMC XML message"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1587,8 +1589,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/INDD>,
         <https://www.iana.org/assignments/media-types/application/x-indesign> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".indd"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-indesign"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".indd",
+        "application/x-indesign" ;
     skos:prefLabel "INDD"@en,
         "INDD"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1604,8 +1606,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/IPA>,
         <https://www.iana.org/assignments/media-types/application/zip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".ipa"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/zip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".ipa",
+        "application/zip" ;
     skos:prefLabel "IPA"@en,
         "IPA"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1618,8 +1620,8 @@
     skos:definition "An IPYNB (IPython Notebook) file is a Jupyter Notebook document stored in JSON format. It contains an ordered list of input/output cells that can include executable code, rich text (Markdown), mathematics (LaTeX), plots, and images. It is widely used in data science, scientific research, and education."@en,
         "Un archivo IPYNB (IPython Notebook) es un documento Jupyter Notebook almacenado en formato JSON. Contiene una lista ordenada de celdas de entrada/salida que pueden incluir código ejecutable, texto enriquecido (Markdown), matemáticas (LaTeX), gráficos e imágenes. Es ampliamente utilizado en ciencia de datos, investigación científica y educación."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".ipynb"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-ipynb+json"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".ipynb",
+        "application/x-ipynb+json" ;
     skos:prefLabel "IPYNB"@en,
         "IPYNB"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -1634,8 +1636,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ISO>,
         <https://www.iana.org/assignments/media-types/application/x-iso9660-image> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".iso; .img"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-iso9660-image"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".iso; .img",
+        "application/x-iso9660-image" ;
     skos:prefLabel "ISO image"@en,
         "ISO image"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1651,8 +1653,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ISO_ZIP>,
         <https://www.iana.org/assignments/media-types/application/zip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".zip"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/zip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".zip",
+        "application/zip" ;
     skos:prefLabel "Zipped ISO image"@en,
         "Zipped ISO image"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1668,8 +1670,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/JAR>,
         <https://www.iana.org/assignments/media-types/application/java-archive> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".jar"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/java-archive"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".jar",
+        "application/java-archive" ;
     skos:prefLabel "JAR"@en,
         "JAR"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1685,8 +1687,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/JATS>,
         <https://www.iana.org/assignments/media-types/application/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xml",
+        "application/xml" ;
     skos:prefLabel "JATS XML"@en,
         "JATS XML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1700,8 +1702,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/JPEG>,
         <https://www.iana.org/assignments/media-types/image/jpeg> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".jpeg; .jpg"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "image/jpeg"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".jpeg; .jpg",
+        "image/jpeg" ;
     skos:prefLabel "JPEG"@en,
         "JPEG"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1717,8 +1719,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/JPEG2000>,
         <https://www.iana.org/assignments/media-types/image/jp2> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".jpg2; .jp2"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "image/jp2"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".jpg2; .jp2",
+        "image/jp2" ;
     skos:prefLabel "JPEG 2000"@en,
         "JPEG 2000"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1733,8 +1735,8 @@
         <https://www.iana.org/assignments/media-types/application/javascript>,
         <https://www.iana.org/assignments/media-types/text/javascript> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".js"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/javascript; application/javascript"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".js",
+        "text/javascript; application/javascript" ;
     skos:prefLabel "JavaScript"@en,
         "JavaScript"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1750,8 +1752,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/JSON>,
         <https://www.iana.org/assignments/media-types/application/json> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".json"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/json"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".json",
+        "application/json" ;
     skos:prefLabel "JSON"@en,
         "JSON"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1767,8 +1769,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/JSON_LD>,
         <https://www.iana.org/assignments/media-types/application/ld+json> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".jsonld"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/ld+json"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".jsonld",
+        "application/ld+json" ;
     skos:prefLabel "JSON-LD"@en,
         "JSON-LD"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1784,8 +1786,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/KML>,
         <https://www.iana.org/assignments/media-types/application/vnd.google-earth.kml+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".kml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.google-earth.kml+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".kml",
+        "application/vnd.google-earth.kml+xml" ;
     skos:prefLabel "KML"@en,
         "KML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1801,8 +1803,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/KMZ>,
         <https://www.iana.org/assignments/media-types/application/vnd.google-earth.kmz> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".kmz"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.google-earth.kmz"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".kmz",
+        "application/vnd.google-earth.kmz" ;
     skos:prefLabel "KMZ"@en,
         "KMZ"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1816,8 +1818,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/LAS>,
         <https://www.iana.org/assignments/media-types/application/x-las> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".las"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-las"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".las",
+        "application/x-las" ;
     skos:prefLabel "LASer file"@en,
         "LASer file"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1833,8 +1835,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/LAZ>,
         <https://www.iana.org/assignments/media-types/application/x-laz> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".laz"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-laz"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".laz",
+        "application/x-laz" ;
     skos:prefLabel "Compressed LAS file"@en,
         "Compressed LAS file"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1862,8 +1864,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/LEGALHTML>,
         <https://www.iana.org/assignments/media-types/application/xhtml+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".html"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xhtml+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".html",
+        "application/xhtml+xml" ;
     skos:prefLabel "LegalHTML"@en,
         "LegalHTML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1879,8 +1881,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/LHA>,
         <https://www.iana.org/assignments/media-types/application/x-lzh-compressed> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".lha; .lzh"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-lzh-compressed"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".lha; .lzh",
+        "application/x-lzh-compressed" ;
     skos:prefLabel "LHA"@en,
         "LHA"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1897,8 +1899,8 @@
         <https://www.iana.org/assignments/media-types/application/x-7z-compressed>,
         <https://www.iana.org/assignments/media-types/multipart/mixed> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".lpk"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-7z-compressed; multipart/mixed"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".lpk",
+        "application/x-7z-compressed; multipart/mixed" ;
     skos:prefLabel "Layer package"@en,
         "Layer package"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1912,8 +1914,8 @@
         "Un archivo LYRX es un archivo de capa de ArcGIS Pro que almacena la ruta a los datos de origen así como propiedades de visualización de la capa, incluyendo simbología, etiquetado, definiciones de consulta y otros ajustes de representación. Es un archivo en formato JSON utilizado exclusivamente por ArcGIS Pro, reemplazando al formato binario .lyr de ArcMap."@es ;
     skos:exactMatch <https://www.iana.org/assignments/media-types/application/json> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".lyrx"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/json"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".lyrx",
+        "application/json" ;
     skos:prefLabel "LYRX"@en,
         "LYRX"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -1928,8 +1930,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/LZIP>,
         <https://www.iana.org/assignments/media-types/application/x-lzip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".lz"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-lzip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".lz",
+        "application/x-lzip" ;
     skos:prefLabel "lzip"@en,
         "lzip"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1945,8 +1947,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/LZMA>,
         <https://www.iana.org/assignments/media-types/application/x-lzma> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".lzma"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-lzma"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".lzma",
+        "application/x-lzma" ;
     skos:prefLabel "lzma"@en,
         "lzma"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1962,8 +1964,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/LZO>,
         <https://www.iana.org/assignments/media-types/application/x-lzop> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".lzo"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-lzop"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".lzo",
+        "application/x-lzop" ;
     skos:prefLabel "lzo"@en,
         "lzo"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1977,7 +1979,7 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/MAP_PRVW>,
         <https://www.iana.org/assignments/media-types/arcgis_map_preview> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "arcgis_map_preview"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "arcgis_map_preview" ;
     skos:prefLabel "ArcGIS Map Preview"@en,
         "ArcGIS Map Preview"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -1991,7 +1993,7 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/MAP_SRVC>,
         <https://www.iana.org/assignments/media-types/arcgis_map_service> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "arcgis_map_service"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "arcgis_map_service" ;
     skos:prefLabel "ArcGIS Map Service"@en,
         "ArcGIS Map Service"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2007,8 +2009,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/MARKDOWN>,
         <https://www.iana.org/assignments/media-types/text/markdown> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".md; .markdown"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/markdown"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".md; .markdown",
+        "text/markdown" ;
     skos:prefLabel "Markdown"@en,
         "Markdown"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2026,8 +2028,8 @@
         <https://www.iana.org/assignments/media-types/application/mathml-content+xml>,
         <https://www.iana.org/assignments/media-types/application/mathml-presentation+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".mathml; .mml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/mathml+xml; application/mathml-content+xml; application/mathml-presentation+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".mathml; .mml",
+        "application/mathml+xml; application/mathml-content+xml; application/mathml-presentation+xml" ;
     skos:prefLabel "MathML"@en,
         "MathML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2043,8 +2045,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/MATLAB_MAT>,
         <https://www.iana.org/assignments/media-types/application/octet-stream> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".mat"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/octet-stream"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".mat",
+        "application/octet-stream" ;
     skos:prefLabel "MATLAB MAT"@en,
         "MATLAB MAT"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2060,8 +2062,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/MBOX>,
         <https://www.iana.org/assignments/media-types/application/mbox> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".mbox"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/mbox"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".mbox",
+        "application/mbox" ;
     skos:prefLabel "MBOX"@en,
         "MBOX"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2078,8 +2080,8 @@
         <https://www.iana.org/assignments/media-types/application/vnd.ms-access>,
         <https://www.iana.org/assignments/media-types/application/x-msaccess> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".mdb"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.ms-access; application/x-msaccess"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".mdb",
+        "application/vnd.ms-access; application/x-msaccess" ;
     skos:prefLabel "MDB"@en,
         "MDB"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2095,8 +2097,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/METS>,
         <https://www.iana.org/assignments/media-types/application/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xml",
+        "application/xml" ;
     skos:prefLabel "METS XML"@en,
         "METS XML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2112,8 +2114,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/METS_ZIP>,
         <https://www.iana.org/assignments/media-types/application/zip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".zip"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/zip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".zip",
+        "application/zip" ;
     skos:prefLabel "METS package"@en,
         "METS package"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2129,8 +2131,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/MHTML>,
         <https://www.iana.org/assignments/media-types/multipart/related> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".mhtml; .mht"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "multipart/related"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".mhtml; .mht",
+        "multipart/related" ;
     skos:prefLabel "MHTML"@en,
         "MHTML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2146,8 +2148,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/MIF_MID>,
         <https://www.iana.org/assignments/media-types/text/plain> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".mid; .mif"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/plain"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".mid; .mif",
+        "text/plain" ;
     skos:prefLabel "MIF/MID"@en,
         "MIF/MID"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2163,8 +2165,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/MOBI>,
         <https://www.iana.org/assignments/media-types/application/x-mobipocket-ebook> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".mobi; .prc"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-mobipocket-ebook"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".mobi; .prc",
+        "application/x-mobipocket-ebook" ;
     skos:prefLabel "Mobipocket eBook"@en,
         "Mobipocket eBook"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2180,8 +2182,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/MOP>,
         <https://www.iana.org/assignments/media-types/chemical/x-mopac-input> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".mop"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "chemical/x-mopac-input"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".mop",
+        "chemical/x-mopac-input" ;
     skos:prefLabel "MOP"@en,
         "MOP"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2197,8 +2199,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/MOV>,
         <https://www.iana.org/assignments/media-types/video/quicktime> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".mov"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "video/quicktime"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".mov",
+        "video/quicktime" ;
     skos:prefLabel "MOV"@en,
         "MOV"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2216,8 +2218,8 @@
         <https://www.iana.org/assignments/media-types/audio/mpa-robust>,
         <https://www.iana.org/assignments/media-types/audio/mpeg> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".mp3"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "audio/mpa-robust; audio/MPA; audio/mpeg"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".mp3",
+        "audio/mpa-robust; audio/MPA; audio/mpeg" ;
     skos:prefLabel "MP3"@en,
         "MP3"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2234,8 +2236,8 @@
         <https://www.iana.org/assignments/media-types/audio/mpeg>,
         <https://www.iana.org/assignments/media-types/video/mpeg> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".mpeg; mpg; mp3; mp2; m2v"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "audio/mpeg; video/mpeg"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".mpeg; mpg; mp3; mp2; m2v",
+        "audio/mpeg; video/mpeg" ;
     skos:prefLabel "MPEG-2"@en,
         "MPEG-2"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2253,8 +2255,8 @@
         <https://www.iana.org/assignments/media-types/audio/mp4>,
         <https://www.iana.org/assignments/media-types/video/mp4> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".mpeg; mpg; mp4"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "audio/mp4; video/mp4; application/mp4"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".mpeg; mpg; mp4",
+        "audio/mp4; video/mp4; application/mp4" ;
     skos:prefLabel "MPEG-4"@en,
         "MPEG-4"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2272,8 +2274,8 @@
         <https://www.iana.org/assignments/media-types/audio/mp4>,
         <https://www.iana.org/assignments/media-types/video/mp4> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".mpeg; mpg; mp4"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "audio/mp4; video/mp4; application/mp4"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".mpeg; mpg; mp4",
+        "audio/mp4; video/mp4; application/mp4" ;
     skos:prefLabel "MPEG-4 AVC"@en,
         "MPEG-4 AVC"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2291,8 +2293,8 @@
         <https://www.iana.org/assignments/media-types/image/x-mrsid-image>,
         <https://www.iana.org/assignments/media-types/image/x.mrsid> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".sid"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "image/x.mrsid; image/x-mrsid; image/x-mrsid-image"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".sid",
+        "image/x.mrsid; image/x-mrsid; image/x-mrsid-image" ;
     skos:prefLabel "MrSID"@en,
         "MrSID"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2308,7 +2310,7 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/MSG_HTTP>,
         <https://www.iana.org/assignments/media-types/message/http> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "message/http"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "message/http" ;
     skos:prefLabel "HTTP Message"@en,
         "HTTP Message"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2324,8 +2326,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/MSI>,
         <https://www.iana.org/assignments/media-types/application/x-ole-storage> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".msi; .msp"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-ole-storage"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".msi; .msp",
+        "application/x-ole-storage" ;
     skos:prefLabel "MSI"@en,
         "MSI"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2339,8 +2341,8 @@
         "Mapbox Vector Tile (MVT) es una especificación de código abierto para codificar datos geoespaciales vectoriales teselados. Utiliza Protocol Buffers de Google como formato de codificación binaria. Las teselas vectoriales permiten la representación eficiente de datos geoespaciales en clientes web con estilizado del lado del cliente."@es ;
     skos:exactMatch <https://www.iana.org/assignments/media-types/application/vnd.mapbox-vector-tile> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".mvt; .pbf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.mapbox-vector-tile"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".mvt; .pbf",
+        "application/vnd.mapbox-vector-tile" ;
     skos:prefLabel "MVT"@en,
         "MVT"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -2355,8 +2357,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/MXD>,
         <https://www.iana.org/assignments/media-types/application/x-mxd> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".mxd"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-mxd"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".mxd",
+        "application/x-mxd" ;
     skos:prefLabel "MXD"@en,
         "MXD"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2372,8 +2374,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/N3>,
         <https://www.iana.org/assignments/media-types/text/n3> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".n3"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/n3"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".n3",
+        "text/n3" ;
     skos:prefLabel "N3"@en,
         "N3"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2389,8 +2391,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/NETCDF>,
         <https://www.iana.org/assignments/media-types/application/x-netcdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".nc; .cdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-netcdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".nc; .cdf",
+        "application/x-netcdf" ;
     skos:prefLabel "NetCDF"@en,
         "NetCDF"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2406,8 +2408,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/OAPK>,
         <https://www.iana.org/assignments/media-types/application/vnd.android.package-archive> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".apk; .xapk"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.android.package-archive"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".apk; .xapk",
+        "application/vnd.android.package-archive" ;
     skos:prefLabel "OAPK"@en,
         "OAPK"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2421,8 +2423,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/OCTET>,
         <https://www.iana.org/assignments/media-types/application/octet-stream> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".zoo"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/octet-stream"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".zoo",
+        "application/octet-stream" ;
     skos:prefLabel "Octet Stream"@en,
         "Octet Stream"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2436,8 +2438,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ODB>,
         <https://www.iana.org/assignments/media-types/application/vnd.oasis.opendocument.database> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".odb"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.oasis.opendocument.database"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".odb",
+        "application/vnd.oasis.opendocument.database" ;
     skos:prefLabel "OpenDocument Database"@en,
         "OpenDocument Database"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2451,8 +2453,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ODC>,
         <https://www.iana.org/assignments/media-types/application/vnd.oasis.opendocument.chart> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".odc"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.oasis.opendocument.chart"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".odc",
+        "application/vnd.oasis.opendocument.chart" ;
     skos:prefLabel "OpenDocument Chart"@en,
         "OpenDocument Chart"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2469,8 +2471,8 @@
         <https://www.iana.org/assignments/media-types/application/octet-stream>,
         <https://www.iana.org/assignments/media-types/application/vnd.oasis.opendocument.formula> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".odf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/octet-stream; application/vnd.oasis.opendocument.formula"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".odf",
+        "application/octet-stream; application/vnd.oasis.opendocument.formula" ;
     skos:prefLabel "ODF"@en,
         "ODF"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2484,8 +2486,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ODG>,
         <https://www.iana.org/assignments/media-types/application/vnd.oasis.opendocument.graphics> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".odg"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.oasis.opendocument.graphics"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".odg",
+        "application/vnd.oasis.opendocument.graphics" ;
     skos:prefLabel "OpenDocument Image"@en,
         "OpenDocument Image"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2501,8 +2503,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ODP>,
         <https://www.iana.org/assignments/media-types/application/vnd.oasis.opendocument.presentation> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".odp; .fodp"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.oasis.opendocument.presentation"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".odp; .fodp",
+        "application/vnd.oasis.opendocument.presentation" ;
     skos:prefLabel "ODP"@en,
         "ODP"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2518,8 +2520,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ODS>,
         <https://www.iana.org/assignments/media-types/application/vnd.oasis.opendocument.spreadsheet> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".ods"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.oasis.opendocument.spreadsheet"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".ods",
+        "application/vnd.oasis.opendocument.spreadsheet" ;
     skos:prefLabel "ODS"@en,
         "ODS"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2535,8 +2537,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ODT>,
         <https://www.iana.org/assignments/media-types/application/vnd.oasis.opendocument.text> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".odt"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.oasis.opendocument.text"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".odt",
+        "application/vnd.oasis.opendocument.text" ;
     skos:prefLabel "ODT"@en,
         "ODT"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2549,7 +2551,7 @@
     skos:definition "OGC API – Coverages is an Open Geospatial Consortium standard that defines a RESTful API for accessing coverages, i.e. digital geospatial information representing space/time-varying phenomena (raster data). It replaces the older Web Coverage Service (WCS) standard."@en,
         "OGC API – Coverages es un estándar del Open Geospatial Consortium que define una API RESTful para acceder a coberturas, es decir, información geoespacial digital que representa fenómenos que varían en el espacio y el tiempo (datos rasterizados). Reemplaza al estándar Web Coverage Service (WCS) anterior."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "image/tiff; application/json"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "image/tiff; application/json" ;
     skos:prefLabel "OGC API Coverages"@en,
         "OGC API Coverages"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -2562,7 +2564,7 @@
         "OGC API – Features es un estándar del Open Geospatial Consortium que define una API RESTful para consultar, crear, modificar y acceder a características geoespaciales en la web. Reemplaza al estándar Web Feature Service (WFS) anterior, utilizando principios modernos de la web como JSON, HTML y OpenAPI."@es ;
     skos:exactMatch <https://www.iana.org/assignments/media-types/application/geo+json> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "application/geo+json; text/html; application/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "application/geo+json; text/html; application/xml" ;
     skos:prefLabel "OGC API Features"@en,
         "OGC API Features"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -2574,7 +2576,7 @@
     skos:definition "OGC API – Maps is an Open Geospatial Consortium standard that defines a RESTful API for accessing rendered representations of geospatial maps. It provides dynamically generated georeferenced map images. It replaces the older Web Map Service (WMS) standard, using modern web principles."@en,
         "OGC API – Maps es un estándar del Open Geospatial Consortium que define una API RESTful para acceder a representaciones renderizadas de mapas geoespaciales. Proporciona imágenes de mapas georreferenciados generados dinámicamente. Reemplaza al estándar Web Map Service (WMS) anterior, utilizando principios modernos de la web."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "image/png; image/jpeg"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "image/png; image/jpeg" ;
     skos:prefLabel "OGC API Maps"@en,
         "OGC API Maps"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -2586,7 +2588,7 @@
     skos:definition "OGC API – Tiles is an Open Geospatial Consortium standard that defines a RESTful API for accessing geospatial data in the form of predefined tiles. It supports both raster map tiles and vector tiles. It replaces the older WMTS standard, using modern web principles."@en,
         "OGC API – Tiles es un estándar del Open Geospatial Consortium que define una API RESTful para acceder a datos geoespaciales en forma de teselas predefinidas. Soporta tanto teselas de mapas rasterizados como teselas vectoriales. Reemplaza al estándar WMTS anterior, utilizando principios modernos de la web."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "image/png; image/jpeg; application/vnd.mapbox-vector-tile"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "image/png; image/jpeg; application/vnd.mapbox-vector-tile" ;
     skos:prefLabel "OGC API Tiles"@en,
         "OGC API Tiles"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -2612,8 +2614,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/OVF>,
         <https://www.iana.org/assignments/media-types/application/ovf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".ovf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/ovf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".ovf",
+        "application/ovf" ;
     skos:prefLabel "OVF"@en,
         "OVF"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2629,8 +2631,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/OWL>,
         <https://www.iana.org/assignments/media-types/application/owl+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".rdf; .owl; .owx"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/owl+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".rdf; .owl; .owx",
+        "application/owl+xml" ;
     skos:prefLabel "OWL"@en,
         "OWL"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2646,8 +2648,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PARQUET>,
         <https://www.iana.org/assignments/media-types/application/vnd.apache.parquet> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".parquet"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.apache.parquet"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".parquet",
+        "application/vnd.apache.parquet" ;
     skos:prefLabel "Parquet"@en,
         "Parquet"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2663,8 +2665,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PDF>,
         <https://www.iana.org/assignments/media-types/application/pdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/pdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pdf",
+        "application/pdf" ;
     skos:prefLabel "PDF"@en,
         "PDF"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2680,8 +2682,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PDF1X>,
         <https://www.iana.org/assignments/media-types/application/pdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/pdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pdf",
+        "application/pdf" ;
     skos:prefLabel "PDF1X"@en,
         "PDF1X"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2697,8 +2699,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PDFA1A>,
         <https://www.iana.org/assignments/media-types/application/pdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/pdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pdf",
+        "application/pdf" ;
     skos:prefLabel "PDF/A-1a"@en,
         "PDF/A-1a"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2714,8 +2716,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PDFA1B>,
         <https://www.iana.org/assignments/media-types/application/pdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/pdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pdf",
+        "application/pdf" ;
     skos:prefLabel "PDF/A-1b"@en,
         "PDF/A-1b"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2729,8 +2731,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PDFA2A>,
         <https://www.iana.org/assignments/media-types/application/pdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/pdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pdf",
+        "application/pdf" ;
     skos:prefLabel "PDF/A-2a"@en,
         "PDF/A-2a"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2744,8 +2746,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PDFA2B>,
         <https://www.iana.org/assignments/media-types/application/pdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/pdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pdf",
+        "application/pdf" ;
     skos:prefLabel "PDF/A-2b"@en,
         "PDF/A-2b"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2759,8 +2761,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PDFA3>,
         <https://www.iana.org/assignments/media-types/application/pdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/pdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pdf",
+        "application/pdf" ;
     skos:prefLabel "PDF/A-3"@en,
         "PDF/A-3"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2774,8 +2776,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PDFA3A>,
         <https://www.iana.org/assignments/media-types/application/pdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/pdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pdf",
+        "application/pdf" ;
     skos:prefLabel "PDF/A-3a"@en,
         "PDF/A-3a"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2789,8 +2791,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PDFA3B>,
         <https://www.iana.org/assignments/media-types/application/pdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/pdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pdf",
+        "application/pdf" ;
     skos:prefLabel "PDF/A-3b"@en,
         "PDF/A-3b"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2804,8 +2806,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PDFA3U>,
         <https://www.iana.org/assignments/media-types/application/pdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/pdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pdf",
+        "application/pdf" ;
     skos:prefLabel "PDF/A-3u"@en,
         "PDF/A-3u"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2821,8 +2823,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PDFUA>,
         <https://www.iana.org/assignments/media-types/application/pdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/pdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pdf",
+        "application/pdf" ;
     skos:prefLabel "PDF/UA"@en,
         "PDF/UA"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2838,8 +2840,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PDFX>,
         <https://www.iana.org/assignments/media-types/application/pdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/pdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pdf",
+        "application/pdf" ;
     skos:prefLabel "PDF/X"@en,
         "PDF/X"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2853,8 +2855,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PDFX1A>,
         <https://www.iana.org/assignments/media-types/application/pdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/pdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pdf",
+        "application/pdf" ;
     skos:prefLabel "PDF/X-1a"@en,
         "PDF/X-1a"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2868,8 +2870,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PDFX2A>,
         <https://www.iana.org/assignments/media-types/application/pdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/pdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pdf",
+        "application/pdf" ;
     skos:prefLabel "PDF/X-2a"@en,
         "PDF/X-2a"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2883,8 +2885,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PDFX4>,
         <https://www.iana.org/assignments/media-types/application/pdf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/pdf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pdf",
+        "application/pdf" ;
     skos:prefLabel "PDF/X-4"@en,
         "PDF/X-4"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2898,8 +2900,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PL>,
         <https://www.iana.org/assignments/media-types/text/x-perl> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pm; .t; .pl; .pod"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/x-perl"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pm; .t; .pl; .pod",
+        "text/x-perl" ;
     skos:prefLabel "Perl script"@en,
         "Perl script"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2915,8 +2917,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PNG>,
         <https://www.iana.org/assignments/media-types/image/png> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".png"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "image/png"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".png",
+        "image/png" ;
     skos:prefLabel "PNG"@en,
         "PNG"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2932,8 +2934,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PPS>,
         <https://www.iana.org/assignments/media-types/application/vnd.ms-powerpoint> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pps"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.ms-powerpoint"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pps",
+        "application/vnd.ms-powerpoint" ;
     skos:prefLabel "PowerPoint Slide Show"@en,
         "PowerPoint Slide Show"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2949,8 +2951,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PPSX>,
         <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.presentationml.slideshow> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".ppsx"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.openxmlformats-officedocument.presentationml.slideshow"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".ppsx",
+        "application/vnd.openxmlformats-officedocument.presentationml.slideshow" ;
     skos:prefLabel "PowerPoint PPSX"@en,
         "PowerPoint PPSX"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2966,8 +2968,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PPT>,
         <https://www.iana.org/assignments/media-types/application/vnd.ms-powerpoint> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".ppt"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.ms-powerpoint"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".ppt",
+        "application/vnd.ms-powerpoint" ;
     skos:prefLabel "PowerPoint PPT"@en,
         "PowerPoint PPT"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -2983,8 +2985,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PPTX>,
         <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.presentationml.presentation> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".pptx"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.openxmlformats-officedocument.presentationml.presentation"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".pptx",
+        "application/vnd.openxmlformats-officedocument.presentationml.presentation" ;
     skos:prefLabel "PowerPoint PPTX"@en,
         "PowerPoint PPTX"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3000,8 +3002,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PS>,
         <https://www.iana.org/assignments/media-types/application/postscript> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".ps"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/postscript"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".ps",
+        "application/postscript" ;
     skos:prefLabel "PS"@en,
         "PS"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3017,8 +3019,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PSD>,
         <https://www.iana.org/assignments/media-types/application/x-photoshop> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".psd"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-photoshop"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".psd",
+        "application/x-photoshop" ;
     skos:prefLabel "PSD"@en,
         "PSD"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3034,7 +3036,7 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/PWP>,
         <https://www.iana.org/assignments/media-types/application/zip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "application/zip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "application/zip" ;
     skos:prefLabel "PWP"@en,
         "PWP"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3047,8 +3049,8 @@
     skos:definition "A PY file is a source code file written in the Python programming language. Python is an interpreted, high-level, general-purpose programming language. Python files contain source code that can be executed directly by the Python interpreter."@en,
         "Un archivo PY es un archivo de código fuente escrito en el lenguaje de programación Python. Python es un lenguaje de programación interpretado, de alto nivel y de propósito general. Los archivos Python contienen código fuente que puede ejecutarse directamente por el intérprete de Python."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".py; .pyw"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/x-python"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".py; .pyw",
+        "text/x-python" ;
     skos:prefLabel "PY"@en,
         "PY"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -3063,8 +3065,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/QGS>,
         <https://www.iana.org/assignments/media-types/application/octet-stream> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".qgs"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/octet-stream"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".qgs",
+        "application/octet-stream" ;
     skos:prefLabel "QGS"@en,
         "QGS"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3078,8 +3080,8 @@
         "Un archivo QGZ es un proyecto de QGIS comprimido. Es un archivo ZIP que contiene el archivo de proyecto QGS y cualquier recurso auxiliar (como datos de fuentes, estilos). QGZ es el formato de proyecto predeterminado a partir de QGIS 3.2, reemplazando al archivo QGS sin comprimir."@es ;
     skos:exactMatch <https://www.iana.org/assignments/media-types/application/zip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".qgz"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/zip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".qgz",
+        "application/zip" ;
     skos:prefLabel "QGZ"@en,
         "QGZ"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -3092,8 +3094,8 @@
         "Un archivo QML (QGIS Layer Style) es un archivo XML que almacena la información de estilo de una capa en QGIS, incluyendo la simbología, el etiquetado, las acciones de formulario y otras propiedades de visualización. Se utiliza para guardar y compartir estilos de capas entre proyectos QGIS."@es ;
     skos:exactMatch <https://www.iana.org/assignments/media-types/application/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".qml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".qml",
+        "application/xml" ;
     skos:prefLabel "QML"@en,
         "QML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -3108,8 +3110,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/RAR>,
         <https://www.iana.org/assignments/media-types/application/vnd.rar> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".r01; .rar; .r00; .rev"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.rar"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".r01; .rar; .r00; .rev",
+        "application/vnd.rar" ;
     skos:prefLabel "RAR"@en,
         "RAR"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3125,8 +3127,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/RDATA>,
         <https://www.iana.org/assignments/media-types/application/octet-stream> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".rdata; .r"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/octet-stream"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".rdata; .r",
+        "application/octet-stream" ;
     skos:prefLabel "RData"@en,
         "RData"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3142,8 +3144,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/RDF>,
         <https://www.iana.org/assignments/media-types/application/rdf+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".rdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/rdf+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".rdf",
+        "application/rdf+xml" ;
     skos:prefLabel "RDF"@en,
         "RDF"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3159,8 +3161,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/RDF_N_QUADS>,
         <https://www.iana.org/assignments/media-types/application/n-quads> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".nq"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/n-quads"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".nq",
+        "application/n-quads" ;
     skos:prefLabel "RDF N-Quads"@en,
         "RDF N-Quads"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3176,8 +3178,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES>,
         <https://www.iana.org/assignments/media-types/application/n-triples> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".nt"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/n-triples"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".nt",
+        "application/n-triples" ;
     skos:prefLabel "RDF N-Triples"@en,
         "RDF N-Triples"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3193,8 +3195,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/RDF_THRIFT>,
         <https://www.iana.org/assignments/media-types/application/rdf+thrift> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".rt; .trdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/rdf+thrift"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".rt; .trdf",
+        "application/rdf+thrift" ;
     skos:prefLabel "RDF Thrift"@en,
         "RDF Thrift"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3210,8 +3212,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/RDF_TRIG>,
         <https://www.iana.org/assignments/media-types/application/trig> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".trig"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/trig"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".trig",
+        "application/trig" ;
     skos:prefLabel "RDF TriG"@en,
         "RDF TriG"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3227,8 +3229,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/RDF_TRIX>,
         <https://www.iana.org/assignments/media-types/application/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xml; .trix"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xml; .trix",
+        "application/xml" ;
     skos:prefLabel "RDF TriX"@en,
         "RDF TriX"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3244,8 +3246,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>,
         <https://www.iana.org/assignments/media-types/text/turtle> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".ttl"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/turtle"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".ttl",
+        "text/turtle" ;
     skos:prefLabel "RDF Turtle"@en,
         "RDF Turtle"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3261,8 +3263,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/RDF_XML>,
         <https://www.iana.org/assignments/media-types/application/rdf+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".rdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/rdf+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".rdf",
+        "application/rdf+xml" ;
     skos:prefLabel "RDF XML"@en,
         "RDF XML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3278,8 +3280,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/RDFA>,
         <https://www.iana.org/assignments/media-types/application/rdfa> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".rdfa"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/rdfa"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".rdfa",
+        "application/rdfa" ;
     skos:prefLabel "RDFa"@en,
         "RDFa"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3295,7 +3297,7 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/REST>,
         <https://www.iana.org/assignments/media-types/arcgis_rest> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "arcgis_rest"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "arcgis_rest" ;
     skos:prefLabel "Esri REST"@en,
         "Esri REST"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3311,8 +3313,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/RPM>,
         <https://www.iana.org/assignments/media-types/application/x-rpm> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".rpm"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-rpm"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".rpm",
+        "application/x-rpm" ;
     skos:prefLabel "RPM"@en,
         "RPM"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3328,8 +3330,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/RSS>,
         <https://www.iana.org/assignments/media-types/application/rss+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xml; .rss"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/rss+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xml; .rss",
+        "application/rss+xml" ;
     skos:prefLabel "RSS feed"@en,
         "RSS feed"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3345,8 +3347,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/RTF>,
         <https://www.iana.org/assignments/media-types/text/rtf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".rtf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/rtf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".rtf",
+        "text/rtf" ;
     skos:prefLabel "RTF"@en,
         "RTF"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3362,8 +3364,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/SAS>,
         <https://www.iana.org/assignments/media-types/application/octet-stream> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".7dat; .sd2; .tpt; .sas7bdat"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/octet-stream"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".7dat; .sd2; .tpt; .sas7bdat",
+        "application/octet-stream" ;
     skos:prefLabel "SAS"@en,
         "SAS"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3379,8 +3381,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/SB3>,
         <https://www.iana.org/assignments/media-types/application/x-sb3> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".sprite3; .sb3"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-sb3"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".sprite3; .sb3",
+        "application/x-sb3" ;
     skos:prefLabel "sb3"@en,
         "sb3"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3396,8 +3398,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/SCH>,
         <https://www.iana.org/assignments/media-types/application/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".sch"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".sch",
+        "application/xml" ;
     skos:prefLabel "Schematron"@en,
         "Schematron"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3413,8 +3415,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/SCHEMA_XML>,
         <https://www.iana.org/assignments/media-types/application/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xsd"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xsd",
+        "application/xml" ;
     skos:prefLabel "XML schema"@en,
         "XML schema"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3431,8 +3433,8 @@
         <https://www.iana.org/assignments/media-types/application/EDIFACT>,
         <https://www.iana.org/assignments/media-types/application/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xml; .edi"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml; application/EDIFACT"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xml; .edi",
+        "application/xml; application/EDIFACT" ;
     skos:prefLabel "SDMX"@en,
         "SDMX"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3448,8 +3450,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/SGML>,
         <https://www.iana.org/assignments/media-types/text/sgml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".sgm; .sgml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/sgml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".sgm; .sgml",
+        "text/sgml" ;
     skos:prefLabel "SGML"@en,
         "SGML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3465,8 +3467,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/SHP>,
         <https://www.iana.org/assignments/media-types/application/x-shapefile> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".dbf; .shp; .shx"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-shapefile"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".dbf; .shp; .shx",
+        "application/x-shapefile" ;
     skos:prefLabel "Esri Shape"@en,
         "Esri Shape"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3482,8 +3484,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/SKOS_XML>,
         <https://www.iana.org/assignments/media-types/application/rdf+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".rdf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/rdf+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".rdf",
+        "application/rdf+xml" ;
     skos:prefLabel "SKOS"@en,
         "SKOS"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3499,8 +3501,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/SPARQLQ>,
         <https://www.iana.org/assignments/media-types/application/sparql-query> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".sparqlq; .rq"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/sparql-query"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".sparqlq; .rq",
+        "application/sparql-query" ;
     skos:prefLabel "SPARQL"@en,
         "SPARQL"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3516,8 +3518,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/SPARQLQRES>,
         <https://www.iana.org/assignments/media-types/application/sparql-results+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".sparqlqr; .srx"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/sparql-results+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".sparqlqr; .srx",
+        "application/sparql-results+xml" ;
     skos:prefLabel "SPARQL results"@en,
         "SPARQL results"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3533,8 +3535,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/SPSS_SAV>,
         <https://www.iana.org/assignments/media-types/application/octet-stream> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".sav"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/octet-stream"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".sav",
+        "application/octet-stream" ;
     skos:prefLabel "SPSS SAV"@en,
         "SPSS SAV"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3550,8 +3552,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/SQL>,
         <https://www.iana.org/assignments/media-types/application/sql> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".sql"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/sql"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".sql",
+        "application/sql" ;
     skos:prefLabel "SQL"@en,
         "SQL"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3567,8 +3569,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/STATA_DTA>,
         <https://www.iana.org/assignments/media-types/application/octet-stream> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".dta"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/octet-stream"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".dta",
+        "application/octet-stream" ;
     skos:prefLabel "Stata DTA"@en,
         "Stata DTA"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3586,8 +3588,8 @@
         <https://www.iana.org/assignments/media-types/model/x.stl-ascii>,
         <https://www.iana.org/assignments/media-types/model/x.stl-binary> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".stl"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "model/x.stl-ascii; model/x.stl-binary; model/stl"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".stl",
+        "model/x.stl-ascii; model/x.stl-binary; model/stl" ;
     skos:prefLabel "StL"@en,
         "StL"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3600,8 +3602,8 @@
     skos:definition "A STYLX file is a style file used by Esri's ArcGIS Pro and ArcGIS Online. It contains style elements such as map symbols (points, lines, polygons), labels, color settings, font information, and fill patterns, used to unify and manage the visual presentation of maps. It is based on the SQLite database format and stores symbols and style elements in the database."@en,
         "Un archivo STYLX es un archivo de estilo utilizado por ArcGIS Pro y ArcGIS Online de Esri. Contiene elementos de estilo como símbolos de mapa (puntos, líneas, polígonos), etiquetas, configuraciones de color, información de fuentes y patrones de relleno, utilizados para unificar y gestionar la presentación visual de los mapas. Está basado en el formato de base de datos SQLite y almacena símbolos y elementos de estilo en la base de datos."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".stylx"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-sqlite3"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".stylx",
+        "application/x-sqlite3" ;
     skos:prefLabel "STYLX"@en,
         "STYLX"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -3616,8 +3618,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/SVG>,
         <https://www.iana.org/assignments/media-types/image/svg+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".svgz; .svg"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "image/svg+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".svgz; .svg",
+        "image/svg+xml" ;
     skos:prefLabel "SVG"@en,
         "SVG"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3633,8 +3635,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/SWM>,
         <https://www.iana.org/assignments/media-types/application/x-ms-wim> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".swm"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-ms-wim"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".swm",
+        "application/x-ms-wim" ;
     skos:prefLabel "SWM"@en,
         "SWM"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3648,8 +3650,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/TAB>,
         <https://www.iana.org/assignments/media-types/application/x-tab> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".tab"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-tab"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".tab",
+        "application/x-tab" ;
     skos:prefLabel "MapInfo TAB file"@en,
         "MapInfo TAB file"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3663,8 +3665,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/TAB_RSTR>,
         <https://www.iana.org/assignments/media-types/application/x-tab-raster> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".tab"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-tab-raster"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".tab",
+        "application/x-tab-raster" ;
     skos:prefLabel "MapInfo TAB raster file"@en,
         "MapInfo TAB raster file"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3680,8 +3682,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/TAR>,
         <https://www.iana.org/assignments/media-types/application/x-tar> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".tar"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-tar"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".tar",
+        "application/x-tar" ;
     skos:prefLabel "TAR"@en,
         "TAR"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3697,8 +3699,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/TAR_GZ>,
         <https://www.iana.org/assignments/media-types/application/gzip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".tar.gz"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/gzip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".tar.gz",
+        "application/gzip" ;
     skos:prefLabel "TAR GZ"@en,
         "TAR GZ"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3714,8 +3716,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/TAR_XZ>,
         <https://www.iana.org/assignments/media-types/application/x-compressed> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".tar.xz"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-compressed"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".tar.xz",
+        "application/x-compressed" ;
     skos:prefLabel "TAR XZ"@en,
         "TAR XZ"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3731,7 +3733,7 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/THRIFT_BINARY>,
         <https://www.iana.org/assignments/media-types/application/vnd.apache.thrift.binary> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "application/vnd.apache.thrift.binary"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "application/vnd.apache.thrift.binary" ;
     skos:prefLabel "Thrift binary"@en,
         "Thrift binary"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3747,7 +3749,7 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/THRIFT_COMPACT>,
         <https://www.iana.org/assignments/media-types/application/vnd.apache.thrift.compact> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "application/vnd.apache.thrift.compact"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "application/vnd.apache.thrift.compact" ;
     skos:prefLabel "Thrift compact"@en,
         "Thrift compact"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3763,7 +3765,7 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/THRIFT_JSON>,
         <https://www.iana.org/assignments/media-types/application/vnd.apache.thrift.json> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "application/vnd.apache.thrift.json"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "application/vnd.apache.thrift.json" ;
     skos:prefLabel "Thrift JSON"@en,
         "Thrift JSON"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3779,8 +3781,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/TIFF>,
         <https://www.iana.org/assignments/media-types/image/tiff> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".tif; .tiff"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "image/tiff"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".tif; .tiff",
+        "image/tiff" ;
     skos:prefLabel "TIFF"@en,
         "TIFF"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3796,8 +3798,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/TIFF_FX>,
         <https://www.iana.org/assignments/media-types/image/tiff-fx> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".tif; .tiff"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "image/tiff-fx"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".tif; .tiff",
+        "image/tiff-fx" ;
     skos:prefLabel "TIFF FX"@en,
         "TIFF FX"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3813,8 +3815,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/TMX>,
         <https://www.iana.org/assignments/media-types/application/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xml",
+        "application/xml" ;
     skos:prefLabel "TMX"@en,
         "TMX"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3830,8 +3832,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/TSV>,
         <https://www.iana.org/assignments/media-types/text/tab-separated-values> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".tsv; .tab"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/tab-separated-values"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".tsv; .tab",
+        "text/tab-separated-values" ;
     skos:prefLabel "TSV"@en,
         "TSV"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3847,8 +3849,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/TXT>,
         <https://www.iana.org/assignments/media-types/text/plain> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".txt"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/plain"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".txt",
+        "text/plain" ;
     skos:prefLabel "Plain text"@en,
         "Plain text"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3864,7 +3866,7 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/UNGEN>,
         <https://www.iana.org/assignments/media-types/text/plain> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "text/plain"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "text/plain" ;
     skos:prefLabel "Ungen"@en,
         "Ungen"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3880,8 +3882,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/VCF>,
         <https://www.iana.org/assignments/media-types/text/vnd.vcf> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".vcf; .vcf.gz"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "text/vnd.vcf"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".vcf; .vcf.gz",
+        "text/vnd.vcf" ;
     skos:prefLabel "VCF"@en,
         "VCF"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3897,8 +3899,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/WAR>,
         <https://www.iana.org/assignments/media-types/application/java+zip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".war"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/java+zip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".war",
+        "application/java+zip" ;
     skos:prefLabel "WAR"@en,
         "WAR"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3914,8 +3916,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/WARC>,
         <https://www.iana.org/assignments/media-types/application/warc> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".warc"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/warc"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".warc",
+        "application/warc" ;
     skos:prefLabel "WARC"@en,
         "WARC"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3931,8 +3933,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/WARC_GZ>,
         <https://www.iana.org/assignments/media-types/application/gzip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".warc.gz"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/gzip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".warc.gz",
+        "application/gzip" ;
     skos:prefLabel "WARC GZ"@en,
         "WARC GZ"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3951,8 +3953,8 @@
         <https://www.iana.org/assignments/media-types/audio/wave>,
         <https://www.iana.org/assignments/media-types/audio/x-wav> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".wav; .wave"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "audio/vnd.wave; audio/wav; audio/wave; audio/x-wav"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".wav; .wave",
+        "audio/vnd.wave; audio/wav; audio/wave; audio/x-wav" ;
     skos:prefLabel "WAV"@en,
         "WAV"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3969,7 +3971,7 @@
         <https://www.iana.org/assignments/media-types/multipart/related>,
         <https://www.iana.org/assignments/media-types/text/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "text/xml; multipart/related"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "text/xml; multipart/related" ;
     skos:prefLabel "WCS"@en,
         "WCS"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -3985,8 +3987,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/WEBP>,
         <https://www.iana.org/assignments/media-types/image/webp> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".webp"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "image/webp"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".webp",
+        "image/webp" ;
     skos:prefLabel "WebP"@en,
         "WebP"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4003,7 +4005,7 @@
         <https://www.iana.org/assignments/media-types/application/gml+xml>,
         <https://www.iana.org/assignments/media-types/text/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "application/gml+xml; text/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "application/gml+xml; text/xml" ;
     skos:prefLabel "WFS"@en,
         "WFS"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4019,8 +4021,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/WIM>,
         <https://www.iana.org/assignments/media-types/application/x-ms-wim> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".swm"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-ms-wim"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".swm",
+        "application/x-ms-wim" ;
     skos:prefLabel "WIM"@en,
         "WIM"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4037,7 +4039,7 @@
         <https://www.iana.org/assignments/media-types/application/vnd.ogc.wms_xml>,
         <https://www.iana.org/assignments/media-types/text/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "text/xml; application/vnd.ogc.wms_xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "text/xml; application/vnd.ogc.wms_xml" ;
     skos:prefLabel "WMS"@en,
         "WMS"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4054,7 +4056,7 @@
         <https://www.iana.org/assignments/media-types/application/gml+xml>,
         <https://www.iana.org/assignments/media-types/text/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "application/gml+xml; text/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "application/gml+xml; text/xml" ;
     skos:prefLabel "WMTS"@en,
         "WMTS"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4068,8 +4070,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/WORLD>,
         <https://www.iana.org/assignments/media-types/application/x-worldfile> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".tfw; .jgw"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-worldfile"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".tfw; .jgw",
+        "application/x-worldfile" ;
     skos:prefLabel "World file"@en,
         "World file"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4085,8 +4087,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/XHTML>,
         <https://www.iana.org/assignments/media-types/application/xhtml+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".html; .htm; .xhtml; .xht"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xhtml+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".html; .htm; .xhtml; .xht",
+        "application/xhtml+xml" ;
     skos:prefLabel "XHTML"@en,
         "XHTML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4102,8 +4104,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/XHTML5>,
         <https://www.iana.org/assignments/media-types/application/xhtml+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".html; .htm; .xhtml; .xht"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xhtml+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".html; .htm; .xhtml; .xht",
+        "application/xhtml+xml" ;
     skos:prefLabel "XHTML5"@en,
         "XHTML5"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4119,8 +4121,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/XHTML_SIMPL>,
         <https://www.iana.org/assignments/media-types/application/xhtml+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".html; .htm; .xhtml; .xht"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xhtml+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".html; .htm; .xhtml; .xht",
+        "application/xhtml+xml" ;
     skos:prefLabel "XHTML simplified"@en,
         "XHTML simplified"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4136,8 +4138,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/XLIFF>,
         <https://www.iana.org/assignments/media-types/application/xliff+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xlf"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xliff+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xlf",
+        "application/xliff+xml" ;
     skos:prefLabel "XLIFF"@en,
         "XLIFF"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4153,8 +4155,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/XLS>,
         <https://www.iana.org/assignments/media-types/application/vnd.ms-excel> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xls"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.ms-excel"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xls",
+        "application/vnd.ms-excel" ;
     skos:prefLabel "Excel XLS"@en,
         "Excel XLS"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4170,8 +4172,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/XLSB>,
         <https://www.iana.org/assignments/media-types/application/vnd.ms-excel.sheet.binary.macroEnabled.12> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xlsb"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.ms-excel.sheet.binary.macroEnabled.12"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xlsb",
+        "application/vnd.ms-excel.sheet.binary.macroEnabled.12" ;
     skos:prefLabel "XLSB"@en,
         "XLSB"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4187,8 +4189,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/XLSM>,
         <https://www.iana.org/assignments/media-types/application/vnd.ms-excel.sheet.macroEnabled.12> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xlsm"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.ms-excel.sheet.macroEnabled.12"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xlsm",
+        "application/vnd.ms-excel.sheet.macroEnabled.12" ;
     skos:prefLabel "XLSM"@en,
         "XLSM"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4204,8 +4206,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/XLSX>,
         <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xlsx"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xlsx",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" ;
     skos:prefLabel "Excel XLSX"@en,
         "Excel XLSX"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4221,8 +4223,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/XML>,
         <https://www.iana.org/assignments/media-types/application/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xml",
+        "application/xml" ;
     skos:prefLabel "XML"@en,
         "XML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4238,8 +4240,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/XSLFO>,
         <https://www.iana.org/assignments/media-types/application/xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".fo"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".fo",
+        "application/xml" ;
     skos:prefLabel "XSL-FO"@en,
         "XSL-FO"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4255,8 +4257,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/XSLT>,
         <https://www.iana.org/assignments/media-types/application/xslt+xml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xsl; .xslt"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/xslt+xml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xsl; .xslt",
+        "application/xslt+xml" ;
     skos:prefLabel "XSLT"@en,
         "XSLT"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4270,8 +4272,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/XYZ>,
         <https://www.iana.org/assignments/media-types/chemical/x-xyz> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xyz"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "chemical/x-xyz"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xyz",
+        "chemical/x-xyz" ;
     skos:prefLabel "XYZ Chemical File"@en,
         "XYZ Chemical File"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4284,7 +4286,7 @@
     skos:definition "XYZ Tiles (also known as Slippy Map Tiles) is a web map tiling scheme where raster tiles are organized by their zoom coordinate (z), column (x), and row (y). It is the most widely used tiling scheme in web mapping, popularized by OpenStreetMap and Google Maps."@en,
         "XYZ Tiles (también conocido como Slippy Map Tiles) es un esquema de teselado de mapas web donde las teselas rasterizadas se organizan según su coordenada de zoom (z), columna (x) y fila (y). Es el esquema de teselado más ampliamente utilizado en cartografía web, popularizado por OpenStreetMap y Google Maps."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation "image/png; image/jpeg"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation "image/png; image/jpeg" ;
     skos:prefLabel "XYZ Tiles"@en,
         "XYZ Tiles"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -4299,8 +4301,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/XZ>,
         <https://www.iana.org/assignments/media-types/application/x-xz> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".xz"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-xz"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".xz",
+        "application/x-xz" ;
     skos:prefLabel "xz"@en,
         "xz"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4316,8 +4318,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/YAML>,
         <https://www.iana.org/assignments/media-types/application/yaml> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".yml; .yaml"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/yaml"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".yml; .yaml",
+        "application/yaml" ;
     skos:prefLabel "YAML"@en,
         "YAML"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4333,8 +4335,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/Z>,
         <https://www.iana.org/assignments/media-types/application/x-compress> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".Z"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-compress"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".Z",
+        "application/x-compress" ;
     skos:prefLabel "Z"@en,
         "Z"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;
@@ -4347,8 +4349,8 @@
     skos:definition "Zarr is a data storage format designed for chunked, compressed, N-dimensional arrays. It supports storage across multiple backends (file system, cloud storage, databases) and is suitable for scientific and Earth observation data. It enables parallel and concurrent access to data chunks."@en,
         "Zarr es un formato de almacenamiento de datos diseñado para matrices multidimensionales N-dimensionales chunked, comprimidas. Soporta almacenamiento en múltiples backends (sistema de archivos, almacenamiento en la nube, bases de datos) y es adecuado para datos científicos y de observación de la Tierra. Permite el acceso paralelo y concurrente a fragmentos de datos."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".zarr"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/x-zarr"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".zarr",
+        "application/x-zarr" ;
     skos:prefLabel "Zarr"@en,
         "Zarr"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> .
@@ -4361,8 +4363,8 @@
     skos:exactMatch <http://publications.europa.eu/resource/authority/file-type/ZIP>,
         <https://www.iana.org/assignments/media-types/application/zip> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/file-type> ;
-    skos:notation ".zip"^^<https://geo-carto.github.io/vocabularios/file-type>,
-        "application/zip"^^<https://www.iana.org/assignments/media-types> ;
+    skos:notation ".zip",
+        "application/zip" ;
     skos:prefLabel "ZIP"@en,
         "ZIP"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/file-type> ;

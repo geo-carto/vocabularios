@@ -8,14 +8,16 @@
 
 <https://geo-carto.github.io/vocabularios/medida-estructural/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/medida-estructural> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/medida-estructural> ;
     skos:member <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion>,
         <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-invertida>,
         <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subhorizontal>,
         <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subvertical>,
         <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-y-buzamiento> ;
-    skos:prefLabel "Tipo de medida estructural - Todos los conceptos"@es .
+    skos:prefLabel "Structural measurement type - All concepts"@en,
+        "Tipo de medida estructural - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;

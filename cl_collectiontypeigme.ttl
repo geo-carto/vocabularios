@@ -8,7 +8,8 @@
 
 <https://geo-carto.github.io/vocabularios/coleccion-tipo/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
     skos:member <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-datos-geofisicos>,
         <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-sondeos>,
@@ -16,7 +17,8 @@
         <https://geo-carto.github.io/vocabularios/coleccion-tipo/estacion>,
         <https://geo-carto.github.io/vocabularios/coleccion-tipo/mapa-geologico>,
         <https://geo-carto.github.io/vocabularios/coleccion-tipo/modelo-geologico> ;
-    skos:prefLabel "Tipo de colección - Todos los conceptos"@es .
+    skos:prefLabel "Collection type - All concepts"@en,
+        "Tipo de colección - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;

@@ -8,7 +8,8 @@
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo> ;
     skos:member <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/suelo-artificial>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-aloestratigrafica>,
@@ -28,7 +29,8 @@
         <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litologica>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litotectonica>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-magnetoestratigrafica> ;
-    skos:prefLabel "Tipo de unidad geológica - Todos los conceptos"@es .
+    skos:prefLabel "Geologic unit type - All concepts"@en,
+        "Tipo de unidad geológica - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;

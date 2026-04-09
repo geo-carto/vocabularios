@@ -8,7 +8,8 @@
 
 <https://geo-carto.github.io/vocabularios/metodo-determinacion/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/metodo-determinacion> ;
     skos:member <https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-fotogeologica>,
         <https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-por-tres-puntos>,
@@ -18,7 +19,8 @@
         <https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento>,
         <https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-instrumental-en-campo>,
         <https://geo-carto.github.io/vocabularios/metodo-determinacion/orientacion-media-calculada> ;
-    skos:prefLabel "Método de determinación - Todos los conceptos"@es .
+    skos:prefLabel "Determination Method - All concepts"@en,
+        "Método de determinación - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;

@@ -8,7 +8,8 @@
 
 <https://geo-carto.github.io/vocabularios/material-igme/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/absarokita>,
         <https://geo-carto.github.io/vocabularios/material-igme/adakita>,
@@ -781,7 +782,8 @@
         <https://geo-carto.github.io/vocabularios/material-igme/yeso>,
         <https://geo-carto.github.io/vocabularios/material-igme/yeso-anhidrita>,
         <https://geo-carto.github.io/vocabularios/material-igme/yesoarenita> ;
-    skos:prefLabel "Material IGME - Todos los conceptos"@es .
+    skos:prefLabel "Material IGME - All concepts"@en,
+        "Material IGME - Todos los conceptos"@es .
 
 <https://geo-carto.github.io/vocabularios/material-igme/collection/anthropogenic-material> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;

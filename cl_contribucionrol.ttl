@@ -8,7 +8,8 @@
 
 <https://geo-carto.github.io/vocabularios/contribucion-rol/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
     skos:member <https://geo-carto.github.io/vocabularios/contribucion-rol/administrador-base-de-datos>,
         <https://geo-carto.github.io/vocabularios/contribucion-rol/autor>,
@@ -23,7 +24,8 @@
         <https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartográfico>,
         <https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-científico>,
         <https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-informacion-digital> ;
-    skos:prefLabel "Rol de contribuyente - Todos los conceptos"@es .
+    skos:prefLabel "Contributor role - All concepts"@en,
+        "Rol de contribuyente - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;

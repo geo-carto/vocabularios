@@ -8,7 +8,8 @@
 
 <https://geo-carto.github.io/vocabularios/evento-proceso/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-proceso> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-proceso> ;
     skos:member <https://geo-carto.github.io/vocabularios/evento-proceso/acreccion>,
         <https://geo-carto.github.io/vocabularios/evento-proceso/actividad-humana>,
@@ -105,7 +106,8 @@
         <https://geo-carto.github.io/vocabularios/evento-proceso/transporte-y-deposito-de-material>,
         <https://geo-carto.github.io/vocabularios/evento-proceso/variacion-del-nivel-del-mar>,
         <https://geo-carto.github.io/vocabularios/evento-proceso/vertido> ;
-    skos:prefLabel "Proceso asociado a evento - Todos los conceptos"@es .
+    skos:prefLabel "Event Process - All concepts"@en,
+        "Proceso asociado a evento - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;

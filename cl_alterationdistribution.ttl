@@ -8,7 +8,8 @@
 
 <https://geo-carto.github.io/vocabularios/alteracion-distribucion/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/alteracion-distribucion> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/alteracion-distribucion> ;
     skos:member <https://geo-carto.github.io/vocabularios/alteracion-distribucion/bandeada>,
         <https://geo-carto.github.io/vocabularios/alteracion-distribucion/completa>,
@@ -16,7 +17,8 @@
         <https://geo-carto.github.io/vocabularios/alteracion-distribucion/irregular>,
         <https://geo-carto.github.io/vocabularios/alteracion-distribucion/moteada>,
         <https://geo-carto.github.io/vocabularios/alteracion-distribucion/veteada> ;
-    skos:prefLabel "Distribución de la alteración - Todos los conceptos"@es .
+    skos:prefLabel "Alteration distribution - All concepts"@en,
+        "Distribución de la alteración - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;

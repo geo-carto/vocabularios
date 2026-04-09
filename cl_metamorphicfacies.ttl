@@ -8,7 +8,8 @@
 
 <https://geo-carto.github.io/vocabularios/metamorfismo-facies/collection> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
-    skos:definition "Todos los conceptos en este vocabulario."@es ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
     skos:member <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-anfibolitas>,
         <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-anfibolitas-epidoticas>,
@@ -23,7 +24,8 @@
         <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-desconocida>,
         <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar>,
         <https://geo-carto.github.io/vocabularios/metamorfismo-facies/sin-minerales-metamorficos> ;
-    skos:prefLabel "Facies metamórficas - Todos los conceptos"@es .
+    skos:prefLabel "Metamorphic facies - All concepts"@en,
+        "Facies metamórficas - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
