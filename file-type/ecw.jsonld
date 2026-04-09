@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/ecw",
   "type": "Concept",
   "prefLabel": {
-    "es": "ECW",
-    "en": "ECW"
+    "en": "ECW",
+    "es": "ECW"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Enhanced Compressed Wavelet"
     ],
-    "en": [
+    "es": [
       "Enhanced Compressed Wavelet"
     ]
   },
   "definition": {
-    "es": "ECW – Enhanced Compressed Wavelet – es el tipo de medio que se utilizará para un formato propietario de compresión de imágenes por wavelets optimizado para imágenes aéreas y de satélite.",
-    "en": "ECW – Enhanced Compressed Wavelet – is the media type which shall be used for a proprietary wavelet compression image format optimized for aerial and satellite imagery."
+    "en": "ECW – Enhanced Compressed Wavelet – is the media type which shall be used for a proprietary wavelet compression image format optimized for aerial and satellite imagery.",
+    "es": "ECW – Enhanced Compressed Wavelet – es el tipo de medio que se utilizará para un formato propietario de compresión de imágenes por wavelets optimizado para imágenes aéreas y de satélite."
   },
+  "notation": [
+    ".ecw",
+    "application/x-ecw"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/ECW"

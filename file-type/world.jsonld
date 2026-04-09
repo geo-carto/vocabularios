@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/world",
   "type": "Concept",
   "prefLabel": {
-    "es": "World file",
-    "en": "World file"
+    "en": "World file",
+    "es": "World file"
   },
   "definition": {
-    "es": "Un archivo world es un archivo de datos informáticos de texto plano utilizado por los sistemas de información geográfica (SIG) para georreferenciar imágenes de mapas rasterizados. La extensión del archivo generalmente depende del formato de la imagen asociada, p. ej. .jgw para JPEG (2000) o .tfw para TIFF.",
-    "en": "A world file is a plain text computer data file used by geographic information systems (GIS) to georeference raster map images. The file extension usually depends on the format of the associated image, e.g. .jgw for JPEG (2000) or .tfw for TIFF."
+    "en": "A world file is a plain text computer data file used by geographic information systems (GIS) to georeference raster map images. The file extension usually depends on the format of the associated image, e.g. .jgw for JPEG (2000) or .tfw for TIFF.",
+    "es": "Un archivo world es un archivo de datos informáticos de texto plano utilizado por los sistemas de información geográfica (SIG) para georreferenciar imágenes de mapas rasterizados. La extensión del archivo generalmente depende del formato de la imagen asociada, p. ej. .jgw para JPEG (2000) o .tfw para TIFF."
   },
+  "notation": [
+    ".tfw; .jgw",
+    "application/x-worldfile"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/WORLD"

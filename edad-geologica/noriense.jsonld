@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/noriense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Noriense",
-    "en": "Norian"
+    "en": "Norian",
+    "es": "Noriense"
   },
   "definition": {
-    "es": "Límite inferior 227 Ma, límite superior 208.5 Ma",
-    "en": "Older bound 227 Ma, younger bound 208.5 Ma"
+    "en": "Older bound 227 Ma, younger bound 208.5 Ma",
+    "es": "Límite inferior 227 Ma, límite superior 208.5 Ma"
   },
+  "notation": [
+    "212010302000.0",
+    "a1.1.2.3.1.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-superior",
     "prefLabel": {
-      "es": "Triásico Superior",
-      "en": "Upper Triassic"
+      "en": "Upper Triassic",
+      "es": "Triásico Superior"
     }
   },
   "exactMatch": [

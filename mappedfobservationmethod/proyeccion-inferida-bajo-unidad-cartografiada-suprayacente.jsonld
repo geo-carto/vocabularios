@@ -2,18 +2,18 @@
   "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/proyeccion-inferida-bajo-unidad-cartografiada-suprayacente",
   "type": "Concept",
   "prefLabel": {
-    "es": "proyección inferida bajo unidad cartografiada suprayacente",
-    "en": "inferred projection beneath covering mapped unit"
+    "en": "inferred projection beneath covering mapped unit",
+    "es": "proyección inferida bajo unidad cartografiada suprayacente"
   },
   "definition": {
-    "es": "Se infiere la existencia del fenómeno por continuidad entre ubicaciones observadas, asumiendo continuidad del elemento. El elemento cartografiable está cubierto por una unidad geológica más joven. Elemento oculto.",
-    "en": "Phenomenon inferred to exist based on continuity with observed locations, and assumption of continuity of the feature. Mappable feature is covered by mapped younger geologic unit. Concealed feature."
+    "en": "Phenomenon inferred to exist based on continuity with observed locations, and assumption of continuity of the feature. Mappable feature is covered by mapped younger geologic unit. Concealed feature.",
+    "es": "Se infiere la existencia del fenómeno por continuidad entre ubicaciones observadas, asumiendo continuidad del elemento. El elemento cartografiable está cubierto por una unidad geológica más joven. Elemento oculto."
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/proyeccion-inferida-entre-ubicaciones-observadas",
     "prefLabel": {
-      "es": "proyección inferida entre ubicaciones observadas",
-      "en": "inferred projection between observed locations"
+      "en": "inferred projection between observed locations",
+      "es": "proyección inferida entre ubicaciones observadas"
     }
   },
   "exactMatch": [

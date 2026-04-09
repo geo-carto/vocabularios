@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/mpeg4_avc",
   "type": "Concept",
   "prefLabel": {
-    "es": "MPEG-4 AVC",
-    "en": "MPEG-4 AVC"
+    "en": "MPEG-4 AVC",
+    "es": "MPEG-4 AVC"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Moving Picture Experts Group 4 Advanced Video Coding"
     ],
-    "en": [
+    "es": [
       "Moving Picture Experts Group 4 Advanced Video Coding"
     ]
   },
   "definition": {
-    "es": "MPEG-4 – Moving Picture Experts Group – Parte 10, Advanced Video Coding, es un estándar de compresión de vídeo basado en compensación de movimiento orientado a bloques. Es uno de los formatos más utilizados para la grabación, compresión y distribución de contenido de vídeo.",
-    "en": "MPEG-4 – Moving Picture Experts Group – Part 10, Advanced Video Coding is a block-oriented motion-compensation-based video compression standard. It is one of the most commonly used formats for the recording, compression and distribution of video content."
+    "en": "MPEG-4 – Moving Picture Experts Group – Part 10, Advanced Video Coding is a block-oriented motion-compensation-based video compression standard. It is one of the most commonly used formats for the recording, compression and distribution of video content.",
+    "es": "MPEG-4 – Moving Picture Experts Group – Parte 10, Advanced Video Coding, es un estándar de compresión de vídeo basado en compensación de movimiento orientado a bloques. Es uno de los formatos más utilizados para la grabación, compresión y distribución de contenido de vídeo."
   },
+  "notation": [
+    ".mpeg; mpg; mp4",
+    "audio/mp4; video/mp4; application/mp4"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/mp4"

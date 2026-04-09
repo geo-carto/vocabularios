@@ -2,98 +2,99 @@
   "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/collection",
   "type": "Collection",
   "prefLabel": {
+    "en": "Contributor role - All concepts",
     "es": "Rol de contribuyente - Todos los conceptos"
   },
   "member": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/administrador-base-de-datos",
       "prefLabel": {
-        "es": "administrador de base de datos",
-        "en": "database administrator"
+        "en": "database administrator",
+        "es": "administrador de base de datos"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/autor",
       "prefLabel": {
-        "es": "autor",
-        "en": "author"
+        "en": "author",
+        "es": "autor"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/cartografo-de-campo",
       "prefLabel": {
-        "es": "cartógrafo de campo",
-        "en": "field cartographer"
+        "en": "field cartographer",
+        "es": "cartógrafo de campo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/co-autor",
       "prefLabel": {
-        "es": "co-autor",
-        "en": "co-author"
+        "en": "co-author",
+        "es": "co-autor"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-cientifico",
       "prefLabel": {
-        "es": "coordinador científico",
-        "en": "scientific coordinator"
+        "en": "scientific coordinator",
+        "es": "coordinador científico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-tecnico",
       "prefLabel": {
-        "es": "coordinador técnico",
-        "en": "technical coordinator"
+        "en": "technical coordinator",
+        "es": "coordinador técnico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-de-servicios-web",
       "prefLabel": {
-        "es": "creador de servicios web",
-        "en": "web service publisher"
+        "en": "web service publisher",
+        "es": "creador de servicios web"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-metadatos",
       "prefLabel": {
-        "es": "creador de metadatos",
-        "en": "metadata creator"
+        "en": "metadata creator",
+        "es": "creador de metadatos"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/digitalizador",
       "prefLabel": {
-        "es": "digitalizador",
-        "en": "digitiser"
+        "en": "digitiser",
+        "es": "digitalizador"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/director-proyecto",
       "prefLabel": {
-        "es": "director proyecto",
-        "en": "project manager"
+        "en": "project manager",
+        "es": "director proyecto"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartográfico",
       "prefLabel": {
-        "es": "editor cartográfico",
-        "en": "cartographic editor"
+        "en": "cartographic editor",
+        "es": "editor cartográfico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-científico",
       "prefLabel": {
-        "es": "revisor científico",
-        "en": "scientific reviewer"
+        "en": "scientific reviewer",
+        "es": "revisor científico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-informacion-digital",
       "prefLabel": {
-        "es": "revisor información digital",
-        "en": "digital data reviewer"
+        "en": "digital data reviewer",
+        "es": "revisor información digital"
       }
     }
   ],

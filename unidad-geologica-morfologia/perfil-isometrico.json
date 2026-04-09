@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-isometrico",
   "type": "Concept",
   "prefLabel": {
-    "es": "perfil isometrico",
-    "en": "equant profile"
+    "en": "equant profile",
+    "es": "perfil isometrico"
   },
   "definition": {
-    "es": "Perfil para el que la relación entre la longitud del lado más largo y del más corto es menor que 1.4",
-    "en": "Profile for which the ratio of length of longest chord to shortest chord is less than 1.4"
+    "en": "Profile for which the ratio of length of longest chord to shortest chord is less than 1.4",
+    "es": "Perfil para el que la relación entre la longitud del lado más largo y del más corto es menor que 1.4"
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-circular",
       "prefLabel": {
-        "es": "perfil circular",
-        "en": "circular profile"
+        "en": "circular profile",
+        "es": "perfil circular"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-isometrico-poligonal",
       "prefLabel": {
-        "es": "perfil isometrico poligonal",
-        "en": "equant polygonal profile"
+        "en": "equant polygonal profile",
+        "es": "perfil isometrico poligonal"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-planar",
     "prefLabel": {
-      "es": "perfil planar",
-      "en": "planar profile"
+      "en": "planar profile",
+      "es": "perfil planar"
     }
   },
   "exactMatch": [

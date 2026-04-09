@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/impacto-de-bolido",
   "type": "Concept",
   "prefLabel": {
-    "es": "impacto de bólido",
-    "en": "bolide impact"
+    "en": "bolide impact",
+    "es": "impacto de bólido"
   },
   "definition": {
-    "es": "Impacto de un cuerpo extraterrestre sobre la superficie de la tierra.",
-    "en": "The impact of an extraterrestrial body on the surface of the earth."
+    "en": "The impact of an extraterrestrial body on the surface of the earth.",
+    "es": "Impacto de un cuerpo extraterrestre sobre la superficie de la tierra."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/impacto-cometario",
       "prefLabel": {
-        "es": "impacto cometario",
-        "en": "cometary impact"
+        "en": "cometary impact",
+        "es": "impacto cometario"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/impacto-meteoritico",
       "prefLabel": {
-        "es": "impacto meteorítico",
-        "en": "meteorite impact"
+        "en": "meteorite impact",
+        "es": "impacto meteorítico"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
     "prefLabel": {
-      "es": "proceso geológico",
-      "en": "geologic process"
+      "en": "geologic process",
+      "es": "proceso geológico"
     }
   },
   "exactMatch": [

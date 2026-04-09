@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/sparqlqres",
   "type": "Concept",
   "prefLabel": {
-    "es": "SPARQL results",
-    "en": "SPARQL results"
+    "en": "SPARQL results",
+    "es": "SPARQL results"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "SPARQL Query Results"
     ],
-    "en": [
+    "es": [
       "SPARQL Query Results"
     ]
   },
   "definition": {
-    "es": "Resultados de una consulta SPARQL. SPARQL – SPARQL Protocol and RDF Query Language – es un lenguaje de consulta RDF, es decir, un lenguaje de consulta semántico para bases de datos, capaz de recuperar y manipular datos almacenados en formato RDF (Resource Description Framework).",
-    "en": "Results of a SPARQL query. SPARQL – SPARQL Protocol and RDF Query Language – is an RDF query language, that is, a semantic query language for databases, able to retrieve and manipulate data stored in Resource Description Framework (RDF) format."
+    "en": "Results of a SPARQL query. SPARQL – SPARQL Protocol and RDF Query Language – is an RDF query language, that is, a semantic query language for databases, able to retrieve and manipulate data stored in Resource Description Framework (RDF) format.",
+    "es": "Resultados de una consulta SPARQL. SPARQL – SPARQL Protocol and RDF Query Language – es un lenguaje de consulta RDF, es decir, un lenguaje de consulta semántico para bases de datos, capaz de recuperar y manipular datos almacenados en formato RDF (Resource Description Framework)."
   },
+  "notation": [
+    ".sparqlqr; .srx",
+    "application/sparql-results+xml"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/SPARQLQRES"

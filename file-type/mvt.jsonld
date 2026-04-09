@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/mvt",
   "type": "Concept",
   "prefLabel": {
-    "es": "MVT",
-    "en": "MVT"
+    "en": "MVT",
+    "es": "MVT"
   },
   "altLabel": {
-    "es": [
-      "Tesela Vectorial de Mapbox"
-    ],
     "en": [
       "Mapbox Vector Tile"
+    ],
+    "es": [
+      "Tesela Vectorial de Mapbox"
     ]
   },
   "definition": {
-    "es": "Mapbox Vector Tile (MVT) es una especificación de código abierto para codificar datos geoespaciales vectoriales teselados. Utiliza Protocol Buffers de Google como formato de codificación binaria. Las teselas vectoriales permiten la representación eficiente de datos geoespaciales en clientes web con estilizado del lado del cliente.",
-    "en": "Mapbox Vector Tile (MVT) is an open-source specification for encoding tiled geospatial vector data. It uses Google Protocol Buffers as the binary encoding format. Vector tiles enable efficient representation of geospatial data in web clients with client-side styling."
+    "en": "Mapbox Vector Tile (MVT) is an open-source specification for encoding tiled geospatial vector data. It uses Google Protocol Buffers as the binary encoding format. Vector tiles enable efficient representation of geospatial data in web clients with client-side styling.",
+    "es": "Mapbox Vector Tile (MVT) es una especificación de código abierto para codificar datos geoespaciales vectoriales teselados. Utiliza Protocol Buffers de Google como formato de codificación binaria. Las teselas vectoriales permiten la representación eficiente de datos geoespaciales en clientes web con estilizado del lado del cliente."
   },
+  "notation": [
+    ".mvt; .pbf",
+    "application/vnd.mapbox-vector-tile"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/vnd.mapbox-vector-tile"

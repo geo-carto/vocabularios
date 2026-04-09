@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/svg",
   "type": "Concept",
   "prefLabel": {
-    "es": "SVG",
-    "en": "SVG"
+    "en": "SVG",
+    "es": "SVG"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Scalable Vector Graphics"
     ],
-    "en": [
+    "es": [
       "Scalable Vector Graphics"
     ]
   },
   "definition": {
-    "es": "Estándar abierto para gráficos vectoriales bidimensionales.",
-    "en": "Open standard for two-dimensional vector graphics."
+    "en": "Open standard for two-dimensional vector graphics.",
+    "es": "Estándar abierto para gráficos vectoriales bidimensionales."
   },
+  "notation": [
+    ".svgz; .svg",
+    "image/svg+xml"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/SVG"

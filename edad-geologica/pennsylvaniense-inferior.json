@@ -2,35 +2,39 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pennsylvaniense-inferior",
   "type": "Concept",
   "prefLabel": {
-    "es": "Pennsylvaniense Inferior",
-    "en": "Lower Pennsylvanian"
+    "en": "Lower Pennsylvanian",
+    "es": "Pennsylvaniense Inferior"
   },
   "altLabel": {
-    "es": [
-      "Pensilvánico Inferior"
-    ],
     "en": [
       "Early Pennsylvanian"
+    ],
+    "es": [
+      "Pensilvánico Inferior"
     ]
   },
   "definition": {
-    "es": "Límite inferior 323.2 +|-0.4 Ma, límite superior 315.2 +|-0.2 Ma",
-    "en": "Older bound 323.2 +|-0.4 Ma, younger bound 315.2 +|-0.2 Ma"
+    "en": "Older bound 323.2 +|-0.4 Ma, younger bound 315.2 +|-0.2 Ma",
+    "es": "Límite inferior 323.2 +|-0.4 Ma, límite superior 315.2 +|-0.2 Ma"
   },
+  "notation": [
+    "211052100000.0",
+    "x1.1.3.2.1.3"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/bashkiriense",
       "prefLabel": {
-        "es": "Bashkiriense",
-        "en": "Bashkirian"
+        "en": "Bashkirian",
+        "es": "Bashkiriense"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pennsylvaniense",
     "prefLabel": {
-      "es": "Pennsylvaniense",
-      "en": "Pennsylvanian"
+      "en": "Pennsylvanian",
+      "es": "Pennsylvaniense"
     }
   },
   "exactMatch": [

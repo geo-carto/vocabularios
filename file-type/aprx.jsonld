@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/aprx",
   "type": "Concept",
   "prefLabel": {
-    "es": "APRX",
-    "en": "APRX"
+    "en": "APRX",
+    "es": "APRX"
   },
   "altLabel": {
-    "es": [
-      "Proyecto ArcGIS Pro"
-    ],
     "en": [
       "ArcGIS Pro Project"
+    ],
+    "es": [
+      "Proyecto ArcGIS Pro"
     ]
   },
   "definition": {
-    "es": "Un archivo APRX es un proyecto de ArcGIS Pro. Almacena la información del proyecto, incluyendo mapas, diseños de mapa, conexiones a datos, herramientas de geoprocesamiento y otros recursos utilizados en el proyecto. Es el formato de archivo de proyecto principal de la aplicación de escritorio ArcGIS Pro de Esri.",
-    "en": "An APRX file is an ArcGIS Pro project. It stores the project information, including maps, map layouts, data connections, geoprocessing tools, and other resources used in the project. It is the main project file format of Esri's ArcGIS Pro desktop application."
+    "en": "An APRX file is an ArcGIS Pro project. It stores the project information, including maps, map layouts, data connections, geoprocessing tools, and other resources used in the project. It is the main project file format of Esri's ArcGIS Pro desktop application.",
+    "es": "Un archivo APRX es un proyecto de ArcGIS Pro. Almacena la información del proyecto, incluyendo mapas, diseños de mapa, conexiones a datos, herramientas de geoprocesamiento y otros recursos utilizados en el proyecto. Es el formato de archivo de proyecto principal de la aplicación de escritorio ArcGIS Pro de Esri."
   },
+  "notation": [
+    "application/octet-stream",
+    ".aprx"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/octet-stream"

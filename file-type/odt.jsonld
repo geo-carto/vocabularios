@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/odt",
   "type": "Concept",
   "prefLabel": {
-    "es": "ODT",
-    "en": "ODT"
+    "en": "ODT",
+    "es": "ODT"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Open Document Text"
     ],
-    "en": [
+    "es": [
       "Open Document Text"
     ]
   },
   "definition": {
-    "es": "ODT es el formato de archivo de procesamiento de textos de OpenDocument, un estándar abierto para documentos electrónicos.",
-    "en": "ODT is the word processing file format of OpenDocument, an open standard for electronic documents."
+    "en": "ODT is the word processing file format of OpenDocument, an open standard for electronic documents.",
+    "es": "ODT es el formato de archivo de procesamiento de textos de OpenDocument, un estándar abierto para documentos electrónicos."
   },
+  "notation": [
+    ".odt",
+    "application/vnd.oasis.opendocument.text"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/ODT"

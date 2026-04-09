@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/kasimoviense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Kasimoviense",
-    "en": "Kasimovian"
+    "en": "Kasimovian",
+    "es": "Kasimoviense"
   },
   "definition": {
-    "es": "Límite inferior 307 +|-0.1 Ma, límite superior 303.7 +|-0.1 Ma",
-    "en": "Older bound 307 +|-0.1 Ma, younger bound 303.7 +|-0.1 Ma"
+    "en": "Older bound 307 +|-0.1 Ma, younger bound 303.7 +|-0.1 Ma",
+    "es": "Límite inferior 307 +|-0.1 Ma, límite superior 303.7 +|-0.1 Ma"
   },
+  "notation": [
+    "211052301000.0",
+    "a1.1.3.2.1.1.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pennsylvaniense-superior",
     "prefLabel": {
-      "es": "Pennsylvaniense Superior",
-      "en": "Upper Pennsylvanian"
+      "en": "Upper Pennsylvanian",
+      "es": "Pennsylvaniense Superior"
     }
   },
   "exactMatch": [

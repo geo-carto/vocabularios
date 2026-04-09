@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito",
   "type": "Concept",
   "prefLabel": {
-    "es": "saprolito",
-    "en": "saprolite"
+    "en": "saprolite",
+    "es": "saprolito"
   },
   "definition": {
-    "es": "Roca meteorizada en la cual se conserva la fábrica de la roca original.",
-    "en": "Weathered bedrock characterized by preservation of fabrics that were present in the original bedrock."
+    "en": "Weathered bedrock characterized by preservation of fabrics that were present in the original bedrock.",
+    "es": "Roca meteorizada en la cual se conserva la fábrica de la roca original."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita",
       "prefLabel": {
-        "es": "alterita",
-        "en": "alterite"
+        "en": "alterite",
+        "es": "alterita"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/regolito",
     "prefLabel": {
-      "es": "regolito",
-      "en": "regolith"
+      "en": "regolith",
+      "es": "regolito"
     }
   },
   "inScheme": [

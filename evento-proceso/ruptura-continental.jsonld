@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/ruptura-continental",
   "type": "Concept",
   "prefLabel": {
-    "es": "ruptura continental",
-    "en": "continental breakup"
+    "en": "continental breakup",
+    "es": "ruptura continental"
   },
   "definition": {
-    "es": "Fragmentación de una placa continental en dos o más placas menores; puede involucrar procesos de rifting (apertura cortical) o de fracturación con movimiento en dirección (transcurrencia).",
-    "en": "Fragmentation of a continental plate into two or more smaller plates; may involve rifting or strike slip faulting."
+    "en": "Fragmentation of a continental plate into two or more smaller plates; may involve rifting or strike slip faulting.",
+    "es": "Fragmentación de una placa continental en dos o más placas menores; puede involucrar procesos de rifting (apertura cortical) o de fracturación con movimiento en dirección (transcurrencia)."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/apertura-cortical",
       "prefLabel": {
-        "es": "apertura cortical",
-        "en": "rifting"
+        "en": "rifting",
+        "es": "apertura cortical"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-tectonico",
     "prefLabel": {
-      "es": "proceso tectónico",
-      "en": "tectonic process"
+      "en": "tectonic process",
+      "es": "proceso tectónico"
     }
   },
   "exactMatch": [

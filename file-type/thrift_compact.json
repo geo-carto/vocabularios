@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/thrift_compact",
   "type": "Concept",
   "prefLabel": {
-    "es": "Thrift compact",
-    "en": "Thrift compact"
+    "en": "Thrift compact",
+    "es": "Thrift compact"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Apache Thrift compact binary format"
     ],
-    "en": [
+    "es": [
       "Apache Thrift compact binary format"
     ]
   },
   "definition": {
-    "es": "Lenguaje de definición de interfaces y protocolo de comunicación binario utilizado para definir y crear servicios para lenguajes de programación; formato binario más compacto.",
-    "en": "interface definition language and binary communication protocol used for defining and creating services for programming languages; more compact binary format"
+    "en": "interface definition language and binary communication protocol used for defining and creating services for programming languages; more compact binary format",
+    "es": "Lenguaje de definición de interfaces y protocolo de comunicación binario utilizado para definir y crear servicios para lenguajes de programación; formato binario más compacto."
   },
+  "notation": [
+    "application/vnd.apache.thrift.compact"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/THRIFT_COMPACT"

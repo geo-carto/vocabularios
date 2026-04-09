@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/odg",
   "type": "Concept",
   "prefLabel": {
-    "es": "OpenDocument Image",
-    "en": "OpenDocument Image"
+    "en": "OpenDocument Image",
+    "es": "OpenDocument Image"
   },
   "definition": {
-    "es": "OpenDocument es un formato estandarizado de documento abierto para aplicaciones de oficina. Los archivos de imagen están compuestos por datos digitales y se utilizan para organizar y almacenar imágenes digitales.",
-    "en": "OpenDocument is a standardized Open Document Format for Office Applications. Image files are composed of digital data and are used to organize and store digital images."
+    "en": "OpenDocument is a standardized Open Document Format for Office Applications. Image files are composed of digital data and are used to organize and store digital images.",
+    "es": "OpenDocument es un formato estandarizado de documento abierto para aplicaciones de oficina. Los archivos de imagen están compuestos por datos digitales y se utilizan para organizar y almacenar imágenes digitales."
   },
+  "notation": [
+    ".odg",
+    "application/vnd.oasis.opendocument.graphics"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/ODG"

@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/dmp",
   "type": "Concept",
   "prefLabel": {
-    "es": "Oracle Dump",
-    "en": "Oracle Dump"
+    "en": "Oracle Dump",
+    "es": "Oracle Dump"
   },
   "definition": {
-    "es": "DMP es el tipo de medio que se utilizará para volcados de Oracle. Este tipo de medio está incompleto ya que carece de una referencia a la especificación del formato.",
-    "en": "DMP is the media type which shall be used for Oracle dumps. This media type is incomplete as it lacks a reference to the specification of the format."
+    "en": "DMP is the media type which shall be used for Oracle dumps. This media type is incomplete as it lacks a reference to the specification of the format.",
+    "es": "DMP es el tipo de medio que se utilizará para volcados de Oracle. Este tipo de medio está incompleto ya que carece de una referencia a la especificación del formato."
   },
+  "notation": [
+    ".dmp",
+    "application/x-oracledump"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/DMP"

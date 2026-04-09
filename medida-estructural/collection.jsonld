@@ -2,42 +2,43 @@
   "id": "https://geo-carto.github.io/vocabularios/medida-estructural/collection",
   "type": "Collection",
   "prefLabel": {
+    "en": "Structural measurement type - All concepts",
     "es": "Tipo de medida estructural - Todos los conceptos"
   },
   "member": [
     {
       "id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion",
       "prefLabel": {
-        "es": "estratificación",
-        "en": "strike"
+        "en": "strike",
+        "es": "estratificación"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-invertida",
       "prefLabel": {
-        "es": "estratificación invertida",
-        "en": "Overturned bedding"
+        "en": "Overturned bedding",
+        "es": "estratificación invertida"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subhorizontal",
       "prefLabel": {
-        "es": "estratificación subhorizontal",
-        "en": "Horizontal bedding"
+        "en": "Horizontal bedding",
+        "es": "estratificación subhorizontal"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subvertical",
       "prefLabel": {
-        "es": "estratificación subvertical",
-        "en": "Vertical bedding"
+        "en": "Vertical bedding",
+        "es": "estratificación subvertical"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-y-buzamiento",
       "prefLabel": {
-        "es": "estratificación y buzamiento",
-        "en": "strike and dip"
+        "en": "strike and dip",
+        "es": "estratificación y buzamiento"
       }
     }
   ],

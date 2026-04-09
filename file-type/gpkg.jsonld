@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/gpkg",
   "type": "Concept",
   "prefLabel": {
-    "es": "GeoPackage",
-    "en": "GeoPackage"
+    "en": "GeoPackage",
+    "es": "GeoPackage"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "OGC GeoPackage"
     ],
-    "en": [
+    "es": [
       "OGC GeoPackage"
     ]
   },
   "definition": {
-    "es": "Un OGC GeoPackage es un formato abierto, basado en estándares, independiente de la plataforma, portátil, autodescriptivo y compacto para la transferencia de información geoespacial. Se implementa como un contenedor de base de datos SQLite.",
-    "en": "An OGC GeoPackage is an open, standards-based, platform-independent, portable, self-describing, compact format for transferring geospatial information. It is implemented as a SQLite database container."
+    "en": "An OGC GeoPackage is an open, standards-based, platform-independent, portable, self-describing, compact format for transferring geospatial information. It is implemented as a SQLite database container.",
+    "es": "Un OGC GeoPackage es un formato abierto, basado en estándares, independiente de la plataforma, portátil, autodescriptivo y compacto para la transferencia de información geoespacial. Se implementa como un contenedor de base de datos SQLite."
   },
+  "notation": [
+    ".gpkg",
+    "application/geopackage+sqlite3"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/GPKG"

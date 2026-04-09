@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pl",
   "type": "Concept",
   "prefLabel": {
-    "es": "Perl script",
-    "en": "Perl script"
+    "en": "Perl script",
+    "es": "Perl script"
   },
   "definition": {
-    "es": "Código fuente escrito en el lenguaje de programación Perl.",
-    "en": "Source code written in the Perl programming language."
+    "en": "Source code written in the Perl programming language.",
+    "es": "Código fuente escrito en el lenguaje de programación Perl."
   },
+  "notation": [
+    ".pm; .t; .pl; .pod",
+    "text/x-perl"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/PL"

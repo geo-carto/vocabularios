@@ -2,25 +2,28 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cuisiense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Cuisiense",
-    "en": "Cuisian"
+    "en": "Cuisian",
+    "es": "Cuisiense"
   },
   "definition": {
     "es": "Cuisiense"
   },
+  "notation": [
+    "213010203092.0"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma",
     "prefLabel": {
-      "es": "Regional",
-      "en": "Regional"
+      "en": "Regional",
+      "es": "Regional"
     }
   },
   "related": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ypresiense",
       "prefLabel": {
-        "es": "Ypresiense",
-        "en": "Ypresian"
+        "en": "Ypresian",
+        "es": "Ypresiense"
       }
     }
   ],

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/qml",
   "type": "Concept",
   "prefLabel": {
-    "es": "QML",
-    "en": "QML"
+    "en": "QML",
+    "es": "QML"
   },
   "altLabel": {
-    "es": [
-      "Archivo de estilo QGIS"
-    ],
     "en": [
       "QGIS Style File"
+    ],
+    "es": [
+      "Archivo de estilo QGIS"
     ]
   },
   "definition": {
-    "es": "Un archivo QML (QGIS Layer Style) es un archivo XML que almacena la información de estilo de una capa en QGIS, incluyendo la simbología, el etiquetado, las acciones de formulario y otras propiedades de visualización. Se utiliza para guardar y compartir estilos de capas entre proyectos QGIS.",
-    "en": "A QML (QGIS Layer Style) file is an XML file that stores the styling information for a layer in QGIS, including symbology, labeling, form actions, and other display properties. It is used to save and share layer styles between QGIS projects."
+    "en": "A QML (QGIS Layer Style) file is an XML file that stores the styling information for a layer in QGIS, including symbology, labeling, form actions, and other display properties. It is used to save and share layer styles between QGIS projects.",
+    "es": "Un archivo QML (QGIS Layer Style) es un archivo XML que almacena la información de estilo de una capa en QGIS, incluyendo la simbología, el etiquetado, las acciones de formulario y otras propiedades de visualización. Se utiliza para guardar y compartir estilos de capas entre proyectos QGIS."
   },
+  "notation": [
+    "application/xml",
+    ".qml"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/xml"

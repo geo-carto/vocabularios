@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/lpk",
   "type": "Concept",
   "prefLabel": {
-    "es": "Layer package",
-    "en": "Layer package"
+    "en": "Layer package",
+    "es": "Layer package"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "ArcGIS layer package"
     ],
-    "en": [
+    "es": [
       "ArcGIS layer package"
     ]
   },
   "definition": {
-    "es": "Un paquete de capas empaqueta una o más capas y todas las fuentes de datos referenciadas para crear un único archivo comprimido .lpk.",
-    "en": "A layer package packages one or more layers and all referenced data sources to create a single compressed .lpk file."
+    "en": "A layer package packages one or more layers and all referenced data sources to create a single compressed .lpk file.",
+    "es": "Un paquete de capas empaqueta una o más capas y todas las fuentes de datos referenciadas para crear un único archivo comprimido .lpk."
   },
+  "notation": [
+    ".lpk",
+    "application/x-7z-compressed; multipart/mixed"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/x-7z-compressed"

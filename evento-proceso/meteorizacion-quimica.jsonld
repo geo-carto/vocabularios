@@ -2,48 +2,48 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion-quimica",
   "type": "Concept",
   "prefLabel": {
-    "es": "meteorización química",
-    "en": "chemical weathering"
+    "en": "chemical weathering",
+    "es": "meteorización química"
   },
   "definition": {
-    "es": "Proceso de meteorización por el cual las reacciones químicas (hidrólisis, hidratación, oxidación, carbonatación, intercambio iónico, y disolución) transforman las rocas y minerales en nuevas combinaciones químicas que son estables bajo las condiciones que prevalecen en o cerca de la superficie de la tierra; e. g. la alteración de ortoclasa a caolinita.",
-    "en": "The process of weathering by which chemical reactions (hydrolysis, hydration, oxidation, carbonation, ion exchange, and solution) transform rocks and minerals into new chemical combinations that are stable under conditions prevailing at or near the earth's surface; e.g. the alteration of orthoclase to kaolinite."
+    "en": "The process of weathering by which chemical reactions (hydrolysis, hydration, oxidation, carbonation, ion exchange, and solution) transform rocks and minerals into new chemical combinations that are stable under conditions prevailing at or near the earth's surface; e.g. the alteration of orthoclase to kaolinite.",
+    "es": "Proceso de meteorización por el cual las reacciones químicas (hidrólisis, hidratación, oxidación, carbonatación, intercambio iónico, y disolución) transforman las rocas y minerales en nuevas combinaciones químicas que son estables bajo las condiciones que prevalecen en o cerca de la superficie de la tierra; e. g. la alteración de ortoclasa a caolinita."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/disolucion",
       "prefLabel": {
-        "es": "disolución",
-        "en": "dissolution"
+        "en": "dissolution",
+        "es": "disolución"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/hidratacion",
       "prefLabel": {
-        "es": "hidratación",
-        "en": "hydration"
+        "en": "hydration",
+        "es": "hidratación"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/hidrolisis",
       "prefLabel": {
-        "es": "hidrólisis",
-        "en": "hydrolysis"
+        "en": "hydrolysis",
+        "es": "hidrólisis"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/oxidacion",
       "prefLabel": {
-        "es": "oxidación",
-        "en": "oxidation"
+        "en": "oxidation",
+        "es": "oxidación"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion",
     "prefLabel": {
-      "es": "meteorización",
-      "en": "weathering"
+      "en": "weathering",
+      "es": "meteorización"
     }
   },
   "exactMatch": [

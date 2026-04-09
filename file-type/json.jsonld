@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/json",
   "type": "Concept",
   "prefLabel": {
-    "es": "JSON",
-    "en": "JSON"
+    "en": "JSON",
+    "es": "JSON"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "JavaScript Object Notation"
     ],
-    "en": [
+    "es": [
       "JavaScript Object Notation"
     ]
   },
   "definition": {
-    "es": "JSON es un formato de archivo de estándar abierto que utiliza texto legible por humanos para transmitir objetos de datos que consisten en pares atributo-valor y tipos de datos de matriz (o cualquier otro valor serializable). Es un formato de datos muy común utilizado para la comunicación asíncrona navegador/servidor.",
-    "en": "JSON is an open-standard file format that uses human-readable text to transmit data objects consisting of attribute–value pairs and array data types (or any other serializable value). It is a very common data format used for asynchronous browser/server communication."
+    "en": "JSON is an open-standard file format that uses human-readable text to transmit data objects consisting of attribute–value pairs and array data types (or any other serializable value). It is a very common data format used for asynchronous browser/server communication.",
+    "es": "JSON es un formato de archivo de estándar abierto que utiliza texto legible por humanos para transmitir objetos de datos que consisten en pares atributo-valor y tipos de datos de matriz (o cualquier otro valor serializable). Es un formato de datos muy común utilizado para la comunicación asíncrona navegador/servidor."
   },
+  "notation": [
+    ".json",
+    "application/json"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/JSON"

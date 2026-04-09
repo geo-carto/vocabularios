@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/txt",
   "type": "Concept",
   "prefLabel": {
-    "es": "Plain text",
-    "en": "Plain text"
+    "en": "Plain text",
+    "es": "Plain text"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Text file"
     ],
-    "en": [
+    "es": [
       "Text file"
     ]
   },
   "definition": {
-    "es": "El texto plano son datos (p. ej. contenido de archivos) que representan únicamente caracteres de material legible pero no su representación gráfica ni otros objetos. También puede incluir un número limitado de caracteres que controlan la disposición simple del texto, como saltos de línea o caracteres de tabulación. El texto plano es diferente del texto formateado y de los archivos binarios.",
-    "en": "Plain text is the data (e.g. file contents) that represent only characters of readable material but not its graphical representation nor other objects. It may also include a limited number of characters that control simple arrangement of text, such as line breaks or tabulation characters. Plain text is different from formatted text, where style information is included, and from ‘binary files’ in which some portions must be interpreted as binary objects (encoded integers, real numbers, images, etc.)."
+    "en": "Plain text is the data (e.g. file contents) that represent only characters of readable material but not its graphical representation nor other objects. It may also include a limited number of characters that control simple arrangement of text, such as line breaks or tabulation characters. Plain text is different from formatted text, where style information is included, and from ‘binary files’ in which some portions must be interpreted as binary objects (encoded integers, real numbers, images, etc.).",
+    "es": "El texto plano son datos (p. ej. contenido de archivos) que representan únicamente caracteres de material legible pero no su representación gráfica ni otros objetos. También puede incluir un número limitado de caracteres que controlan la disposición simple del texto, como saltos de línea o caracteres de tabulación. El texto plano es diferente del texto formateado y de los archivos binarios."
   },
+  "notation": [
+    "text/plain",
+    ".txt"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/text/plain"

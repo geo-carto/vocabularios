@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/jar",
   "type": "Concept",
   "prefLabel": {
-    "es": "JAR",
-    "en": "JAR"
+    "en": "JAR",
+    "es": "JAR"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Java Archive"
     ],
-    "en": [
+    "es": [
       "Java Archive"
     ]
   },
   "definition": {
-    "es": "JAR (Java Archive) es un archivo que incluye un archivo de manifiesto específico de Java. Está construido sobre el formato ZIP.",
-    "en": "JAR (Java Archive) is an archive file that includes a Java-specific manifest file. It is built on the ZIP format."
+    "en": "JAR (Java Archive) is an archive file that includes a Java-specific manifest file. It is built on the ZIP format.",
+    "es": "JAR (Java Archive) es un archivo que incluye un archivo de manifiesto específico de Java. Está construido sobre el formato ZIP."
   },
+  "notation": [
+    "application/java-archive",
+    ".jar"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/java-archive"

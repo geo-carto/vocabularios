@@ -2,48 +2,48 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-magmatico",
   "type": "Concept",
   "prefLabel": {
-    "es": "proceso magmático",
-    "en": "magmatic process"
+    "en": "magmatic process",
+    "es": "proceso magmático"
   },
   "definition": {
-    "es": "Proceso que implica la presencia de roca fundida (magma).",
-    "en": "A process involving melted rock (magma)."
+    "en": "A process involving melted rock (magma).",
+    "es": "Proceso que implica la presencia de roca fundida (magma)."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/cristalizacion-magmatica",
       "prefLabel": {
-        "es": "cristalización magmática",
-        "en": "magmatic crystallisation"
+        "en": "magmatic crystallisation",
+        "es": "cristalización magmática"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erupcion",
       "prefLabel": {
-        "es": "erupción",
-        "en": "eruption"
+        "en": "eruption",
+        "es": "erupción"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/fusion",
       "prefLabel": {
-        "es": "fusión",
-        "en": "melting"
+        "en": "melting",
+        "es": "fusión"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/intrusion",
       "prefLabel": {
-        "es": "intrusión",
-        "en": "intrusion"
+        "en": "intrusion",
+        "es": "intrusión"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
     "prefLabel": {
-      "es": "proceso geológico",
-      "en": "geologic process"
+      "en": "geologic process",
+      "es": "proceso geológico"
     }
   },
   "exactMatch": [

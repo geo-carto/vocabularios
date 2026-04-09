@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/stl",
   "type": "Concept",
   "prefLabel": {
-    "es": "StL",
-    "en": "StL"
+    "en": "StL",
+    "es": "StL"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "StereoLithography"
     ],
-    "en": [
+    "es": [
       "StereoLithography"
     ]
   },
   "definition": {
-    "es": "Un archivo StL ('StereoLithography') es una representación triangular de una geometría de superficie tridimensional. La superficie se divide lógicamente en una serie de pequeños triángulos (facetas). Cada faceta se describe mediante una dirección perpendicular y tres puntos que representan los vértices del triángulo. Estos datos son utilizados por un algoritmo de corte para determinar las secciones transversales de la forma tridimensional. El estándar StL incluye dos formatos de datos: ASCII y binario.",
-    "en": "An StL (‘StereoLithography’) file is a triangular representation of a 3-dimensional surface geometry. The surface is tessellated or broken down logically into a series of small triangles (facets). Each facet is described by a perpendicular direction and three points representing the vertices (corners) of the triangle. These data are used by a slicing algorithm to determine the cross sections of the 3-dimensional shape to be built by the fabber. The StL standard includes two data formats, ASCII and binary."
+    "en": "An StL (‘StereoLithography’) file is a triangular representation of a 3-dimensional surface geometry. The surface is tessellated or broken down logically into a series of small triangles (facets). Each facet is described by a perpendicular direction and three points representing the vertices (corners) of the triangle. These data are used by a slicing algorithm to determine the cross sections of the 3-dimensional shape to be built by the fabber. The StL standard includes two data formats, ASCII and binary.",
+    "es": "Un archivo StL ('StereoLithography') es una representación triangular de una geometría de superficie tridimensional. La superficie se divide lógicamente en una serie de pequeños triángulos (facetas). Cada faceta se describe mediante una dirección perpendicular y tres puntos que representan los vértices del triángulo. Estos datos son utilizados por un algoritmo de corte para determinar las secciones transversales de la forma tridimensional. El estándar StL incluye dos formatos de datos: ASCII y binario."
   },
+  "notation": [
+    ".stl",
+    "model/x.stl-ascii; model/x.stl-binary; model/stl"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/STL"

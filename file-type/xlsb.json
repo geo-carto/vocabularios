@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/xlsb",
   "type": "Concept",
   "prefLabel": {
-    "es": "XLSB",
-    "en": "XLSB"
+    "en": "XLSB",
+    "es": "XLSB"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Excel Binary Workbook"
     ],
-    "en": [
+    "es": [
       "Excel Binary Workbook"
     ]
   },
   "definition": {
-    "es": "Un archivo con la extensión XLSB es un archivo de libro de Excel binario. Almacenan información en formato binario en lugar de XML como la mayoría de los otros archivos de Excel (como XLSX). Dado que los archivos XLSB son binarios, se pueden leer y escribir mucho más rápido, lo que los hace extremadamente útiles para hojas de cálculo muy grandes.",
-    "en": "A file with the XLSB file extension is an Excel Binary Workbook file. They store information in binary format instead of XML like with most other Excel files (like XLSX). Since XLSB files are binary, they can be read from and written to much faster, making them extremely useful for very large spreadsheets."
+    "en": "A file with the XLSB file extension is an Excel Binary Workbook file. They store information in binary format instead of XML like with most other Excel files (like XLSX). Since XLSB files are binary, they can be read from and written to much faster, making them extremely useful for very large spreadsheets.",
+    "es": "Un archivo con la extensión XLSB es un archivo de libro de Excel binario. Almacenan información en formato binario en lugar de XML como la mayoría de los otros archivos de Excel (como XLSX). Dado que los archivos XLSB son binarios, se pueden leer y escribir mucho más rápido, lo que los hace extremadamente útiles para hojas de cálculo muy grandes."
   },
+  "notation": [
+    ".xlsb",
+    "application/vnd.ms-excel.sheet.binary.macroEnabled.12"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/XLSB"

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/laz",
   "type": "Concept",
   "prefLabel": {
-    "es": "Compressed LAS file",
-    "en": "Compressed LAS file"
+    "en": "Compressed LAS file",
+    "es": "Compressed LAS file"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Compressed LASer file"
     ],
-    "en": [
+    "es": [
       "Compressed LASer file"
     ]
   },
   "definition": {
-    "es": "LAZ es el tipo de medio que se utilizará para archivos LAS comprimidos. Este tipo de medio está incompleto ya que carece de una referencia a la especificación del formato.",
-    "en": "LAZ is the media type which shall be used for compressed LAS files. This media type is incomplete as it lacks a reference to the specification of the format."
+    "en": "LAZ is the media type which shall be used for compressed LAS files. This media type is incomplete as it lacks a reference to the specification of the format.",
+    "es": "LAZ es el tipo de medio que se utilizará para archivos LAS comprimidos. Este tipo de medio está incompleto ya que carece de una referencia a la especificación del formato."
   },
+  "notation": [
+    "application/x-laz",
+    ".laz"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/x-laz"

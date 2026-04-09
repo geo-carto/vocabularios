@@ -2,18 +2,18 @@
   "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-horizontal",
   "type": "Concept",
   "prefLabel": {
-    "es": "falla horizontal",
-    "en": "horizontal fault"
+    "en": "horizontal fault",
+    "es": "falla horizontal"
   },
   "definition": {
-    "es": "Falla que buza menos de 10 grados sobre más de la mitad de la extensión reconocida de la falla.",
-    "en": "Fault that dips less than 10 degrees over more than half the recognized extent of the fault."
+    "en": "Fault that dips less than 10 degrees over more than half the recognized extent of the fault.",
+    "es": "Falla que buza menos de 10 grados sobre más de la mitad de la extensión reconocida de la falla."
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-bajo-angulo",
     "prefLabel": {
-      "es": "falla de bajo ángulo",
-      "en": "low angle fault"
+      "en": "low angle fault",
+      "es": "falla de bajo ángulo"
     }
   },
   "exactMatch": [

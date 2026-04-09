@@ -2,41 +2,45 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/holoceno",
   "type": "Concept",
   "prefLabel": {
-    "es": "Holoceno",
-    "en": "Holocene"
+    "en": "Holocene",
+    "es": "Holoceno"
   },
   "definition": {
-    "es": "Límite inferior 0.0117 Ma, límite superior 0.0 Ma",
-    "en": "Older bound 0.0117 Ma, younger bound 0.0 Ma"
+    "en": "Older bound 0.0117 Ma, younger bound 0.0 Ma",
+    "es": "Límite inferior 0.0117 Ma, límite superior 0.0 Ma"
   },
+  "notation": [
+    "213030200000.0",
+    "a1.1.1.1.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/groenlandiense",
       "prefLabel": {
-        "es": "Groenlandiense",
-        "en": "Greenlandian"
+        "en": "Greenlandian",
+        "es": "Groenlandiense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/megalayense",
       "prefLabel": {
-        "es": "Megalayense",
-        "en": "Meghalayan"
+        "en": "Meghalayan",
+        "es": "Megalayense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/norgripiense",
       "prefLabel": {
-        "es": "Norgripiense",
-        "en": "Northgrippian"
+        "en": "Northgrippian",
+        "es": "Norgripiense"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cuaternario",
     "prefLabel": {
-      "es": "Cuaternario",
-      "en": "Quaternary"
+      "en": "Quaternary",
+      "es": "Cuaternario"
     }
   },
   "exactMatch": [

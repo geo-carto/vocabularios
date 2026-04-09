@@ -2,42 +2,43 @@
   "id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/collection",
   "type": "Collection",
   "prefLabel": {
+    "en": "Geomorphologic activity - All concepts",
     "es": "Actividad geomorfológica - Todos los conceptos"
   },
   "member": [
     {
       "id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/activo",
       "prefLabel": {
-        "es": "activo",
-        "en": "active"
+        "en": "active",
+        "es": "activo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/estabilizado",
       "prefLabel": {
-        "es": "estabilizado",
-        "en": "stabilised"
+        "en": "stabilised",
+        "es": "estabilizado"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/inactivo",
       "prefLabel": {
-        "es": "inactivo",
-        "en": "inactive"
+        "en": "inactive",
+        "es": "inactivo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/latente",
       "prefLabel": {
-        "es": "latente",
-        "en": "dormant"
+        "en": "dormant",
+        "es": "latente"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/reactivado",
       "prefLabel": {
-        "es": "reactivado",
-        "en": "reactivated"
+        "en": "reactivated",
+        "es": "reactivado"
       }
     }
   ],

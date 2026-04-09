@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/daniense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Daniense",
-    "en": "Danian"
+    "en": "Danian",
+    "es": "Daniense"
   },
   "definition": {
-    "es": "Límite inferior 66 Ma, límite superior 61.6 Ma",
-    "en": "Older bound 66 Ma, younger bound 61.6 Ma"
+    "en": "Older bound 66 Ma, younger bound 61.6 Ma",
+    "es": "Límite inferior 66 Ma, límite superior 61.6 Ma"
   },
+  "notation": [
+    "213010101000.0",
+    "a1.1.1.3.3.3"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleoceno",
     "prefLabel": {
-      "es": "Paleoceno",
-      "en": "Paleocene"
+      "en": "Paleocene",
+      "es": "Paleoceno"
     }
   },
   "exactMatch": [

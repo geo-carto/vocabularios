@@ -2,48 +2,48 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro",
   "type": "Concept",
   "prefLabel": {
-    "es": "cilindro",
-    "en": "cylinder"
+    "en": "cylinder",
+    "es": "cilindro"
   },
   "definition": {
-    "es": "Cuerpo definido por la traslación de una figura plana generadora con una sección transversal aproximadamente igual (círculo, elipsoide, polígono) a lo largo de una línea axial recta. H> = W = L. El eje es la dirección perpendicular a la figura del plano de generación, que forma superficies límitantes superior e inferior paralelas",
-    "en": "Body defined by translation of a generating plane figure with approximately equant cross section (circle, ellipsoid, polygon) along a straight axial line. H>=W=L. Axis is direction normal to generating plane figure, which forms parallel top and bottom bounding surface"
+    "en": "Body defined by translation of a generating plane figure with approximately equant cross section (circle, ellipsoid, polygon) along a straight axial line. H>=W=L. Axis is direction normal to generating plane figure, which forms parallel top and bottom bounding surface",
+    "es": "Cuerpo definido por la traslación de una figura plana generadora con una sección transversal aproximadamente igual (círculo, elipsoide, polígono) a lo largo de una línea axial recta. H> = W = L. El eje es la dirección perpendicular a la figura del plano de generación, que forma superficies límitantes superior e inferior paralelas"
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro-eliptico",
       "prefLabel": {
-        "es": "cilindro elíptico",
-        "en": "elliptical cylinder"
+        "en": "elliptical cylinder",
+        "es": "cilindro elíptico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro-poligonal",
       "prefLabel": {
-        "es": "cilindro poligonal",
-        "en": "polygonal cylinder"
+        "en": "polygonal cylinder",
+        "es": "cilindro poligonal"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/disco",
       "prefLabel": {
-        "es": "disco",
-        "en": "disc"
+        "en": "disc",
+        "es": "disco"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/rod",
       "prefLabel": {
-        "es": "rod",
-        "en": "rod"
+        "en": "rod",
+        "es": "rod"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-tridimensional",
     "prefLabel": {
-      "es": "cuerpo tridimensional",
-      "en": "three dimensional body"
+      "en": "three dimensional body",
+      "es": "cuerpo tridimensional"
     }
   },
   "exactMatch": [

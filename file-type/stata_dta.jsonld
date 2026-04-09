@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/stata_dta",
   "type": "Concept",
   "prefLabel": {
-    "es": "Stata DTA",
-    "en": "Stata DTA"
+    "en": "Stata DTA",
+    "es": "Stata DTA"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Stata dataset"
     ],
-    "en": [
+    "es": [
       "Stata dataset"
     ]
   },
   "definition": {
-    "es": "Formato de datos propietario del software estadístico Stata.",
-    "en": "proprietary data format of the statistical software Stata"
+    "en": "proprietary data format of the statistical software Stata",
+    "es": "Formato de datos propietario del software estadístico Stata."
   },
+  "notation": [
+    "application/octet-stream",
+    ".dta"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/octet-stream"

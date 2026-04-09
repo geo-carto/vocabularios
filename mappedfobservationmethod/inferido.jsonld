@@ -2,33 +2,33 @@
   "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido",
   "type": "Concept",
   "prefLabel": {
-    "es": "inferido",
-    "en": "inferred"
+    "en": "inferred",
+    "es": "inferido"
   },
   "definition": {
-    "es": "Indica que el elemento cartografiado no es directamente observable; su ubicación y especificación se basan en inferencias a partir de la evidencia disponible.",
-    "en": "Indicates that mapped feature is not directly observable, location and specification based on inference from available evidence."
+    "en": "Indicates that mapped feature is not directly observable, location and specification based on inference from available evidence.",
+    "es": "Indica que el elemento cartografiado no es directamente observable; su ubicación y especificación se basan en inferencias a partir de la evidencia disponible."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-a-partir-de-recortes-de-sondeo",
       "prefLabel": {
-        "es": "inferido a partir de recortes de sondeo",
-        "en": "inferred drill cuttings"
+        "en": "inferred drill cuttings",
+        "es": "inferido a partir de recortes de sondeo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-mediante-metodo-indirecto",
       "prefLabel": {
-        "es": "inferido mediante método indirecto",
-        "en": "inferred using indirect method"
+        "en": "inferred using indirect method",
+        "es": "inferido mediante método indirecto"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/proyeccion-inferida-entre-ubicaciones-observadas",
       "prefLabel": {
-        "es": "proyección inferida entre ubicaciones observadas",
-        "en": "inferred projection between observed locations"
+        "en": "inferred projection between observed locations",
+        "es": "proyección inferida entre ubicaciones observadas"
       }
     }
   ],

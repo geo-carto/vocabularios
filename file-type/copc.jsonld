@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/copc",
   "type": "Concept",
   "prefLabel": {
-    "es": "COPC",
-    "en": "COPC"
+    "en": "COPC",
+    "es": "COPC"
   },
   "altLabel": {
-    "es": [
-      "Nube de Puntos Optimizada para la Nube"
-    ],
     "en": [
       "Cloud Optimized Point Cloud"
+    ],
+    "es": [
+      "Nube de Puntos Optimizada para la Nube"
     ]
   },
   "definition": {
-    "es": "Cloud Optimized Point Cloud (COPC) es un formato de archivo que almacena datos de nubes de puntos organizados en un octree agrupado dentro de un archivo LAZ 1.4. Permite el acceso eficiente por streaming a subconjuntos espaciales y de resolución de grandes conjuntos de datos de nubes de puntos a través de solicitudes HTTP range, de forma análoga a Cloud Optimized GeoTIFF (COG) para datos rasterizados. Es retrocompatible con cualquier lector LAZ 1.4.",
-    "en": "Cloud Optimized Point Cloud (COPC) is a file format that stores point cloud data organized in a clustered octree within a LAZ 1.4 file. It enables efficient streaming access to spatial and resolution subsets of large point cloud datasets through HTTP range requests, analogous to Cloud Optimized GeoTIFF (COG) for raster data. It is backward compatible with any LAZ 1.4 reader."
+    "en": "Cloud Optimized Point Cloud (COPC) is a file format that stores point cloud data organized in a clustered octree within a LAZ 1.4 file. It enables efficient streaming access to spatial and resolution subsets of large point cloud datasets through HTTP range requests, analogous to Cloud Optimized GeoTIFF (COG) for raster data. It is backward compatible with any LAZ 1.4 reader.",
+    "es": "Cloud Optimized Point Cloud (COPC) es un formato de archivo que almacena datos de nubes de puntos organizados en un octree agrupado dentro de un archivo LAZ 1.4. Permite el acceso eficiente por streaming a subconjuntos espaciales y de resolución de grandes conjuntos de datos de nubes de puntos a través de solicitudes HTTP range, de forma análoga a Cloud Optimized GeoTIFF (COG) para datos rasterizados. Es retrocompatible con cualquier lector LAZ 1.4."
   },
+  "notation": [
+    ".copc.laz",
+    "application/x-laz"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/x-laz"

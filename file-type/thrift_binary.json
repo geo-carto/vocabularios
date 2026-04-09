@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/thrift_binary",
   "type": "Concept",
   "prefLabel": {
-    "es": "Thrift binary",
-    "en": "Thrift binary"
+    "en": "Thrift binary",
+    "es": "Thrift binary"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Apache Thrift binary format"
     ],
-    "en": [
+    "es": [
       "Apache Thrift binary format"
     ]
   },
   "definition": {
-    "es": "Lenguaje de definición de interfaces y protocolo de comunicación binario utilizado para definir y crear servicios para lenguajes de programación; formato binario.",
-    "en": "interface definition language and binary communication protocol used for defining and creating services for programming languages; binary format"
+    "en": "interface definition language and binary communication protocol used for defining and creating services for programming languages; binary format",
+    "es": "Lenguaje de definición de interfaces y protocolo de comunicación binario utilizado para definir y crear servicios para lenguajes de programación; formato binario."
   },
+  "notation": [
+    "application/vnd.apache.thrift.binary"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/THRIFT_BINARY"

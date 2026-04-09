@@ -2,33 +2,33 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonatico",
   "type": "Concept",
   "prefLabel": {
-    "es": "carbonático",
-    "en": "carbonate chemistry"
+    "en": "carbonate chemistry",
+    "es": "carbonático"
   },
   "definition": {
-    "es": "El anión carbonato (CO3) es el anión predominante (por porcentaje molar) en el análisis químico. Las subcategorías pueden definirse por el catión dominante. El material de esta clase química se superpone con la clase de carbonato monomineral y probablemente se superpone con la clase de carbonato en la clasificación de composición mineralógica",
-    "en": "The carbonate (CO3) anion is the predominant anion (by mole percent) in chemical analysis. Sub-categories may be defined by dominant cation. Material in this chemical class overlaps with the monomineralic carbonate class, and probably overlaps with the Carbonate class in the mineralogical composition classification"
+    "en": "The carbonate (CO3) anion is the predominant anion (by mole percent) in chemical analysis. Sub-categories may be defined by dominant cation. Material in this chemical class overlaps with the monomineralic carbonate class, and probably overlaps with the Carbonate class in the mineralogical composition classification",
+    "es": "El anión carbonato (CO3) es el anión predominante (por porcentaje molar) en el análisis químico. Las subcategorías pueden definirse por el catión dominante. El material de esta clase química se superpone con la clase de carbonato monomineral y probablemente se superpone con la clase de carbonato en la clasificación de composición mineralógica"
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-hierro",
       "prefLabel": {
-        "es": "carbonato con hierro",
-        "en": "iron bearing carbonate chemistry"
+        "en": "iron bearing carbonate chemistry",
+        "es": "carbonato con hierro"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-magnesico",
       "prefLabel": {
-        "es": "carbonato magnésico",
-        "en": "magnesium rich carbonate chemistry"
+        "en": "magnesium rich carbonate chemistry",
+        "es": "carbonato magnésico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-rico-en-calcio",
       "prefLabel": {
-        "es": "carbonato rico en calcio",
-        "en": "calcium rich carbonate chemistry"
+        "en": "calcium rich carbonate chemistry",
+        "es": "carbonato rico en calcio"
       }
     }
   ],

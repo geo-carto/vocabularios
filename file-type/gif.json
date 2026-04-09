@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/gif",
   "type": "Concept",
   "prefLabel": {
-    "es": "GIF",
-    "en": "GIF"
+    "en": "GIF",
+    "es": "GIF"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Graphics Interchange Format"
     ],
-    "en": [
+    "es": [
       "Graphics Interchange Format"
     ]
   },
   "definition": {
-    "es": "GIF – Graphics Interchange Format – es un formato de imagen de mapa de bits desarrollado por un equipo del proveedor de servicios de tablón de anuncios (BBS) CompuServe.",
-    "en": "GIF – Graphics Interchange Format – is a bitmap image format that was developed by a team at the bulletin board service (BBS) provider CompuServe."
+    "en": "GIF – Graphics Interchange Format – is a bitmap image format that was developed by a team at the bulletin board service (BBS) provider CompuServe.",
+    "es": "GIF – Graphics Interchange Format – es un formato de imagen de mapa de bits desarrollado por un equipo del proveedor de servicios de tablón de anuncios (BBS) CompuServe."
   },
+  "notation": [
+    ".gif",
+    "image/gif"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/GIF"

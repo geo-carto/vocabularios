@@ -2,76 +2,76 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-tectonico",
   "type": "Concept",
   "prefLabel": {
-    "es": "proceso tectónico",
-    "en": "tectonic process"
+    "en": "tectonic process",
+    "es": "proceso tectónico"
   },
   "definition": {
-    "es": "Proceso relacionado con la deformación o la interacción entre las placas rígidas que forman la corteza de la tierra.",
-    "en": "Processes related to the interaction between or deformation of rigid plates forming the crust of the earth."
+    "en": "Processes related to the interaction between or deformation of rigid plates forming the crust of the earth.",
+    "es": "Proceso relacionado con la deformación o la interacción entre las placas rígidas que forman la corteza de la tierra."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/acreccion",
       "prefLabel": {
-        "es": "acrección",
-        "en": "accretion"
+        "en": "accretion",
+        "es": "acrección"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/colision-continental",
       "prefLabel": {
-        "es": "colisión continental",
-        "en": "continental collision"
+        "en": "continental collision",
+        "es": "colisión continental"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/expansion-oceanica",
       "prefLabel": {
-        "es": "expansión oceánica",
-        "en": "spreading"
+        "en": "spreading",
+        "es": "expansión oceánica"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/falla-transformante",
       "prefLabel": {
-        "es": "falla transformante",
-        "en": "transform faulting"
+        "en": "transform faulting",
+        "es": "falla transformante"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/obduccion",
       "prefLabel": {
-        "es": "obducción",
-        "en": "obduction"
+        "en": "obduction",
+        "es": "obducción"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-orogenico",
       "prefLabel": {
-        "es": "proceso orogénico",
-        "en": "orogenic process"
+        "en": "orogenic process",
+        "es": "proceso orogénico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/ruptura-continental",
       "prefLabel": {
-        "es": "ruptura continental",
-        "en": "continental breakup"
+        "en": "continental breakup",
+        "es": "ruptura continental"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/subduccion",
       "prefLabel": {
-        "es": "subducción",
-        "en": "subduction"
+        "en": "subduction",
+        "es": "subducción"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
     "prefLabel": {
-      "es": "proceso geológico",
-      "en": "geologic process"
+      "en": "geologic process",
+      "es": "proceso geológico"
     }
   },
   "exactMatch": [

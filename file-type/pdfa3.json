@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pdfa3",
   "type": "Concept",
   "prefLabel": {
-    "es": "PDF/A-3",
-    "en": "PDF/A-3"
+    "en": "PDF/A-3",
+    "es": "PDF/A-3"
   },
   "definition": {
-    "es": "Versión estandarizada por ISO del Portable Document Format especializada para el archivado y la preservación a largo plazo de documentos electrónicos; PDF/A-3 es la Parte 3 del estándar que difiere de PDF/A-2 únicamente en que permite la incrustación de formatos de archivo arbitrarios (como XML, CSV, CAD, documentos de procesamiento de textos, hojas de cálculo y otros) en documentos conformes a PDF/A.",
-    "en": "ISO-standardised version of the Portable Document Format specialized for use in the archiving and long-term preservation of electronic documents; PDF/A-3 is the Part 3 of the standard which differs from PDF/A-2 in only one regard – it allows embedding of arbitrary file formats (such as XML, CSV, CAD, word-processing documents, spreadsheet documents and others) into PDF/A conforming documents"
+    "en": "ISO-standardised version of the Portable Document Format specialized for use in the archiving and long-term preservation of electronic documents; PDF/A-3 is the Part 3 of the standard which differs from PDF/A-2 in only one regard – it allows embedding of arbitrary file formats (such as XML, CSV, CAD, word-processing documents, spreadsheet documents and others) into PDF/A conforming documents",
+    "es": "Versión estandarizada por ISO del Portable Document Format especializada para el archivado y la preservación a largo plazo de documentos electrónicos; PDF/A-3 es la Parte 3 del estándar que difiere de PDF/A-2 únicamente en que permite la incrustación de formatos de archivo arbitrarios (como XML, CSV, CAD, documentos de procesamiento de textos, hojas de cálculo y otros) en documentos conformes a PDF/A."
   },
+  "notation": [
+    ".pdf",
+    "application/pdf"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/pdf"

@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-terreno-extendido",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de terreno extendido",
-    "en": "extended terrane setting"
+    "en": "extended terrane setting",
+    "es": "ambiente de terreno extendido"
   },
   "definition": {
-    "es": "Ambiente tectónico caracterizado por la extensión de la corteza superior, manifestada por la formación de fisiografía en valles de rift o en basin and range.",
-    "en": "Tectonic setting characterized by extension of the upper crust, manifested by formation of rift valleys or basin and range physiography, with arrays of low to high angle normal faults. Modern examples include the North Sea, East Africa, and the Basin and Range of the North American Cordillera. Typically applied in continental crustal settings."
+    "en": "Tectonic setting characterized by extension of the upper crust, manifested by formation of rift valleys or basin and range physiography, with arrays of low to high angle normal faults. Modern examples include the North Sea, East Africa, and the Basin and Range of the North American Cordillera. Typically applied in continental crustal settings.",
+    "es": "Ambiente tectónico caracterizado por la extensión de la corteza superior, manifestada por la formación de fisiografía en valles de rift o en basin and range."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-rift-continental",
       "prefLabel": {
-        "es": "ambiente de rift continental",
-        "en": "continental rift setting"
+        "en": "continental rift setting",
+        "es": "ambiente de rift continental"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-tectonicamente-definido",
     "prefLabel": {
-      "es": "ambiente tectónicamente definido",
-      "en": "tectonically defined setting"
+      "en": "tectonically defined setting",
+      "es": "ambiente tectónicamente definido"
     }
   },
   "exactMatch": [

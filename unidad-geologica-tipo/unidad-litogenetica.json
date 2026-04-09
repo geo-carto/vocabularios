@@ -2,41 +2,41 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litogenetica",
   "type": "Concept",
   "prefLabel": {
-    "es": "unidad litogenética",
-    "en": "lithogenetic unit"
+    "en": "lithogenetic unit",
+    "es": "unidad litogenética"
   },
   "definition": {
-    "es": "Unidad geológica definida por su origen. El origen se manifiesta en las propiedades de los materiales, pero estos materiales no constituyen la propiedad definitoria.",
-    "en": "Geologic unit defined by genesis. The genesis is manifested by material properties, but the material is not the defining property."
+    "en": "Geologic unit defined by genesis. The genesis is manifested by material properties, but the material is not the defining property.",
+    "es": "Unidad geológica definida por su origen. El origen se manifiesta en las propiedades de los materiales, pero estos materiales no constituyen la propiedad definitoria."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/suelo-artificial",
       "prefLabel": {
-        "es": "suelo artificial",
-        "en": "artificial ground"
+        "en": "artificial ground",
+        "es": "suelo artificial"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-excavacion",
       "prefLabel": {
-        "es": "unidad de excavación",
-        "en": "excavation unit"
+        "en": "excavation unit",
+        "es": "unidad de excavación"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-movimiento-en-masa",
       "prefLabel": {
-        "es": "unidad de movimiento en masa",
-        "en": "mass movement unit"
+        "en": "mass movement unit",
+        "es": "unidad de movimiento en masa"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica",
     "prefLabel": {
-      "es": "unidad geológica",
-      "en": "geologic unit"
+      "en": "geologic unit",
+      "es": "unidad geológica"
     }
   },
   "exactMatch": [

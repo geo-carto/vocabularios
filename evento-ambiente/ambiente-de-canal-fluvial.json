@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-canal-fluvial",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de canal fluvial",
-    "en": "river channel setting"
+    "en": "river channel setting",
+    "es": "ambiente de canal fluvial"
   },
   "definition": {
-    "es": "El lecho en el que un masa natural de agua superficial fluye o puede fluir; un conducto natural o una depresión de medidas perceptibles conteniendo de forma continua o periódica agua que fluye, o formando la conexión entre dos masas de agua; una corriente de agua.",
-    "en": "The bed where a natural body of surface water flows or may flow; a natural passageway or depression of perceptible extent containing continuously or periodically flowing water, or forming a connecting link between two bodies of water; a watercourse."
+    "en": "The bed where a natural body of surface water flows or may flow; a natural passageway or depression of perceptible extent containing continuously or periodically flowing water, or forming a connecting link between two bodies of water; a watercourse.",
+    "es": "El lecho en el que un masa natural de agua superficial fluye o puede fluir; un conducto natural o una depresión de medidas perceptibles conteniendo de forma continua o periódica agua que fluye, o formando la conexión entre dos masas de agua; una corriente de agua."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-canal-de-rio-meandriforme",
       "prefLabel": {
-        "es": "ambiente de canal de río meandriforme",
-        "en": "meandering river channel setting"
+        "en": "meandering river channel setting",
+        "es": "ambiente de canal de río meandriforme"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-rio-de-canal-trenzado",
       "prefLabel": {
-        "es": "ambiente de rio de canal trenzado",
-        "en": "braided river channel setting"
+        "en": "braided river channel setting",
+        "es": "ambiente de rio de canal trenzado"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-de-llanura-fluvial",
     "prefLabel": {
-      "es": "ambiente de sistema de llanura fluvial",
-      "en": "river plain system setting"
+      "en": "river plain system setting",
+      "es": "ambiente de sistema de llanura fluvial"
     }
   },
   "exactMatch": [

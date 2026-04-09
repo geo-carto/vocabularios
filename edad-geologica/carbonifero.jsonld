@@ -2,34 +2,38 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/carbonifero",
   "type": "Concept",
   "prefLabel": {
-    "es": "Carbonífero",
-    "en": "Carboniferous"
+    "en": "Carboniferous",
+    "es": "Carbonífero"
   },
   "definition": {
-    "es": "Límite inferior 358.9 +|-0.4 Ma, límite superior 298.9 +|-0.15 Ma",
-    "en": "Older bound 358.9 +|-0.4 Ma, younger bound 298.9 +|-0.15 Ma"
+    "en": "Older bound 358.9 +|-0.4 Ma, younger bound 298.9 +|-0.15 Ma",
+    "es": "Límite inferior 358.9 +|-0.4 Ma, límite superior 298.9 +|-0.15 Ma"
   },
+  "notation": [
+    "211050000000.0",
+    "a1.1.3.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense",
       "prefLabel": {
-        "es": "Mississippiense",
-        "en": "Mississippian"
+        "en": "Mississippian",
+        "es": "Mississippiense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pennsylvaniense",
       "prefLabel": {
-        "es": "Pennsylvaniense",
-        "en": "Pennsylvanian"
+        "en": "Pennsylvanian",
+        "es": "Pennsylvaniense"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico",
     "prefLabel": {
-      "es": "Paleozoico",
-      "en": "Paleozoic"
+      "en": "Paleozoic",
+      "es": "Paleozoico"
     }
   },
   "exactMatch": [

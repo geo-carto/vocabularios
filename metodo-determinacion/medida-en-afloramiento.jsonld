@@ -2,26 +2,26 @@
   "id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento",
   "type": "Concept",
   "prefLabel": {
-    "es": "medida en afloramiento",
-    "en": "measure on outcrop"
+    "en": "measure on outcrop",
+    "es": "medida en afloramiento"
   },
   "definition": {
-    "es": "La orientación de la superficie o línea se mide directamente sobre un afloramiento de dicha superficie o línea, por ejemplo, midiendo una superficie de estratificación particular, una exposición 3D de una charnela de pliegue, un grano mineral estirado en una superficie de foliación.",
-    "en": "Orientation of surface or line is measured on an outcrop of that surface or line directly, e.g. by measuring a particular bedding surface, a 3-D exposure of a fold hinge, a particular stretched mineral grain in a foliation surface."
+    "en": "Orientation of surface or line is measured on an outcrop of that surface or line directly, e.g. by measuring a particular bedding surface, a 3-D exposure of a fold hinge, a particular stretched mineral grain in a foliation surface.",
+    "es": "La orientación de la superficie o línea se mide directamente sobre un afloramiento de dicha superficie o línea, por ejemplo, midiendo una superficie de estratificación particular, una exposición 3D de una charnela de pliegue, un grano mineral estirado en una superficie de foliación."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-visual-en-afloramiento",
       "prefLabel": {
-        "es": "estimación visual en afloramiento",
-        "en": "visual surface estimation on outcrop"
+        "en": "visual surface estimation on outcrop",
+        "es": "estimación visual en afloramiento"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-instrumental-en-campo",
       "prefLabel": {
-        "es": "medida instrumental en campo",
-        "en": "standard on site measure"
+        "en": "standard on site measure",
+        "es": "medida instrumental en campo"
       }
     }
   ],

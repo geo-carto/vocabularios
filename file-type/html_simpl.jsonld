@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/html_simpl",
   "type": "Concept",
   "prefLabel": {
-    "es": "HTML simplified",
-    "en": "HTML simplified"
+    "en": "HTML simplified",
+    "es": "HTML simplified"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "HyperText Mark-up Language, simplified"
     ],
-    "en": [
+    "es": [
       "HyperText Mark-up Language, simplified"
     ]
   },
   "definition": {
-    "es": "HTML es un lenguaje de marcado para describir documentos web. Su versión simplificada se utiliza para el almacenamiento en la Oficina de Publicaciones.",
-    "en": "HTML is a markup language for describing web documents. Its simplified version is used for storage in the Publications Office."
+    "en": "HTML is a markup language for describing web documents. Its simplified version is used for storage in the Publications Office.",
+    "es": "HTML es un lenguaje de marcado para describir documentos web. Su versión simplificada se utiliza para el almacenamiento en la Oficina de Publicaciones."
   },
+  "notation": [
+    ".html; .htm",
+    "text/html"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/text/html"

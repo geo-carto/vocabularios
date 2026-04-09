@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/appx",
   "type": "Concept",
   "prefLabel": {
-    "es": "AppX",
-    "en": "AppX"
+    "en": "AppX",
+    "es": "AppX"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Microsoft AppX application package"
     ],
-    "en": [
+    "es": [
       "Microsoft AppX application package"
     ]
   },
   "definition": {
-    "es": "AppX es un formato de archivo utilizado para distribuir e instalar aplicaciones en Windows 8.x y 10, Windows Phone 8.1, Windows 10 Mobile, Xbox One, Hololens y Windows 10 IoT Core.",
-    "en": "AppX is a file format used to distribute and install apps on Windows 8.x and 10, Windows Phone 8.1, Windows 10 Mobile, Xbox One, Hololens and Windows 10 IoT Core."
+    "en": "AppX is a file format used to distribute and install apps on Windows 8.x and 10, Windows Phone 8.1, Windows 10 Mobile, Xbox One, Hololens and Windows 10 IoT Core.",
+    "es": "AppX es un formato de archivo utilizado para distribuir e instalar aplicaciones en Windows 8.x y 10, Windows Phone 8.1, Windows 10 Mobile, Xbox One, Hololens y Windows 10 IoT Core."
   },
+  "notation": [
+    ".appxbundle; .appx",
+    "application/octet-stream"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/APPX"

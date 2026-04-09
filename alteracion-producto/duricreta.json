@@ -2,8 +2,8 @@
   "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta",
   "type": "Concept",
   "prefLabel": {
-    "es": "duricreta",
-    "en": "duricrust"
+    "en": "duricrust",
+    "es": "duricreta"
   },
   "altLabel": {
     "es": [
@@ -11,37 +11,37 @@
     ]
   },
   "definition": {
-    "es": "Las duricretas (corazas o costras) son cretas endurecidas, generalmente por cementación. Las cretas son acumulaciones de composición predominantemente uniforme, bien diferenciadas, más o menos endurecidas, que aparecen en alteritas, depósitos superficiales o suelos.",
-    "en": "Duricrusts are hard cretes (crusts), mainly by cementation. Cretes (crusts) are accumulations of mainly uniform composition, well differentiated, indurated or not, in alterites, superficial deposits or soils."
+    "en": "Duricrusts are hard cretes (crusts), mainly by cementation. Cretes (crusts) are accumulations of mainly uniform composition, well differentiated, indurated or not, in alterites, superficial deposits or soils.",
+    "es": "Las duricretas (corazas o costras) son cretas endurecidas, generalmente por cementación. Las cretas son acumulaciones de composición predominantemente uniforme, bien diferenciadas, más o menos endurecidas, que aparecen en alteritas, depósitos superficiales o suelos."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/calcreta",
       "prefLabel": {
-        "es": "calcreta",
-        "en": "calcrete"
+        "en": "calcrete",
+        "es": "calcreta"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/ferricreta",
       "prefLabel": {
-        "es": "ferricreta",
-        "en": "ferricrete"
+        "en": "ferricrete",
+        "es": "ferricreta"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/silcreta",
       "prefLabel": {
-        "es": "silcreta",
-        "en": "silcrete"
+        "en": "silcrete",
+        "es": "silcreta"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/regolito",
     "prefLabel": {
-      "es": "regolito",
-      "en": "regolith"
+      "en": "regolith",
+      "es": "regolito"
     }
   },
   "inScheme": [

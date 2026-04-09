@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/wuchiapingiense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Wuchiapingiense",
-    "en": "Wuchiapingian"
+    "en": "Wuchiapingian",
+    "es": "Wuchiapingiense"
   },
   "definition": {
-    "es": "Límite inferior 259.51 +|-0.21 Ma, límite superior 254.14 +|-0.07 Ma",
-    "en": "Older bound 259.51 +|-0.21 Ma, younger bound 254.14 +|-0.07 Ma"
+    "en": "Older bound 259.51 +|-0.21 Ma, younger bound 254.14 +|-0.07 Ma",
+    "es": "Límite inferior 259.51 +|-0.21 Ma, límite superior 254.14 +|-0.07 Ma"
   },
+  "notation": [
+    "211060301000.0",
+    "a1.1.3.1.1.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/lopingiense",
     "prefLabel": {
-      "es": "Lopingiense",
-      "en": "Lopingian"
+      "en": "Lopingian",
+      "es": "Lopingiense"
     }
   },
   "exactMatch": [

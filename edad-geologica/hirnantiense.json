@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/hirnantiense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Hirnantiense",
-    "en": "Hirnantian"
+    "en": "Hirnantian",
+    "es": "Hirnantiense"
   },
   "definition": {
-    "es": "Límite inferior 445.2 +|-1.4 Ma, límite superior 443.8 +|-1.5 Ma",
-    "en": "Older bound 445.2 +|-1.4 Ma, younger bound 443.8 +|-1.5 Ma"
+    "en": "Older bound 445.2 +|-1.4 Ma, younger bound 443.8 +|-1.5 Ma",
+    "es": "Límite inferior 445.2 +|-1.4 Ma, límite superior 443.8 +|-1.5 Ma"
   },
+  "notation": [
+    "211020303000.0",
+    "a1.1.3.5.1.1"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-superior",
     "prefLabel": {
-      "es": "Ordovícico Superior",
-      "en": "Upper Ordovician"
+      "en": "Upper Ordovician",
+      "es": "Ordovícico Superior"
     }
   },
   "exactMatch": [

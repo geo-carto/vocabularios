@@ -2,28 +2,29 @@
   "id": "https://geo-carto.github.io/vocabularios/void-reason/collection",
   "type": "Collection",
   "prefLabel": {
+    "en": "Void Reason Value - All concepts",
     "es": "Razón de valor vacío - Todos los conceptos"
   },
   "member": [
     {
       "id": "https://geo-carto.github.io/vocabularios/void-reason/desconocido",
       "prefLabel": {
-        "es": "desconocido",
-        "en": "unknown"
+        "en": "unknown",
+        "es": "desconocido"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/void-reason/no-poblado",
       "prefLabel": {
-        "es": "no poblado",
-        "en": "unpopulated"
+        "en": "unpopulated",
+        "es": "no poblado"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/void-reason/retenido",
       "prefLabel": {
-        "es": "retenido",
-        "en": "withheld"
+        "en": "withheld",
+        "es": "retenido"
       }
     }
   ],

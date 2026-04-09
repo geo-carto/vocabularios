@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal",
   "type": "Concept",
   "prefLabel": {
-    "es": "falla normal",
-    "en": "normal fault"
+    "en": "normal fault",
+    "es": "falla normal"
   },
   "definition": {
-    "es": "Falla cuyo bloque elevado es el inferior y su superficie buza hacia el bloque hundido y en la que la componente del desplazamiento paralelo al buzamiento es más de 10 veces superior a la componente del desplazamiento paralelo al rumbo en más de la mitad de la extensión en la que ha sido reconocida.",
-    "en": "Fault with dip-parallel displacement component of slip vector more than 10 times the strike-parallel component of the slip vector over more than half recognized extent of the fault, and for which the fault dips consistently in the same direction, and for which the hanging wall has been displaced down relative to the footwall."
+    "en": "Fault with dip-parallel displacement component of slip vector more than 10 times the strike-parallel component of the slip vector over more than half recognized extent of the fault, and for which the fault dips consistently in the same direction, and for which the hanging wall has been displaced down relative to the footwall.",
+    "es": "Falla cuyo bloque elevado es el inferior y su superficie buza hacia el bloque hundido y en la que la componente del desplazamiento paralelo al buzamiento es más de 10 veces superior a la componente del desplazamiento paralelo al rumbo en más de la mitad de la extensión en la que ha sido reconocida."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-alto-angulo",
       "prefLabel": {
-        "es": "falla normal de alto ángulo",
-        "en": "high angle normal fault"
+        "en": "high angle normal fault",
+        "es": "falla normal de alto ángulo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-bajo-angulo",
       "prefLabel": {
-        "es": "falla normal de bajo ángulo",
-        "en": "low angle normal fault"
+        "en": "low angle normal fault",
+        "es": "falla normal de bajo ángulo"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla",
     "prefLabel": {
-      "es": "falla",
-      "en": "fault"
+      "en": "fault",
+      "es": "falla"
     }
   },
   "exactMatch": [

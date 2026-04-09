@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa",
   "type": "Concept",
   "prefLabel": {
-    "es": "falla inversa",
-    "en": "reverse fault"
+    "en": "reverse fault",
+    "es": "falla inversa"
   },
   "definition": {
-    "es": "Falla en la que el componente de desplazamiento paralelo al buzamiento es más de 10 veces superior al componente de desplazamiento paralelo al rumbo al menos en un lugar del trazado cartografiado y la falla buza sistemáticamente en la misma dirección, estando el labio levantado desplazado hacia arriba en relación con el labio hundido al menos la mitad del trazado cartografiado.",
-    "en": "Fault with dip-parallel displacement component of slip vector more than 10 times the strike-parallel component of the slip vector at at least one location along the mapped trace of the fault, and the fault dips consistently in the same direction with the hanging wall displaced up relative to the footwall over at least half the mapped trace of the fault."
+    "en": "Fault with dip-parallel displacement component of slip vector more than 10 times the strike-parallel component of the slip vector at at least one location along the mapped trace of the fault, and the fault dips consistently in the same direction with the hanging wall displaced up relative to the footwall over at least half the mapped trace of the fault.",
+    "es": "Falla en la que el componente de desplazamiento paralelo al buzamiento es más de 10 veces superior al componente de desplazamiento paralelo al rumbo al menos en un lugar del trazado cartografiado y la falla buza sistemáticamente en la misma dirección, estando el labio levantado desplazado hacia arriba en relación con el labio hundido al menos la mitad del trazado cartografiado."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/cabalgamiento",
       "prefLabel": {
-        "es": "cabalgamiento",
-        "en": "thrust fault"
+        "en": "thrust fault",
+        "es": "cabalgamiento"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-de-alto-angulo",
       "prefLabel": {
-        "es": "falla inversa de alto ángulo",
-        "en": "high angle reverse"
+        "en": "high angle reverse",
+        "es": "falla inversa de alto ángulo"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla",
     "prefLabel": {
-      "es": "falla",
-      "en": "fault"
+      "en": "fault",
+      "es": "falla"
     }
   },
   "exactMatch": [

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/py",
   "type": "Concept",
   "prefLabel": {
-    "es": "PY",
-    "en": "PY"
+    "en": "PY",
+    "es": "PY"
   },
   "altLabel": {
-    "es": [
-      "Script Python"
-    ],
     "en": [
       "Python Script"
+    ],
+    "es": [
+      "Script Python"
     ]
   },
   "definition": {
-    "es": "Un archivo PY es un archivo de código fuente escrito en el lenguaje de programación Python. Python es un lenguaje de programación interpretado, de alto nivel y de propósito general. Los archivos Python contienen código fuente que puede ejecutarse directamente por el intérprete de Python.",
-    "en": "A PY file is a source code file written in the Python programming language. Python is an interpreted, high-level, general-purpose programming language. Python files contain source code that can be executed directly by the Python interpreter."
+    "en": "A PY file is a source code file written in the Python programming language. Python is an interpreted, high-level, general-purpose programming language. Python files contain source code that can be executed directly by the Python interpreter.",
+    "es": "Un archivo PY es un archivo de código fuente escrito en el lenguaje de programación Python. Python es un lenguaje de programación interpretado, de alto nivel y de propósito general. Los archivos Python contienen código fuente que puede ejecutarse directamente por el intérprete de Python."
   },
+  "notation": [
+    ".py; .pyw",
+    "text/x-python"
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/file-type"

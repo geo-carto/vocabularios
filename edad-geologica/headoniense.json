@@ -2,26 +2,29 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/headoniense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Headoniense",
-    "en": "Headonian"
+    "en": "Headonian",
+    "es": "Headoniense"
   },
   "definition": {
-    "es": "Límite inferior 37.2 Ma, límite superior 33.9 Ma",
-    "en": "Older bound 37.2 Ma, younger bound 33.9 Ma"
+    "en": "Older bound 37.2 Ma, younger bound 33.9 Ma",
+    "es": "Límite inferior 37.2 Ma, límite superior 33.9 Ma"
   },
+  "notation": [
+    "213010207091.0"
+  ],
   "related": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/bartoniense",
       "prefLabel": {
-        "es": "Bartoniense",
-        "en": "Bartonian"
+        "en": "Bartonian",
+        "es": "Bartoniense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/priaboniense",
       "prefLabel": {
-        "es": "Priaboniense",
-        "en": "Priabonian"
+        "en": "Priabonian",
+        "es": "Priaboniense"
       }
     }
   ],

@@ -2,8 +2,8 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-inferior",
   "type": "Concept",
   "prefLabel": {
-    "es": "Cretácico Inferior",
-    "en": "Lower Cretaceous"
+    "en": "Lower Cretaceous",
+    "es": "Cretácico Inferior"
   },
   "altLabel": {
     "en": [
@@ -11,58 +11,62 @@
     ]
   },
   "definition": {
-    "es": "Límite inferior 145 Ma, límite superior 100.5 Ma",
-    "en": "Older bound 145 Ma, younger bound 100.5 Ma"
+    "en": "Older bound 145 Ma, younger bound 100.5 Ma",
+    "es": "Límite inferior 145 Ma, límite superior 100.5 Ma"
   },
+  "notation": [
+    "212030100000.0",
+    "a1.1.2.1.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/albiense",
       "prefLabel": {
-        "es": "Albiense",
-        "en": "Albian"
+        "en": "Albian",
+        "es": "Albiense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aptiense",
       "prefLabel": {
-        "es": "Aptiense",
-        "en": "Aptian"
+        "en": "Aptian",
+        "es": "Aptiense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/barremiense",
       "prefLabel": {
-        "es": "Barremiense",
-        "en": "Barremian"
+        "en": "Barremian",
+        "es": "Barremiense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/berriasiense",
       "prefLabel": {
-        "es": "Berriasiense",
-        "en": "Berriasian"
+        "en": "Berriasian",
+        "es": "Berriasiense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/hauteriviense",
       "prefLabel": {
-        "es": "Hauteriviense",
-        "en": "Hauterivian"
+        "en": "Hauterivian",
+        "es": "Hauteriviense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/valanginiense",
       "prefLabel": {
-        "es": "Valanginiense",
-        "en": "Valanginian"
+        "en": "Valanginian",
+        "es": "Valanginiense"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico",
     "prefLabel": {
-      "es": "Cretácico",
-      "en": "Cretaceous"
+      "en": "Cretaceous",
+      "es": "Cretácico"
     }
   },
   "exactMatch": [

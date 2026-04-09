@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/gdb",
   "type": "Concept",
   "prefLabel": {
-    "es": "Esri File Geodatabase",
-    "en": "Esri File Geodatabase"
+    "en": "Esri File Geodatabase",
+    "es": "Esri File Geodatabase"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Environmental Systems Research Institute File Geodatabase"
     ],
-    "en": [
+    "es": [
       "Environmental Systems Research Institute File Geodatabase"
     ]
   },
   "definition": {
-    "es": "GDB es un formato de geodatabase basado en archivos de Esri, almacenado como carpetas en un sistema de archivos. Se utilizará para geodatabases de archivo de Esri. El archivo es un archivo zip que contiene el directorio gdb.",
-    "en": "GDB is an Esri's file-based geodatabase format, stored as folders in a file system. It shall be used for Esri file geodatabases. The file is a zip archive that contains the gdb directory."
+    "en": "GDB is an Esri's file-based geodatabase format, stored as folders in a file system. It shall be used for Esri file geodatabases. The file is a zip archive that contains the gdb directory.",
+    "es": "GDB es un formato de geodatabase basado en archivos de Esri, almacenado como carpetas en un sistema de archivos. Se utilizará para geodatabases de archivo de Esri. El archivo es un archivo zip que contiene el directorio gdb."
   },
+  "notation": [
+    ".gdb",
+    "application/x-filegdb"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/GDB"

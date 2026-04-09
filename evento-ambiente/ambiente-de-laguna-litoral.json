@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-laguna-litoral",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de laguna litoral",
-    "en": "lagoonal setting"
+    "en": "lagoonal setting",
+    "es": "ambiente de laguna litoral"
   },
   "definition": {
-    "es": "Una extensión de somera de agua salada o salobre, en parte o completamente separado del mar o un lago por un arrecife de mar abierto, una isla barrera, arena o un cordón litoral (Jackson, 1997). El agua es poco profunda, las mareas y oleaje producen efectos en los sedimentos; la luminosidad en el sedimento es fuerte.",
-    "en": "A shallow stretch of salt or brackish water, partly or completely separated from a sea or lake by an offshore reef, barrier island, sand or spit (Jackson, 1997). Water is shallow, tidal and wave-produced effects on sediments; strong light reaches sediment."
+    "en": "A shallow stretch of salt or brackish water, partly or completely separated from a sea or lake by an offshore reef, barrier island, sand or spit (Jackson, 1997). Water is shallow, tidal and wave-produced effects on sediments; strong light reaches sediment.",
+    "es": "Una extensión de somera de agua salada o salobre, en parte o completamente separado del mar o un lago por un arrecife de mar abierto, una isla barrera, arena o un cordón litoral (Jackson, 1997). El agua es poco profunda, las mareas y oleaje producen efectos en los sedimentos; la luminosidad en el sedimento es fuerte."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-laguna-litoral-de-barrera",
       "prefLabel": {
-        "es": "ambiente de laguna litoral de barrera",
-        "en": "barrier lagoon setting"
+        "en": "barrier lagoon setting",
+        "es": "ambiente de laguna litoral de barrera"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-laguna-litoral-estuarina",
       "prefLabel": {
-        "es": "ambiente de laguna litoral estuarina",
-        "en": "estuarine lagoon setting"
+        "en": "estuarine lagoon setting",
+        "es": "ambiente de laguna litoral estuarina"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral",
     "prefLabel": {
-      "es": "ambiente litoral",
-      "en": "shoreline setting"
+      "en": "shoreline setting",
+      "es": "ambiente litoral"
     }
   },
   "exactMatch": [

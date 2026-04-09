@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/ppt",
   "type": "Concept",
   "prefLabel": {
-    "es": "PowerPoint PPT",
-    "en": "PowerPoint PPT"
+    "en": "PowerPoint PPT",
+    "es": "PowerPoint PPT"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Microsoft PowerPoint Presentation"
     ],
-    "en": [
+    "es": [
       "Microsoft PowerPoint Presentation"
     ]
   },
   "definition": {
-    "es": "PPT es un tipo de medio binario del programa de presentaciones Microsoft PowerPoint. PowerPoint fue diseñado originalmente para proporcionar elementos visuales para presentaciones grupales en organizaciones empresariales, pero ha llegado a ser ampliamente utilizado en muchas otras situaciones de comunicación.",
-    "en": "PPT is a binary media type of Microsoft PowerPoint presentation program. PowerPoint was originally designed to provide visuals for group presentations within business organizations, but has come to be very widely used in many other communication situations, both in business and beyond."
+    "en": "PPT is a binary media type of Microsoft PowerPoint presentation program. PowerPoint was originally designed to provide visuals for group presentations within business organizations, but has come to be very widely used in many other communication situations, both in business and beyond.",
+    "es": "PPT es un tipo de medio binario del programa de presentaciones Microsoft PowerPoint. PowerPoint fue diseñado originalmente para proporcionar elementos visuales para presentaciones grupales en organizaciones empresariales, pero ha llegado a ser ampliamente utilizado en muchas otras situaciones de comunicación."
   },
+  "notation": [
+    "application/vnd.ms-powerpoint",
+    ".ppt"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/vnd.ms-powerpoint"

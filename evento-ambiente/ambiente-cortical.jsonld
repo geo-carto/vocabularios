@@ -2,33 +2,33 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-cortical",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente cortical",
-    "en": "crustal setting"
+    "en": "crustal setting",
+    "es": "ambiente cortical"
   },
   "definition": {
-    "es": "La capa o envoltura más externa de La Tierra, definida de acuerdo con varios criterios, incluyendo velocidad sísmica, densidad y composición; aquella parte de La Tierra por encima de la discontinuidad de Mohorovicic, constituida por el sial y el sima.",
-    "en": "The outermost layer or shell of the Earth, defined according to various criteria, including seismic velocity, density and composition; that part of the Earth above the Mohorovicic discontinuity, made up of the sial and the sima."
+    "en": "The outermost layer or shell of the Earth, defined according to various criteria, including seismic velocity, density and composition; that part of the Earth above the Mohorovicic discontinuity, made up of the sial and the sima.",
+    "es": "La capa o envoltura más externa de La Tierra, definida de acuerdo con varios criterios, incluyendo velocidad sísmica, densidad y composición; aquella parte de La Tierra por encima de la discontinuidad de Mohorovicic, constituida por el sial y el sima."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-corteza-continental",
       "prefLabel": {
-        "es": "ambiente de corteza continental",
-        "en": "continental-crustal setting"
+        "en": "continental-crustal setting",
+        "es": "ambiente de corteza continental"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-corteza-oceanica",
       "prefLabel": {
-        "es": "ambiente de corteza oceánica",
-        "en": "oceanic-crustal setting"
+        "en": "oceanic-crustal setting",
+        "es": "ambiente de corteza oceánica"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-corteza-transicional",
       "prefLabel": {
-        "es": "ambiente de corteza transicional",
-        "en": "transitional-crustal setting"
+        "en": "transitional-crustal setting",
+        "es": "ambiente de corteza transicional"
       }
     }
   ],

@@ -2,18 +2,18 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/plegamiento",
   "type": "Concept",
   "prefLabel": {
-    "es": "plegamiento",
-    "en": "folding"
+    "en": "folding",
+    "es": "plegamiento"
   },
   "definition": {
-    "es": "Deformación en la cual las superficies planares se transforman en superficies regularmente curviplanares con flancos (zonas de menor curvatura) y charnelas (zonas de mayor curvatura) definidos.",
-    "en": "Deformation in which planar surfaces become regularly curviplanar surfaces with definable limbs (zones of lower curvature) and hinges (zones of higher curvature)."
+    "en": "Deformation in which planar surfaces become regularly curviplanar surfaces with definable limbs (zones of lower curvature) and hinges (zones of higher curvature).",
+    "es": "Deformación en la cual las superficies planares se transforman en superficies regularmente curviplanares con flancos (zonas de menor curvatura) y charnelas (zonas de mayor curvatura) definidos."
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deformacion",
     "prefLabel": {
-      "es": "deformación",
-      "en": "deformation"
+      "en": "deformation",
+      "es": "deformación"
     }
   },
   "exactMatch": [

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/markdown",
   "type": "Concept",
   "prefLabel": {
-    "es": "Markdown",
-    "en": "Markdown"
+    "en": "Markdown",
+    "es": "Markdown"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Markdown file"
     ],
-    "en": [
+    "es": [
       "Markdown file"
     ]
   },
   "definition": {
-    "es": "Lenguaje de marcado ligero para crear texto formateado usando un editor de texto plano.",
-    "en": "lightweight markup language for creating formatted text using a plain-text editor"
+    "en": "lightweight markup language for creating formatted text using a plain-text editor",
+    "es": "Lenguaje de marcado ligero para crear texto formateado usando un editor de texto plano."
   },
+  "notation": [
+    ".md; .markdown",
+    "text/markdown"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/MARKDOWN"

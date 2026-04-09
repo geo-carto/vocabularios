@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/odb",
   "type": "Concept",
   "prefLabel": {
-    "es": "OpenDocument Database",
-    "en": "OpenDocument Database"
+    "en": "OpenDocument Database",
+    "es": "OpenDocument Database"
   },
   "definition": {
-    "es": "OpenDocument es un formato estandarizado de documento abierto para aplicaciones de oficina. Las bases de datos son colecciones organizadas de datos.",
-    "en": "OpenDocument is a standardized Open Document Format for Office Applications. Databases are organized collections of data."
+    "en": "OpenDocument is a standardized Open Document Format for Office Applications. Databases are organized collections of data.",
+    "es": "OpenDocument es un formato estandarizado de documento abierto para aplicaciones de oficina. Las bases de datos son colecciones organizadas de datos."
   },
+  "notation": [
+    ".odb",
+    "application/vnd.oasis.opendocument.database"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/ODB"

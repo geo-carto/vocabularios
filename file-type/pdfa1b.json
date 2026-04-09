@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pdfa1b",
   "type": "Concept",
   "prefLabel": {
-    "es": "PDF/A-1b",
-    "en": "PDF/A-1b"
+    "en": "PDF/A-1b",
+    "es": "PDF/A-1b"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "PDF archiving format, Level B conformance"
     ],
-    "en": [
+    "es": [
       "PDF archiving format, Level B conformance"
     ]
   },
   "definition": {
-    "es": "PDF/A-1 es la Parte 1 del estándar PDF y especifica dos niveles de conformidad para archivos PDF. La conformidad de Nivel B (básico) requiere únicamente que se sigan los estándares necesarios para la reproducción fiable de la apariencia visual de un documento.",
-    "en": "PDF/A-1 is the Part 1 of the PDF standard and specifies two levels of conformance for PDF files. Level B (basic) conformance requires only that standards necessary for the reliable reproduction of a document's visual appearance be followed."
+    "en": "PDF/A-1 is the Part 1 of the PDF standard and specifies two levels of conformance for PDF files. Level B (basic) conformance requires only that standards necessary for the reliable reproduction of a document's visual appearance be followed.",
+    "es": "PDF/A-1 es la Parte 1 del estándar PDF y especifica dos niveles de conformidad para archivos PDF. La conformidad de Nivel B (básico) requiere únicamente que se sigan los estándares necesarios para la reproducción fiable de la apariencia visual de un documento."
   },
+  "notation": [
+    ".pdf",
+    "application/pdf"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/pdf"

@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pragiense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Pragiense",
-    "en": "Pragian"
+    "en": "Pragian",
+    "es": "Pragiense"
   },
   "definition": {
-    "es": "Límite inferior 410.8 +|-2.8 Ma, límite superior 407.6 +|-2.6 Ma",
-    "en": "Older bound 410.8 +|-2.8 Ma, younger bound 407.6 +|-2.6 Ma"
+    "en": "Older bound 410.8 +|-2.8 Ma, younger bound 407.6 +|-2.6 Ma",
+    "es": "Límite inferior 410.8 +|-2.8 Ma, límite superior 407.6 +|-2.6 Ma"
   },
+  "notation": [
+    "211040102000.0",
+    "a1.1.3.3.3.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico-inferior",
     "prefLabel": {
-      "es": "Devónico Inferior",
-      "en": "Lower Devonian"
+      "en": "Lower Devonian",
+      "es": "Devónico Inferior"
     }
   },
   "exactMatch": [

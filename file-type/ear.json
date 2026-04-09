@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/ear",
   "type": "Concept",
   "prefLabel": {
-    "es": "EAR",
-    "en": "EAR"
+    "en": "EAR",
+    "es": "EAR"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Enterprise Application Archive"
     ],
-    "en": [
+    "es": [
       "Enterprise Application Archive"
     ]
   },
   "definition": {
-    "es": "EAR (Enterprise Application aRchive) es un formato de archivo utilizado por Java EE para empaquetar uno o más módulos en un único archivo.",
-    "en": "EAR (Enterprise Application aRchive) is a file format used by Java EE for packaging one or more modules into a single archive."
+    "en": "EAR (Enterprise Application aRchive) is a file format used by Java EE for packaging one or more modules into a single archive.",
+    "es": "EAR (Enterprise Application aRchive) es un formato de archivo utilizado por Java EE para empaquetar uno o más módulos en un único archivo."
   },
+  "notation": [
+    ".ear",
+    "application/java-archive"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/EAR"

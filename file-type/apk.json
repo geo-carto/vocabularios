@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/apk",
   "type": "Concept",
   "prefLabel": {
-    "es": "APK",
-    "en": "APK"
+    "en": "APK",
+    "es": "APK"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Android Package"
     ],
-    "en": [
+    "es": [
       "Android Package"
     ]
   },
   "definition": {
-    "es": "Android Package (APK) es el formato de archivo de paquete utilizado por el sistema operativo Android para la distribución e instalación de aplicaciones móviles, juegos móviles y middleware.",
-    "en": "Android Package (APK) is the package file format used by the Android operating system for distribution and installation of mobile apps, mobile games and middleware."
+    "en": "Android Package (APK) is the package file format used by the Android operating system for distribution and installation of mobile apps, mobile games and middleware.",
+    "es": "Android Package (APK) es el formato de archivo de paquete utilizado por el sistema operativo Android para la distribución e instalación de aplicaciones móviles, juegos móviles y middleware."
   },
+  "notation": [
+    ".apk; .xapk",
+    "application/vnd.android.package-archive"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/APK"

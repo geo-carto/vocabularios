@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/rar",
   "type": "Concept",
   "prefLabel": {
-    "es": "RAR",
-    "en": "RAR"
+    "en": "RAR",
+    "es": "RAR"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Roshal Archive"
     ],
-    "en": [
+    "es": [
       "Roshal Archive"
     ]
   },
   "definition": {
-    "es": "RAR es un formato de archivo propietario que soporta compresión de datos, recuperación de errores y expansión de archivos.",
-    "en": "RAR is a proprietary archive file format that supports data compression, error recovery and file spanning."
+    "en": "RAR is a proprietary archive file format that supports data compression, error recovery and file spanning.",
+    "es": "RAR es un formato de archivo propietario que soporta compresión de datos, recuperación de errores y expansión de archivos."
   },
+  "notation": [
+    ".r01; .rar; .r00; .rev",
+    "application/vnd.rar"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/RAR"

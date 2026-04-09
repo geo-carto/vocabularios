@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/warc",
   "type": "Concept",
   "prefLabel": {
-    "es": "WARC",
-    "en": "WARC"
+    "en": "WARC",
+    "es": "WARC"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Web Archive format"
     ],
-    "en": [
+    "es": [
       "Web Archive format"
     ]
   },
   "definition": {
-    "es": "WARC es un formato de archivo web que especifica un método para combinar múltiples recursos digitales en un archivo agregado junto con información relacionada.",
-    "en": "WARC is a web archive format which specifies a method for combining multiple digital resources into an aggregate archive file together with related information."
+    "en": "WARC is a web archive format which specifies a method for combining multiple digital resources into an aggregate archive file together with related information.",
+    "es": "WARC es un formato de archivo web que especifica un método para combinar múltiples recursos digitales en un archivo agregado junto con información relacionada."
   },
+  "notation": [
+    ".warc",
+    "application/warc"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/WARC"

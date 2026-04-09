@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/geojson",
   "type": "Concept",
   "prefLabel": {
-    "es": "GeoJSON",
-    "en": "GeoJSON"
+    "en": "GeoJSON",
+    "es": "GeoJSON"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Geographical JavaScript Object Notation"
     ],
-    "en": [
+    "es": [
       "Geographical JavaScript Object Notation"
     ]
   },
   "definition": {
-    "es": "GeoJSON es un formato de estándar abierto diseñado para representar características geográficas simples, junto con sus atributos no espaciales, basado en JSON.",
-    "en": "GeoJSON is an open standard format designed for representing simple geographical features, along with their non-spatial attributes, based on JSON."
+    "en": "GeoJSON is an open standard format designed for representing simple geographical features, along with their non-spatial attributes, based on JSON.",
+    "es": "GeoJSON es un formato de estándar abierto diseñado para representar características geográficas simples, junto con sus atributos no espaciales, basado en JSON."
   },
+  "notation": [
+    ".json; .geojson",
+    "application/geo+json"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/GEOJSON"

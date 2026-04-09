@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/dtd_xml",
   "type": "Concept",
   "prefLabel": {
-    "es": "XML DTD",
-    "en": "XML DTD"
+    "en": "XML DTD",
+    "es": "XML DTD"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "XML Document Type Definition (DTD)"
     ],
-    "en": [
+    "es": [
       "XML Document Type Definition (DTD)"
     ]
   },
   "definition": {
-    "es": "XML – Extensible Markup Language – es un lenguaje de marcado que define un conjunto de reglas para codificar documentos en un formato legible tanto por humanos como por máquinas. DTD – document type definition – es un conjunto de declaraciones de marcado que definen un tipo de documento para un lenguaje de marcado de la familia SGML. Define los bloques de construcción legales de un documento XML. XML utiliza un subconjunto de SGML DTD.",
-    "en": "XML – Extensible Markup Language – is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. DTD – document type definition – is a set of markup declarations that define a document type for an SGML-family markup language (SGML, XML, HTML). It defines the legal building blocks of an XML document, the document structure with a list of legal elements and attributes. XML uses a subset of SGML DTD."
+    "en": "XML – Extensible Markup Language – is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. DTD – document type definition – is a set of markup declarations that define a document type for an SGML-family markup language (SGML, XML, HTML). It defines the legal building blocks of an XML document, the document structure with a list of legal elements and attributes. XML uses a subset of SGML DTD.",
+    "es": "XML – Extensible Markup Language – es un lenguaje de marcado que define un conjunto de reglas para codificar documentos en un formato legible tanto por humanos como por máquinas. DTD – document type definition – es un conjunto de declaraciones de marcado que definen un tipo de documento para un lenguaje de marcado de la familia SGML. Define los bloques de construcción legales de un documento XML. XML utiliza un subconjunto de SGML DTD."
   },
+  "notation": [
+    ".dtd",
+    "application/xml-dtd"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/DTD_XML"

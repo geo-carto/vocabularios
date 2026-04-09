@@ -2,55 +2,59 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno",
   "type": "Concept",
   "prefLabel": {
-    "es": "Mioceno",
-    "en": "Miocene"
+    "en": "Miocene",
+    "es": "Mioceno"
   },
   "definition": {
-    "es": "Límite inferior 23.03 Ma, límite superior 5.333 Ma",
-    "en": "Older bound 23.03 Ma, younger bound 5.333 Ma"
+    "en": "Older bound 23.03 Ma, younger bound 5.333 Ma",
+    "es": "Límite inferior 23.03 Ma, límite superior 5.333 Ma"
   },
+  "notation": [
+    "213020100000.0",
+    "a1.1.1.2.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/langhiense",
       "prefLabel": {
-        "es": "Langhiense",
-        "en": "Langhian"
+        "en": "Langhian",
+        "es": "Langhiense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/messiniense",
       "prefLabel": {
-        "es": "Messiniense",
-        "en": "Messinian"
+        "en": "Messinian",
+        "es": "Messiniense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno-inferior",
       "prefLabel": {
-        "es": "Mioceno Inferior",
-        "en": "Lower Miocene"
+        "en": "Lower Miocene",
+        "es": "Mioceno Inferior"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/serravalliense",
       "prefLabel": {
-        "es": "Serravalliense",
-        "en": "Serravallian"
+        "en": "Serravallian",
+        "es": "Serravalliense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/tortoniense",
       "prefLabel": {
-        "es": "Tortoniense",
-        "en": "Tortonian"
+        "en": "Tortonian",
+        "es": "Tortoniense"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neogeno",
     "prefLabel": {
-      "es": "Neógeno",
-      "en": "Neogene"
+      "en": "Neogene",
+      "es": "Neógeno"
     }
   },
   "exactMatch": [

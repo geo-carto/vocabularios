@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/azw",
   "type": "Concept",
   "prefLabel": {
-    "es": "Amazon Kindle eBook",
-    "en": "Amazon Kindle eBook"
+    "en": "Amazon Kindle eBook",
+    "es": "Amazon Kindle eBook"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Amazon Kindle eBook format"
     ],
-    "en": [
+    "es": [
       "Amazon Kindle eBook format"
     ]
   },
   "definition": {
-    "es": "AZW Kindle File Format es un formato de archivo de libro electrónico propietario creado por Amazon.com que puede descargarse y leerse en dispositivos como teléfonos inteligentes, tabletas, ordenadores o lectores electrónicos que tengan la aplicación Kindle de Amazon.",
-    "en": "AZW Kindle File Format is a proprietary e-book file format created by Amazon.com that can be downloaded and read on devices like smartphones, tablets, computers or e-readers that have Amazon's Kindle application."
+    "en": "AZW Kindle File Format is a proprietary e-book file format created by Amazon.com that can be downloaded and read on devices like smartphones, tablets, computers or e-readers that have Amazon's Kindle application.",
+    "es": "AZW Kindle File Format es un formato de archivo de libro electrónico propietario creado por Amazon.com que puede descargarse y leerse en dispositivos como teléfonos inteligentes, tabletas, ordenadores o lectores electrónicos que tengan la aplicación Kindle de Amazon."
   },
+  "notation": [
+    ".azw",
+    "application/vnd.amazon.ebook"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/AZW"

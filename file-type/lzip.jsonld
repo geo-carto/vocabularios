@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/lzip",
   "type": "Concept",
   "prefLabel": {
-    "es": "lzip",
-    "en": "lzip"
+    "en": "lzip",
+    "es": "lzip"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "lzip compressed file"
     ],
-    "en": [
+    "es": [
       "lzip compressed file"
     ]
   },
   "definition": {
-    "es": "Archivo comprimido producido por lzip, una herramienta gratuita de línea de comandos para la compresión de datos que emplea el algoritmo LZMA (Lempel-Ziv-Markov chain algorithm).",
-    "en": "Compressed file produced by lzip, free, command-line tool for the compression of data that employs the Lempel-Ziv-Markov chain algorithm (LZMA)."
+    "en": "Compressed file produced by lzip, free, command-line tool for the compression of data that employs the Lempel-Ziv-Markov chain algorithm (LZMA).",
+    "es": "Archivo comprimido producido por lzip, una herramienta gratuita de línea de comandos para la compresión de datos que emplea el algoritmo LZMA (Lempel-Ziv-Markov chain algorithm)."
   },
+  "notation": [
+    ".lz",
+    "application/x-lzip"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/LZIP"

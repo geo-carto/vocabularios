@@ -2,41 +2,41 @@
   "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/proyeccion-inferida-entre-ubicaciones-observadas",
   "type": "Concept",
   "prefLabel": {
-    "es": "proyección inferida entre ubicaciones observadas",
-    "en": "inferred projection between observed locations"
+    "en": "inferred projection between observed locations",
+    "es": "proyección inferida entre ubicaciones observadas"
   },
   "definition": {
-    "es": "La ubicación y especificación se determinan por continuidad inferida entre ubicaciones observadas, asumiendo continuidad del elemento.",
-    "en": "Location and specification determined based on inferred continuity with observed locations, and assumption of continuity of the feature."
+    "en": "Location and specification determined based on inferred continuity with observed locations, and assumption of continuity of the feature.",
+    "es": "La ubicación y especificación se determinan por continuidad inferida entre ubicaciones observadas, asumiendo continuidad del elemento."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/proyeccion-inferida-bajo-material-superficial-no-cartografiado",
       "prefLabel": {
-        "es": "proyección inferida bajo material superficial no cartografiado",
-        "en": "inferred projection beneath unmapped surficial material"
+        "en": "inferred projection beneath unmapped surficial material",
+        "es": "proyección inferida bajo material superficial no cartografiado"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/proyeccion-inferida-bajo-unidad-cartografiada-suprayacente",
       "prefLabel": {
-        "es": "proyección inferida bajo unidad cartografiada suprayacente",
-        "en": "inferred projection beneath covering mapped unit"
+        "en": "inferred projection beneath covering mapped unit",
+        "es": "proyección inferida bajo unidad cartografiada suprayacente"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/proyeccion-inferida-oculta-por-vegetacion",
       "prefLabel": {
-        "es": "proyección inferida oculta por vegetación",
-        "en": "inferred projection obscured by vegetation"
+        "en": "inferred projection obscured by vegetation",
+        "es": "proyección inferida oculta por vegetación"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido",
     "prefLabel": {
-      "es": "inferido",
-      "en": "inferred"
+      "en": "inferred",
+      "es": "inferido"
     }
   },
   "exactMatch": [

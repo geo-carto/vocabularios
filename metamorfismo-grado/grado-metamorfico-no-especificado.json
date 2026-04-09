@@ -2,26 +2,26 @@
   "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-no-especificado",
   "type": "Concept",
   "prefLabel": {
-    "es": "grado metamórfico no especificado",
-    "en": "metamorphic grade not specified"
+    "en": "metamorphic grade not specified",
+    "es": "grado metamórfico no especificado"
   },
   "definition": {
-    "es": "De uso en descripciones normativas para indicar explícitamente que permite cualquier condición metamórfica (incluyendo no metamorfizado).",
-    "en": "For use in normative descriptions to explicitly indicate that any metamorphic condition is allowed (including non-metamorphosed)."
+    "en": "For use in normative descriptions to explicitly indicate that any metamorphic condition is allowed (including non-metamorphosed).",
+    "es": "De uso en descripciones normativas para indicar explícitamente que permite cualquier condición metamórfica (incluyendo no metamorfizado)."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado",
       "prefLabel": {
-        "es": "grado metamórfizado no especificado",
-        "en": "metamorphosed grade not specified"
+        "en": "metamorphosed grade not specified",
+        "es": "grado metamórfizado no especificado"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/no-metamorfizado",
       "prefLabel": {
-        "es": "no metamorfizado",
-        "en": "not metamorphosed"
+        "en": "not metamorphosed",
+        "es": "no metamorfizado"
       }
     }
   ],

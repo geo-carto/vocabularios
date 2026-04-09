@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral-de-isla-barrera",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente litoral de isla barrera",
-    "en": "barrier island coastline setting"
+    "en": "barrier island coastline setting",
+    "es": "ambiente litoral de isla barrera"
   },
   "definition": {
-    "es": "Ambiente que trata de incluir los diversos elementos geográficos típicamente asociados con una costa de isla barrera, incluyendo las islas barrera y los elementos geográficos/geomorfológicos que están vinculados con los procesos asociados con la presencia de la isla (por ejemplo, abanicos de derrame, canal de entrada o grao, laguna costera o albufera).",
-    "en": "Setting meant to include all the various geographic elements typically associated with a barrier island coastline, including the barrier islands, and geomorphic/geographic elements that are linked by processes associated with the presence of the island (e.g. wash over fans, inlet channel, back barrier lagoon)."
+    "en": "Setting meant to include all the various geographic elements typically associated with a barrier island coastline, including the barrier islands, and geomorphic/geographic elements that are linked by processes associated with the presence of the island (e.g. wash over fans, inlet channel, back barrier lagoon).",
+    "es": "Ambiente que trata de incluir los diversos elementos geográficos típicamente asociados con una costa de isla barrera, incluyendo las islas barrera y los elementos geográficos/geomorfológicos que están vinculados con los procesos asociados con la presencia de la isla (por ejemplo, abanicos de derrame, canal de entrada o grao, laguna costera o albufera)."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-laguna-litoral-de-barrera",
       "prefLabel": {
-        "es": "ambiente de laguna litoral de barrera",
-        "en": "barrier lagoon setting"
+        "en": "barrier lagoon setting",
+        "es": "ambiente de laguna litoral de barrera"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-playa-de-barrera",
       "prefLabel": {
-        "es": "ambiente de playa de barrera",
-        "en": "barrier beach setting"
+        "en": "barrier beach setting",
+        "es": "ambiente de playa de barrera"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral",
     "prefLabel": {
-      "es": "ambiente litoral",
-      "en": "shoreline setting"
+      "en": "shoreline setting",
+      "es": "ambiente litoral"
     }
   },
   "exactMatch": [

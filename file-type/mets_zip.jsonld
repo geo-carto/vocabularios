@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/mets_zip",
   "type": "Concept",
   "prefLabel": {
-    "es": "METS package",
-    "en": "METS package"
+    "en": "METS package",
+    "es": "METS package"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Metadata Encoding and Transmission Standard – Physical METS container"
     ],
-    "en": [
+    "es": [
       "Metadata Encoding and Transmission Standard – Physical METS container"
     ]
   },
   "definition": {
-    "es": "Un paquete METS es un archivo zip que contiene archivos XML METS.",
-    "en": "METS package is a zip file containing METS XML files."
+    "en": "METS package is a zip file containing METS XML files.",
+    "es": "Un paquete METS es un archivo zip que contiene archivos XML METS."
   },
+  "notation": [
+    "application/zip",
+    ".zip"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/zip"

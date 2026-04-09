@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/odc",
   "type": "Concept",
   "prefLabel": {
-    "es": "OpenDocument Chart",
-    "en": "OpenDocument Chart"
+    "en": "OpenDocument Chart",
+    "es": "OpenDocument Chart"
   },
   "definition": {
-    "es": "OpenDocument es un formato estandarizado de documento abierto para aplicaciones de oficina. Los gráficos definen cómo crear representaciones gráficas a partir de datos numéricos.",
-    "en": "OpenDocument is a standardized Open Document Format for Office Applications. Charts define how to create graphical displays from numerical data."
+    "en": "OpenDocument is a standardized Open Document Format for Office Applications. Charts define how to create graphical displays from numerical data.",
+    "es": "OpenDocument es un formato estandarizado de documento abierto para aplicaciones de oficina. Los gráficos definen cómo crear representaciones gráficas a partir de datos numéricos."
   },
+  "notation": [
+    ".odc",
+    "application/vnd.oasis.opendocument.chart"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/ODC"

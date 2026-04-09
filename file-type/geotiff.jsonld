@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/geotiff",
   "type": "Concept",
   "prefLabel": {
-    "es": "GeoTIFF",
-    "en": "GeoTIFF"
+    "en": "GeoTIFF",
+    "es": "GeoTIFF"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "OGC GeoTIFF"
     ],
-    "en": [
+    "es": [
       "OGC GeoTIFF"
     ]
   },
   "definition": {
-    "es": "GeoTIFF es un estándar de metadatos de dominio público que permite incrustar información de georreferenciación dentro de un archivo TIFF. La información adicional potencial incluye proyección cartográfica, sistemas de coordenadas, elipsoides, datums y todo lo necesario para establecer la referencia espacial exacta del archivo.",
-    "en": "GeoTIFF is a public domain metadata standard which allows georeferencing information to be embedded within a TIFF file. The potential additional information includes map projection, coordinate systems, ellipsoids, datums, and everything else necessary to establish the exact spatial reference for the file."
+    "en": "GeoTIFF is a public domain metadata standard which allows georeferencing information to be embedded within a TIFF file. The potential additional information includes map projection, coordinate systems, ellipsoids, datums, and everything else necessary to establish the exact spatial reference for the file.",
+    "es": "GeoTIFF es un estándar de metadatos de dominio público que permite incrustar información de georreferenciación dentro de un archivo TIFF. La información adicional potencial incluye proyección cartográfica, sistemas de coordenadas, elipsoides, datums y todo lo necesario para establecer la referencia espacial exacta del archivo."
   },
+  "notation": [
+    "image/tiff",
+    ".tiff"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/image/tiff"

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/css",
   "type": "Concept",
   "prefLabel": {
-    "es": "CSS",
-    "en": "CSS"
+    "en": "CSS",
+    "es": "CSS"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Cascading Style Sheet"
     ],
-    "en": [
+    "es": [
       "Cascading Style Sheet"
     ]
   },
   "definition": {
-    "es": "CSS – Cascading Style Sheets – es un lenguaje de hojas de estilo utilizado para describir la presentación de un documento escrito en un lenguaje de marcado.",
-    "en": "CSS – Cascading Style Sheets – is a style sheet language used for describing the presentation of a document written in a markup language."
+    "en": "CSS – Cascading Style Sheets – is a style sheet language used for describing the presentation of a document written in a markup language.",
+    "es": "CSS – Cascading Style Sheets – es un lenguaje de hojas de estilo utilizado para describir la presentación de un documento escrito en un lenguaje de marcado."
   },
+  "notation": [
+    ".css",
+    "text/css"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/CSS"

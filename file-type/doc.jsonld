@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/doc",
   "type": "Concept",
   "prefLabel": {
-    "es": "Word DOC",
-    "en": "Word DOC"
+    "en": "Word DOC",
+    "es": "Word DOC"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Microsoft Word"
     ],
-    "en": [
+    "es": [
       "Microsoft Word"
     ]
   },
   "definition": {
-    "es": "DOC es un formato de documento Word binario propietario utilizado por el procesador de textos Microsoft Word.",
-    "en": "DOC is a proprietary binary Word document format used by Microsoft Word word processor."
+    "en": "DOC is a proprietary binary Word document format used by Microsoft Word word processor.",
+    "es": "DOC es un formato de documento Word binario propietario utilizado por el procesador de textos Microsoft Word."
   },
+  "notation": [
+    ".doc",
+    "application/msword"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/DOC"

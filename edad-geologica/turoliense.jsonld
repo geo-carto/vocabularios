@@ -2,32 +2,35 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/turoliense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Turoliense",
-    "en": "Turolian"
+    "en": "Turolian",
+    "es": "Turoliense"
   },
   "definition": {
     "es": "Turoliense"
   },
+  "notation": [
+    "213020105092.0"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma",
     "prefLabel": {
-      "es": "Regional",
-      "en": "Regional"
+      "en": "Regional",
+      "es": "Regional"
     }
   },
   "related": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/messiniense",
       "prefLabel": {
-        "es": "Messiniense",
-        "en": "Messinian"
+        "en": "Messinian",
+        "es": "Messiniense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/tortoniense",
       "prefLabel": {
-        "es": "Tortoniense",
-        "en": "Tortonian"
+        "en": "Tortonian",
+        "es": "Tortoniense"
       }
     }
   ],

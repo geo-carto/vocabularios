@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/gtfs",
   "type": "Concept",
   "prefLabel": {
-    "es": "GTFS",
-    "en": "GTFS"
+    "en": "GTFS",
+    "es": "GTFS"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "General Transit Feed Specification"
     ],
-    "en": [
+    "es": [
       "General Transit Feed Specification"
     ]
   },
   "definition": {
-    "es": "La General Transit Feed Specification (GTFS) es una especificación de datos que permite a las agencias de transporte público publicar sus datos de tránsito en un formato que puede ser consumido por una amplia variedad de aplicaciones de software. GTFS se divide en un componente de horarios que contiene información de horarios, tarifas y geografía del tránsito, y un componente en tiempo real que contiene predicciones de llegada, posiciones de vehículos y avisos de servicio.",
-    "en": "The General Transit Feed Specification (GTFS) is a data specification that allows public transit agencies to publish their transit data in a format that can be consumed by a wide variety of software applications. GTFS is split into a schedule component that contains schedule, fare, and geographic transit information and a real-time component that contains arrival predictions, vehicle positions and service advisories."
+    "en": "The General Transit Feed Specification (GTFS) is a data specification that allows public transit agencies to publish their transit data in a format that can be consumed by a wide variety of software applications. GTFS is split into a schedule component that contains schedule, fare, and geographic transit information and a real-time component that contains arrival predictions, vehicle positions and service advisories.",
+    "es": "La General Transit Feed Specification (GTFS) es una especificación de datos que permite a las agencias de transporte público publicar sus datos de tránsito en un formato que puede ser consumido por una amplia variedad de aplicaciones de software. GTFS se divide en un componente de horarios que contiene información de horarios, tarifas y geografía del tránsito, y un componente en tiempo real que contiene predicciones de llegada, posiciones de vehículos y avisos de servicio."
   },
+  "notation": [
+    "application/zip",
+    ".zip"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/zip"

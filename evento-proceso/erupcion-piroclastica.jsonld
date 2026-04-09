@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erupcion-piroclastica",
   "type": "Concept",
   "prefLabel": {
-    "es": "erupción piroclástica",
-    "en": "pyroclastic eruption"
+    "en": "pyroclastic eruption",
+    "es": "erupción piroclástica"
   },
   "definition": {
-    "es": "Erupción producida por la generación y rápida expansión de una fase gaseosa que disrupta el magma, expulsándolo junto con fragmentos de la roca encajante o de sedimento.",
-    "en": "Eruption produced by the generation and rapid expansion of a gas phase that disrupts magma, surrounding wall rock or sediment"
+    "en": "Eruption produced by the generation and rapid expansion of a gas phase that disrupts magma, surrounding wall rock or sediment",
+    "es": "Erupción producida por la generación y rápida expansión de una fase gaseosa que disrupta el magma, expulsándolo junto con fragmentos de la roca encajante o de sedimento."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erupcion-pliniana",
       "prefLabel": {
-        "es": "erupción pliniana",
-        "en": "plinian eruption"
+        "en": "plinian eruption",
+        "es": "erupción pliniana"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erupcion-vulcaniana",
       "prefLabel": {
-        "es": "erupción vulcaniana",
-        "en": "vulcanian eruption"
+        "en": "vulcanian eruption",
+        "es": "erupción vulcaniana"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erupcion",
     "prefLabel": {
-      "es": "erupción",
-      "en": "eruption"
+      "en": "eruption",
+      "es": "erupción"
     }
   },
   "exactMatch": [

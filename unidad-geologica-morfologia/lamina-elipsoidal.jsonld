@@ -2,18 +2,18 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/lamina-elipsoidal",
   "type": "Concept",
   "prefLabel": {
-    "es": "lámina elipsoidal",
-    "en": "sheet ellipsoid"
+    "en": "sheet ellipsoid",
+    "es": "lámina elipsoidal"
   },
   "definition": {
-    "es": "Elipsoide con un eje mucho más pequeño que los otros dos. H es del orden de 0,001 de L o W",
-    "en": "Ellipsoid with one axis much smaller than others H on order of .001 of L or W"
+    "en": "Ellipsoid with one axis much smaller than others H on order of .001 of L or W",
+    "es": "Elipsoide con un eje mucho más pequeño que los otros dos. H es del orden de 0,001 de L o W"
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/elipsoide",
     "prefLabel": {
-      "es": "elipsoide",
-      "en": "ellipsoid"
+      "en": "ellipsoid",
+      "es": "elipsoide"
     }
   },
   "exactMatch": [

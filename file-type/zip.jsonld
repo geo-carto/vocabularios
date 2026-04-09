@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/zip",
   "type": "Concept",
   "prefLabel": {
-    "es": "ZIP",
-    "en": "ZIP"
+    "en": "ZIP",
+    "es": "ZIP"
   },
   "definition": {
-    "es": "ZIP es un formato de archivo que soporta compresión de datos sin pérdida. Un archivo ZIP puede contener uno o más archivos o directorios que pueden haber sido comprimidos.",
-    "en": "ZIP is an archive file format that supports lossless data compression. A ZIP file may contain one or more files or directories that may have been compressed."
+    "en": "ZIP is an archive file format that supports lossless data compression. A ZIP file may contain one or more files or directories that may have been compressed.",
+    "es": "ZIP es un formato de archivo que soporta compresión de datos sin pérdida. Un archivo ZIP puede contener uno o más archivos o directorios que pueden haber sido comprimidos."
   },
+  "notation": [
+    "application/zip",
+    ".zip"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/zip"

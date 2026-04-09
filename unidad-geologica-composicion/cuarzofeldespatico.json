@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarzofeldespatico",
   "type": "Concept",
   "prefLabel": {
-    "es": "cuarzofeldespático",
-    "en": "quartzo feldspathic"
+    "en": "quartzo feldspathic",
+    "es": "cuarzofeldespático"
   },
   "definition": {
-    "es": "Material para el cual la suma de cuarzo modal + feldespato + mica + mineral alumínico es mayor o igual del 70%, y cuarzo + feldespato (sensu Robertson, 1999) mayor del 60%",
-    "en": "Material for which the sum of modal quartz+feldspar+ mica + aluminous mineral is greater than or equal to 70 percent, and quartz + feldspar (sensu Robertson, 1999) greater than 60 percent"
+    "en": "Material for which the sum of modal quartz+feldspar+ mica + aluminous mineral is greater than or equal to 70 percent, and quartz + feldspar (sensu Robertson, 1999) greater than 60 percent",
+    "es": "Material para el cual la suma de cuarzo modal + feldespato + mica + mineral alumínico es mayor o igual del 70%, y cuarzo + feldespato (sensu Robertson, 1999) mayor del 60%"
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/cuarcitico",
       "prefLabel": {
-        "es": "cuarcítico",
-        "en": "quartzose"
+        "en": "quartzose",
+        "es": "cuarcítico"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/pelitico-cuarzofeldespatico",
     "prefLabel": {
-      "es": "pelítico cuarzofeldespático",
-      "en": "quartz feldspar pelitic"
+      "en": "quartz feldspar pelitic",
+      "es": "pelítico cuarzofeldespático"
     }
   },
   "exactMatch": [

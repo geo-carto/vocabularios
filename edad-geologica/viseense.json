@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/viseense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Viseense",
-    "en": "Visean"
+    "en": "Visean",
+    "es": "Viseense"
   },
   "definition": {
-    "es": "Límite inferior 346.7 +|-0.4 Ma, límite superior 330.9 +|-0.2 Ma",
-    "en": "Older bound 346.7 +|-0.4 Ma, younger bound 330.9 +|-0.2 Ma"
+    "en": "Older bound 346.7 +|-0.4 Ma, younger bound 330.9 +|-0.2 Ma",
+    "es": "Límite inferior 346.7 +|-0.4 Ma, límite superior 330.9 +|-0.2 Ma"
   },
+  "notation": [
+    "211051201000.0",
+    "a1.1.3.2.2.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense-medio",
     "prefLabel": {
-      "es": "Mississippiense Medio",
-      "en": "Middle Mississippian"
+      "en": "Middle Mississippian",
+      "es": "Mississippiense Medio"
     }
   },
   "exactMatch": [

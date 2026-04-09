@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/givetiense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Givetiense",
-    "en": "Givetian"
+    "en": "Givetian",
+    "es": "Givetiense"
   },
   "definition": {
-    "es": "Límite inferior 387.7 +|-0.8 Ma, límite superior 382.7 +|-1.6 Ma",
-    "en": "Older bound 387.7 +|-0.8 Ma, younger bound 382.7 +|-1.6 Ma"
+    "en": "Older bound 387.7 +|-0.8 Ma, younger bound 382.7 +|-1.6 Ma",
+    "es": "Límite inferior 387.7 +|-0.8 Ma, límite superior 382.7 +|-1.6 Ma"
   },
+  "notation": [
+    "211040202000.0",
+    "a1.1.3.3.2.1"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico-medio",
     "prefLabel": {
-      "es": "Devónico Medio",
-      "en": "Middle Devonian"
+      "en": "Middle Devonian",
+      "es": "Devónico Medio"
     }
   },
   "exactMatch": [

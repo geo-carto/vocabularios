@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/wmts_srvc",
   "type": "Concept",
   "prefLabel": {
-    "es": "WMTS",
-    "en": "WMTS"
+    "en": "WMTS",
+    "es": "WMTS"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Web Map Tile Service"
     ],
-    "en": [
+    "es": [
       "Web Map Tile Service"
     ]
   },
   "definition": {
-    "es": "Estándar del Open Geospatial Consortium para servir mapas digitales utilizando teselas de imagen predefinidas.",
-    "en": "Open Geospatial Consortium’s standard for serving digital maps using predefined image tiles"
+    "en": "Open Geospatial Consortium’s standard for serving digital maps using predefined image tiles",
+    "es": "Estándar del Open Geospatial Consortium para servir mapas digitales utilizando teselas de imagen predefinidas."
   },
+  "notation": [
+    "application/gml+xml; text/xml"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/gml+xml"

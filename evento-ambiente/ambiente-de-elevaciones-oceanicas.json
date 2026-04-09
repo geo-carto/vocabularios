@@ -2,41 +2,41 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-elevaciones-oceanicas",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de elevaciones océanicas",
-    "en": "ocean highland setting"
+    "en": "ocean highland setting",
+    "es": "ambiente de elevaciones océanicas"
   },
   "definition": {
-    "es": "Categoría amplia de ambientes marinos subacuáticos caracterizados por un relieve prominente que se eleva por encima del fondo marino adyacente.",
-    "en": "Broad category for subaqueous marine settings characterized by significant relief above adjacent sea floor."
+    "en": "Broad category for subaqueous marine settings characterized by significant relief above adjacent sea floor.",
+    "es": "Categoría amplia de ambientes marinos subacuáticos caracterizados por un relieve prominente que se eleva por encima del fondo marino adyacente."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-dorsal-central-oceanica",
       "prefLabel": {
-        "es": "ambiente de dorsal central oceánica",
-        "en": "mid ocean ridge setting"
+        "en": "mid ocean ridge setting",
+        "es": "ambiente de dorsal central oceánica"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-meseta-oceanica",
       "prefLabel": {
-        "es": "ambiente de meseta oceánica",
-        "en": "oceanic plateau setting"
+        "en": "oceanic plateau setting",
+        "es": "ambiente de meseta oceánica"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-monte-submarino",
       "prefLabel": {
-        "es": "ambiente de monte submarino",
-        "en": "seamount setting"
+        "en": "seamount setting",
+        "es": "ambiente de monte submarino"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-marino",
     "prefLabel": {
-      "es": "ambiente marino",
-      "en": "marine setting"
+      "en": "marine setting",
+      "es": "ambiente marino"
     }
   },
   "exactMatch": [

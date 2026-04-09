@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/epub",
   "type": "Concept",
   "prefLabel": {
-    "es": "EPUB",
-    "en": "EPUB"
+    "en": "EPUB",
+    "es": "EPUB"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "eBook standard of the International Digital Publishing Forum (IDPF)"
     ],
-    "en": [
+    "es": [
       "eBook standard of the International Digital Publishing Forum (IDPF)"
     ]
   },
   "definition": {
-    "es": "EPUB – electronic publication – es un formato de archivo de libro electrónico que puede descargarse y leerse en dispositivos como teléfonos inteligentes, tabletas, ordenadores o lectores electrónicos. Es un estándar técnico publicado por el International Digital Publishing Forum (IDPF).",
-    "en": "EPUB – electronic publication – is an e-book file format that can be downloaded and read on devices like smartphones, tablets, computers or e-readers. It is a technical standard published by the International Digital Publishing Forum (IDPF)."
+    "en": "EPUB – electronic publication – is an e-book file format that can be downloaded and read on devices like smartphones, tablets, computers or e-readers. It is a technical standard published by the International Digital Publishing Forum (IDPF).",
+    "es": "EPUB – electronic publication – es un formato de archivo de libro electrónico que puede descargarse y leerse en dispositivos como teléfonos inteligentes, tabletas, ordenadores o lectores electrónicos. Es un estándar técnico publicado por el International Digital Publishing Forum (IDPF)."
   },
+  "notation": [
+    ".epub",
+    "application/epub+zip"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/EPUB"

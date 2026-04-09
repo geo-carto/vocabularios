@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/toarciense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Toarciense",
-    "en": "Toarcian"
+    "en": "Toarcian",
+    "es": "Toarciense"
   },
   "definition": {
-    "es": "Límite inferior 184.2 +|-0.3 Ma, límite superior 174.7 +|-0.8 Ma",
-    "en": "Older bound 184.2 +|-0.3 Ma, younger bound 174.7 +|-0.8 Ma"
+    "en": "Older bound 184.2 +|-0.3 Ma, younger bound 174.7 +|-0.8 Ma",
+    "es": "Límite inferior 184.2 +|-0.3 Ma, límite superior 174.7 +|-0.8 Ma"
   },
+  "notation": [
+    "212020104000.0",
+    "a1.1.2.2.3.1"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-inferior",
     "prefLabel": {
-      "es": "Jurásico Inferior",
-      "en": "Lower Jurassic"
+      "en": "Lower Jurassic",
+      "es": "Jurásico Inferior"
     }
   },
   "exactMatch": [

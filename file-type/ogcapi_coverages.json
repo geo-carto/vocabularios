@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/ogcapi_coverages",
   "type": "Concept",
   "prefLabel": {
-    "es": "OGC API Coverages",
-    "en": "OGC API Coverages"
+    "en": "OGC API Coverages",
+    "es": "OGC API Coverages"
   },
   "altLabel": {
-    "es": [
-      "Servicio OGC API Coverages"
-    ],
     "en": [
       "OGC API Coverages service"
+    ],
+    "es": [
+      "Servicio OGC API Coverages"
     ]
   },
   "definition": {
-    "es": "OGC API – Coverages es un estándar del Open Geospatial Consortium que define una API RESTful para acceder a coberturas, es decir, información geoespacial digital que representa fenómenos que varían en el espacio y el tiempo (datos rasterizados). Reemplaza al estándar Web Coverage Service (WCS) anterior.",
-    "en": "OGC API – Coverages is an Open Geospatial Consortium standard that defines a RESTful API for accessing coverages, i.e. digital geospatial information representing space/time-varying phenomena (raster data). It replaces the older Web Coverage Service (WCS) standard."
+    "en": "OGC API – Coverages is an Open Geospatial Consortium standard that defines a RESTful API for accessing coverages, i.e. digital geospatial information representing space/time-varying phenomena (raster data). It replaces the older Web Coverage Service (WCS) standard.",
+    "es": "OGC API – Coverages es un estándar del Open Geospatial Consortium que define una API RESTful para acceder a coberturas, es decir, información geoespacial digital que representa fenómenos que varían en el espacio y el tiempo (datos rasterizados). Reemplaza al estándar Web Coverage Service (WCS) anterior."
   },
+  "notation": [
+    "image/tiff; application/json"
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/file-type"

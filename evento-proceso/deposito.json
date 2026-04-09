@@ -2,48 +2,48 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito",
   "type": "Concept",
   "prefLabel": {
-    "es": "depósito",
-    "en": "deposition"
+    "en": "deposition",
+    "es": "depósito"
   },
   "definition": {
-    "es": "Acumulación de material; el proceso constructivo de acumulación de partículas sedimentarias, precipitación química de materia mineral a partir de una solución, o la acumulación de materia orgánica a la muerte de plantas y animales.",
-    "en": "Accumulation of material; the constructive process of accumulation of sedimentary particles, chemical precipitation of mineral matter from solution, or the accumulation of organicmaterial on the death of plants and animals."
+    "en": "Accumulation of material; the constructive process of accumulation of sedimentary particles, chemical precipitation of mineral matter from solution, or the accumulation of organicmaterial on the death of plants and animals.",
+    "es": "Acumulación de material; el proceso constructivo de acumulación de partículas sedimentarias, precipitación química de materia mineral a partir de una solución, o la acumulación de materia orgánica a la muerte de plantas y animales."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/acumulacion-organica",
       "prefLabel": {
-        "es": "acumulación orgánica",
-        "en": "organic accumulation"
+        "en": "organic accumulation",
+        "es": "acumulación orgánica"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito-mecanico",
       "prefLabel": {
-        "es": "depósito mecánico",
-        "en": "mechanical deposition"
+        "en": "mechanical deposition",
+        "es": "depósito mecánico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/precipitacion-biologica",
       "prefLabel": {
-        "es": "precipitación biológica",
-        "en": "biological precipitation"
+        "en": "biological precipitation",
+        "es": "precipitación biológica"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/precipitacion-quimica",
       "prefLabel": {
-        "es": "precipitación química",
-        "en": "chemical precipitation"
+        "en": "chemical precipitation",
+        "es": "precipitación química"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-sedimentario",
     "prefLabel": {
-      "es": "proceso sedimentario",
-      "en": "sedimentary process"
+      "en": "sedimentary process",
+      "es": "proceso sedimentario"
     }
   },
   "exactMatch": [

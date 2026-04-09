@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/parquet",
   "type": "Concept",
   "prefLabel": {
-    "es": "Parquet",
-    "en": "Parquet"
+    "en": "Parquet",
+    "es": "Parquet"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Apache Parquet file"
     ],
-    "en": [
+    "es": [
       "Apache Parquet file"
     ]
   },
   "definition": {
-    "es": "Formato de almacenamiento columnar de Apache disponible para cualquier proyecto del ecosistema Hadoop, independientemente del marco de procesamiento de datos, modelo de datos o lenguaje de programación elegido; diseñado explícitamente para separar los metadatos de los datos.",
-    "en": "Apache columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language; explicitly designed to separate the metadata from the data"
+    "en": "Apache columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language; explicitly designed to separate the metadata from the data",
+    "es": "Formato de almacenamiento columnar de Apache disponible para cualquier proyecto del ecosistema Hadoop, independientemente del marco de procesamiento de datos, modelo de datos o lenguaje de programación elegido; diseñado explícitamente para separar los metadatos de los datos."
   },
+  "notation": [
+    ".parquet",
+    "application/vnd.apache.parquet"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/vnd.apache.parquet"

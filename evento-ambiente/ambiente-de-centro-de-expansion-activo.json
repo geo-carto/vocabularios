@@ -2,33 +2,33 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-activo",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de centro de expansión activo",
-    "en": "active spreading center setting"
+    "en": "active spreading center setting",
+    "es": "ambiente de centro de expansión activo"
   },
   "definition": {
-    "es": "Margen divergente de placas en el que se está formando nueva corteza oceánica",
-    "en": "Divergent plate margin at which new oceanic crust is being formed."
+    "en": "Divergent plate margin at which new oceanic crust is being formed.",
+    "es": "Margen divergente de placas en el que se está formando nueva corteza oceánica"
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-de-velocidad-media",
       "prefLabel": {
-        "es": "ambiente de centro de expansión de velocidad media",
-        "en": "medium-rate spreading center setting"
+        "en": "medium-rate spreading center setting",
+        "es": "ambiente de centro de expansión de velocidad media"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-rapido",
       "prefLabel": {
-        "es": "ambiente de centro de expansión rápido",
-        "en": "fast spreading center setting"
+        "en": "fast spreading center setting",
+        "es": "ambiente de centro de expansión rápido"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/centro-de-expansion-lenta",
       "prefLabel": {
-        "es": "centro de expansión lenta",
-        "en": "slow spreading center setting"
+        "en": "slow spreading center setting",
+        "es": "centro de expansión lenta"
       }
     }
   ],

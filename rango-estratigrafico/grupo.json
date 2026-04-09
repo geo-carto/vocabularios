@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/grupo",
   "type": "Concept",
   "prefLabel": {
-    "es": "grupo",
-    "en": "group"
+    "en": "group",
+    "es": "grupo"
   },
   "definition": {
-    "es": "Unidad litoestratigráfica que le sigue en rango superior al subgrupo o formación. Un grupo puede consistir en dos o más subgrupos o dos o más formaciones o una combinación de ambos.",
-    "en": "A group is the lithostratigraphic unit next higher in rank to either subgroup or formation. A groups may consist of two or more subgroups or two or more formations or a combination of both."
+    "en": "A group is the lithostratigraphic unit next higher in rank to either subgroup or formation. A groups may consist of two or more subgroups or two or more formations or a combination of both.",
+    "es": "Unidad litoestratigráfica que le sigue en rango superior al subgrupo o formación. Un grupo puede consistir en dos o más subgrupos o dos o más formaciones o una combinación de ambos."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/subgrupo",
       "prefLabel": {
-        "es": "subgrupo",
-        "en": "subgroup"
+        "en": "subgroup",
+        "es": "subgrupo"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/supergrupo",
     "prefLabel": {
-      "es": "supergrupo",
-      "en": "supergroup"
+      "en": "supergroup",
+      "es": "supergrupo"
     }
   },
   "exactMatch": [

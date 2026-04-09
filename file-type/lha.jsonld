@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/lha",
   "type": "Concept",
   "prefLabel": {
-    "es": "LHA",
-    "en": "LHA"
+    "en": "LHA",
+    "es": "LHA"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "LHA compressed file"
     ],
-    "en": [
+    "es": [
       "LHA compressed file"
     ]
   },
   "definition": {
-    "es": "Archivo comprimido producido por LHA, una utilidad de compresión gratuita.",
-    "en": "Compressed file produced by LHA, a freeware compression utility."
+    "en": "Compressed file produced by LHA, a freeware compression utility.",
+    "es": "Archivo comprimido producido por LHA, una utilidad de compresión gratuita."
   },
+  "notation": [
+    ".lha; .lzh",
+    "application/x-lzh-compressed"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/LHA"

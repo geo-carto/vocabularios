@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/mxd",
   "type": "Concept",
   "prefLabel": {
-    "es": "MXD",
-    "en": "MXD"
+    "en": "MXD",
+    "es": "MXD"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "ArcGIS Map Document"
     ],
-    "en": [
+    "es": [
       "ArcGIS Map Document"
     ]
   },
   "definition": {
-    "es": "MXD – Map Exchange Document – es un formato de archivo en el que se pueden almacenar los mapas creados con el software ArcGIS.",
-    "en": "MXD – Map Exchange Document – is a file format in which the maps created from ArcGIS software can be stored."
+    "en": "MXD – Map Exchange Document – is a file format in which the maps created from ArcGIS software can be stored.",
+    "es": "MXD – Map Exchange Document – es un formato de archivo en el que se pueden almacenar los mapas creados con el software ArcGIS."
   },
+  "notation": [
+    ".mxd",
+    "application/x-mxd"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/MXD"

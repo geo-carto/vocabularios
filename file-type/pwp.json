@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pwp",
   "type": "Concept",
   "prefLabel": {
-    "es": "PWP",
-    "en": "PWP"
+    "en": "PWP",
+    "es": "PWP"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Packaged Web Publications"
     ],
-    "en": [
+    "es": [
       "Packaged Web Publications"
     ]
   },
   "definition": {
-    "es": "Transmitir, almacenar, compartir o archivar una publicación web es más fácil si se puede empaquetar como un único archivo. Una Web Publication (WP) es una colección de uno o más recursos constituyentes, organizados en una agrupación identificable de forma única que puede presentarse utilizando tecnologías estándar de la plataforma web abierta. Una Packaged Web Publication (PWP) es una Web Publication cuyos recursos se combinan en un único archivo distribuible.",
-    "en": "Transmitting, storing, sharing or archiving a web publication is easier if it can be packaged as a single file. A Web Publication (WP) is a collection of one or more constituent resources, organized together in a uniquely identifiable grouping that may be presented using standard Open Web Platform technologies. A Packaged Web Publication (PWP) is a Web Publication whose constituent resources are combined into a single distributable file, using some standard packaging format."
+    "en": "Transmitting, storing, sharing or archiving a web publication is easier if it can be packaged as a single file. A Web Publication (WP) is a collection of one or more constituent resources, organized together in a uniquely identifiable grouping that may be presented using standard Open Web Platform technologies. A Packaged Web Publication (PWP) is a Web Publication whose constituent resources are combined into a single distributable file, using some standard packaging format.",
+    "es": "Transmitir, almacenar, compartir o archivar una publicación web es más fácil si se puede empaquetar como un único archivo. Una Web Publication (WP) es una colección de uno o más recursos constituyentes, organizados en una agrupación identificable de forma única que puede presentarse utilizando tecnologías estándar de la plataforma web abierta. Una Packaged Web Publication (PWP) es una Web Publication cuyos recursos se combinan en un único archivo distribuible."
   },
+  "notation": [
+    "application/zip"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/zip"

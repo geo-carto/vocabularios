@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/iso_zip",
   "type": "Concept",
   "prefLabel": {
-    "es": "Zipped ISO image",
-    "en": "Zipped ISO image"
+    "en": "Zipped ISO image",
+    "es": "Zipped ISO image"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Zipped ISO Disc Image file"
     ],
-    "en": [
+    "es": [
       "Zipped ISO Disc Image file"
     ]
   },
   "definition": {
-    "es": "Archivo ZIP que contiene un archivo de imagen de disco ISO.",
-    "en": "ZIP archive containing an ISO disc image file."
+    "en": "ZIP archive containing an ISO disc image file.",
+    "es": "Archivo ZIP que contiene un archivo de imagen de disco ISO."
   },
+  "notation": [
+    "application/zip",
+    ".zip"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/zip"

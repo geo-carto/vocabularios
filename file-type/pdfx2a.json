@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pdfx2a",
   "type": "Concept",
   "prefLabel": {
-    "es": "PDF/X-2a",
-    "en": "PDF/X-2a"
+    "en": "PDF/X-2a",
+    "es": "PDF/X-2a"
   },
   "definition": {
-    "es": "PDF/X-2a es una especificación PDF en la que se soportan datos de color gestionados CMYK y datos de colores directos en cualquier combinación.",
-    "en": "PDF/X-2a is a PDF specification in which colour-managed, CMYK and spot colour data are supported in any combination."
+    "en": "PDF/X-2a is a PDF specification in which colour-managed, CMYK and spot colour data are supported in any combination.",
+    "es": "PDF/X-2a es una especificación PDF en la que se soportan datos de color gestionados CMYK y datos de colores directos en cualquier combinación."
   },
+  "notation": [
+    ".pdf",
+    "application/pdf"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/pdf"

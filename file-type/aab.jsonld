@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/aab",
   "type": "Concept",
   "prefLabel": {
-    "es": "AAB",
-    "en": "AAB"
+    "en": "AAB",
+    "es": "AAB"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Android App Bundle"
     ],
-    "en": [
+    "es": [
       "Android App Bundle"
     ]
   },
   "definition": {
-    "es": "Un Android App Bundle (AAB) es un formato de archivo de paquete utilizado por el sistema operativo Android. Incluye el código compilado y los recursos de una aplicación, y delega la generación y firma del APK a Google Play.",
-    "en": "An Android App Bundle (AAB) is a package file format used by the Android operating system. It includes an app’s compiled code and resources, and defers APK generation and signing to Google Play."
+    "en": "An Android App Bundle (AAB) is a package file format used by the Android operating system. It includes an app’s compiled code and resources, and defers APK generation and signing to Google Play.",
+    "es": "Un Android App Bundle (AAB) es un formato de archivo de paquete utilizado por el sistema operativo Android. Incluye el código compilado y los recursos de una aplicación, y delega la generación y firma del APK a Google Play."
   },
+  "notation": [
+    ".aab",
+    "application/x-authorware-bin"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/AAB"

@@ -2,41 +2,45 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico",
   "type": "Concept",
   "prefLabel": {
-    "es": "Jurásico",
-    "en": "Jurassic"
+    "en": "Jurassic",
+    "es": "Jurásico"
   },
   "definition": {
-    "es": "Límite inferior 201.4 +|-0.2 Ma, límite superior 145 Ma",
-    "en": "Older bound 201.4 +|-0.2 Ma, younger bound 145 Ma"
+    "en": "Older bound 201.4 +|-0.2 Ma, younger bound 145 Ma",
+    "es": "Límite inferior 201.4 +|-0.2 Ma, límite superior 145 Ma"
   },
+  "notation": [
+    "212020000000.0",
+    "a1.1.2.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-inferior",
       "prefLabel": {
-        "es": "Jurásico Inferior",
-        "en": "Lower Jurassic"
+        "en": "Lower Jurassic",
+        "es": "Jurásico Inferior"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-medio",
       "prefLabel": {
-        "es": "Jurásico Medio",
-        "en": "Middle Jurassic"
+        "en": "Middle Jurassic",
+        "es": "Jurásico Medio"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-superior",
       "prefLabel": {
-        "es": "Jurásico Superior",
-        "en": "Upper Jurassic"
+        "en": "Upper Jurassic",
+        "es": "Jurásico Superior"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesozoico",
     "prefLabel": {
-      "es": "Mesozoico",
-      "en": "Mesozoic"
+      "en": "Mesozoic",
+      "es": "Mesozoico"
     }
   },
   "exactMatch": [

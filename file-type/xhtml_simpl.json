@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/xhtml_simpl",
   "type": "Concept",
   "prefLabel": {
-    "es": "XHTML simplified",
-    "en": "XHTML simplified"
+    "en": "XHTML simplified",
+    "es": "XHTML simplified"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Extensible Hypertext Markup Language, simplified"
     ],
-    "en": [
+    "es": [
       "Extensible Hypertext Markup Language, simplified"
     ]
   },
   "definition": {
-    "es": "XHTML es HTML escrito como XML. Su versión simplificada se utiliza para el almacenamiento en la Oficina de Publicaciones.",
-    "en": "XHTML is HTML written as XML. Its simplified version is used for storage in the Publications Office."
+    "en": "XHTML is HTML written as XML. Its simplified version is used for storage in the Publications Office.",
+    "es": "XHTML es HTML escrito como XML. Su versión simplificada se utiliza para el almacenamiento en la Oficina de Publicaciones."
   },
+  "notation": [
+    "application/xhtml+xml",
+    ".html; .htm; .xhtml; .xht"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/xhtml+xml"

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/qgz",
   "type": "Concept",
   "prefLabel": {
-    "es": "QGZ",
-    "en": "QGZ"
+    "en": "QGZ",
+    "es": "QGZ"
   },
   "altLabel": {
-    "es": [
-      "Proyecto QGIS comprimido"
-    ],
     "en": [
       "Compressed QGIS project"
+    ],
+    "es": [
+      "Proyecto QGIS comprimido"
     ]
   },
   "definition": {
-    "es": "Un archivo QGZ es un proyecto de QGIS comprimido. Es un archivo ZIP que contiene el archivo de proyecto QGS y cualquier recurso auxiliar (como datos de fuentes, estilos). QGZ es el formato de proyecto predeterminado a partir de QGIS 3.2, reemplazando al archivo QGS sin comprimir.",
-    "en": "A QGZ file is a compressed QGIS project. It is a ZIP archive containing the QGS project file and any auxiliary resources (such as data sources, styles). QGZ is the default project format starting from QGIS 3.2, replacing the uncompressed QGS file."
+    "en": "A QGZ file is a compressed QGIS project. It is a ZIP archive containing the QGS project file and any auxiliary resources (such as data sources, styles). QGZ is the default project format starting from QGIS 3.2, replacing the uncompressed QGS file.",
+    "es": "Un archivo QGZ es un proyecto de QGIS comprimido. Es un archivo ZIP que contiene el archivo de proyecto QGS y cualquier recurso auxiliar (como datos de fuentes, estilos). QGZ es el formato de proyecto predeterminado a partir de QGIS 3.2, reemplazando al archivo QGS sin comprimir."
   },
+  "notation": [
+    "application/zip",
+    ".qgz"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/zip"

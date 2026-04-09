@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geofisica",
   "type": "Concept",
   "prefLabel": {
-    "es": "unidad geofísica",
-    "en": "geophysical unit"
+    "en": "geophysical unit",
+    "es": "unidad geofísica"
   },
   "definition": {
-    "es": "Unidad geológica definida por sus características geofísicas.",
-    "en": "Geologic unit defined by its geophysical characteristics."
+    "en": "Geologic unit defined by its geophysical characteristics.",
+    "es": "Unidad geológica definida por sus características geofísicas."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-magnetoestratigrafica",
       "prefLabel": {
-        "es": "unidad magnetoestratigráfica",
-        "en": "magnetostratigraphic unit"
+        "en": "magnetostratigraphic unit",
+        "es": "unidad magnetoestratigráfica"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica",
     "prefLabel": {
-      "es": "unidad geológica",
-      "en": "geologic unit"
+      "en": "geologic unit",
+      "es": "unidad geológica"
     }
   },
   "exactMatch": [

@@ -2,41 +2,41 @@
   "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre",
   "type": "Concept",
   "prefLabel": {
-    "es": "falla de desgarre",
-    "en": "strike slip fault"
+    "en": "strike slip fault",
+    "es": "falla de desgarre"
   },
   "definition": {
-    "es": "Falla en la que el componente de desplazamiento paralelo a la dirección de la superficie de falla es más de 10 veces superior al desplazamiento paralelo al buzamiento al menos en una zona del trazado cartografiado.",
-    "en": "Fault with strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the mapped trace of the fault."
+    "en": "Fault with strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the mapped trace of the fault.",
+    "es": "Falla en la que el componente de desplazamiento paralelo a la dirección de la superficie de falla es más de 10 veces superior al desplazamiento paralelo al buzamiento al menos en una zona del trazado cartografiado."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-de-alto-angulo",
       "prefLabel": {
-        "es": "falla de desgarre de alto ángulo",
-        "en": "wrench fault"
+        "en": "wrench fault",
+        "es": "falla de desgarre de alto ángulo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-dextra",
       "prefLabel": {
-        "es": "falla de desgarre dextra",
-        "en": "dextral strike slip fault"
+        "en": "dextral strike slip fault",
+        "es": "falla de desgarre dextra"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-sinestral",
       "prefLabel": {
-        "es": "falla de desgarre sinestral",
-        "en": "siniestral strike slip fault"
+        "en": "siniestral strike slip fault",
+        "es": "falla de desgarre sinestral"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla",
     "prefLabel": {
-      "es": "falla",
-      "en": "fault"
+      "en": "fault",
+      "es": "falla"
     }
   },
   "exactMatch": [

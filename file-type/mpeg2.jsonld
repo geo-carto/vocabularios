@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/mpeg2",
   "type": "Concept",
   "prefLabel": {
-    "es": "MPEG-2",
-    "en": "MPEG-2"
+    "en": "MPEG-2",
+    "es": "MPEG-2"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Moving Picture Experts Group 2"
     ],
-    "en": [
+    "es": [
       "Moving Picture Experts Group 2"
     ]
   },
   "definition": {
-    "es": "MPEG-2 – Moving Picture Experts Group – es un estándar para la codificación genérica de imágenes en movimiento e información de audio asociada. Describe una combinación de métodos de compresión de vídeo y audio con pérdida que permiten el almacenamiento y la transmisión de películas utilizando los medios de almacenamiento y el ancho de banda de transmisión disponibles actualmente.",
-    "en": "MPEG-2 – Moving Picture Experts Group – is a standard for the generic coding of moving pictures and associated audio information. It describes a combination of lossy video compression and lossy audio data compression methods, which permit storage and transmission of movies using currently available storage media and transmission bandwidth."
+    "en": "MPEG-2 – Moving Picture Experts Group – is a standard for the generic coding of moving pictures and associated audio information. It describes a combination of lossy video compression and lossy audio data compression methods, which permit storage and transmission of movies using currently available storage media and transmission bandwidth.",
+    "es": "MPEG-2 – Moving Picture Experts Group – es un estándar para la codificación genérica de imágenes en movimiento e información de audio asociada. Describe una combinación de métodos de compresión de vídeo y audio con pérdida que permiten el almacenamiento y la transmisión de películas utilizando los medios de almacenamiento y el ancho de banda de transmisión disponibles actualmente."
   },
+  "notation": [
+    ".mpeg; mpg; mp3; mp2; m2v",
+    "audio/mpeg; video/mpeg"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/audio/mpeg"

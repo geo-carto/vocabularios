@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-estuarino",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente estuarino",
-    "en": "estuary setting"
+    "en": "estuary setting",
+    "es": "ambiente estuarino"
   },
   "definition": {
-    "es": "Ambientes situados en el extremo marítimo o la desembocadura mareal en forma de embudo ensanchado de un valle fluvial donde el agua dulce entra en contacto con agua de mar y donde los efectos de marea son evidentes (adaptado de Glosario de Geología, Jackson, 1997, p. 217).",
-    "en": "Environments at the seaward end or the widened funnel-shaped tidal mouth of a river valley where fresh water comes into contact with seawater and where tidal effects are evident (adapted from Glossary of Geology, Jackson, 1997, p. 217)."
+    "en": "Environments at the seaward end or the widened funnel-shaped tidal mouth of a river valley where fresh water comes into contact with seawater and where tidal effects are evident (adapted from Glossary of Geology, Jackson, 1997, p. 217).",
+    "es": "Ambientes situados en el extremo marítimo o la desembocadura mareal en forma de embudo ensanchado de un valle fluvial donde el agua dulce entra en contacto con agua de mar y donde los efectos de marea son evidentes (adaptado de Glosario de Geología, Jackson, 1997, p. 217)."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-delta-estuarino",
       "prefLabel": {
-        "es": "ambiente de delta estuarino",
-        "en": "estuarine delta setting"
+        "en": "estuarine delta setting",
+        "es": "ambiente de delta estuarino"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-laguna-litoral-estuarina",
       "prefLabel": {
-        "es": "ambiente de laguna litoral estuarina",
-        "en": "estuarine lagoon setting"
+        "en": "estuarine lagoon setting",
+        "es": "ambiente de laguna litoral estuarina"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral",
     "prefLabel": {
-      "es": "ambiente litoral",
-      "en": "shoreline setting"
+      "en": "shoreline setting",
+      "es": "ambiente litoral"
     }
   },
   "exactMatch": [

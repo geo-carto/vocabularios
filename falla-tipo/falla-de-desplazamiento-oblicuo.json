@@ -2,48 +2,48 @@
   "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desplazamiento-oblicuo",
   "type": "Concept",
   "prefLabel": {
-    "es": "falla de desplazamiento oblicuo",
-    "en": "oblique slip fault"
+    "en": "oblique slip fault",
+    "es": "falla de desplazamiento oblicuo"
   },
   "definition": {
-    "es": "Falla en la que ambas componentes del desplazamiento: en la  dirección de la capa y en la dirección de buzamiento tienen un valor apreciable.",
-    "en": "Fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace of the fault."
+    "en": "Fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace of the fault.",
+    "es": "Falla en la que ambas componentes del desplazamiento: en la  dirección de la capa y en la dirección de buzamiento tienen un valor apreciable."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-dextra",
       "prefLabel": {
-        "es": "falla inversa dextra",
-        "en": "right reverse fault"
+        "en": "right reverse fault",
+        "es": "falla inversa dextra"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-sinistra",
       "prefLabel": {
-        "es": "falla inversa sinistra",
-        "en": "left reverse fault"
+        "en": "left reverse fault",
+        "es": "falla inversa sinistra"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-dextra",
       "prefLabel": {
-        "es": "falla normal dextra",
-        "en": "right normal fault"
+        "en": "right normal fault",
+        "es": "falla normal dextra"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-sinistra",
       "prefLabel": {
-        "es": "falla normal sinistra",
-        "en": "left normal fault"
+        "en": "left normal fault",
+        "es": "falla normal sinistra"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla",
     "prefLabel": {
-      "es": "falla",
-      "en": "fault"
+      "en": "fault",
+      "es": "falla"
     }
   },
   "exactMatch": [

@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/ogcapi_features",
   "type": "Concept",
   "prefLabel": {
-    "es": "OGC API Features",
-    "en": "OGC API Features"
+    "en": "OGC API Features",
+    "es": "OGC API Features"
   },
   "altLabel": {
-    "es": [
-      "Servicio OGC API Features"
-    ],
     "en": [
       "OGC API Features service"
+    ],
+    "es": [
+      "Servicio OGC API Features"
     ]
   },
   "definition": {
-    "es": "OGC API – Features es un estándar del Open Geospatial Consortium que define una API RESTful para consultar, crear, modificar y acceder a características geoespaciales en la web. Reemplaza al estándar Web Feature Service (WFS) anterior, utilizando principios modernos de la web como JSON, HTML y OpenAPI.",
-    "en": "OGC API – Features is an Open Geospatial Consortium standard that defines a RESTful API for querying, creating, modifying, and accessing geospatial features on the web. It replaces the older Web Feature Service (WFS) standard, using modern web principles such as JSON, HTML, and OpenAPI."
+    "en": "OGC API – Features is an Open Geospatial Consortium standard that defines a RESTful API for querying, creating, modifying, and accessing geospatial features on the web. It replaces the older Web Feature Service (WFS) standard, using modern web principles such as JSON, HTML, and OpenAPI.",
+    "es": "OGC API – Features es un estándar del Open Geospatial Consortium que define una API RESTful para consultar, crear, modificar y acceder a características geoespaciales en la web. Reemplaza al estándar Web Feature Service (WFS) anterior, utilizando principios modernos de la web como JSON, HTML y OpenAPI."
   },
+  "notation": [
+    "application/geo+json; text/html; application/xml"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/geo+json"

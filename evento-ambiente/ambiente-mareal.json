@@ -2,48 +2,48 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-mareal",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente mareal",
-    "en": "tidal setting"
+    "en": "tidal setting",
+    "es": "ambiente mareal"
   },
   "definition": {
-    "es": "Ambientes sujetos a los procesos mareales.",
-    "en": "Setting subject to tidal processes."
+    "en": "Setting subject to tidal processes.",
+    "es": "Ambientes sujetos a los procesos mareales."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-canal-mareal",
       "prefLabel": {
-        "es": "ambiente de canal mareal",
-        "en": "tidal channel setting"
+        "en": "tidal channel setting",
+        "es": "ambiente de canal mareal"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-de-mareal",
       "prefLabel": {
-        "es": "ambiente de llanura de mareal",
-        "en": "tidal flat setting"
+        "en": "tidal flat setting",
+        "es": "ambiente de llanura de mareal"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-deltaica-baja",
       "prefLabel": {
-        "es": "ambiente de llanura deltaica baja",
-        "en": "lower delta plain setting"
+        "en": "lower delta plain setting",
+        "es": "ambiente de llanura deltaica baja"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-intermareal",
       "prefLabel": {
-        "es": "ambiente intermareal",
-        "en": "intertidal setting"
+        "en": "intertidal setting",
+        "es": "ambiente intermareal"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral",
     "prefLabel": {
-      "es": "ambiente litoral",
-      "en": "shoreline setting"
+      "en": "shoreline setting",
+      "es": "ambiente litoral"
     }
   },
   "exactMatch": [

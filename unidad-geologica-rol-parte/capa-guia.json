@@ -2,18 +2,18 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-guia",
   "type": "Concept",
   "prefLabel": {
-    "es": "capa guía",
-    "en": "marker bed"
+    "en": "marker bed",
+    "es": "capa guía"
   },
   "definition": {
-    "es": "Parte estratigráfica que es un lecho delgado lateralmente continuo dentro de otra unidad",
-    "en": "Stratigraphic part that is a thin laterally continuous bed within another unit"
+    "en": "Stratigraphic part that is a thin laterally continuous bed within another unit",
+    "es": "Parte estratigráfica que es un lecho delgado lateralmente continuo dentro de otra unidad"
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica",
     "prefLabel": {
-      "es": "parte estratigráfica",
-      "en": "stratigraphic part"
+      "en": "stratigraphic part",
+      "es": "parte estratigráfica"
     }
   },
   "exactMatch": [

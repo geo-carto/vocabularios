@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/induense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Induense",
-    "en": "Induan"
+    "en": "Induan",
+    "es": "Induense"
   },
   "definition": {
-    "es": "Límite inferior 251.902 +|-0.024 Ma, límite superior 251.2 Ma",
-    "en": "Older bound 251.902 +|-0.024 Ma, younger bound 251.2 Ma"
+    "en": "Older bound 251.902 +|-0.024 Ma, younger bound 251.2 Ma",
+    "es": "Límite inferior 251.902 +|-0.024 Ma, límite superior 251.2 Ma"
   },
+  "notation": [
+    "212010101000.0",
+    "a1.1.2.3.3.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-inferior",
     "prefLabel": {
-      "es": "Triásico Inferior",
-      "en": "Lower Triassic"
+      "en": "Lower Triassic",
+      "es": "Triásico Inferior"
     }
   },
   "exactMatch": [

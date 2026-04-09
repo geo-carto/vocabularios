@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/norgripiense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Norgripiense",
-    "en": "Northgrippian"
+    "en": "Northgrippian",
+    "es": "Norgripiense"
   },
   "definition": {
-    "es": "Límite inferior 0.0082 Ma, límite superior 0.0042 Ma",
-    "en": "Older bound 0.0082 Ma, younger bound 0.0042 Ma"
+    "en": "Older bound 0.0082 Ma, younger bound 0.0042 Ma",
+    "es": "Límite inferior 0.0082 Ma, límite superior 0.0042 Ma"
   },
+  "notation": [
+    "213030202000.0",
+    "a1.1.1.1.1.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/holoceno",
     "prefLabel": {
-      "es": "Holoceno",
-      "en": "Holocene"
+      "en": "Holocene",
+      "es": "Holoceno"
     }
   },
   "broadMatch": [

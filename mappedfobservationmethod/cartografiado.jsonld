@@ -2,19 +2,19 @@
   "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/cartografiado",
   "type": "Concept",
   "prefLabel": {
-    "es": "cartografiado",
-    "en": "surveyed"
+    "en": "surveyed",
+    "es": "cartografiado"
   },
   "definition": {
-    "es": "El elemento cartografiado se ubica mediante métodos de levantamiento topográfico.",
-    "en": "mapped feature is located by survey methods"
+    "en": "mapped feature is located by survey methods",
+    "es": "El elemento cartografiado se ubica mediante métodos de levantamiento topográfico."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/levantamiento-inercial",
       "prefLabel": {
-        "es": "levantamiento inercial",
-        "en": "inertial survey"
+        "en": "inertial survey",
+        "es": "levantamiento inercial"
       }
     }
   ],

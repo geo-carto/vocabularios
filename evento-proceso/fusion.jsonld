@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/fusion",
   "type": "Concept",
   "prefLabel": {
-    "es": "fusión",
-    "en": "melting"
+    "en": "melting",
+    "es": "fusión"
   },
   "definition": {
-    "es": "Cambio de estado sólido a líquido.",
-    "en": "Change of state from a solid to a liquid"
+    "en": "Change of state from a solid to a liquid",
+    "es": "Cambio de estado sólido a líquido."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/fusion-parcial",
       "prefLabel": {
-        "es": "fusión parcial",
-        "en": "partial melting"
+        "en": "partial melting",
+        "es": "fusión parcial"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-magmatico",
     "prefLabel": {
-      "es": "proceso magmático",
-      "en": "magmatic process"
+      "en": "magmatic process",
+      "es": "proceso magmático"
     }
   },
   "exactMatch": [

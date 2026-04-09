@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/eps",
   "type": "Concept",
   "prefLabel": {
-    "es": "Encapsulated Postscript",
-    "en": "Encapsulated Postscript"
+    "en": "Encapsulated Postscript",
+    "es": "Encapsulated Postscript"
   },
   "definition": {
-    "es": "Los archivos EPS – Encapsulated PostScript – son documentos PostScript más o menos autónomos y razonablemente predecibles que describen una imagen o dibujo y pueden insertarse dentro de otro documento PostScript.",
-    "en": "EPS – Encapsulated PostScript – files are more-or-less self-contained, reasonably predictable PostScript documents that describe an image or drawing and can be placed within another PostScript document."
+    "en": "EPS – Encapsulated PostScript – files are more-or-less self-contained, reasonably predictable PostScript documents that describe an image or drawing and can be placed within another PostScript document.",
+    "es": "Los archivos EPS – Encapsulated PostScript – son documentos PostScript más o menos autónomos y razonablemente predecibles que describen una imagen o dibujo y pueden insertarse dentro de otro documento PostScript."
   },
+  "notation": [
+    ".eps",
+    "application/postscript"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/EPS"

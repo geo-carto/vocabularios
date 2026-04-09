@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/kml",
   "type": "Concept",
   "prefLabel": {
-    "es": "KML",
-    "en": "KML"
+    "en": "KML",
+    "es": "KML"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Keyhole Markup Language"
     ],
-    "en": [
+    "es": [
       "Keyhole Markup Language"
     ]
   },
   "definition": {
-    "es": "KML – Keyhole Markup Language – es una notación XML para expresar anotaciones geográficas y visualización dentro de mapas bidimensionales y navegadores terrestres tridimensionales basados en Internet. KML fue desarrollado para su uso con Google Earth y se convirtió en un estándar internacional.",
-    "en": "KML – Keyhole Markup Language – is an XML notation for expressing geographic annotation and visualization within Internet-based, two-dimensional maps and three-dimensional Earth browsers. KML was developed for use with Google Earth and became an international standard."
+    "en": "KML – Keyhole Markup Language – is an XML notation for expressing geographic annotation and visualization within Internet-based, two-dimensional maps and three-dimensional Earth browsers. KML was developed for use with Google Earth and became an international standard.",
+    "es": "KML – Keyhole Markup Language – es una notación XML para expresar anotaciones geográficas y visualización dentro de mapas bidimensionales y navegadores terrestres tridimensionales basados en Internet. KML fue desarrollado para su uso con Google Earth y se convirtió en un estándar internacional."
   },
+  "notation": [
+    ".kml",
+    "application/vnd.google-earth.kml+xml"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/KML"

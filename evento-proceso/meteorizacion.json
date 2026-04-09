@@ -2,41 +2,41 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion",
   "type": "Concept",
   "prefLabel": {
-    "es": "meteorización",
-    "en": "weathering"
+    "en": "weathering",
+    "es": "meteorización"
   },
   "definition": {
-    "es": "Proceso o grupo de procesos en virtud de los cuales los materiales terrestres expuestos a los agentes atmosféricos en la superficie de la tierra o cerca de ella cambian de color, textura, composición, dureza o forma, con transporte nulo o escaso de materiales sueltos o alterados. entre estos procesos se incluyen típicamente los de oxidación, hidratación y lixiviación de componentes solubles.",
-    "en": "The process or group of processes by which earth materials exposed to atmospheric agents at or near the earth's surface are changed in color, texture, composition, firmness, or form, with little or no transport of the loosened or altered material. processes typically include oxidation, hydration, and leaching of soluble constituents."
+    "en": "The process or group of processes by which earth materials exposed to atmospheric agents at or near the earth's surface are changed in color, texture, composition, firmness, or form, with little or no transport of the loosened or altered material. processes typically include oxidation, hydration, and leaching of soluble constituents.",
+    "es": "Proceso o grupo de procesos en virtud de los cuales los materiales terrestres expuestos a los agentes atmosféricos en la superficie de la tierra o cerca de ella cambian de color, textura, composición, dureza o forma, con transporte nulo o escaso de materiales sueltos o alterados. entre estos procesos se incluyen típicamente los de oxidación, hidratación y lixiviación de componentes solubles."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion-biologica",
       "prefLabel": {
-        "es": "meteorización biológica",
-        "en": "biological weathering"
+        "en": "biological weathering",
+        "es": "meteorización biológica"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion-fisica",
       "prefLabel": {
-        "es": "meteorización física",
-        "en": "physical weathering"
+        "en": "physical weathering",
+        "es": "meteorización física"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion-quimica",
       "prefLabel": {
-        "es": "meteorización química",
-        "en": "chemical weathering"
+        "en": "chemical weathering",
+        "es": "meteorización química"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
     "prefLabel": {
-      "es": "proceso geológico",
-      "en": "geologic process"
+      "en": "geologic process",
+      "es": "proceso geológico"
     }
   },
   "exactMatch": [

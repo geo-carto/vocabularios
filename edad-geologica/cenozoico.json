@@ -2,41 +2,45 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cenozoico",
   "type": "Concept",
   "prefLabel": {
-    "es": "Cenozoico",
-    "en": "Cenozoic"
+    "en": "Cenozoic",
+    "es": "Cenozoico"
   },
   "definition": {
-    "es": "Límite inferior 66 Ma, límite superior 0.0 Ma",
-    "en": "Older bound 66 Ma, younger bound 0.0 Ma"
+    "en": "Older bound 66 Ma, younger bound 0.0 Ma",
+    "es": "Límite inferior 66 Ma, límite superior 0.0 Ma"
   },
+  "notation": [
+    "213000000000.0",
+    "a1.1.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cuaternario",
       "prefLabel": {
-        "es": "Cuaternario",
-        "en": "Quaternary"
+        "en": "Quaternary",
+        "es": "Cuaternario"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neogeno",
       "prefLabel": {
-        "es": "Neógeno",
-        "en": "Neogene"
+        "en": "Neogene",
+        "es": "Neógeno"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleogeno",
       "prefLabel": {
-        "es": "Paleógeno",
-        "en": "Paleogene"
+        "en": "Paleogene",
+        "es": "Paleógeno"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/fanerozoico",
     "prefLabel": {
-      "es": "Fanerozoico",
-      "en": "Phanerozoic"
+      "en": "Phanerozoic",
+      "es": "Fanerozoico"
     }
   },
   "exactMatch": [

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/fmx4",
   "type": "Concept",
   "prefLabel": {
-    "es": "Formex 4",
-    "en": "Formex 4"
+    "en": "Formex 4",
+    "es": "Formex 4"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Formalized Exchange of Electronic Publications (Formex), version 4"
     ],
-    "en": [
+    "es": [
       "Formalized Exchange of Electronic Publications (Formex), version 4"
     ]
   },
   "definition": {
-    "es": "Formex describe el formato para el intercambio de datos entre la Oficina de Publicaciones y sus contratistas. En particular, define el marcado lógico para documentos publicados en las diferentes series del Diario Oficial de la Unión Europea. Formex V4 se basa en el estándar internacional XML.",
-    "en": "Formex describes the format for the exchange of data between the Publication Office and its contractors. In particular, it defines the logical markup for documents which are published in the different series of the Offical Journal of the European Union. Formex V4 is based on the international standard XML."
+    "en": "Formex describes the format for the exchange of data between the Publication Office and its contractors. In particular, it defines the logical markup for documents which are published in the different series of the Offical Journal of the European Union. Formex V4 is based on the international standard XML.",
+    "es": "Formex describe el formato para el intercambio de datos entre la Oficina de Publicaciones y sus contratistas. En particular, define el marcado lógico para documentos publicados en las diferentes series del Diario Oficial de la Unión Europea. Formex V4 se basa en el estándar internacional XML."
   },
+  "notation": [
+    "application/xml",
+    ".xml"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/xml"

@@ -2,32 +2,35 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neustriense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Neustriense",
-    "en": "Neustrian"
+    "en": "Neustrian",
+    "es": "Neustriense"
   },
   "definition": {
     "es": "Neustriense"
   },
+  "notation": [
+    "213010203093.0"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma",
     "prefLabel": {
-      "es": "Regional",
-      "en": "Regional"
+      "en": "Regional",
+      "es": "Regional"
     }
   },
   "related": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/luteciense",
       "prefLabel": {
-        "es": "Luteciense",
-        "en": "Lutetian"
+        "en": "Lutetian",
+        "es": "Luteciense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ypresiense",
       "prefLabel": {
-        "es": "Ypresiense",
-        "en": "Ypresian"
+        "en": "Ypresian",
+        "es": "Ypresiense"
       }
     }
   ],

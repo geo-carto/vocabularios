@@ -2,8 +2,8 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico-superior",
   "type": "Concept",
   "prefLabel": {
-    "es": "Devónico Superior",
-    "en": "Upper Devonian"
+    "en": "Upper Devonian",
+    "es": "Devónico Superior"
   },
   "altLabel": {
     "en": [
@@ -11,30 +11,34 @@
     ]
   },
   "definition": {
-    "es": "Límite inferior 382.7 +|-1.6 Ma, límite superior 358.9 +|-0.4 Ma",
-    "en": "Older bound 382.7 +|-1.6 Ma, younger bound 358.9 +|-0.4 Ma"
+    "en": "Older bound 382.7 +|-1.6 Ma, younger bound 358.9 +|-0.4 Ma",
+    "es": "Límite inferior 382.7 +|-1.6 Ma, límite superior 358.9 +|-0.4 Ma"
   },
+  "notation": [
+    "211040300000.0",
+    "a1.1.3.3.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/fameniense",
       "prefLabel": {
-        "es": "Fameniense",
-        "en": "Famennian"
+        "en": "Famennian",
+        "es": "Fameniense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/frasniense",
       "prefLabel": {
-        "es": "Frasniense",
-        "en": "Frasnian"
+        "en": "Frasnian",
+        "es": "Frasniense"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico",
     "prefLabel": {
-      "es": "Devónico",
-      "en": "Devonian"
+      "en": "Devonian",
+      "es": "Devónico"
     }
   },
   "exactMatch": [

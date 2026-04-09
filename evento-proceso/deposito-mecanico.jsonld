@@ -2,48 +2,48 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito-mecanico",
   "type": "Concept",
   "prefLabel": {
-    "es": "depósito mecánico",
-    "en": "mechanical deposition"
+    "en": "mechanical deposition",
+    "es": "depósito mecánico"
   },
   "definition": {
-    "es": "Proceso por el cual un material que es transportado en forma de partículas por el aire, el agua,  el hielo u otro fluido en movimiento, llega al descanso y se acumula.",
-    "en": "Process by which material that is being transported as particles by moving air, water, ice, or other fluid comes to rest and accumulates."
+    "en": "Process by which material that is being transported as particles by moving air, water, ice, or other fluid comes to rest and accumulates.",
+    "es": "Proceso por el cual un material que es transportado en forma de partículas por el aire, el agua,  el hielo u otro fluido en movimiento, llega al descanso y se acumula."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito-desde-un-fluido-en-movimiento",
       "prefLabel": {
-        "es": "depósito desde un fluido en movimiento",
-        "en": "deposition from moving fluid"
+        "en": "deposition from moving fluid",
+        "es": "depósito desde un fluido en movimiento"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-corriente-de-turbidez",
       "prefLabel": {
-        "es": "depósito por corriente de turbidez",
-        "en": "turbidity current deposition"
+        "en": "turbidity current deposition",
+        "es": "depósito por corriente de turbidez"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-flujo-en-masa",
       "prefLabel": {
-        "es": "depósito por flujo en masa",
-        "en": "debris flow deposition"
+        "en": "debris flow deposition",
+        "es": "depósito por flujo en masa"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito-por-transporte-en-masa",
       "prefLabel": {
-        "es": "depósito por transporte en masa",
-        "en": "mass wasting deposition"
+        "en": "mass wasting deposition",
+        "es": "depósito por transporte en masa"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito",
     "prefLabel": {
-      "es": "depósito",
-      "en": "deposition"
+      "en": "deposition",
+      "es": "depósito"
     }
   },
   "exactMatch": [

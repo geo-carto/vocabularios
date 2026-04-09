@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/fracturacion",
   "type": "Concept",
   "prefLabel": {
-    "es": "fracturación",
-    "en": "fracturing"
+    "en": "fracturing",
+    "es": "fracturación"
   },
   "definition": {
-    "es": "Formación de una superficie de falla como resultado de esfuerzos.",
-    "en": "The formation of a surface of failure resulting from stress"
+    "en": "The formation of a surface of failure resulting from stress",
+    "es": "Formación de una superficie de falla como resultado de esfuerzos."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/microfracturacion",
       "prefLabel": {
-        "es": "microfracturación",
-        "en": "microfracturing"
+        "en": "microfracturing",
+        "es": "microfracturación"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deformacion",
     "prefLabel": {
-      "es": "deformación",
-      "en": "deformation"
+      "en": "deformation",
+      "es": "deformación"
     }
   },
   "exactMatch": [

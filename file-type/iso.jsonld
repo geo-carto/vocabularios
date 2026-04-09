@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/iso",
   "type": "Concept",
   "prefLabel": {
-    "es": "ISO image",
-    "en": "ISO image"
+    "en": "ISO image",
+    "es": "ISO image"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "ISO Disc Image file"
     ],
-    "en": [
+    "es": [
       "ISO Disc Image file"
     ]
   },
   "definition": {
-    "es": "Archivo de imagen que contiene el contenido de (o destinado a) un disco óptico. Originalmente se limitaba a datos formateados conforme al estándar ISO 9660 (1988), de ahí el nombre del formato y la extensión iso. El formato de imagen de disco ISO se utiliza típicamente para empaquetar software, bases de datos, programas de vídeo DVD y similares. Los archivos de imagen ISO, a diferencia de los archivos normales, no se abren sino que se montan. Contienen los datos de cada sector escrito de un disco óptico, incluyendo el sistema de archivos del disco óptico si existe.",
-    "en": "Archive file containing the content from (or destined for) an optical disk. Originally it was limited to data formatted to comply with the ISO 9660 standard (1988), hence the format name and the iso file extension. The ISO Disk Image File Format is typically used to package or bundle software, databases, authored DVD video programs, and the like. ISO image files, unlike normal files, are not opened but rather are mounted. ISO image files contain the data contents of every written sector of an optical disc, including the optical disc file system if one is present."
+    "en": "Archive file containing the content from (or destined for) an optical disk. Originally it was limited to data formatted to comply with the ISO 9660 standard (1988), hence the format name and the iso file extension. The ISO Disk Image File Format is typically used to package or bundle software, databases, authored DVD video programs, and the like. ISO image files, unlike normal files, are not opened but rather are mounted. ISO image files contain the data contents of every written sector of an optical disc, including the optical disc file system if one is present.",
+    "es": "Archivo de imagen que contiene el contenido de (o destinado a) un disco óptico. Originalmente se limitaba a datos formateados conforme al estándar ISO 9660 (1988), de ahí el nombre del formato y la extensión iso. El formato de imagen de disco ISO se utiliza típicamente para empaquetar software, bases de datos, programas de vídeo DVD y similares. Los archivos de imagen ISO, a diferencia de los archivos normales, no se abren sino que se montan. Contienen los datos de cada sector escrito de un disco óptico, incluyendo el sistema de archivos del disco óptico si existe."
   },
+  "notation": [
+    ".iso; .img",
+    "application/x-iso9660-image"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/ISO"

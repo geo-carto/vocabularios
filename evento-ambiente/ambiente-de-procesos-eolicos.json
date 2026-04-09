@@ -2,26 +2,26 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-procesos-eolicos",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de procesos eólicos",
-    "en": "aeolian process setting"
+    "en": "aeolian process setting",
+    "es": "ambiente de procesos eólicos"
   },
   "definition": {
-    "es": "Ambiente sedimentario en el que el viento es el proceso dominante que produce, transporta y deposita los sedimentos. Normalmente presenta un relieve bajo, llano o con fisiografía de piedemonte.",
-    "en": "Sedimentary setting in which wind is the dominant process producing, transporting, and depositing sediment. Typically has low-relief plain or piedmont slope physiography."
+    "en": "Sedimentary setting in which wind is the dominant process producing, transporting, and depositing sediment. Typically has low-relief plain or piedmont slope physiography.",
+    "es": "Ambiente sedimentario en el que el viento es el proceso dominante que produce, transporta y deposita los sedimentos. Normalmente presenta un relieve bajo, llano o con fisiografía de piedemonte."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-campo-de-dunas",
       "prefLabel": {
-        "es": "ambiente de campo de dunas",
-        "en": "dunefield setting"
+        "en": "dunefield setting",
+        "es": "ambiente de campo de dunas"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-arenosa",
       "prefLabel": {
-        "es": "ambiente de llanura arenosa",
-        "en": "sand plain setting"
+        "en": "sand plain setting",
+        "es": "ambiente de llanura arenosa"
       }
     }
   ],

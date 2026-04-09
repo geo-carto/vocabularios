@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/tab",
   "type": "Concept",
   "prefLabel": {
-    "es": "MapInfo TAB file",
-    "en": "MapInfo TAB file"
+    "en": "MapInfo TAB file",
+    "es": "MapInfo TAB file"
   },
   "definition": {
-    "es": "MapInfo TAB es el tipo de medio que se utilizará para el formato MapInfo TAB. El archivo es un archivo zip que contiene al menos los archivos tab, dat, map e id.",
-    "en": "MapInfo TAB is the media type which shall be used for the MapInfo TAB format. The file is a zip archive that contains at least the tab, dat, map and id files."
+    "en": "MapInfo TAB is the media type which shall be used for the MapInfo TAB format. The file is a zip archive that contains at least the tab, dat, map and id files.",
+    "es": "MapInfo TAB es el tipo de medio que se utilizará para el formato MapInfo TAB. El archivo es un archivo zip que contiene al menos los archivos tab, dat, map e id."
   },
+  "notation": [
+    ".tab",
+    "application/x-tab"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/TAB"

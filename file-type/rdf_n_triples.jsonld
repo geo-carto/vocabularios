@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/rdf_n_triples",
   "type": "Concept",
   "prefLabel": {
-    "es": "RDF N-Triples",
-    "en": "RDF N-Triples"
+    "en": "RDF N-Triples",
+    "es": "RDF N-Triples"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Resource Description Framework N-Triples"
     ],
-    "en": [
+    "es": [
       "Resource Description Framework N-Triples"
     ]
   },
   "definition": {
-    "es": "RDF N-Triples es un formato basado en líneas, de texto plano, para codificar un grafo RDF; una sintaxis concreta para RDF, un subconjunto de Turtle fácil de analizar y basado en líneas.",
-    "en": "RDF N-Triples is a line-based, plain text format for encoding an RDF graph; a concrete syntax for RDF, an easy to parse line-based subset of Turtle."
+    "en": "RDF N-Triples is a line-based, plain text format for encoding an RDF graph; a concrete syntax for RDF, an easy to parse line-based subset of Turtle.",
+    "es": "RDF N-Triples es un formato basado en líneas, de texto plano, para codificar un grafo RDF; una sintaxis concreta para RDF, un subconjunto de Turtle fácil de analizar y basado en líneas."
   },
+  "notation": [
+    ".nt",
+    "application/n-triples"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES"

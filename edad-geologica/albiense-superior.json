@@ -2,8 +2,8 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/albiense-superior",
   "type": "Concept",
   "prefLabel": {
-    "es": "Albiense Superior",
-    "en": "Upper Albian"
+    "en": "Upper Albian",
+    "es": "Albiense Superior"
   },
   "altLabel": {
     "en": [
@@ -11,14 +11,17 @@
     ]
   },
   "definition": {
-    "es": "Límite inferior 104 Ma, límite superior 100.5 Ma",
-    "en": "Older bound 104 Ma, younger bound 100.5 Ma"
+    "en": "Older bound 104 Ma, younger bound 100.5 Ma",
+    "es": "Límite inferior 104 Ma, límite superior 100.5 Ma"
   },
+  "notation": [
+    "212030106300.0"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/albiense",
     "prefLabel": {
-      "es": "Albiense",
-      "en": "Albian"
+      "en": "Albian",
+      "es": "Albiense"
     }
   },
   "broadMatch": [

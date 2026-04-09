@@ -2,40 +2,40 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-de-llanura-fluvial",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de sistema de llanura fluvial",
-    "en": "river plain system setting"
+    "en": "river plain system setting",
+    "es": "ambiente de sistema de llanura fluvial"
   },
   "definition": {
-    "es": "El ambiente geológico dominado por un sistema fluvial; las llanuras fluviales pueden aparecer en cualquier contexto climático. Comprende los canales activos, canales abandonados, albardones o diques naturales, lagos de meandro abandonado o galachos, llanura de inundación. Puede ser parte de una llanura aluvial que incluye terrazas formadas por los depósitos de llanuras fluviales abandonadas.",
-    "en": "Geologic setting dominated by a river system; river plains may occur in any climatic setting. Includes active channels, abandoned channels, levees, oxbow lakes, flood plain. May be part of an alluvial plain that includes terraces composed of abandoned river plain deposits."
+    "en": "Geologic setting dominated by a river system; river plains may occur in any climatic setting. Includes active channels, abandoned channels, levees, oxbow lakes, flood plain. May be part of an alluvial plain that includes terraces composed of abandoned river plain deposits.",
+    "es": "El ambiente geológico dominado por un sistema fluvial; las llanuras fluviales pueden aparecer en cualquier contexto climático. Comprende los canales activos, canales abandonados, albardones o diques naturales, lagos de meandro abandonado o galachos, llanura de inundación. Puede ser parte de una llanura aluvial que incluye terrazas formadas por los depósitos de llanuras fluviales abandonadas."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-canal-fluvial",
       "prefLabel": {
-        "es": "ambiente de canal fluvial",
-        "en": "river channel setting"
+        "en": "river channel setting",
+        "es": "ambiente de canal fluvial"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-cauce-fluvial-abandonado",
       "prefLabel": {
-        "es": "ambiente de cauce fluvial abandonado",
-        "en": "abandoned river channel setting"
+        "en": "abandoned river channel setting",
+        "es": "ambiente de cauce fluvial abandonado"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-de-inundacion",
       "prefLabel": {
-        "es": "ambiente de llanura de inundación",
-        "en": "floodplain setting"
+        "en": "floodplain setting",
+        "es": "ambiente de llanura de inundación"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-meandro-estrangulado",
       "prefLabel": {
-        "es": "ambiente meandro estrangulado",
-        "en": "cutoff meander setting"
+        "en": "cutoff meander setting",
+        "es": "ambiente meandro estrangulado"
       }
     }
   ],

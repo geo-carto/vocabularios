@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/xliff",
   "type": "Concept",
   "prefLabel": {
-    "es": "XLIFF",
-    "en": "XLIFF"
+    "en": "XLIFF",
+    "es": "XLIFF"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "XML Localisation Interchange File Format"
     ],
-    "en": [
+    "es": [
       "XML Localisation Interchange File Format"
     ]
   },
   "definition": {
-    "es": "XLIFF es el formato de archivo de intercambio de localización XML diseñado por un grupo de editores de contenido multilingüe, proveedores de software, proveedores de servicios de localización, proveedores de herramientas de localización e investigadores. Está destinado a proporcionar a cualquier propietario de contenido multilingüe un formato de archivo de intercambio único que pueda ser entendido por cualquier proveedor de localización utilizando cualquier herramienta conforme.",
-    "en": "XLIFF is the XML Localisation Interchange File Format designed by a group of multilingual content publishers, software providers, localization service providers, localization tools providers and researchers. It is intended to give any multilingual content owner a single interchange file format that can be understood by any localization provider, using any conformant localization tool. While the primary focus is on being a lossless interchange format, usage of XLIFF as a processing format is neither encouraged nor discouraged or prohibited."
+    "en": "XLIFF is the XML Localisation Interchange File Format designed by a group of multilingual content publishers, software providers, localization service providers, localization tools providers and researchers. It is intended to give any multilingual content owner a single interchange file format that can be understood by any localization provider, using any conformant localization tool. While the primary focus is on being a lossless interchange format, usage of XLIFF as a processing format is neither encouraged nor discouraged or prohibited.",
+    "es": "XLIFF es el formato de archivo de intercambio de localización XML diseñado por un grupo de editores de contenido multilingüe, proveedores de software, proveedores de servicios de localización, proveedores de herramientas de localización e investigadores. Está destinado a proporcionar a cualquier propietario de contenido multilingüe un formato de archivo de intercambio único que pueda ser entendido por cualquier proveedor de localización utilizando cualquier herramienta conforme."
   },
+  "notation": [
+    ".xlf",
+    "application/xliff+xml"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/XLIFF"

@@ -2,55 +2,55 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deformacion",
   "type": "Concept",
   "prefLabel": {
-    "es": "deformación",
-    "en": "deformation"
+    "en": "deformation",
+    "es": "deformación"
   },
   "definition": {
-    "es": "Movimiento de masas de roca por desplazamiento en zonas de falla o de cizalla, o cambio en la forma de una masa de material terrestre.",
-    "en": "Movement of rock bodies by displacement on fault or shear zones, or change in shape of a body of earth material."
+    "en": "Movement of rock bodies by displacement on fault or shear zones, or change in shape of a body of earth material.",
+    "es": "Movimiento de masas de roca por desplazamiento en zonas de falla o de cizalla, o cambio en la forma de una masa de material terrestre."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/cizallamiento",
       "prefLabel": {
-        "es": "cizallamiento",
-        "en": "shearing"
+        "en": "shearing",
+        "es": "cizallamiento"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/fallamiento",
       "prefLabel": {
-        "es": "fallamiento",
-        "en": "faulting"
+        "en": "faulting",
+        "es": "fallamiento"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/flujo-ductil",
       "prefLabel": {
-        "es": "flujo dúctil",
-        "en": "ductile flow"
+        "en": "ductile flow",
+        "es": "flujo dúctil"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/fracturacion",
       "prefLabel": {
-        "es": "fracturación",
-        "en": "fracturing"
+        "en": "fracturing",
+        "es": "fracturación"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/plegamiento",
       "prefLabel": {
-        "es": "plegamiento",
-        "en": "folding"
+        "en": "folding",
+        "es": "plegamiento"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
     "prefLabel": {
-      "es": "proceso geológico",
-      "en": "geologic process"
+      "en": "geologic process",
+      "es": "proceso geológico"
     }
   },
   "exactMatch": [

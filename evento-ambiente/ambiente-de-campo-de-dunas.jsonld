@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-campo-de-dunas",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de campo de dunas",
-    "en": "dunefield setting"
+    "en": "dunefield setting",
+    "es": "ambiente de campo de dunas"
   },
   "definition": {
-    "es": "Depósitos extensos sobre arena en una zona donde el suministro es abundante. Característicamente, las dunas individuales se asemejan algo a los barjanes pero son de forma muy irregulares y están apiladas; por ejemplo las áreas de erg del Sahara.",
-    "en": "Extensive deposits on sand in an area where the supply is abundant. As a characteristic, individual dunes somewhat resemble barchans but are highly irregular in shape and crowded; erg areas of the Sahara are an example."
+    "en": "Extensive deposits on sand in an area where the supply is abundant. As a characteristic, individual dunes somewhat resemble barchans but are highly irregular in shape and crowded; erg areas of the Sahara are an example.",
+    "es": "Depósitos extensos sobre arena en una zona donde el suministro es abundante. Característicamente, las dunas individuales se asemejan algo a los barjanes pero son de forma muy irregulares y están apiladas; por ejemplo las áreas de erg del Sahara."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-campo-de-dunas-litoral",
       "prefLabel": {
-        "es": "ambiente de campo de dunas litoral",
-        "en": "coastal dune field setting"
+        "en": "coastal dune field setting",
+        "es": "ambiente de campo de dunas litoral"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-procesos-eolicos",
     "prefLabel": {
-      "es": "ambiente de procesos eólicos",
-      "en": "aeolian process setting"
+      "en": "aeolian process setting",
+      "es": "ambiente de procesos eólicos"
     }
   },
   "exactMatch": [

@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/estenico",
   "type": "Concept",
   "prefLabel": {
-    "es": "Esténico",
-    "en": "Stenian"
+    "en": "Stenian",
+    "es": "Esténico"
   },
   "definition": {
-    "es": "Límite inferior 1200 Ma, límite superior 1000 Ma",
-    "en": "Older bound 1200 Ma, younger bound 1000 Ma"
+    "en": "Older bound 1200 Ma, younger bound 1000 Ma",
+    "es": "Límite inferior 1200 Ma, límite superior 1000 Ma"
   },
+  "notation": [
+    "132030000000.0",
+    "a2.1.2.1"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesoproterozoico",
     "prefLabel": {
-      "es": "Mesoproterozoico",
-      "en": "Mesoproterozoic"
+      "en": "Mesoproterozoic",
+      "es": "Mesoproterozoico"
     }
   },
   "exactMatch": [

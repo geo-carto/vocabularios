@@ -2,18 +2,18 @@
   "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/proyeccion-inferida-oculta-por-vegetacion",
   "type": "Concept",
   "prefLabel": {
-    "es": "proyección inferida oculta por vegetación",
-    "en": "inferred projection obscured by vegetation"
+    "en": "inferred projection obscured by vegetation",
+    "es": "proyección inferida oculta por vegetación"
   },
   "definition": {
-    "es": "La ubicación y especificación se determinan por continuidad inferida entre ubicaciones observadas, asumiendo continuidad del elemento. No es observable por estar oculto por vegetación, pero se infiere que aflora en la superficie.",
-    "en": "Location and specification determined based on inferred continuity with observed locations, and assumption of continuity of the feature. Not observable because of obscuring vegetation, but inferred to crop out at surface."
+    "en": "Location and specification determined based on inferred continuity with observed locations, and assumption of continuity of the feature. Not observable because of obscuring vegetation, but inferred to crop out at surface.",
+    "es": "La ubicación y especificación se determinan por continuidad inferida entre ubicaciones observadas, asumiendo continuidad del elemento. No es observable por estar oculto por vegetación, pero se infiere que aflora en la superficie."
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/proyeccion-inferida-entre-ubicaciones-observadas",
     "prefLabel": {
-      "es": "proyección inferida entre ubicaciones observadas",
-      "en": "inferred projection between observed locations"
+      "en": "inferred projection between observed locations",
+      "es": "proyección inferida entre ubicaciones observadas"
     }
   },
   "exactMatch": [

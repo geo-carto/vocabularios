@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/dapk",
   "type": "Concept",
   "prefLabel": {
-    "es": "DAPK",
-    "en": "DAPK"
+    "en": "DAPK",
+    "es": "DAPK"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Android Package (Daydream)"
     ],
-    "en": [
+    "es": [
       "Android Package (Daydream)"
     ]
   },
   "definition": {
-    "es": "Un Android Package (APK) con características especiales utilizado por el sistema operativo Android para la distribución e instalación de aplicaciones móviles de Daydream.",
-    "en": "An Android Package (APK) with special features used by the Android operating system for the distribution and installation of Daydream mobile apps."
+    "en": "An Android Package (APK) with special features used by the Android operating system for the distribution and installation of Daydream mobile apps.",
+    "es": "Un Android Package (APK) con características especiales utilizado por el sistema operativo Android para la distribución e instalación de aplicaciones móviles de Daydream."
   },
+  "notation": [
+    ".apk; .xapk",
+    "application/vnd.android.package-archive"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/vnd.android.package-archive"

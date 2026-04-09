@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/matlab_mat",
   "type": "Concept",
   "prefLabel": {
-    "es": "MATLAB MAT",
-    "en": "MATLAB MAT"
+    "en": "MATLAB MAT",
+    "es": "MATLAB MAT"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "MATLAB MAT-File"
     ],
-    "en": [
+    "es": [
       "MATLAB MAT-File"
     ]
   },
   "definition": {
-    "es": "Formato de contenedor de datos binario propietario utilizado por el software MATLAB de MathWorks.",
-    "en": "proprietary, binary data container format used by MATLAB software from MathWorks"
+    "en": "proprietary, binary data container format used by MATLAB software from MathWorks",
+    "es": "Formato de contenedor de datos binario propietario utilizado por el software MATLAB de MathWorks."
   },
+  "notation": [
+    "application/octet-stream",
+    ".mat"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/octet-stream"

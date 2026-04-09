@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pdfa3u",
   "type": "Concept",
   "prefLabel": {
-    "es": "PDF/A-3u",
-    "en": "PDF/A-3u"
+    "en": "PDF/A-3u",
+    "es": "PDF/A-3u"
   },
   "definition": {
-    "es": "Subtipo de PDF/A-3 que soporta Unicode, asegurando que el texto no latino se represente correctamente.",
-    "en": "PDF/A-3 subtype that supports Unicode, ensuring that non-Latin text is correctly represented"
+    "en": "PDF/A-3 subtype that supports Unicode, ensuring that non-Latin text is correctly represented",
+    "es": "Subtipo de PDF/A-3 que soporta Unicode, asegurando que el texto no latino se represente correctamente."
   },
+  "notation": [
+    ".pdf",
+    "application/pdf"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/pdf"

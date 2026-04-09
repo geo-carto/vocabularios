@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/gml",
   "type": "Concept",
   "prefLabel": {
-    "es": "GML",
-    "en": "GML"
+    "en": "GML",
+    "es": "GML"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Geography Markup Language"
     ],
-    "en": [
+    "es": [
       "Geography Markup Language"
     ]
   },
   "definition": {
-    "es": "GML – Geography Markup Language – es la gramática XML definida por el Open Geospatial Consortium (OGC) para expresar características geográficas. GML sirve tanto como lenguaje de modelado para sistemas geográficos como formato de intercambio abierto para transacciones geográficas en Internet.",
-    "en": "GML – Geography Markup Language – is the XML grammar defined by the Open Geospatial Consortium (OGC) to express geographical features. GML serves as a modeling language for geographic systems as well as an open interchange format for geographic transactions on the Internet."
+    "en": "GML – Geography Markup Language – is the XML grammar defined by the Open Geospatial Consortium (OGC) to express geographical features. GML serves as a modeling language for geographic systems as well as an open interchange format for geographic transactions on the Internet.",
+    "es": "GML – Geography Markup Language – es la gramática XML definida por el Open Geospatial Consortium (OGC) para expresar características geográficas. GML sirve tanto como lenguaje de modelado para sistemas geográficos como formato de intercambio abierto para transacciones geográficas en Internet."
   },
+  "notation": [
+    ".gml .xml",
+    "application/gml+xml"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/GML"

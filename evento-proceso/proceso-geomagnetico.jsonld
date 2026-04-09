@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geomagnetico",
   "type": "Concept",
   "prefLabel": {
-    "es": "proceso geomagnético",
-    "en": "geomagnetic process"
+    "en": "geomagnetic process",
+    "es": "proceso geomagnético"
   },
   "definition": {
-    "es": "Proceso que da lugar a un cambio en el campo magnético de la tierra.",
-    "en": "Process that results in change in earth's magnetic field."
+    "en": "Process that results in change in earth's magnetic field.",
+    "es": "Proceso que da lugar a un cambio en el campo magnético de la tierra."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deriva-polar",
       "prefLabel": {
-        "es": "deriva polar",
-        "en": "polar wander"
+        "en": "polar wander",
+        "es": "deriva polar"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/inversion-del-campo-magnetico",
       "prefLabel": {
-        "es": "inversión del campo magnético",
-        "en": "magnetic field reversal"
+        "en": "magnetic field reversal",
+        "es": "inversión del campo magnético"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
     "prefLabel": {
-      "es": "proceso geológico",
-      "en": "geologic process"
+      "en": "geologic process",
+      "es": "proceso geológico"
     }
   },
   "exactMatch": [

@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/observado-en-material-de-sondeo",
   "type": "Concept",
   "prefLabel": {
-    "es": "observado en material de sondeo",
-    "en": "observed in borehole material"
+    "en": "observed in borehole material",
+    "es": "observado en material de sondeo"
   },
   "definition": {
-    "es": "Elemento geológico observado en material obtenido de un sondeo.",
-    "en": "Geologic feature observed in material obtained from a borehole."
+    "en": "Geologic feature observed in material obtained from a borehole.",
+    "es": "Elemento geológico observado en material obtenido de un sondeo."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/observado-en-recortes-de-sondeo",
       "prefLabel": {
-        "es": "observado en recortes de sondeo",
-        "en": "observed in borehole cuttings"
+        "en": "observed in borehole cuttings",
+        "es": "observado en recortes de sondeo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/observado-en-testigo-de-sondeo",
       "prefLabel": {
-        "es": "observado en testigo de sondeo",
-        "en": "observed in borehole core"
+        "en": "observed in borehole core",
+        "es": "observado en testigo de sondeo"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/observacion-directa",
     "prefLabel": {
-      "es": "observación directa",
-      "en": "direct observation"
+      "en": "direct observation",
+      "es": "observación directa"
     }
   },
   "exactMatch": [

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/arff",
   "type": "Concept",
   "prefLabel": {
-    "es": "ARFF",
-    "en": "ARFF"
+    "en": "ARFF",
+    "es": "ARFF"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Attribute-Relation File Format"
     ],
-    "en": [
+    "es": [
       "Attribute-Relation File Format"
     ]
   },
   "definition": {
-    "es": "Archivo de texto ASCII que describe una lista de instancias que comparten un conjunto de atributos.",
-    "en": "ASCII text file that describes a list of instances sharing a set of attributes"
+    "en": "ASCII text file that describes a list of instances sharing a set of attributes",
+    "es": "Archivo de texto ASCII que describe una lista de instancias que comparten un conjunto de atributos."
   },
+  "notation": [
+    ".arff",
+    "text/plain"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/ARFF"

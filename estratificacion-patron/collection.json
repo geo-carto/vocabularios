@@ -2,77 +2,78 @@
   "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/collection",
   "type": "Collection",
   "prefLabel": {
+    "en": "Bedding pattern - All concepts",
     "es": "Patrón de estratificación - Todos los conceptos"
   },
   "member": [
     {
       "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/aleatoria",
       "prefLabel": {
-        "es": "aleatoria",
-        "en": "random"
+        "en": "random",
+        "es": "aleatoria"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/ciclica",
       "prefLabel": {
-        "es": "cíclica",
-        "en": "cyclic"
+        "en": "cyclic",
+        "es": "cíclica"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/en-haces",
       "prefLabel": {
-        "es": "en haces",
-        "en": "in bundles"
+        "en": "in bundles",
+        "es": "en haces"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/estratocreciente",
       "prefLabel": {
-        "es": "estratocreciente",
-        "en": "thickening  upward"
+        "en": "thickening  upward",
+        "es": "estratocreciente"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/estratodecreciente",
       "prefLabel": {
-        "es": "estratodecreciente",
-        "en": "thinning upward"
+        "en": "thinning upward",
+        "es": "estratodecreciente"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/heterogenea",
       "prefLabel": {
-        "es": "heterogénea",
-        "en": "hetrogeneous"
+        "en": "hetrogeneous",
+        "es": "heterogénea"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/homogenea",
       "prefLabel": {
-        "es": "homogénea",
-        "en": "homogeneous"
+        "en": "homogeneous",
+        "es": "homogénea"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/masiva",
       "prefLabel": {
-        "es": "masiva",
-        "en": "massive"
+        "en": "massive",
+        "es": "masiva"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/regular",
       "prefLabel": {
-        "es": "regular",
-        "en": "regular"
+        "en": "regular",
+        "es": "regular"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/estratificacion-patron/ritmica",
       "prefLabel": {
-        "es": "rítmica",
-        "en": "rhythmic"
+        "en": "rhythmic",
+        "es": "rítmica"
       }
     }
   ],

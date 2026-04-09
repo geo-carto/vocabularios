@@ -2,41 +2,45 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesoproterozoico",
   "type": "Concept",
   "prefLabel": {
-    "es": "Mesoproterozoico",
-    "en": "Mesoproterozoic"
+    "en": "Mesoproterozoic",
+    "es": "Mesoproterozoico"
   },
   "definition": {
-    "es": "Límite inferior 1600 Ma, límite superior 1000 Ma",
-    "en": "Older bound 1600 Ma, younger bound 1000 Ma"
+    "en": "Older bound 1600 Ma, younger bound 1000 Ma",
+    "es": "Límite inferior 1600 Ma, límite superior 1000 Ma"
   },
+  "notation": [
+    "132000000000.0",
+    "a2.1.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/calimico",
       "prefLabel": {
-        "es": "Calímico",
-        "en": "Calymmian"
+        "en": "Calymmian",
+        "es": "Calímico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ectasico",
       "prefLabel": {
-        "es": "Ectásico",
-        "en": "Ectasian"
+        "en": "Ectasian",
+        "es": "Ectásico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/estenico",
       "prefLabel": {
-        "es": "Esténico",
-        "en": "Stenian"
+        "en": "Stenian",
+        "es": "Esténico"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/proterozoico",
     "prefLabel": {
-      "es": "Proterozoico",
-      "en": "Proterozoic"
+      "en": "Proterozoic",
+      "es": "Proterozoico"
     }
   },
   "exactMatch": [

@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesoarcaico",
   "type": "Concept",
   "prefLabel": {
-    "es": "Mesoarcaico",
-    "en": "Mesoarchean"
+    "en": "Mesoarchean",
+    "es": "Mesoarcaico"
   },
   "definition": {
-    "es": "Límite inferior 3200 Ma, límite superior 2800 Ma",
-    "en": "Older bound 3200 Ma, younger bound 2800 Ma"
+    "en": "Older bound 3200 Ma, younger bound 2800 Ma",
+    "es": "Límite inferior 3200 Ma, límite superior 2800 Ma"
   },
+  "notation": [
+    "123000000000.0",
+    "a2.2.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/arcaico",
     "prefLabel": {
-      "es": "Arcaico",
-      "en": "Archean"
+      "en": "Archean",
+      "es": "Arcaico"
     }
   },
   "exactMatch": [

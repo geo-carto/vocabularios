@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/n3",
   "type": "Concept",
   "prefLabel": {
-    "es": "N3",
-    "en": "N3"
+    "en": "N3",
+    "es": "N3"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Notation3"
     ],
-    "en": [
+    "es": [
       "Notation3"
     ]
   },
   "definition": {
-    "es": "Serialización no XML de modelos Resource Description Framework.",
-    "en": "Non-XML serialization of Resource Description Framework models."
+    "en": "Non-XML serialization of Resource Description Framework models.",
+    "es": "Serialización no XML de modelos Resource Description Framework."
   },
+  "notation": [
+    ".n3",
+    "text/n3"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/N3"

@@ -2,62 +2,62 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion",
   "type": "Concept",
   "prefLabel": {
-    "es": "inclusión",
-    "en": "inclusion"
+    "en": "inclusion",
+    "es": "inclusión"
   },
   "definition": {
-    "es": "Componente de la unidad geológica que está presente en forma de masas, de límites generalmente bien definidos, incluidas dentro de una matriz de otro material.",
-    "en": "Geologic unit constituent is present as masses with generally sharp boundaries enclosed within a matrix of some other material"
+    "en": "Geologic unit constituent is present as masses with generally sharp boundaries enclosed within a matrix of some other material",
+    "es": "Componente de la unidad geológica que está presente en forma de masas, de límites generalmente bien definidos, incluidas dentro de una matriz de otro material."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloque-tectonico",
       "prefLabel": {
-        "es": "bloque tectónico",
-        "en": "tectonic block"
+        "en": "tectonic block",
+        "es": "bloque tectónico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloques",
       "prefLabel": {
-        "es": "bloques",
-        "en": "blocks"
+        "en": "blocks",
+        "es": "bloques"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/concrecion",
       "prefLabel": {
-        "es": "concreción",
-        "en": "concretion"
+        "en": "concretion",
+        "es": "concreción"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/enclave",
       "prefLabel": {
-        "es": "enclave",
-        "en": "enclave"
+        "en": "enclave",
+        "es": "enclave"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazos",
       "prefLabel": {
-        "es": "retazos",
-        "en": "pendants"
+        "en": "pendants",
+        "es": "retazos"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/xenolito",
       "prefLabel": {
-        "es": "xenolito",
-        "en": "xenolith"
+        "en": "xenolith",
+        "es": "xenolito"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de",
     "prefLabel": {
-      "es": "parte de",
-      "en": "part of"
+      "en": "part of",
+      "es": "parte de"
     }
   },
   "exactMatch": [

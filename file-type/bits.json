@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/bits",
   "type": "Concept",
   "prefLabel": {
-    "es": "BITS XML",
-    "en": "BITS XML"
+    "en": "BITS XML",
+    "es": "BITS XML"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Book Interchange Tag Suite"
     ],
-    "en": [
+    "es": [
       "Book Interchange Tag Suite"
     ]
   },
   "definition": {
-    "es": "BITS – Book Interchange Tag Suite – es la 'versión de libro' de Journal Article Tag Suite (JATS); un formato XML utilizado para describir libros publicados en línea. BITS proporciona un formato XML común en el que editores y archivistas pueden describir elementos de contenido textual y gráfico. Para facilitar la reutilización, BITS proporciona un conjunto de etiquetas adecuado para soportar intercambio, archivado, conversión de formato y publicación.",
-    "en": "BITS – Book Interchange Tag Suite – is the ‘book version’ of Journal Article Tag Suite (JATS); an XML format used to describe books published online. BITS provides a common XML format in which publishers and archivists can describe textual and graphical content elements. In order to facilitate the reusability, BITS makes a tag set adequate for supporting interchange, archiving, format-conversion and publishing."
+    "en": "BITS – Book Interchange Tag Suite – is the ‘book version’ of Journal Article Tag Suite (JATS); an XML format used to describe books published online. BITS provides a common XML format in which publishers and archivists can describe textual and graphical content elements. In order to facilitate the reusability, BITS makes a tag set adequate for supporting interchange, archiving, format-conversion and publishing.",
+    "es": "BITS – Book Interchange Tag Suite – es la 'versión de libro' de Journal Article Tag Suite (JATS); un formato XML utilizado para describir libros publicados en línea. BITS proporciona un formato XML común en el que editores y archivistas pueden describir elementos de contenido textual y gráfico. Para facilitar la reutilización, BITS proporciona un conjunto de etiquetas adecuado para soportar intercambio, archivado, conversión de formato y publicación."
   },
+  "notation": [
+    "application/xml",
+    ".xml"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/xml"

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/gpx",
   "type": "Concept",
   "prefLabel": {
-    "es": "GPX",
-    "en": "GPX"
+    "en": "GPX",
+    "es": "GPX"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "GPS Exchange Format"
     ],
-    "en": [
+    "es": [
       "GPS Exchange Format"
     ]
   },
   "definition": {
-    "es": "Formato de datos XML ligero para el intercambio de datos GPS (puntos de referencia, rutas y tracks) entre aplicaciones y servicios web.",
-    "en": "light-weight XML data format for the interchange of GPS data (waypoints, routes, and tracks) between applications and web services"
+    "en": "light-weight XML data format for the interchange of GPS data (waypoints, routes, and tracks) between applications and web services",
+    "es": "Formato de datos XML ligero para el intercambio de datos GPS (puntos de referencia, rutas y tracks) entre aplicaciones y servicios web."
   },
+  "notation": [
+    "application/octet-stream",
+    ".gpx"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/octet-stream"

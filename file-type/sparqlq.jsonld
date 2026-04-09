@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/sparqlq",
   "type": "Concept",
   "prefLabel": {
-    "es": "SPARQL",
-    "en": "SPARQL"
+    "en": "SPARQL",
+    "es": "SPARQL"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "SPARQL Query"
     ],
-    "en": [
+    "es": [
       "SPARQL Query"
     ]
   },
   "definition": {
-    "es": "SPARQL – acrónimo recursivo de SPARQL Protocol and RDF Query Language – es un lenguaje de consulta RDF, es decir, un lenguaje de consulta semántico para bases de datos, capaz de recuperar y manipular datos almacenados en formato RDF. Es reconocido como una de las tecnologías clave de la web semántica.",
-    "en": "SPARQL – a recursive acronym for SPARQL Protocol and RDF Query Language – is an RDF query language, that is, a semantic query language for databases, able to retrieve and manipulate data stored in Resource Description Framework (RDF) format. It is recognised as one of the key technologies of the semantic web."
+    "en": "SPARQL – a recursive acronym for SPARQL Protocol and RDF Query Language – is an RDF query language, that is, a semantic query language for databases, able to retrieve and manipulate data stored in Resource Description Framework (RDF) format. It is recognised as one of the key technologies of the semantic web.",
+    "es": "SPARQL – acrónimo recursivo de SPARQL Protocol and RDF Query Language – es un lenguaje de consulta RDF, es decir, un lenguaje de consulta semántico para bases de datos, capaz de recuperar y manipular datos almacenados en formato RDF. Es reconocido como una de las tecnologías clave de la web semántica."
   },
+  "notation": [
+    ".sparqlq; .rq",
+    "application/sparql-query"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/SPARQLQ"

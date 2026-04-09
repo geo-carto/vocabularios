@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/las",
   "type": "Concept",
   "prefLabel": {
-    "es": "LASer file",
-    "en": "LASer file"
+    "en": "LASer file",
+    "es": "LASer file"
   },
   "definition": {
-    "es": "LAS – LASer file format – es el tipo de medio que se utilizará para un formato de archivo público para el intercambio de datos de nubes de puntos tridimensionales entre usuarios de datos.",
-    "en": "LAS – LASer file format – is the media type which shall be used for a public file format for the interchange of 3-dimensional point cloud data data between data users."
+    "en": "LAS – LASer file format – is the media type which shall be used for a public file format for the interchange of 3-dimensional point cloud data data between data users.",
+    "es": "LAS – LASer file format – es el tipo de medio que se utilizará para un formato de archivo público para el intercambio de datos de nubes de puntos tridimensionales entre usuarios de datos."
   },
+  "notation": [
+    ".las",
+    "application/x-las"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/LAS"

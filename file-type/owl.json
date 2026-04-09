@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/owl",
   "type": "Concept",
   "prefLabel": {
-    "es": "OWL",
-    "en": "OWL"
+    "en": "OWL",
+    "es": "OWL"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Web Ontology Language"
     ],
-    "en": [
+    "es": [
       "Web Ontology Language"
     ]
   },
   "definition": {
-    "es": "OWL – Web Ontology Language – es una familia de lenguajes de representación del conocimiento para la creación de ontologías.",
-    "en": "OWL – Web Ontology Language – is a family of knowledge representation languages for authoring ontologies."
+    "en": "OWL – Web Ontology Language – is a family of knowledge representation languages for authoring ontologies.",
+    "es": "OWL – Web Ontology Language – es una familia de lenguajes de representación del conocimiento para la creación de ontologías."
   },
+  "notation": [
+    ".rdf; .owl; .owx",
+    "application/owl+xml"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/OWL"

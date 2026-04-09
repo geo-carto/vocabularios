@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/bin",
   "type": "Concept",
   "prefLabel": {
-    "es": "Binary Data",
-    "en": "Binary Data"
+    "en": "Binary Data",
+    "es": "Binary Data"
   },
   "definition": {
-    "es": "Un archivo binario es un archivo informático que no es un archivo de texto.",
-    "en": "A binary file is a computer file that is not a text file."
+    "en": "A binary file is a computer file that is not a text file.",
+    "es": "Un archivo binario es un archivo informático que no es un archivo de texto."
   },
+  "notation": [
+    "application/octet-stream",
+    ".bin"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/octet-stream"

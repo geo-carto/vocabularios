@@ -2,33 +2,33 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-vertiente-de-piedemonte",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de sistema vertiente de piedemonte",
-    "en": "piedmont slope system setting"
+    "en": "piedmont slope system setting",
+    "es": "ambiente de sistema vertiente de piedemonte"
   },
   "definition": {
-    "es": "Se localiza en las suaves pendientes a los pies de una montaña; utilizado habitualmente para áreas situadas en cuencas intermontanas. Sus componentes principales incluyen: (a) Una superficie de erosión sobre lecho rocoso adyacente al frente montañoso en retroceso (pedimento, pedimento rocoso); (b) Una superficie constructiva que comprende abanicos aluviales individuales y valles inter abanico, también próxima al frente montañoso; y (c) Un complejo distal de abanicos coalescentes (bajada), y vertientes aluviales sin forma de abanico. Las vertientes del piedemonte pasan gradualmente a llanuras aluviales y lagos temporales de las depresiones del fondo de la cuenca o a superficies asociadas con el drenaje externo.",
-    "en": "Location on gentle slope at the foot of a mountain; generally used in terms of intermontane-basin terrain. Main components include: (a) An erosional surface on bedrock adjacent to the receding mountain front (pediment, rock pediment); (b) A constructional surface comprising individual alluvial fans and interfan valleys, also near the mountain front; and (c) A distal complex of coalescent fans (bajada), and alluvial slopes without fan form. Piedmont slopes grade to basin-floor depressions with alluvial and temporary lake plains or to surfaces associated with through drainage."
+    "en": "Location on gentle slope at the foot of a mountain; generally used in terms of intermontane-basin terrain. Main components include: (a) An erosional surface on bedrock adjacent to the receding mountain front (pediment, rock pediment); (b) A constructional surface comprising individual alluvial fans and interfan valleys, also near the mountain front; and (c) A distal complex of coalescent fans (bajada), and alluvial slopes without fan form. Piedmont slopes grade to basin-floor depressions with alluvial and temporary lake plains or to surfaces associated with through drainage.",
+    "es": "Se localiza en las suaves pendientes a los pies de una montaña; utilizado habitualmente para áreas situadas en cuencas intermontanas. Sus componentes principales incluyen: (a) Una superficie de erosión sobre lecho rocoso adyacente al frente montañoso en retroceso (pedimento, pedimento rocoso); (b) Una superficie constructiva que comprende abanicos aluviales individuales y valles inter abanico, también próxima al frente montañoso; y (c) Un complejo distal de abanicos coalescentes (bajada), y vertientes aluviales sin forma de abanico. Las vertientes del piedemonte pasan gradualmente a llanuras aluviales y lagos temporales de las depresiones del fondo de la cuenca o a superficies asociadas con el drenaje externo."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-abanico-aluvial",
       "prefLabel": {
-        "es": "ambiente de abanico aluvial",
-        "en": "alluvial fan setting"
+        "en": "alluvial fan setting",
+        "es": "ambiente de abanico aluvial"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-aluvial",
       "prefLabel": {
-        "es": "ambiente de llanura aluvial",
-        "en": "alluvial plain setting"
+        "en": "alluvial plain setting",
+        "es": "ambiente de llanura aluvial"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-pedimento",
       "prefLabel": {
-        "es": "ambiente de pedimento",
-        "en": "pediment setting"
+        "en": "pediment setting",
+        "es": "ambiente de pedimento"
       }
     }
   ],

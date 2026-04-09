@@ -2,26 +2,30 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/gelasiense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Gelasiense",
-    "en": "Gelasian"
+    "en": "Gelasian",
+    "es": "Gelasiense"
   },
   "definition": {
-    "es": "Límite inferior 2.58 Ma, límite superior 1.8 Ma",
-    "en": "Older bound 2.58 Ma, younger bound 1.8 Ma"
+    "en": "Older bound 2.58 Ma, younger bound 1.8 Ma",
+    "es": "Límite inferior 2.58 Ma, límite superior 1.8 Ma"
   },
+  "notation": [
+    "213030111000.0",
+    "a1.1.1.1.2.4"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-inferior",
     "prefLabel": {
-      "es": "Pleistoceno Inferior",
-      "en": "Lower Pleistocene"
+      "en": "Lower Pleistocene",
+      "es": "Pleistoceno Inferior"
     }
   },
   "related": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/villafranquiense",
       "prefLabel": {
-        "es": "Villafranquiense",
-        "en": "Villafranchian"
+        "en": "Villafranchian",
+        "es": "Villafranquiense"
       }
     }
   ],

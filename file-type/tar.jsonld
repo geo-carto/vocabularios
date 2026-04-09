@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/tar",
   "type": "Concept",
   "prefLabel": {
-    "es": "TAR",
-    "en": "TAR"
+    "en": "TAR",
+    "es": "TAR"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Tape Archive"
     ],
-    "en": [
+    "es": [
       "Tape Archive"
     ]
   },
   "definition": {
-    "es": "TAR – tape archive – es una utilidad de software informático para recopilar muchos archivos en un único archivo de almacenamiento para distribución o copia de seguridad.",
-    "en": "TAR – tape archive – is a computer software utility for collecting many files into one archive file for distribution or backup purposes."
+    "en": "TAR – tape archive – is a computer software utility for collecting many files into one archive file for distribution or backup purposes.",
+    "es": "TAR – tape archive – es una utilidad de software informático para recopilar muchos archivos en un único archivo de almacenamiento para distribución o copia de seguridad."
   },
+  "notation": [
+    ".tar",
+    "application/x-tar"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/TAR"

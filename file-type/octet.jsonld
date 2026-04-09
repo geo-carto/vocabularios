@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/octet",
   "type": "Concept",
   "prefLabel": {
-    "es": "Octet Stream",
-    "en": "Octet Stream"
+    "en": "Octet Stream",
+    "es": "Octet Stream"
   },
   "definition": {
-    "es": "Octet es el tipo de medio de Internet para un flujo de bytes arbitrario. Un flujo de bytes u octetos es una serie de bytes.",
-    "en": "Octet is the Internet media type for an arbitrary byte stream. A byte streamor octet stream is a series of bytes."
+    "en": "Octet is the Internet media type for an arbitrary byte stream. A byte streamor octet stream is a series of bytes.",
+    "es": "Octet es el tipo de medio de Internet para un flujo de bytes arbitrario. Un flujo de bytes u octetos es una serie de bytes."
   },
+  "notation": [
+    "application/octet-stream",
+    ".zoo"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/octet-stream"

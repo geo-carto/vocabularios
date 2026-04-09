@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/spss_sav",
   "type": "Concept",
   "prefLabel": {
-    "es": "SPSS SAV",
-    "en": "SPSS SAV"
+    "en": "SPSS SAV",
+    "es": "SPSS SAV"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "SPSS Statistics file"
     ],
-    "en": [
+    "es": [
       "SPSS Statistics file"
     ]
   },
   "definition": {
-    "es": "Formato de datos propietario del software estadístico SPSS.",
-    "en": "proprietary data format of the statistical software SPSS"
+    "en": "proprietary data format of the statistical software SPSS",
+    "es": "Formato de datos propietario del software estadístico SPSS."
   },
+  "notation": [
+    "application/octet-stream",
+    ".sav"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/octet-stream"

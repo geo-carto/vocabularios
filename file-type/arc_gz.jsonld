@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/arc_gz",
   "type": "Concept",
   "prefLabel": {
-    "es": "ARC GZ",
-    "en": "ARC GZ"
+    "en": "ARC GZ",
+    "es": "ARC GZ"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Compressed Internet Archive ARC file format"
     ],
-    "en": [
+    "es": [
       "Compressed Internet Archive ARC file format"
     ]
   },
   "definition": {
-    "es": "ARC es el formato de archivo de Internet Archive. Los archivos ARC son grandes archivos agregados. ARC GZ es ARC comprimido con GZIP.",
-    "en": "ARC is the archive file format of Internet Archive. ARC files are large aggregate files. ARC GZ is ARC compressed by GZIP."
+    "en": "ARC is the archive file format of Internet Archive. ARC files are large aggregate files. ARC GZ is ARC compressed by GZIP.",
+    "es": "ARC es el formato de archivo de Internet Archive. Los archivos ARC son grandes archivos agregados. ARC GZ es ARC comprimido con GZIP."
   },
+  "notation": [
+    ".arc.gz",
+    "application/gzip"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/ARC_GZ"

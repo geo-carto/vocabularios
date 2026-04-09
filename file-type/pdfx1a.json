@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pdfx1a",
   "type": "Concept",
   "prefLabel": {
-    "es": "PDF/X-1a",
-    "en": "PDF/X-1a"
+    "en": "PDF/X-1a",
+    "es": "PDF/X-1a"
   },
   "definition": {
-    "es": "PDF/X-1a es una especificación PDF que completa el intercambio utilizando datos CMYK y datos de impresión de colores directos.",
-    "en": "PDF/X-1a is a PDF specification which completes exchange using CMYK data and spots colour printing data."
+    "en": "PDF/X-1a is a PDF specification which completes exchange using CMYK data and spots colour printing data.",
+    "es": "PDF/X-1a es una especificación PDF que completa el intercambio utilizando datos CMYK y datos de impresión de colores directos."
   },
+  "notation": [
+    ".pdf",
+    "application/pdf"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/pdf"

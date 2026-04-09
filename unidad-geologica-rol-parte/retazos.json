@@ -2,41 +2,41 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazos",
   "type": "Concept",
   "prefLabel": {
-    "es": "retazos",
-    "en": "pendants"
+    "en": "pendants",
+    "es": "retazos"
   },
   "definition": {
-    "es": "Un bloque de material de roca de pared en una intrusión ígnea. Los colgantes se convierten en xenolitos a medida que la dimensión se vuelve más pequeña que aproximadamente 10 m en su dimensión más larga. Aunque el término colgante tiene la connotación de estar suspendido o sostenido desde arriba, esto rara vez se puede demostrar en situaciones geológicas, y el concepto aquí no requiere conexión con la pared de la intrusión que lo contiene",
-    "en": "A block of wall rock material in an igneous intrusion. Pendants become xenoliths as the dimension becomes smaller than about 10 m in their longest dimension. Although term pendant has connotation of being suspended or supported from above, this is rarely demonstrable in geologic situations, and the concept here does not require connection to the wall of the containing intrusion"
+    "en": "A block of wall rock material in an igneous intrusion. Pendants become xenoliths as the dimension becomes smaller than about 10 m in their longest dimension. Although term pendant has connotation of being suspended or supported from above, this is rarely demonstrable in geologic situations, and the concept here does not require connection to the wall of the containing intrusion",
+    "es": "Un bloque de material de roca de pared en una intrusión ígnea. Los colgantes se convierten en xenolitos a medida que la dimensión se vuelve más pequeña que aproximadamente 10 m en su dimensión más larga. Aunque el término colgante tiene la connotación de estar suspendido o sostenido desde arriba, esto rara vez se puede demostrar en situaciones geológicas, y el concepto aquí no requiere conexión con la pared de la intrusión que lo contiene"
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/balsas",
       "prefLabel": {
-        "es": "balsas",
-        "en": "rafts"
+        "en": "rafts",
+        "es": "balsas"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/cortina",
       "prefLabel": {
-        "es": "cortina",
-        "en": "screen"
+        "en": "screen",
+        "es": "cortina"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazo-de-techo",
       "prefLabel": {
-        "es": "retazo de techo",
-        "en": "roof pendant"
+        "en": "roof pendant",
+        "es": "retazo de techo"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion",
     "prefLabel": {
-      "es": "inclusión",
-      "en": "inclusion"
+      "en": "inclusion",
+      "es": "inclusión"
     }
   },
   "exactMatch": [

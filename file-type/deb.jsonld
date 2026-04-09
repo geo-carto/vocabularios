@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/deb",
   "type": "Concept",
   "prefLabel": {
-    "es": "deb",
-    "en": "deb"
+    "en": "deb",
+    "es": "deb"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Debian package"
     ],
-    "en": [
+    "es": [
       "Debian package"
     ]
   },
   "definition": {
-    "es": "El paquete Debian es un archivo estándar Unix ar que incluye dos archivos tar. Un archivo contiene la información de control y otro contiene los datos instalables.",
-    "en": "Debian package is a standard Unix ar archive that includes two tar archives. One archive holds the control information and another contains the installable data."
+    "en": "Debian package is a standard Unix ar archive that includes two tar archives. One archive holds the control information and another contains the installable data.",
+    "es": "El paquete Debian es un archivo estándar Unix ar que incluye dos archivos tar. Un archivo contiene la información de control y otro contiene los datos instalables."
   },
+  "notation": [
+    ".deb",
+    "application/vnd.debian.binary-package"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/DEB"

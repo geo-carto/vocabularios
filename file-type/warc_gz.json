@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/warc_gz",
   "type": "Concept",
   "prefLabel": {
-    "es": "WARC GZ",
-    "en": "WARC GZ"
+    "en": "WARC GZ",
+    "es": "WARC GZ"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Compressed Web Archive format"
     ],
-    "en": [
+    "es": [
       "Compressed Web Archive format"
     ]
   },
   "definition": {
-    "es": "WARC es un formato de archivo web que especifica un método para combinar múltiples recursos digitales en un archivo agregado junto con información relacionada. WARC GZ es WARC comprimido con GZIP.",
-    "en": "WARC is a web archive format which specifies a method for combining multiple digital resources into an aggregate archive file together with related information. WARC GZ is WARC compressed by GZIP."
+    "en": "WARC is a web archive format which specifies a method for combining multiple digital resources into an aggregate archive file together with related information. WARC GZ is WARC compressed by GZIP.",
+    "es": "WARC es un formato de archivo web que especifica un método para combinar múltiples recursos digitales en un archivo agregado junto con información relacionada. WARC GZ es WARC comprimido con GZIP."
   },
+  "notation": [
+    "application/gzip",
+    ".warc.gz"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/gzip"

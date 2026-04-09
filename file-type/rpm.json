@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/rpm",
   "type": "Concept",
   "prefLabel": {
-    "es": "RPM",
-    "en": "RPM"
+    "en": "RPM",
+    "es": "RPM"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "RPM Package"
     ],
-    "en": [
+    "es": [
       "RPM Package"
     ]
   },
   "definition": {
-    "es": "Formato de archivo para RPM Package Manager (originalmente Red Hat Package Manager), sistema de gestión de paquetes libre y de código abierto.",
-    "en": "File format for RPM Package Manager (originally Red Hat Package Manager), free and open-source package management system."
+    "en": "File format for RPM Package Manager (originally Red Hat Package Manager), free and open-source package management system.",
+    "es": "Formato de archivo para RPM Package Manager (originalmente Red Hat Package Manager), sistema de gestión de paquetes libre y de código abierto."
   },
+  "notation": [
+    ".rpm",
+    "application/x-rpm"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/RPM"

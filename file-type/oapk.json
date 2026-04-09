@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/oapk",
   "type": "Concept",
   "prefLabel": {
-    "es": "OAPK",
-    "en": "OAPK"
+    "en": "OAPK",
+    "es": "OAPK"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Android Package (Oculus)"
     ],
-    "en": [
+    "es": [
       "Android Package (Oculus)"
     ]
   },
   "definition": {
-    "es": "Un Android Package (APK) con características especiales utilizado por el sistema operativo Android para la distribución e instalación de aplicaciones móviles de Oculus.",
-    "en": "An Android Package (APK) with special features used by the Android operating system for the distribution and installation of Oculus mobile apps."
+    "en": "An Android Package (APK) with special features used by the Android operating system for the distribution and installation of Oculus mobile apps.",
+    "es": "Un Android Package (APK) con características especiales utilizado por el sistema operativo Android para la distribución e instalación de aplicaciones móviles de Oculus."
   },
+  "notation": [
+    ".apk; .xapk",
+    "application/vnd.android.package-archive"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/vnd.android.package-archive"

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/xslt",
   "type": "Concept",
   "prefLabel": {
-    "es": "XSLT",
-    "en": "XSLT"
+    "en": "XSLT",
+    "es": "XSLT"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Extensible Stylesheet Language Transformations"
     ],
-    "en": [
+    "es": [
       "Extensible Stylesheet Language Transformations"
     ]
   },
   "definition": {
-    "es": "XSLT – Extensible Stylesheet Language Transformations – es un lenguaje para transformar documentos XML en otros documentos XML u otros formatos como HTML para páginas web, texto plano o XSL Formatting Objects, que pueden convertirse posteriormente en otros formatos como PDF, PostScript y PNG.",
-    "en": "XSLT – Extensible Stylesheet Language Transformations – is a language for transforming XML documents into other XML documents or other formats such as HTML for web pages, plain text or XSL Formatting Objects, which may subsequently be converted to other formats, such as PDF, PostScript and PNG."
+    "en": "XSLT – Extensible Stylesheet Language Transformations – is a language for transforming XML documents into other XML documents or other formats such as HTML for web pages, plain text or XSL Formatting Objects, which may subsequently be converted to other formats, such as PDF, PostScript and PNG.",
+    "es": "XSLT – Extensible Stylesheet Language Transformations – es un lenguaje para transformar documentos XML en otros documentos XML u otros formatos como HTML para páginas web, texto plano o XSL Formatting Objects, que pueden convertirse posteriormente en otros formatos como PDF, PostScript y PNG."
   },
+  "notation": [
+    ".xsl; .xslt",
+    "application/xslt+xml"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/XSLT"

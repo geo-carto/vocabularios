@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/sgml",
   "type": "Concept",
   "prefLabel": {
-    "es": "SGML",
-    "en": "SGML"
+    "en": "SGML",
+    "es": "SGML"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Standard Generalized Mark-up Language"
     ],
-    "en": [
+    "es": [
       "Standard Generalized Mark-up Language"
     ]
   },
   "definition": {
-    "es": "SGML – Standard Generalized Markup Language – es un estándar para definir lenguajes de marcado generalizados para documentos. El marcado generalizado se basa en dos postulados: el marcado debe ser declarativo y riguroso.",
-    "en": "SGML – Standard Generalized Markup Language – is a standard for defining generalized markup languages for documents. Generalized markup is based on two postulates: markup should be declarative and rigorous."
+    "en": "SGML – Standard Generalized Markup Language – is a standard for defining generalized markup languages for documents. Generalized markup is based on two postulates: markup should be declarative and rigorous.",
+    "es": "SGML – Standard Generalized Markup Language – es un estándar para definir lenguajes de marcado generalizados para documentos. El marcado generalizado se basa en dos postulados: el marcado debe ser declarativo y riguroso."
   },
+  "notation": [
+    "text/sgml",
+    ".sgm; .sgml"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/text/sgml"

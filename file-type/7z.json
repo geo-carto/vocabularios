@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/7z",
   "type": "Concept",
   "prefLabel": {
-    "es": "7z",
-    "en": "7z"
+    "en": "7z",
+    "es": "7z"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "7-Zip compressed file"
     ],
-    "en": [
+    "es": [
       "7-Zip compressed file"
     ]
   },
   "definition": {
-    "es": "7z es un formato de archivo comprimido que soporta varios algoritmos diferentes de compresión de datos, cifrado y preprocesamiento.",
-    "en": "7z is a compressed archive file format that supports several different data compression, encryption and pre-processing algorithms."
+    "en": "7z is a compressed archive file format that supports several different data compression, encryption and pre-processing algorithms.",
+    "es": "7z es un formato de archivo comprimido que soporta varios algoritmos diferentes de compresión de datos, cifrado y preprocesamiento."
   },
+  "notation": [
+    ".7z",
+    "application/x-7z-compressed"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/7Z"

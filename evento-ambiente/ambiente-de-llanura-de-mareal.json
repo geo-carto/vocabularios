@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-de-mareal",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de llanura de mareal",
-    "en": "tidal flat setting"
+    "en": "tidal flat setting",
+    "es": "ambiente de llanura de mareal"
   },
   "definition": {
-    "es": "Un terreno extenso, casi horizontal, y yermo cubierto y descubierto alternativamente por las mareas, y que consiste en sedimentos no consolidados (en su mayoría fango y arena). Puede formarse en la superficie superior de un depósito deltaico.",
-    "en": "An extensive, nearly horizontal, barren tract of land that is alternately covered and uncovered by the tide, and consisting of unconsolidated sediment (mostly mud and sand). It may form the top surface of a deltaic deposit."
+    "en": "An extensive, nearly horizontal, barren tract of land that is alternately covered and uncovered by the tide, and consisting of unconsolidated sediment (mostly mud and sand). It may form the top surface of a deltaic deposit.",
+    "es": "Un terreno extenso, casi horizontal, y yermo cubierto y descubierto alternativamente por las mareas, y que consiste en sedimentos no consolidados (en su mayoría fango y arena). Puede formarse en la superficie superior de un depósito deltaico."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-marisma-mareal",
       "prefLabel": {
-        "es": "ambiente de marisma mareal",
-        "en": "tidal marsh setting"
+        "en": "tidal marsh setting",
+        "es": "ambiente de marisma mareal"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-mareal",
     "prefLabel": {
-      "es": "ambiente mareal",
-      "en": "tidal setting"
+      "en": "tidal setting",
+      "es": "ambiente mareal"
     }
   },
   "exactMatch": [

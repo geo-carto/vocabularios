@@ -2,41 +2,45 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/fanerozoico",
   "type": "Concept",
   "prefLabel": {
-    "es": "Fanerozoico",
-    "en": "Phanerozoic"
+    "en": "Phanerozoic",
+    "es": "Fanerozoico"
   },
   "definition": {
-    "es": "Límite inferior 538.8 +|-0.2 Ma, límite superior 0.0 Ma",
-    "en": "Older bound 538.8 +|-0.2 Ma, younger bound 0.0 Ma"
+    "en": "Older bound 538.8 +|-0.2 Ma, younger bound 0.0 Ma",
+    "es": "Límite inferior 538.8 +|-0.2 Ma, límite superior 0.0 Ma"
   },
+  "notation": [
+    "210000000000.0",
+    "a1.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cenozoico",
       "prefLabel": {
-        "es": "Cenozoico",
-        "en": "Cenozoic"
+        "en": "Cenozoic",
+        "es": "Cenozoico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesozoico",
       "prefLabel": {
-        "es": "Mesozoico",
-        "en": "Mesozoic"
+        "en": "Mesozoic",
+        "es": "Mesozoico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico",
       "prefLabel": {
-        "es": "Paleozoico",
-        "en": "Paleozoic"
+        "en": "Paleozoic",
+        "es": "Paleozoico"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/megalayense/edad-cronoestratigrafica",
     "prefLabel": {
-      "es": "Edad cronoestratigráfica",
-      "en": "Chronostratigraphic Ages"
+      "en": "Chronostratigraphic Ages",
+      "es": "Edad cronoestratigráfica"
     }
   },
   "exactMatch": [

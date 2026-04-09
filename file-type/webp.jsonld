@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/webp",
   "type": "Concept",
   "prefLabel": {
-    "es": "WebP",
-    "en": "WebP"
+    "en": "WebP",
+    "es": "WebP"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "WebP image"
     ],
-    "en": [
+    "es": [
       "WebP image"
     ]
   },
   "definition": {
-    "es": "WebP es un formato de archivo de imagen desarrollado por Google como reemplazo de los formatos JPEG, PNG y GIF. Soporta tanto compresión con pérdida como sin pérdida, así como animación y transparencia alfa.",
-    "en": "WebP is an image file format developed by Google intended as a replacement for JPEG, PNG, and GIF file formats. It supports both lossy and lossless compression, as well as animation and alpha transparency."
+    "en": "WebP is an image file format developed by Google intended as a replacement for JPEG, PNG, and GIF file formats. It supports both lossy and lossless compression, as well as animation and alpha transparency.",
+    "es": "WebP es un formato de archivo de imagen desarrollado por Google como reemplazo de los formatos JPEG, PNG y GIF. Soporta tanto compresión con pérdida como sin pérdida, así como animación y transparencia alfa."
   },
+  "notation": [
+    ".webp",
+    "image/webp"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/WEBP"

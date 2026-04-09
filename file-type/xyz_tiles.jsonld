@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/xyz_tiles",
   "type": "Concept",
   "prefLabel": {
-    "es": "XYZ Tiles",
-    "en": "XYZ Tiles"
+    "en": "XYZ Tiles",
+    "es": "XYZ Tiles"
   },
   "altLabel": {
-    "es": [
-      "Teselas XYZ"
-    ],
     "en": [
       "Slippy Map Tiles"
+    ],
+    "es": [
+      "Teselas XYZ"
     ]
   },
   "definition": {
-    "es": "XYZ Tiles (también conocido como Slippy Map Tiles) es un esquema de teselado de mapas web donde las teselas rasterizadas se organizan según su coordenada de zoom (z), columna (x) y fila (y). Es el esquema de teselado más ampliamente utilizado en cartografía web, popularizado por OpenStreetMap y Google Maps.",
-    "en": "XYZ Tiles (also known as Slippy Map Tiles) is a web map tiling scheme where raster tiles are organized by their zoom coordinate (z), column (x), and row (y). It is the most widely used tiling scheme in web mapping, popularized by OpenStreetMap and Google Maps."
+    "en": "XYZ Tiles (also known as Slippy Map Tiles) is a web map tiling scheme where raster tiles are organized by their zoom coordinate (z), column (x), and row (y). It is the most widely used tiling scheme in web mapping, popularized by OpenStreetMap and Google Maps.",
+    "es": "XYZ Tiles (también conocido como Slippy Map Tiles) es un esquema de teselado de mapas web donde las teselas rasterizadas se organizan según su coordenada de zoom (z), columna (x) y fila (y). Es el esquema de teselado más ampliamente utilizado en cartografía web, popularizado por OpenStreetMap y Google Maps."
   },
+  "notation": [
+    "image/png; image/jpeg"
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/file-type"

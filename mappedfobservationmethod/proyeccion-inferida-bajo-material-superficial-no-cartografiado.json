@@ -2,18 +2,18 @@
   "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/proyeccion-inferida-bajo-material-superficial-no-cartografiado",
   "type": "Concept",
   "prefLabel": {
-    "es": "proyección inferida bajo material superficial no cartografiado",
-    "en": "inferred projection beneath unmapped surficial material"
+    "en": "inferred projection beneath unmapped surficial material",
+    "es": "proyección inferida bajo material superficial no cartografiado"
   },
   "definition": {
-    "es": "La ubicación y especificación se determinan por continuidad inferida entre ubicaciones observadas, asumiendo continuidad del elemento. No es observable debido a un manto superficial de suelo, detritos o coluvión, que no ha sido cartografiado como unidad geológica separada.",
-    "en": "Location and specification determined based on inferred continuity with observed locations, and assumption of continuity of the feature. Not observable because of covering mantle of soil, talus or colluvium, not mapped as separate geologic units."
+    "en": "Location and specification determined based on inferred continuity with observed locations, and assumption of continuity of the feature. Not observable because of covering mantle of soil, talus or colluvium, not mapped as separate geologic units.",
+    "es": "La ubicación y especificación se determinan por continuidad inferida entre ubicaciones observadas, asumiendo continuidad del elemento. No es observable debido a un manto superficial de suelo, detritos o coluvión, que no ha sido cartografiado como unidad geológica separada."
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/proyeccion-inferida-entre-ubicaciones-observadas",
     "prefLabel": {
-      "es": "proyección inferida entre ubicaciones observadas",
-      "en": "inferred projection between observed locations"
+      "en": "inferred projection between observed locations",
+      "es": "proyección inferida entre ubicaciones observadas"
     }
   },
   "exactMatch": [

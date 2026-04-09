@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/shp",
   "type": "Concept",
   "prefLabel": {
-    "es": "Esri Shape",
-    "en": "Esri Shape"
+    "en": "Esri Shape",
+    "es": "Esri Shape"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Environmental Systems Research Institute Shape"
     ],
-    "en": [
+    "es": [
       "Environmental Systems Research Institute Shape"
     ]
   },
   "definition": {
-    "es": "SHP – shapefile format – es un formato de datos vectoriales geoespaciales popular para software de sistemas de información geográfica (SIG). El shapefile de Esri es un archivo zip que contiene al menos los archivos shp, shx y dbf.",
-    "en": "SHP – shapefile format – is a popular geospatial vector data format for geographic information system (GIS) software. Esri shapefile is a zip archive that contains at least the shp, shx and dbf files."
+    "en": "SHP – shapefile format – is a popular geospatial vector data format for geographic information system (GIS) software. Esri shapefile is a zip archive that contains at least the shp, shx and dbf files.",
+    "es": "SHP – shapefile format – es un formato de datos vectoriales geoespaciales popular para software de sistemas de información geográfica (SIG). El shapefile de Esri es un archivo zip que contiene al menos los archivos shp, shx y dbf."
   },
+  "notation": [
+    ".dbf; .shp; .shx",
+    "application/x-shapefile"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/SHP"

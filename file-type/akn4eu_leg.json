@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/akn4eu_leg",
   "type": "Concept",
   "prefLabel": {
-    "es": "AKN4EU LEG",
-    "en": "AKN4EU LEG"
+    "en": "AKN4EU LEG",
+    "es": "AKN4EU LEG"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Akoma Ntoso ZIP archive"
     ],
-    "en": [
+    "es": [
       "Akoma Ntoso ZIP archive"
     ]
   },
   "definition": {
-    "es": "Archivo ZIP que contiene una manifestación AKN4EU de un documento en una variante lingüística emitida en el proceso de toma de decisiones legales; debe contener al menos un archivo AKN4EU que comience con el prefijo 'main-', que constituye el punto de entrada, y puede contener otros archivos y subcarpetas asociados.",
-    "en": "ZIP archive containing an AKN4EU manifestation of a document in one linguistic variant issued in the legal decision-making process; it must contain at least an AKN4EU file starting with the prefix ‘main-’, which constitutes the entry point, and may contain other associated files and subfolders"
+    "en": "ZIP archive containing an AKN4EU manifestation of a document in one linguistic variant issued in the legal decision-making process; it must contain at least an AKN4EU file starting with the prefix ‘main-’, which constitutes the entry point, and may contain other associated files and subfolders",
+    "es": "Archivo ZIP que contiene una manifestación AKN4EU de un documento en una variante lingüística emitida en el proceso de toma de decisiones legales; debe contener al menos un archivo AKN4EU que comience con el prefijo 'main-', que constituye el punto de entrada, y puede contener otros archivos y subcarpetas asociados."
   },
+  "notation": [
+    ".leg",
+    "application/zip"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/AKN4EU_LEG"

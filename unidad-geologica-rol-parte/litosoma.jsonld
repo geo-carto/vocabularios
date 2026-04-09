@@ -2,69 +2,69 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma",
   "type": "Concept",
   "prefLabel": {
-    "es": "litosoma",
-    "en": "lithosome"
+    "en": "lithosome",
+    "es": "litosoma"
   },
   "definition": {
-    "es": "Un tipo de cuerpo rocoso que tiene múltiples ocurrencias en una sola unidad geológica. Masa de roca de carácter uniforme, caracterizada por su geometría, composición y estructura interna. Generalmente denota un macizo rocoso que es el producto de un proceso particular de formación de rocas o una secuencia relacionada de procesos en la unidad contenedora. Ejemplo: secuencia bouma, secuencia de barras de puntos. Un litosoma particular puede caracterizarse por la presencia de bloques, pero los bloques no se tratan como clases de litosoma porque el carácter interno de los bloques está determinado por una secuencia genética separada de la unidad descrita. Este vocabulario generaliza el concepto definido en Neuendorf et al 2005 para incluir cuerpos de rocas ígneas o metamórficas, así como rocas sedimentarias. Los NADM SLTT (2004) utilizaron el término 'litotopo' con un significado similar para las rocas sedimentarias",
-    "en": "A kind of rock body that has multiple occurrences in a single geologic unit. A mass of rock of uniform character, characterized by geometry, composition, and internal structure. Generally denotes rock mass that is the product of a particular rock forming process or related sequence of processes in the containing unit. Example--bouma sequence, point bar sequence. A particular lithosome may be characterized by the presence of blocks, but blocks are not treated as kinds of lithosome because the internal character of the blocks is determined by a separate genetic sequence from the described unit. This vocabulary generalizes the concept defined in Neuendorf et al 2005 to include bodies of igneous or metamorphic rock as well as sedimentary rock. NADM SLTTs (2004) used the term 'lithotope' with similar meaning for sedimentary rocks"
+    "en": "A kind of rock body that has multiple occurrences in a single geologic unit. A mass of rock of uniform character, characterized by geometry, composition, and internal structure. Generally denotes rock mass that is the product of a particular rock forming process or related sequence of processes in the containing unit. Example--bouma sequence, point bar sequence. A particular lithosome may be characterized by the presence of blocks, but blocks are not treated as kinds of lithosome because the internal character of the blocks is determined by a separate genetic sequence from the described unit. This vocabulary generalizes the concept defined in Neuendorf et al 2005 to include bodies of igneous or metamorphic rock as well as sedimentary rock. NADM SLTTs (2004) used the term 'lithotope' with similar meaning for sedimentary rocks",
+    "es": "Un tipo de cuerpo rocoso que tiene múltiples ocurrencias en una sola unidad geológica. Masa de roca de carácter uniforme, caracterizada por su geometría, composición y estructura interna. Generalmente denota un macizo rocoso que es el producto de un proceso particular de formación de rocas o una secuencia relacionada de procesos en la unidad contenedora. Ejemplo: secuencia bouma, secuencia de barras de puntos. Un litosoma particular puede caracterizarse por la presencia de bloques, pero los bloques no se tratan como clases de litosoma porque el carácter interno de los bloques está determinado por una secuencia genética separada de la unidad descrita. Este vocabulario generaliza el concepto definido en Neuendorf et al 2005 para incluir cuerpos de rocas ígneas o metamórficas, así como rocas sedimentarias. Los NADM SLTT (2004) utilizaron el término 'litotopo' con un significado similar para las rocas sedimentarias"
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-litologica",
       "prefLabel": {
-        "es": "capa litológica",
-        "en": "bed lithosome"
+        "en": "bed lithosome",
+        "es": "capa litológica"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/dique-o-vena",
       "prefLabel": {
-        "es": "dique o vena",
-        "en": "vein or dike lithosome"
+        "en": "vein or dike lithosome",
+        "es": "dique o vena"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-estratificado",
       "prefLabel": {
-        "es": "litosoma estratificado",
-        "en": "layer lithosome"
+        "en": "layer lithosome",
+        "es": "litosoma estratificado"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-irregular",
       "prefLabel": {
-        "es": "litosoma irregular",
-        "en": "irregular lithosome"
+        "en": "irregular lithosome",
+        "es": "litosoma irregular"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-lenticular",
       "prefLabel": {
-        "es": "litosoma lenticular",
-        "en": "lenticular lithosome"
+        "en": "lenticular lithosome",
+        "es": "litosoma lenticular"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/matriz-de-unidad-geologica",
       "prefLabel": {
-        "es": "matriz de unidad geológica",
-        "en": "geologic unit matrix"
+        "en": "geologic unit matrix",
+        "es": "matriz de unidad geológica"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/paquete-sedimentario-ciclico",
       "prefLabel": {
-        "es": "paquete sedimentario cíclico",
-        "en": "cyclic bedding package"
+        "en": "cyclic bedding package",
+        "es": "paquete sedimentario cíclico"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de",
     "prefLabel": {
-      "es": "parte de",
-      "en": "part of"
+      "en": "part of",
+      "es": "parte de"
     }
   },
   "exactMatch": [

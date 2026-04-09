@@ -2,26 +2,30 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/zancliense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Zancliense",
-    "en": "Zanclean"
+    "en": "Zanclean",
+    "es": "Zancliense"
   },
   "definition": {
-    "es": "Límite inferior 5.333 Ma, límite superior 3.6 Ma",
-    "en": "Older bound 5.333 Ma, younger bound 3.6 Ma"
+    "en": "Older bound 5.333 Ma, younger bound 3.6 Ma",
+    "es": "Límite inferior 5.333 Ma, límite superior 3.6 Ma"
   },
+  "notation": [
+    "213020211000.0",
+    "a1.1.1.2.1.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/plioceno-inferior",
     "prefLabel": {
-      "es": "Plioceno Inferior",
-      "en": "Lower Pliocene"
+      "en": "Lower Pliocene",
+      "es": "Plioceno Inferior"
     }
   },
   "related": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/rusciniense",
       "prefLabel": {
-        "es": "Rusciniense",
-        "en": "Ruscinian"
+        "en": "Ruscinian",
+        "es": "Rusciniense"
       }
     }
   ],

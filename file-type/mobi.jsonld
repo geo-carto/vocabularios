@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/mobi",
   "type": "Concept",
   "prefLabel": {
-    "es": "Mobipocket eBook",
-    "en": "Mobipocket eBook"
+    "en": "Mobipocket eBook",
+    "es": "Mobipocket eBook"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Mobipocket eBook format"
     ],
-    "en": [
+    "es": [
       "Mobipocket eBook format"
     ]
   },
   "definition": {
-    "es": "Mobipocket eBook es un formato de archivo de libro electrónico propietario de la empresa Mobipocket SA que puede ser utilizado por teléfonos móviles, asistentes digitales personales (PDA) y sistemas operativos de escritorio.",
-    "en": "Mobipocket eBook is a proprietary e-book file format of Mobipocket SA company that can be used by mobile phones, personal digital assistants (PDA) and desktop operating systems."
+    "en": "Mobipocket eBook is a proprietary e-book file format of Mobipocket SA company that can be used by mobile phones, personal digital assistants (PDA) and desktop operating systems.",
+    "es": "Mobipocket eBook es un formato de archivo de libro electrónico propietario de la empresa Mobipocket SA que puede ser utilizado por teléfonos móviles, asistentes digitales personales (PDA) y sistemas operativos de escritorio."
   },
+  "notation": [
+    ".mobi; .prc",
+    "application/x-mobipocket-ebook"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/MOBI"

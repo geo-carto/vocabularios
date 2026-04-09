@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional",
   "type": "Concept",
   "prefLabel": {
-    "es": "falla contraccional",
-    "en": "extraction fault"
+    "en": "extraction fault",
+    "es": "falla contraccional"
   },
   "definition": {
-    "es": "Falla cuyos dos lados se han aproximado notablemente entre sí en la dirección perpendicular a la falla.",
-    "en": "A fault whose two sides have approached each other substantially in the direction perpendicular to the fault."
+    "en": "A fault whose two sides have approached each other substantially in the direction perpendicular to the fault.",
+    "es": "Falla cuyos dos lados se han aproximado notablemente entre sí en la dirección perpendicular a la falla."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional-mixta",
       "prefLabel": {
-        "es": "falla contraccional mixta",
-        "en": "mixed extraction fault"
+        "en": "mixed extraction fault",
+        "es": "falla contraccional mixta"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional-pura",
       "prefLabel": {
-        "es": "falla contraccional pura",
-        "en": "pure extraction fault"
+        "en": "pure extraction fault",
+        "es": "falla contraccional pura"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla",
     "prefLabel": {
-      "es": "falla",
-      "en": "fault"
+      "en": "fault",
+      "es": "falla"
     }
   },
   "exactMatch": [

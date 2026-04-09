@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/aac",
   "type": "Concept",
   "prefLabel": {
-    "es": "AAC",
-    "en": "AAC"
+    "en": "AAC",
+    "es": "AAC"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Advanced Audio Coding"
     ],
-    "en": [
+    "es": [
       "Advanced Audio Coding"
     ]
   },
   "definition": {
-    "es": "Advanced Audio Coding (AAC) es un estándar de codificación de audio para compresión de audio digital con pérdida. Diseñado como sucesor del formato MP3, AAC generalmente logra mayor calidad de sonido que MP3 a la misma tasa de bits.",
-    "en": "Advanced Audio Coding (AAC) is an audio coding standard for lossy digital audio compression. Designed to be the successor of the MP3 format, AAC generally achieves higher sound quality than MP3 at the same bit rate."
+    "en": "Advanced Audio Coding (AAC) is an audio coding standard for lossy digital audio compression. Designed to be the successor of the MP3 format, AAC generally achieves higher sound quality than MP3 at the same bit rate.",
+    "es": "Advanced Audio Coding (AAC) es un estándar de codificación de audio para compresión de audio digital con pérdida. Diseñado como sucesor del formato MP3, AAC generalmente logra mayor calidad de sonido que MP3 a la misma tasa de bits."
   },
+  "notation": [
+    ".adts; .ass; .aac; .loas",
+    "audio/aac"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/AAC"

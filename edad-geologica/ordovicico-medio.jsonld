@@ -2,34 +2,38 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-medio",
   "type": "Concept",
   "prefLabel": {
-    "es": "Ordovícico Medio",
-    "en": "Middle Ordovician"
+    "en": "Middle Ordovician",
+    "es": "Ordovícico Medio"
   },
   "definition": {
-    "es": "Límite inferior 470 +|-1.4 Ma, límite superior 458.4 +|-0.9 Ma",
-    "en": "Older bound 470 +|-1.4 Ma, younger bound 458.4 +|-0.9 Ma"
+    "en": "Older bound 470 +|-1.4 Ma, younger bound 458.4 +|-0.9 Ma",
+    "es": "Límite inferior 470 +|-1.4 Ma, límite superior 458.4 +|-0.9 Ma"
   },
+  "notation": [
+    "211020200000.0",
+    "a1.1.3.5.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/dapingiense",
       "prefLabel": {
-        "es": "Dapingiense",
-        "en": "Dapingian"
+        "en": "Dapingian",
+        "es": "Dapingiense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/darriwiliense",
       "prefLabel": {
-        "es": "Darriwiliense",
-        "en": "Darriwilian"
+        "en": "Darriwilian",
+        "es": "Darriwiliense"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico",
     "prefLabel": {
-      "es": "Ordovícico",
-      "en": "Ordovician"
+      "en": "Ordovician",
+      "es": "Ordovícico"
     }
   },
   "exactMatch": [

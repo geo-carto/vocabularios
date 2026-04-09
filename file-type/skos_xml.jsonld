@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/skos_xml",
   "type": "Concept",
   "prefLabel": {
-    "es": "SKOS",
-    "en": "SKOS"
+    "en": "SKOS",
+    "es": "SKOS"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Simple Knowledge Organization System"
     ],
-    "en": [
+    "es": [
       "Simple Knowledge Organization System"
     ]
   },
   "definition": {
-    "es": "SKOS – Simple Knowledge Organization System – es una recomendación del W3C diseñada para la representación de tesauros, esquemas de clasificación, taxonomías, sistemas de encabezamientos de materia o cualquier otro tipo de vocabulario controlado estructurado. XML – Extensible Markup Language – es un lenguaje de marcado que define un conjunto de reglas para codificar documentos en un formato legible tanto por humanos como por máquinas.",
-    "en": "SKOS – Simple Knowledge Organization System – is a W3C recommendation designed for representation of thesauri, classification schemes, taxonomies, subject-heading systems or any other type of structured controlled vocabulary. XML – Extensible Markup Language – is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable."
+    "en": "SKOS – Simple Knowledge Organization System – is a W3C recommendation designed for representation of thesauri, classification schemes, taxonomies, subject-heading systems or any other type of structured controlled vocabulary. XML – Extensible Markup Language – is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.",
+    "es": "SKOS – Simple Knowledge Organization System – es una recomendación del W3C diseñada para la representación de tesauros, esquemas de clasificación, taxonomías, sistemas de encabezamientos de materia o cualquier otro tipo de vocabulario controlado estructurado. XML – Extensible Markup Language – es un lenguaje de marcado que define un conjunto de reglas para codificar documentos en un formato legible tanto por humanos como por máquinas."
   },
+  "notation": [
+    ".rdf",
+    "application/rdf+xml"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/rdf+xml"

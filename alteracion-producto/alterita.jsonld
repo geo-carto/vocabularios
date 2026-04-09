@@ -2,8 +2,8 @@
   "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita",
   "type": "Concept",
   "prefLabel": {
-    "es": "alterita",
-    "en": "alterite"
+    "en": "alterite",
+    "es": "alterita"
   },
   "altLabel": {
     "es": [
@@ -11,51 +11,51 @@
     ]
   },
   "definition": {
-    "es": "Formación superficial originada por procesos de meteorización que transforman, en diversos grados, las características físicas y/o químicas de rocas o sedimentos. Se incluyen tanto las alteritas autóctonas o no transportadas como las alóctonas o transportadas. Las alteritas residuales presentan un grado de meteorización muy elevado, en las que gran parte del material original ha sido transportado.",
-    "en": "Superficial formation caused by the weathering of rocks or sediments and transformation, in several degrees, of their physical and chemical characteristics. Included are not transported or autochthonous alterites and transported or allochthonous alterites. Residual alterites presents an extremely high weathering degree, with a significantly reduced original volume."
+    "en": "Superficial formation caused by the weathering of rocks or sediments and transformation, in several degrees, of their physical and chemical characteristics. Included are not transported or autochthonous alterites and transported or allochthonous alterites. Residual alterites presents an extremely high weathering degree, with a significantly reduced original volume.",
+    "es": "Formación superficial originada por procesos de meteorización que transforman, en diversos grados, las características físicas y/o químicas de rocas o sedimentos. Se incluyen tanto las alteritas autóctonas o no transportadas como las alóctonas o transportadas. Las alteritas residuales presentan un grado de meteorización muy elevado, en las que gran parte del material original ha sido transportado."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla",
       "prefLabel": {
-        "es": "arcilla",
-        "en": "clay"
+        "en": "clay",
+        "es": "arcilla"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion",
       "prefLabel": {
-        "es": "arcilla de descalcificación",
-        "en": "decarbonated clay"
+        "en": "decarbonated clay",
+        "es": "arcilla de descalcificación"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/gore",
       "prefLabel": {
-        "es": "gore",
-        "en": "gore"
+        "en": "gore",
+        "es": "gore"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/grus",
       "prefLabel": {
-        "es": "grus",
-        "en": "grus"
+        "en": "grus",
+        "es": "grus"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita",
       "prefLabel": {
-        "es": "laterita",
-        "en": "laterite"
+        "en": "laterite",
+        "es": "laterita"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito",
     "prefLabel": {
-      "es": "saprolito",
-      "en": "saprolite"
+      "en": "saprolite",
+      "es": "saprolito"
     }
   },
   "inScheme": [

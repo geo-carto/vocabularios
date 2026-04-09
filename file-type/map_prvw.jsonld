@@ -2,13 +2,16 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/map_prvw",
   "type": "Concept",
   "prefLabel": {
-    "es": "ArcGIS Map Preview",
-    "en": "ArcGIS Map Preview"
+    "en": "ArcGIS Map Preview",
+    "es": "ArcGIS Map Preview"
   },
   "definition": {
-    "es": "ArcGIS de Esri es un sistema de información geográfica (SIG) para trabajar con mapas e información geográfica. Las previsualizaciones de mapas son mapas de fondo rasterizados normales.",
-    "en": "Esri's ArcGIS is a geographic information system (GIS) for working with maps and geographic information. Map previews are normal raster background maps."
+    "en": "Esri's ArcGIS is a geographic information system (GIS) for working with maps and geographic information. Map previews are normal raster background maps.",
+    "es": "ArcGIS de Esri es un sistema de información geográfica (SIG) para trabajar con mapas e información geográfica. Las previsualizaciones de mapas son mapas de fondo rasterizados normales."
   },
+  "notation": [
+    "arcgis_map_preview"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/MAP_PRVW"

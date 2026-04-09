@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/arc",
   "type": "Concept",
   "prefLabel": {
-    "es": "ARC",
-    "en": "ARC"
+    "en": "ARC",
+    "es": "ARC"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Internet Archive ARC file format"
     ],
-    "en": [
+    "es": [
       "Internet Archive ARC file format"
     ]
   },
   "definition": {
-    "es": "ARC es el formato de archivo de Internet Archive. Los archivos ARC son grandes archivos agregados.",
-    "en": "ARC is the archive file format of Internet Archive. ARC files are large aggregate files."
+    "en": "ARC is the archive file format of Internet Archive. ARC files are large aggregate files.",
+    "es": "ARC es el formato de archivo de Internet Archive. Los archivos ARC son grandes archivos agregados."
   },
+  "notation": [
+    "application/octet-stream",
+    ".arc"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/octet-stream"

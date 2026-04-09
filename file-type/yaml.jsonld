@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/yaml",
   "type": "Concept",
   "prefLabel": {
-    "es": "YAML",
-    "en": "YAML"
+    "en": "YAML",
+    "es": "YAML"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "YAML Ain't Markup Language"
     ],
-    "en": [
+    "es": [
       "YAML Ain't Markup Language"
     ]
   },
   "definition": {
-    "es": "YAML es un lenguaje de serialización de datos amigable para humanos, multilenguaje, basado en Unicode, diseñado en torno a los tipos de datos nativos comunes de los lenguajes de programación dinámicos. Es ampliamente útil para necesidades de programación que van desde archivos de configuración hasta mensajería por Internet, persistencia de objetos, auditoría y visualización de datos.",
-    "en": "YAML is a human-friendly, cross language, Unicode based data serialization language designed around the common native data types of dynamic programming languages. It is broadly useful for programming needs ranging from configuration files to internet messaging to object persistence to data auditing and visualization."
+    "en": "YAML is a human-friendly, cross language, Unicode based data serialization language designed around the common native data types of dynamic programming languages. It is broadly useful for programming needs ranging from configuration files to internet messaging to object persistence to data auditing and visualization.",
+    "es": "YAML es un lenguaje de serialización de datos amigable para humanos, multilenguaje, basado en Unicode, diseñado en torno a los tipos de datos nativos comunes de los lenguajes de programación dinámicos. Es ampliamente útil para necesidades de programación que van desde archivos de configuración hasta mensajería por Internet, persistencia de objetos, auditoría y visualización de datos."
   },
+  "notation": [
+    ".yml; .yaml",
+    "application/yaml"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/YAML"

@@ -2,41 +2,41 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-arrecife-biologico",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de arrecife biológico",
-    "en": "biological reef setting"
+    "en": "biological reef setting",
+    "es": "ambiente de arrecife biológico"
   },
   "definition": {
-    "es": "Una estructura similar a una cresta o montículo, estratificada o masiva, construida por organismos sedentarios calcáreos, esp. corales, y que consiste en su mayor parte de sus restos; es resistente al oleaje y topográficamente se sitúa por encima de los sedimentos circundantes depositados simultáneamente.",
-    "en": "A ridgelike or moundlike structure, layered or massive, built by sedentary calcareous organisms, esp. corals, and consisting mostly of their remains; it is wave-resistant and stands topographically above the surrounding contemporaneously deposited sediment."
+    "en": "A ridgelike or moundlike structure, layered or massive, built by sedentary calcareous organisms, esp. corals, and consisting mostly of their remains; it is wave-resistant and stands topographically above the surrounding contemporaneously deposited sediment.",
+    "es": "Una estructura similar a una cresta o montículo, estratificada o masiva, construida por organismos sedentarios calcáreos, esp. corales, y que consiste en su mayor parte de sus restos; es resistente al oleaje y topográficamente se sitúa por encima de los sedimentos circundantes depositados simultáneamente."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-frente-arrecifal",
       "prefLabel": {
-        "es": "ambiente de frente arrecifal",
-        "en": "forereef setting"
+        "en": "forereef setting",
+        "es": "ambiente de frente arrecifal"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-arrecifal",
       "prefLabel": {
-        "es": "ambiente de llanura arrecifal",
-        "en": "reef flat setting"
+        "en": "reef flat setting",
+        "es": "ambiente de llanura arrecifal"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-postarrecifal",
       "prefLabel": {
-        "es": "ambiente postarrecifal",
-        "en": "backreef setting"
+        "en": "backreef setting",
+        "es": "ambiente postarrecifal"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-marino",
     "prefLabel": {
-      "es": "ambiente marino",
-      "en": "marine setting"
+      "en": "marine setting",
+      "es": "ambiente marino"
     }
   },
   "exactMatch": [

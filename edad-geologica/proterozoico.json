@@ -2,41 +2,45 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/proterozoico",
   "type": "Concept",
   "prefLabel": {
-    "es": "Proterozoico",
-    "en": "Proterozoic"
+    "en": "Proterozoic",
+    "es": "Proterozoico"
   },
   "definition": {
-    "es": "Límite inferior 2500 Ma, límite superior 538.8 +|-0.2 Ma",
-    "en": "Older bound 2500 Ma, younger bound 538.8 +|-0.2 Ma"
+    "en": "Older bound 2500 Ma, younger bound 538.8 +|-0.2 Ma",
+    "es": "Límite inferior 2500 Ma, límite superior 538.8 +|-0.2 Ma"
   },
+  "notation": [
+    "130000000000.0",
+    "a2.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesoproterozoico",
       "prefLabel": {
-        "es": "Mesoproterozoico",
-        "en": "Mesoproterozoic"
+        "en": "Mesoproterozoic",
+        "es": "Mesoproterozoico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neoproterozoico",
       "prefLabel": {
-        "es": "Neoproterozoico",
-        "en": "Neoproterozoic"
+        "en": "Neoproterozoic",
+        "es": "Neoproterozoico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleoproterozoico",
       "prefLabel": {
-        "es": "Paleoproterozoico",
-        "en": "Paleoproterozoic"
+        "en": "Paleoproterozoic",
+        "es": "Paleoproterozoico"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/precambrico",
     "prefLabel": {
-      "es": "Precámbrico",
-      "en": "Precambrian"
+      "en": "Precambrian",
+      "es": "Precámbrico"
     }
   },
   "exactMatch": [

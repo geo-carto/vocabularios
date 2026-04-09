@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/ods",
   "type": "Concept",
   "prefLabel": {
-    "es": "ODS",
-    "en": "ODS"
+    "en": "ODS",
+    "es": "ODS"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "OpenDocument Spreadsheet"
     ],
-    "en": [
+    "es": [
       "OpenDocument Spreadsheet"
     ]
   },
   "definition": {
-    "es": "ODS es un formato de archivo OpenDocument para hojas de cálculo. OpenDocument fue desarrollado con el objetivo de proporcionar una especificación de formato de archivo abierto basado en XML para aplicaciones de oficina.",
-    "en": "ODS is an OpenDocument file format for spreadsheets. OpenDocument was developed with the aim of providing an open, XML-based file format specification for office applications."
+    "en": "ODS is an OpenDocument file format for spreadsheets. OpenDocument was developed with the aim of providing an open, XML-based file format specification for office applications.",
+    "es": "ODS es un formato de archivo OpenDocument para hojas de cálculo. OpenDocument fue desarrollado con el objetivo de proporcionar una especificación de formato de archivo abierto basado en XML para aplicaciones de oficina."
   },
+  "notation": [
+    ".ods",
+    "application/vnd.oasis.opendocument.spreadsheet"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/ODS"

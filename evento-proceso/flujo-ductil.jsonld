@@ -2,41 +2,41 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/flujo-ductil",
   "type": "Concept",
   "prefLabel": {
-    "es": "flujo dúctil",
-    "en": "ductile flow"
+    "en": "ductile flow",
+    "es": "flujo dúctil"
   },
   "definition": {
-    "es": "Deformación sin aparente pérdida de continuidad a la escala de observación.",
-    "en": "Deformation without apparent loss of continuity at the scale of observation."
+    "en": "Deformation without apparent loss of continuity at the scale of observation.",
+    "es": "Deformación sin aparente pérdida de continuidad a la escala de observación."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/arrastre-por-difusion-intracristalina",
       "prefLabel": {
-        "es": "arrastre por difusión intracristalina",
-        "en": "diffusion creep"
+        "en": "diffusion creep",
+        "es": "arrastre por difusión intracristalina"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/arrastre-por-disolucion",
       "prefLabel": {
-        "es": "arrastre por disolución",
-        "en": "dissolution creep"
+        "en": "dissolution creep",
+        "es": "arrastre por disolución"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/maclado-mecanico",
       "prefLabel": {
-        "es": "maclado mecánico",
-        "en": "deformation twinning"
+        "en": "deformation twinning",
+        "es": "maclado mecánico"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deformacion",
     "prefLabel": {
-      "es": "deformación",
-      "en": "deformation"
+      "en": "deformation",
+      "es": "deformación"
     }
   },
   "exactMatch": [

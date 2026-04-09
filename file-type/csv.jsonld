@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/csv",
   "type": "Concept",
   "prefLabel": {
-    "es": "CSV",
-    "en": "CSV"
+    "en": "CSV",
+    "es": "CSV"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Comma-Separated Values"
     ],
-    "en": [
+    "es": [
       "Comma-Separated Values"
     ]
   },
   "definition": {
-    "es": "CSV – comma-separated values (valores separados por comas) – almacenan datos tabulares (números y texto) en texto plano. Cada línea del archivo es un registro de datos. Cada registro consta de uno o más campos, separados por comas.",
-    "en": "CSV – comma-separated values – files store tabular data (numbers and text) in plain text. Each line of the file is a data record. Each record consists of one or more fields, separated by commas."
+    "en": "CSV – comma-separated values – files store tabular data (numbers and text) in plain text. Each line of the file is a data record. Each record consists of one or more fields, separated by commas.",
+    "es": "CSV – comma-separated values (valores separados por comas) – almacenan datos tabulares (números y texto) en texto plano. Cada línea del archivo es un registro de datos. Cada registro consta de uno o más campos, separados por comas."
   },
+  "notation": [
+    ".csv",
+    "text/csv"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/CSV"

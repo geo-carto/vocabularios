@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/rdf_turtle",
   "type": "Concept",
   "prefLabel": {
-    "es": "RDF Turtle",
-    "en": "RDF Turtle"
+    "en": "RDF Turtle",
+    "es": "RDF Turtle"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Terse RDF Triple Language"
     ],
-    "en": [
+    "es": [
       "Terse RDF Triple Language"
     ]
   },
   "definition": {
-    "es": "Turtle – Terse RDF Triple Language – es un formato para expresar datos en el modelo de datos RDF (Resource Description Framework) con una sintaxis similar a SPARQL. RDF, a su vez, representa información usando 'triples', cada uno de los cuales consta de un sujeto, un predicado y un objeto. Cada uno de esos elementos se expresa como una URI Web.",
-    "en": "Turtle – Terse RDF Triple Language – is a format for expressing data in the Resource Description Framework (RDF) data model with a syntax similar to SPARQL. RDF, in turn, represents information using ‘triples’, each of which consists of a subject, a predicate and an object. Each of those items is expressed as a Web URI."
+    "en": "Turtle – Terse RDF Triple Language – is a format for expressing data in the Resource Description Framework (RDF) data model with a syntax similar to SPARQL. RDF, in turn, represents information using ‘triples’, each of which consists of a subject, a predicate and an object. Each of those items is expressed as a Web URI.",
+    "es": "Turtle – Terse RDF Triple Language – es un formato para expresar datos en el modelo de datos RDF (Resource Description Framework) con una sintaxis similar a SPARQL. RDF, a su vez, representa información usando 'triples', cada uno de los cuales consta de un sujeto, un predicado y un objeto. Cada uno de esos elementos se expresa como una URI Web."
   },
+  "notation": [
+    ".ttl",
+    "text/turtle"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"

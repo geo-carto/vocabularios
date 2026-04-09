@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pdfa3a",
   "type": "Concept",
   "prefLabel": {
-    "es": "PDF/A-3a",
-    "en": "PDF/A-3a"
+    "en": "PDF/A-3a",
+    "es": "PDF/A-3a"
   },
   "definition": {
-    "es": "Subtipo de PDF/A-3 que garantiza tanto la accesibilidad como la preservación de la estructura, similar a PDF/A-2a.",
-    "en": "PDF/A-3 subtype ensuring both accessibility and structure preservation, similar to PDF/A-2a"
+    "en": "PDF/A-3 subtype ensuring both accessibility and structure preservation, similar to PDF/A-2a",
+    "es": "Subtipo de PDF/A-3 que garantiza tanto la accesibilidad como la preservación de la estructura, similar a PDF/A-2a."
   },
+  "notation": [
+    ".pdf",
+    "application/pdf"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/pdf"

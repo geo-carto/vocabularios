@@ -2,18 +2,18 @@
   "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-a-partir-de-imagenes-de-teledeteccion",
   "type": "Concept",
   "prefLabel": {
-    "es": "inferido a partir de imágenes de teledetección",
-    "en": "inferred remote sensing imagery"
+    "en": "inferred remote sensing imagery",
+    "es": "inferido a partir de imágenes de teledetección"
   },
   "definition": {
-    "es": "La ubicación y especificación se infieren a partir de características espectrales de la luz medida por sensores aerotransportados o satelitales. Los fenómenos visibles en fotografías aéreas estándar (luz visible) se consideran \"observables\".",
-    "en": "Location and specification inferred based on spectral characteristics of light measured by airborne or satellite based sensor. Phenomenon visible on standard (visible light) air photographs are considered 'observable'."
+    "en": "Location and specification inferred based on spectral characteristics of light measured by airborne or satellite based sensor. Phenomenon visible on standard (visible light) air photographs are considered 'observable'.",
+    "es": "La ubicación y especificación se infieren a partir de características espectrales de la luz medida por sensores aerotransportados o satelitales. Los fenómenos visibles en fotografías aéreas estándar (luz visible) se consideran \"observables\"."
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-mediante-metodo-indirecto",
     "prefLabel": {
-      "es": "inferido mediante método indirecto",
-      "en": "inferred using indirect method"
+      "en": "inferred using indirect method",
+      "es": "inferido mediante método indirecto"
     }
   },
   "exactMatch": [

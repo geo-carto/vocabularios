@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/kunguriense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Kunguriense",
-    "en": "Kungurian"
+    "en": "Kungurian",
+    "es": "Kunguriense"
   },
   "definition": {
-    "es": "Límite inferior 283.5 +|-0.6 Ma, límite superior 273.01 +|-0.14 Ma",
-    "en": "Older bound 283.5 +|-0.6 Ma, younger bound 273.01 +|-0.14 Ma"
+    "en": "Older bound 283.5 +|-0.6 Ma, younger bound 273.01 +|-0.14 Ma",
+    "es": "Límite inferior 283.5 +|-0.6 Ma, límite superior 273.01 +|-0.14 Ma"
   },
+  "notation": [
+    "211060104000.0",
+    "a1.1.3.1.3.1"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cisuraliense",
     "prefLabel": {
-      "es": "Cisuraliense",
-      "en": "Cisuralian"
+      "en": "Cisuralian",
+      "es": "Cisuraliense"
     }
   },
   "exactMatch": [

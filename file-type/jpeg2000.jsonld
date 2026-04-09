@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/jpeg2000",
   "type": "Concept",
   "prefLabel": {
-    "es": "JPEG 2000",
-    "en": "JPEG 2000"
+    "en": "JPEG 2000",
+    "es": "JPEG 2000"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Joint Photographic Experts Group 2000"
     ],
-    "en": [
+    "es": [
       "Joint Photographic Experts Group 2000"
     ]
   },
   "definition": {
-    "es": "JPEG 2000 – Joint Photographic Experts Group 2000 – es un sistema de codificación de imágenes que utiliza técnicas de compresión de última generación basadas en tecnología wavelet.",
-    "en": "JPEG 2000 – Joint Photographic Experts Group 2000 – is an image coding system that uses state-of-the-art compression techniques based on wavelet technology."
+    "en": "JPEG 2000 – Joint Photographic Experts Group 2000 – is an image coding system that uses state-of-the-art compression techniques based on wavelet technology.",
+    "es": "JPEG 2000 – Joint Photographic Experts Group 2000 – es un sistema de codificación de imágenes que utiliza técnicas de compresión de última generación basadas en tecnología wavelet."
   },
+  "notation": [
+    ".jpg2; .jp2",
+    "image/jp2"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/JPEG2000"

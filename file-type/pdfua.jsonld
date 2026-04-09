@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pdfua",
   "type": "Concept",
   "prefLabel": {
-    "es": "PDF/UA",
-    "en": "PDF/UA"
+    "en": "PDF/UA",
+    "es": "PDF/UA"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "PDF/Universal Accessibility"
     ],
-    "en": [
+    "es": [
       "PDF/Universal Accessibility"
     ]
   },
   "definition": {
-    "es": "PDF/UA (PDF/Universal Accessibility), formalmente ISO 14289, es un estándar de la Organización Internacional de Normalización (ISO) para tecnología PDF accesible. Es una especificación técnica destinada a desarrolladores que implementan software de escritura y procesamiento de PDF; PDF/UA proporciona términos y requisitos definitivos para la accesibilidad en documentos y aplicaciones PDF. Para aquellos equipados con software apropiado, la conformidad con PDF/UA garantiza la accesibilidad para personas con discapacidades que utilizan tecnología de asistencia.",
-    "en": "PDF/UA (PDF/Universal Accessibility), formally ISO 14289, is an International Organization for Standardization (ISO) standard for accessible PDF technology. A technical specification intended for developers implementing PDF writing and processing software, PDF/UA provides definitive terms and requirements for accessibility in PDF documents and applications. For those equipped with appropriate software, conformance with PDF/UA ensures accessibility for people with disabilities who use assistive technology such as screen readers, screen magnifiers, joysticks and other technologies to navigate and read electronic content."
+    "en": "PDF/UA (PDF/Universal Accessibility), formally ISO 14289, is an International Organization for Standardization (ISO) standard for accessible PDF technology. A technical specification intended for developers implementing PDF writing and processing software, PDF/UA provides definitive terms and requirements for accessibility in PDF documents and applications. For those equipped with appropriate software, conformance with PDF/UA ensures accessibility for people with disabilities who use assistive technology such as screen readers, screen magnifiers, joysticks and other technologies to navigate and read electronic content.",
+    "es": "PDF/UA (PDF/Universal Accessibility), formalmente ISO 14289, es un estándar de la Organización Internacional de Normalización (ISO) para tecnología PDF accesible. Es una especificación técnica destinada a desarrolladores que implementan software de escritura y procesamiento de PDF; PDF/UA proporciona términos y requisitos definitivos para la accesibilidad en documentos y aplicaciones PDF. Para aquellos equipados con software apropiado, la conformidad con PDF/UA garantiza la accesibilidad para personas con discapacidades que utilizan tecnología de asistencia."
   },
+  "notation": [
+    ".pdf",
+    "application/pdf"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/pdf"

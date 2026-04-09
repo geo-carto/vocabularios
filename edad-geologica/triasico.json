@@ -2,41 +2,45 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico",
   "type": "Concept",
   "prefLabel": {
-    "es": "Triásico",
-    "en": "Triassic"
+    "en": "Triassic",
+    "es": "Triásico"
   },
   "definition": {
-    "es": "Límite inferior 251.902 +|-0.024 Ma, límite superior 201.4 +|-0.2 Ma",
-    "en": "Older bound 251.902 +|-0.024 Ma, younger bound 201.4 +|-0.2 Ma"
+    "en": "Older bound 251.902 +|-0.024 Ma, younger bound 201.4 +|-0.2 Ma",
+    "es": "Límite inferior 251.902 +|-0.024 Ma, límite superior 201.4 +|-0.2 Ma"
   },
+  "notation": [
+    "212010000000.0",
+    "a1.1.2.3"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-inferior",
       "prefLabel": {
-        "es": "Triásico Inferior",
-        "en": "Lower Triassic"
+        "en": "Lower Triassic",
+        "es": "Triásico Inferior"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-medio",
       "prefLabel": {
-        "es": "Triásico Medio",
-        "en": "Middle Triassic"
+        "en": "Middle Triassic",
+        "es": "Triásico Medio"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-superior",
       "prefLabel": {
-        "es": "Triásico Superior",
-        "en": "Upper Triassic"
+        "en": "Upper Triassic",
+        "es": "Triásico Superior"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesozoico",
     "prefLabel": {
-      "es": "Mesozoico",
-      "en": "Mesozoic"
+      "en": "Mesozoic",
+      "es": "Mesozoico"
     }
   },
   "exactMatch": [

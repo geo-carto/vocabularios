@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/riacico",
   "type": "Concept",
   "prefLabel": {
-    "es": "Riácico",
-    "en": "Rhyacian"
+    "en": "Rhyacian",
+    "es": "Riácico"
   },
   "definition": {
-    "es": "Límite inferior 2300 Ma, límite superior 2050 Ma",
-    "en": "Older bound 2300 Ma, younger bound 2050 Ma"
+    "en": "Older bound 2300 Ma, younger bound 2050 Ma",
+    "es": "Límite inferior 2300 Ma, límite superior 2050 Ma"
   },
+  "notation": [
+    "131020000000.0",
+    "a2.1.3.3"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleoproterozoico",
     "prefLabel": {
-      "es": "Paleoproterozoico",
-      "en": "Paleoproterozoic"
+      "en": "Paleoproterozoic",
+      "es": "Paleoproterozoico"
     }
   },
   "exactMatch": [

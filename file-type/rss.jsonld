@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/rss",
   "type": "Concept",
   "prefLabel": {
-    "es": "RSS feed",
-    "en": "RSS feed"
+    "en": "RSS feed",
+    "es": "RSS feed"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Really Simple Syndication"
     ],
-    "en": [
+    "es": [
       "Really Simple Syndication"
     ]
   },
   "definition": {
-    "es": "RSS – Rich Site Summary; originalmente RDF Site Summary; frecuentemente llamado Really Simple Syndication – es un tipo de fuente web que permite a los usuarios acceder a actualizaciones de contenido en línea en un formato estandarizado y legible por computadora. Los sitios web generalmente usan fuentes RSS para publicar información actualizada frecuentemente, como entradas de blog, titulares de noticias, audio y vídeo.",
-    "en": "RSS – Rich Site Summary; originally RDF Site Summary; often called Really Simple Syndication – is a type of web feed which allows users to access updates to online content in a standardized, computer-readable format. These feeds can, for example, allow a user to keep track of many different websites in a single news aggregator. Websites usually use RSS feeds to publish frequently updated information, such as blog entries, news headlines, audio, video. An RSS document (called ‘feed’, ‘web feed’ or ‘channel’) includes full or summarized text and metadata."
+    "en": "RSS – Rich Site Summary; originally RDF Site Summary; often called Really Simple Syndication – is a type of web feed which allows users to access updates to online content in a standardized, computer-readable format. These feeds can, for example, allow a user to keep track of many different websites in a single news aggregator. Websites usually use RSS feeds to publish frequently updated information, such as blog entries, news headlines, audio, video. An RSS document (called ‘feed’, ‘web feed’ or ‘channel’) includes full or summarized text and metadata.",
+    "es": "RSS – Rich Site Summary; originalmente RDF Site Summary; frecuentemente llamado Really Simple Syndication – es un tipo de fuente web que permite a los usuarios acceder a actualizaciones de contenido en línea en un formato estandarizado y legible por computadora. Los sitios web generalmente usan fuentes RSS para publicar información actualizada frecuentemente, como entradas de blog, titulares de noticias, audio y vídeo."
   },
+  "notation": [
+    ".xml; .rss",
+    "application/rss+xml"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/RSS"

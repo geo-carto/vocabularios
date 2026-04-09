@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/html",
   "type": "Concept",
   "prefLabel": {
-    "es": "HTML",
-    "en": "HTML"
+    "en": "HTML",
+    "es": "HTML"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "HyperText Mark-up Language"
     ],
-    "en": [
+    "es": [
       "HyperText Mark-up Language"
     ]
   },
   "definition": {
-    "es": "HTML es el lenguaje de marcado estándar utilizado para crear páginas web y sus elementos forman los bloques de construcción de todos los sitios web.",
-    "en": "HTML is the standard markup language used to create web pages and its elements form the building blocks of all websites."
+    "en": "HTML is the standard markup language used to create web pages and its elements form the building blocks of all websites.",
+    "es": "HTML es el lenguaje de marcado estándar utilizado para crear páginas web y sus elementos forman los bloques de construcción de todos los sitios web."
   },
+  "notation": [
+    ".html; .htm",
+    "text/html"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/HTML"

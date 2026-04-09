@@ -2,40 +2,44 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/burdigaliense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Burdigaliense",
-    "en": "Burdigalian"
+    "en": "Burdigalian",
+    "es": "Burdigaliense"
   },
   "definition": {
-    "es": "Límite inferior 20.44 Ma, límite superior 15.98 Ma",
-    "en": "Older bound 20.44 Ma, younger bound 15.98 Ma"
+    "en": "Older bound 20.44 Ma, younger bound 15.98 Ma",
+    "es": "Límite inferior 20.44 Ma, límite superior 15.98 Ma"
   },
+  "notation": [
+    "213020112000.0",
+    "a1.1.1.2.2.5"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno-inferior",
     "prefLabel": {
-      "es": "Mioceno Inferior",
-      "en": "Lower Miocene"
+      "en": "Lower Miocene",
+      "es": "Mioceno Inferior"
     }
   },
   "related": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ageniense",
       "prefLabel": {
-        "es": "Ageniense",
-        "en": "Agenian"
+        "en": "Agenian",
+        "es": "Ageniense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aragoniense",
       "prefLabel": {
-        "es": "Aragoniense",
-        "en": "Aragonian"
+        "en": "Aragonian",
+        "es": "Aragoniense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/rambliense",
       "prefLabel": {
-        "es": "Rambliense",
-        "en": "Ramblian"
+        "en": "Ramblian",
+        "es": "Rambliense"
       }
     }
   ],

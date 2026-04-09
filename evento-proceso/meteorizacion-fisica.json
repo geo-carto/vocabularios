@@ -2,48 +2,48 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion-fisica",
   "type": "Concept",
   "prefLabel": {
-    "es": "meteorización física",
-    "en": "physical weathering"
+    "en": "physical weathering",
+    "es": "meteorización física"
   },
   "definition": {
-    "es": "Proceso de meteorización por el cual la acción de las heladas, el crecimiento de cristales de sal, la absorción de agua y otros procesos físicos deshacen una roca en fragmentos, sin involucrar cambios químicos.",
-    "en": "The process of weathering by which frost action, salt-crystal growth, absorption of water, and other physical processes break down a rock to fragments, involving no chemical change"
+    "en": "The process of weathering by which frost action, salt-crystal growth, absorption of water, and other physical processes break down a rock to fragments, involving no chemical change",
+    "es": "Proceso de meteorización por el cual la acción de las heladas, el crecimiento de cristales de sal, la absorción de agua y otros procesos físicos deshacen una roca en fragmentos, sin involucrar cambios químicos."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/gelifraccion",
       "prefLabel": {
-        "es": "gelifracción",
-        "en": "frost shattering"
+        "en": "frost shattering",
+        "es": "gelifracción"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/haloclastia",
       "prefLabel": {
-        "es": "haloclastia",
-        "en": "haloclasty"
+        "en": "haloclasty",
+        "es": "haloclastia"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion-por-choque-termico",
       "prefLabel": {
-        "es": "meteorización por choque térmico",
-        "en": "thermal shock weathering"
+        "en": "thermal shock weathering",
+        "es": "meteorización por choque térmico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion-por-descompresion",
       "prefLabel": {
-        "es": "meteorización por descompresión",
-        "en": "pressure release weathering"
+        "en": "pressure release weathering",
+        "es": "meteorización por descompresión"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/meteorizacion",
     "prefLabel": {
-      "es": "meteorización",
-      "en": "weathering"
+      "en": "weathering",
+      "es": "meteorización"
     }
   },
   "exactMatch": [

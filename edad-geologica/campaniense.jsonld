@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/campaniense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Campaniense",
-    "en": "Campanian"
+    "en": "Campanian",
+    "es": "Campaniense"
   },
   "definition": {
-    "es": "Límite inferior 83.6 +|-0.2 Ma, límite superior 72.1 +|-0.2 Ma",
-    "en": "Older bound 83.6 +|-0.2 Ma, younger bound 72.1 +|-0.2 Ma"
+    "en": "Older bound 83.6 +|-0.2 Ma, younger bound 72.1 +|-0.2 Ma",
+    "es": "Límite inferior 83.6 +|-0.2 Ma, límite superior 72.1 +|-0.2 Ma"
   },
+  "notation": [
+    "212030205000.0",
+    "a1.1.2.1.1.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-superior",
     "prefLabel": {
-      "es": "Cretácico Superior",
-      "en": "Upper Cretaceous"
+      "en": "Upper Cretaceous",
+      "es": "Cretácico Superior"
     }
   },
   "exactMatch": [

@@ -2,33 +2,33 @@
   "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/observacion-directa",
   "type": "Concept",
   "prefLabel": {
-    "es": "observación directa",
-    "en": "direct observation"
+    "en": "direct observation",
+    "es": "observación directa"
   },
   "definition": {
-    "es": "Indica que el elemento cartografiado fue delimitado y caracterizado mediante observación visual directa.",
-    "en": "Indicates that mapped feature was delineated and a specifier assigned by direct visual observation."
+    "en": "Indicates that mapped feature was delineated and a specifier assigned by direct visual observation.",
+    "es": "Indica que el elemento cartografiado fue delimitado y caracterizado mediante observación visual directa."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/observado-en-afloramiento",
       "prefLabel": {
-        "es": "observado en afloramiento",
-        "en": "observed in outcrop"
+        "en": "observed in outcrop",
+        "es": "observado en afloramiento"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/observado-en-imagenes-aereas",
       "prefLabel": {
-        "es": "observado en imágenes aéreas",
-        "en": "observed in aerial imagery"
+        "en": "observed in aerial imagery",
+        "es": "observado en imágenes aéreas"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/observado-en-material-de-sondeo",
       "prefLabel": {
-        "es": "observado en material de sondeo",
-        "en": "observed in borehole material"
+        "en": "observed in borehole material",
+        "es": "observado en material de sondeo"
       }
     }
   ],

@@ -2,104 +2,104 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente litoral",
-    "en": "shoreline setting"
+    "en": "shoreline setting",
+    "es": "ambiente litoral"
   },
   "definition": {
-    "es": "Ambiente geológico caracterizado por su ubicación junto al mar o un lago. Una zona de anchura indefinida (puede tener muchos kilómetros), en borde de una masa de agua que se extiende tierra adentro desde la orilla hasta el primer cambio importante en los rasgos geomorfológicos. Comprende ambientes que pueden ser subaéreos, intermitentemente subacuático, o subacuáticos someros, pero que están intrínsecamente asociados a la interfaz entre la zona terrestre y la masa de agua.",
-    "en": "Geologic settings characterized by location adjacent to the ocean or a lake. A zone of indefinite width (may be many kilometers), bordering a body of water that extends from the water line inland to the first major change in landform features. Includes settings that may be subaerial, intermittently subaqueous, or shallow subaqueous, but are intrinsically associated with the interface between land areas and water bodies."
+    "en": "Geologic settings characterized by location adjacent to the ocean or a lake. A zone of indefinite width (may be many kilometers), bordering a body of water that extends from the water line inland to the first major change in landform features. Includes settings that may be subaerial, intermittently subaqueous, or shallow subaqueous, but are intrinsically associated with the interface between land areas and water bodies.",
+    "es": "Ambiente geológico caracterizado por su ubicación junto al mar o un lago. Una zona de anchura indefinida (puede tener muchos kilómetros), en borde de una masa de agua que se extiende tierra adentro desde la orilla hasta el primer cambio importante en los rasgos geomorfológicos. Comprende ambientes que pueden ser subaéreos, intermitentemente subacuático, o subacuáticos someros, pero que están intrínsecamente asociados a la interfaz entre la zona terrestre y la masa de agua."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-cordon-litoral",
       "prefLabel": {
-        "es": "ambiente de cordon litoral",
-        "en": "strandplain setting"
+        "en": "strandplain setting",
+        "es": "ambiente de cordon litoral"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-laguna-litoral",
       "prefLabel": {
-        "es": "ambiente de laguna litoral",
-        "en": "lagoonal setting"
+        "en": "lagoonal setting",
+        "es": "ambiente de laguna litoral"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-litoral-rocoso",
       "prefLabel": {
-        "es": "ambiente de litoral rocoso",
-        "en": "rocky coast setting"
+        "en": "rocky coast setting",
+        "es": "ambiente de litoral rocoso"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-litoral",
       "prefLabel": {
-        "es": "ambiente de llanura litoral",
-        "en": "coastal plain setting"
+        "en": "coastal plain setting",
+        "es": "ambiente de llanura litoral"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-playa",
       "prefLabel": {
-        "es": "ambiente de playa",
-        "en": "beach setting"
+        "en": "beach setting",
+        "es": "ambiente de playa"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-deltaico",
       "prefLabel": {
-        "es": "ambiente de sistema deltaico",
-        "en": "deltaic system setting"
+        "en": "deltaic system setting",
+        "es": "ambiente de sistema deltaico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-estuarino",
       "prefLabel": {
-        "es": "ambiente estuarino",
-        "en": "estuary setting"
+        "en": "estuary setting",
+        "es": "ambiente estuarino"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral-de-baja-energia",
       "prefLabel": {
-        "es": "ambiente litoral de baja energía",
-        "en": "low energy shoreline setting"
+        "en": "low energy shoreline setting",
+        "es": "ambiente litoral de baja energía"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral-de-isla-barrera",
       "prefLabel": {
-        "es": "ambiente litoral de isla barrera",
-        "en": "barrier island coastline setting"
+        "en": "barrier island coastline setting",
+        "es": "ambiente litoral de isla barrera"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral-dominado-por-carbonatos",
       "prefLabel": {
-        "es": "ambiente litoral dominado por carbonatos",
-        "en": "carbonate dominated shoreline setting"
+        "en": "carbonate dominated shoreline setting",
+        "es": "ambiente litoral dominado por carbonatos"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-mareal",
       "prefLabel": {
-        "es": "ambiente mareal",
-        "en": "tidal setting"
+        "en": "tidal setting",
+        "es": "ambiente mareal"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-supramareal",
       "prefLabel": {
-        "es": "ambiente supramareal",
-        "en": "supratidal setting"
+        "en": "supratidal setting",
+        "es": "ambiente supramareal"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-en-la-superficie-de-la-tierra",
     "prefLabel": {
-      "es": "ambiente en la superficie de la Tierra",
-      "en": "earth surface setting"
+      "en": "earth surface setting",
+      "es": "ambiente en la superficie de la Tierra"
     }
   },
   "exactMatch": [

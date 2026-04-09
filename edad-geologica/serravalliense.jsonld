@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/serravalliense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Serravalliense",
-    "en": "Serravallian"
+    "en": "Serravallian",
+    "es": "Serravalliense"
   },
   "definition": {
-    "es": "Límite inferior 13.82 Ma, límite superior 11.63 Ma",
-    "en": "Older bound 13.82 Ma, younger bound 11.63 Ma"
+    "en": "Older bound 13.82 Ma, younger bound 11.63 Ma",
+    "es": "Límite inferior 13.82 Ma, límite superior 11.63 Ma"
   },
+  "notation": [
+    "213020104000.0",
+    "a1.1.1.2.2.3"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno",
     "prefLabel": {
-      "es": "Mioceno",
-      "en": "Miocene"
+      "en": "Miocene",
+      "es": "Mioceno"
     }
   },
   "exactMatch": [

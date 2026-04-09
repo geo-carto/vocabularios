@@ -2,18 +2,18 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/cizallamiento",
   "type": "Concept",
   "prefLabel": {
-    "es": "cizallamiento",
-    "en": "shearing"
+    "en": "shearing",
+    "es": "cizallamiento"
   },
   "definition": {
-    "es": "Deformación en la que partes contiguas de un cuerpo son desplazadas relativamente la una de la otra en una dirección paralela a una superficie. la superficie puede ser una falla discreta, o la deformación puede ser un esfuerzo penetrativo y la superficie de cizalla ser una abstracción geométrica.",
-    "en": "A deformation in which contiguous parts of a body are displaced relatively to each other in a direction parallel to a surface. the surface may be a discrete fault, or the deformation may be a penetrative strain and the shear surface is a geometric abstraction."
+    "en": "A deformation in which contiguous parts of a body are displaced relatively to each other in a direction parallel to a surface. the surface may be a discrete fault, or the deformation may be a penetrative strain and the shear surface is a geometric abstraction.",
+    "es": "Deformación en la que partes contiguas de un cuerpo son desplazadas relativamente la una de la otra en una dirección paralela a una superficie. la superficie puede ser una falla discreta, o la deformación puede ser un esfuerzo penetrativo y la superficie de cizalla ser una abstracción geométrica."
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deformacion",
     "prefLabel": {
-      "es": "deformación",
-      "en": "deformation"
+      "en": "deformation",
+      "es": "deformación"
     }
   },
   "exactMatch": [

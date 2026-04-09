@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-corteza-oceanica",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de corteza oceánica",
-    "en": "oceanic-crustal setting"
+    "en": "oceanic-crustal setting",
+    "es": "ambiente de corteza oceánica"
   },
   "definition": {
-    "es": "Aquel tipo de corteza terrestre que subyace a las cuencas oceánicas. La corteza oceánica tiene un espesor de 5-10 km; tiene una densidad de 2.9 g/cm3, y velocidades de las ondas sísmicas compresionales al viajar a través de ella de 4-7.2 km/s. ambiente de la corteza producido por el vulcanismo submarino en una dorsal meso-oceánica.",
-    "en": "That type of the Earth's crust which underlies the ocean basins. The oceanic crust is 5-10 km thick; it has a density of 2.9 g/cm3, and compressional seismic-wave velocities travelling through it at 4-7.2 km/sec. Setting in crust produced by submarine volcanism at a mid ocean ridge."
+    "en": "That type of the Earth's crust which underlies the ocean basins. The oceanic crust is 5-10 km thick; it has a density of 2.9 g/cm3, and compressional seismic-wave velocities travelling through it at 4-7.2 km/sec. Setting in crust produced by submarine volcanism at a mid ocean ridge.",
+    "es": "Aquel tipo de corteza terrestre que subyace a las cuencas oceánicas. La corteza oceánica tiene un espesor de 5-10 km; tiene una densidad de 2.9 g/cm3, y velocidades de las ondas sísmicas compresionales al viajar a través de ella de 4-7.2 km/s. ambiente de la corteza producido por el vulcanismo submarino en una dorsal meso-oceánica."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-corteza-oceanica-inferior",
       "prefLabel": {
-        "es": "ambiente de corteza oceánica inferior",
-        "en": "lower oceanic-crustal setting"
+        "en": "lower oceanic-crustal setting",
+        "es": "ambiente de corteza oceánica inferior"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-corteza-oceanica-superior",
       "prefLabel": {
-        "es": "ambiente de corteza oceánica superior",
-        "en": "upper oceanic crustal setting"
+        "en": "upper oceanic crustal setting",
+        "es": "ambiente de corteza oceánica superior"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-cortical",
     "prefLabel": {
-      "es": "ambiente cortical",
-      "en": "crustal setting"
+      "en": "crustal setting",
+      "es": "ambiente cortical"
     }
   },
   "exactMatch": [

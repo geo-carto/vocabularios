@@ -2,39 +2,42 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/villafranquiense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Villafranquiense",
-    "en": "Villafranchian"
+    "en": "Villafranchian",
+    "es": "Villafranquiense"
   },
   "definition": {
     "es": "Villafranquiense"
   },
+  "notation": [
+    "213020200092.0"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma",
     "prefLabel": {
-      "es": "Regional",
-      "en": "Regional"
+      "en": "Regional",
+      "es": "Regional"
     }
   },
   "related": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/calabriense",
       "prefLabel": {
-        "es": "Calabriense",
-        "en": "Calabrian"
+        "en": "Calabrian",
+        "es": "Calabriense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/gelasiense",
       "prefLabel": {
-        "es": "Gelasiense",
-        "en": "Gelasian"
+        "en": "Gelasian",
+        "es": "Gelasiense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/piacenziense",
       "prefLabel": {
-        "es": "Piacenziense",
-        "en": "Piacenzian"
+        "en": "Piacenzian",
+        "es": "Piacenziense"
       }
     }
   ],

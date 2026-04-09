@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/miembro",
   "type": "Concept",
   "prefLabel": {
-    "es": "miembro",
-    "en": "member"
+    "en": "member",
+    "es": "miembro"
   },
   "definition": {
-    "es": "Unidad litoestratigráfica formal siguiente en rango debajo de una formación; y siempre parte de una formación. Es una entidad con nombre dentro de una formación porque posee características que la distinguen de las partes adyacentes de la formación.",
-    "en": "A formal lithostratigraphic unit next in rank below a formation; and always part of a formation. It is a named entity within a formation because it possesses characteristics distinguishing it from adjacent parts of the formation."
+    "en": "A formal lithostratigraphic unit next in rank below a formation; and always part of a formation. It is a named entity within a formation because it possesses characteristics distinguishing it from adjacent parts of the formation.",
+    "es": "Unidad litoestratigráfica formal siguiente en rango debajo de una formación; y siempre parte de una formación. Es una entidad con nombre dentro de una formación porque posee características que la distinguen de las partes adyacentes de la formación."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/capa",
       "prefLabel": {
-        "es": "capa",
-        "en": "bed"
+        "en": "bed",
+        "es": "capa"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/formacion",
     "prefLabel": {
-      "es": "formación",
-      "en": "formation"
+      "en": "formation",
+      "es": "formación"
     }
   },
   "exactMatch": [

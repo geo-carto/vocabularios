@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pps",
   "type": "Concept",
   "prefLabel": {
-    "es": "PowerPoint Slide Show",
-    "en": "PowerPoint Slide Show"
+    "en": "PowerPoint Slide Show",
+    "es": "PowerPoint Slide Show"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Microsoft PowerPoint Slide Show"
     ],
-    "en": [
+    "es": [
       "Microsoft PowerPoint Slide Show"
     ]
   },
   "definition": {
-    "es": "PPS – PowerPoint 97–2003 binary slide show – es una extensión de archivo binaria del programa de presentaciones Microsoft PowerPoint. PowerPoint fue diseñado originalmente para proporcionar elementos visuales para presentaciones grupales en organizaciones empresariales, pero ha llegado a ser ampliamente utilizado en muchas otras situaciones de comunicación.",
-    "en": "PPS – PowerPoint 97–2003 binary slide show – is a binary filaname extension of Microsoft PowerPoint presentation program. PowerPoint was originally designed to provide visuals for group presentations within business organizations, but has come to be very widely used in many other communication situations, both in business and beyond."
+    "en": "PPS – PowerPoint 97–2003 binary slide show – is a binary filaname extension of Microsoft PowerPoint presentation program. PowerPoint was originally designed to provide visuals for group presentations within business organizations, but has come to be very widely used in many other communication situations, both in business and beyond.",
+    "es": "PPS – PowerPoint 97–2003 binary slide show – es una extensión de archivo binaria del programa de presentaciones Microsoft PowerPoint. PowerPoint fue diseñado originalmente para proporcionar elementos visuales para presentaciones grupales en organizaciones empresariales, pero ha llegado a ser ampliamente utilizado en muchas otras situaciones de comunicación."
   },
+  "notation": [
+    ".pps",
+    "application/vnd.ms-powerpoint"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/PPS"

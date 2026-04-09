@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/js",
   "type": "Concept",
   "prefLabel": {
-    "es": "JavaScript",
-    "en": "JavaScript"
+    "en": "JavaScript",
+    "es": "JavaScript"
   },
   "definition": {
-    "es": "JavaScript es un lenguaje de programación de alto nivel e interpretado. Es un lenguaje que también se caracteriza por ser dinámico, débilmente tipado, basado en prototipos y multiparadigma.",
-    "en": "JavaScript is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm."
+    "en": "JavaScript is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.",
+    "es": "JavaScript es un lenguaje de programación de alto nivel e interpretado. Es un lenguaje que también se caracteriza por ser dinámico, débilmente tipado, basado en prototipos y multiparadigma."
   },
+  "notation": [
+    ".js",
+    "text/javascript; application/javascript"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/JS"

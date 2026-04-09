@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-sedimentario",
   "type": "Concept",
   "prefLabel": {
-    "es": "proceso sedimentario",
-    "en": "sedimentary process"
+    "en": "sedimentary process",
+    "es": "proceso sedimentario"
   },
   "definition": {
-    "es": "Fenómeno que da lugar a una modificación de la distribución o de las propiedades físicas del sedimento en la superficie de la tierra o cerca de ella.",
-    "en": "A phenomenon that changes the distribution or physical properties of sediment at or near the earth's surface."
+    "en": "A phenomenon that changes the distribution or physical properties of sediment at or near the earth's surface.",
+    "es": "Fenómeno que da lugar a una modificación de la distribución o de las propiedades físicas del sedimento en la superficie de la tierra o cerca de ella."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/deposito",
       "prefLabel": {
-        "es": "depósito",
-        "en": "deposition"
+        "en": "deposition",
+        "es": "depósito"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erosion",
       "prefLabel": {
-        "es": "erosión",
-        "en": "erosion"
+        "en": "erosion",
+        "es": "erosión"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
     "prefLabel": {
-      "es": "proceso geológico",
-      "en": "geologic process"
+      "en": "geologic process",
+      "es": "proceso geológico"
     }
   },
   "exactMatch": [

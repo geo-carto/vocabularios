@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/etsi_tsl",
   "type": "Concept",
   "prefLabel": {
-    "es": "ETSI TSL",
-    "en": "ETSI TSL"
+    "en": "ETSI TSL",
+    "es": "ETSI TSL"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "ETSI Trusted List"
     ],
-    "en": [
+    "es": [
       "ETSI Trusted List"
     ]
   },
   "definition": {
-    "es": "Archivo que contiene información relacionada con los proveedores de servicios de confianza cualificados y los servicios de confianza cualificados proporcionados por ellos.",
-    "en": "file containing information related to the qualified trust service providers and the qualified trust services provided by them"
+    "en": "file containing information related to the qualified trust service providers and the qualified trust services provided by them",
+    "es": "Archivo que contiene información relacionada con los proveedores de servicios de confianza cualificados y los servicios de confianza cualificados proporcionados por ellos."
   },
+  "notation": [
+    ".xml; .xtsl",
+    "application/vnd.etsi.tsl+xml"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/ETSI_TSL"

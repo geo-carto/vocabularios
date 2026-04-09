@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/arj",
   "type": "Concept",
   "prefLabel": {
-    "es": "ARJ",
-    "en": "ARJ"
+    "en": "ARJ",
+    "es": "ARJ"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "ARJ archive"
     ],
-    "en": [
+    "es": [
       "ARJ archive"
     ]
   },
   "definition": {
-    "es": "Archivo comprimido producido por el software ARJ. ARJ (Archived by Robert Jung) es una herramienta de software diseñada por Robert K. Jung para crear archivos comprimidos de alta eficiencia.",
-    "en": "Compressed archive file produced by ARJ software. ARJ (Archived by Robert Jung) is a software tool designed by Robert K. Jung for creating high-efficiency compressed file archives."
+    "en": "Compressed archive file produced by ARJ software. ARJ (Archived by Robert Jung) is a software tool designed by Robert K. Jung for creating high-efficiency compressed file archives.",
+    "es": "Archivo comprimido producido por el software ARJ. ARJ (Archived by Robert Jung) es una herramienta de software diseñada por Robert K. Jung para crear archivos comprimidos de alta eficiencia."
   },
+  "notation": [
+    ".arj",
+    "application/x-arj"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/ARJ"

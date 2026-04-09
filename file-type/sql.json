@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/sql",
   "type": "Concept",
   "prefLabel": {
-    "es": "SQL",
-    "en": "SQL"
+    "en": "SQL",
+    "es": "SQL"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Structured Query Language"
     ],
-    "en": [
+    "es": [
       "Structured Query Language"
     ]
   },
   "definition": {
-    "es": "SQL – Structured Query Language – es un lenguaje de dominio específico utilizado en programación y diseñado para gestionar datos almacenados en un sistema de gestión de bases de datos relacionales (RDBMS) o para el procesamiento de flujos en un sistema de gestión de flujos de datos relacionales (RDSMS).",
-    "en": "SQL – Structured Query Language – is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS) or for stream processing in a relational data stream management system (RDSMS)."
+    "en": "SQL – Structured Query Language – is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS) or for stream processing in a relational data stream management system (RDSMS).",
+    "es": "SQL – Structured Query Language – es un lenguaje de dominio específico utilizado en programación y diseñado para gestionar datos almacenados en un sistema de gestión de bases de datos relacionales (RDBMS) o para el procesamiento de flujos en un sistema de gestión de flujos de datos relacionales (RDSMS)."
   },
+  "notation": [
+    ".sql",
+    "application/sql"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/SQL"

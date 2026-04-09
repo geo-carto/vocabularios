@@ -2,13 +2,16 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/map_srvc",
   "type": "Concept",
   "prefLabel": {
-    "es": "ArcGIS Map Service",
-    "en": "ArcGIS Map Service"
+    "en": "ArcGIS Map Service",
+    "es": "ArcGIS Map Service"
   },
   "definition": {
-    "es": "ArcGIS de Esri es un sistema de información geográfica (SIG) para trabajar con mapas e información geográfica. Los servicios de mapas ofrecen acceso al contenido de mapas y capas.",
-    "en": "Esri's ArcGIS is a geographic information system (GIS) for working with maps and geographic information. Map services offer access to map and layer content."
+    "en": "Esri's ArcGIS is a geographic information system (GIS) for working with maps and geographic information. Map services offer access to map and layer content.",
+    "es": "ArcGIS de Esri es un sistema de información geográfica (SIG) para trabajar con mapas e información geográfica. Los servicios de mapas ofrecen acceso al contenido de mapas y capas."
   },
+  "notation": [
+    "arcgis_map_service"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/MAP_SRVC"

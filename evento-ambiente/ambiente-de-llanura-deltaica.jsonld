@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-deltaica",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de llanura deltaica",
-    "en": "delta plain setting"
+    "en": "delta plain setting",
+    "es": "ambiente de llanura deltaica"
   },
   "definition": {
-    "es": "La superficie llana o casi llana que compone la parte terrestre de un delta grande o complejo; en sentido estricto, una llanura aluvial caracteriza por la bifurcación y divergencia repetida de canales, numerosos canales distributarios, y cuencas de inundación interdistributarias.",
-    "en": "The level or nearly level surface composing the landward part of a large or compound delta; strictly, an alluvial plain characterized by repeated channel bifurcation and divergence, multiple distributary channels, and interdistributary flood basins."
+    "en": "The level or nearly level surface composing the landward part of a large or compound delta; strictly, an alluvial plain characterized by repeated channel bifurcation and divergence, multiple distributary channels, and interdistributary flood basins.",
+    "es": "La superficie llana o casi llana que compone la parte terrestre de un delta grande o complejo; en sentido estricto, una llanura aluvial caracteriza por la bifurcación y divergencia repetida de canales, numerosos canales distributarios, y cuencas de inundación interdistributarias."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-deltaica-alta",
       "prefLabel": {
-        "es": "ambiente de llanura deltaica alta",
-        "en": "upper delta plain setting"
+        "en": "upper delta plain setting",
+        "es": "ambiente de llanura deltaica alta"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-deltaica-baja",
       "prefLabel": {
-        "es": "ambiente de llanura deltaica baja",
-        "en": "lower delta plain setting"
+        "en": "lower delta plain setting",
+        "es": "ambiente de llanura deltaica baja"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-deltaico",
     "prefLabel": {
-      "es": "ambiente de sistema deltaico",
-      "en": "deltaic system setting"
+      "en": "deltaic system setting",
+      "es": "ambiente de sistema deltaico"
     }
   },
   "exactMatch": [

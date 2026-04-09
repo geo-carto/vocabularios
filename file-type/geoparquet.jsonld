@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/geoparquet",
   "type": "Concept",
   "prefLabel": {
-    "es": "GeoParquet",
-    "en": "GeoParquet"
+    "en": "GeoParquet",
+    "es": "GeoParquet"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Apache GeoParquet"
     ],
-    "en": [
+    "es": [
       "Apache GeoParquet"
     ]
   },
   "definition": {
-    "es": "GeoParquet es una especificación para almacenar datos vectoriales geoespaciales (puntos, líneas, polígonos) en formato Apache Parquet. Define cómo deben almacenarse los datos geoespaciales en Parquet, incluyendo la representación de geometrías y los metadatos adicionales necesarios. Es un formato columnar de código abierto estandarizado, optimizado para flujos de trabajo analíticos de lectura intensiva.",
-    "en": "GeoParquet is a specification for storing geospatial vector data (points, lines, polygons) in Apache Parquet format. It defines how geospatial data should be stored in Parquet, including the representation of geometries and the required additional metadata. It is an open-source standardized columnar storage format optimized for read-heavy analytic workflows."
+    "en": "GeoParquet is a specification for storing geospatial vector data (points, lines, polygons) in Apache Parquet format. It defines how geospatial data should be stored in Parquet, including the representation of geometries and the required additional metadata. It is an open-source standardized columnar storage format optimized for read-heavy analytic workflows.",
+    "es": "GeoParquet es una especificación para almacenar datos vectoriales geoespaciales (puntos, líneas, polígonos) en formato Apache Parquet. Define cómo deben almacenarse los datos geoespaciales en Parquet, incluyendo la representación de geometrías y los metadatos adicionales necesarios. Es un formato columnar de código abierto estandarizado, optimizado para flujos de trabajo analíticos de lectura intensiva."
   },
+  "notation": [
+    ".parquet",
+    "application/vnd.apache.parquet"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/vnd.apache.parquet"

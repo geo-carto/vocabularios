@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/wcs_srvc",
   "type": "Concept",
   "prefLabel": {
-    "es": "WCS",
-    "en": "WCS"
+    "en": "WCS",
+    "es": "WCS"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Web Coverage Service"
     ],
-    "en": [
+    "es": [
       "Web Coverage Service"
     ]
   },
   "definition": {
-    "es": "El estándar de interfaz Web Coverage Service (WCS) del Open Geospatial Consortium define la recuperación basada en web de coberturas, es decir, información geoespacial digital que representa fenómenos que varían en espacio y tiempo.",
-    "en": "The Open Geospatial Consortium Web Coverage Service Interface Standard (WCS) defines Web-based retrieval of coverages – that is, digital geospatial information representing space/time-varying phenomena."
+    "en": "The Open Geospatial Consortium Web Coverage Service Interface Standard (WCS) defines Web-based retrieval of coverages – that is, digital geospatial information representing space/time-varying phenomena.",
+    "es": "El estándar de interfaz Web Coverage Service (WCS) del Open Geospatial Consortium define la recuperación basada en web de coberturas, es decir, información geoespacial digital que representa fenómenos que varían en espacio y tiempo."
   },
+  "notation": [
+    "text/xml; multipart/related"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/multipart/related"

@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/msg_http",
   "type": "Concept",
   "prefLabel": {
-    "es": "HTTP Message",
-    "en": "HTTP Message"
+    "en": "HTTP Message",
+    "es": "HTTP Message"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "HTTP Message Syntax and Routing"
     ],
-    "en": [
+    "es": [
       "HTTP Message Syntax and Routing"
     ]
   },
   "definition": {
-    "es": "HTTP – Hypertext Transfer Protocol – es un protocolo de solicitud/respuesta a nivel de aplicación sin estado que utiliza semántica extensible y cargas de mensaje autodescriptivas para la interacción flexible con sistemas de información hipertextual basados en red. Message Syntax and Routing es parte de la especificación HTTP/1.1.",
-    "en": "HTTP – Hypertext Transfer Protocol – is a stateless application-level request/response protocol that uses extensible semantics and self-descriptive message payloads for flexible interaction with network-based hypertext information systems. Message Syntax and Routing is part of the HTTP/1.1 specification."
+    "en": "HTTP – Hypertext Transfer Protocol – is a stateless application-level request/response protocol that uses extensible semantics and self-descriptive message payloads for flexible interaction with network-based hypertext information systems. Message Syntax and Routing is part of the HTTP/1.1 specification.",
+    "es": "HTTP – Hypertext Transfer Protocol – es un protocolo de solicitud/respuesta a nivel de aplicación sin estado que utiliza semántica extensible y cargas de mensaje autodescriptivas para la interacción flexible con sistemas de información hipertextual basados en red. Message Syntax and Routing es parte de la especificación HTTP/1.1."
   },
+  "notation": [
+    "message/http"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/MSG_HTTP"

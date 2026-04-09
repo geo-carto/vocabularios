@@ -2,26 +2,30 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/calabriense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Calabriense",
-    "en": "Calabrian"
+    "en": "Calabrian",
+    "es": "Calabriense"
   },
   "definition": {
-    "es": "Límite inferior 1.8 Ma, límite superior 0.774 Ma",
-    "en": "Older bound 1.8 Ma, younger bound 0.774 Ma"
+    "en": "Older bound 1.8 Ma, younger bound 0.774 Ma",
+    "es": "Límite inferior 1.8 Ma, límite superior 0.774 Ma"
   },
+  "notation": [
+    "213030112000.0",
+    "a1.1.1.1.2.3"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-inferior",
     "prefLabel": {
-      "es": "Pleistoceno Inferior",
-      "en": "Lower Pleistocene"
+      "en": "Lower Pleistocene",
+      "es": "Pleistoceno Inferior"
     }
   },
   "related": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/villafranquiense",
       "prefLabel": {
-        "es": "Villafranquiense",
-        "en": "Villafranchian"
+        "en": "Villafranchian",
+        "es": "Villafranquiense"
       }
     }
   ],

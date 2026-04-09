@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/ovf",
   "type": "Concept",
   "prefLabel": {
-    "es": "OVF",
-    "en": "OVF"
+    "en": "OVF",
+    "es": "OVF"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Open Virtualization Format"
     ],
-    "en": [
+    "es": [
       "Open Virtualization Format"
     ]
   },
   "definition": {
-    "es": "OVF – Open Virtualization Format – es un estándar abierto para empaquetar y distribuir appliances virtuales o, de forma más general, software para ejecutar en máquinas virtuales.",
-    "en": "OVF – Open Virtualization Format – is an open standard for packaging and distributing virtual appliances or more generally software to be run in virtual machines."
+    "en": "OVF – Open Virtualization Format – is an open standard for packaging and distributing virtual appliances or more generally software to be run in virtual machines.",
+    "es": "OVF – Open Virtualization Format – es un estándar abierto para empaquetar y distribuir appliances virtuales o, de forma más general, software para ejecutar en máquinas virtuales."
   },
+  "notation": [
+    ".ovf",
+    "application/ovf"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/OVF"

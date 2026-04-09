@@ -2,33 +2,33 @@
   "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/regolito",
   "type": "Concept",
   "prefLabel": {
-    "es": "regolito",
-    "en": "regolith"
+    "en": "regolith",
+    "es": "regolito"
   },
   "definition": {
-    "es": "Material que recubre la roca fresca. Incluye alteritas, depósitos superficiales y suelos.",
-    "en": "Material that covers the unweathered bedrock. It includes alterites, superficial deposits and soils."
+    "en": "Material that covers the unweathered bedrock. It includes alterites, superficial deposits and soils.",
+    "es": "Material que recubre la roca fresca. Incluye alteritas, depósitos superficiales y suelos."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta",
       "prefLabel": {
-        "es": "duricreta",
-        "en": "duricrust"
+        "en": "duricrust",
+        "es": "duricreta"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito",
       "prefLabel": {
-        "es": "saprolito",
-        "en": "saprolite"
+        "en": "saprolite",
+        "es": "saprolito"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-producto/travertino",
       "prefLabel": {
-        "es": "travertino",
-        "en": "travertine"
+        "en": "travertine",
+        "es": "travertino"
       }
     }
   ],

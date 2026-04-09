@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/bwf",
   "type": "Concept",
   "prefLabel": {
-    "es": "BWF",
-    "en": "BWF"
+    "en": "BWF",
+    "es": "BWF"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Broadcast Wave File"
     ],
-    "en": [
+    "es": [
       "Broadcast Wave File"
     ]
   },
   "definition": {
-    "es": "BWF – Broadcast Wave Format – es una extensión del formato de audio Microsoft WAV y es el formato de grabación de la mayoría de grabadoras digitales no lineales basadas en archivos utilizadas para la producción cinematográfica, radiofónica y televisiva. El propósito de este formato es la adición de metadatos para facilitar el intercambio fluido de datos de sonido entre diferentes plataformas y aplicaciones.",
-    "en": "BWF – Broadcast Wave Format – is an extension of the Microsoft WAV audio format and is the recording format of most file-based non-linear digital recorders used for motion picture, radio and television production. The purpose of this file format is the addition of metadata to facilitate the seamless exchange of sound data between different computer platforms and applications."
+    "en": "BWF – Broadcast Wave Format – is an extension of the Microsoft WAV audio format and is the recording format of most file-based non-linear digital recorders used for motion picture, radio and television production. The purpose of this file format is the addition of metadata to facilitate the seamless exchange of sound data between different computer platforms and applications.",
+    "es": "BWF – Broadcast Wave Format – es una extensión del formato de audio Microsoft WAV y es el formato de grabación de la mayoría de grabadoras digitales no lineales basadas en archivos utilizadas para la producción cinematográfica, radiofónica y televisiva. El propósito de este formato es la adición de metadatos para facilitar el intercambio fluido de datos de sonido entre diferentes plataformas y aplicaciones."
   },
+  "notation": [
+    ".wav; .bwf",
+    "audio/vnd.wave"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/BWF"

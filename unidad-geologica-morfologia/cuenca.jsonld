@@ -2,18 +2,18 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuenca",
   "type": "Concept",
   "prefLabel": {
-    "es": "cuenca",
-    "en": "basin shape"
+    "en": "basin shape",
+    "es": "cuenca"
   },
   "definition": {
-    "es": "Se aplica a una geometría  de disco convexo hacia abajo, pero el término generalmente connota una forma de escala kilómetrica. En vista de mapa puede ser circular, elíptica o irregular, y un rasgo característico es el engrosamiento desde los bordes hacia el centro. Normalmente se utiliza para describir un cuerpo de roca sedimentaria depositado en un área deprimida de la corteza terrestre, lo que implica de que la parte superior es (o fue) una superficie de depósito",
-    "en": "Geometric analog is convex down discoid, term generally connotes a kilometer-scale feature. Map view may be circular, elliptical, or irregular, characteristic feature is thickening from the edges towards the center. Typically used to describe a body of sedimentary rock deposited in a low area in the Earth's crust, in which case there is an implication that the top is (or was) a surface of deposition"
+    "en": "Geometric analog is convex down discoid, term generally connotes a kilometer-scale feature. Map view may be circular, elliptical, or irregular, characteristic feature is thickening from the edges towards the center. Typically used to describe a body of sedimentary rock deposited in a low area in the Earth's crust, in which case there is an implication that the top is (or was) a surface of deposition",
+    "es": "Se aplica a una geometría  de disco convexo hacia abajo, pero el término generalmente connota una forma de escala kilómetrica. En vista de mapa puede ser circular, elíptica o irregular, y un rasgo característico es el engrosamiento desde los bordes hacia el centro. Normalmente se utiliza para describir un cuerpo de roca sedimentaria depositado en un área deprimida de la corteza terrestre, lo que implica de que la parte superior es (o fue) una superficie de depósito"
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-geologico",
     "prefLabel": {
-      "es": "cuerpo geológico",
-      "en": "geologic body"
+      "en": "geologic body",
+      "es": "cuerpo geológico"
     }
   },
   "exactMatch": [

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/wav",
   "type": "Concept",
   "prefLabel": {
-    "es": "WAV",
-    "en": "WAV"
+    "en": "WAV",
+    "es": "WAV"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Waveform Audio File"
     ],
-    "en": [
+    "es": [
       "Waveform Audio File"
     ]
   },
   "definition": {
-    "es": "El formato de archivo de audio Waveform (WAV) se utiliza para almacenar archivos de audio digital sin comprimir. Es el formato de audio predeterminado para Windows, pero es soportado por la mayoría de los sistemas operativos.",
-    "en": "Waveform Audio File (WAV) is a format is used for storing uncompressed digital audio files. It is the default audio format for Windows but it is supported by most operating systems."
+    "en": "Waveform Audio File (WAV) is a format is used for storing uncompressed digital audio files. It is the default audio format for Windows but it is supported by most operating systems.",
+    "es": "El formato de archivo de audio Waveform (WAV) se utiliza para almacenar archivos de audio digital sin comprimir. Es el formato de audio predeterminado para Windows, pero es soportado por la mayoría de los sistemas operativos."
   },
+  "notation": [
+    ".wav; .wave",
+    "audio/vnd.wave; audio/wav; audio/wave; audio/x-wav"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/audio/vnd.wave"

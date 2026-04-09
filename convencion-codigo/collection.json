@@ -2,21 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/convencion-codigo/collection",
   "type": "Collection",
   "prefLabel": {
+    "en": "Convention Code - All concepts",
     "es": "Código de convención - Todos los conceptos"
   },
   "member": [
     {
       "id": "https://geo-carto.github.io/vocabularios/convencion-codigo/direccion-de-buzamiento",
       "prefLabel": {
-        "es": "dirección de buzamiento",
-        "en": "dip dip direction"
+        "en": "dip dip direction",
+        "es": "dirección de buzamiento"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/convencion-codigo/regla-de-la-mano-derecha",
       "prefLabel": {
-        "es": "regla de la mano derecha",
-        "en": "strike dip right hand rule"
+        "en": "strike dip right hand rule",
+        "es": "regla de la mano derecha"
       }
     }
   ],

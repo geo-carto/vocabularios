@@ -2,41 +2,41 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-batial",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente batial",
-    "en": "bathyal setting"
+    "en": "bathyal setting",
+    "es": "ambiente batial"
   },
   "definition": {
-    "es": "El ambiente marino de aguas con profundidades entre 200 y 3.500 metros.",
-    "en": "The ocean environment at water depths between 200 and 3500 metres."
+    "en": "The ocean environment at water depths between 200 and 3500 metres.",
+    "es": "El ambiente marino de aguas con profundidades entre 200 y 3.500 metros."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-batial-inferior",
       "prefLabel": {
-        "es": "ambiente batial inferior",
-        "en": "lower bathyal setting"
+        "en": "lower bathyal setting",
+        "es": "ambiente batial inferior"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-batial-medio",
       "prefLabel": {
-        "es": "ambiente batial medio",
-        "en": "middle bathyal setting"
+        "en": "middle bathyal setting",
+        "es": "ambiente batial medio"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-batial-superior",
       "prefLabel": {
-        "es": "ambiente batial superior",
-        "en": "upper bathyal setting"
+        "en": "upper bathyal setting",
+        "es": "ambiente batial superior"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-marino",
     "prefLabel": {
-      "es": "ambiente marino",
-      "en": "marine setting"
+      "en": "marine setting",
+      "es": "ambiente marino"
     }
   },
   "exactMatch": [

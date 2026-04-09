@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/zona",
   "type": "Concept",
   "prefLabel": {
-    "es": "zona",
-    "en": "suite"
+    "en": "suite",
+    "es": "zona"
   },
   "definition": {
-    "es": "Una unidad litodémica formal siguiente en rango a la litodémica. Comprende dos o más litodemas asociados de la misma clase (por ejemplo, plutónico; metamórfico).",
-    "en": "A formal lithodemic unit next higher in rank to lithodeme. It comprises two or more associated lithodemes of the same class (e.g.; plutonic; metamorphic)."
+    "en": "A formal lithodemic unit next higher in rank to lithodeme. It comprises two or more associated lithodemes of the same class (e.g.; plutonic; metamorphic).",
+    "es": "Una unidad litodémica formal siguiente en rango a la litodémica. Comprende dos o más litodemas asociados de la misma clase (por ejemplo, plutónico; metamórfico)."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/litodema",
       "prefLabel": {
-        "es": "litodema",
-        "en": "lithodeme"
+        "en": "lithodeme",
+        "es": "litodema"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/superzona",
     "prefLabel": {
-      "es": "superzona",
-      "en": "supersuite"
+      "en": "supersuite",
+      "es": "superzona"
     }
   },
   "exactMatch": [

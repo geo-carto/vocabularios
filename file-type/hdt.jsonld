@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/hdt",
   "type": "Concept",
   "prefLabel": {
-    "es": "HDT",
-    "en": "HDT"
+    "en": "HDT",
+    "es": "HDT"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Header Dictionary Triples"
     ],
-    "en": [
+    "es": [
       "Header Dictionary Triples"
     ]
   },
   "definition": {
-    "es": "HDT (Header, Dictionary, Triples) es una estructura de datos compacta y un formato de serialización binaria para RDF que mantiene grandes conjuntos de datos comprimidos para ahorrar espacio mientras mantiene operaciones de búsqueda y exploración sin descompresión previa.",
-    "en": "HDT (Header, Dictionary, Triples) is a compact data structure and binary serialization format for Resource Description Framework (RDF) that keeps big datasets compressed to save space while maintaining search and browse operations without prior decompression."
+    "en": "HDT (Header, Dictionary, Triples) is a compact data structure and binary serialization format for Resource Description Framework (RDF) that keeps big datasets compressed to save space while maintaining search and browse operations without prior decompression.",
+    "es": "HDT (Header, Dictionary, Triples) es una estructura de datos compacta y un formato de serialización binaria para RDF que mantiene grandes conjuntos de datos comprimidos para ahorrar espacio mientras mantiene operaciones de búsqueda y exploración sin descompresión previa."
   },
+  "notation": [
+    ".hdt",
+    "application/vnd.hdt"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/HDT"

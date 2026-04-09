@@ -2,41 +2,41 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/actividad-humana",
   "type": "Concept",
   "prefLabel": {
-    "es": "actividad humana",
-    "en": "human activity"
+    "en": "human activity",
+    "es": "actividad humana"
   },
   "definition": {
-    "es": "Proceso de modificación de la superficie o subsuelo de la tierra por la actividad humana que origina objetos geológicos.",
-    "en": "Processes of human modification of the earth to produce geologic features."
+    "en": "Processes of human modification of the earth to produce geologic features.",
+    "es": "Proceso de modificación de la superficie o subsuelo de la tierra por la actividad humana que origina objetos geológicos."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/excavacion",
       "prefLabel": {
-        "es": "excavación",
-        "en": "excavation"
+        "en": "excavation",
+        "es": "excavación"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/grada",
       "prefLabel": {
-        "es": "grada",
-        "en": "grading"
+        "en": "grading",
+        "es": "grada"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/transporte-y-deposito-de-material",
       "prefLabel": {
-        "es": "transporte y depósito de material",
-        "en": "material transport and deposition"
+        "en": "material transport and deposition",
+        "es": "transporte y depósito de material"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
     "prefLabel": {
-      "es": "proceso geológico",
-      "en": "geologic process"
+      "en": "geologic process",
+      "es": "proceso geológico"
     }
   },
   "exactMatch": [

@@ -2,41 +2,45 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno",
   "type": "Concept",
   "prefLabel": {
-    "es": "Pleistoceno",
-    "en": "Pleistocene"
+    "en": "Pleistocene",
+    "es": "Pleistoceno"
   },
   "definition": {
-    "es": "Límite inferior 2.58 Ma, límite superior 0.0117 Ma",
-    "en": "Older bound 2.58 Ma, younger bound 0.0117 Ma"
+    "en": "Older bound 2.58 Ma, younger bound 0.0117 Ma",
+    "es": "Límite inferior 2.58 Ma, límite superior 0.0117 Ma"
   },
+  "notation": [
+    "213030100000.0",
+    "a1.1.1.1.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/chibaniense",
       "prefLabel": {
-        "es": "Chibaniense",
-        "en": "Chibanian"
+        "en": "Chibanian",
+        "es": "Chibaniense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-inferior",
       "prefLabel": {
-        "es": "Pleistoceno Inferior",
-        "en": "Lower Pleistocene"
+        "en": "Lower Pleistocene",
+        "es": "Pleistoceno Inferior"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-superior",
       "prefLabel": {
-        "es": "Pleistoceno Superior",
-        "en": "Upper Pleistocene"
+        "en": "Upper Pleistocene",
+        "es": "Pleistoceno Superior"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cuaternario",
     "prefLabel": {
-      "es": "Cuaternario",
-      "en": "Quaternary"
+      "en": "Quaternary",
+      "es": "Cuaternario"
     }
   },
   "exactMatch": [

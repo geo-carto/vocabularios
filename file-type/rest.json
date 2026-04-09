@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/rest",
   "type": "Concept",
   "prefLabel": {
-    "es": "Esri REST",
-    "en": "Esri REST"
+    "en": "Esri REST",
+    "es": "Esri REST"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Esri Representational State Transfer"
     ],
-    "en": [
+    "es": [
       "Esri Representational State Transfer"
     ]
   },
   "definition": {
-    "es": "Esri REST es una forma estándar para que los clientes web se comuniquen con servidores de sistemas de información geográfica (SIG) a través de la tecnología REST (Representational State Transfer).",
-    "en": "Esri REST is a standard way for web clients to communicate with geographic information system (GIS) servers through Representational State Transfer (REST) technology."
+    "en": "Esri REST is a standard way for web clients to communicate with geographic information system (GIS) servers through Representational State Transfer (REST) technology.",
+    "es": "Esri REST es una forma estándar para que los clientes web se comuniquen con servidores de sistemas de información geográfica (SIG) a través de la tecnología REST (Representational State Transfer)."
   },
+  "notation": [
+    "arcgis_rest"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/REST"

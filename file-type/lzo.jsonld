@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/lzo",
   "type": "Concept",
   "prefLabel": {
-    "es": "lzo",
-    "en": "lzo"
+    "en": "lzo",
+    "es": "lzo"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "lzo compressed file"
     ],
-    "en": [
+    "es": [
       "lzo compressed file"
     ]
   },
   "definition": {
-    "es": "Archivo comprimido producido utilizando LZO (Lempel-Ziv-Oberhumer), un algoritmo de compresión de datos sin pérdida enfocado en la velocidad de descompresión.",
-    "en": "Compressed file produced using LZO (Lempel-Ziv-Oberhumer), a lossless data compression algorithm that is focused on decompression speed."
+    "en": "Compressed file produced using LZO (Lempel-Ziv-Oberhumer), a lossless data compression algorithm that is focused on decompression speed.",
+    "es": "Archivo comprimido producido utilizando LZO (Lempel-Ziv-Oberhumer), un algoritmo de compresión de datos sin pérdida enfocado en la velocidad de descompresión."
   },
+  "notation": [
+    ".lzo",
+    "application/x-lzop"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/LZO"

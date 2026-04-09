@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/immc_xml",
   "type": "Concept",
   "prefLabel": {
-    "es": "IMMC XML message",
-    "en": "IMMC XML message"
+    "en": "IMMC XML message",
+    "es": "IMMC XML message"
   },
   "definition": {
-    "es": "Archivos intercambiados en el contexto del protocolo de comunicación del Comité Interinstitucional de Mantenimiento de Metadatos (IMMC).",
-    "en": "Files exchanged within the context of the Interinstitutional Metadata Maintenance Committee (IMMC) communication protocol."
+    "en": "Files exchanged within the context of the Interinstitutional Metadata Maintenance Committee (IMMC) communication protocol.",
+    "es": "Archivos intercambiados en el contexto del protocolo de comunicación del Comité Interinstitucional de Mantenimiento de Metadatos (IMMC)."
   },
+  "notation": [
+    "application/xml",
+    "_immc.xml"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/xml"

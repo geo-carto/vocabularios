@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/dxf",
   "type": "Concept",
   "prefLabel": {
-    "es": "DXF",
-    "en": "DXF"
+    "en": "DXF",
+    "es": "DXF"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Drawing Interchange Format"
     ],
-    "en": [
+    "es": [
       "Drawing Interchange Format"
     ]
   },
   "definition": {
-    "es": "Un archivo DXF es un archivo de datos guardado en un formato desarrollado por Autodesk y utilizado para archivos de imágenes vectoriales CAD (diseño asistido por ordenador), como documentos de AutoCAD. Los archivos DXF son similares a los archivos .DWG, pero son más compatibles con otros programas ya que están basados en ASCII (texto).",
-    "en": "A DXF file is a data file saved in a format developed by Autodesk and used for CAD (computer-aided design) vector image files, such as AutoCAD documents. DXF files are similar to .DWG files, but are more compatible with other programs since they are ASCII (text) based."
+    "en": "A DXF file is a data file saved in a format developed by Autodesk and used for CAD (computer-aided design) vector image files, such as AutoCAD documents. DXF files are similar to .DWG files, but are more compatible with other programs since they are ASCII (text) based.",
+    "es": "Un archivo DXF es un archivo de datos guardado en un formato desarrollado por Autodesk y utilizado para archivos de imágenes vectoriales CAD (diseño asistido por ordenador), como documentos de AutoCAD. Los archivos DXF son similares a los archivos .DWG, pero son más compatibles con otros programas ya que están basados en ASCII (texto)."
   },
+  "notation": [
+    ".dxf",
+    "image/vnd.dxf"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/DXF"

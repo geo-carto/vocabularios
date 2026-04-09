@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-tectonico-de-intraplaca",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente tectónico de intraplaca",
-    "en": "intraplate tectonic setting"
+    "en": "intraplate tectonic setting",
+    "es": "ambiente tectónico de intraplaca"
   },
   "definition": {
-    "es": "Ambiente tectónicamente estable alejado de cualquier margen activo de placa.",
-    "en": "Tectonically stable setting far from any active plate margins."
+    "en": "Tectonically stable setting far from any active plate margins.",
+    "es": "Ambiente tectónicamente estable alejado de cualquier margen activo de placa."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-inactivo",
       "prefLabel": {
-        "es": "ambiente de centro de expansión inactivo",
-        "en": "inactive spreading center setting"
+        "en": "inactive spreading center setting",
+        "es": "ambiente de centro de expansión inactivo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-monte-submarino",
       "prefLabel": {
-        "es": "ambiente de monte submarino",
-        "en": "seamount setting"
+        "en": "seamount setting",
+        "es": "ambiente de monte submarino"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-tectonicamente-definido",
     "prefLabel": {
-      "es": "ambiente tectónicamente definido",
-      "en": "tectonically defined setting"
+      "en": "tectonically defined setting",
+      "es": "ambiente tectónicamente definido"
     }
   },
   "exactMatch": [

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/eforms_xml",
   "type": "Concept",
   "prefLabel": {
-    "es": "eForms XML",
-    "en": "eForms XML"
+    "en": "eForms XML",
+    "es": "eForms XML"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "eForms XML file"
     ],
-    "en": [
+    "es": [
       "eForms XML file"
     ]
   },
   "definition": {
-    "es": "Estándar legislativo XML de la UE para datos de contratación pública utilizado por los compradores públicos para publicar anuncios en Tenders Electronic Daily (TED), el sitio web europeo de publicidad de contratación pública. Los formularios estándar (eForms) fueron establecidos por el Reglamento de Ejecución (UE) 2019/1780 de la Comisión, de 23 de septiembre de 2019, y deben implementarse en los sistemas nacionales de contratación electrónica adaptándolos a las necesidades nacionales.",
-    "en": "EU legislative XML standard for procurement data used by public buyers to publish notices on Tenders Electronic Daily (TED), the European public procurement advertising website. The standard forms (eForms) have been established by the Commission Implementing Regulation (EU) 2019/1780 of 23 September 2019, and need to be implemented in national eProcurement systems by being tailored to national needs."
+    "en": "EU legislative XML standard for procurement data used by public buyers to publish notices on Tenders Electronic Daily (TED), the European public procurement advertising website. The standard forms (eForms) have been established by the Commission Implementing Regulation (EU) 2019/1780 of 23 September 2019, and need to be implemented in national eProcurement systems by being tailored to national needs.",
+    "es": "Estándar legislativo XML de la UE para datos de contratación pública utilizado por los compradores públicos para publicar anuncios en Tenders Electronic Daily (TED), el sitio web europeo de publicidad de contratación pública. Los formularios estándar (eForms) fueron establecidos por el Reglamento de Ejecución (UE) 2019/1780 de la Comisión, de 23 de septiembre de 2019, y deben implementarse en los sistemas nacionales de contratación electrónica adaptándolos a las necesidades nacionales."
   },
+  "notation": [
+    "application/xml",
+    ".xml"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/xml"

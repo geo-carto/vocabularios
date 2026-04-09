@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pdfa2b",
   "type": "Concept",
   "prefLabel": {
-    "es": "PDF/A-2b",
-    "en": "PDF/A-2b"
+    "en": "PDF/A-2b",
+    "es": "PDF/A-2b"
   },
   "definition": {
-    "es": "PDF/A-2 es la Parte 2 del estándar PDF y especifica tres niveles de conformidad para archivos PDF. PDF/A-2b corresponde al nivel de conformidad b en PDF/A-2 (básico).",
-    "en": "PDF/A-2 is the Part 2 of the PDF standard and specifies three levels of conformance for PDF files. PDF/A-2b corresponds to conformance level a in PDF/A-2 (basic)."
+    "en": "PDF/A-2 is the Part 2 of the PDF standard and specifies three levels of conformance for PDF files. PDF/A-2b corresponds to conformance level a in PDF/A-2 (basic).",
+    "es": "PDF/A-2 es la Parte 2 del estándar PDF y especifica tres niveles de conformidad para archivos PDF. PDF/A-2b corresponde al nivel de conformidad b en PDF/A-2 (básico)."
   },
+  "notation": [
+    ".pdf",
+    "application/pdf"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/pdf"

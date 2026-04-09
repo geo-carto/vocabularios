@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pdfx",
   "type": "Concept",
   "prefLabel": {
-    "es": "PDF/X",
-    "en": "PDF/X"
+    "en": "PDF/X",
+    "es": "PDF/X"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "PDF printing format, Blind eXchange"
     ],
-    "en": [
+    "es": [
       "PDF printing format, Blind eXchange"
     ]
   },
   "definition": {
-    "es": "PDF/X es un subconjunto del estándar PDF. El propósito de PDF/X es facilitar el intercambio de gráficos, y por lo tanto tiene una serie de requisitos relacionados con la impresión que no se aplican a los archivos PDF estándar.",
-    "en": "PDF/X is a subset of the PDF standard. The purpose of PDF/X is to facilitate graphics exchange, and it therefore has a series of printing related requirements which do not apply to standard PDF files."
+    "en": "PDF/X is a subset of the PDF standard. The purpose of PDF/X is to facilitate graphics exchange, and it therefore has a series of printing related requirements which do not apply to standard PDF files.",
+    "es": "PDF/X es un subconjunto del estándar PDF. El propósito de PDF/X es facilitar el intercambio de gráficos, y por lo tanto tiene una serie de requisitos relacionados con la impresión que no se aplican a los archivos PDF estándar."
   },
+  "notation": [
+    ".pdf",
+    "application/pdf"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/pdf"

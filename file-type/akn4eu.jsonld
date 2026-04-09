@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/akn4eu",
   "type": "Concept",
   "prefLabel": {
-    "es": "AKN4EU file",
-    "en": "AKN4EU file"
+    "en": "AKN4EU file",
+    "es": "AKN4EU file"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Akoma Ntoso file"
     ],
-    "en": [
+    "es": [
       "Akoma Ntoso file"
     ]
   },
   "definition": {
-    "es": "Un archivo AKN4EU es un archivo XML Akoma Ntoso que cumple con las especificaciones AKN4EU (Akoma Ntoso for European Union). Uno o más archivos AKN4EU pueden formar parte de un archivo ZIP AKN4EU. Un archivo AKN4EU especial llamado 'main.xml' es el punto de entrada de un archivo ZIP AKN4EU.",
-    "en": "AKN4EU file is an Akoma Ntoso XML file conforming to the AKN4EU (Akoma Ntoso for European Union) specifications. One or more AKN4EU files can be part of an AKN4EU ZIP file. A special AKN4EU file called ‘main.xml’ is the entry point of an AKN4EU ZIP file."
+    "en": "AKN4EU file is an Akoma Ntoso XML file conforming to the AKN4EU (Akoma Ntoso for European Union) specifications. One or more AKN4EU files can be part of an AKN4EU ZIP file. A special AKN4EU file called ‘main.xml’ is the entry point of an AKN4EU ZIP file.",
+    "es": "Un archivo AKN4EU es un archivo XML Akoma Ntoso que cumple con las especificaciones AKN4EU (Akoma Ntoso for European Union). Uno o más archivos AKN4EU pueden formar parte de un archivo ZIP AKN4EU. Un archivo AKN4EU especial llamado 'main.xml' es el punto de entrada de un archivo ZIP AKN4EU."
   },
+  "notation": [
+    ".xml; .akn",
+    "application/xml"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/AKN4EU"

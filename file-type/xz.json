@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/xz",
   "type": "Concept",
   "prefLabel": {
-    "es": "xz",
-    "en": "xz"
+    "en": "xz",
+    "es": "xz"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "xz compressed file"
     ],
-    "en": [
+    "es": [
       "xz compressed file"
     ]
   },
   "definition": {
-    "es": "Archivo comprimido producido utilizando XZ Utils (compresores de datos sin pérdida de línea de comandos de software libre, incluyendo LZMA y xz).",
-    "en": "Compressed file produced using XZ Utils (free software command-line lossless data compressors, including LZMA and xz)."
+    "en": "Compressed file produced using XZ Utils (free software command-line lossless data compressors, including LZMA and xz).",
+    "es": "Archivo comprimido producido utilizando XZ Utils (compresores de datos sin pérdida de línea de comandos de software libre, incluyendo LZMA y xz)."
   },
+  "notation": [
+    ".xz",
+    "application/x-xz"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/XZ"

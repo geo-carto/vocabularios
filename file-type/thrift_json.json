@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/thrift_json",
   "type": "Concept",
   "prefLabel": {
-    "es": "Thrift JSON",
-    "en": "Thrift JSON"
+    "en": "Thrift JSON",
+    "es": "Thrift JSON"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Apache Thrift JSON format"
     ],
-    "en": [
+    "es": [
       "Apache Thrift JSON format"
     ]
   },
   "definition": {
-    "es": "Lenguaje de definición de interfaces y protocolo de comunicación binario utilizado para definir y crear servicios para lenguajes de programación; formato JSON.",
-    "en": "interface definition language and binary communication protocol used for defining and creating services for programming languages; JSON format"
+    "en": "interface definition language and binary communication protocol used for defining and creating services for programming languages; JSON format",
+    "es": "Lenguaje de definición de interfaces y protocolo de comunicación binario utilizado para definir y crear servicios para lenguajes de programación; formato JSON."
   },
+  "notation": [
+    "application/vnd.apache.thrift.json"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/THRIFT_JSON"

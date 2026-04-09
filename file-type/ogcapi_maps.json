@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/ogcapi_maps",
   "type": "Concept",
   "prefLabel": {
-    "es": "OGC API Maps",
-    "en": "OGC API Maps"
+    "en": "OGC API Maps",
+    "es": "OGC API Maps"
   },
   "altLabel": {
-    "es": [
-      "Servicio OGC API Maps"
-    ],
     "en": [
       "OGC API Maps service"
+    ],
+    "es": [
+      "Servicio OGC API Maps"
     ]
   },
   "definition": {
-    "es": "OGC API – Maps es un estándar del Open Geospatial Consortium que define una API RESTful para acceder a representaciones renderizadas de mapas geoespaciales. Proporciona imágenes de mapas georreferenciados generados dinámicamente. Reemplaza al estándar Web Map Service (WMS) anterior, utilizando principios modernos de la web.",
-    "en": "OGC API – Maps is an Open Geospatial Consortium standard that defines a RESTful API for accessing rendered representations of geospatial maps. It provides dynamically generated georeferenced map images. It replaces the older Web Map Service (WMS) standard, using modern web principles."
+    "en": "OGC API – Maps is an Open Geospatial Consortium standard that defines a RESTful API for accessing rendered representations of geospatial maps. It provides dynamically generated georeferenced map images. It replaces the older Web Map Service (WMS) standard, using modern web principles.",
+    "es": "OGC API – Maps es un estándar del Open Geospatial Consortium que define una API RESTful para acceder a representaciones renderizadas de mapas geoespaciales. Proporciona imágenes de mapas georreferenciados generados dinámicamente. Reemplaza al estándar Web Map Service (WMS) anterior, utilizando principios modernos de la web."
   },
+  "notation": [
+    "image/png; image/jpeg"
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/file-type"

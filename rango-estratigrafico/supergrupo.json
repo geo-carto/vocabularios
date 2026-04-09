@@ -2,19 +2,19 @@
   "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/supergrupo",
   "type": "Concept",
   "prefLabel": {
-    "es": "supergrupo",
-    "en": "supergroup"
+    "en": "supergroup",
+    "es": "supergrupo"
   },
   "definition": {
-    "es": "Relación formal de grupos relacionados o superpuestos, o de grupos y formaciones.",
-    "en": "A supergroup is a formal assemblage of related or superposed groups or of groups and formations."
+    "en": "A supergroup is a formal assemblage of related or superposed groups or of groups and formations.",
+    "es": "Relación formal de grupos relacionados o superpuestos, o de grupos y formaciones."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/grupo",
       "prefLabel": {
-        "es": "grupo",
-        "en": "group"
+        "en": "group",
+        "es": "grupo"
       }
     }
   ],

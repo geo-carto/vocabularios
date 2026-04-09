@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/war",
   "type": "Concept",
   "prefLabel": {
-    "es": "WAR",
-    "en": "WAR"
+    "en": "WAR",
+    "es": "WAR"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Web Archive"
     ],
-    "en": [
+    "es": [
       "Web Archive"
     ]
   },
   "definition": {
-    "es": "Un archivo WAR se utiliza para distribuir una colección de archivos JAR, JavaServer Pages, Java Servlets, clases Java, archivos XML, bibliotecas de etiquetas, páginas web estáticas y otros recursos que en conjunto constituyen una aplicación web.",
-    "en": "A WAR file is used to distribute a collection of JAR-files, JavaServer Pages, Java Servlets, Java classes, XML files, tag libraries, static web pages and other resources that together constitute a web application."
+    "en": "A WAR file is used to distribute a collection of JAR-files, JavaServer Pages, Java Servlets, Java classes, XML files, tag libraries, static web pages and other resources that together constitute a web application.",
+    "es": "Un archivo WAR se utiliza para distribuir una colección de archivos JAR, JavaServer Pages, Java Servlets, clases Java, archivos XML, bibliotecas de etiquetas, páginas web estáticas y otros recursos que en conjunto constituyen una aplicación web."
   },
+  "notation": [
+    ".war",
+    "application/java+zip"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/WAR"

@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/emsiense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Emsiense",
-    "en": "Emsian"
+    "en": "Emsian",
+    "es": "Emsiense"
   },
   "definition": {
-    "es": "Límite inferior 407.6 +|-2.6 Ma, límite superior 393.3 +|-1.2 Ma",
-    "en": "Older bound 407.6 +|-2.6 Ma, younger bound 393.3 +|-1.2 Ma"
+    "en": "Older bound 407.6 +|-2.6 Ma, younger bound 393.3 +|-1.2 Ma",
+    "es": "Límite inferior 407.6 +|-2.6 Ma, límite superior 393.3 +|-1.2 Ma"
   },
+  "notation": [
+    "211040103000.0",
+    "a1.1.3.3.3.1"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico-inferior",
     "prefLabel": {
-      "es": "Devónico Inferior",
-      "en": "Lower Devonian"
+      "en": "Lower Devonian",
+      "es": "Devónico Inferior"
     }
   },
   "exactMatch": [

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/ppsx",
   "type": "Concept",
   "prefLabel": {
-    "es": "PowerPoint PPSX",
-    "en": "PowerPoint PPSX"
+    "en": "PowerPoint PPSX",
+    "es": "PowerPoint PPSX"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "PowerPoint Open XML Slide Show"
     ],
-    "en": [
+    "es": [
       "PowerPoint Open XML Slide Show"
     ]
   },
   "definition": {
-    "es": "PPSX – PowerPoint 2007 XML slide show – es una extensión de archivo XML del programa de presentaciones Microsoft PowerPoint. PowerPoint fue diseñado originalmente para proporcionar elementos visuales para presentaciones grupales en organizaciones empresariales, pero ha llegado a ser ampliamente utilizado en muchas otras situaciones de comunicación.",
-    "en": "PPSX – PowerPoint 2007 XML slide show – is an XML filename extension of Microsoft PowerPoint presentation program. PowerPoint was originally designed to provide visuals for group presentations within business organizations, but has come to be very widely used in many other communication situations, both in business and beyond."
+    "en": "PPSX – PowerPoint 2007 XML slide show – is an XML filename extension of Microsoft PowerPoint presentation program. PowerPoint was originally designed to provide visuals for group presentations within business organizations, but has come to be very widely used in many other communication situations, both in business and beyond.",
+    "es": "PPSX – PowerPoint 2007 XML slide show – es una extensión de archivo XML del programa de presentaciones Microsoft PowerPoint. PowerPoint fue diseñado originalmente para proporcionar elementos visuales para presentaciones grupales en organizaciones empresariales, pero ha llegado a ser ampliamente utilizado en muchas otras situaciones de comunicación."
   },
+  "notation": [
+    ".ppsx",
+    "application/vnd.openxmlformats-officedocument.presentationml.slideshow"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/PPSX"

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/png",
   "type": "Concept",
   "prefLabel": {
-    "es": "PNG",
-    "en": "PNG"
+    "en": "PNG",
+    "es": "PNG"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Portable Network Graphics"
     ],
-    "en": [
+    "es": [
       "Portable Network Graphics"
     ]
   },
   "definition": {
-    "es": "PNG – Portable Network Graphics – es un formato de archivo de gráficos rasterizados que admite compresión de datos sin pérdida. PNG fue creado como un reemplazo mejorado y no patentado del formato GIF (Graphics Interchange Format), y es el formato de compresión de imagen sin pérdida más utilizado en Internet.",
-    "en": "PNG – Portable Network Graphics – is a raster graphics file format that supports lossless data compression. PNG was created as an improved, non-patented replacement for Graphics Interchange Format (GIF), and is the most widely used lossless image compression format on the Internet."
+    "en": "PNG – Portable Network Graphics – is a raster graphics file format that supports lossless data compression. PNG was created as an improved, non-patented replacement for Graphics Interchange Format (GIF), and is the most widely used lossless image compression format on the Internet.",
+    "es": "PNG – Portable Network Graphics – es un formato de archivo de gráficos rasterizados que admite compresión de datos sin pérdida. PNG fue creado como un reemplazo mejorado y no patentado del formato GIF (Graphics Interchange Format), y es el formato de compresión de imagen sin pérdida más utilizado en Internet."
   },
+  "notation": [
+    ".png",
+    "image/png"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/PNG"

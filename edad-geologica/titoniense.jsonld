@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/titoniense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Titoniense",
-    "en": "Tithonian"
+    "en": "Tithonian",
+    "es": "Titoniense"
   },
   "definition": {
-    "es": "Límite inferior 149.2 +|-0.7 Ma, límite superior 145 Ma",
-    "en": "Older bound 149.2 +|-0.7 Ma, younger bound 145 Ma"
+    "en": "Older bound 149.2 +|-0.7 Ma, younger bound 145 Ma",
+    "es": "Límite inferior 149.2 +|-0.7 Ma, límite superior 145 Ma"
   },
+  "notation": [
+    "212020303000.0",
+    "a1.1.2.2.1.1"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-superior",
     "prefLabel": {
-      "es": "Jurásico Superior",
-      "en": "Upper Jurassic"
+      "en": "Upper Jurassic",
+      "es": "Jurásico Superior"
     }
   },
   "exactMatch": [

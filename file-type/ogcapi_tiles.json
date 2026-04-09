@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/ogcapi_tiles",
   "type": "Concept",
   "prefLabel": {
-    "es": "OGC API Tiles",
-    "en": "OGC API Tiles"
+    "en": "OGC API Tiles",
+    "es": "OGC API Tiles"
   },
   "altLabel": {
-    "es": [
-      "Servicio OGC API Tiles"
-    ],
     "en": [
       "OGC API Tiles service"
+    ],
+    "es": [
+      "Servicio OGC API Tiles"
     ]
   },
   "definition": {
-    "es": "OGC API – Tiles es un estándar del Open Geospatial Consortium que define una API RESTful para acceder a datos geoespaciales en forma de teselas predefinidas. Soporta tanto teselas de mapas rasterizados como teselas vectoriales. Reemplaza al estándar WMTS anterior, utilizando principios modernos de la web.",
-    "en": "OGC API – Tiles is an Open Geospatial Consortium standard that defines a RESTful API for accessing geospatial data in the form of predefined tiles. It supports both raster map tiles and vector tiles. It replaces the older WMTS standard, using modern web principles."
+    "en": "OGC API – Tiles is an Open Geospatial Consortium standard that defines a RESTful API for accessing geospatial data in the form of predefined tiles. It supports both raster map tiles and vector tiles. It replaces the older WMTS standard, using modern web principles.",
+    "es": "OGC API – Tiles es un estándar del Open Geospatial Consortium que define una API RESTful para acceder a datos geoespaciales en forma de teselas predefinidas. Soporta tanto teselas de mapas rasterizados como teselas vectoriales. Reemplaza al estándar WMTS anterior, utilizando principios modernos de la web."
   },
+  "notation": [
+    "image/png; image/jpeg; application/vnd.mapbox-vector-tile"
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/file-type"

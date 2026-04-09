@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-playa",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de playa",
-    "en": "beach setting"
+    "en": "beach setting",
+    "es": "ambiente de playa"
   },
   "definition": {
-    "es": "El material no consolidado en la línea de costa que cubre una zona de poca profundidad, por lo general con un perfil cóncavo, que se extiende hacia tierra desde la línea de bajamar al lugar donde hay un cambio definitivo de material o forma fisiográfica (como por ejemplo un acantilado), o la línea de vegetación permanente (por lo general el límite efectivo de las olas más altas de tormenta); en la orilla de un cuerpo de agua, formado y bañada por las olas o mareas, por lo general cubiertos por arena o grava, y que carecen de una superficie rocosa desnuda.",
-    "en": "The unconsolidated material at the shoreline that covers a gently sloping zone, typically with a concave profile, extending landward from the low-water line to the place where there is a definite change in material or physiographic form (such as a cliff), or to the line of permanent vegetation (usually the effective limit of the highest storm waves); at the shore of a body of water, formed and washed by waves or tides, usually covered by sand or gravel, and lacking a bare rocky surface."
+    "en": "The unconsolidated material at the shoreline that covers a gently sloping zone, typically with a concave profile, extending landward from the low-water line to the place where there is a definite change in material or physiographic form (such as a cliff), or to the line of permanent vegetation (usually the effective limit of the highest storm waves); at the shore of a body of water, formed and washed by waves or tides, usually covered by sand or gravel, and lacking a bare rocky surface.",
+    "es": "El material no consolidado en la línea de costa que cubre una zona de poca profundidad, por lo general con un perfil cóncavo, que se extiende hacia tierra desde la línea de bajamar al lugar donde hay un cambio definitivo de material o forma fisiográfica (como por ejemplo un acantilado), o la línea de vegetación permanente (por lo general el límite efectivo de las olas más altas de tormenta); en la orilla de un cuerpo de agua, formado y bañada por las olas o mareas, por lo general cubiertos por arena o grava, y que carecen de una superficie rocosa desnuda."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-playa-de-barrera",
       "prefLabel": {
-        "es": "ambiente de playa de barrera",
-        "en": "barrier beach setting"
+        "en": "barrier beach setting",
+        "es": "ambiente de playa de barrera"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral",
     "prefLabel": {
-      "es": "ambiente litoral",
-      "en": "shoreline setting"
+      "en": "shoreline setting",
+      "es": "ambiente litoral"
     }
   },
   "exactMatch": [

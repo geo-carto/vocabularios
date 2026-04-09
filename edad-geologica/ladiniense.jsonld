@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ladiniense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Ladiniense",
-    "en": "Ladinian"
+    "en": "Ladinian",
+    "es": "Ladiniense"
   },
   "definition": {
-    "es": "Límite inferior 242 Ma, límite superior 237 Ma",
-    "en": "Older bound 242 Ma, younger bound 237 Ma"
+    "en": "Older bound 242 Ma, younger bound 237 Ma",
+    "es": "Límite inferior 242 Ma, límite superior 237 Ma"
   },
+  "notation": [
+    "212010202000.0",
+    "a1.1.2.3.2.1"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-medio",
     "prefLabel": {
-      "es": "Triásico Medio",
-      "en": "Middle Triassic"
+      "en": "Middle Triassic",
+      "es": "Triásico Medio"
     }
   },
   "exactMatch": [

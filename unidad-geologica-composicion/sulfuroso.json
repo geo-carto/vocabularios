@@ -2,19 +2,19 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfuroso",
   "type": "Concept",
   "prefLabel": {
-    "es": "sulfuroso",
-    "en": "sulfide chemistry"
+    "en": "sulfide chemistry",
+    "es": "sulfuroso"
   },
   "definition": {
-    "es": "El azufre es el anión más abundante, los cationes son metales o semimetales",
-    "en": "Sulfur is the most abundant anion, cations are metals or semimetals"
+    "en": "Sulfur is the most abundant anion, cations are metals or semimetals",
+    "es": "El azufre es el anión más abundante, los cationes son metales o semimetales"
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/sulfosales",
       "prefLabel": {
-        "es": "sulfosales",
-        "en": "sulfosalt chemistry"
+        "en": "sulfosalt chemistry",
+        "es": "sulfosales"
       }
     }
   ],

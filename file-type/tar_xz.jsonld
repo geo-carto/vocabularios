@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/tar_xz",
   "type": "Concept",
   "prefLabel": {
-    "es": "TAR XZ",
-    "en": "TAR XZ"
+    "en": "TAR XZ",
+    "es": "TAR XZ"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "XZ Compressed Tar Archive"
     ],
-    "en": [
+    "es": [
       "XZ Compressed Tar Archive"
     ]
   },
   "definition": {
-    "es": "TAR – tape archive – es una utilidad de software para recopilar muchos archivos en un único archivo, frecuentemente denominado tarball, para distribución o copia de seguridad. XZ es un programa y formato de compresión sin pérdida.",
-    "en": "TAR – tape archive – is a computer software utility for collecting many files into one archive file, often referred to as a tarball, for distribution or backup purposes. XZ is a lossless compression program and file format."
+    "en": "TAR – tape archive – is a computer software utility for collecting many files into one archive file, often referred to as a tarball, for distribution or backup purposes. XZ is a lossless compression program and file format.",
+    "es": "TAR – tape archive – es una utilidad de software para recopilar muchos archivos en un único archivo, frecuentemente denominado tarball, para distribución o copia de seguridad. XZ es un programa y formato de compresión sin pérdida."
   },
+  "notation": [
+    ".tar.xz",
+    "application/x-compressed"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/TAR_XZ"

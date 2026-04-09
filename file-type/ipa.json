@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/ipa",
   "type": "Concept",
   "prefLabel": {
-    "es": "IPA",
-    "en": "IPA"
+    "en": "IPA",
+    "es": "IPA"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "iOS App Store Package"
     ],
-    "en": [
+    "es": [
       "iOS App Store Package"
     ]
   },
   "definition": {
-    "es": "Un archivo .ipa (iOS App Store Package) es un archivo de aplicación utilizado por el sistema operativo iOS.",
-    "en": "An .ipa (iOS App Store Package) file is an application archive file used by the iOS operating system."
+    "en": "An .ipa (iOS App Store Package) file is an application archive file used by the iOS operating system.",
+    "es": "Un archivo .ipa (iOS App Store Package) es un archivo de aplicación utilizado por el sistema operativo iOS."
   },
+  "notation": [
+    "application/zip",
+    ".ipa"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/zip"

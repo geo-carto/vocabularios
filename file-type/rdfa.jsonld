@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/rdfa",
   "type": "Concept",
   "prefLabel": {
-    "es": "RDFa",
-    "en": "RDFa"
+    "en": "RDFa",
+    "es": "RDFa"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Resource Description Framework in Attributes"
     ],
-    "en": [
+    "es": [
       "Resource Description Framework in Attributes"
     ]
   },
   "definition": {
-    "es": "RDFa es una técnica que proporciona un conjunto de atributos de marcado para aumentar la información visual en la Web con indicaciones legibles por máquinas.",
-    "en": "RDFa is a technique that provides a set of markup attributes to augment the visual information on the Web with machine-readable hints."
+    "en": "RDFa is a technique that provides a set of markup attributes to augment the visual information on the Web with machine-readable hints.",
+    "es": "RDFa es una técnica que proporciona un conjunto de atributos de marcado para aumentar la información visual en la Web con indicaciones legibles por máquinas."
   },
+  "notation": [
+    ".rdfa",
+    "application/rdfa"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/RDFA"

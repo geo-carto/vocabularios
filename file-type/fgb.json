@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/fgb",
   "type": "Concept",
   "prefLabel": {
-    "es": "FlatGeobuf",
-    "en": "FlatGeobuf"
+    "en": "FlatGeobuf",
+    "es": "FlatGeobuf"
   },
   "altLabel": {
-    "es": [
-      "Formato FlatGeobuf"
-    ],
     "en": [
       "FlatGeobuf format"
+    ],
+    "es": [
+      "Formato FlatGeobuf"
     ]
   },
   "definition": {
-    "es": "FlatGeobuf es un formato de archivo binario para datos vectoriales geográficos (puntos, líneas, polígonos) basado en FlatBuffers. Está diseñado para ser adecuado para grandes volúmenes de datos estáticos, significativamente más rápido que los formatos heredados, sin limitaciones de tamaño y apto para streaming y acceso aleatorio. Soporta opcionalmente un índice espacial R-Tree de Hilbert empaquetado.",
-    "en": "FlatGeobuf is a binary file format for geographic vector data (points, lines, polygons) based on FlatBuffers. It is designed to be suitable for large volumes of static data, significantly faster than legacy formats, without size limitations, and suitable for streaming and random access. It optionally supports a packed Hilbert R-Tree spatial index."
+    "en": "FlatGeobuf is a binary file format for geographic vector data (points, lines, polygons) based on FlatBuffers. It is designed to be suitable for large volumes of static data, significantly faster than legacy formats, without size limitations, and suitable for streaming and random access. It optionally supports a packed Hilbert R-Tree spatial index.",
+    "es": "FlatGeobuf es un formato de archivo binario para datos vectoriales geográficos (puntos, líneas, polígonos) basado en FlatBuffers. Está diseñado para ser adecuado para grandes volúmenes de datos estáticos, significativamente más rápido que los formatos heredados, sin limitaciones de tamaño y apto para streaming y acceso aleatorio. Soporta opcionalmente un índice espacial R-Tree de Hilbert empaquetado."
   },
+  "notation": [
+    ".fgb",
+    "application/flatgeobuf"
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/file-type"

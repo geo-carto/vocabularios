@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/rdf_trix",
   "type": "Concept",
   "prefLabel": {
-    "es": "RDF TriX",
-    "en": "RDF TriX"
+    "en": "RDF TriX",
+    "es": "RDF TriX"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Triples in XML"
     ],
-    "en": [
+    "es": [
       "Triples in XML"
     ]
   },
   "definition": {
-    "es": "TriX (Triples in XML) es un formato de serialización para grafos RDF (Resource Description Framework). Es un formato XML para serializar grafos con nombre (Named Graphs) y conjuntos de datos RDF que ofrece una alternativa compacta y legible a la sintaxis RDF/XML basada en XML.",
-    "en": "TriX (Triples in XML) is a serialization format for RDF (Resource Description Framework) graphs. It is an XML format for serializing Named Graphs and RDF Datasets which offers a compact and readable alternative to the XML-based RDF/XML syntax."
+    "en": "TriX (Triples in XML) is a serialization format for RDF (Resource Description Framework) graphs. It is an XML format for serializing Named Graphs and RDF Datasets which offers a compact and readable alternative to the XML-based RDF/XML syntax.",
+    "es": "TriX (Triples in XML) es un formato de serialización para grafos RDF (Resource Description Framework). Es un formato XML para serializar grafos con nombre (Named Graphs) y conjuntos de datos RDF que ofrece una alternativa compacta y legible a la sintaxis RDF/XML basada en XML."
   },
+  "notation": [
+    "application/xml",
+    ".xml; .trix"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/xml"

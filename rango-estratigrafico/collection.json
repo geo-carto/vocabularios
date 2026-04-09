@@ -2,105 +2,106 @@
   "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/collection",
   "type": "Collection",
   "prefLabel": {
+    "en": "Stratigraphic rank - All concepts",
     "es": "Rango estratigráfico - Todos los conceptos"
   },
   "member": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/capa",
       "prefLabel": {
-        "es": "capa",
-        "en": "bed"
+        "en": "bed",
+        "es": "capa"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/complejo",
       "prefLabel": {
-        "es": "complejo",
-        "en": "complex"
+        "en": "complex",
+        "es": "complejo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/formacion",
       "prefLabel": {
-        "es": "formación",
-        "en": "formation"
+        "en": "formation",
+        "es": "formación"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/grupo",
       "prefLabel": {
-        "es": "grupo",
-        "en": "group"
+        "en": "group",
+        "es": "grupo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/litodema",
       "prefLabel": {
-        "es": "litodema",
-        "en": "lithodeme"
+        "en": "lithodeme",
+        "es": "litodema"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/megasecuencia",
       "prefLabel": {
-        "es": "megasecuencia",
-        "en": "megasequence"
+        "en": "megasequence",
+        "es": "megasecuencia"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/miembro",
       "prefLabel": {
-        "es": "miembro",
-        "en": "member"
+        "en": "member",
+        "es": "miembro"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/no-especificado",
       "prefLabel": {
-        "es": "no especificado",
-        "en": "not specified"
+        "en": "not specified",
+        "es": "no especificado"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/secuencia",
       "prefLabel": {
-        "es": "secuencia",
-        "en": "sequence"
+        "en": "sequence",
+        "es": "secuencia"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/subgrupo",
       "prefLabel": {
-        "es": "subgrupo",
-        "en": "subgroup"
+        "en": "subgroup",
+        "es": "subgrupo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/supergrupo",
       "prefLabel": {
-        "es": "supergrupo",
-        "en": "supergroup"
+        "en": "supergroup",
+        "es": "supergrupo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/supersecuencia",
       "prefLabel": {
-        "es": "supersecuencia",
-        "en": "supersequence"
+        "en": "supersequence",
+        "es": "supersecuencia"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/superzona",
       "prefLabel": {
-        "es": "superzona",
-        "en": "supersuite"
+        "en": "supersuite",
+        "es": "superzona"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/zona",
       "prefLabel": {
-        "es": "zona",
-        "en": "suite"
+        "en": "suite",
+        "es": "zona"
       }
     }
   ],

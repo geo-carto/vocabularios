@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-lacustre",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente lacustre",
-    "en": "lacustrine setting"
+    "en": "lacustrine setting",
+    "es": "ambiente lacustre"
   },
   "definition": {
-    "es": "Marco asociado a un lago. Siempre solapa con terrestres pueden solaparse con subaéreos, subacuático, o costa.",
-    "en": "Setting associated with a lake. Always overlaps with terrestrial, may overlap with subaerial, subaqueous, or shoreline."
+    "en": "Setting associated with a lake. Always overlaps with terrestrial, may overlap with subaerial, subaqueous, or shoreline.",
+    "es": "Marco asociado a un lago. Siempre solapa con terrestres pueden solaparse con subaéreos, subacuático, o costa."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-delta-lacustre",
       "prefLabel": {
-        "es": "ambiente de delta lacustre",
-        "en": "lacustrine delta setting"
+        "en": "lacustrine delta setting",
+        "es": "ambiente de delta lacustre"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-terrestre",
     "prefLabel": {
-      "es": "ambiente terrestre",
-      "en": "terrestrial setting"
+      "en": "terrestrial setting",
+      "es": "ambiente terrestre"
     }
   },
   "exactMatch": [

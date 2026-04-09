@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/rhaetiense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Rhaetiense",
-    "en": "Rhaetian"
+    "en": "Rhaetian",
+    "es": "Rhaetiense"
   },
   "definition": {
-    "es": "Límite inferior 208.5 Ma, límite superior 201.4 +|-0.2 Ma",
-    "en": "Older bound 208.5 Ma, younger bound 201.4 +|-0.2 Ma"
+    "en": "Older bound 208.5 Ma, younger bound 201.4 +|-0.2 Ma",
+    "es": "Límite inferior 208.5 Ma, límite superior 201.4 +|-0.2 Ma"
   },
+  "notation": [
+    "212010303000.0",
+    "a1.1.2.3.1.1"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-superior",
     "prefLabel": {
-      "es": "Triásico Superior",
-      "en": "Upper Triassic"
+      "en": "Upper Triassic",
+      "es": "Triásico Superior"
     }
   },
   "exactMatch": [

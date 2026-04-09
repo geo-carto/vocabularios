@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/xls",
   "type": "Concept",
   "prefLabel": {
-    "es": "Excel XLS",
-    "en": "Excel XLS"
+    "en": "Excel XLS",
+    "es": "Excel XLS"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Microsof Excel Workbook"
     ],
-    "en": [
+    "es": [
       "Microsof Excel Workbook"
     ]
   },
   "definition": {
-    "es": "XLS es un formato de archivo binario propietario utilizado para hojas de cálculo de Microsoft Excel con funciones de cálculo, herramientas de gráficos, tablas dinámicas y un lenguaje de programación de macros.",
-    "en": "XLS is a proprietary binary file format used for Microsoft Excel spreadsheet which features calculation, graphing tools, pivot tables and a macro programming language."
+    "en": "XLS is a proprietary binary file format used for Microsoft Excel spreadsheet which features calculation, graphing tools, pivot tables and a macro programming language.",
+    "es": "XLS es un formato de archivo binario propietario utilizado para hojas de cálculo de Microsoft Excel con funciones de cálculo, herramientas de gráficos, tablas dinámicas y un lenguaje de programación de macros."
   },
+  "notation": [
+    ".xls",
+    "application/vnd.ms-excel"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/XLS"

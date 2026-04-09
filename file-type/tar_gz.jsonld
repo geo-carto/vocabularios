@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/tar_gz",
   "type": "Concept",
   "prefLabel": {
-    "es": "TAR GZ",
-    "en": "TAR GZ"
+    "en": "TAR GZ",
+    "es": "TAR GZ"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Compressed Tarball File"
     ],
-    "en": [
+    "es": [
       "Compressed Tarball File"
     ]
   },
   "definition": {
-    "es": "TAR – tape archive – es una utilidad de software para recopilar muchos archivos en un único archivo, frecuentemente denominado tarball, para distribución o copia de seguridad. GZ – gzip – es un formato de archivo y una aplicación de software utilizada para la compresión y descompresión de archivos.",
-    "en": "TAR – tape archive – is a computer software utility for collecting many files into one archive file, often referred to as a tarball, for distribution or backup purposes. GZ – gzip – is a file format and a software application used for file compression and decompression."
+    "en": "TAR – tape archive – is a computer software utility for collecting many files into one archive file, often referred to as a tarball, for distribution or backup purposes. GZ – gzip – is a file format and a software application used for file compression and decompression.",
+    "es": "TAR – tape archive – es una utilidad de software para recopilar muchos archivos en un único archivo, frecuentemente denominado tarball, para distribución o copia de seguridad. GZ – gzip – es un formato de archivo y una aplicación de software utilizada para la compresión y descompresión de archivos."
   },
+  "notation": [
+    "application/gzip",
+    ".tar.gz"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/gzip"

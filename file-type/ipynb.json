@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/ipynb",
   "type": "Concept",
   "prefLabel": {
-    "es": "IPYNB",
-    "en": "IPYNB"
+    "en": "IPYNB",
+    "es": "IPYNB"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Jupyter Notebook"
     ],
-    "en": [
+    "es": [
       "Jupyter Notebook"
     ]
   },
   "definition": {
-    "es": "Un archivo IPYNB (IPython Notebook) es un documento Jupyter Notebook almacenado en formato JSON. Contiene una lista ordenada de celdas de entrada/salida que pueden incluir código ejecutable, texto enriquecido (Markdown), matemáticas (LaTeX), gráficos e imágenes. Es ampliamente utilizado en ciencia de datos, investigación científica y educación.",
-    "en": "An IPYNB (IPython Notebook) file is a Jupyter Notebook document stored in JSON format. It contains an ordered list of input/output cells that can include executable code, rich text (Markdown), mathematics (LaTeX), plots, and images. It is widely used in data science, scientific research, and education."
+    "en": "An IPYNB (IPython Notebook) file is a Jupyter Notebook document stored in JSON format. It contains an ordered list of input/output cells that can include executable code, rich text (Markdown), mathematics (LaTeX), plots, and images. It is widely used in data science, scientific research, and education.",
+    "es": "Un archivo IPYNB (IPython Notebook) es un documento Jupyter Notebook almacenado en formato JSON. Contiene una lista ordenada de celdas de entrada/salida que pueden incluir código ejecutable, texto enriquecido (Markdown), matemáticas (LaTeX), gráficos e imágenes. Es ampliamente utilizado en ciencia de datos, investigación científica y educación."
   },
+  "notation": [
+    ".ipynb",
+    "application/x-ipynb+json"
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/file-type"

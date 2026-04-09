@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/grid",
   "type": "Concept",
   "prefLabel": {
-    "es": "Esri binary grid",
-    "en": "Esri binary grid"
+    "en": "Esri binary grid",
+    "es": "Esri binary grid"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Environmental Systems Research Institute binary grid"
     ],
-    "en": [
+    "es": [
       "Environmental Systems Research Institute binary grid"
     ]
   },
   "definition": {
-    "es": "Esri binary grid es una variación binaria propietaria de Esri grid, un formato de archivo SIG rasterizado desarrollado por Esri. También se conoce como ARC/INFO GRID o ARC GRID. Difiere de la otra variación de Esri grid, un formato ASCII no propietario.",
-    "en": "Esri binary grid is a proprietary binary variation of an Esri grid, a raster GIS file format developed by Esri. It is also known as an ARC/INFO GRID or ARC GRID. It differs from the other Esri grid variation, a non-proprietary ASCII format."
+    "en": "Esri binary grid is a proprietary binary variation of an Esri grid, a raster GIS file format developed by Esri. It is also known as an ARC/INFO GRID or ARC GRID. It differs from the other Esri grid variation, a non-proprietary ASCII format.",
+    "es": "Esri binary grid es una variación binaria propietaria de Esri grid, un formato de archivo SIG rasterizado desarrollado por Esri. También se conoce como ARC/INFO GRID o ARC GRID. Difiere de la otra variación de Esri grid, un formato ASCII no propietario."
   },
+  "notation": [
+    "application/x-esri-grid; application/x-grid"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/GRID"

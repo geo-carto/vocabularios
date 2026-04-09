@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/mdb",
   "type": "Concept",
   "prefLabel": {
-    "es": "MDB",
-    "en": "MDB"
+    "en": "MDB",
+    "es": "MDB"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Microsoft Access Database"
     ],
-    "en": [
+    "es": [
       "Microsoft Access Database"
     ]
   },
   "definition": {
-    "es": "MDB – Microsoft Database – es un formato de archivo propietario utilizado por las versiones 2003 y anteriores de Microsoft Access. Microsoft Access es un sistema de gestión de bases de datos.",
-    "en": "MDB – Microsoft Database – is a proprietary file format used by 2003 and earlier versions of Microsoft Access. Microsoft Access is a database management system."
+    "en": "MDB – Microsoft Database – is a proprietary file format used by 2003 and earlier versions of Microsoft Access. Microsoft Access is a database management system.",
+    "es": "MDB – Microsoft Database – es un formato de archivo propietario utilizado por las versiones 2003 y anteriores de Microsoft Access. Microsoft Access es un sistema de gestión de bases de datos."
   },
+  "notation": [
+    ".mdb",
+    "application/vnd.ms-access; application/x-msaccess"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/MDB"

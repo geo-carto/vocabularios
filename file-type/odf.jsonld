@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/odf",
   "type": "Concept",
   "prefLabel": {
-    "es": "ODF",
-    "en": "ODF"
+    "en": "ODF",
+    "es": "ODF"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "OpenDocument Format"
     ],
-    "en": [
+    "es": [
       "OpenDocument Format"
     ]
   },
   "definition": {
-    "es": "ODF – Open Document Format for Office Applications, también conocido como OpenDocument – es un formato de archivo basado en XML para hojas de cálculo, gráficos, presentaciones y documentos de procesamiento de textos. Fue desarrollado con el objetivo de proporcionar una especificación de formato de archivo abierto basado en XML para aplicaciones de oficina.",
-    "en": "ODF – Open Document Format for Office Applications, also known as OpenDocument – is an XML-based file format for spreadsheets, charts, presentations and word processing documents. It was developed with the aim of providing an open, XML-based file format specification for office applications."
+    "en": "ODF – Open Document Format for Office Applications, also known as OpenDocument – is an XML-based file format for spreadsheets, charts, presentations and word processing documents. It was developed with the aim of providing an open, XML-based file format specification for office applications.",
+    "es": "ODF – Open Document Format for Office Applications, también conocido como OpenDocument – es un formato de archivo basado en XML para hojas de cálculo, gráficos, presentaciones y documentos de procesamiento de textos. Fue desarrollado con el objetivo de proporcionar una especificación de formato de archivo abierto basado en XML para aplicaciones de oficina."
   },
+  "notation": [
+    ".odf",
+    "application/octet-stream; application/vnd.oasis.opendocument.formula"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/octet-stream"

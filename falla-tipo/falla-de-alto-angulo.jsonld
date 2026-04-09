@@ -2,41 +2,41 @@
   "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-alto-angulo",
   "type": "Concept",
   "prefLabel": {
-    "es": "falla de alto ángulo",
-    "en": "high angle fault"
+    "en": "high angle fault",
+    "es": "falla de alto ángulo"
   },
   "definition": {
-    "es": "Falla cuyo plano buza más de 45 grados sobre más de la mitad de su extensión reconocida, y para la cual el deslizamiento o separación no se especifica explícitamente.",
-    "en": "Fault that dips at least 45 degrees over more than half of its recognized extent, for which slip or separation is not explicitly specified."
+    "en": "Fault that dips at least 45 degrees over more than half of its recognized extent, for which slip or separation is not explicitly specified.",
+    "es": "Falla cuyo plano buza más de 45 grados sobre más de la mitad de su extensión reconocida, y para la cual el deslizamiento o separación no se especifica explícitamente."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-de-alto-angulo",
       "prefLabel": {
-        "es": "falla de desgarre de alto ángulo",
-        "en": "wrench fault"
+        "en": "wrench fault",
+        "es": "falla de desgarre de alto ángulo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-de-alto-angulo",
       "prefLabel": {
-        "es": "falla inversa de alto ángulo",
-        "en": "high angle reverse"
+        "en": "high angle reverse",
+        "es": "falla inversa de alto ángulo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-alto-angulo",
       "prefLabel": {
-        "es": "falla normal de alto ángulo",
-        "en": "high angle normal fault"
+        "en": "high angle normal fault",
+        "es": "falla normal de alto ángulo"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla",
     "prefLabel": {
-      "es": "falla",
-      "en": "fault"
+      "en": "fault",
+      "es": "falla"
     }
   },
   "exactMatch": [

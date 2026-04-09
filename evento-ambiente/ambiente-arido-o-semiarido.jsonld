@@ -2,48 +2,48 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-arido-o-semiarido",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente árido o semiárido",
-    "en": "arid or semi arid environment setting"
+    "en": "arid or semi arid environment setting",
+    "es": "ambiente árido o semiárido"
   },
   "definition": {
-    "es": "Ambiente caracterizado por una precipitación media anual de 25 cm (10 pulgadas) o inferior. (Jackson, 1997, p. 172). Equivalente en sentido amplio al ambiente desertico, pero se usa 'árido' para enfatizar la naturaleza climática de la definición del ambiente.",
-    "en": "Setting characterized by mean annual precipitation of 10 inches (25 cm) or less. (Jackson, 1997, p. 172). Equivalent to SLTT 'Desert setting', but use 'Arid' to emphasize climatic nature of setting definition."
+    "en": "Setting characterized by mean annual precipitation of 10 inches (25 cm) or less. (Jackson, 1997, p. 172). Equivalent to SLTT 'Desert setting', but use 'Arid' to emphasize climatic nature of setting definition.",
+    "es": "Ambiente caracterizado por una precipitación media anual de 25 cm (10 pulgadas) o inferior. (Jackson, 1997, p. 172). Equivalente en sentido amplio al ambiente desertico, pero se usa 'árido' para enfatizar la naturaleza climática de la definición del ambiente."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-arenosa",
       "prefLabel": {
-        "es": "ambiente de llanura arenosa",
-        "en": "sand plain setting"
+        "en": "sand plain setting",
+        "es": "ambiente de llanura arenosa"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-pedregosa",
       "prefLabel": {
-        "es": "ambiente de llanura pedregosa",
-        "en": "gibber plain setting"
+        "en": "gibber plain setting",
+        "es": "ambiente de llanura pedregosa"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-playa-endorreica",
       "prefLabel": {
-        "es": "ambiente de playa endorreica",
-        "en": "playa setting"
+        "en": "playa setting",
+        "es": "ambiente de playa endorreica"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-sabkha-marina-marginal",
       "prefLabel": {
-        "es": "ambiente sabkha marina marginal",
-        "en": "marginal marine sabkha setting"
+        "en": "marginal marine sabkha setting",
+        "es": "ambiente sabkha marina marginal"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-en-la-superficie-de-la-tierra",
     "prefLabel": {
-      "es": "ambiente en la superficie de la Tierra",
-      "en": "earth surface setting"
+      "en": "earth surface setting",
+      "es": "ambiente en la superficie de la Tierra"
     }
   },
   "exactMatch": [

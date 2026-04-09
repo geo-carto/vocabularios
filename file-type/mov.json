@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/mov",
   "type": "Concept",
   "prefLabel": {
-    "es": "MOV",
-    "en": "MOV"
+    "en": "MOV",
+    "es": "MOV"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "QuickTime Movie"
     ],
-    "en": [
+    "es": [
       "QuickTime Movie"
     ]
   },
   "definition": {
-    "es": "Formato de archivo informático utilizado nativamente por el framework QuickTime; el formato especifica un contenedor multimedia que contiene una o más pistas, cada una de las cuales almacena un tipo particular de datos: audio, vídeo o texto (p. ej. para subtítulos).",
-    "en": "computer file format used natively by the QuickTime framework; the format specifies a multimedia container file that contains one or more tracks, each of which stores a particular type of data: audio, video, or text (e.g. for subtitles)"
+    "en": "computer file format used natively by the QuickTime framework; the format specifies a multimedia container file that contains one or more tracks, each of which stores a particular type of data: audio, video, or text (e.g. for subtitles)",
+    "es": "Formato de archivo informático utilizado nativamente por el framework QuickTime; el formato especifica un contenedor multimedia que contiene una o más pistas, cada una de las cuales almacena un tipo particular de datos: audio, vídeo o texto (p. ej. para subtítulos)."
   },
+  "notation": [
+    ".mov",
+    "video/quicktime"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/MOV"

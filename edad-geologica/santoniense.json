@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/santoniense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Santoniense",
-    "en": "Santonian"
+    "en": "Santonian",
+    "es": "Santoniense"
   },
   "definition": {
-    "es": "Límite inferior 86.3 +|-0.5 Ma, límite superior 83.6 +|-0.2 Ma",
-    "en": "Older bound 86.3 +|-0.5 Ma, younger bound 83.6 +|-0.2 Ma"
+    "en": "Older bound 86.3 +|-0.5 Ma, younger bound 83.6 +|-0.2 Ma",
+    "es": "Límite inferior 86.3 +|-0.5 Ma, límite superior 83.6 +|-0.2 Ma"
   },
+  "notation": [
+    "212030204000.0",
+    "a1.1.2.1.1.3"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-superior",
     "prefLabel": {
-      "es": "Cretácico Superior",
-      "en": "Upper Cretaceous"
+      "en": "Upper Cretaceous",
+      "es": "Cretácico Superior"
     }
   },
   "exactMatch": [

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/rdf_n_quads",
   "type": "Concept",
   "prefLabel": {
-    "es": "RDF N-Quads",
-    "en": "RDF N-Quads"
+    "en": "RDF N-Quads",
+    "es": "RDF N-Quads"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Resource Description Framework N-Quads"
     ],
-    "en": [
+    "es": [
       "Resource Description Framework N-Quads"
     ]
   },
   "definition": {
-    "es": "N-Quads es un formato basado en líneas, de texto plano, para codificar un conjunto de datos RDF. Las declaraciones N-Quads son una secuencia de términos RDF que representan el sujeto, predicado, objeto y etiqueta de grafo de una Triple RDF y el grafo del que forma parte en un conjunto de datos.",
-    "en": "N-Quads is a line-based, plain text format for encoding an RDF dataset. N-quads statements are a sequence of RDF terms representing the subject, predicate, object and graph label of an RDF Triple and the graph it is part of in a dataset."
+    "en": "N-Quads is a line-based, plain text format for encoding an RDF dataset. N-quads statements are a sequence of RDF terms representing the subject, predicate, object and graph label of an RDF Triple and the graph it is part of in a dataset.",
+    "es": "N-Quads es un formato basado en líneas, de texto plano, para codificar un conjunto de datos RDF. Las declaraciones N-Quads son una secuencia de términos RDF que representan el sujeto, predicado, objeto y etiqueta de grafo de una Triple RDF y el grafo del que forma parte en un conjunto de datos."
   },
+  "notation": [
+    ".nq",
+    "application/n-quads"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/RDF_N_QUADS"

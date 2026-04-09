@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/sdmx",
   "type": "Concept",
   "prefLabel": {
-    "es": "SDMX",
-    "en": "SDMX"
+    "en": "SDMX",
+    "es": "SDMX"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Statistical Data and Metadata eXchange"
     ],
-    "en": [
+    "es": [
       "Statistical Data and Metadata eXchange"
     ]
   },
   "definition": {
-    "es": "SDMX es una iniciativa para fomentar estándares para el intercambio de información estadística. Los formatos de mensaje SDMX tienen dos expresiones básicas: SDMX-ML (usando sintaxis XML) y SDMX-EDI (usando sintaxis EDIFACT y basado en el mensaje estadístico GESMES/TS).",
-    "en": "SDMX is an initiative to foster standards for the exchange of statistical information. The SDMX message formats have two basic expressions, SDMX-ML (using XML syntax) and SDMX-EDI (using EDIFACT syntax and based on the GESMES/TS statistical message)."
+    "en": "SDMX is an initiative to foster standards for the exchange of statistical information. The SDMX message formats have two basic expressions, SDMX-ML (using XML syntax) and SDMX-EDI (using EDIFACT syntax and based on the GESMES/TS statistical message).",
+    "es": "SDMX es una iniciativa para fomentar estándares para el intercambio de información estadística. Los formatos de mensaje SDMX tienen dos expresiones básicas: SDMX-ML (usando sintaxis XML) y SDMX-EDI (usando sintaxis EDIFACT y basado en el mensaje estadístico GESMES/TS)."
   },
+  "notation": [
+    ".xml; .edi",
+    "application/xml; application/EDIFACT"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/xml"

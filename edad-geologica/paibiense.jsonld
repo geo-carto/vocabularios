@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paibiense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Paibiense",
-    "en": "Paibian"
+    "en": "Paibian",
+    "es": "Paibiense"
   },
   "definition": {
-    "es": "Límite inferior 497 Ma, límite superior 494 Ma",
-    "en": "Older bound 497 Ma, younger bound 494 Ma"
+    "en": "Older bound 497 Ma, younger bound 494 Ma",
+    "es": "Límite inferior 497 Ma, límite superior 494 Ma"
   },
+  "notation": [
+    "211010401000.0",
+    "a1.1.3.6.1.3"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/furongiense",
     "prefLabel": {
-      "es": "Furongiense",
-      "en": "Furongian"
+      "en": "Furongian",
+      "es": "Furongiense"
     }
   },
   "exactMatch": [

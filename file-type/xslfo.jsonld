@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/xslfo",
   "type": "Concept",
   "prefLabel": {
-    "es": "XSL-FO",
-    "en": "XSL-FO"
+    "en": "XSL-FO",
+    "es": "XSL-FO"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Extensible Stylesheet Language – Formatting Objects"
     ],
-    "en": [
+    "es": [
       "Extensible Stylesheet Language – Formatting Objects"
     ]
   },
   "definition": {
-    "es": "XSL-FO – XSL Formatting Objects – es un lenguaje de marcado para el formateo de documentos XML que se utiliza más frecuentemente para generar archivos PDF. XSL-FO es parte de XSL (Extensible Stylesheet Language), un conjunto de tecnologías del W3C diseñadas para la transformación y el formateo de datos XML.",
-    "en": "XSL-FO – XSL Formatting Objects – is a markup language for XML document formatting that is most often used to generate PDF files. XSL-FO is part of XSL (Extensible Stylesheet Language), a set of W3C technologies designed for the transformation and formatting of XML data."
+    "en": "XSL-FO – XSL Formatting Objects – is a markup language for XML document formatting that is most often used to generate PDF files. XSL-FO is part of XSL (Extensible Stylesheet Language), a set of W3C technologies designed for the transformation and formatting of XML data.",
+    "es": "XSL-FO – XSL Formatting Objects – es un lenguaje de marcado para el formateo de documentos XML que se utiliza más frecuentemente para generar archivos PDF. XSL-FO es parte de XSL (Extensible Stylesheet Language), un conjunto de tecnologías del W3C diseñadas para la transformación y el formateo de datos XML."
   },
+  "notation": [
+    "application/xml",
+    ".fo"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/xml"

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/xlsm",
   "type": "Concept",
   "prefLabel": {
-    "es": "XLSM",
-    "en": "XLSM"
+    "en": "XLSM",
+    "es": "XLSM"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Excel Macro-enabled Workbook"
     ],
-    "en": [
+    "es": [
       "Excel Macro-enabled Workbook"
     ]
   },
   "definition": {
-    "es": "Un libro de Excel habilitado para macros contiene hojas de cálculo de celdas organizadas por filas y columnas, así como macros incrustadas programadas en el lenguaje Visual Basic for Applications (VBA). Los archivos XLSM se guardan en el formato Open XML introducido en Microsoft Office 2007. Los archivos XLSM son archivos XLSX con macros habilitadas.",
-    "en": "An Excel Macro-enabled Workbook contains worksheets of cells arranged by rows and columns as well as embedded macros programmed in the Visual Basic for Applications (VBA) language. XLSM files are saved in the Open XML format introduced in Microsoft Office 2007. XLSM files are XLSX files, but with macros enabled."
+    "en": "An Excel Macro-enabled Workbook contains worksheets of cells arranged by rows and columns as well as embedded macros programmed in the Visual Basic for Applications (VBA) language. XLSM files are saved in the Open XML format introduced in Microsoft Office 2007. XLSM files are XLSX files, but with macros enabled.",
+    "es": "Un libro de Excel habilitado para macros contiene hojas de cálculo de celdas organizadas por filas y columnas, así como macros incrustadas programadas en el lenguaje Visual Basic for Applications (VBA). Los archivos XLSM se guardan en el formato Open XML introducido en Microsoft Office 2007. Los archivos XLSM son archivos XLSX con macros habilitadas."
   },
+  "notation": [
+    ".xlsm",
+    "application/vnd.ms-excel.sheet.macroEnabled.12"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/XLSM"

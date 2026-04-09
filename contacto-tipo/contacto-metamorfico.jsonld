@@ -2,48 +2,48 @@
   "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-metamorfico",
   "type": "Concept",
   "prefLabel": {
-    "es": "contacto metamórfico",
-    "en": "metamorphic contact"
+    "en": "metamorphic contact",
+    "es": "contacto metamórfico"
   },
   "definition": {
-    "es": "Contacto litogenético que separa rocas con diferentes propiedades litológicas relacionadas con el metamorfismo, metasomatismo, alteración o mineralización. Generalmente separa cuerpos de rocas metamórficas, pero puede separar rocas metamorfizadas (hablando en términos generales) de rocas no metamorfizadas.",
-    "en": "Lithogenetic contact separating rocks that have different lithologic properties related to metamorphism, metasomatism, alteration, or mineralization. Generally separates metamorphic rock bodies, but may separate metamorphosed (broadly speaking) and non-metamorphosed rock."
+    "en": "Lithogenetic contact separating rocks that have different lithologic properties related to metamorphism, metasomatism, alteration, or mineralization. Generally separates metamorphic rock bodies, but may separate metamorphosed (broadly speaking) and non-metamorphosed rock.",
+    "es": "Contacto litogenético que separa rocas con diferentes propiedades litológicas relacionadas con el metamorfismo, metasomatismo, alteración o mineralización. Generalmente separa cuerpos de rocas metamórficas, pero puede separar rocas metamorfizadas (hablando en términos generales) de rocas no metamorfizadas."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-alteracion",
       "prefLabel": {
-        "es": "contacto de alteración producto de metasomatismo",
-        "en": "alteration facies contact"
+        "en": "alteration facies contact",
+        "es": "contacto de alteración producto de metasomatismo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-asociacion-mineral",
       "prefLabel": {
-        "es": "contacto de asociación mineral",
-        "en": "mineralisation assemblage contact"
+        "en": "mineralisation assemblage contact",
+        "es": "contacto de asociación mineral"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-metamorficas",
       "prefLabel": {
-        "es": "contacto entre facies metamórficas",
-        "en": "metamorphic facies contact"
+        "en": "metamorphic facies contact",
+        "es": "contacto entre facies metamórficas"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-metasomaticas",
       "prefLabel": {
-        "es": "contacto entre facies metasomáticas",
-        "en": "metasomatic facies contact"
+        "en": "metasomatic facies contact",
+        "es": "contacto entre facies metasomáticas"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico",
     "prefLabel": {
-      "es": "contacto litogenético",
-      "en": "lithogenetic contact"
+      "en": "lithogenetic contact",
+      "es": "contacto litogenético"
     }
   },
   "exactMatch": [

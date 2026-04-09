@@ -2,47 +2,47 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de",
   "type": "Concept",
   "prefLabel": {
-    "es": "parte de",
-    "en": "part of"
+    "en": "part of",
+    "es": "parte de"
   },
   "definition": {
-    "es": "No se conoce con más detalle la función de la parte de la unidad geológica.",
-    "en": "The geologic unit part role is not known in any greater detail"
+    "en": "The geologic unit part role is not known in any greater detail",
+    "es": "No se conoce con más detalle la función de la parte de la unidad geológica."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/facies",
       "prefLabel": {
-        "es": "facies",
-        "en": "facies"
+        "en": "facies",
+        "es": "facies"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion",
       "prefLabel": {
-        "es": "inclusión",
-        "en": "inclusion"
+        "en": "inclusion",
+        "es": "inclusión"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma",
       "prefLabel": {
-        "es": "litosoma",
-        "en": "lithosome"
+        "en": "lithosome",
+        "es": "litosoma"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica",
       "prefLabel": {
-        "es": "parte estratigráfica",
-        "en": "stratigraphic part"
+        "en": "stratigraphic part",
+        "es": "parte estratigráfica"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte",
       "prefLabel": {
-        "es": "rol no especificado de una parte",
-        "en": "unspecified part role"
+        "en": "unspecified part role",
+        "es": "rol no especificado de una parte"
       }
     }
   ],

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/lyrx",
   "type": "Concept",
   "prefLabel": {
-    "es": "LYRX",
-    "en": "LYRX"
+    "en": "LYRX",
+    "es": "LYRX"
   },
   "altLabel": {
-    "es": [
-      "Archivo de capa ArcGIS Pro"
-    ],
     "en": [
       "ArcGIS Pro Layer File"
+    ],
+    "es": [
+      "Archivo de capa ArcGIS Pro"
     ]
   },
   "definition": {
-    "es": "Un archivo LYRX es un archivo de capa de ArcGIS Pro que almacena la ruta a los datos de origen así como propiedades de visualización de la capa, incluyendo simbología, etiquetado, definiciones de consulta y otros ajustes de representación. Es un archivo en formato JSON utilizado exclusivamente por ArcGIS Pro, reemplazando al formato binario .lyr de ArcMap.",
-    "en": "A LYRX file is an ArcGIS Pro layer file that stores the path to the source data as well as display properties of the layer, including symbology, labeling, query definitions, and other rendering settings. It is a JSON format file used exclusively by ArcGIS Pro, replacing the binary .lyr format from ArcMap."
+    "en": "A LYRX file is an ArcGIS Pro layer file that stores the path to the source data as well as display properties of the layer, including symbology, labeling, query definitions, and other rendering settings. It is a JSON format file used exclusively by ArcGIS Pro, replacing the binary .lyr format from ArcMap.",
+    "es": "Un archivo LYRX es un archivo de capa de ArcGIS Pro que almacena la ruta a los datos de origen así como propiedades de visualización de la capa, incluyendo simbología, etiquetado, definiciones de consulta y otros ajustes de representación. Es un archivo en formato JSON utilizado exclusivamente por ArcGIS Pro, reemplazando al formato binario .lyr de ArcMap."
   },
+  "notation": [
+    "application/json",
+    ".lyrx"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/json"

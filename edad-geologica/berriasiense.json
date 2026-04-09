@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/berriasiense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Berriasiense",
-    "en": "Berriasian"
+    "en": "Berriasian",
+    "es": "Berriasiense"
   },
   "definition": {
-    "es": "Límite inferior 145 Ma, límite superior 139.8 Ma",
-    "en": "Older bound 145 Ma, younger bound 139.8 Ma"
+    "en": "Older bound 145 Ma, younger bound 139.8 Ma",
+    "es": "Límite inferior 145 Ma, límite superior 139.8 Ma"
   },
+  "notation": [
+    "212030101000.0",
+    "a1.1.2.1.2.6"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-inferior",
     "prefLabel": {
-      "es": "Cretácico Inferior",
-      "en": "Lower Cretaceous"
+      "en": "Lower Cretaceous",
+      "es": "Cretácico Inferior"
     }
   },
   "exactMatch": [

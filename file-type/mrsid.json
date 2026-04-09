@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/mrsid",
   "type": "Concept",
   "prefLabel": {
-    "es": "MrSID",
-    "en": "MrSID"
+    "en": "MrSID",
+    "es": "MrSID"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Multiresolution seamless image database"
     ],
-    "en": [
+    "es": [
       "Multiresolution seamless image database"
     ]
   },
   "definition": {
-    "es": "Multiresolution seamless image database (MrSID) es un formato de archivo desarrollado y patentado por LizardTech para la codificación de gráficos rasterizados georreferenciados, como ortofotografías. Con este formato, archivos de imágenes rasterizadas grandes como fotografías aéreas o imágenes de satélite se comprimen y pueden visualizarse rápidamente sin necesidad de descomprimir el archivo completo.",
-    "en": "Multiresolution seamless image database (MrSID) is a file format developed and patented by LizardTech for encoding of georeferenced raster graphics, such as orthophotos. With this format, large raster image files such as aerial photographs or satellite imagery are compressed and can be quickly viewed without having to decompress the entire file."
+    "en": "Multiresolution seamless image database (MrSID) is a file format developed and patented by LizardTech for encoding of georeferenced raster graphics, such as orthophotos. With this format, large raster image files such as aerial photographs or satellite imagery are compressed and can be quickly viewed without having to decompress the entire file.",
+    "es": "Multiresolution seamless image database (MrSID) es un formato de archivo desarrollado y patentado por LizardTech para la codificación de gráficos rasterizados georreferenciados, como ortofotografías. Con este formato, archivos de imágenes rasterizadas grandes como fotografías aéreas o imágenes de satélite se comprimen y pueden visualizarse rápidamente sin necesidad de descomprimir el archivo completo."
   },
+  "notation": [
+    ".sid",
+    "image/x.mrsid; image/x-mrsid; image/x-mrsid-image"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/MRSID"

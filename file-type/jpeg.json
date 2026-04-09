@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/jpeg",
   "type": "Concept",
   "prefLabel": {
-    "es": "JPEG",
-    "en": "JPEG"
+    "en": "JPEG",
+    "es": "JPEG"
   },
   "definition": {
-    "es": "JPEG – Joint Photographic Experts Group – es un método de compresión con pérdida ampliamente utilizado para imágenes digitales, particularmente para aquellas producidas por fotografía digital. El grado de compresión puede ajustarse, permitiendo un equilibrio seleccionable entre tamaño de almacenamiento y calidad de imagen.",
-    "en": "JPEG – Joint Photographic Experts Group – is a commonly used method of lossy compression for digital images, particularly for those images produced by digital photography. The degree of compression can be adjusted, allowing a selectable tradeoff between storage size and image quality."
+    "en": "JPEG – Joint Photographic Experts Group – is a commonly used method of lossy compression for digital images, particularly for those images produced by digital photography. The degree of compression can be adjusted, allowing a selectable tradeoff between storage size and image quality.",
+    "es": "JPEG – Joint Photographic Experts Group – es un método de compresión con pérdida ampliamente utilizado para imágenes digitales, particularmente para aquellas producidas por fotografía digital. El grado de compresión puede ajustarse, permitiendo un equilibrio seleccionable entre tamaño de almacenamiento y calidad de imagen."
   },
+  "notation": [
+    ".jpeg; .jpg",
+    "image/jpeg"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/JPEG"

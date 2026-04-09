@@ -2,40 +2,44 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/tortoniense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Tortoniense",
-    "en": "Tortonian"
+    "en": "Tortonian",
+    "es": "Tortoniense"
   },
   "definition": {
-    "es": "Límite inferior 11.63 Ma, límite superior 7.246 Ma",
-    "en": "Older bound 11.63 Ma, younger bound 7.246 Ma"
+    "en": "Older bound 11.63 Ma, younger bound 7.246 Ma",
+    "es": "Límite inferior 11.63 Ma, límite superior 7.246 Ma"
   },
+  "notation": [
+    "213020105000.0",
+    "a1.1.1.2.2.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno",
     "prefLabel": {
-      "es": "Mioceno",
-      "en": "Miocene"
+      "en": "Miocene",
+      "es": "Mioceno"
     }
   },
   "related": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aragoniense",
       "prefLabel": {
-        "es": "Aragoniense",
-        "en": "Aragonian"
+        "en": "Aragonian",
+        "es": "Aragoniense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/turoliense",
       "prefLabel": {
-        "es": "Turoliense",
-        "en": "Turolian"
+        "en": "Turolian",
+        "es": "Turoliense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/vallesiense",
       "prefLabel": {
-        "es": "Vallesiense",
-        "en": "Vallesian"
+        "en": "Vallesian",
+        "es": "Vallesiense"
       }
     }
   ],

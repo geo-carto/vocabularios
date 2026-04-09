@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/eifeliense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Eifeliense",
-    "en": "Eifelian"
+    "en": "Eifelian",
+    "es": "Eifeliense"
   },
   "definition": {
-    "es": "Límite inferior 393.3 +|-1.2 Ma, límite superior 387.7 +|-0.8 Ma",
-    "en": "Older bound 393.3 +|-1.2 Ma, younger bound 387.7 +|-0.8 Ma"
+    "en": "Older bound 393.3 +|-1.2 Ma, younger bound 387.7 +|-0.8 Ma",
+    "es": "Límite inferior 393.3 +|-1.2 Ma, límite superior 387.7 +|-0.8 Ma"
   },
+  "notation": [
+    "211040201000.0",
+    "a1.1.3.3.2.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/devonico-medio",
     "prefLabel": {
-      "es": "Devónico Medio",
-      "en": "Middle Devonian"
+      "en": "Middle Devonian",
+      "es": "Devónico Medio"
     }
   },
   "exactMatch": [

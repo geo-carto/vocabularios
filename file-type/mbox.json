@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/mbox",
   "type": "Concept",
   "prefLabel": {
-    "es": "MBOX",
-    "en": "MBOX"
+    "en": "MBOX",
+    "es": "MBOX"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Mbox"
     ],
-    "en": [
+    "es": [
       "Mbox"
     ]
   },
   "definition": {
-    "es": "MBOX es un término genérico para una familia de formatos de archivo relacionados utilizados para almacenar colecciones de mensajes de correo electrónico. Todos los mensajes en un buzón mbox se concatenan y almacenan como texto plano en un único archivo.",
-    "en": "MBOX is a generic term for a family of related file formats used for holding collections of email messages. All messages in an mbox mailbox are concatenated and stored as plain text in a single file."
+    "en": "MBOX is a generic term for a family of related file formats used for holding collections of email messages. All messages in an mbox mailbox are concatenated and stored as plain text in a single file.",
+    "es": "MBOX es un término genérico para una familia de formatos de archivo relacionados utilizados para almacenar colecciones de mensajes de correo electrónico. Todos los mensajes en un buzón mbox se concatenan y almacenan como texto plano en un único archivo."
   },
+  "notation": [
+    ".mbox",
+    "application/mbox"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/MBOX"

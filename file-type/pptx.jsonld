@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pptx",
   "type": "Concept",
   "prefLabel": {
-    "es": "PowerPoint PPTX",
-    "en": "PowerPoint PPTX"
+    "en": "PowerPoint PPTX",
+    "es": "PowerPoint PPTX"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Office Open XML Presentation"
     ],
-    "en": [
+    "es": [
       "Office Open XML Presentation"
     ]
   },
   "definition": {
-    "es": "PPTX – PowerPoint 2007 XML presentation – es una extensión de archivo XML de la versión Office Open XML del programa de presentaciones Microsoft PowerPoint. PowerPoint fue diseñado originalmente para proporcionar elementos visuales para presentaciones grupales en organizaciones empresariales, pero ha llegado a ser ampliamente utilizado en muchas otras situaciones de comunicación.",
-    "en": "PPTX – PowerPoint 2007 XML presentation – is an XML filename extension of Office Open XML version of Microsoft PowerPoint presentation program. PowerPoint was originally designed to provide visuals for group presentations within business organizations, but has come to be very widely used in many other communication situations, both in business and beyond."
+    "en": "PPTX – PowerPoint 2007 XML presentation – is an XML filename extension of Office Open XML version of Microsoft PowerPoint presentation program. PowerPoint was originally designed to provide visuals for group presentations within business organizations, but has come to be very widely used in many other communication situations, both in business and beyond.",
+    "es": "PPTX – PowerPoint 2007 XML presentation – es una extensión de archivo XML de la versión Office Open XML del programa de presentaciones Microsoft PowerPoint. PowerPoint fue diseñado originalmente para proporcionar elementos visuales para presentaciones grupales en organizaciones empresariales, pero ha llegado a ser ampliamente utilizado en muchas otras situaciones de comunicación."
   },
+  "notation": [
+    ".pptx",
+    "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/PPTX"

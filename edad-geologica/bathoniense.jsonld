@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/bathoniense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Bathoniense",
-    "en": "Bathonian"
+    "en": "Bathonian",
+    "es": "Bathoniense"
   },
   "definition": {
-    "es": "Límite inferior 168.2 +|-1.2 Ma, límite superior 165.3 +|-1.1 Ma",
-    "en": "Older bound 168.2 +|-1.2 Ma, younger bound 165.3 +|-1.1 Ma"
+    "en": "Older bound 168.2 +|-1.2 Ma, younger bound 165.3 +|-1.1 Ma",
+    "es": "Límite inferior 168.2 +|-1.2 Ma, límite superior 165.3 +|-1.1 Ma"
   },
+  "notation": [
+    "212020203000.0",
+    "a1.1.2.2.2.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-medio",
     "prefLabel": {
-      "es": "Jurásico Medio",
-      "en": "Middle Jurassic"
+      "en": "Middle Jurassic",
+      "es": "Jurásico Medio"
     }
   },
   "exactMatch": [

@@ -2,49 +2,50 @@
   "id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/collection",
   "type": "Collection",
   "prefLabel": {
+    "en": "Alteration distribution - All concepts",
     "es": "Distribución de la alteración - Todos los conceptos"
   },
   "member": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/bandeada",
       "prefLabel": {
-        "es": "bandeada",
-        "en": "banded"
+        "en": "banded",
+        "es": "bandeada"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/completa",
       "prefLabel": {
-        "es": "completa",
-        "en": "complete"
+        "en": "complete",
+        "es": "completa"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/diseminada",
       "prefLabel": {
-        "es": "diseminada",
-        "en": "disseminated"
+        "en": "disseminated",
+        "es": "diseminada"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/irregular",
       "prefLabel": {
-        "es": "irregular",
-        "en": "irregular"
+        "en": "irregular",
+        "es": "irregular"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/moteada",
       "prefLabel": {
-        "es": "moteada",
-        "en": "spotted"
+        "en": "spotted",
+        "es": "moteada"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/veteada",
       "prefLabel": {
-        "es": "veteada",
-        "en": "veined"
+        "en": "veined",
+        "es": "veteada"
       }
     }
   ],

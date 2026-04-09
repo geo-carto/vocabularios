@@ -2,26 +2,26 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-pantanoso",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente pantanoso",
-    "en": "bog setting"
+    "en": "bog setting",
+    "es": "ambiente pantanoso"
   },
   "definition": {
-    "es": "Suelo esponjoso y empapado en agua, principalmente consistente en musgos, que contiene vegetación ácida en descomposición que puede convertirse en turba.",
-    "en": "Waterlogged, spongy ground, consisting primarily of mosses, containing acidic, decaying vegetation that may develop into peat."
+    "en": "Waterlogged, spongy ground, consisting primarily of mosses, containing acidic, decaying vegetation that may develop into peat.",
+    "es": "Suelo esponjoso y empapado en agua, principalmente consistente en musgos, que contiene vegetación ácida en descomposición que puede convertirse en turba."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-cuenca-pantanosa",
       "prefLabel": {
-        "es": "ambiente de cuenca pantanosa",
-        "en": "basin bog setting"
+        "en": "basin bog setting",
+        "es": "ambiente de cuenca pantanosa"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-manto-pantanoso",
       "prefLabel": {
-        "es": "ambiente de manto pantanoso",
-        "en": "blanket bog"
+        "en": "blanket bog",
+        "es": "ambiente de manto pantanoso"
       }
     }
   ],

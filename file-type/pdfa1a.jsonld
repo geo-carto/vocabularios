@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pdfa1a",
   "type": "Concept",
   "prefLabel": {
-    "es": "PDF/A-1a",
-    "en": "PDF/A-1a"
+    "en": "PDF/A-1a",
+    "es": "PDF/A-1a"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "PDF archiving format, Level A conformance"
     ],
-    "en": [
+    "es": [
       "PDF archiving format, Level A conformance"
     ]
   },
   "definition": {
-    "es": "PDF/A-1 es la Parte 1 del estándar PDF y especifica dos niveles de conformidad para archivos PDF. PDF/A-1a – Conformidad de Nivel A (accesible) estaba destinada a aumentar la accesibilidad de los archivos conformes para usuarios con discapacidades físicas, permitiendo que el software de asistencia, como los lectores de pantalla, extraiga e interprete con mayor precisión el contenido de un archivo.",
-    "en": "PDF/A-1 is the Part 1 of the PDF standard and specifies two levels of conformance for PDF files. PDF/A-1a – Level A (accessible) conformance was intended to increase the accessibility of conforming files for physically impaired users by allowing assistive software, such as screen readers, to more precisely extract and interpret a file's contents."
+    "en": "PDF/A-1 is the Part 1 of the PDF standard and specifies two levels of conformance for PDF files. PDF/A-1a – Level A (accessible) conformance was intended to increase the accessibility of conforming files for physically impaired users by allowing assistive software, such as screen readers, to more precisely extract and interpret a file's contents.",
+    "es": "PDF/A-1 es la Parte 1 del estándar PDF y especifica dos niveles de conformidad para archivos PDF. PDF/A-1a – Conformidad de Nivel A (accesible) estaba destinada a aumentar la accesibilidad de los archivos conformes para usuarios con discapacidades físicas, permitiendo que el software de asistencia, como los lectores de pantalla, extraiga e interprete con mayor precisión el contenido de un archivo."
   },
+  "notation": [
+    ".pdf",
+    "application/pdf"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/pdf"

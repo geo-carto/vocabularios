@@ -2,76 +2,76 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-subaereo",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente subaéreo",
-    "en": "subaerial setting"
+    "en": "subaerial setting",
+    "es": "ambiente subaéreo"
   },
   "definition": {
-    "es": "Ambiente en la interfaz entre la tierra sólida y la atmosfera, incluye algunos ambientes subacuáticos someros en cauces fluviales y playas endorreicas. Caracterizado por condiciones ambientales y procesos, como la erosión, presentes o funcionales al aire libre o inmediatamente adyacentes a la superficie terrestre.",
-    "en": "Setting at the interface between the solid earth and the atmosphere, includes some shallow subaqueous settings in river channels and playas. Characterized by conditions and processes, such as erosion, that exist or operate in the open air on or immediately adjacent to the land surface."
+    "en": "Setting at the interface between the solid earth and the atmosphere, includes some shallow subaqueous settings in river channels and playas. Characterized by conditions and processes, such as erosion, that exist or operate in the open air on or immediately adjacent to the land surface.",
+    "es": "Ambiente en la interfaz entre la tierra sólida y la atmosfera, incluye algunos ambientes subacuáticos someros en cauces fluviales y playas endorreicas. Caracterizado por condiciones ambientales y procesos, como la erosión, presentes o funcionales al aire libre o inmediatamente adyacentes a la superficie terrestre."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-cordon-litoral",
       "prefLabel": {
-        "es": "ambiente de cordon litoral",
-        "en": "strandplain setting"
+        "en": "strandplain setting",
+        "es": "ambiente de cordon litoral"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-litoral",
       "prefLabel": {
-        "es": "ambiente de llanura litoral",
-        "en": "coastal plain setting"
+        "en": "coastal plain setting",
+        "es": "ambiente de llanura litoral"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-pedregosa",
       "prefLabel": {
-        "es": "ambiente de llanura pedregosa",
-        "en": "gibber plain setting"
+        "en": "gibber plain setting",
+        "es": "ambiente de llanura pedregosa"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-playa-endorreica",
       "prefLabel": {
-        "es": "ambiente de playa endorreica",
-        "en": "playa setting"
+        "en": "playa setting",
+        "es": "ambiente de playa endorreica"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-procesos-eolicos",
       "prefLabel": {
-        "es": "ambiente de procesos eólicos",
-        "en": "aeolian process setting"
+        "en": "aeolian process setting",
+        "es": "ambiente de procesos eólicos"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-de-llanura-fluvial",
       "prefLabel": {
-        "es": "ambiente de sistema de llanura fluvial",
-        "en": "river plain system setting"
+        "en": "river plain system setting",
+        "es": "ambiente de sistema de llanura fluvial"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-vertiente-de-piedemonte",
       "prefLabel": {
-        "es": "ambiente de sistema vertiente de piedemonte",
-        "en": "piedmont slope system setting"
+        "en": "piedmont slope system setting",
+        "es": "ambiente de sistema vertiente de piedemonte"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-supramareal",
       "prefLabel": {
-        "es": "ambiente supramareal",
-        "en": "supratidal setting"
+        "en": "supratidal setting",
+        "es": "ambiente supramareal"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-en-la-superficie-de-la-tierra",
     "prefLabel": {
-      "es": "ambiente en la superficie de la Tierra",
-      "en": "earth surface setting"
+      "en": "earth surface setting",
+      "es": "ambiente en la superficie de la Tierra"
     }
   },
   "exactMatch": [

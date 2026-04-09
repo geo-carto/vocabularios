@@ -2,8 +2,8 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/rusciniense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Rusciniense",
-    "en": "Ruscinian"
+    "en": "Ruscinian",
+    "es": "Rusciniense"
   },
   "altLabel": {
     "es": [
@@ -13,19 +13,22 @@
   "definition": {
     "es": "Rusciniense"
   },
+  "notation": [
+    "213020200091.0"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma",
     "prefLabel": {
-      "es": "Regional",
-      "en": "Regional"
+      "en": "Regional",
+      "es": "Regional"
     }
   },
   "related": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/zancliense",
       "prefLabel": {
-        "es": "Zancliense",
-        "en": "Zanclean"
+        "en": "Zanclean",
+        "es": "Zancliense"
       }
     }
   ],

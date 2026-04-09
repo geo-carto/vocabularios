@@ -2,26 +2,26 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-carbonatos",
   "type": "Concept",
   "prefLabel": {
-    "es": "con carbonatos",
-    "en": "carbonate bearing"
+    "en": "carbonate bearing",
+    "es": "con carbonatos"
   },
   "definition": {
-    "es": "Presenta minerales de carbonato de cualquier tipo, pero en una proporción inferior al  50 por ciento de la roca",
-    "en": "Carbonate minerals of any sort are present, but less than 50 percent of rock"
+    "en": "Carbonate minerals of any sort are present, but less than 50 percent of rock",
+    "es": "Presenta minerales de carbonato de cualquier tipo, pero en una proporción inferior al  50 por ciento de la roca"
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/calcareo",
       "prefLabel": {
-        "es": "calcáreo",
-        "en": "calcareous"
+        "en": "calcareous",
+        "es": "calcáreo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/dolomitico",
       "prefLabel": {
-        "es": "dolomítico",
-        "en": "dolomitic"
+        "en": "dolomitic",
+        "es": "dolomítico"
       }
     }
   ],

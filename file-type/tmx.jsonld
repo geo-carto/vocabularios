@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/tmx",
   "type": "Concept",
   "prefLabel": {
-    "es": "TMX",
-    "en": "TMX"
+    "en": "TMX",
+    "es": "TMX"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Translation Memory eXchange"
     ],
-    "en": [
+    "es": [
       "Translation Memory eXchange"
     ]
   },
   "definition": {
-    "es": "TMX – Translation Memory eXchange – es una especificación XML para el intercambio de datos de memoria de traducción entre herramientas de traducción asistida por ordenador y de localización con poca o ninguna pérdida de datos críticos.",
-    "en": "TMX – Translation Memory eXchange – is an XML specification for the exchange of translation memory data between computer-aided translation and localization tools with little or no loss of critical data."
+    "en": "TMX – Translation Memory eXchange – is an XML specification for the exchange of translation memory data between computer-aided translation and localization tools with little or no loss of critical data.",
+    "es": "TMX – Translation Memory eXchange – es una especificación XML para el intercambio de datos de memoria de traducción entre herramientas de traducción asistida por ordenador y de localización con poca o ninguna pérdida de datos críticos."
   },
+  "notation": [
+    "application/xml",
+    ".xml"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/xml"

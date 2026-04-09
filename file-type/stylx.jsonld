@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/stylx",
   "type": "Concept",
   "prefLabel": {
-    "es": "STYLX",
-    "en": "STYLX"
+    "en": "STYLX",
+    "es": "STYLX"
   },
   "altLabel": {
-    "es": [
-      "Archivo de estilo ArcGIS Pro"
-    ],
     "en": [
       "ArcGIS Pro Style File"
+    ],
+    "es": [
+      "Archivo de estilo ArcGIS Pro"
     ]
   },
   "definition": {
-    "es": "Un archivo STYLX es un archivo de estilo utilizado por ArcGIS Pro y ArcGIS Online de Esri. Contiene elementos de estilo como símbolos de mapa (puntos, líneas, polígonos), etiquetas, configuraciones de color, información de fuentes y patrones de relleno, utilizados para unificar y gestionar la presentación visual de los mapas. Está basado en el formato de base de datos SQLite y almacena símbolos y elementos de estilo en la base de datos.",
-    "en": "A STYLX file is a style file used by Esri's ArcGIS Pro and ArcGIS Online. It contains style elements such as map symbols (points, lines, polygons), labels, color settings, font information, and fill patterns, used to unify and manage the visual presentation of maps. It is based on the SQLite database format and stores symbols and style elements in the database."
+    "en": "A STYLX file is a style file used by Esri's ArcGIS Pro and ArcGIS Online. It contains style elements such as map symbols (points, lines, polygons), labels, color settings, font information, and fill patterns, used to unify and manage the visual presentation of maps. It is based on the SQLite database format and stores symbols and style elements in the database.",
+    "es": "Un archivo STYLX es un archivo de estilo utilizado por ArcGIS Pro y ArcGIS Online de Esri. Contiene elementos de estilo como símbolos de mapa (puntos, líneas, polígonos), etiquetas, configuraciones de color, información de fuentes y patrones de relleno, utilizados para unificar y gestionar la presentación visual de los mapas. Está basado en el formato de base de datos SQLite y almacena símbolos y elementos de estilo en la base de datos."
   },
+  "notation": [
+    ".stylx",
+    "application/x-sqlite3"
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/file-type"

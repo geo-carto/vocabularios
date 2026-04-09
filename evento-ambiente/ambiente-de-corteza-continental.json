@@ -2,62 +2,62 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-corteza-continental",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de corteza continental",
-    "en": "continental-crustal setting"
+    "en": "continental-crustal setting",
+    "es": "ambiente de corteza continental"
   },
   "definition": {
-    "es": "Aquel tipo de corteza terrestre que subyace a los continentes y a las plataformas continentales; es equivalente al sial y al sima continental y varía en espesor desde cerca de 25 km a más de 70 km bajo las cordilleras de montañas, con un promedio de ~40 km. La densidad promedio de la corteza continental es de ~2.8 g/cm3 y es de ~2.7 g.cm3 en la capa superior. Las velocidades promedio de las ondas sísmicas compresionales que la atraviesan son de ~6.5 km/s y son menores de  ~7.0 km/s.",
-    "en": "That type of the Earth's crust which underlies the continents and the continental shelves; it is equivalent to the sial and continental sima and ranges in thickness from about 25 km to more than 70 km under mountain ranges, averaging ~40 km. The density of the continental crust averages ~2.8 g/cm3 and is ~2.7 g.cm3 in the upper layer. The velocities of compressional seismic waves through it average ~6.5 km/s and are less than ~7.0 km/sec."
+    "en": "That type of the Earth's crust which underlies the continents and the continental shelves; it is equivalent to the sial and continental sima and ranges in thickness from about 25 km to more than 70 km under mountain ranges, averaging ~40 km. The density of the continental crust averages ~2.8 g/cm3 and is ~2.7 g.cm3 in the upper layer. The velocities of compressional seismic waves through it average ~6.5 km/s and are less than ~7.0 km/sec.",
+    "es": "Aquel tipo de corteza terrestre que subyace a los continentes y a las plataformas continentales; es equivalente al sial y al sima continental y varía en espesor desde cerca de 25 km a más de 70 km bajo las cordilleras de montañas, con un promedio de ~40 km. La densidad promedio de la corteza continental es de ~2.8 g/cm3 y es de ~2.7 g.cm3 en la capa superior. Las velocidades promedio de las ondas sísmicas compresionales que la atraviesan son de ~6.5 km/s y son menores de  ~7.0 km/s."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-colisional",
       "prefLabel": {
-        "es": "ambiente colisional",
-        "en": "collisional setting"
+        "en": "collisional setting",
+        "es": "ambiente colisional"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-antepais",
       "prefLabel": {
-        "es": "ambiente de antepaís",
-        "en": "foreland setting"
+        "en": "foreland setting",
+        "es": "ambiente de antepaís"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-corteza-continental-inferior",
       "prefLabel": {
-        "es": "ambiente de corteza continental inferior",
-        "en": "lower continental-crustal setting"
+        "en": "lower continental-crustal setting",
+        "es": "ambiente de corteza continental inferior"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-corteza-continental-media",
       "prefLabel": {
-        "es": "ambiente de corteza continental media",
-        "en": "middle continental crust setting"
+        "en": "middle continental crust setting",
+        "es": "ambiente de corteza continental media"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-corteza-continental-superior",
       "prefLabel": {
-        "es": "ambiente de corteza continental superior",
-        "en": "upper continental crustal setting"
+        "en": "upper continental crustal setting",
+        "es": "ambiente de corteza continental superior"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-tectonico-de-traspais",
       "prefLabel": {
-        "es": "ambiente tectónico de traspaís",
-        "en": "hinterland tectonic setting"
+        "en": "hinterland tectonic setting",
+        "es": "ambiente tectónico de traspaís"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-cortical",
     "prefLabel": {
-      "es": "ambiente cortical",
-      "en": "crustal setting"
+      "en": "crustal setting",
+      "es": "ambiente cortical"
     }
   },
   "exactMatch": [

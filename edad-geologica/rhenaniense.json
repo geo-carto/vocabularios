@@ -2,39 +2,42 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/rhenaniense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Rhenaniense",
-    "en": "Rhenanian"
+    "en": "Rhenanian",
+    "es": "Rhenaniense"
   },
   "definition": {
     "es": "Rhenaniense"
   },
+  "notation": [
+    "213020109400.0"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma",
     "prefLabel": {
-      "es": "Regional",
-      "en": "Regional"
+      "en": "Regional",
+      "es": "Regional"
     }
   },
   "related": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/bartoniense",
       "prefLabel": {
-        "es": "Bartoniense",
-        "en": "Bartonian"
+        "en": "Bartonian",
+        "es": "Bartoniense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/luteciense",
       "prefLabel": {
-        "es": "Luteciense",
-        "en": "Lutetian"
+        "en": "Lutetian",
+        "es": "Luteciense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/priaboniense",
       "prefLabel": {
-        "es": "Priaboniense",
-        "en": "Priabonian"
+        "en": "Priabonian",
+        "es": "Priaboniense"
       }
     }
   ],

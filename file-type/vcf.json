@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/vcf",
   "type": "Concept",
   "prefLabel": {
-    "es": "VCF",
-    "en": "VCF"
+    "en": "VCF",
+    "es": "VCF"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Variant Call Format"
     ],
-    "en": [
+    "es": [
       "Variant Call Format"
     ]
   },
   "definition": {
-    "es": "Formato estándar de archivo de texto utilizado en bioinformática para almacenar secuencias genéticas o variaciones de secuencias de ADN.",
-    "en": "standard text file format used in bioinformatics for storing gene sequence or DNA sequence variations"
+    "en": "standard text file format used in bioinformatics for storing gene sequence or DNA sequence variations",
+    "es": "Formato estándar de archivo de texto utilizado en bioinformática para almacenar secuencias genéticas o variaciones de secuencias de ADN."
   },
+  "notation": [
+    ".vcf; .vcf.gz",
+    "text/vnd.vcf"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/VCF"

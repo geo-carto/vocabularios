@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/mathml",
   "type": "Concept",
   "prefLabel": {
-    "es": "MathML",
-    "en": "MathML"
+    "en": "MathML",
+    "es": "MathML"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Mathematical Markup Language"
     ],
-    "en": [
+    "es": [
       "Mathematical Markup Language"
     ]
   },
   "definition": {
-    "es": "Lenguaje de marcado matemático, una aplicación de XML para describir notaciones matemáticas y capturar tanto su estructura como su contenido.",
-    "en": "mathematical markup language, an application of XML for describing mathematical notations and capturing both its structure and content"
+    "en": "mathematical markup language, an application of XML for describing mathematical notations and capturing both its structure and content",
+    "es": "Lenguaje de marcado matemático, una aplicación de XML para describir notaciones matemáticas y capturar tanto su estructura como su contenido."
   },
+  "notation": [
+    ".mathml; .mml",
+    "application/mathml+xml; application/mathml-content+xml; application/mathml-presentation+xml"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/MATHML"

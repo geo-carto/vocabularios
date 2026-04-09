@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/sb3",
   "type": "Concept",
   "prefLabel": {
-    "es": "sb3",
-    "en": "sb3"
+    "en": "sb3",
+    "es": "sb3"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Scratch 3.0"
     ],
-    "en": [
+    "es": [
       "Scratch 3.0"
     ]
   },
   "definition": {
-    "es": "Scratch 3.0 es un formato de archivo utilizado para almacenar proyectos y sprites exportados de Scratch 3.0. Son archivos ZIP que contienen información codificada en formato JSON basado en texto y medios del proyecto en archivos separados.",
-    "en": "Scratch 3.0 is a file format used to store exported Scratch 3.0 projects and sprites. These are ZIP archives which contain information encoded in a text-based JSON format and project media in separate files."
+    "en": "Scratch 3.0 is a file format used to store exported Scratch 3.0 projects and sprites. These are ZIP archives which contain information encoded in a text-based JSON format and project media in separate files.",
+    "es": "Scratch 3.0 es un formato de archivo utilizado para almacenar proyectos y sprites exportados de Scratch 3.0. Son archivos ZIP que contienen información codificada en formato JSON basado en texto y medios del proyecto en archivos separados."
   },
+  "notation": [
+    ".sprite3; .sb3",
+    "application/x-sb3"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/SB3"

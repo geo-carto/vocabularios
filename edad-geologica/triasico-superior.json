@@ -2,8 +2,8 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico-superior",
   "type": "Concept",
   "prefLabel": {
-    "es": "Triásico Superior",
-    "en": "Upper Triassic"
+    "en": "Upper Triassic",
+    "es": "Triásico Superior"
   },
   "altLabel": {
     "en": [
@@ -11,37 +11,41 @@
     ]
   },
   "definition": {
-    "es": "Límite inferior 237 Ma, límite superior 201.4 +|-0.2 Ma",
-    "en": "Older bound 237 Ma, younger bound 201.4 +|-0.2 Ma"
+    "en": "Older bound 237 Ma, younger bound 201.4 +|-0.2 Ma",
+    "es": "Límite inferior 237 Ma, límite superior 201.4 +|-0.2 Ma"
   },
+  "notation": [
+    "212010300000.0",
+    "a1.1.2.3.1"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/carniense",
       "prefLabel": {
-        "es": "Carniense",
-        "en": "Carnian"
+        "en": "Carnian",
+        "es": "Carniense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/noriense",
       "prefLabel": {
-        "es": "Noriense",
-        "en": "Norian"
+        "en": "Norian",
+        "es": "Noriense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/rhaetiense",
       "prefLabel": {
-        "es": "Rhaetiense",
-        "en": "Rhaetian"
+        "en": "Rhaetian",
+        "es": "Rhaetiense"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico",
     "prefLabel": {
-      "es": "Triásico",
-      "en": "Triassic"
+      "en": "Triassic",
+      "es": "Triásico"
     }
   },
   "exactMatch": [

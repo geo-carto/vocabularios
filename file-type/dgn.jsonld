@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/dgn",
   "type": "Concept",
   "prefLabel": {
-    "es": "DGN",
-    "en": "DGN"
+    "en": "DGN",
+    "es": "DGN"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "DGN file"
     ],
-    "en": [
+    "es": [
       "DGN file"
     ]
   },
   "definition": {
-    "es": "Un archivo DGN es un dibujo 2D/3D creado por diversos programas CAD de construcción, como MicroStation e Intergraph Interactive Graphics Design System. Puede guardarse en uno de dos formatos: el Intergraph Standard File Format (ISFF) o el más reciente estándar V8 DGN. Los archivos DGN se utilizan típicamente para guardar diseños de proyectos de construcción de autopistas, puentes y edificios.",
-    "en": "A DGN file is a 2D/3D drawing created by various construction CAD software, such as MicroStation and Intergraph Interactive Graphics Design System. It may be saved in one of two formats, either the Intergraph Standard File Format (ISFF) or the newer V8 DGN standard. DGN files are typically used to save designs for construction projects for highways, bridges, and buildings."
+    "en": "A DGN file is a 2D/3D drawing created by various construction CAD software, such as MicroStation and Intergraph Interactive Graphics Design System. It may be saved in one of two formats, either the Intergraph Standard File Format (ISFF) or the newer V8 DGN standard. DGN files are typically used to save designs for construction projects for highways, bridges, and buildings.",
+    "es": "Un archivo DGN es un dibujo 2D/3D creado por diversos programas CAD de construcción, como MicroStation e Intergraph Interactive Graphics Design System. Puede guardarse en uno de dos formatos: el Intergraph Standard File Format (ISFF) o el más reciente estándar V8 DGN. Los archivos DGN se utilizan típicamente para guardar diseños de proyectos de construcción de autopistas, puentes y edificios."
   },
+  "notation": [
+    "application/octet-stream",
+    ".dgn"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/octet-stream"

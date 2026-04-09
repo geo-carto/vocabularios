@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/xyz",
   "type": "Concept",
   "prefLabel": {
-    "es": "XYZ Chemical File",
-    "en": "XYZ Chemical File"
+    "en": "XYZ Chemical File",
+    "es": "XYZ Chemical File"
   },
   "definition": {
-    "es": "El formato de archivo XYZ es un formato de archivo químico. No existe un estándar formal y existen varias variaciones, pero un formato XYZ típico especifica la geometría molecular dando el número de átomos con coordenadas cartesianas en la primera línea, un comentario en la segunda, y las líneas de coordenadas atómicas en las líneas siguientes.",
-    "en": "The XYZ file format is a chemical file format. There is no formal standard and several variations exist, but a typical XYZ format specifies the molecule geometry by giving the number of atoms with Cartesian coordinates that will be read on the first line, a comment on the second, and the lines of atomic coordinates in the following lines."
+    "en": "The XYZ file format is a chemical file format. There is no formal standard and several variations exist, but a typical XYZ format specifies the molecule geometry by giving the number of atoms with Cartesian coordinates that will be read on the first line, a comment on the second, and the lines of atomic coordinates in the following lines.",
+    "es": "El formato de archivo XYZ es un formato de archivo químico. No existe un estándar formal y existen varias variaciones, pero un formato XYZ típico especifica la geometría molecular dando el número de átomos con coordenadas cartesianas en la primera línea, un comentario en la segunda, y las líneas de coordenadas atómicas en las líneas siguientes."
   },
+  "notation": [
+    ".xyz",
+    "chemical/x-xyz"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/XYZ"

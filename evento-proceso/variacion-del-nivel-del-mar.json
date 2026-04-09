@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/variacion-del-nivel-del-mar",
   "type": "Concept",
   "prefLabel": {
-    "es": "variación del nivel del mar",
-    "en": "sea level change"
+    "en": "sea level change",
+    "es": "variación del nivel del mar"
   },
   "definition": {
-    "es": "Proceso de cambio del nivel medio del mar en relación con algún datum.",
-    "en": "Process of mean sea level changing relative to some datum."
+    "en": "Process of mean sea level changing relative to some datum.",
+    "es": "Proceso de cambio del nivel medio del mar en relación con algún datum."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/ascenso-del-nivel-del-mar",
       "prefLabel": {
-        "es": "ascenso del nivel del mar",
-        "en": "sea level rise"
+        "en": "sea level rise",
+        "es": "ascenso del nivel del mar"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/caida-del-nivel-del-mar",
       "prefLabel": {
-        "es": "caída del nivel del mar",
-        "en": "sea level fall"
+        "en": "sea level fall",
+        "es": "caída del nivel del mar"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
     "prefLabel": {
-      "es": "proceso geológico",
-      "en": "geologic process"
+      "en": "geologic process",
+      "es": "proceso geológico"
     }
   },
   "exactMatch": [

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/mhtml",
   "type": "Concept",
   "prefLabel": {
-    "es": "MHTML",
-    "en": "MHTML"
+    "en": "MHTML",
+    "es": "MHTML"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "MIME HTML"
     ],
-    "en": [
+    "es": [
       "MIME HTML"
     ]
   },
   "definition": {
-    "es": "MHTML – MIME Encapsulation of Aggregate HTML Documents – es un formato de archivo de página web utilizado para combinar en un único documento el código HTML y sus recursos complementarios que de otro modo estarían representados por enlaces externos (como imágenes, animaciones Flash, applets Java y archivos de audio). El contenido de un archivo MHTML se codifica como si fuera un mensaje de correo electrónico HTML.",
-    "en": "MHTML – MIME Encapsulation of Aggregate HTML Documents – is a web page archive format used to combine in a single document the HTML code and its companion resources that are otherwise represented by external links (such as images, Flash animations, Java applets and audio files). The content of an MHTML file is encoded as if it were an HTML e-mail message."
+    "en": "MHTML – MIME Encapsulation of Aggregate HTML Documents – is a web page archive format used to combine in a single document the HTML code and its companion resources that are otherwise represented by external links (such as images, Flash animations, Java applets and audio files). The content of an MHTML file is encoded as if it were an HTML e-mail message.",
+    "es": "MHTML – MIME Encapsulation of Aggregate HTML Documents – es un formato de archivo de página web utilizado para combinar en un único documento el código HTML y sus recursos complementarios que de otro modo estarían representados por enlaces externos (como imágenes, animaciones Flash, applets Java y archivos de audio). El contenido de un archivo MHTML se codifica como si fuera un mensaje de correo electrónico HTML."
   },
+  "notation": [
+    ".mhtml; .mht",
+    "multipart/related"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/MHTML"

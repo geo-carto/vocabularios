@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/json_ld",
   "type": "Concept",
   "prefLabel": {
-    "es": "JSON-LD",
-    "en": "JSON-LD"
+    "en": "JSON-LD",
+    "es": "JSON-LD"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "JavaScript Object Notation for Linked Data"
     ],
-    "en": [
+    "es": [
       "JavaScript Object Notation for Linked Data"
     ]
   },
   "definition": {
-    "es": "JSON-LD es un formato basado en JSON para serializar datos enlazados (Linked Data). Está destinado principalmente a ser una forma de utilizar datos enlazados en entornos de programación basados en web, para construir servicios web interoperables y para almacenar datos enlazados en motores de almacenamiento basados en JSON.",
-    "en": "JSON-LD is a JSON-based format to serialize Linked Data. It is primarily intended to be a way to use Linked Data in Web-based programming environments, to build interoperable Web services, and to store Linked Data in JSON-based storage engines."
+    "en": "JSON-LD is a JSON-based format to serialize Linked Data. It is primarily intended to be a way to use Linked Data in Web-based programming environments, to build interoperable Web services, and to store Linked Data in JSON-based storage engines.",
+    "es": "JSON-LD es un formato basado en JSON para serializar datos enlazados (Linked Data). Está destinado principalmente a ser una forma de utilizar datos enlazados en entornos de programación basados en web, para construir servicios web interoperables y para almacenar datos enlazados en motores de almacenamiento basados en JSON."
   },
+  "notation": [
+    ".jsonld",
+    "application/ld+json"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"

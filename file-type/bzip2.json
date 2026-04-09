@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/bzip2",
   "type": "Concept",
   "prefLabel": {
-    "es": "bzip2",
-    "en": "bzip2"
+    "en": "bzip2",
+    "es": "bzip2"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "bzip2 compressed file"
     ],
-    "en": [
+    "es": [
       "bzip2 compressed file"
     ]
   },
   "definition": {
-    "es": "Un formato de compresión de código abierto, libre de patentes y regalías. El algoritmo de compresión es una transformada de Burrows-Wheeler seguida de una transformada de movimiento al frente y finalmente una codificación Huffman.",
-    "en": "An open source, patent- and royalty-free compression format. The compression algorithm is a Burrows-Wheeler transform followed by a move-to-front transform and finally Huffman coding."
+    "en": "An open source, patent- and royalty-free compression format. The compression algorithm is a Burrows-Wheeler transform followed by a move-to-front transform and finally Huffman coding.",
+    "es": "Un formato de compresión de código abierto, libre de patentes y regalías. El algoritmo de compresión es una transformada de Burrows-Wheeler seguida de una transformada de movimiento al frente y finalmente una codificación Huffman."
   },
+  "notation": [
+    ".bz2",
+    "application/x-bzip2"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/BZIP2"

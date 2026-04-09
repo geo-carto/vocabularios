@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/subgrupo",
   "type": "Concept",
   "prefLabel": {
-    "es": "subgrupo",
-    "en": "subgroup"
+    "en": "subgroup",
+    "es": "subgrupo"
   },
   "definition": {
-    "es": "Unidad litoestratigráfica siguiente en rango a la formación. Un subgrupo generalmente consta de varias formaciones.",
-    "en": "A subgroup is the lithostratigraphic unit next higher in rank to formation. A subgroup usually consists of several formations."
+    "en": "A subgroup is the lithostratigraphic unit next higher in rank to formation. A subgroup usually consists of several formations.",
+    "es": "Unidad litoestratigráfica siguiente en rango a la formación. Un subgrupo generalmente consta de varias formaciones."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/formacion",
       "prefLabel": {
-        "es": "formación",
-        "en": "formation"
+        "en": "formation",
+        "es": "formación"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/grupo",
     "prefLabel": {
-      "es": "grupo",
-      "en": "group"
+      "en": "group",
+      "es": "grupo"
     }
   },
   "exactMatch": [

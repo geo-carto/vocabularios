@@ -2,48 +2,52 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cambrico",
   "type": "Concept",
   "prefLabel": {
-    "es": "Cámbrico",
-    "en": "Cambrian"
+    "en": "Cambrian",
+    "es": "Cámbrico"
   },
   "definition": {
-    "es": "Límite inferior 538.8 +|-0.2 Ma, límite superior 485.4 +|-1.9 Ma",
-    "en": "Older bound 538.8 +|-0.2 Ma, younger bound 485.4 +|-1.9 Ma"
+    "en": "Older bound 538.8 +|-0.2 Ma, younger bound 485.4 +|-1.9 Ma",
+    "es": "Límite inferior 538.8 +|-0.2 Ma, límite superior 485.4 +|-1.9 Ma"
   },
+  "notation": [
+    "211010000000.0",
+    "a1.1.3.6"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cambrico-serie-2",
       "prefLabel": {
-        "es": "Cámbrico Serie 2",
-        "en": "Cambrian Series 2"
+        "en": "Cambrian Series 2",
+        "es": "Cámbrico Serie 2"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/furongiense",
       "prefLabel": {
-        "es": "Furongiense",
-        "en": "Furongian"
+        "en": "Furongian",
+        "es": "Furongiense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/miaolingiense",
       "prefLabel": {
-        "es": "Miaolingiense",
-        "en": "Miaolingian"
+        "en": "Miaolingian",
+        "es": "Miaolingiense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/terreneuviense",
       "prefLabel": {
-        "es": "Terreneuviense",
-        "en": "Terreneuvian"
+        "en": "Terreneuvian",
+        "es": "Terreneuviense"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico",
     "prefLabel": {
-      "es": "Paleozoico",
-      "en": "Paleozoic"
+      "en": "Paleozoic",
+      "es": "Paleozoico"
     }
   },
   "exactMatch": [

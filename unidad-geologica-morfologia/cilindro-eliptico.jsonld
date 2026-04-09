@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro-eliptico",
   "type": "Concept",
   "prefLabel": {
-    "es": "cilindro elíptico",
-    "en": "elliptical cylinder"
+    "en": "elliptical cylinder",
+    "es": "cilindro elíptico"
   },
   "definition": {
-    "es": "Cilindro que tiene una sección transversal elíptica. No presenta bordes",
-    "en": "Cylinder that has elliptical cross section, distinct side surfaces are not defined"
+    "en": "Cylinder that has elliptical cross section, distinct side surfaces are not defined",
+    "es": "Cilindro que tiene una sección transversal elíptica. No presenta bordes"
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/clindro-circular",
       "prefLabel": {
-        "es": "clindro circular",
-        "en": "circular cylinder"
+        "en": "circular cylinder",
+        "es": "clindro circular"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cilindro",
     "prefLabel": {
-      "es": "cilindro",
-      "en": "cylinder"
+      "en": "cylinder",
+      "es": "cilindro"
     }
   },
   "exactMatch": [

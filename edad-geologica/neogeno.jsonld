@@ -2,34 +2,38 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neogeno",
   "type": "Concept",
   "prefLabel": {
-    "es": "Neógeno",
-    "en": "Neogene"
+    "en": "Neogene",
+    "es": "Neógeno"
   },
   "definition": {
-    "es": "Límite inferior 23.03 Ma, límite superior 2.58 Ma",
-    "en": "Older bound 23.03 Ma, younger bound 2.58 Ma"
+    "en": "Older bound 23.03 Ma, younger bound 2.58 Ma",
+    "es": "Límite inferior 23.03 Ma, límite superior 2.58 Ma"
   },
+  "notation": [
+    "213020000000.0",
+    "a1.1.1.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mioceno",
       "prefLabel": {
-        "es": "Mioceno",
-        "en": "Miocene"
+        "en": "Miocene",
+        "es": "Mioceno"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/plioceno",
       "prefLabel": {
-        "es": "Plioceno",
-        "en": "Pliocene"
+        "en": "Pliocene",
+        "es": "Plioceno"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cenozoico",
     "prefLabel": {
-      "es": "Cenozoico",
-      "en": "Cenozoic"
+      "en": "Cenozoic",
+      "es": "Cenozoico"
     }
   },
   "exactMatch": [

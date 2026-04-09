@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/arrow_stream",
   "type": "Concept",
   "prefLabel": {
-    "es": "Arrow stream",
-    "en": "Arrow stream"
+    "en": "Arrow stream",
+    "es": "Arrow stream"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Apache Arrow stream"
     ],
-    "en": [
+    "es": [
       "Apache Arrow stream"
     ]
   },
   "definition": {
-    "es": "Formato columnar de Apache que incluye una especificación de estructura de datos en memoria independiente del lenguaje, serialización de metadatos y un protocolo para serialización y transporte genérico de datos; el formato de flujo se utiliza para enviar una secuencia de longitud arbitraria de lotes de registros.",
-    "en": "Apache columnar format that includes a language-agnostic in-memory data structure specification, metadata serialisation, and a protocol for serialisation and generic data transport; streaming format is used for sending an arbitrary length sequence of record batches"
+    "en": "Apache columnar format that includes a language-agnostic in-memory data structure specification, metadata serialisation, and a protocol for serialisation and generic data transport; streaming format is used for sending an arbitrary length sequence of record batches",
+    "es": "Formato columnar de Apache que incluye una especificación de estructura de datos en memoria independiente del lenguaje, serialización de metadatos y un protocolo para serialización y transporte genérico de datos; el formato de flujo se utiliza para enviar una secuencia de longitud arbitraria de lotes de registros."
   },
+  "notation": [
+    ".arrows",
+    "application/vnd.apache.arrow.stream"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/ARROW_STREAM"

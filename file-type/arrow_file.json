@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/arrow_file",
   "type": "Concept",
   "prefLabel": {
-    "es": "Arrow file",
-    "en": "Arrow file"
+    "en": "Arrow file",
+    "es": "Arrow file"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Apache Arrow file"
     ],
-    "en": [
+    "es": [
       "Apache Arrow file"
     ]
   },
   "definition": {
-    "es": "Formato columnar de Apache que incluye una especificación de estructura de datos en memoria independiente del lenguaje, serialización de metadatos y un protocolo para serialización y transporte genérico de datos; el formato de archivo (acceso aleatorio) se utiliza para serializar un número fijo de lotes de registros.",
-    "en": "Apache columnar format that includes a language-agnostic in-memory data structure specification, metadata serialisation, and a protocol for serialisation and generic data transport; file (random access) format is used for serialising a fixed number of record batches"
+    "en": "Apache columnar format that includes a language-agnostic in-memory data structure specification, metadata serialisation, and a protocol for serialisation and generic data transport; file (random access) format is used for serialising a fixed number of record batches",
+    "es": "Formato columnar de Apache que incluye una especificación de estructura de datos en memoria independiente del lenguaje, serialización de metadatos y un protocolo para serialización y transporte genérico de datos; el formato de archivo (acceso aleatorio) se utiliza para serializar un número fijo de lotes de registros."
   },
+  "notation": [
+    ".arrow",
+    "application/vnd.apache.arrow.file"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/ARROW_FILE"

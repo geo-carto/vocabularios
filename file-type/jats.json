@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/jats",
   "type": "Concept",
   "prefLabel": {
-    "es": "JATS XML",
-    "en": "JATS XML"
+    "en": "JATS XML",
+    "es": "JATS XML"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Journal Article Tag Suite"
     ],
-    "en": [
+    "es": [
       "Journal Article Tag Suite"
     ]
   },
   "definition": {
-    "es": "JATS – Journal Article Tag Suite – es un formato XML utilizado para describir literatura científica publicada en línea. Es un estándar técnico desarrollado por la National Information Standards Organization (NISO).",
-    "en": "JATS – Journal Article Tag Suite – is an XML format used to describe scientific literature published online. It is a technical standard developed by the National Information Standards Organization (NISO)."
+    "en": "JATS – Journal Article Tag Suite – is an XML format used to describe scientific literature published online. It is a technical standard developed by the National Information Standards Organization (NISO).",
+    "es": "JATS – Journal Article Tag Suite – es un formato XML utilizado para describir literatura científica publicada en línea. Es un estándar técnico desarrollado por la National Information Standards Organization (NISO)."
   },
+  "notation": [
+    "application/xml",
+    ".xml"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/xml"

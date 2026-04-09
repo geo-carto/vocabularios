@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/dwca",
   "type": "Concept",
   "prefLabel": {
-    "es": "DwC-A",
-    "en": "DwC-A"
+    "en": "DwC-A",
+    "es": "DwC-A"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Darwin Core Archive"
     ],
-    "en": [
+    "es": [
       "Darwin Core Archive"
     ]
   },
   "definition": {
-    "es": "Estándar de datos de informática de la biodiversidad que utiliza los términos Darwin Core para producir un único conjunto de datos autocontenido para compartir datos a nivel de especie (taxonómicos), datos de ocurrencia de especies y datos de eventos de muestreo; un archivo es un conjunto de archivos de texto, en formato estándar separado por comas o tabulaciones, con un archivo descriptor simple (llamado meta.xml).",
-    "en": "biodiversity informatics data standard that makes use of the Darwin Core terms to produce a single, self contained dataset for sharing species-level (taxonomic), species-occurrence data, and sampling-event data; an archive is a set of text files, in standard comma- or tab-delimited format, with a simple descriptor file (called meta.xml) to inform others how the files are organized"
+    "en": "biodiversity informatics data standard that makes use of the Darwin Core terms to produce a single, self contained dataset for sharing species-level (taxonomic), species-occurrence data, and sampling-event data; an archive is a set of text files, in standard comma- or tab-delimited format, with a simple descriptor file (called meta.xml) to inform others how the files are organized",
+    "es": "Estándar de datos de informática de la biodiversidad que utiliza los términos Darwin Core para producir un único conjunto de datos autocontenido para compartir datos a nivel de especie (taxonómicos), datos de ocurrencia de especies y datos de eventos de muestreo; un archivo es un conjunto de archivos de texto, en formato estándar separado por comas o tabulaciones, con un archivo descriptor simple (llamado meta.xml)."
   },
+  "notation": [
+    ".tar.gz; .zip",
+    "application/gzip; application/zip"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/zip"

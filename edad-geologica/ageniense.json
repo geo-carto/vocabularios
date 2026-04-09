@@ -2,39 +2,42 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ageniense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Ageniense",
-    "en": "Agenian"
+    "en": "Agenian",
+    "es": "Ageniense"
   },
   "definition": {
     "es": "Ageniense"
   },
+  "notation": [
+    "213010000091.0"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma",
     "prefLabel": {
-      "es": "Regional",
-      "en": "Regional"
+      "en": "Regional",
+      "es": "Regional"
     }
   },
   "related": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aquitaniense",
       "prefLabel": {
-        "es": "Aquitaniense",
-        "en": "Aquitanian"
+        "en": "Aquitanian",
+        "es": "Aquitaniense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/burdigaliense",
       "prefLabel": {
-        "es": "Burdigaliense",
-        "en": "Burdigalian"
+        "en": "Burdigalian",
+        "es": "Burdigaliense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/chattiense",
       "prefLabel": {
-        "es": "Chattiense",
-        "en": "Chattian"
+        "en": "Chattian",
+        "es": "Chattiense"
       }
     }
   ],

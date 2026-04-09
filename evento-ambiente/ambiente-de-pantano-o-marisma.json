@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-pantano-o-marisma",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de pantano o marisma",
-    "en": "swamp or marsh setting"
+    "en": "swamp or marsh setting",
+    "es": "ambiente de pantano o marisma"
   },
   "definition": {
-    "es": "Área saturada en agua, periódicamente húmeda o constantemente inundada con su superficie sumergida poco profundamente, sin que básicamente se forme turba. Las marismas se caracterizan por las ciperáceas, espadañas, juncáceas, u otra vegetación acuática y de praderas. Los pantanos se caracterizan por vegetación arbórea y de matorral.",
-    "en": "A water-saturated, periodically wet or continually flooded area with the surface not deeply submerged, essentially without the formation of peat. Marshes are characterized by sedges, cattails, rushes, or other aquatic and grasslike vegetation. Swamps are characterized by tree and brush vegetation."
+    "en": "A water-saturated, periodically wet or continually flooded area with the surface not deeply submerged, essentially without the formation of peat. Marshes are characterized by sedges, cattails, rushes, or other aquatic and grasslike vegetation. Swamps are characterized by tree and brush vegetation.",
+    "es": "Área saturada en agua, periódicamente húmeda o constantemente inundada con su superficie sumergida poco profundamente, sin que básicamente se forme turba. Las marismas se caracterizan por las ciperáceas, espadañas, juncáceas, u otra vegetación acuática y de praderas. Los pantanos se caracterizan por vegetación arbórea y de matorral."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-marisma-mareal",
       "prefLabel": {
-        "es": "ambiente de marisma mareal",
-        "en": "tidal marsh setting"
+        "en": "tidal marsh setting",
+        "es": "ambiente de marisma mareal"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-humedales",
     "prefLabel": {
-      "es": "ambiente de humedales",
-      "en": "wetland setting"
+      "en": "wetland setting",
+      "es": "ambiente de humedales"
     }
   },
   "exactMatch": [

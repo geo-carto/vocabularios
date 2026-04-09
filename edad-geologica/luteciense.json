@@ -2,26 +2,30 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/luteciense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Luteciense",
-    "en": "Lutetian"
+    "en": "Lutetian",
+    "es": "Luteciense"
   },
   "definition": {
-    "es": "Límite inferior 47.8 Ma, límite superior 41.2 Ma",
-    "en": "Older bound 47.8 Ma, younger bound 41.2 Ma"
+    "en": "Older bound 47.8 Ma, younger bound 41.2 Ma",
+    "es": "Límite inferior 47.8 Ma, límite superior 41.2 Ma"
   },
+  "notation": [
+    "213010221000.0",
+    "a1.1.1.3.2.3"
+  ],
   "related": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neustriense",
       "prefLabel": {
-        "es": "Neustriense",
-        "en": "Neustrian"
+        "en": "Neustrian",
+        "es": "Neustriense"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/rhenaniense",
       "prefLabel": {
-        "es": "Rhenaniense",
-        "en": "Rhenanian"
+        "en": "Rhenanian",
+        "es": "Rhenaniense"
       }
     }
   ],

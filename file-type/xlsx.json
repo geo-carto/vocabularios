@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/xlsx",
   "type": "Concept",
   "prefLabel": {
-    "es": "Excel XLSX",
-    "en": "Excel XLSX"
+    "en": "Excel XLSX",
+    "es": "Excel XLSX"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Office Open XML Workbook"
     ],
-    "en": [
+    "es": [
       "Office Open XML Workbook"
     ]
   },
   "definition": {
-    "es": "XLSX es el formato de archivo predeterminado para libros de Excel 2007 y posteriores, utilizado para hojas de cálculo de Microsoft Excel con funciones de cálculo, herramientas de gráficos, tablas dinámicas y un lenguaje de programación de macros. XLSX es en realidad un archivo comprimido ZIP con una estructura de directorios de documentos de texto XML.",
-    "en": "XLSX is the default file format for Excel 2007 and later workbook used for Microsoft Excel spreadsheet which features calculation, graphing tools, pivot tables and a macro programming language. XLSX is in reality a ZIP compressed archive with a directory structure of XML text documents."
+    "en": "XLSX is the default file format for Excel 2007 and later workbook used for Microsoft Excel spreadsheet which features calculation, graphing tools, pivot tables and a macro programming language. XLSX is in reality a ZIP compressed archive with a directory structure of XML text documents.",
+    "es": "XLSX es el formato de archivo predeterminado para libros de Excel 2007 y posteriores, utilizado para hojas de cálculo de Microsoft Excel con funciones de cálculo, herramientas de gráficos, tablas dinámicas y un lenguaje de programación de macros. XLSX es en realidad un archivo comprimido ZIP con una estructura de directorios de documentos de texto XML."
   },
+  "notation": [
+    ".xlsx",
+    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/XLSX"

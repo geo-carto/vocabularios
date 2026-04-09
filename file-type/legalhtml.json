@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/legalhtml",
   "type": "Concept",
   "prefLabel": {
-    "es": "LegalHTML",
-    "en": "LegalHTML"
+    "en": "LegalHTML",
+    "es": "LegalHTML"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "LegalHTML file"
     ],
-    "en": [
+    "es": [
       "LegalHTML file"
     ]
   },
   "definition": {
-    "es": "Extensión del lenguaje HTML diseñada para representar actos jurídicos; proporciona un lenguaje de dominio explícito que aborda todos los aspectos estructurales de un acto, como artículos, párrafos, elementos y referencias; también soporta la descripción del historial editorial y jurisdiccional de un acto y la anotación semántica de entidades de dominio; además, LegalHTML aborda la consolidación de un acto y sus modificaciones posteriores en un único documento; finalmente, una API JavaScript mejora la representación como documento activo, permitiendo la visualización de un acto consolidado en diferentes momentos temporales.",
-    "en": "extension of the HTML language designed for representing legal acts; it provides an explicit domain language addressing all structural aspects of an act such as articles, paragraphs, items and references; it also supports the description of the editorial and jurisdictional history of an act and the semantic annotation of domain entities; furthermore, LegalHTML addresses the consolidation of an act and its subsequent modifications into a single document using a tree-like representation of the original content and of its modified versions; finally, a JavaScript API enhances the representation as an active document, enabling the visualization of a consolidated act as it applies at different points in time"
+    "en": "extension of the HTML language designed for representing legal acts; it provides an explicit domain language addressing all structural aspects of an act such as articles, paragraphs, items and references; it also supports the description of the editorial and jurisdictional history of an act and the semantic annotation of domain entities; furthermore, LegalHTML addresses the consolidation of an act and its subsequent modifications into a single document using a tree-like representation of the original content and of its modified versions; finally, a JavaScript API enhances the representation as an active document, enabling the visualization of a consolidated act as it applies at different points in time",
+    "es": "Extensión del lenguaje HTML diseñada para representar actos jurídicos; proporciona un lenguaje de dominio explícito que aborda todos los aspectos estructurales de un acto, como artículos, párrafos, elementos y referencias; también soporta la descripción del historial editorial y jurisdiccional de un acto y la anotación semántica de entidades de dominio; además, LegalHTML aborda la consolidación de un acto y sus modificaciones posteriores en un único documento; finalmente, una API JavaScript mejora la representación como documento activo, permitiendo la visualización de un acto consolidado en diferentes momentos temporales."
   },
+  "notation": [
+    ".html",
+    "application/xhtml+xml"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/LEGALHTML"

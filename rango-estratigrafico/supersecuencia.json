@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/supersecuencia",
   "type": "Concept",
   "prefLabel": {
-    "es": "supersecuencia",
-    "en": "supersequence"
+    "en": "supersequence",
+    "es": "supersecuencia"
   },
   "definition": {
-    "es": "Una sucesión de estratos que comprende dos o más secuencias.",
-    "en": "A succession of strata comprising two or more sequences."
+    "en": "A succession of strata comprising two or more sequences.",
+    "es": "Una sucesión de estratos que comprende dos o más secuencias."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/secuencia",
       "prefLabel": {
-        "es": "secuencia",
-        "en": "sequence"
+        "en": "sequence",
+        "es": "secuencia"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/megasecuencia",
     "prefLabel": {
-      "es": "megasecuencia",
-      "en": "megasequence"
+      "en": "megasequence",
+      "es": "megasecuencia"
     }
   },
   "exactMatch": [

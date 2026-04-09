@@ -2,68 +2,68 @@
   "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla",
   "type": "Concept",
   "prefLabel": {
-    "es": "falla",
-    "en": "fault"
+    "en": "fault",
+    "es": "falla"
   },
   "definition": {
-    "es": "Superficie discreta, o zona de superficies discretas, con un cierto espesor, que separa dos cuerpos rocosos y a lo largo de la cual uno de los cuerpos se ha deslizado con respecto al otro.",
-    "en": "A discrete surface, or zone of discrete surfaces, with some thickness, separating two rock masses across which one mass has slid past the other and characterized by brittle deformation."
+    "en": "A discrete surface, or zone of discrete surfaces, with some thickness, separating two rock masses across which one mass has slid past the other and characterized by brittle deformation.",
+    "es": "Superficie discreta, o zona de superficies discretas, con un cierto espesor, que separa dos cuerpos rocosos y a lo largo de la cual uno de los cuerpos se ha deslizado con respecto al otro."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional",
       "prefLabel": {
-        "es": "falla contraccional",
-        "en": "extraction fault"
+        "en": "extraction fault",
+        "es": "falla contraccional"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-alto-angulo",
       "prefLabel": {
-        "es": "falla de alto ángulo",
-        "en": "high angle fault"
+        "en": "high angle fault",
+        "es": "falla de alto ángulo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-bajo-angulo",
       "prefLabel": {
-        "es": "falla de bajo ángulo",
-        "en": "low angle fault"
+        "en": "low angle fault",
+        "es": "falla de bajo ángulo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre",
       "prefLabel": {
-        "es": "falla de desgarre",
-        "en": "strike slip fault"
+        "en": "strike slip fault",
+        "es": "falla de desgarre"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desplazamiento-oblicuo",
       "prefLabel": {
-        "es": "falla de desplazamiento oblicuo",
-        "en": "oblique slip fault"
+        "en": "oblique slip fault",
+        "es": "falla de desplazamiento oblicuo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-en-tijera",
       "prefLabel": {
-        "es": "falla en tijera",
-        "en": "scissor fault"
+        "en": "scissor fault",
+        "es": "falla en tijera"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa",
       "prefLabel": {
-        "es": "falla inversa",
-        "en": "reverse fault"
+        "en": "reverse fault",
+        "es": "falla inversa"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal",
       "prefLabel": {
-        "es": "falla normal",
-        "en": "normal fault"
+        "en": "normal fault",
+        "es": "falla normal"
       }
     }
   ],

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/mp3",
   "type": "Concept",
   "prefLabel": {
-    "es": "MP3",
-    "en": "MP3"
+    "en": "MP3",
+    "es": "MP3"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "MPEG-1/MPEG-2 Audio Layer III"
     ],
-    "en": [
+    "es": [
       "MPEG-1/MPEG-2 Audio Layer III"
     ]
   },
   "definition": {
-    "es": "MP3 es un formato de audio digital. Utiliza compresión con pérdida para reducir los datos sin perder calidad de audio.",
-    "en": "An MP3 is a format for digital audio. It uses the lossy compression to reduce the data without losing audio quality."
+    "en": "An MP3 is a format for digital audio. It uses the lossy compression to reduce the data without losing audio quality.",
+    "es": "MP3 es un formato de audio digital. Utiliza compresión con pérdida para reducir los datos sin perder calidad de audio."
   },
+  "notation": [
+    ".mp3",
+    "audio/mpa-robust; audio/MPA; audio/mpeg"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/MP3"

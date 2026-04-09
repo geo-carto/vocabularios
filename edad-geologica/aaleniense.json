@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/aaleniense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Aaleniense",
-    "en": "Aalenian"
+    "en": "Aalenian",
+    "es": "Aaleniense"
   },
   "definition": {
-    "es": "Límite inferior 174.7 +|-0.8 Ma, límite superior 170.9 +|-0.8 Ma",
-    "en": "Older bound 174.7 +|-0.8 Ma, younger bound 170.9 +|-0.8 Ma"
+    "en": "Older bound 174.7 +|-0.8 Ma, younger bound 170.9 +|-0.8 Ma",
+    "es": "Límite inferior 174.7 +|-0.8 Ma, límite superior 170.9 +|-0.8 Ma"
   },
+  "notation": [
+    "212020201000.0",
+    "a1.1.2.2.2.4"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-medio",
     "prefLabel": {
-      "es": "Jurásico Medio",
-      "en": "Middle Jurassic"
+      "en": "Middle Jurassic",
+      "es": "Jurásico Medio"
     }
   },
   "exactMatch": [

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/z",
   "type": "Concept",
   "prefLabel": {
-    "es": "Z",
-    "en": "Z"
+    "en": "Z",
+    "es": "Z"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Unix compressed file"
     ],
-    "en": [
+    "es": [
       "Unix compressed file"
     ]
   },
   "definition": {
-    "es": "Archivo comprimido producido por el programa de compresión de shell Unix basado en el algoritmo de compresión LZW (Lempel-Ziv-Welch).",
-    "en": "Compressed file produced by Unix shell compression program based on the LZW (Lempel-Ziv-Welch) compression algorithm."
+    "en": "Compressed file produced by Unix shell compression program based on the LZW (Lempel-Ziv-Welch) compression algorithm.",
+    "es": "Archivo comprimido producido por el programa de compresión de shell Unix basado en el algoritmo de compresión LZW (Lempel-Ziv-Welch)."
   },
+  "notation": [
+    ".Z",
+    "application/x-compress"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/Z"

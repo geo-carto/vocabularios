@@ -2,28 +2,29 @@
   "id": "https://geo-carto.github.io/vocabularios/polaridad/collection",
   "type": "Collection",
   "prefLabel": {
+    "en": "Polarity - All concepts",
     "es": "Polaridad - Todos los conceptos"
   },
   "member": [
     {
       "id": "https://geo-carto.github.io/vocabularios/polaridad/invertida",
       "prefLabel": {
-        "es": "invertida",
-        "en": "overturned"
+        "en": "overturned",
+        "es": "invertida"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/polaridad/normal",
       "prefLabel": {
-        "es": "normal",
-        "en": "upright"
+        "en": "upright",
+        "es": "normal"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/polaridad/vertical",
       "prefLabel": {
-        "es": "vertical",
-        "en": "vertical"
+        "en": "vertical",
+        "es": "vertical"
       }
     }
   ],

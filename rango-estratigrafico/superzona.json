@@ -2,19 +2,19 @@
   "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/superzona",
   "type": "Concept",
   "prefLabel": {
-    "es": "superzona",
-    "en": "supersuite"
+    "en": "supersuite",
+    "es": "superzona"
   },
   "definition": {
-    "es": "Una unidad litodémica formal que sigue en rango superior a la zona. Comprende dos o más zonas que tienen un grado de relación natural entre sí.",
-    "en": "A formal lithodemic unit next higher in rank to suite. It comprises two or more suites having a degree of natural relationship to one another"
+    "en": "A formal lithodemic unit next higher in rank to suite. It comprises two or more suites having a degree of natural relationship to one another",
+    "es": "Una unidad litodémica formal que sigue en rango superior a la zona. Comprende dos o más zonas que tienen un grado de relación natural entre sí."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/zona",
       "prefLabel": {
-        "es": "zona",
-        "en": "suite"
+        "en": "suite",
+        "es": "zona"
       }
     }
   ],

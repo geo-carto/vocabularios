@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/indd",
   "type": "Concept",
   "prefLabel": {
-    "es": "INDD",
-    "en": "INDD"
+    "en": "INDD",
+    "es": "INDD"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Adobe InDesign Document"
     ],
-    "en": [
+    "es": [
       "Adobe InDesign Document"
     ]
   },
   "definition": {
-    "es": "INDD es un formato de archivo de maquetación de página utilizado por Adobe InDesign. InDesign es una aplicación de software de autoedición.",
-    "en": "INDD is a file format for a page layout file used by Adobe InDesign. InDesign is a desktop publishing software application."
+    "en": "INDD is a file format for a page layout file used by Adobe InDesign. InDesign is a desktop publishing software application.",
+    "es": "INDD es un formato de archivo de maquetación de página utilizado por Adobe InDesign. InDesign es una aplicación de software de autoedición."
   },
+  "notation": [
+    ".indd",
+    "application/x-indesign"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/INDD"

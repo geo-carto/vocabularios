@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/qgs",
   "type": "Concept",
   "prefLabel": {
-    "es": "QGS",
-    "en": "QGS"
+    "en": "QGS",
+    "es": "QGS"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Quantum GIS project"
     ],
-    "en": [
+    "es": [
       "Quantum GIS project"
     ]
   },
   "definition": {
-    "es": "Un archivo QGS es un proyecto de Quantum GIS. Quantum GIS (QGIS) es una aplicación de escritorio de sistemas de información geográfica (SIG) multiplataforma, libre y de código abierto, que proporciona capacidades de visualización, edición y análisis de datos.",
-    "en": "QGS file is a Quantum GIS project. Quantum GIS (QGIS) is a cross-platform free and open source desktop geographic information systems (GIS) application that provides data viewing, editing, and analysis capabilities."
+    "en": "QGS file is a Quantum GIS project. Quantum GIS (QGIS) is a cross-platform free and open source desktop geographic information systems (GIS) application that provides data viewing, editing, and analysis capabilities.",
+    "es": "Un archivo QGS es un proyecto de Quantum GIS. Quantum GIS (QGIS) es una aplicación de escritorio de sistemas de información geográfica (SIG) multiplataforma, libre y de código abierto, que proporciona capacidades de visualización, edición y análisis de datos."
   },
+  "notation": [
+    "application/octet-stream",
+    ".qgs"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/octet-stream"

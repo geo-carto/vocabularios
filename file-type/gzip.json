@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/gzip",
   "type": "Concept",
   "prefLabel": {
-    "es": "GNU zip",
-    "en": "GNU zip"
+    "en": "GNU zip",
+    "es": "GNU zip"
   },
   "definition": {
-    "es": "GZIP – GNU zip – es un formato de archivo y una aplicación de software utilizada para la compresión y descompresión de archivos.",
-    "en": "GZIP – GNU zip – is a file format and a software application used for file compression and decompression."
+    "en": "GZIP – GNU zip – is a file format and a software application used for file compression and decompression.",
+    "es": "GZIP – GNU zip – es un formato de archivo y una aplicación de software utilizada para la compresión y descompresión de archivos."
   },
+  "notation": [
+    ".gz",
+    "application/gzip; application/x-gzip"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/gzip"

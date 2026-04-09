@@ -2,47 +2,47 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-planar",
   "type": "Concept",
   "prefLabel": {
-    "es": "perfil planar",
-    "en": "planar profile"
+    "en": "planar profile",
+    "es": "perfil planar"
   },
   "definition": {
-    "es": "Forma definida por la intersección del cuerpo con alguna superficie, generalmente una sección transversal o una vista de mapa",
-    "en": "Shape is defined by intersection of body with some surface, generally either a cross section or map view"
+    "en": "Shape is defined by intersection of body with some surface, generally either a cross section or map view",
+    "es": "Forma definida por la intersección del cuerpo con alguna superficie, generalmente una sección transversal o una vista de mapa"
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-eliptico",
       "prefLabel": {
-        "es": "perfil elíptico",
-        "en": "elliptical profile"
+        "en": "elliptical profile",
+        "es": "perfil elíptico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-irregular",
       "prefLabel": {
-        "es": "perfil irregular",
-        "en": "irregular profile"
+        "en": "irregular profile",
+        "es": "perfil irregular"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-isometrico",
       "prefLabel": {
-        "es": "perfil isometrico",
-        "en": "equant profile"
+        "en": "equant profile",
+        "es": "perfil isometrico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-lenticular",
       "prefLabel": {
-        "es": "perfil lenticular",
-        "en": "lenticular profile"
+        "en": "lenticular profile",
+        "es": "perfil lenticular"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-poligonal",
       "prefLabel": {
-        "es": "perfil poligonal",
-        "en": "polygonal profile"
+        "en": "polygonal profile",
+        "es": "perfil poligonal"
       }
     }
   ],

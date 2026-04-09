@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/gmz",
   "type": "Concept",
   "prefLabel": {
-    "es": "Zipped GML",
-    "en": "Zipped GML"
+    "en": "Zipped GML",
+    "es": "Zipped GML"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Zipped Geography Markup Language"
     ],
-    "en": [
+    "es": [
       "Zipped Geography Markup Language"
     ]
   },
   "definition": {
-    "es": "GMZ es el tipo de medio que se utilizará para un archivo zip que contiene uno o más documentos GML.",
-    "en": "GMZ is the media type which shall be used for a zip archive that contains one or more GML documents."
+    "en": "GMZ is the media type which shall be used for a zip archive that contains one or more GML documents.",
+    "es": "GMZ es el tipo de medio que se utilizará para un archivo zip que contiene uno o más documentos GML."
   },
+  "notation": [
+    ".gmz",
+    "application/x-gmz"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/GMZ"

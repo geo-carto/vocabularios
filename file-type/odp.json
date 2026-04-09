@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/odp",
   "type": "Concept",
   "prefLabel": {
-    "es": "ODP",
-    "en": "ODP"
+    "en": "ODP",
+    "es": "ODP"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "OpenDocument Presentation"
     ],
-    "en": [
+    "es": [
       "OpenDocument Presentation"
     ]
   },
   "definition": {
-    "es": "ODP es un formato de archivo OpenDocument para presentaciones. OpenDocument fue desarrollado con el objetivo de proporcionar una especificación de formato de archivo abierto basado en XML para aplicaciones de oficina.",
-    "en": "ODP is an OpenDocument file format for presentations. OpenDocument was developed with the aim of providing an open, XML-based file format specification for office applications."
+    "en": "ODP is an OpenDocument file format for presentations. OpenDocument was developed with the aim of providing an open, XML-based file format specification for office applications.",
+    "es": "ODP es un formato de archivo OpenDocument para presentaciones. OpenDocument fue desarrollado con el objetivo de proporcionar una especificación de formato de archivo abierto basado en XML para aplicaciones de oficina."
   },
+  "notation": [
+    ".odp; .fodp",
+    "application/vnd.oasis.opendocument.presentation"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/ODP"

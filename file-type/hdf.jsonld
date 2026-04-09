@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/hdf",
   "type": "Concept",
   "prefLabel": {
-    "es": "HDF",
-    "en": "HDF"
+    "en": "HDF",
+    "es": "HDF"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Hierarchical Data Format"
     ],
-    "en": [
+    "es": [
       "Hierarchical Data Format"
     ]
   },
   "definition": {
-    "es": "HDF es un conjunto de formatos de archivo (HDF4, HDF5) diseñados para almacenar y organizar grandes cantidades de datos numéricos.",
-    "en": "HDF is a set of file formats (HDF4, HDF5) designed to store and organize large amounts of numerical data."
+    "en": "HDF is a set of file formats (HDF4, HDF5) designed to store and organize large amounts of numerical data.",
+    "es": "HDF es un conjunto de formatos de archivo (HDF4, HDF5) diseñados para almacenar y organizar grandes cantidades de datos numéricos."
   },
+  "notation": [
+    ".h5; .hdf5; .h4; .hdf; .he2; .hdf4; .he5",
+    "application/x-hdf"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/HDF"

@@ -2,41 +2,45 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico",
   "type": "Concept",
   "prefLabel": {
-    "es": "Ordovícico",
-    "en": "Ordovician"
+    "en": "Ordovician",
+    "es": "Ordovícico"
   },
   "definition": {
-    "es": "Límite inferior 485.4 +|-1.9 Ma, límite superior 443.8 +|-1.5 Ma",
-    "en": "Older bound 485.4 +|-1.9 Ma, younger bound 443.8 +|-1.5 Ma"
+    "en": "Older bound 485.4 +|-1.9 Ma, younger bound 443.8 +|-1.5 Ma",
+    "es": "Límite inferior 485.4 +|-1.9 Ma, límite superior 443.8 +|-1.5 Ma"
   },
+  "notation": [
+    "211020000000.0",
+    "a1.1.3.5"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-inferior",
       "prefLabel": {
-        "es": "Ordovícico Inferior",
-        "en": "Lower Ordovician"
+        "en": "Lower Ordovician",
+        "es": "Ordovícico Inferior"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-medio",
       "prefLabel": {
-        "es": "Ordovícico Medio",
-        "en": "Middle Ordovician"
+        "en": "Middle Ordovician",
+        "es": "Ordovícico Medio"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-superior",
       "prefLabel": {
-        "es": "Ordovícico Superior",
-        "en": "Upper Ordovician"
+        "en": "Upper Ordovician",
+        "es": "Ordovícico Superior"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico",
     "prefLabel": {
-      "es": "Paleozoico",
-      "en": "Paleozoic"
+      "en": "Paleozoic",
+      "es": "Paleozoico"
     }
   },
   "exactMatch": [

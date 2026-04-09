@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/cog",
   "type": "Concept",
   "prefLabel": {
-    "es": "COG",
-    "en": "COG"
+    "en": "COG",
+    "es": "COG"
   },
   "altLabel": {
-    "es": [
-      "GeoTIFF Optimizado para la Nube"
-    ],
     "en": [
       "Cloud Optimized GeoTIFF"
+    ],
+    "es": [
+      "GeoTIFF Optimizado para la Nube"
     ]
   },
   "definition": {
-    "es": "Cloud Optimized GeoTIFF (COG) es una variante del formato de imagen GeoTIFF que especifica una organización interna particular de los datos para permitir el acceso optimizado (subconjuntos o agregados) a través de una red. Se basa en dos características del formato TIFF v6 (teselas y subarchivos de resolución reducida), claves GeoTIFF para georreferenciación y solicitudes HTTP range para la descarga eficiente de partes de datos de imágenes y coberturas de cuadrícula en la web.",
-    "en": "Cloud Optimized GeoTIFF (COG) is a variant of the GeoTIFF image format that specifies a particular layout of internal data to allow for optimized (subsetted or aggregated) access over a network. It relies on two characteristics of the TIFF v6 format (tiles and reduced resolution subfiles), GeoTIFF keys for georeference, and HTTP range requests for efficient downloading of parts of imagery and grid coverage data on the web."
+    "en": "Cloud Optimized GeoTIFF (COG) is a variant of the GeoTIFF image format that specifies a particular layout of internal data to allow for optimized (subsetted or aggregated) access over a network. It relies on two characteristics of the TIFF v6 format (tiles and reduced resolution subfiles), GeoTIFF keys for georeference, and HTTP range requests for efficient downloading of parts of imagery and grid coverage data on the web.",
+    "es": "Cloud Optimized GeoTIFF (COG) es una variante del formato de imagen GeoTIFF que especifica una organización interna particular de los datos para permitir el acceso optimizado (subconjuntos o agregados) a través de una red. Se basa en dos características del formato TIFF v6 (teselas y subarchivos de resolución reducida), claves GeoTIFF para georreferenciación y solicitudes HTTP range para la descarga eficiente de partes de datos de imágenes y coberturas de cuadrícula en la web."
   },
+  "notation": [
+    ".tiff; .tif",
+    "image/tiff"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/image/tiff"

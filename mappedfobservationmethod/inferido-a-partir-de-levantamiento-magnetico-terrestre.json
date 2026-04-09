@@ -2,18 +2,18 @@
   "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-a-partir-de-levantamiento-magnetico-terrestre",
   "type": "Concept",
   "prefLabel": {
-    "es": "inferido a partir de levantamiento magnético terrestre",
-    "en": "inferred ground magnetic survey"
+    "en": "inferred ground magnetic survey",
+    "es": "inferido a partir de levantamiento magnético terrestre"
   },
   "definition": {
-    "es": "La ubicación y especificación se infieren a partir de datos del campo magnético adquiridos por sensores en la superficie terrestre, ya sea en estaciones ocupadas manualmente o mediante sensores móviles en vehículos.",
-    "en": "Location and specification inferred based on magnetic field data acquired by sensor on the earth surface, either at manually occupied stations, or by a vehicle-based continuously collected sensor data."
+    "en": "Location and specification inferred based on magnetic field data acquired by sensor on the earth surface, either at manually occupied stations, or by a vehicle-based continuously collected sensor data.",
+    "es": "La ubicación y especificación se infieren a partir de datos del campo magnético adquiridos por sensores en la superficie terrestre, ya sea en estaciones ocupadas manualmente o mediante sensores móviles en vehículos."
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-mediante-metodo-indirecto",
     "prefLabel": {
-      "es": "inferido mediante método indirecto",
-      "en": "inferred using indirect method"
+      "en": "inferred using indirect method",
+      "es": "inferido mediante método indirecto"
     }
   },
   "exactMatch": [

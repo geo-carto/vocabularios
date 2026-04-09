@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/wim",
   "type": "Concept",
   "prefLabel": {
-    "es": "WIM",
-    "en": "WIM"
+    "en": "WIM",
+    "es": "WIM"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Windows Imaging Format"
     ],
-    "en": [
+    "es": [
       "Windows Imaging Format"
     ]
   },
   "definition": {
-    "es": "El Windows Imaging Format (WIM) es un formato de imagen de disco basado en archivos.",
-    "en": "The Windows Imaging Format (WIM) is a file-based disk image format."
+    "en": "The Windows Imaging Format (WIM) is a file-based disk image format.",
+    "es": "El Windows Imaging Format (WIM) es un formato de imagen de disco basado en archivos."
   },
+  "notation": [
+    ".swm",
+    "application/x-ms-wim"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/x-ms-wim"

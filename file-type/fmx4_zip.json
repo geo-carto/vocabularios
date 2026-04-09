@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/fmx4_zip",
   "type": "Concept",
   "prefLabel": {
-    "es": "FMX4 ZIP",
-    "en": "FMX4 ZIP"
+    "en": "FMX4 ZIP",
+    "es": "FMX4 ZIP"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Formex 4 ZIP archive"
     ],
-    "en": [
+    "es": [
       "Formex 4 ZIP archive"
     ]
   },
   "definition": {
-    "es": "FMX4 ZIP es un archivo ZIP que contiene archivos pertenecientes a una instancia de Formex 4.",
-    "en": "FMX4 ZIP is a ZIP archive containing files that all belong to a Formex 4 instance."
+    "en": "FMX4 ZIP is a ZIP archive containing files that all belong to a Formex 4 instance.",
+    "es": "FMX4 ZIP es un archivo ZIP que contiene archivos pertenecientes a una instancia de Formex 4."
   },
+  "notation": [
+    "application/zip",
+    ".zip"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/zip"

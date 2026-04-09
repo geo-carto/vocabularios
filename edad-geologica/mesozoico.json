@@ -2,41 +2,45 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mesozoico",
   "type": "Concept",
   "prefLabel": {
-    "es": "Mesozoico",
-    "en": "Mesozoic"
+    "en": "Mesozoic",
+    "es": "Mesozoico"
   },
   "definition": {
-    "es": "Límite inferior 251.902 +|-0.024 Ma, límite superior 66 Ma",
-    "en": "Older bound 251.902 +|-0.024 Ma, younger bound 66 Ma"
+    "en": "Older bound 251.902 +|-0.024 Ma, younger bound 66 Ma",
+    "es": "Límite inferior 251.902 +|-0.024 Ma, límite superior 66 Ma"
   },
+  "notation": [
+    "212000000000.0",
+    "a1.1.2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cretacico",
       "prefLabel": {
-        "es": "Cretácico",
-        "en": "Cretaceous"
+        "en": "Cretaceous",
+        "es": "Cretácico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico",
       "prefLabel": {
-        "es": "Jurásico",
-        "en": "Jurassic"
+        "en": "Jurassic",
+        "es": "Jurásico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/triasico",
       "prefLabel": {
-        "es": "Triásico",
-        "en": "Triassic"
+        "en": "Triassic",
+        "es": "Triásico"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/fanerozoico",
     "prefLabel": {
-      "es": "Fanerozoico",
-      "en": "Phanerozoic"
+      "en": "Phanerozoic",
+      "es": "Fanerozoico"
     }
   },
   "exactMatch": [

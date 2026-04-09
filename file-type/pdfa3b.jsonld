@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pdfa3b",
   "type": "Concept",
   "prefLabel": {
-    "es": "PDF/A-3b",
-    "en": "PDF/A-3b"
+    "en": "PDF/A-3b",
+    "es": "PDF/A-3b"
   },
   "definition": {
-    "es": "Subtipo de PDF/A-3 que garantiza la fidelidad visual sin considerar la estructura.",
-    "en": "PDF/A-3 subtype that guarantees visual fidelity without regard for structure"
+    "en": "PDF/A-3 subtype that guarantees visual fidelity without regard for structure",
+    "es": "Subtipo de PDF/A-3 que garantiza la fidelidad visual sin considerar la estructura."
   },
+  "notation": [
+    ".pdf",
+    "application/pdf"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/pdf"

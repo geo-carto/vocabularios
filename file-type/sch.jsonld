@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/sch",
   "type": "Concept",
   "prefLabel": {
-    "es": "Schematron",
-    "en": "Schematron"
+    "en": "Schematron",
+    "es": "Schematron"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Schematron file"
     ],
-    "en": [
+    "es": [
       "Schematron file"
     ]
   },
   "definition": {
-    "es": "Lenguaje de validación basado en reglas para hacer aserciones sobre la estructura y el contenido de documentos XML; se expresa en XML usando un pequeño número de elementos y XPath; ha sido estandarizado como parte de ISO/IEC 19757.",
-    "en": "rule-based validation language for making assertions about the structure and content of XML documents; it is expressed in XML using a small number of elements and XPath; it has been standardised as part of ISO/IEC 19757"
+    "en": "rule-based validation language for making assertions about the structure and content of XML documents; it is expressed in XML using a small number of elements and XPath; it has been standardised as part of ISO/IEC 19757",
+    "es": "Lenguaje de validación basado en reglas para hacer aserciones sobre la estructura y el contenido de documentos XML; se expresa en XML usando un pequeño número de elementos y XPath; ha sido estandarizado como parte de ISO/IEC 19757."
   },
+  "notation": [
+    "application/xml",
+    ".sch"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/xml"

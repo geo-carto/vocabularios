@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/grid_ascii",
   "type": "Concept",
   "prefLabel": {
-    "es": "Esri ASCII grid",
-    "en": "Esri ASCII grid"
+    "en": "Esri ASCII grid",
+    "es": "Esri ASCII grid"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Environmental Systems Research Institute ASCII grid"
     ],
-    "en": [
+    "es": [
       "Environmental Systems Research Institute ASCII grid"
     ]
   },
   "definition": {
-    "es": "Esri ASCII grid es el tipo de medio que se utilizará para archivos ASCII GRID. ASCII GRID es uno de los dos formatos de Esri grid, un formato de archivo SIG rasterizado, un formato ASCII no propietario, también conocido como ArcInfo ASCII GRID.",
-    "en": "Esri ASCII grid is the media type which shall be used for ASCII GRID files. ASCII GRID is one of the two formats of Esri grid, a raster GIS file format, a non-proprietary ASCII format, also known as an ArcInfo ASCII GRID."
+    "en": "Esri ASCII grid is the media type which shall be used for ASCII GRID files. ASCII GRID is one of the two formats of Esri grid, a raster GIS file format, a non-proprietary ASCII format, also known as an ArcInfo ASCII GRID.",
+    "es": "Esri ASCII grid es el tipo de medio que se utilizará para archivos ASCII GRID. ASCII GRID es uno de los dos formatos de Esri grid, un formato de archivo SIG rasterizado, un formato ASCII no propietario, también conocido como ArcInfo ASCII GRID."
   },
+  "notation": [
+    ".asc",
+    "application/x-ascii-grid"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/GRID_ASCII"

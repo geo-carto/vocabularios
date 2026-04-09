@@ -2,41 +2,45 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/precambrico",
   "type": "Concept",
   "prefLabel": {
-    "es": "Precámbrico",
-    "en": "Precambrian"
+    "en": "Precambrian",
+    "es": "Precámbrico"
   },
   "definition": {
-    "es": "Límite inferior 4567 Ma, límite superior 538.8 +|-0.2 Ma",
-    "en": "Older bound 4567 Ma, younger bound 538.8 +|-0.2 Ma"
+    "en": "Older bound 4567 Ma, younger bound 538.8 +|-0.2 Ma",
+    "es": "Límite inferior 4567 Ma, límite superior 538.8 +|-0.2 Ma"
   },
+  "notation": [
+    "100000000000.0",
+    "a2"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/arcaico",
       "prefLabel": {
-        "es": "Arcaico",
-        "en": "Archean"
+        "en": "Archean",
+        "es": "Arcaico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/hadico",
       "prefLabel": {
-        "es": "Hádico",
-        "en": "Hadean"
+        "en": "Hadean",
+        "es": "Hádico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/proterozoico",
       "prefLabel": {
-        "es": "Proterozoico",
-        "en": "Proterozoic"
+        "en": "Proterozoic",
+        "es": "Proterozoico"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/megalayense/edad-cronoestratigrafica",
     "prefLabel": {
-      "es": "Edad cronoestratigráfica",
-      "en": "Chronostratigraphic Ages"
+      "en": "Chronostratigraphic Ages",
+      "es": "Edad cronoestratigráfica"
     }
   },
   "exactMatch": [

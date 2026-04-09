@@ -2,62 +2,62 @@
   "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-mediante-metodo-indirecto",
   "type": "Concept",
   "prefLabel": {
-    "es": "inferido mediante método indirecto",
-    "en": "inferred using indirect method"
+    "en": "inferred using indirect method",
+    "es": "inferido mediante método indirecto"
   },
   "definition": {
-    "es": "La ubicación y especificación se infieren a partir de propiedades relacionadas con la litología, como firmas geofísicas o geoquímicas, vegetación, textura superficial o reflectancia.",
-    "en": "Location and specification inferred based on properties related to lithology, e.g. geophysical or geochemical signature, vegetation, surface texture, reflectance."
+    "en": "Location and specification inferred based on properties related to lithology, e.g. geophysical or geochemical signature, vegetation, surface texture, reflectance.",
+    "es": "La ubicación y especificación se infieren a partir de propiedades relacionadas con la litología, como firmas geofísicas o geoquímicas, vegetación, textura superficial o reflectancia."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-a-partir-de-datos-gravimetricos",
       "prefLabel": {
-        "es": "inferido a partir de datos gravimétricos",
-        "en": "inferred gravity data"
+        "en": "inferred gravity data",
+        "es": "inferido a partir de datos gravimétricos"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-a-partir-de-imagenes-de-teledeteccion",
       "prefLabel": {
-        "es": "inferido a partir de imágenes de teledetección",
-        "en": "inferred remote sensing imagery"
+        "en": "inferred remote sensing imagery",
+        "es": "inferido a partir de imágenes de teledetección"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-a-partir-de-levantamiento-aeromagnetico",
       "prefLabel": {
-        "es": "inferido a partir de levantamiento aeromagnético",
-        "en": "inferred aeromagnetic survey"
+        "en": "inferred aeromagnetic survey",
+        "es": "inferido a partir de levantamiento aeromagnético"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-a-partir-de-levantamiento-magnetico-terrestre",
       "prefLabel": {
-        "es": "inferido a partir de levantamiento magnético terrestre",
-        "en": "inferred ground magnetic survey"
+        "en": "inferred ground magnetic survey",
+        "es": "inferido a partir de levantamiento magnético terrestre"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-a-partir-de-levantamiento-radiometrico",
       "prefLabel": {
-        "es": "inferido a partir de levantamiento radiométrico",
-        "en": "inferred radiometric survey"
+        "en": "inferred radiometric survey",
+        "es": "inferido a partir de levantamiento radiométrico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-a-partir-de-registro-geofisico-de-sondeo",
       "prefLabel": {
-        "es": "inferido a partir de registro geofísico de sondeo",
-        "en": "inferred borehole geophysical log"
+        "en": "inferred borehole geophysical log",
+        "es": "inferido a partir de registro geofísico de sondeo"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido",
     "prefLabel": {
-      "es": "inferido",
-      "en": "inferred"
+      "en": "inferred",
+      "es": "inferido"
     }
   },
   "exactMatch": [

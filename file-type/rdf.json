@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/rdf",
   "type": "Concept",
   "prefLabel": {
-    "es": "RDF",
-    "en": "RDF"
+    "en": "RDF",
+    "es": "RDF"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Resource Description Framework (RDF)"
     ],
-    "en": [
+    "es": [
       "Resource Description Framework (RDF)"
     ]
   },
   "definition": {
-    "es": "RDF – Resource Description Framework – es un modelo estándar para el intercambio de datos en la Web. RDF tiene características que facilitan la fusión de datos. RDF extiende la estructura de enlaces de la Web para usar URIs para nombrar la relación entre cosas así como los dos extremos del enlace (esto se conoce generalmente como un 'triple'). Usando este modelo simple, permite mezclar, exponer y compartir datos estructurados y semiestructurados entre diferentes aplicaciones.",
-    "en": "RDF – Resource Description Framework – is a standard model for data interchange on the Web. RDF has features that facilitate data merging. RDF extends the linking structure of the Web to use URIs to name the relationship between things as well as the two ends of the link (this is usually referred to as a ‘triple’). Using this simple model, it allows structured and semi-structured data to be mixed, exposed and shared across different applications. This linking structure forms a directed, labeled graph, where the edges represent the named link between two resources, represented by the graph nodes."
+    "en": "RDF – Resource Description Framework – is a standard model for data interchange on the Web. RDF has features that facilitate data merging. RDF extends the linking structure of the Web to use URIs to name the relationship between things as well as the two ends of the link (this is usually referred to as a ‘triple’). Using this simple model, it allows structured and semi-structured data to be mixed, exposed and shared across different applications. This linking structure forms a directed, labeled graph, where the edges represent the named link between two resources, represented by the graph nodes.",
+    "es": "RDF – Resource Description Framework – es un modelo estándar para el intercambio de datos en la Web. RDF tiene características que facilitan la fusión de datos. RDF extiende la estructura de enlaces de la Web para usar URIs para nombrar la relación entre cosas así como los dos extremos del enlace (esto se conoce generalmente como un 'triple'). Usando este modelo simple, permite mezclar, exponer y compartir datos estructurados y semiestructurados entre diferentes aplicaciones."
   },
+  "notation": [
+    ".rdf",
+    "application/rdf+xml"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/RDF"

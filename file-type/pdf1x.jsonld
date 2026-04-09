@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pdf1x",
   "type": "Concept",
   "prefLabel": {
-    "es": "PDF1X",
-    "en": "PDF1X"
+    "en": "PDF1X",
+    "es": "PDF1X"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "PDF printing format extension"
     ],
-    "en": [
+    "es": [
       "PDF printing format extension"
     ]
   },
   "definition": {
-    "es": "PDF1X es una especificación PDF utilizada principalmente para impresión en color de alta calidad.",
-    "en": "PDF1X is a PDF specification used mainly for high quality color printing."
+    "en": "PDF1X is a PDF specification used mainly for high quality color printing.",
+    "es": "PDF1X es una especificación PDF utilizada principalmente para impresión en color de alta calidad."
   },
+  "notation": [
+    ".pdf",
+    "application/pdf"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/pdf"

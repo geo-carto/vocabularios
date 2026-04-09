@@ -2,8 +2,8 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-superior",
   "type": "Concept",
   "prefLabel": {
-    "es": "Pleistoceno Superior",
-    "en": "Upper Pleistocene"
+    "en": "Upper Pleistocene",
+    "es": "Pleistoceno Superior"
   },
   "altLabel": {
     "en": [
@@ -11,14 +11,18 @@
     ]
   },
   "definition": {
-    "es": "Límite inferior 0.129 Ma, límite superior 0.0117 Ma",
-    "en": "Older bound 0.129 Ma, younger bound 0.0117 Ma"
+    "en": "Older bound 0.129 Ma, younger bound 0.0117 Ma",
+    "es": "Límite inferior 0.129 Ma, límite superior 0.0117 Ma"
   },
+  "notation": [
+    "213030130000.0",
+    "a1.1.1.1.2.1"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno",
     "prefLabel": {
-      "es": "Pleistoceno",
-      "en": "Pleistocene"
+      "en": "Pleistocene",
+      "es": "Pleistoceno"
     }
   },
   "exactMatch": [

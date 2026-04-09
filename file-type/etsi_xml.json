@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/etsi_xml",
   "type": "Concept",
   "prefLabel": {
-    "es": "ETSI signature validation report",
-    "en": "ETSI signature validation report"
+    "en": "ETSI signature validation report",
+    "es": "ETSI signature validation report"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "European Telecommunications Standards Institute signature validation report XML"
     ],
-    "en": [
+    "es": [
       "European Telecommunications Standards Institute signature validation report XML"
     ]
   },
   "definition": {
-    "es": "El informe de validación de firma ETSI es un archivo XML de informe de validación de firma del Instituto Europeo de Normas de Telecomunicaciones (ETSI).",
-    "en": "ETSI signature validation report is a European Telecommunications Standards Institute (ETSI) signature validation report XML file."
+    "en": "ETSI signature validation report is a European Telecommunications Standards Institute (ETSI) signature validation report XML file.",
+    "es": "El informe de validación de firma ETSI es un archivo XML de informe de validación de firma del Instituto Europeo de Normas de Telecomunicaciones (ETSI)."
   },
+  "notation": [
+    "application/xml",
+    ".xml"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/xml"

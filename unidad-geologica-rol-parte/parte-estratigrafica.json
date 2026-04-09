@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica",
   "type": "Concept",
   "prefLabel": {
-    "es": "parte estratigráfica",
-    "en": "stratigraphic part"
+    "en": "stratigraphic part",
+    "es": "parte estratigráfica"
   },
   "definition": {
-    "es": "Parte de una unidad geológica que ocupa una posición estratigráfica determinada dentro de ella",
-    "en": "A geologic unit part that occupies a particular stratigraphic position within a geologic unit. Part is a particular body of rock"
+    "en": "A geologic unit part that occupies a particular stratigraphic position within a geologic unit. Part is a particular body of rock",
+    "es": "Parte de una unidad geológica que ocupa una posición estratigráfica determinada dentro de ella"
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-guia",
       "prefLabel": {
-        "es": "capa guía",
-        "en": "marker bed"
+        "en": "marker bed",
+        "es": "capa guía"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de",
     "prefLabel": {
-      "es": "parte de",
-      "en": "part of"
+      "en": "part of",
+      "es": "parte de"
     }
   },
   "exactMatch": [

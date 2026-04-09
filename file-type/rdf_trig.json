@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/rdf_trig",
   "type": "Concept",
   "prefLabel": {
-    "es": "RDF TriG",
-    "en": "RDF TriG"
+    "en": "RDF TriG",
+    "es": "RDF TriG"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Resource Description Framework TriG"
     ],
-    "en": [
+    "es": [
       "Resource Description Framework TriG"
     ]
   },
   "definition": {
-    "es": "TriG permite escribir un conjunto de datos RDF de forma completa en un formato de texto compacto y natural, con abreviaturas para patrones de uso y tipos de datos comunes. TriG es una extensión del formato Turtle.",
-    "en": "TriG allows an RDF dataset to be completely written in a compact and natural text form, with abbreviations for common usage patterns and datatypes. TriG is an extension of the Turtle format."
+    "en": "TriG allows an RDF dataset to be completely written in a compact and natural text form, with abbreviations for common usage patterns and datatypes. TriG is an extension of the Turtle format.",
+    "es": "TriG permite escribir un conjunto de datos RDF de forma completa en un formato de texto compacto y natural, con abreviaturas para patrones de uso y tipos de datos comunes. TriG es una extensión del formato Turtle."
   },
+  "notation": [
+    ".trig",
+    "application/trig"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/RDF_TRIG"

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/lzma",
   "type": "Concept",
   "prefLabel": {
-    "es": "lzma",
-    "en": "lzma"
+    "en": "lzma",
+    "es": "lzma"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "lzma compressed file"
     ],
-    "en": [
+    "es": [
       "lzma compressed file"
     ]
   },
   "definition": {
-    "es": "Archivo comprimido producido utilizando el algoritmo LZMA (Lempel-Ziv-Markov chain algorithm).",
-    "en": "Compressed file produced using LZMA (Lempel-Ziv-Markov) chain algorithm."
+    "en": "Compressed file produced using LZMA (Lempel-Ziv-Markov) chain algorithm.",
+    "es": "Archivo comprimido producido utilizando el algoritmo LZMA (Lempel-Ziv-Markov chain algorithm)."
   },
+  "notation": [
+    ".lzma",
+    "application/x-lzma"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/LZMA"

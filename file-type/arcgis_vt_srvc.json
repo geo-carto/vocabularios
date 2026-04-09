@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/arcgis_vt_srvc",
   "type": "Concept",
   "prefLabel": {
-    "es": "ArcGIS Vector Tile Service",
-    "en": "ArcGIS Vector Tile Service"
+    "en": "ArcGIS Vector Tile Service",
+    "es": "ArcGIS Vector Tile Service"
   },
   "altLabel": {
-    "es": [
-      "Servicio de teselas vectoriales ArcGIS"
-    ],
     "en": [
       "ArcGIS Vector Tile Service"
+    ],
+    "es": [
+      "Servicio de teselas vectoriales ArcGIS"
     ]
   },
   "definition": {
-    "es": "Un servicio de teselas vectoriales (Vector Tile Service) de ArcGIS proporciona acceso a datos vectoriales precacheados en formato PBF (Protocol Buffer Format) a través de la API REST de ArcGIS. Las teselas vectoriales permiten la representación de alto rendimiento en el cliente aprovechando la GPU del navegador. El estilo se aplica dinámicamente en el lado del cliente utilizando la especificación Mapbox Style.",
-    "en": "An ArcGIS Vector Tile Service provides access to pre-cached vector data in PBF (Protocol Buffer Format) through the ArcGIS REST API. Vector tiles enable high-performance client-side rendering by leveraging the browser GPU. Styling is applied dynamically on the client side using the Mapbox Style specification."
+    "en": "An ArcGIS Vector Tile Service provides access to pre-cached vector data in PBF (Protocol Buffer Format) through the ArcGIS REST API. Vector tiles enable high-performance client-side rendering by leveraging the browser GPU. Styling is applied dynamically on the client side using the Mapbox Style specification.",
+    "es": "Un servicio de teselas vectoriales (Vector Tile Service) de ArcGIS proporciona acceso a datos vectoriales precacheados en formato PBF (Protocol Buffer Format) a través de la API REST de ArcGIS. Las teselas vectoriales permiten la representación de alto rendimiento en el cliente aprovechando la GPU del navegador. El estilo se aplica dinámicamente en el lado del cliente utilizando la especificación Mapbox Style."
   },
+  "notation": [
+    "arcgis_vector_tile_service"
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/file-type"

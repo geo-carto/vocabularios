@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/asseliense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Asseliense",
-    "en": "Asselian"
+    "en": "Asselian",
+    "es": "Asseliense"
   },
   "definition": {
-    "es": "Límite inferior 298.9 +|-0.15 Ma, límite superior 293.51 +|-0.17 Ma",
-    "en": "Older bound 298.9 +|-0.15 Ma, younger bound 293.51 +|-0.17 Ma"
+    "en": "Older bound 298.9 +|-0.15 Ma, younger bound 293.51 +|-0.17 Ma",
+    "es": "Límite inferior 298.9 +|-0.15 Ma, límite superior 293.51 +|-0.17 Ma"
   },
+  "notation": [
+    "211060101000.0",
+    "a1.1.3.1.3.4"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/cisuraliense",
     "prefLabel": {
-      "es": "Cisuraliense",
-      "en": "Cisuralian"
+      "en": "Cisuralian",
+      "es": "Cisuraliense"
     }
   },
   "exactMatch": [

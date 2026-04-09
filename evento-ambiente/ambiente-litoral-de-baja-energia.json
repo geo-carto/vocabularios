@@ -2,41 +2,41 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral-de-baja-energia",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente litoral de baja energía",
-    "en": "low energy shoreline setting"
+    "en": "low energy shoreline setting",
+    "es": "ambiente litoral de baja energía"
   },
   "definition": {
-    "es": "ambientes caracterizados por una superficie de pendiente muy baja y proximidad a la costa. Generalmente dentro del ambiente perimareal, pero caracterizada por superficies de gradientes bajos y en general por los procesos sedimentarios de baja energía.",
-    "en": "Settings characterized by very low surface slope and proximity to shoreline. Generally within peritidal setting, but characterized by low surface gradients and generally low-energy sedimentary processes."
+    "en": "Settings characterized by very low surface slope and proximity to shoreline. Generally within peritidal setting, but characterized by low surface gradients and generally low-energy sedimentary processes.",
+    "es": "ambientes caracterizados por una superficie de pendiente muy baja y proximidad a la costa. Generalmente dentro del ambiente perimareal, pero caracterizada por superficies de gradientes bajos y en general por los procesos sedimentarios de baja energía."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-fangosa",
       "prefLabel": {
-        "es": "ambiente de llanura fangosa",
-        "en": "mud flat setting"
+        "en": "mud flat setting",
+        "es": "ambiente de llanura fangosa"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanuras-algares",
       "prefLabel": {
-        "es": "ambiente de llanuras algares",
-        "en": "algal flat setting"
+        "en": "algal flat setting",
+        "es": "ambiente de llanuras algares"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-sabkha-marina-marginal",
       "prefLabel": {
-        "es": "ambiente sabkha marina marginal",
-        "en": "marginal marine sabkha setting"
+        "en": "marginal marine sabkha setting",
+        "es": "ambiente sabkha marina marginal"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral",
     "prefLabel": {
-      "es": "ambiente litoral",
-      "en": "shoreline setting"
+      "en": "shoreline setting",
+      "es": "ambiente litoral"
     }
   },
   "exactMatch": [

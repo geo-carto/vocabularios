@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/orosirico",
   "type": "Concept",
   "prefLabel": {
-    "es": "Orosírico",
-    "en": "Orosirian"
+    "en": "Orosirian",
+    "es": "Orosírico"
   },
   "definition": {
-    "es": "Límite inferior 2050 Ma, límite superior 1800 Ma",
-    "en": "Older bound 2050 Ma, younger bound 1800 Ma"
+    "en": "Older bound 2050 Ma, younger bound 1800 Ma",
+    "es": "Límite inferior 2050 Ma, límite superior 1800 Ma"
   },
+  "notation": [
+    "131030000000.0",
+    "a2.1.3.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/paleoproterozoico",
     "prefLabel": {
-      "es": "Paleoproterozoico",
-      "en": "Paleoproterozoic"
+      "en": "Paleoproterozoic",
+      "es": "Paleoproterozoico"
     }
   },
   "exactMatch": [

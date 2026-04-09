@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/wfs_srvc",
   "type": "Concept",
   "prefLabel": {
-    "es": "WFS",
-    "en": "WFS"
+    "en": "WFS",
+    "es": "WFS"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Web Feature Service"
     ],
-    "en": [
+    "es": [
       "Web Feature Service"
     ]
   },
   "definition": {
-    "es": "El estándar de interfaz Web Feature Service (WFS) del Open Geospatial Consortium proporciona una interfaz que permite solicitudes de características geoespaciales a través de la web utilizando mecanismos independientes de la plataforma y es independiente del almacén de datos subyacente.",
-    "en": "The Open Geospatial Consortium Web Feature Service (WFS) Interface Standard provides an interface allowing requests for geospatial features across the web using platform-independent mechanisms and is independent of the underlying data store."
+    "en": "The Open Geospatial Consortium Web Feature Service (WFS) Interface Standard provides an interface allowing requests for geospatial features across the web using platform-independent mechanisms and is independent of the underlying data store.",
+    "es": "El estándar de interfaz Web Feature Service (WFS) del Open Geospatial Consortium proporciona una interfaz que permite solicitudes de características geoespaciales a través de la web utilizando mecanismos independientes de la plataforma y es independiente del almacén de datos subyacente."
   },
+  "notation": [
+    "application/gml+xml; text/xml"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/gml+xml"

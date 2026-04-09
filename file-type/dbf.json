@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/dbf",
   "type": "Concept",
   "prefLabel": {
-    "es": "DBF",
-    "en": "DBF"
+    "en": "DBF",
+    "es": "DBF"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "dBase File"
     ],
-    "en": [
+    "es": [
       "dBase File"
     ]
   },
   "definition": {
-    "es": "DBF – dBase database file – es soportado por varios productos de bases de datos. dBase fue uno de los primeros sistemas de gestión de bases de datos para microcomputadoras.",
-    "en": "DBF – dBase database file – is supported by a number of database products. dBase was one of the first database management systems for microcomputers."
+    "en": "DBF – dBase database file – is supported by a number of database products. dBase was one of the first database management systems for microcomputers.",
+    "es": "DBF – dBase database file – es soportado por varios productos de bases de datos. dBase fue uno de los primeros sistemas de gestión de bases de datos para microcomputadoras."
   },
+  "notation": [
+    ".dbf",
+    "application/x-dbase"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/DBF"

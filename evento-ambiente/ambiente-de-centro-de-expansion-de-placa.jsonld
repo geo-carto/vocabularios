@@ -2,34 +2,34 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-de-placa",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de centro de expansión de placa",
-    "en": "plate spreading center setting"
+    "en": "plate spreading center setting",
+    "es": "ambiente de centro de expansión de placa"
   },
   "definition": {
-    "es": "Ambiente tectónico donde se está formando o ha sido formada nueva corteza oceánica en un límite divergente de placas. Incluye centros de expansión activos e inactivos.",
-    "en": "Tectonic setting where new oceanic crust is being or has been formed at a divergent plate boundary. Includes active and inactive spreading centers."
+    "en": "Tectonic setting where new oceanic crust is being or has been formed at a divergent plate boundary. Includes active and inactive spreading centers.",
+    "es": "Ambiente tectónico donde se está formando o ha sido formada nueva corteza oceánica en un límite divergente de placas. Incluye centros de expansión activos e inactivos."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-activo",
       "prefLabel": {
-        "es": "ambiente de centro de expansión activo",
-        "en": "active spreading center setting"
+        "en": "active spreading center setting",
+        "es": "ambiente de centro de expansión activo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-inactivo",
       "prefLabel": {
-        "es": "ambiente de centro de expansión inactivo",
-        "en": "inactive spreading center setting"
+        "en": "inactive spreading center setting",
+        "es": "ambiente de centro de expansión inactivo"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-tectonicamente-definido",
     "prefLabel": {
-      "es": "ambiente tectónicamente definido",
-      "en": "tectonically defined setting"
+      "en": "tectonically defined setting",
+      "es": "ambiente tectónicamente definido"
     }
   },
   "exactMatch": [

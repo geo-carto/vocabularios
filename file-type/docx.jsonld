@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/docx",
   "type": "Concept",
   "prefLabel": {
-    "es": "Word DOCX",
-    "en": "Word DOCX"
+    "en": "Word DOCX",
+    "es": "Word DOCX"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Office Open XML Document"
     ],
-    "en": [
+    "es": [
       "Office Open XML Document"
     ]
   },
   "definition": {
-    "es": "DOCX es un estándar internacional de Office Open XML para documentos de oficina. Es utilizado por Microsoft Word y por un número creciente de aplicaciones de otros proveedores en programas de procesamiento de textos.",
-    "en": "DOCX is an Office Open XML international standard for Office documents. It is used by Microsoft Word and by a growing number of applications from other vendors in word processing programs."
+    "en": "DOCX is an Office Open XML international standard for Office documents. It is used by Microsoft Word and by a growing number of applications from other vendors in word processing programs.",
+    "es": "DOCX es un estándar internacional de Office Open XML para documentos de oficina. Es utilizado por Microsoft Word y por un número creciente de aplicaciones de otros proveedores en programas de procesamiento de textos."
   },
+  "notation": [
+    ".docx",
+    "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/DOCX"

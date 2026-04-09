@@ -2,48 +2,48 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erosion",
   "type": "Concept",
   "prefLabel": {
-    "es": "erosión",
-    "en": "erosion"
+    "en": "erosion",
+    "es": "erosión"
   },
   "definition": {
-    "es": "El proceso de desagregación de las rocas y el desplazamiento de las partículas resultantes (sedimento) usualmente por los agentes de corrientes tales como el viento, el agua o el hielo por movimiento a favor de ladera en respuesta a la gravedad o por organismos vivos (en el caso de la bioerosión).",
-    "en": "The process of disaggregation of rock and displacement of the resultant particles (sediment) usually by the agents of currents such as, wind, water, or ice by downward or down-slope movement in response to gravity or by living organisms (in the case of bioerosion)."
+    "en": "The process of disaggregation of rock and displacement of the resultant particles (sediment) usually by the agents of currents such as, wind, water, or ice by downward or down-slope movement in response to gravity or by living organisms (in the case of bioerosion).",
+    "es": "El proceso de desagregación de las rocas y el desplazamiento de las partículas resultantes (sedimento) usualmente por los agentes de corrientes tales como el viento, el agua o el hielo por movimiento a favor de ladera en respuesta a la gravedad o por organismos vivos (en el caso de la bioerosión)."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erosion-del-agua",
       "prefLabel": {
-        "es": "erosión del agua",
-        "en": "water erosion"
+        "en": "water erosion",
+        "es": "erosión del agua"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erosion-del-viento",
       "prefLabel": {
-        "es": "erosión del viento",
-        "en": "wind erosion"
+        "en": "wind erosion",
+        "es": "erosión del viento"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/erosion-glacial",
       "prefLabel": {
-        "es": "erosión glacial",
-        "en": "ice erosion"
+        "en": "ice erosion",
+        "es": "erosión glacial"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/transporte-en-masa",
       "prefLabel": {
-        "es": "transporte en masa",
-        "en": "mass wasting"
+        "en": "mass wasting",
+        "es": "transporte en masa"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-sedimentario",
     "prefLabel": {
-      "es": "proceso sedimentario",
-      "en": "sedimentary process"
+      "en": "sedimentary process",
+      "es": "proceso sedimentario"
     }
   },
   "exactMatch": [

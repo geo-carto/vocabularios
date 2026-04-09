@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/sas",
   "type": "Concept",
   "prefLabel": {
-    "es": "SAS",
-    "en": "SAS"
+    "en": "SAS",
+    "es": "SAS"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "SAS dataset"
     ],
-    "en": [
+    "es": [
       "SAS dataset"
     ]
   },
   "definition": {
-    "es": "Formato de datos propietario del software de análisis estadístico SAS.",
-    "en": "proprietary data format of the statistical analysis software SAS"
+    "en": "proprietary data format of the statistical analysis software SAS",
+    "es": "Formato de datos propietario del software de análisis estadístico SAS."
   },
+  "notation": [
+    "application/octet-stream",
+    ".7dat; .sd2; .tpt; .sas7bdat"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/octet-stream"

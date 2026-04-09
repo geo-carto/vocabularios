@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/feature_srvc",
   "type": "Concept",
   "prefLabel": {
-    "es": "ArcGIS Feature Service",
-    "en": "ArcGIS Feature Service"
+    "en": "ArcGIS Feature Service",
+    "es": "ArcGIS Feature Service"
   },
   "altLabel": {
-    "es": [
-      "Servicio de entidades ArcGIS"
-    ],
     "en": [
       "ArcGIS Feature Service"
+    ],
+    "es": [
+      "Servicio de entidades ArcGIS"
     ]
   },
   "definition": {
-    "es": "Un servicio de entidades (Feature Service) de ArcGIS proporciona acceso a características geoespaciales vectoriales a través de la API REST de ArcGIS. Permite consultar, editar, actualizar, exportar y visualizar registros de datos geográficos (puntos, líneas, polígonos) con sus atributos. Las entidades pueden devolvorse en formatos JSON, GeoJSON y PBF.",
-    "en": "An ArcGIS Feature Service provides access to vector geospatial features through the ArcGIS REST API. It allows querying, editing, updating, exporting, and displaying records of geographic data (points, lines, polygons) with their attributes. Features can be output in JSON, GeoJSON, and PBF formats."
+    "en": "An ArcGIS Feature Service provides access to vector geospatial features through the ArcGIS REST API. It allows querying, editing, updating, exporting, and displaying records of geographic data (points, lines, polygons) with their attributes. Features can be output in JSON, GeoJSON, and PBF formats.",
+    "es": "Un servicio de entidades (Feature Service) de ArcGIS proporciona acceso a características geoespaciales vectoriales a través de la API REST de ArcGIS. Permite consultar, editar, actualizar, exportar y visualizar registros de datos geográficos (puntos, líneas, polígonos) con sus atributos. Las entidades pueden devolvorse en formatos JSON, GeoJSON y PBF."
   },
+  "notation": [
+    "arcgis_feature_service"
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/file-type"

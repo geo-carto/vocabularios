@@ -2,26 +2,26 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-mantelico",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente mantélico",
-    "en": "mantle setting"
+    "en": "mantle setting",
+    "es": "ambiente mantélico"
   },
   "definition": {
-    "es": "La zona de La Tierra por debajo de la corteza y por encima del núcleo, que se divide en el manto superior y el manto inferior, con una zona de transición separándolos.",
-    "en": "The zone of the Earth below the crust and above the core, which is divided into the upper mantle and the lower mantle, with a transition zone separating them."
+    "en": "The zone of the Earth below the crust and above the core, which is divided into the upper mantle and the lower mantle, with a transition zone separating them.",
+    "es": "La zona de La Tierra por debajo de la corteza y por encima del núcleo, que se divide en el manto superior y el manto inferior, con una zona de transición separándolos."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-manto-inferior",
       "prefLabel": {
-        "es": "ambiente de manto inferior",
-        "en": "lower mantle setting"
+        "en": "lower mantle setting",
+        "es": "ambiente de manto inferior"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-manto-superior",
       "prefLabel": {
-        "es": "ambiente de manto superior",
-        "en": "upper mantle setting"
+        "en": "upper mantle setting",
+        "es": "ambiente de manto superior"
       }
     }
   ],

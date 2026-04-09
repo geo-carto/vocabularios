@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/ungen",
   "type": "Concept",
   "prefLabel": {
-    "es": "Ungen",
-    "en": "Ungen"
+    "en": "Ungen",
+    "es": "Ungen"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "ArcGIS ungenerate"
     ],
-    "en": [
+    "es": [
       "ArcGIS ungenerate"
     ]
   },
   "definition": {
-    "es": "ArcGIS ungenerate crea un archivo de texto de coordenadas x,y a partir de la cobertura de entrada. Proporciona un mecanismo útil para crear archivos de coordenadas simples a partir de coberturas, permitiendo transferir coberturas fácilmente a otros sistemas de cartografía o ver y actualizar coordenadas individuales.",
-    "en": "ArcGIS ungenerate creates a text file of x,y coordinates from the input coverage. It provides a useful mechanism to create simple coordinate files from coverages. This allows you to easily transfer coverages to other mapping systems or view and update individual coordinates using your computer’s text editor."
+    "en": "ArcGIS ungenerate creates a text file of x,y coordinates from the input coverage. It provides a useful mechanism to create simple coordinate files from coverages. This allows you to easily transfer coverages to other mapping systems or view and update individual coordinates using your computer’s text editor.",
+    "es": "ArcGIS ungenerate crea un archivo de texto de coordenadas x,y a partir de la cobertura de entrada. Proporciona un mecanismo útil para crear archivos de coordenadas simples a partir de coberturas, permitiendo transferir coberturas fácilmente a otros sistemas de cartografía o ver y actualizar coordenadas individuales."
   },
+  "notation": [
+    "text/plain"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/text/plain"

@@ -2,21 +2,24 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/arcgis_img_srvc",
   "type": "Concept",
   "prefLabel": {
-    "es": "ArcGIS Image Service",
-    "en": "ArcGIS Image Service"
+    "en": "ArcGIS Image Service",
+    "es": "ArcGIS Image Service"
   },
   "altLabel": {
-    "es": [
-      "Servicio de imágenes ArcGIS"
-    ],
     "en": [
       "ArcGIS Image Service"
+    ],
+    "es": [
+      "Servicio de imágenes ArcGIS"
     ]
   },
   "definition": {
-    "es": "Un servicio de imágenes (Image Service) de ArcGIS proporciona acceso a grandes colecciones de datos rasterizados e imágenes a través de la API REST de ArcGIS. Soporta el acceso a datos como teselas estáticas pregeneradas e imágenes generadas dinámicamente. Es adecuado para compartir imágenes de satélite, fotografía aérea, modelos digitales de elevación y otros datos rasterizados.",
-    "en": "An ArcGIS Image Service provides access to large collections of raster data and imagery through the ArcGIS REST API. It supports accessing data as pre-generated static tiles and dynamically generated images. It is suitable for sharing satellite imagery, aerial photography, digital elevation models, and other raster data."
+    "en": "An ArcGIS Image Service provides access to large collections of raster data and imagery through the ArcGIS REST API. It supports accessing data as pre-generated static tiles and dynamically generated images. It is suitable for sharing satellite imagery, aerial photography, digital elevation models, and other raster data.",
+    "es": "Un servicio de imágenes (Image Service) de ArcGIS proporciona acceso a grandes colecciones de datos rasterizados e imágenes a través de la API REST de ArcGIS. Soporta el acceso a datos como teselas estáticas pregeneradas e imágenes generadas dinámicamente. Es adecuado para compartir imágenes de satélite, fotografía aérea, modelos digitales de elevación y otros datos rasterizados."
   },
+  "notation": [
+    "arcgis_image_service"
+  ],
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/file-type"

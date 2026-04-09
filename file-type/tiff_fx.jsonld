@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/tiff_fx",
   "type": "Concept",
   "prefLabel": {
-    "es": "TIFF FX",
-    "en": "TIFF FX"
+    "en": "TIFF FX",
+    "es": "TIFF FX"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Tagged Image Format File Fax eXtended"
     ],
-    "en": [
+    "es": [
       "Tagged Image Format File Fax eXtended"
     ]
   },
   "definition": {
-    "es": "TIFF-FX es un formato de archivo basado en TIFF creado para el envío de faxes a través de Internet.",
-    "en": "TIFF-FX is a TIFF-based file format created for fax sendings over the Internet."
+    "en": "TIFF-FX is a TIFF-based file format created for fax sendings over the Internet.",
+    "es": "TIFF-FX es un formato de archivo basado en TIFF creado para el envío de faxes a través de Internet."
   },
+  "notation": [
+    ".tif; .tiff",
+    "image/tiff-fx"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/TIFF_FX"

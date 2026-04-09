@@ -2,19 +2,19 @@
   "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo/alteracion-no-especificada",
   "type": "Concept",
   "prefLabel": {
-    "es": "alteración no especificada",
-    "en": "alteration type not specified"
+    "en": "alteration type not specified",
+    "es": "alteración no especificada"
   },
   "definition": {
-    "es": "La roca está alterada, pero el tipo de alteración no está especificada",
-    "en": "Rock is altered, but type not specified. Any alteration type allowed"
+    "en": "Rock is altered, but type not specified. Any alteration type allowed",
+    "es": "La roca está alterada, pero el tipo de alteración no está especificada"
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/alteracion-tipo/meteorizacion",
       "prefLabel": {
-        "es": "meteorización",
-        "en": "weathering"
+        "en": "weathering",
+        "es": "meteorización"
       }
     }
   ],

@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/rdata",
   "type": "Concept",
   "prefLabel": {
-    "es": "RData",
-    "en": "RData"
+    "en": "RData",
+    "es": "RData"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "R Data format"
     ],
-    "en": [
+    "es": [
       "R Data format"
     ]
   },
   "definition": {
-    "es": "Formato de datos de código abierto del software de computación estadística y gráficos R.",
-    "en": "open source data format of the statistical computing and graphic software R"
+    "en": "open source data format of the statistical computing and graphic software R",
+    "es": "Formato de datos de código abierto del software de computación estadística y gráficos R."
   },
+  "notation": [
+    "application/octet-stream",
+    ".rdata; .r"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/octet-stream"

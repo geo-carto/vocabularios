@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pdfx4",
   "type": "Concept",
   "prefLabel": {
-    "es": "PDF/X-4",
-    "en": "PDF/X-4"
+    "en": "PDF/X-4",
+    "es": "PDF/X-4"
   },
   "definition": {
-    "es": "PDF/X-4 es una especificación PDF en la que se soportan datos de color gestionados CMYK, gris, RGB o colores directos, así como transparencia PDF y contenido opcional.",
-    "en": "PDF/X-4 is a PDF specification in which colour-managed, CMYK, gray, RGB or spot colour data are supported, as are PDF transparency and optional content."
+    "en": "PDF/X-4 is a PDF specification in which colour-managed, CMYK, gray, RGB or spot colour data are supported, as are PDF transparency and optional content.",
+    "es": "PDF/X-4 es una especificación PDF en la que se soportan datos de color gestionados CMYK, gris, RGB o colores directos, así como transparencia PDF y contenido opcional."
   },
+  "notation": [
+    ".pdf",
+    "application/pdf"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/pdf"

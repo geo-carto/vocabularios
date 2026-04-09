@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/pdf",
   "type": "Concept",
   "prefLabel": {
-    "es": "PDF",
-    "en": "PDF"
+    "en": "PDF",
+    "es": "PDF"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Portable Document Format"
     ],
-    "en": [
+    "es": [
       "Portable Document Format"
     ]
   },
   "definition": {
-    "es": "PDF – Portable Document Format – es un formato de archivo desarrollado para presentar documentos, incluyendo formato de texto e imágenes, de manera independiente del software de aplicación, hardware y sistemas operativos. Basado en el lenguaje PostScript, cada archivo PDF encapsula una descripción completa de un documento de diseño fijo. PDF fue estandarizado como formato abierto y no requiere regalías para su implementación.",
-    "en": "PDF – Portable Document Format – is a file format developed to present documents, including text formatting and images, in a manner independent of application software, hardware and operating systems. Based on the PostScript language, each PDF file encapsulates a complete description of a fixed-layout flat document, including the text, fonts, vector graphics, raster images and other information needed to display it. PDF was standardized as an open format and does not require any royalties for its implementation."
+    "en": "PDF – Portable Document Format – is a file format developed to present documents, including text formatting and images, in a manner independent of application software, hardware and operating systems. Based on the PostScript language, each PDF file encapsulates a complete description of a fixed-layout flat document, including the text, fonts, vector graphics, raster images and other information needed to display it. PDF was standardized as an open format and does not require any royalties for its implementation.",
+    "es": "PDF – Portable Document Format – es un formato de archivo desarrollado para presentar documentos, incluyendo formato de texto e imágenes, de manera independiente del software de aplicación, hardware y sistemas operativos. Basado en el lenguaje PostScript, cada archivo PDF encapsula una descripción completa de un documento de diseño fijo. PDF fue estandarizado como formato abierto y no requiere regalías para su implementación."
   },
+  "notation": [
+    ".pdf",
+    "application/pdf"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/PDF"

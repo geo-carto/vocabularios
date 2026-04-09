@@ -2,55 +2,55 @@
   "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-geofisico",
   "type": "Concept",
   "prefLabel": {
-    "es": "contacto geofísico",
-    "en": "geophysical contact"
+    "en": "geophysical contact",
+    "es": "contacto geofísico"
   },
   "definition": {
-    "es": "Un contacto que separa cuerpos geológicos que tienen diferentes propiedades geofísicas. Se utiliza para límites que se detectan mediante técnicas de sensores geofísicos en contraposición a la observación litológica directa.",
-    "en": "A contact separating bodies of material in the earth that have different geophysical properties. Use for boundaries that are detected by geophysical sensor techniques as opposed to direct lithologic observation."
+    "en": "A contact separating bodies of material in the earth that have different geophysical properties. Use for boundaries that are detected by geophysical sensor techniques as opposed to direct lithologic observation.",
+    "es": "Un contacto que separa cuerpos geológicos que tienen diferentes propiedades geofísicas. Se utiliza para límites que se detectan mediante técnicas de sensores geofísicos en contraposición a la observación litológica directa."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-conductividad",
       "prefLabel": {
-        "es": "contacto de conductividad",
-        "en": "conductivity contact"
+        "en": "conductivity contact",
+        "es": "contacto de conductividad"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-densidad",
       "prefLabel": {
-        "es": "contacto de densidad",
-        "en": "density contact"
+        "en": "density contact",
+        "es": "contacto de densidad"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-magnetico",
       "prefLabel": {
-        "es": "contacto magnético",
-        "en": "magnetic contact"
+        "en": "magnetic contact",
+        "es": "contacto magnético"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-radiometrico",
       "prefLabel": {
-        "es": "contacto radiométrico",
-        "en": "radiometric contact"
+        "en": "radiometric contact",
+        "es": "contacto radiométrico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-sismico",
       "prefLabel": {
-        "es": "contacto sísmico",
-        "en": "seismic contact"
+        "en": "seismic contact",
+        "es": "contacto sísmico"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/contacto-tipo/contacto",
     "prefLabel": {
-      "es": "contacto",
-      "en": "contact"
+      "en": "contact",
+      "es": "contacto"
     }
   },
   "exactMatch": [

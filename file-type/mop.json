@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/mop",
   "type": "Concept",
   "prefLabel": {
-    "es": "MOP",
-    "en": "MOP"
+    "en": "MOP",
+    "es": "MOP"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "MOPAC Input Format"
     ],
-    "en": [
+    "es": [
       "MOPAC Input Format"
     ]
   },
   "definition": {
-    "es": "MOP es un formato de archivo químico utilizado por MOPAC. MOPAC es un programa informático popular utilizado en química computacional. Está diseñado para implementar algoritmos de química cuántica semiempírica.",
-    "en": "MOP is a chemical file format used by MOPAC. MOPAC is a popular computer program used in computational chemistry. It is designed to implement semi-empirical quantum chemistry algorithms."
+    "en": "MOP is a chemical file format used by MOPAC. MOPAC is a popular computer program used in computational chemistry. It is designed to implement semi-empirical quantum chemistry algorithms.",
+    "es": "MOP es un formato de archivo químico utilizado por MOPAC. MOPAC es un programa informático popular utilizado en química computacional. Está diseñado para implementar algoritmos de química cuántica semiempírica."
   },
+  "notation": [
+    ".mop",
+    "chemical/x-mopac-input"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/MOP"

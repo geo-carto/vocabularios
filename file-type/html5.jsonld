@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/html5",
   "type": "Concept",
   "prefLabel": {
-    "es": "HTML5",
-    "en": "HTML5"
+    "en": "HTML5",
+    "es": "HTML5"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "HyperText Mark-up Language 5"
     ],
-    "en": [
+    "es": [
       "HyperText Mark-up Language 5"
     ]
   },
   "definition": {
-    "es": "HTML5 es un lenguaje de marcado utilizado para estructurar y presentar contenido en la World Wide Web. Es la quinta y última versión principal de HTML que es una recomendación del W3C. La especificación actual se conoce como HTML Living Standard y es mantenida por el WHATWG, un consorcio de los principales proveedores de navegadores (Apple, Google, Mozilla y Microsoft).",
-    "en": "HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and last major HTML version that is a World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard. It is maintained by the Web Hypertext Application Technology Working Group (WHATWG), a consortium of the major browser vendors (Apple, Google, Mozilla, and Microsoft)."
+    "en": "HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and last major HTML version that is a World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard. It is maintained by the Web Hypertext Application Technology Working Group (WHATWG), a consortium of the major browser vendors (Apple, Google, Mozilla, and Microsoft).",
+    "es": "HTML5 es un lenguaje de marcado utilizado para estructurar y presentar contenido en la World Wide Web. Es la quinta y última versión principal de HTML que es una recomendación del W3C. La especificación actual se conoce como HTML Living Standard y es mantenida por el WHATWG, un consorcio de los principales proveedores de navegadores (Apple, Google, Mozilla y Microsoft)."
   },
+  "notation": [
+    ".html; .htm",
+    "text/html"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/text/html"

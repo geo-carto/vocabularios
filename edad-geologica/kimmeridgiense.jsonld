@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/kimmeridgiense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Kimmeridgiense",
-    "en": "Kimmeridgian"
+    "en": "Kimmeridgian",
+    "es": "Kimmeridgiense"
   },
   "definition": {
-    "es": "Límite inferior 154.8 +|-0.8 Ma, límite superior 149.2 +|-0.7 Ma",
-    "en": "Older bound 154.8 +|-0.8 Ma, younger bound 149.2 +|-0.7 Ma"
+    "en": "Older bound 154.8 +|-0.8 Ma, younger bound 149.2 +|-0.7 Ma",
+    "es": "Límite inferior 154.8 +|-0.8 Ma, límite superior 149.2 +|-0.7 Ma"
   },
+  "notation": [
+    "212020302000.0",
+    "a1.1.2.2.1.2"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-superior",
     "prefLabel": {
-      "es": "Jurásico Superior",
-      "en": "Upper Jurassic"
+      "en": "Upper Jurassic",
+      "es": "Jurásico Superior"
     }
   },
   "exactMatch": [

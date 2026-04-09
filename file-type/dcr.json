@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/dcr",
   "type": "Concept",
   "prefLabel": {
-    "es": "DCR File",
-    "en": "DCR File"
+    "en": "DCR File",
+    "es": "DCR File"
   },
   "definition": {
-    "es": "DCR es un tipo de archivo para archivos multimedia de Adobe Shockwave. Los archivos DCR se utilizan para crear juegos y otros contenidos altamente interactivos.",
-    "en": "DCR is a file type for Adobe Shockwave Media files. DCR files are used to create games and other highly interactive content."
+    "en": "DCR is a file type for Adobe Shockwave Media files. DCR files are used to create games and other highly interactive content.",
+    "es": "DCR es un tipo de archivo para archivos multimedia de Adobe Shockwave. Los archivos DCR se utilizan para crear juegos y otros contenidos altamente interactivos."
   },
+  "notation": [
+    ".dcr",
+    "application/x-director"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/DCR"

@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/formacion",
   "type": "Concept",
   "prefLabel": {
-    "es": "formación",
-    "en": "formation"
+    "en": "formation",
+    "es": "formación"
   },
   "definition": {
-    "es": "Cuerpo de roca identificado por características líticas y posición estratigráfica; por lo general, pero no necesariamente, es tabular y se puede mapear en la superficie de la Tierra o rastrear en el subsuelo.",
-    "en": "A body of rock identified by lithic characteristics and stratigraphic position; it is usually but not necessarily tabular and is mappable at the Earth's surface or traceable in the subsurface."
+    "en": "A body of rock identified by lithic characteristics and stratigraphic position; it is usually but not necessarily tabular and is mappable at the Earth's surface or traceable in the subsurface.",
+    "es": "Cuerpo de roca identificado por características líticas y posición estratigráfica; por lo general, pero no necesariamente, es tabular y se puede mapear en la superficie de la Tierra o rastrear en el subsuelo."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/miembro",
       "prefLabel": {
-        "es": "miembro",
-        "en": "member"
+        "en": "member",
+        "es": "miembro"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/rango-estratigrafico/subgrupo",
     "prefLabel": {
-      "es": "subgrupo",
-      "en": "subgroup"
+      "en": "subgroup",
+      "es": "subgrupo"
     }
   },
   "exactMatch": [

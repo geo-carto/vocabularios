@@ -2,49 +2,50 @@
   "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/collection",
   "type": "Collection",
   "prefLabel": {
+    "en": "Collection type - All concepts",
     "es": "Tipo de colección - Todos los conceptos"
   },
   "member": [
     {
       "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-datos-geofisicos",
       "prefLabel": {
-        "es": "colección de datos geofísicos",
-        "en": "geophysical object collection"
+        "en": "geophysical object collection",
+        "es": "colección de datos geofísicos"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-sondeos",
       "prefLabel": {
-        "es": "colección de sondeos",
-        "en": "borehole collection"
+        "en": "borehole collection",
+        "es": "colección de sondeos"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/documentacion",
       "prefLabel": {
-        "es": "documentación",
-        "en": "documentation"
+        "en": "documentation",
+        "es": "documentación"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/estacion",
       "prefLabel": {
-        "es": "estación",
-        "en": "station"
+        "en": "station",
+        "es": "estación"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/mapa-geologico",
       "prefLabel": {
-        "es": "mapa geológico",
-        "en": "geological map"
+        "en": "geological map",
+        "es": "mapa geológico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/modelo-geologico",
       "prefLabel": {
-        "es": "modelo geológico",
-        "en": "geological model"
+        "en": "geological model",
+        "es": "modelo geológico"
       }
     }
   ],

@@ -2,18 +2,18 @@
   "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-dextra",
   "type": "Concept",
   "prefLabel": {
-    "es": "falla inversa dextra",
-    "en": "right reverse fault"
+    "en": "right reverse fault",
+    "es": "falla inversa dextra"
   },
   "definition": {
-    "es": "Falla inversa de alto ángulo en la que la componente del desplazamiento paralelo al rumbo tiene una relación de 10 a 1 como mínimo en una zona a lo largo de su traza cartográfica y en la que un bloque se desplaza hacia la derecha del bloque desde donde se hace la observación.",
-    "en": "High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with a right-lateral strike-parallel component and reverse dip-parallel component of slip over at least half the mapped trace of the fault."
+    "en": "High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with a right-lateral strike-parallel component and reverse dip-parallel component of slip over at least half the mapped trace of the fault.",
+    "es": "Falla inversa de alto ángulo en la que la componente del desplazamiento paralelo al rumbo tiene una relación de 10 a 1 como mínimo en una zona a lo largo de su traza cartográfica y en la que un bloque se desplaza hacia la derecha del bloque desde donde se hace la observación."
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desplazamiento-oblicuo",
     "prefLabel": {
-      "es": "falla de desplazamiento oblicuo",
-      "en": "oblique slip fault"
+      "en": "oblique slip fault",
+      "es": "falla de desplazamiento oblicuo"
     }
   },
   "exactMatch": [

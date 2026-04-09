@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/rdf_xml",
   "type": "Concept",
   "prefLabel": {
-    "es": "RDF XML",
-    "en": "RDF XML"
+    "en": "RDF XML",
+    "es": "RDF XML"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Resource Description Framework XML syntax"
     ],
-    "en": [
+    "es": [
       "Resource Description Framework XML syntax"
     ]
   },
   "definition": {
-    "es": "RDF XML es una sintaxis, definida por el W3C, para expresar (es decir, serializar) un grafo RDF como un documento XML.",
-    "en": "RDF XML is a syntax, defined by the W3C, to express (i.e. serialize) an RDF graph as an XML document."
+    "en": "RDF XML is a syntax, defined by the W3C, to express (i.e. serialize) an RDF graph as an XML document.",
+    "es": "RDF XML es una sintaxis, definida por el W3C, para expresar (es decir, serializar) un grafo RDF como un documento XML."
   },
+  "notation": [
+    ".rdf",
+    "application/rdf+xml"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/rdf+xml"

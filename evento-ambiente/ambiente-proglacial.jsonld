@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-proglacial",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente proglacial",
-    "en": "proglacial setting"
+    "en": "proglacial setting",
+    "es": "ambiente proglacial"
   },
   "definition": {
-    "es": "Inmediatamente por delante o poco más allá de los límites exteriores de un glaciar o manto de hielo, generalmente en o cerca de su extremo inferior; dicho de lagos, arroyos, depósitos y otras características producidas por o derivados del hielo glaciar.",
-    "en": "Immediately in front of or just beyond the outer limits of a glacier or ice sheet, generally at or near its lower end; said of lakes, streams, deposits, and other features produced by or derived from the glacier ice."
+    "en": "Immediately in front of or just beyond the outer limits of a glacier or ice sheet, generally at or near its lower end; said of lakes, streams, deposits, and other features produced by or derived from the glacier ice.",
+    "es": "Inmediatamente por delante o poco más allá de los límites exteriores de un glaciar o manto de hielo, generalmente en o cerca de su extremo inferior; dicho de lagos, arroyos, depósitos y otras características producidas por o derivados del hielo glaciar."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-terminal-del-glaciar",
       "prefLabel": {
-        "es": "ambiente terminal del glaciar",
-        "en": "glacier terminus setting"
+        "en": "glacier terminus setting",
+        "es": "ambiente terminal del glaciar"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-relacionado-con-glaciares",
     "prefLabel": {
-      "es": "ambiente relacionado con glaciares",
-      "en": "glacier related setting"
+      "en": "glacier related setting",
+      "es": "ambiente relacionado con glaciares"
     }
   },
   "exactMatch": [

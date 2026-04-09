@@ -2,196 +2,197 @@
   "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/collection",
   "type": "Collection",
   "prefLabel": {
+    "en": "Mapped feature observation method - All concepts",
     "es": "Método de observación de objetos cartografiados - Todos los conceptos"
   },
   "member": [
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/cartografiado",
       "prefLabel": {
-        "es": "cartografiado",
-        "en": "surveyed"
+        "en": "surveyed",
+        "es": "cartografiado"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/compilacion",
       "prefLabel": {
-        "es": "compilación",
-        "en": "compilation"
+        "en": "compilation",
+        "es": "compilación"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido",
       "prefLabel": {
-        "es": "inferido",
-        "en": "inferred"
+        "en": "inferred",
+        "es": "inferido"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-a-partir-de-datos-gravimetricos",
       "prefLabel": {
-        "es": "inferido a partir de datos gravimétricos",
-        "en": "inferred gravity data"
+        "en": "inferred gravity data",
+        "es": "inferido a partir de datos gravimétricos"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-a-partir-de-imagenes-de-teledeteccion",
       "prefLabel": {
-        "es": "inferido a partir de imágenes de teledetección",
-        "en": "inferred remote sensing imagery"
+        "en": "inferred remote sensing imagery",
+        "es": "inferido a partir de imágenes de teledetección"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-a-partir-de-levantamiento-aeromagnetico",
       "prefLabel": {
-        "es": "inferido a partir de levantamiento aeromagnético",
-        "en": "inferred aeromagnetic survey"
+        "en": "inferred aeromagnetic survey",
+        "es": "inferido a partir de levantamiento aeromagnético"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-a-partir-de-levantamiento-magnetico-terrestre",
       "prefLabel": {
-        "es": "inferido a partir de levantamiento magnético terrestre",
-        "en": "inferred ground magnetic survey"
+        "en": "inferred ground magnetic survey",
+        "es": "inferido a partir de levantamiento magnético terrestre"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-a-partir-de-levantamiento-radiometrico",
       "prefLabel": {
-        "es": "inferido a partir de levantamiento radiométrico",
-        "en": "inferred radiometric survey"
+        "en": "inferred radiometric survey",
+        "es": "inferido a partir de levantamiento radiométrico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-a-partir-de-recortes-de-sondeo",
       "prefLabel": {
-        "es": "inferido a partir de recortes de sondeo",
-        "en": "inferred drill cuttings"
+        "en": "inferred drill cuttings",
+        "es": "inferido a partir de recortes de sondeo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-a-partir-de-registro-geofisico-de-sondeo",
       "prefLabel": {
-        "es": "inferido a partir de registro geofísico de sondeo",
-        "en": "inferred borehole geophysical log"
+        "en": "inferred borehole geophysical log",
+        "es": "inferido a partir de registro geofísico de sondeo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/inferido-mediante-metodo-indirecto",
       "prefLabel": {
-        "es": "inferido mediante método indirecto",
-        "en": "inferred using indirect method"
+        "en": "inferred using indirect method",
+        "es": "inferido mediante método indirecto"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/levantamiento-inercial",
       "prefLabel": {
-        "es": "levantamiento inercial",
-        "en": "inertial survey"
+        "en": "inertial survey",
+        "es": "levantamiento inercial"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/mapa-publicado",
       "prefLabel": {
-        "es": "mapa publicado",
-        "en": "published map"
+        "en": "published map",
+        "es": "mapa publicado"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/observacion-directa",
       "prefLabel": {
-        "es": "observación directa",
-        "en": "direct observation"
+        "en": "direct observation",
+        "es": "observación directa"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/observado-a-partir-de-datos-de-elevacion",
       "prefLabel": {
-        "es": "observado a partir de datos de elevación",
-        "en": "observed based on elevation data"
+        "en": "observed based on elevation data",
+        "es": "observado a partir de datos de elevación"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/observado-en-afloramiento",
       "prefLabel": {
-        "es": "observado en afloramiento",
-        "en": "observed in outcrop"
+        "en": "observed in outcrop",
+        "es": "observado en afloramiento"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/observado-en-afloramiento-lejano",
       "prefLabel": {
-        "es": "observado en afloramiento lejano",
-        "en": "observed distant outcrop"
+        "en": "observed distant outcrop",
+        "es": "observado en afloramiento lejano"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/observado-en-imagenes-aereas",
       "prefLabel": {
-        "es": "observado en imágenes aéreas",
-        "en": "observed in aerial imagery"
+        "en": "observed in aerial imagery",
+        "es": "observado en imágenes aéreas"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/observado-en-material-de-sondeo",
       "prefLabel": {
-        "es": "observado en material de sondeo",
-        "en": "observed in borehole material"
+        "en": "observed in borehole material",
+        "es": "observado en material de sondeo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/observado-en-recortes-de-sondeo",
       "prefLabel": {
-        "es": "observado en recortes de sondeo",
-        "en": "observed in borehole cuttings"
+        "en": "observed in borehole cuttings",
+        "es": "observado en recortes de sondeo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/observado-en-testigo-de-sondeo",
       "prefLabel": {
-        "es": "observado en testigo de sondeo",
-        "en": "observed in borehole core"
+        "en": "observed in borehole core",
+        "es": "observado en testigo de sondeo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/proyeccion-inferida-bajo-material-superficial-no-cartografiado",
       "prefLabel": {
-        "es": "proyección inferida bajo material superficial no cartografiado",
-        "en": "inferred projection beneath unmapped surficial material"
+        "en": "inferred projection beneath unmapped surficial material",
+        "es": "proyección inferida bajo material superficial no cartografiado"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/proyeccion-inferida-bajo-unidad-cartografiada-suprayacente",
       "prefLabel": {
-        "es": "proyección inferida bajo unidad cartografiada suprayacente",
-        "en": "inferred projection beneath covering mapped unit"
+        "en": "inferred projection beneath covering mapped unit",
+        "es": "proyección inferida bajo unidad cartografiada suprayacente"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/proyeccion-inferida-entre-ubicaciones-observadas",
       "prefLabel": {
-        "es": "proyección inferida entre ubicaciones observadas",
-        "en": "inferred projection between observed locations"
+        "en": "inferred projection between observed locations",
+        "es": "proyección inferida entre ubicaciones observadas"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/proyeccion-inferida-oculta-por-vegetacion",
       "prefLabel": {
-        "es": "proyección inferida oculta por vegetación",
-        "en": "inferred projection obscured by vegetation"
+        "en": "inferred projection obscured by vegetation",
+        "es": "proyección inferida oculta por vegetación"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/ubicacion-de-afloramiento-observada-con-GPS",
       "prefLabel": {
-        "es": "ubicación de afloramiento observada con GPS",
-        "en": "observed outcrop gps location"
+        "en": "observed outcrop gps location",
+        "es": "ubicación de afloramiento observada con GPS"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/mappedfobservationmethod/ubicacion-de-afloramiento-observada-en-mapa-topografico",
       "prefLabel": {
-        "es": "ubicación de afloramiento observada en mapa topográfico",
-        "en": "observed outcrop topographic map location"
+        "en": "observed outcrop topographic map location",
+        "es": "ubicación de afloramiento observada en mapa topográfico"
       }
     }
   ],

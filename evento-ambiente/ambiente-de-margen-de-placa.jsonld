@@ -2,62 +2,62 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-margen-de-placa",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de margen de placa",
-    "en": "plate margin setting"
+    "en": "plate margin setting",
+    "es": "ambiente de margen de placa"
   },
   "definition": {
-    "es": "Ambiente tectónico en el límite entre dos placas tectónicas",
-    "en": "Tectonic setting at the boundary between two tectonic plates."
+    "en": "Tectonic setting at the boundary between two tectonic plates.",
+    "es": "Ambiente tectónico en el límite entre dos placas tectónicas"
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-antearco",
       "prefLabel": {
-        "es": "ambiente de antearco",
-        "en": "forearc setting"
+        "en": "forearc setting",
+        "es": "ambiente de antearco"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-arco-volcanico",
       "prefLabel": {
-        "es": "ambiente de arco volcánico",
-        "en": "volcanic arc setting"
+        "en": "volcanic arc setting",
+        "es": "ambiente de arco volcánico"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-borde-transformante-de-placa",
       "prefLabel": {
-        "es": "ambiente de borde transformante de placa",
-        "en": "transform plate boundary setting"
+        "en": "transform plate boundary setting",
+        "es": "ambiente de borde transformante de placa"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-centro-de-expansion-activo",
       "prefLabel": {
-        "es": "ambiente de centro de expansión activo",
-        "en": "active spreading center setting"
+        "en": "active spreading center setting",
+        "es": "ambiente de centro de expansión activo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-margen-continental-activo",
       "prefLabel": {
-        "es": "ambiente de margen continental activo",
-        "en": "active continental margin setting"
+        "en": "active continental margin setting",
+        "es": "ambiente de margen continental activo"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-zona-de-subducion",
       "prefLabel": {
-        "es": "ambiente de zona de subdución",
-        "en": "subduction zone setting"
+        "en": "subduction zone setting",
+        "es": "ambiente de zona de subdución"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-tectonicamente-definido",
     "prefLabel": {
-      "es": "ambiente tectónicamente definido",
-      "en": "tectonically defined setting"
+      "en": "tectonically defined setting",
+      "es": "ambiente tectónicamente definido"
     }
   },
   "exactMatch": [

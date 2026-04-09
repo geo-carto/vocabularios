@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/swm",
   "type": "Concept",
   "prefLabel": {
-    "es": "SWM",
-    "en": "SWM"
+    "en": "SWM",
+    "es": "SWM"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Split WIM file"
     ],
-    "en": [
+    "es": [
       "Split WIM file"
     ]
   },
   "definition": {
-    "es": "Un archivo Split WIM es un archivo de formato de imagen de Windows que se ha dividido en múltiples partes.",
-    "en": "Split WIM file is a Windows Imaging Format file that has been split into multiple parts."
+    "en": "Split WIM file is a Windows Imaging Format file that has been split into multiple parts.",
+    "es": "Un archivo Split WIM es un archivo de formato de imagen de Windows que se ha dividido en múltiples partes."
   },
+  "notation": [
+    ".swm",
+    "application/x-ms-wim"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/SWM"

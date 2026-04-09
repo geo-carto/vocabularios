@@ -2,27 +2,27 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-clima-polar",
   "type": "Concept",
   "prefLabel": {
-    "es": "ambiente de clima polar",
-    "en": "polar climatic setting"
+    "en": "polar climatic setting",
+    "es": "ambiente de clima polar"
   },
   "definition": {
-    "es": "Ambiente con clima sujeto a temperaturas por debajo de la temperatura la congelación del agua. Incluye desiertos polares debido a que la precipitación es generalmente escasa a latitudes altas. Climáticamente controlado por las masas de aire ártico, ambiente frío y seco con verano corto.",
-    "en": "Setting with climate dominated by temperatures below the freezing temperature of water. Includes polar deserts because precipitation is generally scant at high latitude. Climatically controlled by arctic air masses, cold dry environment with short summer."
+    "en": "Setting with climate dominated by temperatures below the freezing temperature of water. Includes polar deserts because precipitation is generally scant at high latitude. Climatically controlled by arctic air masses, cold dry environment with short summer.",
+    "es": "Ambiente con clima sujeto a temperaturas por debajo de la temperatura la congelación del agua. Incluye desiertos polares debido a que la precipitación es generalmente escasa a latitudes altas. Climáticamente controlado por las masas de aire ártico, ambiente frío y seco con verano corto."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-relacionado-con-glaciares",
       "prefLabel": {
-        "es": "ambiente relacionado con glaciares",
-        "en": "glacier related setting"
+        "en": "glacier related setting",
+        "es": "ambiente relacionado con glaciares"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-en-la-superficie-de-la-tierra",
     "prefLabel": {
-      "es": "ambiente en la superficie de la Tierra",
-      "en": "earth surface setting"
+      "en": "earth surface setting",
+      "es": "ambiente en la superficie de la Tierra"
     }
   },
   "exactMatch": [

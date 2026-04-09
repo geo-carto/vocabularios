@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/xml",
   "type": "Concept",
   "prefLabel": {
-    "es": "XML",
-    "en": "XML"
+    "en": "XML",
+    "es": "XML"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Extensible Markup Language"
     ],
-    "en": [
+    "es": [
       "Extensible Markup Language"
     ]
   },
   "definition": {
-    "es": "XML – Extensible Markup Language – es un lenguaje de marcado que define un conjunto de reglas para codificar documentos en un formato legible tanto por humanos como por máquinas. Los objetivos de diseño de XML enfatizan la simplicidad, la generalidad y la usabilidad a través de Internet.",
-    "en": "XML – Extensible Markup Language – is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The design goals of XML emphasize simplicity, generality and usability across the Internet."
+    "en": "XML – Extensible Markup Language – is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The design goals of XML emphasize simplicity, generality and usability across the Internet.",
+    "es": "XML – Extensible Markup Language – es un lenguaje de marcado que define un conjunto de reglas para codificar documentos en un formato legible tanto por humanos como por máquinas. Los objetivos de diseño de XML enfatizan la simplicidad, la generalidad y la usabilidad a través de Internet."
   },
+  "notation": [
+    "application/xml",
+    ".xml"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/xml"

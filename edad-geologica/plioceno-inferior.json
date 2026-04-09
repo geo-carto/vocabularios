@@ -2,8 +2,8 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/plioceno-inferior",
   "type": "Concept",
   "prefLabel": {
-    "es": "Plioceno Inferior",
-    "en": "Lower Pliocene"
+    "en": "Lower Pliocene",
+    "es": "Plioceno Inferior"
   },
   "altLabel": {
     "en": [
@@ -13,20 +13,23 @@
   "definition": {
     "es": "Plioceno Inferior"
   },
+  "notation": [
+    "213020210000.0"
+  ],
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/zancliense",
       "prefLabel": {
-        "es": "Zancliense",
-        "en": "Zanclean"
+        "en": "Zanclean",
+        "es": "Zancliense"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/plioceno",
     "prefLabel": {
-      "es": "Plioceno",
-      "en": "Pliocene"
+      "en": "Pliocene",
+      "es": "Plioceno"
     }
   },
   "broadMatch": [

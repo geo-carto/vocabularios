@@ -2,13 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/bmp",
   "type": "Concept",
   "prefLabel": {
-    "es": "Bitmap Image File",
-    "en": "Bitmap Image File"
+    "en": "Bitmap Image File",
+    "es": "Bitmap Image File"
   },
   "definition": {
-    "es": "La imagen de mapa de bits (BMP) o mapa de bits independiente del dispositivo (DIB) es un formato de archivo de imagen de gráficos rasterizados utilizado para almacenar imágenes digitales de mapa de bits, independientemente del dispositivo de visualización.",
-    "en": "The bitmap image (BMP) or device independent bitmap (DIB) is a raster graphics image file format used to store bitmap digital images, independently of the display device."
+    "en": "The bitmap image (BMP) or device independent bitmap (DIB) is a raster graphics image file format used to store bitmap digital images, independently of the display device.",
+    "es": "La imagen de mapa de bits (BMP) o mapa de bits independiente del dispositivo (DIB) es un formato de archivo de imagen de gráficos rasterizados utilizado para almacenar imágenes digitales de mapa de bits, independientemente del dispositivo de visualización."
   },
+  "notation": [
+    ".bm; .dib; .bmp",
+    "image/x-ms-bmp"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/BMP"

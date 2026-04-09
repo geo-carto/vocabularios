@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/tiff",
   "type": "Concept",
   "prefLabel": {
-    "es": "TIFF",
-    "en": "TIFF"
+    "en": "TIFF",
+    "es": "TIFF"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Tagged Image Format File"
     ],
-    "en": [
+    "es": [
       "Tagged Image Format File"
     ]
   },
   "definition": {
-    "es": "TIFF – Tagged Image File Format – es un formato de archivo informático para almacenar imágenes de gráficos rasterizados, popular entre artistas gráficos, la industria editorial y los fotógrafos. TIFF es ampliamente soportado por aplicaciones de escaneo, fax, procesamiento de textos, reconocimiento óptico de caracteres, manipulación de imágenes, autoedición y maquetación. El formato fue creado por Aldus Corporation para su uso en autoedición.",
-    "en": "TIFF – Tagged Image File Format – is a computer file format for storing raster graphics images, popular among graphic artists, the publishing industry and photographers. TIFF is widely supported by scanning, faxing, word processing, optical character recognition, image manipulation, desktop publishing and page-layout applications. The format was created by Aldus Corporation for use in desktop publishing."
+    "en": "TIFF – Tagged Image File Format – is a computer file format for storing raster graphics images, popular among graphic artists, the publishing industry and photographers. TIFF is widely supported by scanning, faxing, word processing, optical character recognition, image manipulation, desktop publishing and page-layout applications. The format was created by Aldus Corporation for use in desktop publishing.",
+    "es": "TIFF – Tagged Image File Format – es un formato de archivo informático para almacenar imágenes de gráficos rasterizados, popular entre artistas gráficos, la industria editorial y los fotógrafos. TIFF es ampliamente soportado por aplicaciones de escaneo, fax, procesamiento de textos, reconocimiento óptico de caracteres, manipulación de imágenes, autoedición y maquetación. El formato fue creado por Aldus Corporation para su uso en autoedición."
   },
+  "notation": [
+    "image/tiff",
+    ".tif; .tiff"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/image/tiff"

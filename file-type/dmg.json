@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/dmg",
   "type": "Concept",
   "prefLabel": {
-    "es": "DMG",
-    "en": "DMG"
+    "en": "DMG",
+    "es": "DMG"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Apple Disk Image"
     ],
-    "en": [
+    "es": [
       "Apple Disk Image"
     ]
   },
   "definition": {
-    "es": "Apple Disk Image es un formato de imagen de disco comúnmente utilizado por el sistema operativo macOS.",
-    "en": "Apple Disk Image is a disk image format commonly used by the macOS operating system."
+    "en": "Apple Disk Image is a disk image format commonly used by the macOS operating system.",
+    "es": "Apple Disk Image es un formato de imagen de disco comúnmente utilizado por el sistema operativo macOS."
   },
+  "notation": [
+    ".dmg",
+    "application/x-apple-diskimage"
+  ],
   "exactMatch": [
     {
       "id": "http://publications.europa.eu/resource/authority/file-type/DMG"

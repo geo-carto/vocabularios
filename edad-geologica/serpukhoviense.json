@@ -2,18 +2,22 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/serpukhoviense",
   "type": "Concept",
   "prefLabel": {
-    "es": "Serpukhoviense",
-    "en": "Serpukhovian"
+    "en": "Serpukhovian",
+    "es": "Serpukhoviense"
   },
   "definition": {
-    "es": "Límite inferior 330.9 +|-0.2 Ma, límite superior 323.2 +|-0.4 Ma",
-    "en": "Older bound 330.9 +|-0.2 Ma, younger bound 323.2 +|-0.4 Ma"
+    "en": "Older bound 330.9 +|-0.2 Ma, younger bound 323.2 +|-0.4 Ma",
+    "es": "Límite inferior 330.9 +|-0.2 Ma, límite superior 323.2 +|-0.4 Ma"
   },
+  "notation": [
+    "211051301000.0",
+    "a1.1.3.2.2.1"
+  ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense-superior",
     "prefLabel": {
-      "es": "Mississippiense Superior",
-      "en": "Upper Mississippian"
+      "en": "Upper Mississippian",
+      "es": "Mississippiense Superior"
     }
   },
   "exactMatch": [

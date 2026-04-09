@@ -2,48 +2,48 @@
   "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-metamorfico",
   "type": "Concept",
   "prefLabel": {
-    "es": "proceso metamórfico",
-    "en": "metamorphic process"
+    "en": "metamorphic process",
+    "es": "proceso metamórfico"
   },
   "definition": {
-    "es": "Ajuste mineralógico, químico y estructural de rocas sólidas a condiciones físicas y químicas diferentes de aquellas en las que se originaron y que se da en general en zonas profundas bajo las zonas superficiales de meteorización y cementación.",
-    "en": "Mineralogical, chemical, and structural adjustment of solid rocks to physical and chemical conditions that differ from the conditions under which the rocks in question originated, and are generally been imposed at depth, below the surface zones of weathering and cementation."
+    "en": "Mineralogical, chemical, and structural adjustment of solid rocks to physical and chemical conditions that differ from the conditions under which the rocks in question originated, and are generally been imposed at depth, below the surface zones of weathering and cementation.",
+    "es": "Ajuste mineralógico, químico y estructural de rocas sólidas a condiciones físicas y químicas diferentes de aquellas en las que se originaron y que se da en general en zonas profundas bajo las zonas superficiales de meteorización y cementación."
   },
   "narrower": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/alteracion",
       "prefLabel": {
-        "es": "alteración",
-        "en": "alteration"
+        "en": "alteration",
+        "es": "alteración"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/metamorfismo-de-contacto",
       "prefLabel": {
-        "es": "metamorfismo de contacto",
-        "en": "contact metamorphism"
+        "en": "contact metamorphism",
+        "es": "metamorfismo de contacto"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/metamorfismo-de-dislocacion",
       "prefLabel": {
-        "es": "metamorfismo de dislocación",
-        "en": "dislocation metamorphism"
+        "en": "dislocation metamorphism",
+        "es": "metamorfismo de dislocación"
       }
     },
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-proceso/precipitacion-quimica",
       "prefLabel": {
-        "es": "precipitación química",
-        "en": "chemical precipitation"
+        "en": "chemical precipitation",
+        "es": "precipitación química"
       }
     }
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-proceso/proceso-geologico",
     "prefLabel": {
-      "es": "proceso geológico",
-      "en": "geologic process"
+      "en": "geologic process",
+      "es": "proceso geológico"
     }
   },
   "exactMatch": [

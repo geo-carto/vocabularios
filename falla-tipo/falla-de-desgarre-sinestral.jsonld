@@ -2,18 +2,18 @@
   "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-sinestral",
   "type": "Concept",
   "prefLabel": {
-    "es": "falla de desgarre sinestral",
-    "en": "siniestral strike slip fault"
+    "en": "siniestral strike slip fault",
+    "es": "falla de desgarre sinestral"
   },
   "definition": {
-    "es": "Falla de desgarre en la que un bloque se desplaza hacia la izquierda del bloque desde donde se hace la observación.",
-    "en": "Fault with left-lateral strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the fault, and left-lateral displacement over more than half the mapped trace of the fault."
+    "en": "Fault with left-lateral strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the fault, and left-lateral displacement over more than half the mapped trace of the fault.",
+    "es": "Falla de desgarre en la que un bloque se desplaza hacia la izquierda del bloque desde donde se hace la observación."
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre",
     "prefLabel": {
-      "es": "falla de desgarre",
-      "en": "strike slip fault"
+      "en": "strike slip fault",
+      "es": "falla de desgarre"
     }
   },
   "exactMatch": [

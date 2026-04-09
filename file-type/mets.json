@@ -2,21 +2,25 @@
   "id": "https://geo-carto.github.io/vocabularios/file-type/mets",
   "type": "Concept",
   "prefLabel": {
-    "es": "METS XML",
-    "en": "METS XML"
+    "en": "METS XML",
+    "es": "METS XML"
   },
   "altLabel": {
-    "es": [
+    "en": [
       "Metadata Encoding and Transmission Standard – Logical METS container"
     ],
-    "en": [
+    "es": [
       "Metadata Encoding and Transmission Standard – Logical METS container"
     ]
   },
   "definition": {
-    "es": "METS – Metadata Encoding and Transmission Standard – es un estándar de metadatos para codificar metadatos descriptivos, administrativos y estructurales relativos a objetos dentro de una biblioteca digital, expresados mediante el lenguaje de esquemas XML.",
-    "en": "METS – Metadata Encoding and Transmission Standard – is a metadata standard for encoding descriptive, administrative and structural metadata regarding objects within a digital library, expressed using the XML schema language."
+    "en": "METS – Metadata Encoding and Transmission Standard – is a metadata standard for encoding descriptive, administrative and structural metadata regarding objects within a digital library, expressed using the XML schema language.",
+    "es": "METS – Metadata Encoding and Transmission Standard – es un estándar de metadatos para codificar metadatos descriptivos, administrativos y estructurales relativos a objetos dentro de una biblioteca digital, expresados mediante el lenguaje de esquemas XML."
   },
+  "notation": [
+    "application/xml",
+    ".xml"
+  ],
   "exactMatch": [
     {
       "id": "https://www.iana.org/assignments/media-types/application/xml"
