@@ -9,12 +9,18 @@
     "es": "Depósito en cuya formación se reconoce la participación de procesos volcánicos y sedimentarios",
     "en": "Deposit in whose formation the participation of both volcanic and sedimentary processes is recognized"
   },
-  "broadMatch": [
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/fragmentalIgneousMaterial"
     },
     {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sedimentaryMaterial"
+    },
+    {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/fragmental_igneous_material"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/sedimentary_material"
     }
   ],
   "inScheme": [

@@ -3,18 +3,24 @@
   "type": "Concept",
   "prefLabel": {
     "es": "margocaliza",
-    "en": "marly limestone"
+    "en": "limestone-marl alternation"
   },
   "definition": {
     "es": "Alternancia regular de capas decimétricas de calizas y margas. no es recomendable su uso para designar una caliza arcillosa o margosa",
     "en": "Regular alternation of decimetre-thick layers of limestones and marls. Its use is not recommended to designate a clayey or marly limestone"
   },
-  "exactMatch": [
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
     },
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/mudstone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_mudstone"
     }
   ],
   "inScheme": [

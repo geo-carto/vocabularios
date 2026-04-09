@@ -9,7 +9,13 @@
     "es": "Sedimento o roca sedimentaria formados por corrientes de turbidez. se trata de arenas o areniscas que presentan secuencias granodecrecientes con una ordenación de estructuras sedimentarias internas muy singular, denominada secuencia de bouma",
     "en": "Sediment or sedimentary rock formed by turbidity currents. They consist of sands or sandstones with graded bedding sequences and a very distinctive arrangement of internal sedimentary structures known as the Bouma sequence"
   },
-  "broadMatch": [
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sand"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/sand"
+    },
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sandstone"
     },

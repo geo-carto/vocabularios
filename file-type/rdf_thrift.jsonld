@@ -1,0 +1,192 @@
+{
+  "id": "https://geo-carto.github.io/vocabularios/file-type/rdf_thrift",
+  "type": "Concept",
+  "prefLabel": {
+    "es": "RDF Thrift",
+    "en": "RDF Thrift"
+  },
+  "altLabel": {
+    "es": [
+      "RDF Binary Thrift"
+    ],
+    "en": [
+      "RDF Binary Thrift"
+    ]
+  },
+  "definition": {
+    "es": "RDF Binary usando Apache Thrift ('RDF Thrift') es un formato binario para RDF y datos relacionados con RDF. Los formatos binarios son más rápidos de procesar, ya que no incurren en los costes de análisis de los formatos basados en texto. RDF Thrift define codificación básica para términos RDF, y luego construye formatos de datos para grafos RDF, conjuntos de datos RDF y conjuntos de resultados SPARQL.",
+    "en": "RDF Binary using Apache Thrift (‘RDF Thrift’) is a binary format for RDF and RDF-related data. Binary formats are faster to process – they do not incur the parsing costs of text-base formats. RDF Thrift defines basic encoding for RDF terms, then builds data formats for RDF graphs, RDF datasets and for SPARQL result sets. This gives a basis for high-performance linked data systems."
+  },
+  "exactMatch": [
+    {
+      "id": "http://publications.europa.eu/resource/authority/file-type/RDF_THRIFT"
+    },
+    {
+      "id": "https://www.iana.org/assignments/media-types/application/rdf+thrift"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/file-type"
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/file-type"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/file-type"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

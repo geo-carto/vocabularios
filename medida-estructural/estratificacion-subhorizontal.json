@@ -2,12 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subhorizontal",
   "type": "Concept",
   "prefLabel": {
+    "es": "estratificación subhorizontal",
+    "en": "Horizontal bedding"
+  },
+  "definition": {
     "es": "estratificación subhorizontal"
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion",
     "prefLabel": {
-      "es": "estratificación"
+      "es": "estratificación",
+      "en": "strike"
     }
   },
   "inScheme": [

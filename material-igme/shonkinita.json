@@ -9,9 +9,12 @@
     "es": "Roca plutónica melanocrática perteneciente al grupo de los sienitoides foídicos, en la que el feldespato alcalino constituye más del 90% de los feldespatos",
     "en": "Melanocratic plutonic rock belonging to the group of foid syenitoids, in which alkali feldspar constitutes more than 90% of the feldspars"
   },
-  "closeMatch": [
+  "relatedMatch": [
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/syenitoid"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/syenitoid"
     }
   ],
   "inScheme": [

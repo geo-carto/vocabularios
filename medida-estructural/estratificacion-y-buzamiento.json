@@ -2,12 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-y-buzamiento",
   "type": "Concept",
   "prefLabel": {
+    "es": "estratificación y buzamiento",
+    "en": "strike and dip"
+  },
+  "definition": {
     "es": "estratificación y buzamiento"
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion",
     "prefLabel": {
-      "es": "estratificación"
+      "es": "estratificación",
+      "en": "strike"
     }
   },
   "inScheme": [

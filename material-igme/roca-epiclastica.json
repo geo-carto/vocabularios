@@ -14,7 +14,13 @@
     "es": "Roca volcanoclástica que contiene fragmentos de origen volcánico con evidencias de haber sido transportados por algún medio sedimentario",
     "en": "Volcaniclastic rock containing volcanic fragments showing evidence of having been transported by some sedimentary medium"
   },
-  "broadMatch": [
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pyroclasticRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_rock"
+    },
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sedimentaryRock"
     },

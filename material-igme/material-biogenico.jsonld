@@ -9,12 +9,18 @@
     "es": "Material producido por la acción o la presencia de organismos vivos o de sus restos",
     "en": "Material produced by the action or presence of living organisms or their remains"
   },
-  "exactMatch": [
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/biogenicSediment"
     },
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/biogenic_sediment"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/biogenicSilicaSedimentaryRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/biogenic_silica_sedimentary_rock"
     }
   ],
   "inScheme": [

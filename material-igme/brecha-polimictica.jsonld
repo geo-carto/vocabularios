@@ -5,11 +5,19 @@
     "es": "brecha polimíctica",
     "en": "polymictic breccia"
   },
+  "altLabel": {
+    "es": [
+      "brecha poligénica"
+    ],
+    "en": [
+      "poligenic breccia"
+    ]
+  },
   "definition": {
     "es": "Brecha constituida por cantos de diferentes tipos de roca",
     "en": "Breccia consisting of clasts of different rock types"
   },
-  "broadMatch": [
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/breccia"
     },

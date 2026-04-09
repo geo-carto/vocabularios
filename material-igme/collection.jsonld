@@ -337,8 +337,8 @@
     {
       "id": "https://geo-carto.github.io/vocabularios/material-igme/arenacea",
       "prefLabel": {
-        "es": "arenácea",
-        "en": "arenaceous"
+        "es": "psamita",
+        "en": "psammite"
       }
     },
     {
@@ -524,6 +524,13 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/bauxita",
+      "prefLabel": {
+        "es": "bauxita",
+        "en": "bauxite"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/material-igme/beforsita",
       "prefLabel": {
         "es": "beforsita",
@@ -664,13 +671,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/material-igme/boundstone",
-      "prefLabel": {
-        "es": "boundstone",
-        "en": "boundstone"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/material-igme/brecha",
       "prefLabel": {
         "es": "brecha",
@@ -755,13 +755,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/material-igme/brecha-poligenica",
-      "prefLabel": {
-        "es": "brecha poligénica",
-        "en": "polygenetic breccia"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/material-igme/brecha-polimictica",
       "prefLabel": {
         "es": "brecha polimíctica",
@@ -814,7 +807,7 @@
       "id": "https://geo-carto.github.io/vocabularios/material-igme/calcimudstone",
       "prefLabel": {
         "es": "calcimudstone",
-        "en": "carbonate mudstone"
+        "en": "calcimudstone"
       }
     },
     {
@@ -888,13 +881,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/material-igme/caliza-biohermica",
-      "prefLabel": {
-        "es": "caliza biohérmica",
-        "en": "biohermal limestone"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/material-igme/caliza-conchifera",
       "prefLabel": {
         "es": "caliza conchífera",
@@ -960,7 +946,7 @@
     {
       "id": "https://geo-carto.github.io/vocabularios/material-igme/caliza-lumaquelica",
       "prefLabel": {
-        "es": "caliza lumaquélica",
+        "es": "lumaquela",
         "en": "shell bed limestone"
       }
     },
@@ -1294,13 +1280,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/material-igme/conglomerado-monogenico",
-      "prefLabel": {
-        "es": "conglomerado monogénico",
-        "en": "monomictic conglomerate"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/material-igme/conglomerado-monomictico",
       "prefLabel": {
         "es": "conglomerado monomíctico",
@@ -1319,13 +1298,6 @@
       "prefLabel": {
         "es": "conglomerado pelítico",
         "en": "pelitic conglomerate"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/material-igme/conglomerado-poligenico",
-      "prefLabel": {
-        "es": "conglomerado poligénico",
-        "en": "polygenetic conglomerate"
       }
     },
     {
@@ -1976,7 +1948,7 @@
       "id": "https://geo-carto.github.io/vocabularios/material-igme/fango",
       "prefLabel": {
         "es": "fango",
-        "en": "mud"
+        "en": "ooze"
       }
     },
     {
@@ -2047,6 +2019,13 @@
       "prefLabel": {
         "es": "floatstone",
         "en": "floatstone"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/flysch",
+      "prefLabel": {
+        "es": "flysch",
+        "en": "flysch"
       }
     },
     {
@@ -2680,6 +2659,13 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/laterita",
+      "prefLabel": {
+        "es": "laterita",
+        "en": "laterite"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/material-igme/latita",
       "prefLabel": {
         "es": "latita",
@@ -2813,13 +2799,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/material-igme/liparita",
-      "prefLabel": {
-        "es": "liparita",
-        "en": "liparite"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/material-igme/litarenita",
       "prefLabel": {
         "es": "litarenita",
@@ -2876,17 +2855,10 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/material-igme/lutita-calcarea",
-      "prefLabel": {
-        "es": "lutita calcárea",
-        "en": "calcareous mudstone"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/material-igme/lutita-carbonatada",
       "prefLabel": {
         "es": "lutita carbonatada",
-        "en": "carbonate mudstone"
+        "en": "carbonate-rich mudstone"
       }
     },
     {
@@ -2956,7 +2928,7 @@
       "id": "https://geo-carto.github.io/vocabularios/material-igme/margocaliza",
       "prefLabel": {
         "es": "margocaliza",
-        "en": "marly limestone"
+        "en": "limestone-marl alternation"
       }
     },
     {
@@ -3621,7 +3593,7 @@
       "id": "https://geo-carto.github.io/vocabularios/material-igme/mudstone",
       "prefLabel": {
         "es": "mudstone",
-        "en": "mudstone"
+        "en": "carbonate mudstone"
       }
     },
     {
@@ -4059,13 +4031,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/material-igme/psefita",
-      "prefLabel": {
-        "es": "psefita",
-        "en": "psephite"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/material-igme/pseudotaquilita",
       "prefLabel": {
         "es": "pseudotaquilita",
@@ -4283,13 +4248,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-dioritica-foidica",
-      "prefLabel": {
-        "es": "roca diorítica foídica",
-        "en": "foidic dioritic rock"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-doleritica",
       "prefLabel": {
         "es": "roca dolerítica",
@@ -4346,13 +4304,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-foidolitica",
-      "prefLabel": {
-        "es": "roca foidolítica",
-        "en": "foidolitic rock"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-foliada",
       "prefLabel": {
         "es": "roca foliada",
@@ -4371,13 +4322,6 @@
       "prefLabel": {
         "es": "roca gabroica",
         "en": "gabbroic rock"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-gabroica-foidica",
-      "prefLabel": {
-        "es": "roca gabroica foídica",
-        "en": "foidic gabbroic rock"
       }
     },
     {
@@ -4486,13 +4430,6 @@
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-leucitica",
-      "prefLabel": {
-        "es": "roca leucítica",
-        "en": "leucitic rock"
-      }
-    },
-    {
       "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-leucocratica",
       "prefLabel": {
         "es": "roca leucocrática",
@@ -4503,7 +4440,7 @@
       "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-madre",
       "prefLabel": {
         "es": "roca madre",
-        "en": "parent rock"
+        "en": "bedrock"
       }
     },
     {
@@ -4616,13 +4553,6 @@
       "prefLabel": {
         "es": "roca piroclástica",
         "en": "pyroclastic rock"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-piroclastico-epiclastica",
-      "prefLabel": {
-        "es": "roca piroclástico-epiclástica",
-        "en": "pyroclastic-epiclastic rock"
       }
     },
     {
@@ -4854,13 +4784,6 @@
       "prefLabel": {
         "es": "salina",
         "en": "salt works"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/material-igme/samita",
-      "prefLabel": {
-        "es": "samita",
-        "en": "sammite"
       }
     },
     {
@@ -5335,7 +5258,7 @@
     {
       "id": "https://geo-carto.github.io/vocabularios/material-igme/tufita",
       "prefLabel": {
-        "es": "tufita",
+        "es": "roca piroclástica-epiclástica",
         "en": "tuffite"
       }
     },

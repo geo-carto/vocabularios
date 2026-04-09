@@ -9,13 +9,6 @@
     "es": "Paisajes geomorfológicos y formas del relieve relativos a entornos de clima frío, con nieve, pero no glaciales; paisajes geomorfológicos y formas de relieve próximos a glaciares y placas de hielo; paisajes geomorfológicos y formas del relieve relativos a tierras, suelos o rocas que se mantienen a 0º C o menos durante dos años como mínimo.",
     "en": "Geomorphologic landscapes and landforms related to snow, non-glacial, cold climate environments; geomorphologic landscapes and landforms occurring in the vicinity of glaciers and ice sheets; geomorphologic landscapes and landforms related to ground, soil, or rock that remains at or below 0º C for at least two years."
   },
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-geomorfologico-natural",
-    "prefLabel": {
-      "es": "objeto geomorfológico natural",
-      "en": "natural geomorphologic feature"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/nivalPeriglacialPermafrost"
@@ -23,12 +16,17 @@
   ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
     }
   ],
   "@context": {

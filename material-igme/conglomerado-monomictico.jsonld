@@ -5,11 +5,19 @@
     "es": "conglomerado monomíctico",
     "en": "monogenic conglomerate"
   },
+  "altLabel": {
+    "es": [
+      "conglomerado monogénico"
+    ],
+    "en": [
+      "monomictic conglomerate"
+    ]
+  },
   "definition": {
     "es": "Conglomerado constituido por cantos de un mismo tipo de roca",
     "en": "Conglomerate consisting of clasts of a single rock type"
   },
-  "broadMatch": [
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/conglomerate"
     },

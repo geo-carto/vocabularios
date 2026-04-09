@@ -9,9 +9,15 @@
     "es": "Monzogabro o monzodiorita con nefelina",
     "en": "Monzogabbro or monzodiorite with nepheline"
   },
-  "exactMatch": [
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidBearingMonzodiorite"
+    },
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foidBearingMonzogabbro"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_monzodiorite"
     },
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_monzogabbro"

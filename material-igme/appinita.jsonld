@@ -9,9 +9,15 @@
     "es": "Gabro o monzogabro con alto contenido en mgo y k2o, rico en anfíbol y flogopita y con frecuentes texturas acumuladas. forma una serie con rocas más máficas, casi ultramáficas, como las cortlandtitas",
     "en": "Gabbro or monzogabbro with high MgO and K2O content, rich in amphibole and phlogopite, with frequent cumulate textures. It forms a series with more mafic, almost ultramafic rocks, such as cortlandtites"
   },
-  "broadMatch": [
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gabbroicRock"
+    },
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/monzogabbroicRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gabbroic_rock"
     },
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/monzogabbroic_rock"

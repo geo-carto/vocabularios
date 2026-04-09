@@ -9,9 +9,12 @@
     "es": "Roca gabroica con un contenido de olivino superior al 5%",
     "en": "Gabbroic rock with an olivine content exceeding 5%"
   },
-  "closeMatch": [
+  "relatedMatch": [
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/gabbroicRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/gabbroic_rock"
     }
   ],
   "inScheme": [

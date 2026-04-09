@@ -14,14 +14,12 @@
     "es": "Roca sedimentaria constituida, en más de un 50%, por elementos detríticos de más de 2 mm de diámetro y trabados por un cemento o una matriz detrítica fina",
     "en": "Sedimentary rock consisting of more than 50% detrital elements with a diameter exceeding 2 mm, bound by a cement or fine detrital matrix"
   },
-  "narrowMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate"
-    }
-  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/conglomerate"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate"
     }
   ],
   "inScheme": [

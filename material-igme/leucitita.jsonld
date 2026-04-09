@@ -5,11 +5,16 @@
     "es": "leucitita",
     "en": "leucitite"
   },
+  "altLabel": {
+    "es": [
+      "roca leucítica"
+    ]
+  },
   "definition": {
     "es": "Roca volcánica ultrabásica, ultraalcalina, de color oscuro, perteneciente a la familia de las rocas foídicas, que tiene como minerales esenciales leucita, piroxeno y, en algunos tipos, olivino. es frecuente, además, la presencia de nefelina",
     "en": "Ultrabasic, ultraalkaline, dark-coloured volcanic rock belonging to the foidite family, having leucite, pyroxene and, in some types, olivine as essential minerals. The presence of nepheline is also frequent"
   },
-  "broadMatch": [
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/exoticCompositionIgneousRock"
     },

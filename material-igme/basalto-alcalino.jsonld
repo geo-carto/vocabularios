@@ -9,14 +9,12 @@
     "es": "Basalto subsaturado rico en álcalis, caracterizado por la ausencia de ortopiroxeno y cuarzo, así como por la presencia de olivino, augita rica en titanio y nefelina normativa",
     "en": "Undersaturated alkali-rich basalt, characterized by the absence of orthopyroxene and quartz, as well as by the presence of olivine, titanium-rich augite and normative nepheline"
   },
-  "narrowMatch": [
-    {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/alkali-olivine_basalt"
-    }
-  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/alkaliOlivineBasalt"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/alkali-olivine_basalt"
     }
   ],
   "inScheme": [

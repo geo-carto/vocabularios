@@ -5,11 +5,19 @@
     "es": "conglomerado polimíctico",
     "en": "polymictic conglomerate"
   },
+  "altLabel": {
+    "es": [
+      "conglomerado poligénico"
+    ],
+    "en": [
+      "polygenetic conglomerate"
+    ]
+  },
   "definition": {
     "es": "Conglomerado constituido por cantos de diferentes tipos de roca",
     "en": "Conglomerate consisting of clasts of different rock types"
   },
-  "broadMatch": [
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/conglomerate"
     },

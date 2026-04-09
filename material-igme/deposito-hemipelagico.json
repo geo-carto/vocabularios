@@ -14,12 +14,18 @@
     "es": "Sedimento constituido por lodos lutíticos, margosos o calcáreos, depositados en el medio sedimentario que comprende el talud y el glacis continental",
     "en": "Sediment consisting of muddy, marly or calcareous muds, deposited in the sedimentary environment comprising the continental slope and glacis"
   },
-  "broadMatch": [
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/mud"
     },
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/mud"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/calcareousCarbonateSediment"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/calcareous_carbonate_sediment"
     }
   ],
   "inScheme": [

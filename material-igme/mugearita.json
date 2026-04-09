@@ -9,7 +9,13 @@
     "es": "Roca volcánica básica o intermedia, alcalina, variedad sódica de la traquiandesita basáltica",
     "en": "Basic or intermediate, alkaline volcanic rock, sodic variety of basaltic trachyandesite"
   },
-  "broadMatch": [
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/andesite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/andesite"
+    },
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/latiticRock"
     },

@@ -2,24 +2,30 @@
   "id": "https://geo-carto.github.io/vocabularios/material-igme/caliza-lumaquelica",
   "type": "Concept",
   "prefLabel": {
-    "es": "caliza lumaquélica",
+    "es": "lumaquela",
     "en": "shell bed limestone"
   },
   "altLabel": {
     "es": [
-      "coquina, lumaquela"
+      "coquina, caliza lumaquélica"
     ]
   },
   "definition": {
     "es": "Roca clástica formada por aglomeración de conchas de moluscos o braquiópodos, o por fragmentos de las mismas, de tamaño superior a 2 mm",
     "en": "Clastic rock formed by the agglomeration of mollusc or brachiopod shells, or their fragments, with a size exceeding 2 mm"
   },
-  "broadMatch": [
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/limestone"
     },
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/limestone"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/conglomerate"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate"
     }
   ],
   "inScheme": [

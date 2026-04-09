@@ -9,7 +9,13 @@
     "es": "Roca de composición intermedia entre riolita y dacita, con cuarzo, feldespato potásico y plagioclasa como constituyentes principales",
     "en": "Rock of intermediate composition between rhyolite and dacite, with quartz, potassic feldspar and plagioclase as principal constituents"
   },
-  "closeMatch": [
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/rhyolite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/rhyolite"
+    },
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/dacite"
     },

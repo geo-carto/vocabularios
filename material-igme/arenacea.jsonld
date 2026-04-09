@@ -2,19 +2,33 @@
   "id": "https://geo-carto.github.io/vocabularios/material-igme/arenacea",
   "type": "Concept",
   "prefLabel": {
-    "es": "arenácea",
-    "en": "arenaceous"
+    "es": "psamita",
+    "en": "psammite"
+  },
+  "altLabel": {
+    "es": [
+      "arenácea"
+    ],
+    "en": [
+      "arenaceous"
+    ]
   },
   "definition": {
-    "es": "Clase, grupo o textura de los sedimentos o rocas sedimentarias detríticas cuyo tamaño medio de los granos está comprendido entre 0.062 y 2 mm. sinónimos: psamita, samita",
-    "en": "Class, group or texture of detrital sediments or sedimentary rocks whose mean grain size is between 0.062 and 2 mm. Synonyms: psammite, sammite"
+    "es": "Clase, grupo o textura de los sedimentos o rocas sedimentarias detríticas cuyo tamaño medio de los granos está comprendido entre 0.062 y 2 mm",
+    "en": "Class, group or texture of detrital sediments or sedimentary rocks whose mean grain size is between 0.062 and 2 mm"
   },
-  "exactMatch": [
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sand"
     },
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/sand"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sandstone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_sandstone"
     }
   ],
   "inScheme": [

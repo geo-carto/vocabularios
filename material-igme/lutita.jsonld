@@ -9,12 +9,18 @@
     "es": "Roca detrítica constituida por elementos muy finos, de menos de 0.062 mm. contiene menos de un 10% de carbonatos",
     "en": "Detrital rock consisting of very fine elements, less than 0.062 mm. Contains less than 10% carbonates"
   },
-  "narrowMatch": [
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/mudstone"
     },
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_mudstone"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/silicateMudstone"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/silicate_mudstone"
     }
   ],
   "inScheme": [

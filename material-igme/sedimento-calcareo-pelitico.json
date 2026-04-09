@@ -9,12 +9,18 @@
     "es": "Sedimento calcáreo con un contenido pelítico comprendido entre el 10 y el 35% del total",
     "en": "Calcareous sediment with a pelitic content between 10 and 35% of the total"
   },
-  "broadMatch": [
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/mud"
+    },
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/calcareousCarbonateSediment"
     },
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/calcareous_carbonate_sediment"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/clastic_mudstone"
     }
   ],
   "inScheme": [

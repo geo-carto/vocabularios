@@ -9,162 +9,6 @@
     "es": "Paisajes geomorfológicos y formas del relieve relacionados con entornos de ladera; paisajes geomorfológicos y formas de relieve desarrollados por efecto de la acción de la gravedad.",
     "en": "Geomorphologic landscapes and landforms related to slope environments; geomorphologic landscapes and landforms developed under the action of the gravitational force."
   },
-  "narrower": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/acarcavamiento-embrionario",
-      "prefLabel": {
-        "es": "acarcavamiento embrionario",
-        "en": "incipient gullying"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/caidas-de-bloques-desprendimientos-derrumbes",
-      "prefLabel": {
-        "es": "caídas de bloques; desprendimientos; derrumbes",
-        "en": "rockfall; rock collapse"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cambio-brusco-de-pendiente",
-      "prefLabel": {
-        "es": "cambio brusco de pendiente",
-        "en": "abrupt slope break"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/canchal-pedriza",
-      "prefLabel": {
-        "es": "canchal; pedriza",
-        "en": "scree; block field"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cicatriz-de-despegue-producida-por-movimientos-en-masa",
-      "prefLabel": {
-        "es": "cicatriz de despegue producida por movimientos en masa",
-        "en": "mass movement detachment scar"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/coluvion",
-      "prefLabel": {
-        "es": "coluvión",
-        "en": "colluvium"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cono-o-talud-de-derrubios",
-      "prefLabel": {
-        "es": "cono o talud de derrubios",
-        "en": "talus cone; scree slope"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/derrubios-ordenados",
-      "prefLabel": {
-        "es": "derrubios ordenados",
-        "en": "stratified slope deposits"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/derrumbe-avalancha",
-      "prefLabel": {
-        "es": "derrumbe; avalancha",
-        "en": "rock avalanche"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/deslizamiento",
-      "prefLabel": {
-        "es": "deslizamiento",
-        "en": "landslide"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/facetas-triangulares-de-vertiente",
-      "prefLabel": {
-        "es": "facetas triangulares de vertiente",
-        "en": "triangular slope facets"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/flujo",
-      "prefLabel": {
-        "es": "flujo",
-        "en": "flow"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ladera-con-reptacion",
-      "prefLabel": {
-        "es": "ladera con reptación",
-        "en": "slope with creep"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/lajamiento-sheeting",
-      "prefLabel": {
-        "es": "lajamiento; sheeting",
-        "en": "sheeting"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/lobulo-o-colada-de-solifluxion",
-      "prefLabel": {
-        "es": "lóbulo o colada de solifluxión",
-        "en": "solifluction lobe"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terracillas",
-      "prefLabel": {
-        "es": "terracillas",
-        "en": "terracettes"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/vertiente-con-bloques",
-      "prefLabel": {
-        "es": "vertiente con bloques",
-        "en": "block-covered slope"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/vertiente-con-surcos-de-erosion-rills",
-      "prefLabel": {
-        "es": "vertiente con surcos de erosión (rills)",
-        "en": "slope with rills"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/vertiente-regularizada",
-      "prefLabel": {
-        "es": "vertiente regularizada",
-        "en": "regularized slope"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/vertiente-regularizada-y-disectada",
-      "prefLabel": {
-        "es": "vertiente regularizada y disectada",
-        "en": "regularized and dissected slope"
-      }
-    },
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/zona-con-solifluxion",
-      "prefLabel": {
-        "es": "zona con solifluxión",
-        "en": "solifluction zone"
-      }
-    }
-  ],
-  "broader": {
-    "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-geomorfologico-natural",
-    "prefLabel": {
-      "es": "objeto geomorfológico natural",
-      "en": "natural geomorphologic feature"
-    }
-  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/slopeGravitational"
@@ -172,12 +16,17 @@
   ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
     }
   ],
   "@context": {

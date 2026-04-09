@@ -9,12 +9,18 @@
     "es": "Roca en cuya formación se reconoce la participación de procesos volcánicos y sedimentarios",
     "en": "Rock in whose formation the participation of both volcanic and sedimentary processes is recognized"
   },
-  "closeMatch": [
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/pyroclasticRock"
     },
     {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_rock"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/sedimentaryMaterial"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/sedimentary_material"
     }
   ],
   "inScheme": [

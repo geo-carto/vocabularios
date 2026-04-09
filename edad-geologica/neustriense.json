@@ -3,13 +3,16 @@
   "type": "Concept",
   "prefLabel": {
     "es": "Neustriense",
-    "en": "Ypresian-Lutetian"
+    "en": "Neustrian"
+  },
+  "definition": {
+    "es": "Neustriense"
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma",
     "prefLabel": {
-      "es": "Edad de Mamíferos Terrestres Europeos (ELMA)",
-      "en": "European Land Mammal Ages (ELMA)"
+      "es": "Regional",
+      "en": "Regional"
     }
   },
   "related": [
@@ -30,16 +33,16 @@
   ],
   "relatedMatch": [
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ypresian"
-    },
-    {
-      "id": "http://resource.geosciml.org/classifier/ics/ischart/Ypresian"
-    },
-    {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lutetian"
     },
     {
       "id": "http://resource.geosciml.org/classifier/ics/ischart/Lutetian"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ypresian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Ypresian"
     }
   ],
   "inScheme": [

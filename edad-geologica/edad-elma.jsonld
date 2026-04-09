@@ -2,8 +2,11 @@
   "id": "https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma",
   "type": "Concept",
   "prefLabel": {
-    "es": "Edad de Mamíferos Terrestres Europeos (ELMA)",
-    "en": "European Land Mammal Ages (ELMA)"
+    "es": "Regional",
+    "en": "Regional"
+  },
+  "definition": {
+    "es": "Regional"
   },
   "narrower": [
     {
@@ -52,7 +55,7 @@
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica/neustriense",
       "prefLabel": {
         "es": "Neustriense",
-        "en": "Ypresian-Lutetian"
+        "en": "Neustrian"
       }
     },
     {

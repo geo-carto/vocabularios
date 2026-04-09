@@ -3,18 +3,20 @@
   "type": "Concept",
   "prefLabel": {
     "es": "calcimudstone",
-    "en": "carbonate mudstone"
+    "en": "calcimudstone"
   },
   "definition": {
     "es": "Roca carbonatada matriz-soportada, constituida por menos del 10% de granos, siendo el resto matriz micrítica, según la clasificación de Dunham 1962",
     "en": "Matrix-supported carbonate rock, consisting of less than 10% grains, with the remainder being micritic matrix, according to the Dunham (1962) classification"
   },
-  "broadMatch": [
+  "relatedMatch": [
     {
-      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/mudstone"
-    },
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/carbonate_mudstone"
+    }
+  ],
+  "exactMatch": [
     {
-      "id": "http://resource.geosciml.org/classifier/cgi/lithology/mudstone"
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/carbonateMudstone"
     }
   ],
   "inScheme": [

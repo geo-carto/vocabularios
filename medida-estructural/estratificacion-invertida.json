@@ -2,12 +2,17 @@
   "id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-invertida",
   "type": "Concept",
   "prefLabel": {
+    "es": "estratificación invertida",
+    "en": "Overturned bedding"
+  },
+  "definition": {
     "es": "estratificación invertida"
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion",
     "prefLabel": {
-      "es": "estratificación"
+      "es": "estratificación",
+      "en": "strike"
     }
   },
   "inScheme": [

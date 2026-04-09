@@ -9,7 +9,13 @@
     "es": "Roca volcánica básica o intermedia, alcalina, con plagioclasa cálcica y piroxeno como minerales principales. la variedad sódica recibe el nombre de mugearita y la potásica, de shoshonita",
     "en": "Basic or intermediate, alkaline volcanic rock, with calcic plagioclase and pyroxene as principal minerals. The sodic variety is called mugearite and the potassic variety, shoshonite"
   },
-  "broadMatch": [
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/andesite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/andesite"
+    },
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/latiticRock"
     },

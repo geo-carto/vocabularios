@@ -9,7 +9,13 @@
     "es": "Monzodiorita o monzogabro con altos contenidos en mgo y k2o. también cuarzomonzodiorita o cuarzomonzogabro, aunque existen términos transicionales a monzonita y monzosienita",
     "en": "Monzodiorite or monzogabbro with high MgO and K2O content. Also quartz monzodiorite or quartz monzogabbro, although there are transitional terms to monzonite and monzosyenite"
   },
-  "broadMatch": [
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/monzogabbroicRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/monzogabbroic_rock"
+    },
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/monzodioriticRock"
     },

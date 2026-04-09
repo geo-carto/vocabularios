@@ -9,7 +9,13 @@
     "es": "Roca volcánica básica, alcalina, variedad potásica del traquibasalto",
     "en": "Basic, alkaline volcanic rock, potassic variety of trachybasalt"
   },
-  "broadMatch": [
+  "relatedMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/basalt"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/basalt"
+    },
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/latiticRock"
     },

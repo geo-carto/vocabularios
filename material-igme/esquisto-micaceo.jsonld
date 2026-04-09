@@ -14,12 +14,18 @@
     "es": "Esquisto rico en mica, derivado de un protolito pelítico",
     "en": "Mica-rich schist derived from a pelitic protolith"
   },
-  "broadMatch": [
+  "relatedMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/foliatedMetamorphicRock"
     },
     {
+      "id": "http://inspire.ec.europa.eu/codelist/LithologyValue/micaSchist"
+    },
+    {
       "id": "http://resource.geosciml.org/classifier/cgi/lithology/foliated_metamorphic_rock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/mica_schist"
     }
   ],
   "inScheme": [
