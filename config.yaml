@@ -11,8 +11,8 @@ searchableAttributes:
   - "example"
   - "definition"
 ui:
-  title: "Vocabularios - Geología" # Title is mandatory
-  logo: "https://geo-carto.github.io/vocabularios/logoIGME.png" # Path
+  title: "Repositorio de Vocabularios" # Title is mandatory
+  logo: "https://geo-carto.github.io/vocabularios/logo.png" # Path
   colors:
     skoHubWhite: "rgb(255, 255, 255)"
     skoHubDarkColor: "rgb(15, 85, 75)"
@@ -27,13 +27,13 @@ ui:
     skoHubLightGrey: "rgb(235, 235, 235)"
   fonts:
     regular:
-      font_family: "Ubuntu"
+      font_family: "Roboto"
       font_style: "normal"
       font_weight: 400
-      name: "ubuntu-v20-latin-regular"
+      name: "roboto-regular"
     bold:
-      font_family: "Ubuntu"
+      font_family: "Roboto"
       font_style: "normal"
       font_weight: 700
-      name: "ubuntu-v20-latin-700"
+      name: "roboto-bold"
 
