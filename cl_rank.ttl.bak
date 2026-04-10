@@ -222,7 +222,7 @@
     dcterms:description "Términos que clasifican la unidad geológica en una jerarquía de generalización, desde la más local/de menor volumen hasta la más regional/de mayor volumen."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
-    dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME." ;
+    dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     owl:versionInfo "1.0.0" ;
     skos:definition "The property rank:RankTerm contains a term that classifies the geologic unit in a generalization hierarchy from most local/smallest volume to most regional/largest."@en,
