@@ -15,7 +15,8 @@ ui:
   logo: "https://geo-carto.github.io/vocabularios/logo.png" # Path
   colors:
     skoHubWhite: "rgb(255, 255, 255)"
-    skoHubDarkColor: "rgb(15, 85, 75)"
+    #skoHubDarkColor: "rgb(15, 85, 75)"
+    skoHubDarkColor: "rgb(66, 37, 37)"
     skoHubMiddleColor: "rgb(20, 150, 140)"
     skoHubLightColor: "rgb(40, 200, 175)"
     skoHubThinColor: "rgb(55, 250, 210)"
@@ -36,4 +37,10 @@ ui:
       font_style: "normal"
       font_weight: 700
       name: "roboto-bold"
-
+  footer:
+      links:
+        - title: "IGME-CSIC"
+          url: "https://www.igme.es"
+          target: "_blank"
+        - title: "Contacto"
+          url: "mailto:vocabularios@igme.es"
