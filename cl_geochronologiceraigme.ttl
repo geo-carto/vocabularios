@@ -890,7 +890,7 @@
 <https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-medio> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    owl:deprecated "True" ;
+    owl:deprecated true ;
     skos:altLabel "Ionian,Chibanian"@en,
         "Ioniense, Chibaniense"@es ;
     skos:changeNote "ICS: sustituido por Chibaniense"@es ;

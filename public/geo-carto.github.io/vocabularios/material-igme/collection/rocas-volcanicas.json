@@ -1,0 +1,620 @@
+{
+  "id": "https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-volcanicas",
+  "type": "Collection",
+  "prefLabel": {
+    "es": "Rocas Volcánicas"
+  },
+  "member": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/absarokita",
+      "prefLabel": {
+        "en": "absarokite",
+        "es": "absarokita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/andesita",
+      "prefLabel": {
+        "en": "andesite",
+        "es": "andesita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/andesita-basaltica",
+      "prefLabel": {
+        "en": "basaltic andesite",
+        "es": "andesita basáltica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/ankaramita",
+      "prefLabel": {
+        "en": "ankaramite",
+        "es": "ankaramita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/ankaratrita",
+      "prefLabel": {
+        "en": "ankaratrite",
+        "es": "ankaratrita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/basalto",
+      "prefLabel": {
+        "en": "basalt",
+        "es": "basalto"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/basalto-alcalino",
+      "prefLabel": {
+        "en": "alkaline basalt",
+        "es": "basalto alcalino"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/basalto-picritico",
+      "prefLabel": {
+        "en": "picritic basalt",
+        "es": "basalto picrítico"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/basalto-toleitico",
+      "prefLabel": {
+        "en": "tholeiitic basalt",
+        "es": "basalto toleítico"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/basanita",
+      "prefLabel": {
+        "en": "basanite",
+        "es": "basanita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/basanita-fonolitica",
+      "prefLabel": {
+        "en": "phonolitic basanite",
+        "es": "basanita fonolítica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/benmoreita",
+      "prefLabel": {
+        "en": "benmoreite",
+        "es": "benmoreíta"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/brecha-autoclastica",
+      "prefLabel": {
+        "en": "autoclastic breccia",
+        "es": "brecha autoclástica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/brecha-volcanica",
+      "prefLabel": {
+        "en": "volcanic breccia",
+        "es": "brecha volcánica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/comendita",
+      "prefLabel": {
+        "en": "comendite",
+        "es": "comendita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/cuarzolatita",
+      "prefLabel": {
+        "en": "quartz latite",
+        "es": "cuarzolatita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/cuarzotraquita",
+      "prefLabel": {
+        "en": "quartz trachyte",
+        "es": "cuarzotraquita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/cuarzotraquita-de-feldespato-alcalino",
+      "prefLabel": {
+        "en": "alkali feldspar quartz trachyte",
+        "es": "cuarzotraquita de feldespato alcalino"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/dacita",
+      "prefLabel": {
+        "en": "dacite",
+        "es": "dacita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/espilita",
+      "prefLabel": {
+        "en": "spilite",
+        "es": "espilita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/foidita",
+      "prefLabel": {
+        "en": "foidite",
+        "es": "foidita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/foidita-basanitica",
+      "prefLabel": {
+        "en": "basanitic foidite",
+        "es": "foidita basanítica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/foidita-fonolitica",
+      "prefLabel": {
+        "en": "phonolitic foidite",
+        "es": "foidita fonolítica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/foidita-tefritica",
+      "prefLabel": {
+        "en": "tephritic foidite",
+        "es": "foidita tefrítica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/fonolita",
+      "prefLabel": {
+        "en": "phonolite",
+        "es": "fonolita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/fonolita-tefritica",
+      "prefLabel": {
+        "en": "tephritic phonolite",
+        "es": "fonolita tefrítica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/hawaiita",
+      "prefLabel": {
+        "en": "hawaiite",
+        "es": "hawaiita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/italita",
+      "prefLabel": {
+        "en": "italite",
+        "es": "italita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/latita",
+      "prefLabel": {
+        "en": "latite",
+        "es": "latita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/latita-con-foides",
+      "prefLabel": {
+        "en": "foid-bearing latite",
+        "es": "latita con foides"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/lava",
+      "prefLabel": {
+        "en": "lava",
+        "es": "lava"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/lava-almohadillada",
+      "prefLabel": {
+        "en": "pillow lava",
+        "es": "lava almohadillada"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/limburgita",
+      "prefLabel": {
+        "en": "limburgite",
+        "es": "limburgita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/mugearita",
+      "prefLabel": {
+        "en": "mugearite",
+        "es": "mugearita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/nefelinita",
+      "prefLabel": {
+        "en": "nephelinite",
+        "es": "nefelinita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/obsidiana",
+      "prefLabel": {
+        "en": "obsidian",
+        "es": "obsidiana"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/oceanita",
+      "prefLabel": {
+        "en": "oceanite",
+        "es": "oceanita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/pantelerita-pantellerita",
+      "prefLabel": {
+        "en": "pantellerite",
+        "es": "pantelerita pantellerita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/riodacita",
+      "prefLabel": {
+        "en": "rhyodacite",
+        "es": "riodacita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/riolita",
+      "prefLabel": {
+        "en": "rhyolite",
+        "es": "riolita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/riolita-de-feldespato-alcalino",
+      "prefLabel": {
+        "en": "alkali feldspar rhyolite",
+        "es": "riolita de feldespato alcalino"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-andesitica",
+      "prefLabel": {
+        "en": "andesitic rock",
+        "es": "roca andesítica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-basaltica",
+      "prefLabel": {
+        "en": "basaltic rock",
+        "es": "roca basáltica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-dacitica",
+      "prefLabel": {
+        "en": "dacitic rock",
+        "es": "roca dacítica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-foidica",
+      "prefLabel": {
+        "en": "foidic rock",
+        "es": "roca foídica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-fonolitica",
+      "prefLabel": {
+        "en": "phonolitic rock",
+        "es": "roca fonolítica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-latitica",
+      "prefLabel": {
+        "en": "latitic rock",
+        "es": "roca latítica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-riolitica",
+      "prefLabel": {
+        "en": "rhyolitic rock",
+        "es": "roca riolítica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-tefritica",
+      "prefLabel": {
+        "en": "tephritic rock",
+        "es": "roca tefrítica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-traquitica",
+      "prefLabel": {
+        "en": "trachytic rock",
+        "es": "roca traquítica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/roca-traquitica-de-feldespato-alcalino",
+      "prefLabel": {
+        "en": "alkali feldspar trachytic rock",
+        "es": "roca traquítica de feldespato alcalino"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/shoshonita",
+      "prefLabel": {
+        "en": "shoshonite",
+        "es": "shoshonita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/taquilita",
+      "prefLabel": {
+        "en": "tachylite",
+        "es": "taquilita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/tefrita",
+      "prefLabel": {
+        "en": "tephrite",
+        "es": "tefrita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/tefrita-fonolitica",
+      "prefLabel": {
+        "en": "phonolitic tephrite",
+        "es": "tefrita fonolítica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/tefritoide",
+      "prefLabel": {
+        "en": "tephritoid",
+        "es": "tefritoide"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/traquiandesita",
+      "prefLabel": {
+        "en": "trachyandesite",
+        "es": "traquiandesita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/traquiandesita-basaltica",
+      "prefLabel": {
+        "en": "basaltic trachyandesite",
+        "es": "traquiandesita basáltica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/traquibasalto",
+      "prefLabel": {
+        "en": "trachybasalt",
+        "es": "traquibasalto"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/traquibasalto-potasico",
+      "prefLabel": {
+        "en": "potassic trachybasalt",
+        "es": "traquibasalto potásico"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/traquidacita",
+      "prefLabel": {
+        "en": "trachydacite",
+        "es": "traquidacita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/traquita",
+      "prefLabel": {
+        "en": "trachyte",
+        "es": "traquita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/traquita-alcalina",
+      "prefLabel": {
+        "en": "alkaline trachyte",
+        "es": "traquita alcalina"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/traquita-con-foides",
+      "prefLabel": {
+        "en": "foid-bearing trachyte",
+        "es": "traquita con foides"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/traquita-de-feldespato-alcalino-con-foides",
+      "prefLabel": {
+        "en": "alkali feldspar foid-bearing trachyte",
+        "es": "traquita de feldespato alcalino con foides"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/material-igme/traquitoide",
+      "prefLabel": {
+        "en": "trachytoid",
+        "es": "traquitoide"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

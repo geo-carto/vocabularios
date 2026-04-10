@@ -1,0 +1,326 @@
+{
+  "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection/roles-jerarquicos-de-unidad-geologica",
+  "type": "Collection",
+  "prefLabel": {
+    "es": "Roles jerárquicos de unidad geológica"
+  },
+  "member": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/balsas",
+      "prefLabel": {
+        "en": "rafts",
+        "es": "balsas"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloque-tectonico",
+      "prefLabel": {
+        "en": "tectonic block",
+        "es": "bloque tectónico"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloques",
+      "prefLabel": {
+        "en": "blocks",
+        "es": "bloques"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-guia",
+      "prefLabel": {
+        "en": "marker bed",
+        "es": "capa guía"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-litologica",
+      "prefLabel": {
+        "en": "bed lithosome",
+        "es": "capa litológica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/concrecion",
+      "prefLabel": {
+        "en": "concretion",
+        "es": "concreción"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/cortina",
+      "prefLabel": {
+        "en": "screen",
+        "es": "cortina"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/dique-o-vena",
+      "prefLabel": {
+        "en": "vein or dike lithosome",
+        "es": "dique o vena"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/enclave",
+      "prefLabel": {
+        "en": "enclave",
+        "es": "enclave"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/facies",
+      "prefLabel": {
+        "en": "facies",
+        "es": "facies"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion",
+      "prefLabel": {
+        "en": "inclusion",
+        "es": "inclusión"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma",
+      "prefLabel": {
+        "en": "lithosome",
+        "es": "litosoma"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-estratificado",
+      "prefLabel": {
+        "en": "layer lithosome",
+        "es": "litosoma estratificado"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-irregular",
+      "prefLabel": {
+        "en": "irregular lithosome",
+        "es": "litosoma irregular"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-lenticular",
+      "prefLabel": {
+        "en": "lenticular lithosome",
+        "es": "litosoma lenticular"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/matriz-de-unidad-geologica",
+      "prefLabel": {
+        "en": "geologic unit matrix",
+        "es": "matriz de unidad geológica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/paquete-sedimentario-ciclico",
+      "prefLabel": {
+        "en": "cyclic bedding package",
+        "es": "paquete sedimentario cíclico"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de",
+      "prefLabel": {
+        "en": "part of",
+        "es": "parte de"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica",
+      "prefLabel": {
+        "en": "stratigraphic part",
+        "es": "parte estratigráfica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazo-de-techo",
+      "prefLabel": {
+        "en": "roof pendant",
+        "es": "retazo de techo"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazos",
+      "prefLabel": {
+        "en": "pendants",
+        "es": "retazos"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte",
+      "prefLabel": {
+        "en": "unspecified part role",
+        "es": "rol no especificado de una parte"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte",
+      "prefLabel": {
+        "en": "only part",
+        "es": "solo una parte"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/xenolito",
+      "prefLabel": {
+        "en": "xenolith",
+        "es": "xenolito"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}
