@@ -1,4 +1,5 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -4114,5 +4115,6 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica/megalayense/edad-cronoestratigrafica>,
         <https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-medio> ;
     skos:prefLabel "Geochronologic Era"@en,
-        "Edad Geológica IGME"@es .
+        "Edad Geológica IGME"@es ;
+    dcat:theme "GE" .
 

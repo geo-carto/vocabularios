@@ -1,4 +1,5 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -2579,5 +2580,6 @@
         <https://geo-carto.github.io/vocabularios/evento-ambiente/salina>,
         <https://geo-carto.github.io/vocabularios/evento-ambiente/semi-graben> ;
     skos:prefLabel "Event Environment"@en,
-        "Ambiente asociado a evento"@es .
+        "Ambiente asociado a evento"@es ;
+    dcat:theme "GE" .
 

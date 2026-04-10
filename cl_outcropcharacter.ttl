@@ -1,4 +1,5 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -139,5 +140,6 @@
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento>,
         <https://geo-carto.github.io/vocabularios/afloramiento-caracter/sin-afloramiento> ;
     skos:prefLabel "Outcrop character"@en,
-        "Carácter del afloramiento"@es .
+        "Carácter del afloramiento"@es ;
+    dcat:theme "GE" .
 

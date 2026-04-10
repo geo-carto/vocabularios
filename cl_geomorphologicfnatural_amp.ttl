@@ -1,4 +1,5 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -6226,5 +6227,6 @@
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/vertiente-montañosa> ;
     skos:prefLabel "Geomorphological natural feature - extended"@en,
-        "Objeto geomorfológico natural - ampliado"@es .
+        "Objeto geomorfológico natural - ampliado"@es ;
+    dcat:theme "GE" .
 

@@ -1,4 +1,5 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -97,5 +98,6 @@
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-de-la-roca-madre>,
         <https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-del-basamento> ;
     skos:prefLabel "Mapping frame"@en,
-        "Marco de cartografiado"@es .
+        "Marco de cartografiado"@es ;
+    dcat:theme "GE" .
 

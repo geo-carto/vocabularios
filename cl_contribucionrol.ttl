@@ -1,4 +1,5 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -205,5 +206,6 @@
         <https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-científico>,
         <https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-informacion-digital> ;
     skos:prefLabel "Contributor role"@en,
-        "Rol de contribuyente"@es .
+        "Rol de contribuyente"@es ;
+    dcat:theme "TE" .
 

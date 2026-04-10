@@ -1,4 +1,5 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -306,5 +307,6 @@
     skos:editorialNote "Este archivo contiene el vocabulario Tipo de unidad geológica."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica> ;
     skos:prefLabel "Geologic unit type"@en,
-        "Tipo de unidad geológica"@es .
+        "Tipo de unidad geológica"@es ;
+    dcat:theme "GE" .
 

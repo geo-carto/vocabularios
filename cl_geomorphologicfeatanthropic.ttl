@@ -1,4 +1,5 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -260,5 +261,6 @@
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/tierra-recuperada>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/vertedero> ;
     skos:prefLabel "Geomorphological anthropogenic feature"@en,
-        "Objeto geomorfológico antrópico"@es .
+        "Objeto geomorfológico antrópico"@es ;
+    dcat:theme "GE" .
 

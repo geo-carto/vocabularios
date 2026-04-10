@@ -1,4 +1,5 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -159,5 +160,6 @@
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/alteracion-tipo/alteracion-no-especificada>,
         <https://geo-carto.github.io/vocabularios/alteracion-tipo/no-alterada> ;
     skos:prefLabel "Alteration type"@en,
-        "Tipo de alteración"@es .
+        "Tipo de alteración"@es ;
+    dcat:theme "GE" .
 

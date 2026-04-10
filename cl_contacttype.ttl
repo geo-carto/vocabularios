@@ -1,4 +1,5 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -577,5 +578,6 @@
     skos:editorialNote "Este archivo contiene el vocabulario Tipo de contacto."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
     skos:prefLabel "Contact type"@en,
-        "Tipo de contacto"@es .
+        "Tipo de contacto"@es ;
+    dcat:theme "GE" .
 

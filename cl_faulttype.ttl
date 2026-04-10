@@ -1,4 +1,5 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -407,5 +408,6 @@
     skos:editorialNote "Este archivo contiene el vocabulario Tipo de falla."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/falla-tipo/falla> ;
     skos:prefLabel "Fault type"@en,
-        "Tipo de falla"@es .
+        "Tipo de falla"@es ;
+    dcat:theme "GE" .
 

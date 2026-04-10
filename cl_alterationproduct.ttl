@@ -1,4 +1,5 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -278,5 +279,6 @@
     skos:editorialNote "Este archivo contiene el vocabulario Producto de alteración."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/alteracion-producto/regolito> ;
     skos:prefLabel "Alteration product"@en,
-        "Producto de alteración"@es .
+        "Producto de alteración"@es ;
+    dcat:theme "GE" .
 

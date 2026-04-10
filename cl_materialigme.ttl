@@ -1,4 +1,5 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -12833,5 +12834,6 @@
         <https://geo-carto.github.io/vocabularios/material-igme/yeso-anhidrita>,
         <https://geo-carto.github.io/vocabularios/material-igme/yesoarenita> ;
     skos:prefLabel "Material IGME"@en,
-        "Material IGME"@es .
+        "Material IGME"@es ;
+    dcat:theme "GE" .
 

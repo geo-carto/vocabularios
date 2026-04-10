@@ -1,4 +1,5 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -127,5 +128,6 @@
         <https://geo-carto.github.io/vocabularios/estratificacion-grosor/metrica>,
         <https://geo-carto.github.io/vocabularios/estratificacion-grosor/milimetrica> ;
     skos:prefLabel "Bedding thickness"@en,
-        "Grosor de estratificación"@es .
+        "Grosor de estratificación"@es ;
+    dcat:theme "GE" .
 
