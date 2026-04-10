@@ -9,6 +9,225 @@
     "en": "Geomorphologic landscapes and landforms related to regional or local bedrock structures, or crustal movement; and geomorphologic landscapes and landforms related dominantly to water erosion but excluding perennial, channel flow (i.e. fluvial, glaciofluvial), or eolian erosion.",
     "es": "Paisajes geomorfológicos y formas del relieve resultantes de estructuras regionales o locales de roca o de movimientos tectónicos o corticales; asimismo, paisajes geomorfológicos y formas de relieve de origen tectónico o exhumados predominantemente por la erosión del agua, con exclusión de las corrientes canalizadas perennes (es decir, fluviales o glaciofluviales), o por la erosión eólica."
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/alineacion-morfologica-con-control-estructural",
+      "prefLabel": {
+        "en": "structurally controlled morphological alignment",
+        "es": "alineación morfológica con control estructural"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/basculamiento",
+      "prefLabel": {
+        "en": "tilting",
+        "es": "basculamiento"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cerro-conico",
+      "prefLabel": {
+        "en": "conical hill",
+        "es": "cerro cónico"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cresta-barra",
+      "prefLabel": {
+        "en": "ridge; bar",
+        "es": "cresta; barra"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/escarpe-de-contacto-diapirico",
+      "prefLabel": {
+        "en": "diapiric contact scarp",
+        "es": "escarpe de contacto diapírico"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/escarpe-de-contacto-intrusivo",
+      "prefLabel": {
+        "en": "intrusive contact scarp",
+        "es": "escarpe de contacto intrusivo"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/escarpe-de-linea-de-falla",
+      "prefLabel": {
+        "en": "fault-line scarp",
+        "es": "escarpe de línea de falla"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/escarpe-estructural",
+      "prefLabel": {
+        "en": "structural scarp",
+        "es": "escarpe estructural"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/facetas-triangulares-de-escarpe-de-falla",
+      "prefLabel": {
+        "en": "triangular facets of fault scarp",
+        "es": "facetas triangulares de escarpe de falla"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/falla",
+      "prefLabel": {
+        "en": "fault",
+        "es": "falla"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/falla-en-direccion-desgarre",
+      "prefLabel": {
+        "en": "strike-slip fault",
+        "es": "falla en dirección; desgarre"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/falla-inversa-frente-de-cabalgamiento",
+      "prefLabel": {
+        "en": "reverse fault; thrust front",
+        "es": "falla inversa; frente de cabalgamiento"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/falla-normal-con-indicacion-de-labio-hundido",
+      "prefLabel": {
+        "en": "normal fault with downthrown side indication",
+        "es": "falla normal con indicación de labio hundido"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/falla-supuesta",
+      "prefLabel": {
+        "en": "inferred fault",
+        "es": "falla supuesta"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/flexion-monoclinal",
+      "prefLabel": {
+        "en": "monoclinal flexure",
+        "es": "flexión monoclinal"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/frente-montanyoso-lineal",
+      "prefLabel": {
+        "en": "linear mountain front",
+        "es": "frente montañoso lineal"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/linea-de-capa-con-indicacion-de-buzamiento",
+      "prefLabel": {
+        "en": "bedding trace with dip indication",
+        "es": "línea de capa con indicación de buzamiento"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/relieve-conforme-anticlinal-mont",
+      "prefLabel": {
+        "en": "anticlinal conform relief; mont",
+        "es": "relieve conforme anticlinal; mont"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/relieve-conforme-sinclinal-val",
+      "prefLabel": {
+        "en": "synclinal conform relief; val",
+        "es": "relieve conforme sinclinal; val"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/relieve-invertido",
+      "prefLabel": {
+        "en": "inverted relief",
+        "es": "relieve invertido"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/resalte-de-capas-subverticales",
+      "prefLabel": {
+        "en": "ledge of subvertical layers",
+        "es": "resalte de capas subverticales"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/resalte-de-diques",
+      "prefLabel": {
+        "en": "dyke ridge",
+        "es": "resalte de diques"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/resalte-en-capas-horizontales",
+      "prefLabel": {
+        "en": "ledge in horizontal layers",
+        "es": "resalte en capas horizontales"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/resalte-en-capas-inclinadas-chevrons",
+      "prefLabel": {
+        "en": "inclined layer ledge; chevrons",
+        "es": "resalte en capas inclinadas; chevrons"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/rumbo-e-inclinacion-o-buzamiento",
+      "prefLabel": {
+        "en": "strike and dip",
+        "es": "rumbo e inclinación o buzamiento"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-estructural-degradada",
+      "prefLabel": {
+        "en": "degraded structural surface",
+        "es": "superficie estructural degradada"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-estructural-exhumada",
+      "prefLabel": {
+        "en": "exhumed structural surface",
+        "es": "superficie estructural (exhumada)"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-subestructural-terminal",
+      "prefLabel": {
+        "en": "substructural surface",
+        "es": "superficie subestructural (terminal)"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/valle-de-fractura",
+      "prefLabel": {
+        "en": "fracture valley",
+        "es": "valle de fractura"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/zona-intensamente-fracturada",
+      "prefLabel": {
+        "en": "intensely fractured zone",
+        "es": "zona intensamente fracturada"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-geomorfologico-natural",
+    "prefLabel": {
+      "en": "natural geomorphologic feature",
+      "es": "objeto geomorfológico natural"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/tectonicStructural"
@@ -16,19 +235,16 @@
   ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
-  "topConceptOf": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
-    }
-  ],
+  "created": "2026-03-01",
+  "status": "Válido",
   "@context": {
     "@version": 1.1,
     "id": "@id",
@@ -74,7 +290,13 @@
       "@type": "xsd:date"
     },
     "creator": "dct:creator",
+    "contributor": "dct:contributor",
+    "provenance": "dct:provenance",
     "publisher": "dct:publisher",
+    "versionInfo": "owl:versionInfo",
+    "status": {
+      "@id": "http://www.w3.org/ns/adms#status"
+    },
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",

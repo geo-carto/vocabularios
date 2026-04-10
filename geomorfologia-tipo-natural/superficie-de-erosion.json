@@ -9,6 +9,190 @@
     "en": "Geomorphologic landscapes and landforms related dominantly to water erosion but excluding perennial channel flow (i.e. fluvial, glaciofluvial) or eolian erosion.",
     "es": "Paisajes geomorfológicos y formas del relieve relacionados predominantemente con la erosión del agua, con exclusión de las corrientes canalizadas perennes (es decir, fluviales, glaciofluviales), o a la erosión eólica."
   },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cerro-conico",
+      "prefLabel": {
+        "en": "conical hill",
+        "es": "cerro cónico"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cerro-conico-poligenetico",
+      "prefLabel": {
+        "en": "conical hill",
+        "es": "cerro cónico poligenético"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cerro-ruiniforme-caos-de-bloques",
+      "prefLabel": {
+        "en": "ruiniform hill; block chaos",
+        "es": "cerro ruiniforme poligenetico"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/collado",
+      "prefLabel": {
+        "en": "pass; col",
+        "es": "collado; puerto; col"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/collado-poligenetico",
+      "prefLabel": {
+        "en": "pass; col",
+        "es": "collado poligenetico"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/depresion-cerrada-o-semicerrada-de-origen-mixto",
+      "prefLabel": {
+        "en": "closed or semi-closed depression of mixed origin",
+        "es": "depresión cerrada o semicerrada de origen mixto"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/domo",
+      "prefLabel": {
+        "en": "dome",
+        "es": "domo"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/escarpe",
+      "prefLabel": {
+        "en": "scarp",
+        "es": "escarpe"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/fondo-de-valle-de-origen-mixto",
+      "prefLabel": {
+        "en": "mixed-origin valley floor",
+        "es": "fondo de valle de origen mixto"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/glacis-de-cobertera-pedimento-cubierto-glacis-mixto",
+      "prefLabel": {
+        "en": "covered glacis; covered pediment",
+        "es": "glacis de cobertera; pedimento cubierto; glacis mixto"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/glacis-de-erosion-pediment",
+      "prefLabel": {
+        "en": "erosion glacis; pediment",
+        "es": "glacis de erosión; pediment"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/glacis-de-vertiente-glacis-coluvial",
+      "prefLabel": {
+        "en": "slope glacis; colluvial glacis",
+        "es": "glacis de vertiente; glacis coluvial"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/hombrera",
+      "prefLabel": {
+        "en": "shoulder; bench",
+        "es": "hombrera; rellano"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/hombrera-poligenetica",
+      "prefLabel": {
+        "en": "shoulder; bench",
+        "es": "hombrera poligenética"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/monte-isla-relieve-aislado-inselberg",
+      "prefLabel": {
+        "en": "inselberg",
+        "es": "monte isla, relieve aislado; inselberg"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/monticulo-loma",
+      "prefLabel": {
+        "en": "hillock; knoll",
+        "es": "montículo; loma"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/otros-depositos",
+      "prefLabel": {
+        "en": "other deposits",
+        "es": "otros depósitos"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/pico-principal-aguja-horn",
+      "prefLabel": {
+        "en": "main peak; horn",
+        "es": "pico principal; aguja; horn"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/reborde-de-deposito-glacis",
+      "prefLabel": {
+        "en": "deposit edge (glacis)",
+        "es": "reborde de depósito (glacis)"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/relieve-residual-monadnok",
+      "prefLabel": {
+        "en": "residual relief; monadnock",
+        "es": "relieve residual; monadnok"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-cumbres-cresta-apalachiana",
+      "prefLabel": {
+        "en": "summit surface; Appalachian ridge",
+        "es": "superficie de cumbres; cresta apalachiana"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion",
+      "prefLabel": {
+        "en": "erosion surface",
+        "es": "superficie de erosión"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion-con-alterita",
+      "prefLabel": {
+        "en": "erosion surface with alterite",
+        "es": "superficie de erosión con alterita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion-degradada",
+      "prefLabel": {
+        "en": "degraded erosion surface",
+        "es": "superficie de erosión degradada"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion-poligenetica",
+      "prefLabel": {
+        "en": "erosion surface",
+        "es": "superficie de erosión poligenética"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/techo-de-piedemonte-ranya",
+      "prefLabel": {
+        "en": "piedmont surface; raña",
+        "es": "techo de piedemonte; raña"
+      }
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/erosionSurface"
@@ -16,19 +200,21 @@
   ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "topConceptOf": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
+  "created": "2026-03-01",
+  "status": "Válido",
   "@context": {
     "@version": 1.1,
     "id": "@id",
@@ -74,7 +260,13 @@
       "@type": "xsd:date"
     },
     "creator": "dct:creator",
+    "contributor": "dct:contributor",
+    "provenance": "dct:provenance",
     "publisher": "dct:publisher",
+    "versionInfo": "owl:versionInfo",
+    "status": {
+      "@id": "http://www.w3.org/ns/adms#status"
+    },
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",

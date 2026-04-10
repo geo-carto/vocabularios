@@ -36,16 +36,16 @@
   ],
   "relatedMatch": [
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lutetian"
-    },
-    {
-      "id": "http://resource.geosciml.org/classifier/ics/ischart/Lutetian"
-    },
-    {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ypresian"
     },
     {
       "id": "http://resource.geosciml.org/classifier/ics/ischart/Ypresian"
+    },
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lutetian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Lutetian"
     }
   ],
   "inScheme": [
@@ -58,6 +58,8 @@
       "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
     }
   ],
+  "created": "2026-03-01",
+  "status": "Válido",
   "@context": {
     "@version": 1.1,
     "id": "@id",
@@ -103,7 +105,13 @@
       "@type": "xsd:date"
     },
     "creator": "dct:creator",
+    "contributor": "dct:contributor",
+    "provenance": "dct:provenance",
     "publisher": "dct:publisher",
+    "versionInfo": "owl:versionInfo",
+    "status": {
+      "@id": "http://www.w3.org/ns/adms#status"
+    },
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",

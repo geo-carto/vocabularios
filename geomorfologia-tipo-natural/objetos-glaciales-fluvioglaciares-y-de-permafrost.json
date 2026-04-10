@@ -9,6 +9,13 @@
     "en": "Geomorphologic landscapes and landforms related to snow, non-glacial, cold climate environments; geomorphologic landscapes and landforms occurring in the vicinity of glaciers and ice sheets; geomorphologic landscapes and landforms related to ground, soil, or rock that remains at or below 0º C for at least two years.",
     "es": "Paisajes geomorfológicos y formas del relieve relativos a entornos de clima frío, con nieve, pero no glaciales; paisajes geomorfológicos y formas de relieve próximos a glaciares y placas de hielo; paisajes geomorfológicos y formas del relieve relativos a tierras, suelos o rocas que se mantienen a 0º C o menos durante dos años como mínimo."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-geomorfologico-natural",
+    "prefLabel": {
+      "en": "natural geomorphologic feature",
+      "es": "objeto geomorfológico natural"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/nivalPeriglacialPermafrost"
@@ -16,19 +23,16 @@
   ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
+      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp"
     }
   ],
-  "topConceptOf": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"
-    }
-  ],
+  "created": "2026-03-01",
+  "status": "Válido",
   "@context": {
     "@version": 1.1,
     "id": "@id",
@@ -74,7 +78,13 @@
       "@type": "xsd:date"
     },
     "creator": "dct:creator",
+    "contributor": "dct:contributor",
+    "provenance": "dct:provenance",
     "publisher": "dct:publisher",
+    "versionInfo": "owl:versionInfo",
+    "status": {
+      "@id": "http://www.w3.org/ns/adms#status"
+    },
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",

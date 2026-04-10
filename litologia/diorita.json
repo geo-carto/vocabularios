@@ -1,0 +1,194 @@
+{
+  "id": "https://geo-carto.github.io/vocabularios/litologia/diorita",
+  "type": "Concept",
+  "prefLabel": {
+    "en": "diorite",
+    "es": "diorita"
+  },
+  "definition": {
+    "en": "Phaneritic crystalline rock consisting of intermediate plagioclase, commonly with hornblende and often with biotite or augite; colour index m less than 90, sodic plagioclase (an0-an50), no feldspathoid, and between 0 and 5 percent quartz. includes rocks defined modally in qapf field 10 as diorite.",
+    "es": "Roca diorítica que contiene cuarzo en una proporción inferior al 5 por ciento, entre los componentes qapf. está compuesta por plagioclasa intermedia, comúnmente con horblenda y de manera frecuente con biotita o augita; contiene plagioclasa sódica (an0-an50). su índice de color m es inferior a 90. incluye a las rocas modalmente asignadas al campo 10 del diagrama qapf."
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/litologia/roca-dioritica",
+    "prefLabel": {
+      "en": "dioritic rock",
+      "es": "roca diorítica"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/Lithology/diorite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/diorite"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia"
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia"
+    }
+  ],
+  "created": "2026-03-01",
+  "status": "Válido",
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "contributor": "dct:contributor",
+    "provenance": "dct:provenance",
+    "publisher": "dct:publisher",
+    "versionInfo": "owl:versionInfo",
+    "status": {
+      "@id": "http://www.w3.org/ns/adms#status"
+    },
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

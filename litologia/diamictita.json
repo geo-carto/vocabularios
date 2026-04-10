@@ -1,0 +1,194 @@
+{
+  "id": "https://geo-carto.github.io/vocabularios/litologia/diamictita",
+  "type": "Concept",
+  "prefLabel": {
+    "en": "diamictite",
+    "es": "diamictita"
+  },
+  "definition": {
+    "en": "Unsorted or poorly sorted, clastic sedimentary rock with a wide range of particle sizes including a muddy matrix. biogenic materials that have such texture are excluded. distinguished from conglomerate, sandstone, mudstone based on polymodality and lack of structures related to transport and deposition of sediment by moving air or water. if more than 10 percent of the fine grained matrix is of indeterminant clastic or diagenetic origin and the fabric is matrix supported, may also be categorized as wacke.",
+    "es": "Roca sedimentaria clástica sin selección o mal seleccionada, de granulometría muy variada, con matriz lutítica. no incluye a los materiales biogénicos que tienen la misma textura. se diferencia de los conglomerados, las areniscas y las lutitas por la polimodalidad y la ausencia de estructuras relacionadas con su transporte y sedimentación por acción del aire o del agua. si no puede ser determinado el origen clástico o diagenético de más del 10 por ciento de la matriz de grano fino, y la fábrica es matriz soportada, puede ser considerada también como una grauvaca."
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/litologia/roca-sedimentaria-clastica",
+    "prefLabel": {
+      "en": "clastic sedimentary rock",
+      "es": "roca sedimentaria clástica"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/Lithology/diamictite"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/diamictite"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia"
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia"
+    }
+  ],
+  "created": "2026-03-01",
+  "status": "Válido",
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "contributor": "dct:contributor",
+    "provenance": "dct:provenance",
+    "publisher": "dct:publisher",
+    "versionInfo": "owl:versionInfo",
+    "status": {
+      "@id": "http://www.w3.org/ns/adms#status"
+    },
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}
