@@ -1,0 +1,196 @@
+{
+  "id": "https://geo-carto.github.io/vocabularios/file-type/pdfa1a",
+  "type": "Concept",
+  "prefLabel": {
+    "en": "PDF/A-1a",
+    "es": "PDF/A-1a"
+  },
+  "altLabel": {
+    "en": [
+      "PDF archiving format, Level A conformance"
+    ],
+    "es": [
+      "PDF archiving format, Level A conformance"
+    ]
+  },
+  "definition": {
+    "en": "PDF/A-1 is the Part 1 of the PDF standard and specifies two levels of conformance for PDF files. PDF/A-1a – Level A (accessible) conformance was intended to increase the accessibility of conforming files for physically impaired users by allowing assistive software, such as screen readers, to more precisely extract and interpret a file's contents.",
+    "es": "PDF/A-1 es la Parte 1 del estándar PDF y especifica dos niveles de conformidad para archivos PDF. PDF/A-1a – Conformidad de Nivel A (accesible) estaba destinada a aumentar la accesibilidad de los archivos conformes para usuarios con discapacidades físicas, permitiendo que el software de asistencia, como los lectores de pantalla, extraiga e interprete con mayor precisión el contenido de un archivo."
+  },
+  "notation": [
+    ".pdf",
+    "application/pdf"
+  ],
+  "exactMatch": [
+    {
+      "id": "https://www.iana.org/assignments/media-types/application/pdf"
+    },
+    {
+      "id": "http://publications.europa.eu/resource/authority/file-type/PDFA1A"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/file-type"
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/file-type"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/file-type"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

@@ -219,370 +219,7 @@
     skos:prefLabel "Geochronologic Era - All concepts"@en,
         "Edad Geológica IGME - Todos los conceptos"@es .
 
-<https://geo-carto.github.io/vocabularios/edad-geologica/collection/cgi-term> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:definition "Colección: CGI Term"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:member <https://geo-carto.github.io/vocabularios/edad-geologica/aaleniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/aeroniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/albiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/anisiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/aptiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/aquitaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/arcaico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/artinskiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/asseliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/bajociense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/barremiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/bartoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/bashkiriense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/bathoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/berriasiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/burdigaliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/calabriense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/calimico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/calloviense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cambrico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cambrico-piso-10>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cambrico-piso-2>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cambrico-piso-3>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cambrico-piso-4>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cambrico-serie-2>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/campaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/capitaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/carbonifero>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/carniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cenomaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cenozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/changhsingiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/chattiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/chibaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cisuraliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/coniaciense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cretacico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-inferior>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-superior>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/criogenico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cuaternario>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cuisiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/daniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/dapingiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/darriwiliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/devonico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/devonico-inferior>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/devonico-medio>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/devonico-superior>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/drumiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ectasico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ediacarico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/eifeliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/emsiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/eoarcaico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/eoceno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/estaterico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/estenico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/fameniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/fanerozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/floiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/fortuniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/frasniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/furongiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/gelasiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/givetiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/gorstiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/groenlandiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/guadalupiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/guzhangiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/gzheliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/hadico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/hauteriviense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/headoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/hettangiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/hirnantiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/holoceno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/homeriense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ilerdiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/induense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/jiangshaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/jurasico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-inferior>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-medio>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-superior>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/kaiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/kasimoviense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/kimmeridgiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/kunguriense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ladiniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/langhiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/llandovery>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/lochkoviense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/lopingiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ludfordiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ludlow>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/luteciense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/maastrichtiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/megalayense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/mesoarcaico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/mesoproterozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/mesozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/messiniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/miaolingiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/mioceno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense-inferior>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense-medio>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense-superior>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/moscoviense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/neoarcaico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/neogeno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/neoproterozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/norgripiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/noriense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/olenekiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/oligoceno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-inferior>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-medio>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-superior>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/orosirico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/oxfordiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/paibiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/paleoarcaico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/paleoceno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/paleogeno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/paleoproterozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/pennsylvaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/pennsylvaniense-superior>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/permico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/piacenziense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-medio>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-superior>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/pliensbachiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/plioceno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/pragiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/precambrico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/priaboniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/pridoli>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/proterozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/rhaetiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/rhuddaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/riacico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/roadiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/rupeliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/sakmariense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/sandbiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/santoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/selandiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/serpukhoviense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/serravalliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/sheinwoodiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/siderico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/silurico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/sinemuriense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/telychiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/terreneuviense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/thanetiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/titoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/toarciense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/tonico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/tortoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/tournaisiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/tremadociense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/triasico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/triasico-inferior>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/triasico-medio>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/triasico-superior>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/turoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/valanginiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/viseense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/wenlock>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/wordiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/wuchiapingiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/wuliuense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ypresiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/zancliense> ;
-    skos:prefLabel "CGI Term"@en .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/collection/inspire-term> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:definition "Colección: Inspire Term"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:member <https://geo-carto.github.io/vocabularios/edad-geologica/aaleniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/aeroniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/albiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/anisiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/aptiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/aquitaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/arcaico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/artinskiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/asseliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/bajociense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/barremiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/bartoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/bashkiriense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/bathoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/berriasiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/burdigaliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/calabriense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/calimico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/calloviense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cambrico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cambrico-piso-10>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cambrico-piso-2>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cambrico-piso-3>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cambrico-piso-4>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cambrico-serie-2>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/campaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/capitaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/carbonifero>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/carniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cenomaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cenozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/changhsingiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/chattiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cisuraliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/coniaciense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cretacico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/criogenico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/cuaternario>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/daniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/dapingiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/darriwiliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/devonico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/drumiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ectasico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ediacarico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/eifeliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/emsiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/eoarcaico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/eoceno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/estaterico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/estenico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/fameniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/fanerozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/floiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/fortuniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/frasniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/furongiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/gelasiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/givetiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/gorstiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/guadalupiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/guzhangiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/gzheliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/hadico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/hauteriviense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/hettangiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/hirnantiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/holoceno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/homeriense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/induense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/jiangshaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/jurasico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/kaiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/kasimoviense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/kimmeridgiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/kunguriense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ladiniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/langhiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/llandovery>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/lochkoviense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/lopingiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ludfordiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ludlow>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/luteciense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/maastrichtiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/mesoarcaico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/mesoproterozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/mesozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/messiniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/miaolingiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/mioceno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/moscoviense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/neoarcaico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/neogeno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/neoproterozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/noriense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/olenekiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/oligoceno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/orosirico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/oxfordiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/paibiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/paleoarcaico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/paleoceno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/paleogeno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/paleoproterozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/pennsylvaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/permico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/piacenziense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/pliensbachiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/plioceno>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/pragiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/precambrico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/priaboniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/pridoli>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/proterozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/rhaetiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/rhuddaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/riacico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/roadiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/sakmariense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/sandbiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/santoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/selandiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/serpukhoviense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/serravalliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/sheinwoodiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/siderico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/silurico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/sinemuriense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/telychiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/terreneuviense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/thanetiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/titoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/toarciense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/tonico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/tortoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/tournaisiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/tremadociense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/triasico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/turoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/valanginiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/viseense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/wenlock>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/wordiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/wuchiapingiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/wuliuense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ypresiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/zancliense> ;
-    skos:prefLabel "Inspire Term"@en .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/collection/regional> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:definition "Collection of terms of regional geologic ages."@en,
-        "Colección de términos de edades geológicas regionales."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:member <https://geo-carto.github.io/vocabularios/edad-geologica/ageniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/aragoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/arverniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/neustriense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/rambliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/rhenaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/rusciniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/sueviense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/turoliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/vallesiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/villafranquiense> ;
-    skos:prefLabel "Regional"@en,
-        "Regional"@es .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/collection/termino-cgi> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/edad-geologica/collection/coleccion-termino-cgi> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:definition "Collection of geological time terms of the International Chronostratigraphic Chart 2024"@en,
         "Colección de términos de edades geológicas pertenecientes al International Chronostratigraphic Chart 2024."@es ;
@@ -767,9 +404,10 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica/wuliuense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica/ypresiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica/zancliense> ;
-    skos:prefLabel "Término CGI"@es .
+    skos:prefLabel "Collection - CGI Term"@en,
+        "Colección - Término CGI"@es .
 
-<https://geo-carto.github.io/vocabularios/edad-geologica/collection/termino-inspire> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/edad-geologica/collection/coleccion-termino-inspire> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:definition "Collection of terms included in INSPIRE's controlled vocabulary geochronologiceravalue"@en,
         "Colección de términos del vocabulario controlado geochronologiceravalue de INSPIRE."@es ;
@@ -926,7 +564,27 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica/wuliuense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica/ypresiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica/zancliense> ;
-    skos:prefLabel "Término Inspire"@es .
+    skos:prefLabel "Collection - Inspire Term"@en,
+        "Colección - Término INSPIRE"@es .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/collection/coleccion-termino-regional> a skos:Collection ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:definition "Collection of terms of regional geologic ages."@en,
+        "Colección de términos de edades geológicas regionales."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:member <https://geo-carto.github.io/vocabularios/edad-geologica/ageniense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/aragoniense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/arverniense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/neustriense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/rambliense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/rhenaniense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/rusciniense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/sueviense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/turoliense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/vallesiense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/villafranquiense> ;
+    skos:prefLabel "Collection - Regional Term"@en,
+        "Colección - Término Regional"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
@@ -1065,6 +723,38 @@
         <http://resource.geosciml.org/classifier/ics/ischart/Rupelian> ;
     adms:status "Válido" .
 
+<https://geo-carto.github.io/vocabularios/edad-geologica/chibaniense> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:altLabel "Middle Pleistocene, Ionian"@en,
+        "Pleistoceno Medio, Ioniense"@es ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno> ;
+    skos:closeMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ionian> ;
+    skos:definition "Older bound 0.774 Ma, younger bound 0.129 Ma"@en,
+        "Límite inferior 0.774 Ma, límite superior 0.129 Ma"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Chibanian> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:notation "213030121000.0",
+        "a1.1.1.1.2.2" ;
+    skos:prefLabel "Chibanian"@en,
+        "Chibaniense"@es ;
+    adms:status "Válido" ;
+    sdo:color "#FFF2C7" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/cuisiense> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma> ;
+    skos:definition "Cuisiense"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:notation "213010203092.0" ;
+    skos:prefLabel "Cuisian"@en,
+        "Cuisiense"@es ;
+    skos:related <https://geo-carto.github.io/vocabularios/edad-geologica/ypresiense> ;
+    skos:relatedMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ypresian>,
+        <http://resource.geosciml.org/classifier/ics/ischart/Ypresian> ;
+    adms:status "Válido" .
+
 <https://geo-carto.github.io/vocabularios/edad-geologica/eoceno-medio> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
@@ -1084,6 +774,52 @@
         "Eoceno Medio"@es ;
     adms:status "Válido" .
 
+<https://geo-carto.github.io/vocabularios/edad-geologica/groenlandiense> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:broadMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/holocene> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/holoceno> ;
+    skos:definition "Older bound 0.0117 Ma, younger bound 0.0082 Ma"@en,
+        "Límite inferior 0.0117 Ma, límite superior 0.0082 Ma"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Greenlandian> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:notation "213030201000.0",
+        "a1.1.1.1.1.3" ;
+    skos:prefLabel "Greenlandian"@en,
+        "Groenlandiense"@es ;
+    adms:status "Válido" ;
+    sdo:color "#FEECDB" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/ilerdiense> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma> ;
+    skos:definition "Ilerdiense"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:notation "213010203091.0" ;
+    skos:prefLabel "Ilerdian"@en,
+        "Ilerdiense"@es ;
+    skos:related <https://geo-carto.github.io/vocabularios/edad-geologica/ypresiense> ;
+    skos:relatedMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ypresian>,
+        <http://resource.geosciml.org/classifier/ics/ischart/Ypresian> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/megalayense> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:broadMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/holocene> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/holoceno> ;
+    skos:definition "Older bound 0.0042 Ma, younger bound 0.0 Ma"@en,
+        "Límite inferior 0.0042 Ma, límite superior 0.0 Ma"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Meghalayan> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:notation "213030203000.0",
+        "a1.1.1.1.1.1" ;
+    skos:prefLabel "Meghalayan"@en,
+        "Megalayense"@es ;
+    adms:status "Válido" ;
+    sdo:color "#FDEDEC" .
+
 <https://geo-carto.github.io/vocabularios/edad-geologica/neustriense> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
@@ -1100,6 +836,22 @@
         <http://resource.geosciml.org/classifier/ics/ischart/Lutetian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Ypresian> ;
     adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/norgripiense> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:broadMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/holocene> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/holoceno> ;
+    skos:definition "Older bound 0.0082 Ma, younger bound 0.0042 Ma"@en,
+        "Límite inferior 0.0082 Ma, límite superior 0.0042 Ma"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Northgrippian> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:notation "213030202000.0",
+        "a1.1.1.1.1.2" ;
+    skos:prefLabel "Northgrippian"@en,
+        "Norgripiense"@es ;
+    adms:status "Válido" ;
+    sdo:color "#FDECE4" .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/pennsylvaniense-inferior> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
@@ -1134,6 +886,41 @@
         "Pennsylvaniense Medio"@es ;
     adms:status "Válido" ;
     sdo:color "#A6C7B7" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-medio> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    owl:deprecated "True" ;
+    skos:altLabel "Ionian,Chibanian"@en,
+        "Ioniense, Chibaniense"@es ;
+    skos:changeNote "ICS: sustituido por Chibaniense"@es ;
+    skos:closeMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ionian> ;
+    skos:definition "Older bound 0.774 Ma, younger bound 0.129 Ma"@en,
+        "Límite inferior 0.774 Ma, límite superior 0.129 Ma"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/MiddlePleistocene> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:notation "213030120000.0",
+        "a1.1.1.1.2.2" ;
+    skos:prefLabel "Middle Pleistocene"@en,
+        "Pleistoceno Medio"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    adms:status "Sustituido" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-superior> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:altLabel "Late Pleistocene"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno> ;
+    skos:definition "Older bound 0.129 Ma, younger bound 0.0117 Ma"@en,
+        "Límite inferior 0.129 Ma, límite superior 0.0117 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperPleistocene>,
+        <http://resource.geosciml.org/classifier/ics/ischart/UpperPleistocene> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:notation "213030130000.0",
+        "a1.1.1.1.2.1" ;
+    skos:prefLabel "Upper Pleistocene"@en,
+        "Pleistoceno Superior"@es ;
+    adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/plioceno-inferior> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
@@ -1285,257 +1072,6 @@
         <http://resource.geosciml.org/classifier/ics/ischart/Calabrian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Gelasian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Piacenzian> ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/chibaniense> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Middle Pleistocene, Ionian"@en,
-        "Pleistoceno Medio, Ioniense"@es ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno> ;
-    skos:closeMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ionian> ;
-    skos:definition "Older bound 0.774 Ma, younger bound 0.129 Ma"@en,
-        "Límite inferior 0.774 Ma, límite superior 0.129 Ma"@es ;
-    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Chibanian> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213030121000.0",
-        "a1.1.1.1.2.2" ;
-    skos:prefLabel "Chibanian"@en,
-        "Chibaniense"@es ;
-    adms:status "Válido" ;
-    sdo:color "#FFF2C7" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/cuisiense> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma> ;
-    skos:definition "Cuisiense"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010203092.0" ;
-    skos:prefLabel "Cuisian"@en,
-        "Cuisiense"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/edad-geologica/ypresiense> ;
-    skos:relatedMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ypresian>,
-        <http://resource.geosciml.org/classifier/ics/ischart/Ypresian> ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/groenlandiense> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broadMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/holocene> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/holoceno> ;
-    skos:definition "Older bound 0.0117 Ma, younger bound 0.0082 Ma"@en,
-        "Límite inferior 0.0117 Ma, límite superior 0.0082 Ma"@es ;
-    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Greenlandian> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213030201000.0",
-        "a1.1.1.1.1.3" ;
-    skos:prefLabel "Greenlandian"@en,
-        "Groenlandiense"@es ;
-    adms:status "Válido" ;
-    sdo:color "#FEECDB" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/ilerdiense> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma> ;
-    skos:definition "Ilerdiense"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010203091.0" ;
-    skos:prefLabel "Ilerdian"@en,
-        "Ilerdiense"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/edad-geologica/ypresiense> ;
-    skos:relatedMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ypresian>,
-        <http://resource.geosciml.org/classifier/ics/ischart/Ypresian> ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/megalayense> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broadMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/holocene> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/holoceno> ;
-    skos:definition "Older bound 0.0042 Ma, younger bound 0.0 Ma"@en,
-        "Límite inferior 0.0042 Ma, límite superior 0.0 Ma"@es ;
-    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Meghalayan> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213030203000.0",
-        "a1.1.1.1.1.1" ;
-    skos:prefLabel "Meghalayan"@en,
-        "Megalayense"@es ;
-    adms:status "Válido" ;
-    sdo:color "#FDEDEC" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/megalayense/edad-cronoestratigrafica> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:definition "Edad cronoestratigráfica"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/fanerozoico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/precambrico> ;
-    skos:prefLabel "Chronostratigraphic Ages"@en,
-        "Edad cronoestratigráfica"@es ;
-    skos:topConceptOf <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/mioceno-inferior> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Early Miocene"@en ;
-    skos:broadMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/miocene>,
-        <http://resource.geosciml.org/classifier/ics/ischart/Miocene> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/mioceno> ;
-    skos:definition "Mioceno Inferior"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrowMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aquitanian>,
-        <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/burdigalian>,
-        <http://resource.geosciml.org/classifier/ics/ischart/Aquitanian>,
-        <http://resource.geosciml.org/classifier/ics/ischart/Burdigalian> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/aquitaniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/burdigaliense> ;
-    skos:notation "213020110000.0" ;
-    skos:prefLabel "Lower Miocene"@en,
-        "Mioceno Inferior"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/norgripiense> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broadMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/holocene> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/holoceno> ;
-    skos:definition "Older bound 0.0082 Ma, younger bound 0.0042 Ma"@en,
-        "Límite inferior 0.0082 Ma, límite superior 0.0042 Ma"@es ;
-    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Northgrippian> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213030202000.0",
-        "a1.1.1.1.1.2" ;
-    skos:prefLabel "Northgrippian"@en,
-        "Norgripiense"@es ;
-    adms:status "Válido" ;
-    sdo:color "#FDECE4" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-inferior> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Early Pleistocene"@en ;
-    skos:broadMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pleistocene>,
-        <http://resource.geosciml.org/classifier/ics/ischart/Pleistocene> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno> ;
-    skos:definition "Pleistoceno Inferior"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrowMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/calabrian>,
-        <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/gelasian>,
-        <http://resource.geosciml.org/classifier/ics/ischart/Calabrian>,
-        <http://resource.geosciml.org/classifier/ics/ischart/Gelasian> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/calabriense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/gelasiense> ;
-    skos:notation "213030110000.0" ;
-    skos:prefLabel "Lower Pleistocene"@en,
-        "Pleistoceno Inferior"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-medio> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    owl:deprecated "True" ;
-    skos:altLabel "Ionian,Chibanian"@en,
-        "Ioniense, Chibaniense"@es ;
-    skos:changeNote "ICS: sustituido por Chibaniense"@es ;
-    skos:closeMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ionian> ;
-    skos:definition "Older bound 0.774 Ma, younger bound 0.129 Ma"@en,
-        "Límite inferior 0.774 Ma, límite superior 0.129 Ma"@es ;
-    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/MiddlePleistocene> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213030120000.0",
-        "a1.1.1.1.2.2" ;
-    skos:prefLabel "Middle Pleistocene"@en,
-        "Pleistoceno Medio"@es ;
-    skos:topConceptOf <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    adms:status "Sustituido" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-superior> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Late Pleistocene"@en ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno> ;
-    skos:definition "Older bound 0.129 Ma, younger bound 0.0117 Ma"@en,
-        "Límite inferior 0.129 Ma, límite superior 0.0117 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperPleistocene>,
-        <http://resource.geosciml.org/classifier/ics/ischart/UpperPleistocene> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213030130000.0",
-        "a1.1.1.1.2.1" ;
-    skos:prefLabel "Upper Pleistocene"@en,
-        "Pleistoceno Superior"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/headoniense> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma> ;
-    skos:definition "Older bound 37.2 Ma, younger bound 33.9 Ma"@en,
-        "Límite inferior 37.2 Ma, límite superior 33.9 Ma"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010207091.0" ;
-    skos:prefLabel "Headonian"@en,
-        "Headoniense"@es ;
-    skos:related <https://geo-carto.github.io/vocabularios/edad-geologica/bartoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/priaboniense> ;
-    skos:relatedMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/priabonian>,
-        <http://resource.geosciml.org/classifier/ics/ischart/Priabonian> ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense-inferior> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Early Mississippian"@en,
-        "Misisípico Inferior"@es ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense> ;
-    skos:closeMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tournaisian> ;
-    skos:definition "Older bound 358.9 +|-0.4 Ma, younger bound 346.7 +|-0.4 Ma"@en,
-        "Límite inferior 358.9 +|-0.4 Ma, límite superior 346.7 +|-0.4 Ma"@es ;
-    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/LowerMississippian> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/tournaisiense> ;
-    skos:notation "211051100000.0",
-        "x1.1.3.2.2.3" ;
-    skos:prefLabel "Lower Mississippian"@en,
-        "Mississippiense Inferior"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense-medio> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Misisípico Medio"@es ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense> ;
-    skos:closeMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/visean> ;
-    skos:definition "Older bound 346.7 +|-0.4 Ma, younger bound 330.9 +|-0.2 Ma"@en,
-        "Límite inferior 346.7 +|-0.4 Ma, límite superior 330.9 +|-0.2 Ma"@es ;
-    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/MiddleMississippian> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/viseense> ;
-    skos:notation "211051200000.0",
-        "x1.1.3.2.2.2" ;
-    skos:prefLabel "Middle Mississippian"@en,
-        "Mississippiense Medio"@es ;
-    adms:status "Válido" ;
-    sdo:color "#99B46C" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense-superior> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Late Mississippian"@en,
-        "Misisípico Superior"@es ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense> ;
-    skos:closeMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/serpukhovian> ;
-    skos:definition "Older bound 330.9 +|-0.2 Ma, younger bound 323.2 +|-0.4 Ma"@en,
-        "Límite inferior 330.9 +|-0.2 Ma, límite superior 323.2 +|-0.4 Ma"@es ;
-    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/UpperMississippian> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/serpukhoviense> ;
-    skos:notation "211051300000.0",
-        "x1.1.3.2.2.1" ;
-    skos:prefLabel "Upper Mississippian"@en,
-        "Mississippiense Superior"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/aaleniense> a skos:Concept ;
@@ -1956,42 +1492,6 @@
     adms:status "Válido" ;
     sdo:color "#74C69C" .
 
-<https://geo-carto.github.io/vocabularios/edad-geologica/devonico-medio> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/devonico> ;
-    skos:definition "Older bound 393.3 +|-1.2 Ma, younger bound 382.7 +|-1.6 Ma"@en,
-        "Límite inferior 393.3 +|-1.2 Ma, límite superior 382.7 +|-1.6 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/middleDevonian>,
-        <http://resource.geosciml.org/classifier/ics/ischart/MiddleDevonian> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/eifeliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/givetiense> ;
-    skos:notation "211040200000.0",
-        "a1.1.3.3.2" ;
-    skos:prefLabel "Middle Devonian"@en,
-        "Devónico Medio"@es ;
-    adms:status "Válido" ;
-    sdo:color "#F1C868" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/devonico-superior> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Late Devonian"@en ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/devonico> ;
-    skos:definition "Older bound 382.7 +|-1.6 Ma, younger bound 358.9 +|-0.4 Ma"@en,
-        "Límite inferior 382.7 +|-1.6 Ma, límite superior 358.9 +|-0.4 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperDevonian>,
-        <http://resource.geosciml.org/classifier/ics/ischart/UpperDevonian> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/fameniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/frasniense> ;
-    skos:notation "211040300000.0",
-        "a1.1.3.3.1" ;
-    skos:prefLabel "Upper Devonian"@en,
-        "Devónico Superior"@es ;
-    adms:status "Válido" .
-
 <https://geo-carto.github.io/vocabularios/edad-geologica/drumiense> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
@@ -2283,6 +1783,22 @@
     adms:status "Válido" ;
     sdo:color "#A6D975" .
 
+<https://geo-carto.github.io/vocabularios/edad-geologica/headoniense> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma> ;
+    skos:definition "Older bound 37.2 Ma, younger bound 33.9 Ma"@en,
+        "Límite inferior 37.2 Ma, límite superior 33.9 Ma"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:notation "213010207091.0" ;
+    skos:prefLabel "Headonian"@en,
+        "Headoniense"@es ;
+    skos:related <https://geo-carto.github.io/vocabularios/edad-geologica/bartoniense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/priaboniense> ;
+    skos:relatedMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/priabonian>,
+        <http://resource.geosciml.org/classifier/ics/ischart/Priabonian> ;
+    adms:status "Válido" .
+
 <https://geo-carto.github.io/vocabularios/edad-geologica/hettangiense> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
@@ -2507,6 +2023,18 @@
     adms:status "Válido" ;
     sdo:color "#F2FA8C" .
 
+<https://geo-carto.github.io/vocabularios/edad-geologica/megalayense/edad-cronoestratigrafica> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:definition "Edad cronoestratigráfica"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/fanerozoico>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/precambrico> ;
+    skos:prefLabel "Chronostratigraphic Ages"@en,
+        "Edad cronoestratigráfica"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    adms:status "Válido" .
+
 <https://geo-carto.github.io/vocabularios/edad-geologica/mesoarcaico> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
@@ -2522,6 +2050,80 @@
         "Mesoarcaico"@es ;
     adms:status "Válido" ;
     sdo:color "#F768A9" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/mioceno-inferior> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:altLabel "Early Miocene"@en ;
+    skos:broadMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/miocene>,
+        <http://resource.geosciml.org/classifier/ics/ischart/Miocene> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/mioceno> ;
+    skos:definition "Mioceno Inferior"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrowMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aquitanian>,
+        <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/burdigalian>,
+        <http://resource.geosciml.org/classifier/ics/ischart/Aquitanian>,
+        <http://resource.geosciml.org/classifier/ics/ischart/Burdigalian> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/aquitaniense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/burdigaliense> ;
+    skos:notation "213020110000.0" ;
+    skos:prefLabel "Lower Miocene"@en,
+        "Mioceno Inferior"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense-inferior> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:altLabel "Early Mississippian"@en,
+        "Misisípico Inferior"@es ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense> ;
+    skos:closeMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tournaisian> ;
+    skos:definition "Older bound 358.9 +|-0.4 Ma, younger bound 346.7 +|-0.4 Ma"@en,
+        "Límite inferior 358.9 +|-0.4 Ma, límite superior 346.7 +|-0.4 Ma"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/LowerMississippian> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/tournaisiense> ;
+    skos:notation "211051100000.0",
+        "x1.1.3.2.2.3" ;
+    skos:prefLabel "Lower Mississippian"@en,
+        "Mississippiense Inferior"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense-medio> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:altLabel "Misisípico Medio"@es ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense> ;
+    skos:closeMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/visean> ;
+    skos:definition "Older bound 346.7 +|-0.4 Ma, younger bound 330.9 +|-0.2 Ma"@en,
+        "Límite inferior 346.7 +|-0.4 Ma, límite superior 330.9 +|-0.2 Ma"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/MiddleMississippian> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/viseense> ;
+    skos:notation "211051200000.0",
+        "x1.1.3.2.2.2" ;
+    skos:prefLabel "Middle Mississippian"@en,
+        "Mississippiense Medio"@es ;
+    adms:status "Válido" ;
+    sdo:color "#99B46C" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense-superior> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:altLabel "Late Mississippian"@en,
+        "Misisípico Superior"@es ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/mississippiense> ;
+    skos:closeMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/serpukhovian> ;
+    skos:definition "Older bound 330.9 +|-0.2 Ma, younger bound 323.2 +|-0.4 Ma"@en,
+        "Límite inferior 330.9 +|-0.2 Ma, límite superior 323.2 +|-0.4 Ma"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/UpperMississippian> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/serpukhoviense> ;
+    skos:notation "211051300000.0",
+        "x1.1.3.2.2.1" ;
+    skos:prefLabel "Upper Mississippian"@en,
+        "Mississippiense Superior"@es ;
+    adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/moscoviense> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
@@ -2588,42 +2190,6 @@
     adms:status "Válido" ;
     sdo:color "#B051A5" .
 
-<https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-inferior> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Early Ordovician"@en ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico> ;
-    skos:definition "Older bound 485.4 +|-1.9 Ma, younger bound 470 +|-1.4 Ma"@en,
-        "Límite inferior 485.4 +|-1.9 Ma, límite superior 470 +|-1.4 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerOrdovician>,
-        <http://resource.geosciml.org/classifier/ics/ischart/LowerOrdovician> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/floiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/tremadociense> ;
-    skos:notation "211020100000.0",
-        "a1.1.3.5.3" ;
-    skos:prefLabel "Lower Ordovician"@en,
-        "Ordovícico Inferior"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-medio> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico> ;
-    skos:definition "Older bound 470 +|-1.4 Ma, younger bound 458.4 +|-0.9 Ma"@en,
-        "Límite inferior 470 +|-1.4 Ma, límite superior 458.4 +|-0.9 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/middleOrdovician>,
-        <http://resource.geosciml.org/classifier/ics/ischart/MiddleOrdovician> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/dapingiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/darriwiliense> ;
-    skos:notation "211020200000.0",
-        "a1.1.3.5.2" ;
-    skos:prefLabel "Middle Ordovician"@en,
-        "Ordovícico Medio"@es ;
-    adms:status "Válido" ;
-    sdo:color "#4DB47E" .
-
 <https://geo-carto.github.io/vocabularios/edad-geologica/orosirico> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
@@ -2688,23 +2254,24 @@
     adms:status "Válido" ;
     sdo:color "#F4449F" .
 
-<https://geo-carto.github.io/vocabularios/edad-geologica/pennsylvaniense-superior> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-inferior> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Late Pennsylvanian"@en,
-        "Pensilvánico Superior"@es ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/pennsylvaniense> ;
-    skos:definition "Older bound 307 +|-0.1 Ma, younger bound 298.9 +|-0.15 Ma"@en,
-        "Límite inferior 307 +|-0.1 Ma, límite superior 298.9 +|-0.15 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperPennsylvanian>,
-        <http://resource.geosciml.org/classifier/ics/ischart/UpperPennsylvanian> ;
+    skos:altLabel "Early Pleistocene"@en ;
+    skos:broadMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pleistocene>,
+        <http://resource.geosciml.org/classifier/ics/ischart/Pleistocene> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno> ;
+    skos:definition "Pleistoceno Inferior"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/gzheliense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/kasimoviense> ;
-    skos:notation "211052300000.0",
-        "x1.1.3.2.1.1" ;
-    skos:prefLabel "Upper Pennsylvanian"@en,
-        "Pennsylvaniense Superior"@es ;
+    skos:narrowMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/calabrian>,
+        <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/gelasian>,
+        <http://resource.geosciml.org/classifier/ics/ischart/Calabrian>,
+        <http://resource.geosciml.org/classifier/ics/ischart/Gelasian> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/calabriense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/gelasiense> ;
+    skos:notation "213030110000.0" ;
+    skos:prefLabel "Lower Pleistocene"@en,
+        "Pleistoceno Inferior"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/pliensbachiense> a skos:Concept ;
@@ -2818,22 +2385,6 @@
         "Roadiense"@es ;
     adms:status "Válido" ;
     sdo:color "#FB8069" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/rupeliense> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/oligoceno> ;
-    skos:definition "Older bound 33.9 Ma, younger bound 27.82 Ma"@en,
-        "Límite inferior 33.9 Ma, límite superior 27.82 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/rupelian>,
-        <http://resource.geosciml.org/classifier/ics/ischart/Rupelian> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010301000.0",
-        "a1.1.1.3.1.2" ;
-    skos:prefLabel "Rupelian"@en,
-        "Rupeliense"@es ;
-    adms:status "Válido" ;
-    sdo:color "#FED99A" .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/sakmariense> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
@@ -3092,42 +2643,6 @@
     adms:status "Válido" ;
     sdo:color "#33A97E" .
 
-<https://geo-carto.github.io/vocabularios/edad-geologica/triasico-inferior> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Early Triassic"@en ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/triasico> ;
-    skos:definition "Older bound 251.902 +|-0.024 Ma, younger bound 247.2 Ma"@en,
-        "Límite inferior 251.902 +|-0.024 Ma, límite superior 247.2 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerTriassic>,
-        <http://resource.geosciml.org/classifier/ics/ischart/LowerTriassic> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/induense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/olenekiense> ;
-    skos:notation "212010100000.0",
-        "a1.1.2.3.3" ;
-    skos:prefLabel "Lower Triassic"@en,
-        "Triásico Inferior"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/triasico-medio> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/triasico> ;
-    skos:definition "Older bound 247.2 Ma, younger bound 237 Ma"@en,
-        "Límite inferior 247.2 Ma, límite superior 237 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/middleTriassic>,
-        <http://resource.geosciml.org/classifier/ics/ischart/MiddleTriassic> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/anisiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ladiniense> ;
-    skos:notation "212010200000.0",
-        "a1.1.2.3.2" ;
-    skos:prefLabel "Middle Triassic"@en,
-        "Triásico Medio"@es ;
-    adms:status "Válido" ;
-    sdo:color "#B168B1" .
-
 <https://geo-carto.github.io/vocabularios/edad-geologica/turoniense> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
@@ -3241,23 +2756,40 @@
     adms:status "Válido" ;
     sdo:color "#FFF2BA" .
 
-<https://geo-carto.github.io/vocabularios/edad-geologica/devonico-inferior> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/edad-geologica/devonico-medio> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Early Devonian"@en ;
     skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/devonico> ;
-    skos:definition "Older bound 419.2 +|-3.2 Ma, younger bound 393.3 +|-1.2 Ma"@en,
-        "Límite inferior 419.2 +|-3.2 Ma, límite superior 393.3 +|-1.2 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerDevonian>,
-        <http://resource.geosciml.org/classifier/ics/ischart/LowerDevonian> ;
+    skos:definition "Older bound 393.3 +|-1.2 Ma, younger bound 382.7 +|-1.6 Ma"@en,
+        "Límite inferior 393.3 +|-1.2 Ma, límite superior 382.7 +|-1.6 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/middleDevonian>,
+        <http://resource.geosciml.org/classifier/ics/ischart/MiddleDevonian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/emsiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/lochkoviense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/pragiense> ;
-    skos:notation "211040100000.0",
-        "a1.1.3.3.3" ;
-    skos:prefLabel "Lower Devonian"@en,
-        "Devónico Inferior"@es ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/eifeliense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/givetiense> ;
+    skos:notation "211040200000.0",
+        "a1.1.3.3.2" ;
+    skos:prefLabel "Middle Devonian"@en,
+        "Devónico Medio"@es ;
+    adms:status "Válido" ;
+    sdo:color "#F1C868" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/devonico-superior> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:altLabel "Late Devonian"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/devonico> ;
+    skos:definition "Older bound 382.7 +|-1.6 Ma, younger bound 358.9 +|-0.4 Ma"@en,
+        "Límite inferior 382.7 +|-1.6 Ma, límite superior 358.9 +|-0.4 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperDevonian>,
+        <http://resource.geosciml.org/classifier/ics/ischart/UpperDevonian> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/fameniense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/frasniense> ;
+    skos:notation "211040300000.0",
+        "a1.1.3.3.1" ;
+    skos:prefLabel "Upper Devonian"@en,
+        "Devónico Superior"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/gelasiense> a skos:Concept ;
@@ -3276,25 +2808,6 @@
     adms:status "Válido" ;
     sdo:color "#FFEDB3" .
 
-<https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-superior> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Late Jurassic"@en ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/jurasico> ;
-    skos:definition "Older bound 161.5 +|-1 Ma, younger bound 145 Ma"@en,
-        "Límite inferior 161.5 +|-1 Ma, límite superior 145 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperJurassic>,
-        <http://resource.geosciml.org/classifier/ics/ischart/UpperJurassic> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/kimmeridgiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/oxfordiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/titoniense> ;
-    skos:notation "212020300000.0",
-        "a1.1.2.2.1" ;
-    skos:prefLabel "Upper Jurassic"@en,
-        "Jurásico Superior"@es ;
-    adms:status "Válido" .
-
 <https://geo-carto.github.io/vocabularios/edad-geologica/messiniense> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
@@ -3311,23 +2824,59 @@
     adms:status "Válido" ;
     sdo:color "#FFFF73" .
 
-<https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-superior> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-inferior> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Late Ordovician"@en ;
+    skos:altLabel "Early Ordovician"@en ;
     skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico> ;
-    skos:definition "Older bound 458.4 +|-0.9 Ma, younger bound 443.8 +|-1.5 Ma"@en,
-        "Límite inferior 458.4 +|-0.9 Ma, límite superior 443.8 +|-1.5 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperOrdovician>,
-        <http://resource.geosciml.org/classifier/ics/ischart/UpperOrdovician> ;
+    skos:definition "Older bound 485.4 +|-1.9 Ma, younger bound 470 +|-1.4 Ma"@en,
+        "Límite inferior 485.4 +|-1.9 Ma, límite superior 470 +|-1.4 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerOrdovician>,
+        <http://resource.geosciml.org/classifier/ics/ischart/LowerOrdovician> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/hirnantiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/kaiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/sandbiense> ;
-    skos:notation "211020300000.0",
-        "a1.1.3.5.1" ;
-    skos:prefLabel "Upper Ordovician"@en,
-        "Ordovícico Superior"@es ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/floiense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/tremadociense> ;
+    skos:notation "211020100000.0",
+        "a1.1.3.5.3" ;
+    skos:prefLabel "Lower Ordovician"@en,
+        "Ordovícico Inferior"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-medio> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico> ;
+    skos:definition "Older bound 470 +|-1.4 Ma, younger bound 458.4 +|-0.9 Ma"@en,
+        "Límite inferior 470 +|-1.4 Ma, límite superior 458.4 +|-0.9 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/middleOrdovician>,
+        <http://resource.geosciml.org/classifier/ics/ischart/MiddleOrdovician> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/dapingiense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/darriwiliense> ;
+    skos:notation "211020200000.0",
+        "a1.1.3.5.2" ;
+    skos:prefLabel "Middle Ordovician"@en,
+        "Ordovícico Medio"@es ;
+    adms:status "Válido" ;
+    sdo:color "#4DB47E" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/pennsylvaniense-superior> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:altLabel "Late Pennsylvanian"@en,
+        "Pensilvánico Superior"@es ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/pennsylvaniense> ;
+    skos:definition "Older bound 307 +|-0.1 Ma, younger bound 298.9 +|-0.15 Ma"@en,
+        "Límite inferior 307 +|-0.1 Ma, límite superior 298.9 +|-0.15 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperPennsylvanian>,
+        <http://resource.geosciml.org/classifier/ics/ischart/UpperPennsylvanian> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/gzheliense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/kasimoviense> ;
+    skos:notation "211052300000.0",
+        "x1.1.3.2.1.1" ;
+    skos:prefLabel "Upper Pennsylvanian"@en,
+        "Pennsylvaniense Superior"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/piacenziense> a skos:Concept ;
@@ -3346,24 +2895,57 @@
     adms:status "Válido" ;
     sdo:color "#FFFFBF" .
 
-<https://geo-carto.github.io/vocabularios/edad-geologica/triasico-superior> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/edad-geologica/rupeliense> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Late Triassic"@en ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/triasico> ;
-    skos:definition "Older bound 237 Ma, younger bound 201.4 +|-0.2 Ma"@en,
-        "Límite inferior 237 Ma, límite superior 201.4 +|-0.2 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperTriassic>,
-        <http://resource.geosciml.org/classifier/ics/ischart/UpperTriassic> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/oligoceno> ;
+    skos:definition "Older bound 33.9 Ma, younger bound 27.82 Ma"@en,
+        "Límite inferior 33.9 Ma, límite superior 27.82 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/rupelian>,
+        <http://resource.geosciml.org/classifier/ics/ischart/Rupelian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/carniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/noriense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/rhaetiense> ;
-    skos:notation "212010300000.0",
-        "a1.1.2.3.1" ;
-    skos:prefLabel "Upper Triassic"@en,
-        "Triásico Superior"@es ;
+    skos:notation "213010301000.0",
+        "a1.1.1.3.1.2" ;
+    skos:prefLabel "Rupelian"@en,
+        "Rupeliense"@es ;
+    adms:status "Válido" ;
+    sdo:color "#FED99A" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/triasico-inferior> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:altLabel "Early Triassic"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/triasico> ;
+    skos:definition "Older bound 251.902 +|-0.024 Ma, younger bound 247.2 Ma"@en,
+        "Límite inferior 251.902 +|-0.024 Ma, límite superior 247.2 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerTriassic>,
+        <http://resource.geosciml.org/classifier/ics/ischart/LowerTriassic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/induense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/olenekiense> ;
+    skos:notation "212010100000.0",
+        "a1.1.2.3.3" ;
+    skos:prefLabel "Lower Triassic"@en,
+        "Triásico Inferior"@es ;
     adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/triasico-medio> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/triasico> ;
+    skos:definition "Older bound 247.2 Ma, younger bound 237 Ma"@en,
+        "Límite inferior 247.2 Ma, límite superior 237 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/middleTriassic>,
+        <http://resource.geosciml.org/classifier/ics/ischart/MiddleTriassic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/anisiense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/ladiniense> ;
+    skos:notation "212010200000.0",
+        "a1.1.2.3.2" ;
+    skos:prefLabel "Middle Triassic"@en,
+        "Triásico Medio"@es ;
+    adms:status "Válido" ;
+    sdo:color "#B168B1" .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/zancliense> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
@@ -3487,45 +3069,43 @@
     adms:status "Válido" ;
     sdo:color "#F9F97F" .
 
-<https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-inferior> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/edad-geologica/devonico-inferior> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Early Jurassic"@en ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/jurasico> ;
-    skos:definition "Older bound 201.4 +|-0.2 Ma, younger bound 174.7 +|-0.8 Ma"@en,
-        "Límite inferior 201.4 +|-0.2 Ma, límite superior 174.7 +|-0.8 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerJurassic>,
-        <http://resource.geosciml.org/classifier/ics/ischart/LowerJurassic> ;
+    skos:altLabel "Early Devonian"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/devonico> ;
+    skos:definition "Older bound 419.2 +|-3.2 Ma, younger bound 393.3 +|-1.2 Ma"@en,
+        "Límite inferior 419.2 +|-3.2 Ma, límite superior 393.3 +|-1.2 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerDevonian>,
+        <http://resource.geosciml.org/classifier/ics/ischart/LowerDevonian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/hettangiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/pliensbachiense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/sinemuriense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/toarciense> ;
-    skos:notation "212020100000.0",
-        "a1.1.2.2.3" ;
-    skos:prefLabel "Lower Jurassic"@en,
-        "Jurásico Inferior"@es ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/emsiense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/lochkoviense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/pragiense> ;
+    skos:notation "211040100000.0",
+        "a1.1.3.3.3" ;
+    skos:prefLabel "Lower Devonian"@en,
+        "Devónico Inferior"@es ;
     adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-medio> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-superior> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:altLabel "Late Jurassic"@en ;
     skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/jurasico> ;
-    skos:definition "Older bound 174.7 +|-0.8 Ma, younger bound 161.5 +|-1 Ma"@en,
-        "Límite inferior 174.7 +|-0.8 Ma, límite superior 161.5 +|-1 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/middleJurassic>,
-        <http://resource.geosciml.org/classifier/ics/ischart/MiddleJurassic> ;
+    skos:definition "Older bound 161.5 +|-1 Ma, younger bound 145 Ma"@en,
+        "Límite inferior 161.5 +|-1 Ma, límite superior 145 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperJurassic>,
+        <http://resource.geosciml.org/classifier/ics/ischart/UpperJurassic> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/aaleniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/bajociense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/bathoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/calloviense> ;
-    skos:notation "212020200000.0",
-        "a1.1.2.2.2" ;
-    skos:prefLabel "Middle Jurassic"@en,
-        "Jurásico Medio"@es ;
-    adms:status "Válido" ;
-    sdo:color "#80CFD8" .
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/kimmeridgiense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/oxfordiense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/titoniense> ;
+    skos:notation "212020300000.0",
+        "a1.1.2.2.1" ;
+    skos:prefLabel "Upper Jurassic"@en,
+        "Jurásico Superior"@es ;
+    adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/lopingiense> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
@@ -3599,6 +3179,25 @@
     adms:status "Válido" ;
     sdo:color "#FEC07A" .
 
+<https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico-superior> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:altLabel "Late Ordovician"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/ordovicico> ;
+    skos:definition "Older bound 458.4 +|-0.9 Ma, younger bound 443.8 +|-1.5 Ma"@en,
+        "Límite inferior 458.4 +|-0.9 Ma, límite superior 443.8 +|-1.5 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperOrdovician>,
+        <http://resource.geosciml.org/classifier/ics/ischart/UpperOrdovician> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/hirnantiense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/kaiense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/sandbiense> ;
+    skos:notation "211020300000.0",
+        "a1.1.3.5.1" ;
+    skos:prefLabel "Upper Ordovician"@en,
+        "Ordovícico Superior"@es ;
+    adms:status "Válido" .
+
 <https://geo-carto.github.io/vocabularios/edad-geologica/plioceno> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
@@ -3651,6 +3250,25 @@
         "Terreneuviense"@es ;
     adms:status "Válido" ;
     sdo:color "#8CB06C" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/triasico-superior> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:altLabel "Late Triassic"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/triasico> ;
+    skos:definition "Older bound 237 Ma, younger bound 201.4 +|-0.2 Ma"@en,
+        "Límite inferior 237 Ma, límite superior 201.4 +|-0.2 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperTriassic>,
+        <http://resource.geosciml.org/classifier/ics/ischart/UpperTriassic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/carniense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/noriense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/rhaetiense> ;
+    skos:notation "212010300000.0",
+        "a1.1.2.3.1" ;
+    skos:prefLabel "Upper Triassic"@en,
+        "Triásico Superior"@es ;
+    adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/wenlock> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
@@ -3891,6 +3509,46 @@
         "Jurásico"@es ;
     adms:status "Válido" ;
     sdo:color "#34B2C9" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-inferior> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:altLabel "Early Jurassic"@en ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/jurasico> ;
+    skos:definition "Older bound 201.4 +|-0.2 Ma, younger bound 174.7 +|-0.8 Ma"@en,
+        "Límite inferior 201.4 +|-0.2 Ma, límite superior 174.7 +|-0.8 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerJurassic>,
+        <http://resource.geosciml.org/classifier/ics/ischart/LowerJurassic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/hettangiense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/pliensbachiense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/sinemuriense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/toarciense> ;
+    skos:notation "212020100000.0",
+        "a1.1.2.2.3" ;
+    skos:prefLabel "Lower Jurassic"@en,
+        "Jurásico Inferior"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/jurasico-medio> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/jurasico> ;
+    skos:definition "Older bound 174.7 +|-0.8 Ma, younger bound 161.5 +|-1 Ma"@en,
+        "Límite inferior 174.7 +|-0.8 Ma, límite superior 161.5 +|-1 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/middleJurassic>,
+        <http://resource.geosciml.org/classifier/ics/ischart/MiddleJurassic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/aaleniense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/bajociense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/bathoniense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/calloviense> ;
+    skos:notation "212020200000.0",
+        "a1.1.2.2.2" ;
+    skos:prefLabel "Middle Jurassic"@en,
+        "Jurásico Medio"@es ;
+    adms:status "Válido" ;
+    sdo:color "#80CFD8" .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/llandovery> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
@@ -4288,6 +3946,46 @@
     adms:status "Válido" ;
     sdo:color "#EF5845" .
 
+<https://geo-carto.github.io/vocabularios/edad-geologica/paleoproterozoico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/proterozoico> ;
+    skos:definition "Older bound 2500 Ma, younger bound 1600 Ma"@en,
+        "Límite inferior 2500 Ma, límite superior 1600 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/paleoproterozoic>,
+        <http://resource.geosciml.org/classifier/ics/ischart/Paleoproterozoic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/estaterico>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/orosirico>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/riacico>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/siderico> ;
+    skos:notation "131000000000.0",
+        "a2.1.3" ;
+    skos:prefLabel "Paleoproterozoic"@en,
+        "Paleoproterozoico"@es ;
+    adms:status "Válido" ;
+    sdo:color "#F74370" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/silurico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico> ;
+    skos:definition "Older bound 443.8 +|-1.5 Ma, younger bound 419.2 +|-3.2 Ma"@en,
+        "Límite inferior 443.8 +|-1.5 Ma, límite superior 419.2 +|-3.2 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/silurian>,
+        <http://resource.geosciml.org/classifier/ics/ischart/Silurian> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/llandovery>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/ludlow>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/pridoli>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/wenlock> ;
+    skos:notation "211030000000.0",
+        "a1.1.3.4" ;
+    skos:prefLabel "Silurian"@en,
+        "Silúrico"@es ;
+    adms:status "Válido" ;
+    sdo:color "#B3E1B6" .
+
 <https://geo-carto.github.io/vocabularios/edad-geologica/cretacico-inferior> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
@@ -4331,46 +4029,6 @@
     skos:prefLabel "Upper Cretaceous"@en,
         "Cretácico Superior"@es ;
     adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/paleoproterozoico> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/proterozoico> ;
-    skos:definition "Older bound 2500 Ma, younger bound 1600 Ma"@en,
-        "Límite inferior 2500 Ma, límite superior 1600 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/paleoproterozoic>,
-        <http://resource.geosciml.org/classifier/ics/ischart/Paleoproterozoic> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/estaterico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/orosirico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/riacico>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/siderico> ;
-    skos:notation "131000000000.0",
-        "a2.1.3" ;
-    skos:prefLabel "Paleoproterozoic"@en,
-        "Paleoproterozoico"@es ;
-    adms:status "Válido" ;
-    sdo:color "#F74370" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/silurico> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico> ;
-    skos:definition "Older bound 443.8 +|-1.5 Ma, younger bound 419.2 +|-3.2 Ma"@en,
-        "Límite inferior 443.8 +|-1.5 Ma, límite superior 419.2 +|-3.2 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/silurian>,
-        <http://resource.geosciml.org/classifier/ics/ischart/Silurian> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/llandovery>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ludlow>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/pridoli>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/wenlock> ;
-    skos:notation "211030000000.0",
-        "a1.1.3.4" ;
-    skos:prefLabel "Silurian"@en,
-        "Silúrico"@es ;
-    adms:status "Válido" ;
-    sdo:color "#B3E1B6" .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/mioceno> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;

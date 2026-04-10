@@ -1,0 +1,186 @@
+{
+  "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanuras-algares",
+  "type": "Concept",
+  "prefLabel": {
+    "en": "algal flat setting",
+    "es": "ambiente de llanuras algares"
+  },
+  "definition": {
+    "en": "Modern \"algal flats are found on rock or mud in areas flooded only by the highest tides and are often subject to high evaporation rates. Algal flats survive only when an area is salty enough to eliminate snails and other herbivorous animals that eat algae, yet is not so salty that the algae cannot survive. The most common species of algae found on algal flats are blue-green algae of the genera Scytonema and Schizothrix. These algae can tolerate the daily extremes in temperature and oxygen that typify conditions on the flats. Other plants sometimes found on algal flats include one-celled green algae, flagellates, diatoms, bacteria, and isolated scrubby red and black mangroves, as well as patches of saltwort. Animals include false cerith, cerion snails, fiddler crabs, and great land crabs. Flats with well developed algal mats are restricted for the most part to the Keys, with Sugarloaf and Crane Keys offering prime examples of algal flat habitat.\" (Audubon, 1991)",
+    "es": "Las llanuras de algas actuales se encuentran en zonas rocosas o fangosas inundadas solamente por las mareas más altas y que están a menudo sujetas a altas tasas de evaporación. Las llanuras algares sobreviven sólo cuando una zona es lo suficientemente salada para eliminar a los caracoles y otros herbívoros que se alimentan de algas, pero es no tan salada que las algas no puedan sobrevivir. Las especies más comunes de algas que se encuentran en las llanuras de algares son algas azul-verdosas de los géneros Scytonema y Schizothrix. Estas algas pueden tolerar las variaciones diarias extremas de temperatura y oxígeno que caracterizan las condiciones de estas llanuras. Otras plantas que a veces se encuentran las llanuras algares incluyen las algas verdes unicelulares, flagelados, diatomeas, bacterias y manglares arbustivos solitarios rojos y negros, así como parches de salicornias. La fauna incluye el Cerith falso, caracoles Cerion, cangrejos violinistas, y grandes cangrejos de tierra. Las llanuras con alfombras algares bien desarrolladas se limitan en su mayor parte a los Cayos, siendo Sugarloaf y Crane Keys excelentes ejemplos del hábitat de llanuras de algas. (Audubon, 1991)"
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral-de-baja-energia",
+    "prefLabel": {
+      "en": "low energy shoreline setting",
+      "es": "ambiente litoral de baja energía"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/algalFlatSetting"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/algal_flat_setting"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma",
+  "type": "Concept",
+  "prefLabel": {
+    "en": "lithosome",
+    "es": "litosoma"
+  },
+  "definition": {
+    "en": "A kind of rock body that has multiple occurrences in a single geologic unit. A mass of rock of uniform character, characterized by geometry, composition, and internal structure. Generally denotes rock mass that is the product of a particular rock forming process or related sequence of processes in the containing unit. Example--bouma sequence, point bar sequence. A particular lithosome may be characterized by the presence of blocks, but blocks are not treated as kinds of lithosome because the internal character of the blocks is determined by a separate genetic sequence from the described unit. This vocabulary generalizes the concept defined in Neuendorf et al 2005 to include bodies of igneous or metamorphic rock as well as sedimentary rock. NADM SLTTs (2004) used the term 'lithotope' with similar meaning for sedimentary rocks",
+    "es": "Un tipo de cuerpo rocoso que tiene múltiples ocurrencias en una sola unidad geológica. Masa de roca de carácter uniforme, caracterizada por su geometría, composición y estructura interna. Generalmente denota un macizo rocoso que es el producto de un proceso particular de formación de rocas o una secuencia relacionada de procesos en la unidad contenedora. Ejemplo: secuencia bouma, secuencia de barras de puntos. Un litosoma particular puede caracterizarse por la presencia de bloques, pero los bloques no se tratan como clases de litosoma porque el carácter interno de los bloques está determinado por una secuencia genética separada de la unidad descrita. Este vocabulario generaliza el concepto definido en Neuendorf et al 2005 para incluir cuerpos de rocas ígneas o metamórficas, así como rocas sedimentarias. Los NADM SLTT (2004) utilizaron el término 'litotopo' con un significado similar para las rocas sedimentarias"
+  },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-litologica",
+      "prefLabel": {
+        "en": "bed lithosome",
+        "es": "capa litológica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/dique-o-vena",
+      "prefLabel": {
+        "en": "vein or dike lithosome",
+        "es": "dique o vena"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-estratificado",
+      "prefLabel": {
+        "en": "layer lithosome",
+        "es": "litosoma estratificado"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-irregular",
+      "prefLabel": {
+        "en": "irregular lithosome",
+        "es": "litosoma irregular"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-lenticular",
+      "prefLabel": {
+        "en": "lenticular lithosome",
+        "es": "litosoma lenticular"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/matriz-de-unidad-geologica",
+      "prefLabel": {
+        "en": "geologic unit matrix",
+        "es": "matriz de unidad geológica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/paquete-sedimentario-ciclico",
+      "prefLabel": {
+        "en": "cyclic bedding package",
+        "es": "paquete sedimentario cíclico"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de",
+    "prefLabel": {
+      "en": "part of",
+      "es": "parte de"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/lithosome"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/lithosome"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

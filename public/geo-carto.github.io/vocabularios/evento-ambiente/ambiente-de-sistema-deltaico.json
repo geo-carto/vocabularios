@@ -1,0 +1,244 @@
+{
+  "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-sistema-deltaico",
+  "type": "Concept",
+  "prefLabel": {
+    "en": "deltaic system setting",
+    "es": "ambiente de sistema deltaico"
+  },
+  "definition": {
+    "en": "Environments at the mouth of a river or stream that enters a standing body of water (ocean or lake). The delta forms a triangular or fan-shaped plain of considerable area. Subaerial parts of the delta are crossed by many distributaries of the main river,",
+    "es": "Ambientes en la desembocadura de un río o arroyo que entra en un cuerpo permanente de agua (océano o lago). El delta constituye una llanura triangular o en forma de abanico de área considerable. La parte subaérea del delta está atravesada por numerosos cursos distributarios del río principal"
+  },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-canal-distributario-de-delta",
+      "prefLabel": {
+        "en": "delta distributary channel setting",
+        "es": "ambiente de canal distributario de delta"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-delta-estuarino",
+      "prefLabel": {
+        "en": "estuarine delta setting",
+        "es": "ambiente de delta estuarino"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-delta-lacustre",
+      "prefLabel": {
+        "en": "lacustrine delta setting",
+        "es": "ambiente de delta lacustre"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-desembocadura-de-distributario-de-delta",
+      "prefLabel": {
+        "en": "delta distributary mouth setting",
+        "es": "ambiente de desembocadura de distributario de delta"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-frente-de-delta",
+      "prefLabel": {
+        "en": "delta front setting",
+        "es": "ambiente de frente de delta"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-la-bahia-interdistributaria",
+      "prefLabel": {
+        "en": "interdistributary bay setting",
+        "es": "ambiente de la bahía interdistributaria"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-deltaica",
+      "prefLabel": {
+        "en": "delta plain setting",
+        "es": "ambiente de llanura deltaica"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-prodelta",
+      "prefLabel": {
+        "en": "prodelta setting",
+        "es": "ambiente de prodelta"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral",
+    "prefLabel": {
+      "en": "shoreline setting",
+      "es": "ambiente litoral"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/deltaicSystemSetting"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/eventenvironment/deltaic_system_setting"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/evento-ambiente"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

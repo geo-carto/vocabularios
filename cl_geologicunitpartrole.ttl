@@ -38,9 +38,10 @@
     skos:prefLabel "Geologic unit hierarchy role - All concepts"@en,
         "Rol jerárquico de unidad geológica - Todos los conceptos"@es .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection/composition-part-role> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection/coleccion-roles-de-partes-de-composicion> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:definition "Colección: Composition part role"@es ;
+    skos:definition "Collection of terms for specifying the atribute 'Composition part role'."@en,
+        "Colección de términos para especificar el atributo 'Rol de parte de composición'."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
     skos:member <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/facies>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion>,
@@ -49,11 +50,13 @@
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte> ;
-    skos:prefLabel "Composition part role"@en .
+    skos:prefLabel "Collection - Composition part role"@en,
+        "Colección - Roles de partes de composición"@es .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection/geologic-unit-hierarchy-role> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection/coleccion-roles-jerarquicos-de-unidad-geologica> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:definition "Colección: Geologic unit hierarchy role"@es ;
+    skos:definition "Collection of terms for specifying the atribute 'Geologic unit hierarchy role'."@en,
+        "Colección de términos para especificar el atributo 'Rol jerárquico de unidad geológica'."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
     skos:member <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/balsas>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloque-tectonico>,
@@ -79,50 +82,8 @@
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/xenolito> ;
-    skos:prefLabel "Geologic unit hierarchy role"@en .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection/roles-de-partes-de-composicion> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:definition "Colección: Roles de partes de composición"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:member <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/facies>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte> ;
-    skos:prefLabel "Roles de partes de composición"@es .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection/roles-jerarquicos-de-unidad-geologica> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:definition "Colección: Roles jerárquicos de unidad geológica"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> ;
-    skos:member <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/balsas>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloque-tectonico>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloques>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-guia>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-litologica>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/concrecion>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/cortina>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/dique-o-vena>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/enclave>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/facies>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-estratificado>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-irregular>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-lenticular>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/matriz-de-unidad-geologica>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/paquete-sedimentario-ciclico>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazo-de-techo>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazos>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/xenolito> ;
-    skos:prefLabel "Roles jerárquicos de unidad geológica"@es .
+    skos:prefLabel "Collection - Geologic unit hierarchy role"@en,
+        "Colección - Roles jerárquicos de unidad geológica"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;

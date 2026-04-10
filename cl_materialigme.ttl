@@ -299,7 +299,6 @@
         <https://geo-carto.github.io/vocabularios/material-igme/filita>,
         <https://geo-carto.github.io/vocabularios/material-igme/filonita>,
         <https://geo-carto.github.io/vocabularios/material-igme/floatstone>,
-        <https://geo-carto.github.io/vocabularios/material-igme/flysch>,
         <https://geo-carto.github.io/vocabularios/material-igme/flysch-calcareo>,
         <https://geo-carto.github.io/vocabularios/material-igme/flysch-siliceo>,
         <https://geo-carto.github.io/vocabularios/material-igme/foidita>,
@@ -785,251 +784,7 @@
     skos:prefLabel "Material IGME - All concepts"@en,
         "Material IGME - Todos los conceptos"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/anthropogenic-material> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Anthropogenic Material"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/desecho>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dique>,
-        <https://geo-carto.github.io/vocabularios/material-igme/escombrera>,
-        <https://geo-carto.github.io/vocabularios/material-igme/escombro>,
-        <https://geo-carto.github.io/vocabularios/material-igme/escoria>,
-        <https://geo-carto.github.io/vocabularios/material-igme/espigon>,
-        <https://geo-carto.github.io/vocabularios/material-igme/fertilizante>,
-        <https://geo-carto.github.io/vocabularios/material-igme/hormigon>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lodo-de-depuradora>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lodo-industrial>,
-        <https://geo-carto.github.io/vocabularios/material-igme/malecon>,
-        <https://geo-carto.github.io/vocabularios/material-igme/polder>,
-        <https://geo-carto.github.io/vocabularios/material-igme/relleno>,
-        <https://geo-carto.github.io/vocabularios/material-igme/salina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/vertedero> ;
-    skos:prefLabel "Anthropogenic Material"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/carbonate-sedimentary-rocks-and-sediments> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Carbonate Sedimentary Rocks And Sediments"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/bafflestone>,
-        <https://geo-carto.github.io/vocabularios/material-igme/bindstone>,
-        <https://geo-carto.github.io/vocabularios/material-igme/bioesparita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/bioesparrudita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/biolitita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/biomicrita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/biomicrudita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/biopelesparita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/biopelmicrita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/calcimudstone>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-aloquimica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-aloquimica-esparitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-aloquimica-micritica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-arenosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-arrecifal>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-bioclastica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-bioconstruida>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-conchifera>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-coralina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-cristalina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-dolomitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-dolomitica-impura>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-esparitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-estromatolitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-impura>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-litografica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-lumaquelica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-margosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-micritica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-micritica-con-aloquimicos>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-microcristalina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-oncolitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-oolitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-organogena>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-pisolitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-pura>,
-        <https://geo-carto.github.io/vocabularios/material-igme/caliza-travertinica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/carbonato-cristalino>,
-        <https://geo-carto.github.io/vocabularios/material-igme/carniola>,
-        <https://geo-carto.github.io/vocabularios/material-igme/creta>,
-        <https://geo-carto.github.io/vocabularios/material-igme/desdolomita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dismicrita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/doloesparita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dolomia>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dolomia-calcarea>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dolomia-calcarea-impura>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dolomia-con-bioclastos>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dolomia-con-intraclastos>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dolomia-con-ooides>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dolomia-con-peloides>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dolomia-impura>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dolomia-pura>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dolomicrita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/encrinita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/floatstone>,
-        <https://geo-carto.github.io/vocabularios/material-igme/framestone>,
-        <https://geo-carto.github.io/vocabularios/material-igme/grainstone>,
-        <https://geo-carto.github.io/vocabularios/material-igme/intraesparita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/intraesparrudita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/intramicrita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/intramicrudita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/marga>,
-        <https://geo-carto.github.io/vocabularios/material-igme/margocaliza>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-sedimentario-calcareo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-sedimentario-dolomitico-magnesico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/micrita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/micrita-con-bioclastos>,
-        <https://geo-carto.github.io/vocabularios/material-igme/micrita-con-intraclastos>,
-        <https://geo-carto.github.io/vocabularios/material-igme/micrita-con-ooides>,
-        <https://geo-carto.github.io/vocabularios/material-igme/micrita-con-peloides>,
-        <https://geo-carto.github.io/vocabularios/material-igme/mudstone>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ooesparita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ooesparrudita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/oomicrita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/oomicrudita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/packstone>,
-        <https://geo-carto.github.io/vocabularios/material-igme/pelesparita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/pelmicrita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-calcarea>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-carbonatada-lutitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-dolomitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-sedimentaria-carbonatada-impura>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-sedimentaria-carbonatada-pura>,
-        <https://geo-carto.github.io/vocabularios/material-igme/rudstone>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sedimento-calcareo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sedimento-calcareo-impuro>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sedimento-calcareo-pelitico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sedimento-calcareo-puro>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sedimento-carbonatado-impuro>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sedimento-carbonatado-pelitico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sedimento-carbonatado-puro>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sedimento-dolomitico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sedimento-dolomitico-impuro>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sedimento-dolomitico-puro>,
-        <https://geo-carto.github.io/vocabularios/material-igme/wackestone> ;
-    skos:prefLabel "Carbonate Sedimentary Rocks And Sediments"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/detrital-sedimentary-rocks-and-sediments> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Detrital Sedimentary Rocks And Sediments"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/arcilla>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arcilla-arenosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arcillita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arcillita-arenosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arcosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arcosa-litica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-arcillosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-arcosica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-calcarea>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-cuarcitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-fina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-grauvaquica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-gravosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-gruesa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-limosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-litarenitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-media>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-muy-fina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-muy-gruesa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-pelitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-subarcosica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-sublitarenitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arenacea>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arenisca>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arenisca-arcillosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arenisca-calcarea>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arenisca-conglomeratica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arenisca-de-grano-fino>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arenisca-de-grano-grueso>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arenisca-de-grano-medio>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arenisca-de-grano-muy-fino>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arenisca-de-grano-muy-grueso>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arenisca-limosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arenisca-pelitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arenita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/barro>,
-        <https://geo-carto.github.io/vocabularios/material-igme/bentonita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/bioclasto>,
-        <https://geo-carto.github.io/vocabularios/material-igme/bloque>,
-        <https://geo-carto.github.io/vocabularios/material-igme/brecha>,
-        <https://geo-carto.github.io/vocabularios/material-igme/brecha-arenosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/brecha-monogenica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/brecha-oligomictica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/brecha-osifera>,
-        <https://geo-carto.github.io/vocabularios/material-igme/brecha-pelitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/brecha-polimictica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/canto>,
-        <https://geo-carto.github.io/vocabularios/material-igme/canto-blando>,
-        <https://geo-carto.github.io/vocabularios/material-igme/canto-grande>,
-        <https://geo-carto.github.io/vocabularios/material-igme/canto-mediano>,
-        <https://geo-carto.github.io/vocabularios/material-igme/canto-pequeño>,
-        <https://geo-carto.github.io/vocabularios/material-igme/clasto>,
-        <https://geo-carto.github.io/vocabularios/material-igme/conglomerado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/conglomerado-arenoso>,
-        <https://geo-carto.github.io/vocabularios/material-igme/conglomerado-monomictico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/conglomerado-oligomictico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/conglomerado-pelitico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/conglomerado-polimictico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cuarzarenita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cuarzograuvaca>,
-        <https://geo-carto.github.io/vocabularios/material-igme/grano>,
-        <https://geo-carto.github.io/vocabularios/material-igme/granulo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/grauvaca>,
-        <https://geo-carto.github.io/vocabularios/material-igme/grauvaca-feldespatica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/grauvaca-litica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/grava>,
-        <https://geo-carto.github.io/vocabularios/material-igme/grava-arenosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/grava-de-bloques>,
-        <https://geo-carto.github.io/vocabularios/material-igme/grava-fina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/grava-fina-media>,
-        <https://geo-carto.github.io/vocabularios/material-igme/grava-gruesa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/grava-media>,
-        <https://geo-carto.github.io/vocabularios/material-igme/grava-pelitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/limo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/limo-arenoso>,
-        <https://geo-carto.github.io/vocabularios/material-igme/limolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/limolita-arenosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/litarenita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/litarenita-feldespatica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lutacea>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lutita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lutita-arenosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lutita-carbonatada>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lutita-conglomeratica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lutita-margosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/microbrecha>,
-        <https://geo-carto.github.io/vocabularios/material-igme/microconglomerado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ortobrecha>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ortoconglomerado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/parabrecha>,
-        <https://geo-carto.github.io/vocabularios/material-igme/paraconglomerado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/particula>,
-        <https://geo-carto.github.io/vocabularios/material-igme/pelita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/pelita-arenosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/pelita-calcarea>,
-        <https://geo-carto.github.io/vocabularios/material-igme/pelita-carbonatada>,
-        <https://geo-carto.github.io/vocabularios/material-igme/pelita-gravosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/pudinga>,
-        <https://geo-carto.github.io/vocabularios/material-igme/rudacea>,
-        <https://geo-carto.github.io/vocabularios/material-igme/shale>,
-        <https://geo-carto.github.io/vocabularios/material-igme/siliciclasto>,
-        <https://geo-carto.github.io/vocabularios/material-igme/subarcosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sublitarenita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/yesoarenita> ;
-    skos:prefLabel "Detrital Sedimentary Rocks And Sediments"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/detrital-sedimentary-rocks-and-sediments-carbonate-sedimentary-rocks-and-sediments> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Detrital Sedimentary Rocks And Sediments / Carbonate Sedimentary Rocks And Sediments"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/calcarenita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/calcilimolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/calcilutita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/calcirrudita> ;
-    skos:prefLabel "Detrital Sedimentary Rocks And Sediments / Carbonate Sedimentary Rocks And Sediments"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/evaporitas> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-evaporitas> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Evaporites, characterized by including sediments or sedimentary rocks formed by chemical precipitation of non-carbonate salts, mainly sulfates, chlorides, and borates."@en,
         "Colección de materiales que pertenecen a la categoría de Evaporitas, que se caracteriza por incluir sedimentos o rocas sedimentarias formados por precipitación química de sales no carbonatadas, principalmente por sulfatos, cloruros y boratos."@es ;
@@ -1051,60 +806,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/ulexita>,
         <https://geo-carto.github.io/vocabularios/material-igme/yeso>,
         <https://geo-carto.github.io/vocabularios/material-igme/yeso-anhidrita> ;
-    skos:prefLabel "Evaporitas"@es .
+    skos:prefLabel "Collection - Evaporites"@en,
+        "Colección - Evaporitas"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/evaporites> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Evaporites"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/alabastro>,
-        <https://geo-carto.github.io/vocabularios/material-igme/anhidrita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/barita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/borax>,
-        <https://geo-carto.github.io/vocabularios/material-igme/carnalita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/colemanita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/evaporita-exotica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/halita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/kainita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/kernita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/kieserita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/polihalita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/silvina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/silvinita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ulexita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/yeso>,
-        <https://geo-carto.github.io/vocabularios/material-igme/yeso-anhidrita> ;
-    skos:prefLabel "Evaporites"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/fault-materials> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Fault Materials"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/blastomilonita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/brecha-de-falla>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cataclasita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/filonita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/harina-de-falla>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-de-falla-no-cohesivo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/milonita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/protocataclasita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/protomilonita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/pseudotaquilita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-cataclastica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-milonitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ultracataclasita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ultramilonita> ;
-    skos:prefLabel "Fault Materials"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/ferruginous-sedimentary-rocks-and-sediments> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Ferruginous Sedimentary Rocks And Sediments"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/formacion-de-hierro-bandeado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/hierro-de-los-pantanos> ;
-    skos:prefLabel "Ferruginous Sedimentary Rocks And Sediments"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/grandes-grupos-de-materiales> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-grandes-grupos-de-materiales> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Major Material Groups, characterized by representing the highest level of lithological classification, encompassing the main divisions: igneous, sedimentary, metamorphic, anthropic, and impact materials."@en,
         "Colección de materiales que pertenecen a la categoría de Grandes Grupos de Materiales, que se caracteriza por representar el nivel más alto de la clasificación litológica, englobando las divisiones principales: materiales ígneos, sedimentarios, metamórficos, antrópicos y de impacto."@es ;
@@ -1116,9 +821,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/roca>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-madre>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-poligenica> ;
-    skos:prefLabel "Grandes Grupos de Materiales"@es .
+    skos:prefLabel "Collection - Major Material Groups"@en,
+        "Colección - Grandes Grupos de Materiales"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/grandes-grupos-de-materiales-material-antropico> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-grandes-grupos-de-materiales-material-antropico> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the hierarchical category of Major Material Groups / Anthropic Material, characterized by representing the top-level classification that groups all accumulations of materials due exclusively to human action."@en,
         "Colección de materiales que pertenecen a la categoría jerárquica de Grandes Grupos de Materiales / Material Antrópico, que se caracteriza por representar el nivel superior de clasificación que agrupa todas las acumulaciones de materiales debidas exclusivamente a la acción humana."@es ;
@@ -1126,27 +832,30 @@
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/material-antropico>,
         <https://geo-carto.github.io/vocabularios/material-igme/material-antropico-consolidado>,
         <https://geo-carto.github.io/vocabularios/material-igme/material-antropico-no-consolidado> ;
-    skos:prefLabel "Grandes Grupos de Materiales / Material Antrópico"@es .
+    skos:prefLabel "Collection - Major Material Groups / Anthropogenic Material"@en,
+        "Colección - Grandes Grupos de Materiales / Material Antrópico"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/grandes-grupos-de-materiales-material-metamorfico> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-grandes-grupos-de-materiales-material-metamorfico> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the hierarchical category of Major Material Groups / Metamorphic Material, characterized by representing the top-level classification that groups all materials derived from pre-existing rocks, through mineralogical, chemical or structural changes, in solid state, in response to physicochemical variations of pressure and temperature."@en,
         "Colección de materiales que pertenecen a la categoría jerárquica de Grandes Grupos de Materiales / Material Metamórfico, que se caracteriza por representar el nivel superior de clasificación que agrupa todos los materiales derivados de rocas preexistentes, mediante cambios mineralógicos, químicos o estructurales, en estado sólido, en respuesta a variaciones físico-químicas de presión y temperatura."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/material-metamorfico>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-metamorfica> ;
-    skos:prefLabel "Grandes Grupos de Materiales / Material Metamórfico"@es .
+    skos:prefLabel "Collection - Major Material Groups / Metamorphic Material"@en,
+        "Colección - Grandes Grupos de Materiales / Material Metamórfico"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/grandes-grupos-de-materiales-materiales-igneos> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-grandes-grupos-de-materiales-materiales-igneos> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the hierarchical category of Major Material Groups / Igneous Materials, characterized by representing the top-level classification that groups all materials resulting from the cooling and solidification of a magma, both volcanic and plutonic."@en,
         "Colección de materiales que pertenecen a la categoría jerárquica de Grandes Grupos de Materiales / Materiales Ígneos, que se caracteriza por representar el nivel superior de clasificación que agrupa todos los materiales resultantes del enfriamiento y la solidificación de un magma, tanto volcánicos como plutónicos."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/material-igneo>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-ignea> ;
-    skos:prefLabel "Grandes Grupos de Materiales / Materiales Ígneos"@es .
+    skos:prefLabel "Collection - Major Material Groups / Igneous Material"@en,
+        "Colección - Grandes Grupos de Materiales / Materiales Ígneos"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/grandes-grupos-de-materiales-materiales-sedimentarios> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-grandes-grupos-de-materiales-materiales-sedimentarios> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the hierarchical category of Major Material Groups / Sedimentary Materials, characterized by representing the top-level classification that groups all materials formed outside the Earth's crust by a sedimentary process."@en,
         "Colección de materiales que pertenecen a la categoría jerárquica de Grandes Grupos de Materiales / Materiales Sedimentarios, que se caracteriza por representar el nivel superior de clasificación que agrupa todos los materiales formados en el exterior de la corteza terrestre mediante un proceso de sedimentación."@es ;
@@ -1154,121 +863,10 @@
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito>,
         <https://geo-carto.github.io/vocabularios/material-igme/material-sedimentario>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-sedimentaria> ;
-    skos:prefLabel "Grandes Grupos de Materiales / Materiales Sedimentarios"@es .
+    skos:prefLabel "Collection - Major Material Groups / Sedimentary Material"@en,
+        "Colección - Grandes Grupos de Materiales / Materiales Sedimentarios"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/hybrid-sedimentary-rocks-and-sediments> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Hybrid Sedimentary Rocks And Sediments"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/diamictita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/diamicton>,
-        <https://geo-carto.github.io/vocabularios/material-igme/tilloide> ;
-    skos:prefLabel "Hybrid Sedimentary Rocks And Sediments"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/igneous-materials> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Igneous Materials"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/brecha-intrusiva>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cumulado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/deposito-volcanoclastico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-acido>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-basico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-igneo-fragmentario>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-igneo-intermedio>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-piroclastico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-acida>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-afanitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-alcalina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-basica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-calcoalcalina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-criptocristalina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-faneritica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-felsica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-hialocristalina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-holocristalina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-ignea-exotica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-ignea-fragmentaria>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-intermedia>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-intrusiva>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-leucocratica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-mafica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-melanocratica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-mesocratica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-metaluminosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-microcristalina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-peralcalina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-peraluminosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-salica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-subalcalina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-subvolcanica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-toleitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-ultrabasica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-ultramafica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-ultrapotasica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-vitrea>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-volcanica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-volcanoclastica> ;
-    skos:prefLabel "Igneous Materials"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/impact-rocks> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Impact Rocks"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/brecha-de-impacto>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-de-fundido-de-impacto>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-de-impacto>,
-        <https://geo-carto.github.io/vocabularios/material-igme/tectita> ;
-    skos:prefLabel "Impact Rocks"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/major-material-groups> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Major Material Groups"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/material-compuesto>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-natural-no-consolidado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-no-consolidado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-poligenico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-madre>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-poligenica> ;
-    skos:prefLabel "Major Material Groups"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/major-material-groups-anthropogenic-material> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Major Material Groups / Anthropogenic Material"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/material-antropico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-antropico-consolidado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-antropico-no-consolidado> ;
-    skos:prefLabel "Major Material Groups / Anthropogenic Material"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/major-material-groups-igneous-material> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Major Material Groups / Igneous Material"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/material-igneo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-ignea> ;
-    skos:prefLabel "Major Material Groups / Igneous Material"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/major-material-groups-metamorphic-material> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Major Material Groups / Metamorphic Material"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/material-metamorfico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-metamorfica> ;
-    skos:prefLabel "Major Material Groups / Metamorphic Material"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/major-material-groups-sedimentary-material> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Major Material Groups / Sedimentary Material"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-sedimentario>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-sedimentaria> ;
-    skos:prefLabel "Major Material Groups / Sedimentary Material"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/material-antropico> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-material-antropico> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Anthropic Material, characterized by including accumulations of materials, compacted or uncompacted, due exclusively to human action."@en,
         "Colección de materiales que pertenecen a la categoría de Material Antrópico, que se caracteriza por incluir acumulaciones de materiales, compactados o sin compactar, debidas exclusivamente a la acción humana."@es ;
@@ -1288,9 +886,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/relleno>,
         <https://geo-carto.github.io/vocabularios/material-igme/salina>,
         <https://geo-carto.github.io/vocabularios/material-igme/vertedero> ;
-    skos:prefLabel "Material Antrópico"@es .
+    skos:prefLabel "Collection - Anthropogenic Material"@en,
+        "Colección - Material Antrópico"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/materiales-de-falla> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-materiales-de-falla> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Fault Materials, characterized by including materials formed as a result of deformation in a fault zone."@en,
         "Colección de materiales que pertenecen a la categoría de Materiales de Falla, que se caracteriza por incluir materiales formados como resultado de la deformación en una zona de falla."@es ;
@@ -1309,9 +908,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/roca-milonitica>,
         <https://geo-carto.github.io/vocabularios/material-igme/ultracataclasita>,
         <https://geo-carto.github.io/vocabularios/material-igme/ultramilonita> ;
-    skos:prefLabel "Materiales de Falla"@es .
+    skos:prefLabel "Collection - Fault Materials"@en,
+        "Colección - Materiales de Falla"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/materiales-igneos> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-materiales-igneos> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Igneous Materials, characterized by including materials resulting from the cooling and solidification of a magma, which can be volcanic or plutonic, depending on whether they are emplaced at the surface or in the interior of the Earth's crust."@en,
         "Colección de materiales que pertenecen a la categoría de Materiales Ígneos, que se caracteriza por incluir materiales resultantes del enfriamiento y la solidificación de un magma, que pueden ser volcánicos o plutónicos, según se emplacen en la superficie o en el interior de la corteza terrestre."@es ;
@@ -1356,27 +956,30 @@
         <https://geo-carto.github.io/vocabularios/material-igme/roca-vitrea>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-volcanica>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-volcanoclastica> ;
-    skos:prefLabel "Materiales Ígneos"@es .
+    skos:prefLabel "Collection - Igneous Materials"@en,
+        "Colección - Materiales Ígneos"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/materiales-metamorficos-materiales-de-falla> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-materiales-metamorficos-materiales-de-falla> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the subcategory of Metamorphic Materials / Fault Materials, characterized by grouping, within metamorphic materials, those materials formed as a result of deformation in a fault zone."@en,
         "Colección de materiales que pertenecen a la subcategoría de Materiales Metamórficos / Materiales de Falla, que se caracteriza por agrupar, dentro de los materiales metamórficos, aquellos materiales formados como resultado de la deformación en una zona de falla."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/material-de-falla>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-de-falla> ;
-    skos:prefLabel "Materiales Metamórficos / Materiales de Falla"@es .
+    skos:prefLabel "Collection - Metamorphic Materials / Fault Materials"@en,
+        "Colección - Materiales Metamórficos / Materiales de Falla"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/materiales-metamorficos-rocas-metasomaticas-e-hidrotermales> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-materiales-metamorficos-rocas-metasomaticas-e-hidrotermales> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the subcategory of Metamorphic Materials / Metasomatic and Hydrothermal Rocks, characterized by grouping, within metamorphic materials, those rocks derived from a metamorphic process in which an important change in the chemical composition of the rock occurs, due to interaction with hydrothermal fluids or magmas."@en,
         "Colección de materiales que pertenecen a la subcategoría de Materiales Metamórficos / Rocas Metasomáticas e Hidrotermales, que se caracteriza por agrupar, dentro de los materiales metamórficos, aquellas rocas derivadas de un proceso metamórfico por el que se produce un cambio importante en la composición química de la roca, debido a interacción con fluidos hidrotermales o magmas."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/roca-hidrotermal>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-metasomatica> ;
-    skos:prefLabel "Materiales Metamórficos / Rocas Metasomáticas e Hidrotermales"@es .
+    skos:prefLabel "Collection - Metamorphic Materials / Metasomatic And Hydrothermal Rocks"@en,
+        "Colección - Materiales Metamórficos / Rocas Metasomáticas e Hidrotermales"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/materiales-sedimentarios> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-materiales-sedimentarios> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Sedimentary Materials, characterized by including materials formed outside the Earth's crust by a sedimentary process, exhibiting characteristic structures, primarily stratification."@en,
         "Colección de materiales que pertenecen a la categoría de Materiales Sedimentarios, que se caracteriza por incluir materiales formados en el exterior de la corteza terrestre mediante un proceso de sedimentación, que presentan estructuras características, como, principalmente, la estratificación."@es ;
@@ -1389,9 +992,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/grava-s.l.>,
         <https://geo-carto.github.io/vocabularios/material-igme/lutita-s.l.>,
         <https://geo-carto.github.io/vocabularios/material-igme/pelita-s.l.> ;
-    skos:prefLabel "Materiales Sedimentarios"@es .
+    skos:prefLabel "Collection - Sedimentary Materials"@en,
+        "Colección - Materiales Sedimentarios"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/materiales-sedimentarios-evaporitas> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-materiales-sedimentarios-evaporitas> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the subcategory of Sedimentary Materials / Evaporites, characterized by grouping, within sedimentary materials, those sediments or sedimentary rocks formed by chemical precipitation of non-carbonate salts, mainly sulfates, chlorides, and borates."@en,
         "Colección de materiales que pertenecen a la subcategoría de Materiales Sedimentarios / Evaporitas, que se caracteriza por agrupar, dentro de los materiales sedimentarios, aquellos sedimentos o rocas sedimentarias formados por precipitación química de sales no carbonatadas, principalmente sulfatos, cloruros y boratos."@es ;
@@ -1399,9 +1003,10 @@
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-evaporitico>,
         <https://geo-carto.github.io/vocabularios/material-igme/evaporita>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-evaporitica> ;
-    skos:prefLabel "Materiales Sedimentarios / Evaporitas"@es .
+    skos:prefLabel "Collection - Sedimentary Materials / Evaporites"@en,
+        "Colección - Materiales Sedimentarios / Evaporitas"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/materiales-sedimentarios-rocas-sedimentarias-y-sedimentos-carbonatados> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-materiales-sedimentarios-rocas-sedimentarias-y-sedimentos-carbonatados> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the subcategory of Sedimentary Materials / Carbonate Sedimentary Rocks and Sediments, characterized by grouping, within sedimentary materials, those rocks and sediments composed of more than 50% carbonate minerals."@en,
         "Colección de materiales que pertenecen a la subcategoría de Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Carbonatados, que se caracteriza por agrupar, dentro de los materiales sedimentarios, aquellas rocas y sedimentos compuestos en más de un 50% por minerales carbonatados."@es ;
@@ -1409,9 +1014,10 @@
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-carbonatado>,
         <https://geo-carto.github.io/vocabularios/material-igme/material-sedimentario-carbonatado>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-sedimentaria-carbonatada> ;
-    skos:prefLabel "Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Carbonatados"@es .
+    skos:prefLabel "Collection - Sedimentary Materials / Carbonate Sedimentary Rocks And Sediments"@en,
+        "Colección - Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Carbonatados"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/materiales-sedimentarios-rocas-sedimentarias-y-sedimentos-con-connotaciones-geneticas> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-materiales-sedimentarios-rocas-sedimentarias-y-sedimentos-con-connotaciones-geneticas> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the subcategory of Sedimentary Materials / Sedimentary Rocks and Sediments with Genetic Connotations, characterized by grouping, within sedimentary materials, those rocks and sediments classified according to their genetic formation process."@en,
         "Colección de materiales que pertenecen a la subcategoría de Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos con Connotaciones Genéticas, que se caracteriza por agrupar, dentro de los materiales sedimentarios, aquellas rocas y sedimentos clasificados según su proceso genético de formación."@es ;
@@ -1419,9 +1025,10 @@
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-biogenico>,
         <https://geo-carto.github.io/vocabularios/material-igme/material-biogenico>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-biogenica> ;
-    skos:prefLabel "Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos con Connotaciones Genéticas"@es .
+    skos:prefLabel "Collection - Sedimentary Materials / Sedimentary Rocks And Sediments With Genetic Connotations"@en,
+        "Colección - Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos con Connotaciones Genéticas"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/materiales-sedimentarios-rocas-sedimentarias-y-sedimentos-detriticos> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-materiales-sedimentarios-rocas-sedimentarias-y-sedimentos-detriticos> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the subcategory of Sedimentary Materials / Detrital Sedimentary Rocks and Sediments, characterized by grouping, within sedimentary materials, those rocks and sediments composed of more than 50% fragments from pre-existing rocks and minerals."@en,
         "Colección de materiales que pertenecen a la subcategoría de Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Detríticos, que se caracteriza por agrupar, dentro de los materiales sedimentarios, aquellas rocas y sedimentos compuestos en más de un 50% por fragmentos de otras rocas y minerales preexistentes."@es ;
@@ -1429,9 +1036,10 @@
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-clastico>,
         <https://geo-carto.github.io/vocabularios/material-igme/material-clastico>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-clastica> ;
-    skos:prefLabel "Materiales Sedimentarios / Rocas sedimentarias y sedimentos detríticos"@es .
+    skos:prefLabel "Collection - Sedimentary Materials / Detrital Sedimentary Rocks And Sediments"@en,
+        "Colección - Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos detríticos"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/materiales-sedimentarios-rocas-sedimentarias-y-sedimentos-ferruginosos> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-materiales-sedimentarios-rocas-sedimentarias-y-sedimentos-ferruginosos> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the subcategory of Sedimentary Materials / Ferruginous Sedimentary Rocks and Sediments, characterized by grouping, within sedimentary materials, those rocks and sediments composed of more than 50% ferruginous minerals."@en,
         "Colección de materiales que pertenecen a la subcategoría de Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Ferruginosos, que se caracteriza por agrupar, dentro de los materiales sedimentarios, aquellas rocas y sedimentos compuestos en más de un 50% por minerales ferruginosos."@es ;
@@ -1439,19 +1047,22 @@
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-ferruginoso>,
         <https://geo-carto.github.io/vocabularios/material-igme/material-sedimentario-ferruginoso>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-sedimentaria-ferruginosa> ;
-    skos:prefLabel "Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Ferruginosos"@es .
+    skos:prefLabel "Collection - Sedimentary Materials / Ferruginous Sedimentary Rocks And Sediments"@en,
+        "Colección - Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Ferruginosos"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/materiales-sedimentarios-rocas-sedimentarias-y-sedimentos-fosfatados> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-materiales-sedimentarios-rocas-sedimentarias-y-sedimentos-fosfatados> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the subcategory of Sedimentary Materials / Phosphatic Sedimentary Rocks and Sediments, characterized by grouping, within sedimentary materials, those rocks and sediments composed of more than 50% phosphate minerals."@en,
         "Colección de materiales que pertenecen a la subcategoría de Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Fosfatados, que se caracteriza por agrupar, dentro de los materiales sedimentarios, aquellas rocas y sedimentos compuestos en más de un 50% por minerales fosfatados."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-fosfatado>,
+        <https://geo-carto.github.io/vocabularios/material-igme/guano>,
         <https://geo-carto.github.io/vocabularios/material-igme/material-sedimentario-fosfatado>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-sedimentaria-fosfatada> ;
-    skos:prefLabel "Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Fosfatados"@es .
+    skos:prefLabel "Collection - Sedimentary Materials / Phosphatic Sedimentary Rocks And Sediments"@en,
+        "Colección - Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Fosfatados"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/materiales-sedimentarios-rocas-sedimentarias-y-sedimentos-hibridos> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-materiales-sedimentarios-rocas-sedimentarias-y-sedimentos-hibridos> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the subcategory of Sedimentary Materials / Hybrid Sedimentary Rocks and Sediments, characterized by grouping, within sedimentary materials, those materials that cannot be included in any other category by their composition or origin, composed of three or more components, each of which constitutes between 5 and 50% of the sediment."@en,
         "Colección de materiales que pertenecen a la subcategoría de Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Híbridos, que se caracteriza por agrupar, dentro de los materiales sedimentarios, aquellos materiales que no pueden incluirse en ninguna otra categoría por su composición u origen, integrados por tres o más componentes, cada uno de los cuales constituye entre el 5 y el 50% del sedimento."@es ;
@@ -1459,18 +1070,20 @@
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-hibrido>,
         <https://geo-carto.github.io/vocabularios/material-igme/material-sedimentario-hibrido>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-sedimentaria-hibrida> ;
-    skos:prefLabel "Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Híbridos"@es .
+    skos:prefLabel "Collection - Sedimentary Materials / Hybrid Sedimentary Rocks And Sediments"@en,
+        "Colección - Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Híbridos"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/materiales-sedimentarios-rocas-sedimentarias-y-sedimentos-ricos-en-materia-organica> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-materiales-sedimentarios-rocas-sedimentarias-y-sedimentos-ricos-en-materia-organica> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the subcategory of Sedimentary Materials / Organic-Rich Sedimentary Rocks and Sediments, characterized by grouping, within sedimentary materials, those rocks and sediments with significant organic matter content."@en,
         "Colección de materiales que pertenecen a la subcategoría de Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Ricos en Materia Orgánica, que se caracteriza por agrupar, dentro de los materiales sedimentarios, aquellas rocas y sedimentos con contenido significativo de materia orgánica."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/material-rico-en-materia-organica>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-rica-en-materia-organica> ;
-    skos:prefLabel "Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Ricos en Materia Orgánica"@es .
+    skos:prefLabel "Collection - Sedimentary Materials / Organic-Rich Sedimentary Rocks And Sediments"@en,
+        "Colección - Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Ricos en Materia Orgánica"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/materiales-sedimentarios-rocas-sedimentarias-y-sedimentos-siliceos-no-clasticos> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-materiales-sedimentarios-rocas-sedimentarias-y-sedimentos-siliceos-no-clasticos> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the subcategory of Sedimentary Materials / Non-Clastic Siliceous Sedimentary Rocks and Sediments, characterized by grouping, within sedimentary materials, those rocks and sediments composed of more than 50% silica of biogenic or chemical origin, excluding detrital rocks."@en,
         "Colección de materiales que pertenecen a la subcategoría de Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Silíceos No Clásticos, que se caracteriza por agrupar, dentro de los materiales sedimentarios, aquellas rocas y sedimentos compuestos en más de un 50% por sílice de origen biogénico o químico, excluyendo las rocas detríticas."@es ;
@@ -1478,210 +1091,20 @@
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-siliceo>,
         <https://geo-carto.github.io/vocabularios/material-igme/material-sedimentario-siliceo>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-sedimentaria-silicea> ;
-    skos:prefLabel "Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Silíceos No Clásticos"@es .
+    skos:prefLabel "Collection - Sedimentary Materials / Non-Clastic Siliceous Sedimentary Rocks And Sediments"@en,
+        "Colección - Materiales Sedimentarios / Rocas Sedimentarias y Sedimentos Silíceos No Clásticos"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/materiales-sedimentarios-rocas-y-depositos-volcanoclasticos> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-materiales-sedimentarios-rocas-y-depositos-volcanoclasticos> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the subcategory of Sedimentary Materials / Volcaniclastic Rocks and Deposits, characterized by grouping, within sedimentary materials, those rocks composed of at least 10% by volume of fragments of volcanic nature, regardless of the fragmentation and accumulation mechanism."@en,
         "Colección de materiales que pertenecen a la subcategoría de Materiales Sedimentarios / Rocas y Depósitos Volcanoclásticos, que se caracteriza por agrupar, dentro de los materiales sedimentarios, aquellas rocas compuestas, al menos en un 10% de su volumen, por fragmentos de naturaleza volcánica, independientemente del mecanismo de fragmentación y de acumulación."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-volcano-sedimentario>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-volcano-sedimentaria> ;
-    skos:prefLabel "Materiales Sedimentarios / Rocas y Depósitos Volcanoclásticos"@es .
+    skos:prefLabel "Collection - Sedimentary Materials / Volcaniclastic Rocks And Deposits"@en,
+        "Colección - Materiales Sedimentarios / Rocas y Depósitos Volcanoclásticos"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/metamorphic-materials-fault-materials> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Metamorphic Materials / Fault Materials"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/material-de-falla>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-de-falla> ;
-    skos:prefLabel "Metamorphic Materials / Fault Materials"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/metamorphic-materials-metasomatic-and-hydrothermal-rocks> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Metamorphic Materials / Metasomatic And Hydrothermal Rocks"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/roca-hidrotermal>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-metasomatica> ;
-    skos:prefLabel "Metamorphic Materials / Metasomatic And Hydrothermal Rocks"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/metamorphic-rocks-according-to-composition> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Metamorphic Rocks According To Composition"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/anfibolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/calcoesquisto>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cipolino>,
-        <https://geo-carto.github.io/vocabularios/material-igme/corneana>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cuarcita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/diatexita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/eclogita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/esquisto>,
-        <https://geo-carto.github.io/vocabularios/material-igme/esquisto-anfibolico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/esquisto-glaucofanico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/esquisto-micaceo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/filita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/garnierita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/gneis>,
-        <https://geo-carto.github.io/vocabularios/material-igme/gneis-bandeado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/gneis-glandular>,
-        <https://geo-carto.github.io/vocabularios/material-igme/granulita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/kinzigita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/marmol>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metatexita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/migmatita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/pirigarnita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/pizarra>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-de-silicatos-calcicos>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-foliada>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-granoblastica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/serpentinita> ;
-    skos:prefLabel "Metamorphic Rocks According To Composition"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/metamorphic-rocks-according-to-protolith> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Metamorphic Rocks According To Protolith"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/metabasalto>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metabasita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metabrecha>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metacaliza>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metacarbonato>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metachert>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metacinerita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metaconglomerado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metadacita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metadiabasa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metadiorita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metadolerita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metafonolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metagabro>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metagranito>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metagrauvaca>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metahornblendita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metandesita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metapelita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metaperidotita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metapiroxenita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metarcosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metarenisca>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metarenita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metarriolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metasedimento>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metasienita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metatoba>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metatraquita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metaultrabasita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/metavolcanita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ortoanfibolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ortogneis>,
-        <https://geo-carto.github.io/vocabularios/material-igme/paraanfibolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/paragneis>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-metaignea> ;
-    skos:prefLabel "Metamorphic Rocks According To Protolith"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/metasomatic-and-hydrothermal-rocks> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Metasomatic And Hydrothermal Rocks"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/fenita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/greisen>,
-        <https://geo-carto.github.io/vocabularios/material-igme/rodingita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/skarn> ;
-    skos:prefLabel "Metasomatic And Hydrothermal Rocks"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/non-clastic-siliceous-sedimentary-rocks-and-sediments> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Non-Clastic Siliceous Sedimentary Rocks And Sediments"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/agata>,
-        <https://geo-carto.github.io/vocabularios/material-igme/calcedonia>,
-        <https://geo-carto.github.io/vocabularios/material-igme/chert>,
-        <https://geo-carto.github.io/vocabularios/material-igme/diatomita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/espiculita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/fango-de-diatomeas>,
-        <https://geo-carto.github.io/vocabularios/material-igme/fango-de-espiculas-de-esponjas>,
-        <https://geo-carto.github.io/vocabularios/material-igme/fango-de-radiolarios>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ftanita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/geiserita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/jaspe>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lidita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/novaculita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/opalo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/porcelanita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/radiolarita> ;
-    skos:prefLabel "Non-Clastic Siliceous Sedimentary Rocks And Sediments"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/organic-rich-sedimentary-rocks-and-sediments> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Organic-Rich Sedimentary Rocks And Sediments"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/ambar>,
-        <https://geo-carto.github.io/vocabularios/material-igme/antracita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/asfaltita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/asfalto>,
-        <https://geo-carto.github.io/vocabularios/material-igme/azabache>,
-        <https://geo-carto.github.io/vocabularios/material-igme/bitumen>,
-        <https://geo-carto.github.io/vocabularios/material-igme/carbon>,
-        <https://geo-carto.github.io/vocabularios/material-igme/carbon-bituminoso>,
-        <https://geo-carto.github.io/vocabularios/material-igme/carbon-de-la-serie-humica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/carbon-de-la-serie-sapropelica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/carbon-impuro>,
-        <https://geo-carto.github.io/vocabularios/material-igme/carbon-sapropelico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/gilsonita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lignito>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lignito-negro>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lignito-pardo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lignito-sapropelico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lutita-bituminosa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lutita-con-materia-organica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/petroleo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sapropel>,
-        <https://geo-carto.github.io/vocabularios/material-igme/turba> ;
-    skos:prefLabel "Organic-Rich Sedimentary Rocks And Sediments"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/other-igneous-rocks> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Other Igneous Rocks"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/adakita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/albitita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/beforsita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/boninita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cancalita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/carbonatita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/charnoquita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/charnoquita-de-feldespato-alcalino>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cuarzomangerita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/enderbita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/fortunita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/jotunita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/jumillita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/kalsilitita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/kimberlita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/komatiita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/leucitita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/leucitita-fonolitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/leucitita-tefritica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/mangerita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/meimechita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/melilitita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/melilitolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/opdalita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/picrita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-charnoquitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-exotica-alcalina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-kalsilitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-kalsilitica-melilitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-komatiitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-lamproitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-melilitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-volcanica-rica-en-magnesio>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sanukita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/verita> ;
-    skos:prefLabel "Other Igneous Rocks"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/otras-rocas-igneas> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-otras-rocas-igneas> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Other Igneous Rocks, characterized by including rocks resulting from the cooling and solidification of a magma that are not strictly classified as volcanic, plutonic, or subvolcanic, encompassing transitional types or those with mixed characteristics."@en,
         "Colección de materiales que pertenecen a la categoría de Otras Rocas Ígneas, que se caracteriza por incluir rocas resultantes del enfriamiento y la solidificación de un magma que no se clasifican estrictamente como volcánicas, plutónicas o subvolcánicas, abarcando tipos transicionales o con características mixtas."@es ;
@@ -1721,128 +1144,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/roca-volcanica-rica-en-magnesio>,
         <https://geo-carto.github.io/vocabularios/material-igme/sanukita>,
         <https://geo-carto.github.io/vocabularios/material-igme/verita> ;
-    skos:prefLabel "Otras Rocas ígneas"@es .
+    skos:prefLabel "Collection - Other Igneous Rocks"@en,
+        "Colección - Otras Rocas ígneas"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/plutonic-rocks> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Plutonic Rocks"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/agpaita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/akerita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/alaskita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/anortosita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/anortosita-con-foides>,
-        <https://geo-carto.github.io/vocabularios/material-igme/aplita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/appinita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/clinopiroxenita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/clinopiroxenita-olivinica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cortlandtita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cuarzoanortosita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cuarzodiorita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cuarzogabro>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cuarzolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cuarzomonzodiorita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cuarzomonzogabro>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cuarzomonzonita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cuarzosienita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cuarzosienita-de-feldespato-alcalino>,
-        <https://geo-carto.github.io/vocabularios/material-igme/diorita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/diorita-con-foides>,
-        <https://geo-carto.github.io/vocabularios/material-igme/diorita-foidica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/diorita-nefelinica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dioritoide>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dioritoide-foidico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dunita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/essexita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/fergusita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/foidolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/gabro>,
-        <https://geo-carto.github.io/vocabularios/material-igme/gabro-con-foides>,
-        <https://geo-carto.github.io/vocabularios/material-igme/gabro-foidico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/gabro-nefelinico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/gabro-olivinico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/gabroide>,
-        <https://geo-carto.github.io/vocabularios/material-igme/gabroide-foidico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/gabronorita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/gabronorita-olivinica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/granito>,
-        <https://geo-carto.github.io/vocabularios/material-igme/granito-alcalino>,
-        <https://geo-carto.github.io/vocabularios/material-igme/granito-calcoalcalino>,
-        <https://geo-carto.github.io/vocabularios/material-igme/granito-de-feldespato-alcalino>,
-        <https://geo-carto.github.io/vocabularios/material-igme/granito-peralcalino>,
-        <https://geo-carto.github.io/vocabularios/material-igme/granito-rico-en-cuarzo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/granitoide-rico-en-cuarzo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/granodiorita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/harburgita-harzburgita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/hornblendita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/hornblendita-olivinica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/hornblendita-olivino-piroxenica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/hornblendita-piroxenica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ijolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/jacupirangita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/larvikita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lerzolita-lherzolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/leucotonalita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/malignita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/mariupolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/melteigita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/miaskita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/missourita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/monzodiorita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/monzodiorita-con-foides>,
-        <https://geo-carto.github.io/vocabularios/material-igme/monzodiorita-foidica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/monzogabro>,
-        <https://geo-carto.github.io/vocabularios/material-igme/monzogabro-con-foides>,
-        <https://geo-carto.github.io/vocabularios/material-igme/monzogabro-foidico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/monzogranito>,
-        <https://geo-carto.github.io/vocabularios/material-igme/monzonita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/monzonita-con-foides>,
-        <https://geo-carto.github.io/vocabularios/material-igme/monzosienita-foidica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/monzosienita-nefelinica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/nefelinolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/norita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/norita-olivinica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ortopiroxenita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ortopiroxenita-olivinica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/pegmatita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/peridotita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/peridotita-hornblendica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/peridotita-piroxenica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/peridotita-piroxeno-hornblendica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/piroxenita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/piroxenita-hornblendica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/piroxenita-olivinica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/piroxenita-olivino-hornblendica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-anortositica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-dioritica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-gabroica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-granitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-monzodioritica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-monzogabroica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-monzonitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-sienitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-sienitica-de-feldespato-alcalino>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-sienitica-foidica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/shonkinita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sienita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sienita-con-foides>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sienita-de-feldespato-alcalino>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sienita-de-feldespato-alcalino-con-foides>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sienita-foidica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sienita-nefelinica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sienitoide>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sienogranito>,
-        <https://geo-carto.github.io/vocabularios/material-igme/teschenita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/tonalita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/troctolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/urtita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/vaugnerita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/websterita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/websterita-olivinica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/werlita-wehrlita> ;
-    skos:prefLabel "Plutonic Rocks"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-de-impacto> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-rocas-de-impacto> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Impact Rocks, characterized by including any material produced by the impact of an extraterrestrial body."@en,
         "Colección de materiales que pertenecen a la categoría de Rocas de Impacto, que se caracteriza por incluir cualquier material producido por el impacto de un cuerpo extraterrestre."@es ;
@@ -1851,9 +1156,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/roca-de-fundido-de-impacto>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-de-impacto>,
         <https://geo-carto.github.io/vocabularios/material-igme/tectita> ;
-    skos:prefLabel "Rocas de Impacto"@es .
+    skos:prefLabel "Collection - Impact Rocks"@en,
+        "Colección - Rocas de Impacto"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-metamorficas-en-funcion-de-su-composicion> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-rocas-metamorficas-en-funcion-de-su-composicion> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Metamorphic Rocks by Composition, characterized by including rocks derived from a pre-existing rock, through mineralogical, chemical or structural changes, essentially in solid state, in response to physicochemical variations of pressure and temperature, classified according to their resulting mineralogical composition."@en,
         "Colección de materiales que pertenecen a la categoría de Rocas Metamórficas en Función de su Composición, que se caracteriza por incluir rocas derivadas de una roca preexistente, mediante cambios mineralógicos, químicos o estructurales, esencialmente en estado sólido, en respuesta a variaciones físico-químicas de presión y temperatura, clasificadas según su composición mineralógica resultante."@es ;
@@ -1885,9 +1191,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/roca-foliada>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-granoblastica>,
         <https://geo-carto.github.io/vocabularios/material-igme/serpentinita> ;
-    skos:prefLabel "Rocas Metamórficas en Función de su Composición"@es .
+    skos:prefLabel "Collection - Metamorphic Rocks According To Composition"@en,
+        "Colección - Rocas Metamórficas en Función de su Composición"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-metamorficas-en-funcion-del-protolito> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-rocas-metamorficas-en-funcion-del-protolito> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Metamorphic Rocks by Protolith, characterized by including rocks derived from a pre-existing rock, through mineralogical, chemical or structural changes in solid state, classified according to the nature of the original rock (protolith) from which they were formed."@en,
         "Colección de materiales que pertenecen a la categoría de Rocas Metamórficas en Función del Protolito, que se caracteriza por incluir rocas derivadas de una roca preexistente, mediante cambios mineralógicos, químicos o estructurales en estado sólido, clasificadas según la naturaleza de la roca original (protolito) a partir de la cual se formaron."@es ;
@@ -1928,9 +1235,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/paraanfibolita>,
         <https://geo-carto.github.io/vocabularios/material-igme/paragneis>,
         <https://geo-carto.github.io/vocabularios/material-igme/roca-metaignea> ;
-    skos:prefLabel "Rocas Metamórficas en Función del Protolito"@es .
+    skos:prefLabel "Collection - Metamorphic Rocks According To Protolith"@en,
+        "Colección - Rocas Metamórficas en Función del Protolito"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-metasomaticas-e-hidrotermales> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-rocas-metasomaticas-e-hidrotermales> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Metasomatic and Hydrothermal Rocks, characterized by including rocks derived from a metamorphic process in which an important change in the chemical composition of the rock occurs, due to interaction with hydrothermal fluids or magmas, as well as rocks whose characteristics are the result of the action of hydrothermal solutions."@en,
         "Colección de materiales que pertenecen a la categoría de Rocas Metasomáticas e Hidrotermales, que se caracteriza por incluir rocas derivadas de un proceso metamórfico por el que se produce un cambio importante en la composición química de la roca, debido a interacción con fluidos hidrotermales o magmas, así como rocas cuyas características son el resultado de la acción de soluciones hidrotermales."@es ;
@@ -1939,9 +1247,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/greisen>,
         <https://geo-carto.github.io/vocabularios/material-igme/rodingita>,
         <https://geo-carto.github.io/vocabularios/material-igme/skarn> ;
-    skos:prefLabel "Rocas Metasomáticas e Hidrotermales"@es .
+    skos:prefLabel "Collection - Metasomatic And Hydrothermal Rocks"@en,
+        "Colección - Rocas Metasomáticas e Hidrotermales"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-plutonicas> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-rocas-plutonicas> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Plutonic Rocks, characterized by including igneous rocks solidified in the interior of the Earth's crust from a silicate magma, generally medium- to coarse-grained, although they may have related fine-grained facies."@en,
         "Colección de materiales que pertenecen a la categoría de Rocas Plutónicas, que se caracteriza por incluir rocas ígneas solidificadas en el interior de la corteza terrestre, a partir de un magma silicatado, generalmente de grano medio-grueso, aunque pueden tener facies de grano fino relacionadas."@es ;
@@ -2059,9 +1368,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/websterita>,
         <https://geo-carto.github.io/vocabularios/material-igme/websterita-olivinica>,
         <https://geo-carto.github.io/vocabularios/material-igme/werlita-wehrlita> ;
-    skos:prefLabel "Rocas Plutónicas"@es .
+    skos:prefLabel "Collection - Plutonic Rocks"@en,
+        "Colección - Rocas Plutónicas"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-sedimentarias-y-sedimentos-carbonatados> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-rocas-sedimentarias-y-sedimentos-carbonatados> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Carbonate Sedimentary Rocks and Sediments, characterized by including sedimentary rocks composed of more than 50% carbonate minerals."@en,
         "Colección de materiales que pertenecen a la categoría de Rocas Sedimentarias y Sedimentos Carbonatados, que se caracteriza por incluir rocas sedimentarias compuestas en más de un 50% por minerales carbonatados."@es ;
@@ -2162,9 +1472,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/sedimento-dolomitico-impuro>,
         <https://geo-carto.github.io/vocabularios/material-igme/sedimento-dolomitico-puro>,
         <https://geo-carto.github.io/vocabularios/material-igme/wackestone> ;
-    skos:prefLabel "Rocas Sedimentarias y Sedimentos Carbonatados"@es .
+    skos:prefLabel "Collection - Carbonate Sedimentary Rocks And Sediments"@en,
+        "Colección - Rocas Sedimentarias y Sedimentos Carbonatados"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-sedimentarias-y-sedimentos-con-connotaciones-geneticas> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-rocas-sedimentarias-y-sedimentos-con-connotaciones-geneticas> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Sedimentary Rocks and Sediments with Genetic Connotations, characterized by classifying rocks and sediments according to their specific origin or formation process, such as fluvial, aeolian, glacial, or lacustrine deposits."@en,
         "Colección de materiales que pertenecen a la categoría de Rocas Sedimentarias y Sedimentos con Connotaciones Genéticas, que se caracteriza por clasificar las rocas y sedimentos según su origen o proceso de formación específico, como depósitos fluviales, eólicos, glaciares o lacustres."@es ;
@@ -2181,10 +1492,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/fanglomerado>,
         <https://geo-carto.github.io/vocabularios/material-igme/fango>,
         <https://geo-carto.github.io/vocabularios/material-igme/fango-carbonatado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/flysch>,
         <https://geo-carto.github.io/vocabularios/material-igme/flysch-calcareo>,
         <https://geo-carto.github.io/vocabularios/material-igme/flysch-siliceo>,
         <https://geo-carto.github.io/vocabularios/material-igme/harina-glaciar>,
+        <https://geo-carto.github.io/vocabularios/material-igme/laterita>,
         <https://geo-carto.github.io/vocabularios/material-igme/megabrecha>,
         <https://geo-carto.github.io/vocabularios/material-igme/molasa>,
         <https://geo-carto.github.io/vocabularios/material-igme/olistolito>,
@@ -2196,9 +1507,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/turbidita>,
         <https://geo-carto.github.io/vocabularios/material-igme/varva>,
         <https://geo-carto.github.io/vocabularios/material-igme/varva-glaciolacustre> ;
-    skos:prefLabel "Rocas Sedimentarias y Sedimentos con Connotaciones Genéticas"@es .
+    skos:prefLabel "Collection - Sedimentary Rocks And Sediments With Genetic Connotations"@en,
+        "Colección - Rocas Sedimentarias y Sedimentos con Connotaciones Genéticas"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-sedimentarias-y-sedimentos-detriticos> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-rocas-sedimentarias-y-sedimentos-detriticos> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Detrital Sedimentary Rocks and Sediments, characterized by including rocks composed of more than 50% fragments from pre-existing rocks and minerals."@en,
         "Colección de materiales que pertenecen a la categoría de Rocas Sedimentarias y Sedimentos Detríticos, que se caracteriza por incluir rocas compuestas en más de un 50% por fragmentos de otras rocas y minerales preexistentes."@es ;
@@ -2308,9 +1620,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/subarcosa>,
         <https://geo-carto.github.io/vocabularios/material-igme/sublitarenita>,
         <https://geo-carto.github.io/vocabularios/material-igme/yesoarenita> ;
-    skos:prefLabel "Rocas Sedimentarias y Sedimentos Detríticos"@es .
+    skos:prefLabel "Collection - Detrital Sedimentary Rocks And Sediments"@en,
+        "Colección - Rocas Sedimentarias y Sedimentos Detríticos"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-sedimentarias-y-sedimentos-detriticos-rocas-sedimentarias-y-sedimentos-carbonatados> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-rocas-sedimentarias-y-sedimentos-detriticos-rocas-sedimentarias-y-sedimentos-carbonatados> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the mixed category of Detrital and Carbonate Sedimentary Rocks, characterized by including rocks and sediments with both detrital components (composed of more than 50% fragments from pre-existing rocks) and carbonate components (composed of more than 50% carbonate minerals), representing mixtures or transitions between both types."@en,
         "Colección de materiales que pertenecen a la categoría mixta de Rocas Sedimentarias Detríticas y Carbonatadas, que se caracteriza por incluir rocas y sedimentos con componentes tanto detríticos (compuestos en más de un 50% por fragmentos de rocas preexistentes) como carbonatados (compuestos en más de un 50% por minerales carbonatados), representando mezclas o transiciones entre ambos tipos."@es ;
@@ -2319,18 +1632,20 @@
         <https://geo-carto.github.io/vocabularios/material-igme/calcilimolita>,
         <https://geo-carto.github.io/vocabularios/material-igme/calcilutita>,
         <https://geo-carto.github.io/vocabularios/material-igme/calcirrudita> ;
-    skos:prefLabel "Rocas Sedimentarias y Sedimentos Detríticos / Rocas Sedimentarias y Sedimentos Carbonatados"@es .
+    skos:prefLabel "Collection - Detrital Sedimentary Rocks And Sediments / Carbonate Sedimentary Rocks And Sediments"@en,
+        "Colección - Rocas Sedimentarias y Sedimentos Detríticos / Rocas Sedimentarias y Sedimentos Carbonatados"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-sedimentarias-y-sedimentos-ferruginosos> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-rocas-sedimentarias-y-sedimentos-ferruginosos> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Ferruginous Sedimentary Rocks and Sediments, characterized by including sedimentary rocks composed of more than 50% ferruginous minerals."@en,
         "Colección de materiales que pertenecen a la categoría de Rocas Sedimentarias y Sedimentos Ferruginosos, que se caracteriza por incluir rocas sedimentarias compuestas en más de un 50% por minerales ferruginosos."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/formacion-de-hierro-bandeado>,
         <https://geo-carto.github.io/vocabularios/material-igme/hierro-de-los-pantanos> ;
-    skos:prefLabel "Rocas Sedimentarias y Sedimentos Ferruginosos"@es .
+    skos:prefLabel "Collection - Ferruginous Sedimentary Rocks And Sediments"@en,
+        "Colección - Rocas Sedimentarias y Sedimentos Ferruginosos"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-sedimentarias-y-sedimentos-hibridos> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-rocas-sedimentarias-y-sedimentos-hibridos> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Hybrid Sedimentary Rocks and Sediments, characterized by including rocks composed of three or more components, each of which constitutes between 5 and 50% of the rock, and which cannot be included in any other rock category by their composition or origin."@en,
         "Colección de materiales que pertenecen a la categoría de Rocas Sedimentarias y Sedimentos Híbridos, que se caracteriza por incluir rocas integradas por tres o más componentes, cada uno de los cuales constituye entre el 5 y el 50% de la misma, y que no pueden incluirse en ninguna otra categoría de roca por su composición u origen."@es ;
@@ -2338,9 +1653,10 @@
     skos:member <https://geo-carto.github.io/vocabularios/material-igme/diamictita>,
         <https://geo-carto.github.io/vocabularios/material-igme/diamicton>,
         <https://geo-carto.github.io/vocabularios/material-igme/tilloide> ;
-    skos:prefLabel "Rocas Sedimentarias y Sedimentos Híbridos"@es .
+    skos:prefLabel "Collection - Hybrid Sedimentary Rocks And Sediments"@en,
+        "Colección - Rocas Sedimentarias y Sedimentos Híbridos"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-sedimentarias-y-sedimentos-ricos-en-materia-organica> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-rocas-sedimentarias-y-sedimentos-ricos-en-materia-organica> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Organic-Rich Sedimentary Rocks and Sediments, characterized by including rocks and sediments with a significant proportion of organic matter, such as coal, oil shales, and sapropels."@en,
         "Colección de materiales que pertenecen a la categoría de Rocas Sedimentarias y Sedimentos Ricos en Materia Orgánica, que se caracteriza por incluir rocas y sedimentos con una proporción significativa de materia orgánica, como el carbón, las pizarras bituminosas y los sapropeles."@es ;
@@ -2367,9 +1683,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/petroleo>,
         <https://geo-carto.github.io/vocabularios/material-igme/sapropel>,
         <https://geo-carto.github.io/vocabularios/material-igme/turba> ;
-    skos:prefLabel "Rocas Sedimentarias y Sedimentos Ricos en Materia Orgánica"@es .
+    skos:prefLabel "Collection - Organic-Rich Sedimentary Rocks And Sediments"@en,
+        "Colección - Rocas Sedimentarias y Sedimentos Ricos en Materia Orgánica"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-sedimentarias-y-sedimentos-siliceos-no-clasticos> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-rocas-sedimentarias-y-sedimentos-siliceos-no-clasticos> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Non-Clastic Siliceous Sedimentary Rocks and Sediments, characterized by including sedimentary rocks composed of more than 50% silica of biogenic or chemical origin, excluding detrital rocks."@en,
         "Colección de materiales que pertenecen a la categoría de Rocas Sedimentarias y Sedimentos Silíceos No Clásticos, que se caracteriza por incluir rocas sedimentarias compuestas en más de un 50% por sílice de origen biogénico o químico, excluyendo las rocas detríticas."@es ;
@@ -2390,9 +1707,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/opalo>,
         <https://geo-carto.github.io/vocabularios/material-igme/porcelanita>,
         <https://geo-carto.github.io/vocabularios/material-igme/radiolarita> ;
-    skos:prefLabel "Rocas Sedimentarias y Sedimentos Silíceos No Clásticos"@es .
+    skos:prefLabel "Collection - Non-Clastic Siliceous Sedimentary Rocks And Sediments"@en,
+        "Colección - Rocas Sedimentarias y Sedimentos Silíceos No Clásticos"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-subvolcanicas> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-rocas-subvolcanicas> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Subvolcanic Rocks, characterized by including rocks formed by the solidification of a silicate magma in the interior of the Earth's crust at shallow depth, not exceeding 3 km, associated with plutonic rocks or extrusive rocks, and differing from both primarily in texture rather than composition."@en,
         "Colección de materiales que pertenecen a la categoría de Rocas Subvolcánicas, que se caracteriza por incluir rocas originadas por la solidificación de un magma silicatado en el interior de la corteza terrestre a escasa profundidad, no superior a 3 km, asociadas a las rocas plutónicas o a las eruptivas, y que presentan diferencias texturales, más que de composición, con ambas."@es ;
@@ -2411,9 +1729,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/sanaita>,
         <https://geo-carto.github.io/vocabularios/material-igme/vitrofido>,
         <https://geo-carto.github.io/vocabularios/material-igme/voguesita> ;
-    skos:prefLabel "Rocas subvolcánicas"@es .
+    skos:prefLabel "Collection - Subvolcanic Rocks"@en,
+        "Colección - Rocas Subvolcánicas"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-volcanicas> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-rocas-volcanicas> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Volcanic Rocks, characterized by including igneous rocks produced by volcanic activity, normally very fine-grained or glassy, which may frequently contain fragments of other rocks as well as phenocrysts."@en,
         "Colección de materiales que pertenecen a la categoría de Rocas Volcánicas, que se caracteriza por incluir rocas ígneas producidas por actividad volcánica, normalmente de grano muy fino o vítreas, que con frecuencia pueden contener fragmentos de otras rocas, así como fenocristales."@es ;
@@ -2484,9 +1803,10 @@
         <https://geo-carto.github.io/vocabularios/material-igme/traquita-con-foides>,
         <https://geo-carto.github.io/vocabularios/material-igme/traquita-de-feldespato-alcalino-con-foides>,
         <https://geo-carto.github.io/vocabularios/material-igme/traquitoide> ;
-    skos:prefLabel "Rocas Volcánicas"@es .
+    skos:prefLabel "Collection - Volcanic Rocks"@en,
+        "Colección - Rocas Volcánicas"@es .
 
-<https://geo-carto.github.io/vocabularios/material-igme/collection/rocas-y-depositos-volcanoclasticos> a skos:Collection ;
+<https://geo-carto.github.io/vocabularios/material-igme/collection/coleccion-rocas-y-depositos-volcanoclasticos> a skos:Collection ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
     skos:definition "Collection of materials belonging to the category of Volcaniclastic Rocks and Deposits, characterized by including rocks composed of at least 10% by volume of fragments of volcanic nature, regardless of the fragmentation and accumulation mechanism."@en,
         "Colección de materiales que pertenecen a la categoría de Rocas y Depósitos Volcanoclásticos, que se caracteriza por incluir rocas compuestas, al menos en un 10% de su volumen, por fragmentos de naturaleza volcánica, independientemente del mecanismo de fragmentación y de acumulación."@es ;
@@ -2543,291 +1863,8 @@
         <https://geo-carto.github.io/vocabularios/material-igme/toba-de-lapilli>,
         <https://geo-carto.github.io/vocabularios/material-igme/toba-de-lapilli-y-ceniza>,
         <https://geo-carto.github.io/vocabularios/material-igme/tufita> ;
-    skos:prefLabel "Rocas y Depósitos Volcanoclásticos"@es .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/sedimentary-materials> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Sedimentary Materials"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/arena-s.l.>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arenisca-s.l.>,
-        <https://geo-carto.github.io/vocabularios/material-igme/bauxita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/conglomerado-s.l.>,
-        <https://geo-carto.github.io/vocabularios/material-igme/deposito-rico-en-materia-organica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/grava-s.l.>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lutita-s.l.>,
-        <https://geo-carto.github.io/vocabularios/material-igme/pelita-s.l.> ;
-    skos:prefLabel "Sedimentary Materials"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/sedimentary-materials-carbonate-sedimentary-rocks-and-sediments> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Sedimentary Materials / Carbonate Sedimentary Rocks And Sediments"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-carbonatado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-sedimentario-carbonatado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-sedimentaria-carbonatada> ;
-    skos:prefLabel "Sedimentary Materials / Carbonate Sedimentary Rocks And Sediments"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/sedimentary-materials-detrital-sedimentary-rocks-and-sediments> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Sedimentary Materials / Detrital Sedimentary Rocks And Sediments"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-clastico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-clastico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-clastica> ;
-    skos:prefLabel "Sedimentary Materials / Detrital Sedimentary Rocks And Sediments"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/sedimentary-materials-evaporites> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Sedimentary Materials / Evaporites"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-evaporitico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/evaporita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-evaporitica> ;
-    skos:prefLabel "Sedimentary Materials / Evaporites"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/sedimentary-materials-ferruginous-sedimentary-rocks-and-sediments> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Sedimentary Materials / Ferruginous Sedimentary Rocks And Sediments"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-ferruginoso>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-sedimentario-ferruginoso>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-sedimentaria-ferruginosa> ;
-    skos:prefLabel "Sedimentary Materials / Ferruginous Sedimentary Rocks And Sediments"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/sedimentary-materials-hybrid-sedimentary-rocks-and-sediments> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Sedimentary Materials / Hybrid Sedimentary Rocks And Sediments"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-hibrido>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-sedimentario-hibrido>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-sedimentaria-hibrida> ;
-    skos:prefLabel "Sedimentary Materials / Hybrid Sedimentary Rocks And Sediments"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/sedimentary-materials-non-clastic-siliceous-sedimentary-rocks-and-sediments> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Sedimentary Materials / Non-Clastic Siliceous Sedimentary Rocks And Sediments"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-siliceo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-sedimentario-siliceo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-sedimentaria-silicea> ;
-    skos:prefLabel "Sedimentary Materials / Non-Clastic Siliceous Sedimentary Rocks And Sediments"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/sedimentary-materials-organic-rich-sedimentary-rocks-and-sediments> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Sedimentary Materials / Organic-Rich Sedimentary Rocks And Sediments"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/material-rico-en-materia-organica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-rica-en-materia-organica> ;
-    skos:prefLabel "Sedimentary Materials / Organic-Rich Sedimentary Rocks And Sediments"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/sedimentary-materials-phosphatic-sedimentary-rocks-and-sediments> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Sedimentary Materials / Phosphatic Sedimentary Rocks And Sediments"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-fosfatado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-sedimentario-fosfatado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-sedimentaria-fosfatada> ;
-    skos:prefLabel "Sedimentary Materials / Phosphatic Sedimentary Rocks And Sediments"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/sedimentary-materials-sedimentary-rocks-and-sediments-with-genetic-connotations> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Sedimentary Materials / Sedimentary Rocks And Sediments With Genetic Connotations"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-biogenico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-biogenico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-biogenica> ;
-    skos:prefLabel "Sedimentary Materials / Sedimentary Rocks And Sediments With Genetic Connotations"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/sedimentary-materials-volcaniclastic-rocks-and-deposits> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Sedimentary Materials / Volcaniclastic Rocks And Deposits"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/deposito-volcano-sedimentario>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-volcano-sedimentaria> ;
-    skos:prefLabel "Sedimentary Materials / Volcaniclastic Rocks And Deposits"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/sedimentary-rocks-and-sediments-with-genetic-connotations> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Sedimentary Rocks And Sediments With Genetic Connotations"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/biostromo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/canto-estriado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/canto-facetado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/canto-rodado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/contornita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/deposito-hemipelagico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dropstone>,
-        <https://geo-carto.github.io/vocabularios/material-igme/eolianita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/espeleotema>,
-        <https://geo-carto.github.io/vocabularios/material-igme/fanglomerado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/fango>,
-        <https://geo-carto.github.io/vocabularios/material-igme/fango-carbonatado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/flysch-calcareo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/flysch-siliceo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/harina-glaciar>,
-        <https://geo-carto.github.io/vocabularios/material-igme/megabrecha>,
-        <https://geo-carto.github.io/vocabularios/material-igme/molasa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/olistolito>,
-        <https://geo-carto.github.io/vocabularios/material-igme/olistostroma>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ritmita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-biogenica-silicea>,
-        <https://geo-carto.github.io/vocabularios/material-igme/tempestita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/tsunamita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/turbidita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/varva>,
-        <https://geo-carto.github.io/vocabularios/material-igme/varva-glaciolacustre> ;
-    skos:prefLabel "Sedimentary Rocks And Sediments With Genetic Connotations"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/subvolcanic-rocks> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Subvolcanic Rocks"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/camptonita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/diabasa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/espesartita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/granofido>,
-        <https://geo-carto.github.io/vocabularios/material-igme/kersantita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lamprofido>,
-        <https://geo-carto.github.io/vocabularios/material-igme/minette>,
-        <https://geo-carto.github.io/vocabularios/material-igme/monchiquita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ofita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/porfido>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-doleritica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/sanaita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/vitrofido>,
-        <https://geo-carto.github.io/vocabularios/material-igme/voguesita> ;
-    skos:prefLabel "Subvolcanic Rocks"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/volcanic-rocks> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Volcanic Rocks"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/absarokita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/andesita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/andesita-basaltica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ankaramita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ankaratrita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/basalto>,
-        <https://geo-carto.github.io/vocabularios/material-igme/basalto-alcalino>,
-        <https://geo-carto.github.io/vocabularios/material-igme/basalto-picritico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/basalto-toleitico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/basanita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/basanita-fonolitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/benmoreita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/brecha-autoclastica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/brecha-volcanica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/comendita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cuarzolatita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cuarzotraquita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/cuarzotraquita-de-feldespato-alcalino>,
-        <https://geo-carto.github.io/vocabularios/material-igme/dacita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/espilita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/foidita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/foidita-basanitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/foidita-fonolitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/foidita-tefritica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/fonolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/fonolita-tefritica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/hawaiita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/italita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/latita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/latita-con-foides>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lava>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lava-almohadillada>,
-        <https://geo-carto.github.io/vocabularios/material-igme/limburgita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/mugearita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/nefelinita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/obsidiana>,
-        <https://geo-carto.github.io/vocabularios/material-igme/oceanita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/pantelerita-pantellerita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/riodacita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/riolita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/riolita-de-feldespato-alcalino>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-andesitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-basaltica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-dacitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-foidica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-fonolitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-latitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-riolitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-tefritica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-traquitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-traquitica-de-feldespato-alcalino>,
-        <https://geo-carto.github.io/vocabularios/material-igme/shoshonita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/taquilita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/tefrita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/tefrita-fonolitica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/tefritoide>,
-        <https://geo-carto.github.io/vocabularios/material-igme/traquiandesita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/traquiandesita-basaltica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/traquibasalto>,
-        <https://geo-carto.github.io/vocabularios/material-igme/traquibasalto-potasico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/traquidacita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/traquita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/traquita-alcalina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/traquita-con-foides>,
-        <https://geo-carto.github.io/vocabularios/material-igme/traquita-de-feldespato-alcalino-con-foides>,
-        <https://geo-carto.github.io/vocabularios/material-igme/traquitoide> ;
-    skos:prefLabel "Volcanic Rocks"@en .
-
-<https://geo-carto.github.io/vocabularios/material-igme/collection/volcaniclastic-rocks-and-deposits> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Colección: Volcaniclastic Rocks And Deposits"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:member <https://geo-carto.github.io/vocabularios/material-igme/aglomerado-volcanico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/aglutinado>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arena-tobacea>,
-        <https://geo-carto.github.io/vocabularios/material-igme/arenisca-tobacea>,
-        <https://geo-carto.github.io/vocabularios/material-igme/bloque-piroclastico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/bomba-volcanica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/brecha-de-explosion>,
-        <https://geo-carto.github.io/vocabularios/material-igme/brecha-piroclastica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/brecha-tobacea>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ceniza>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ceniza-fina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ceniza-gruesa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/colada-de-ceniza>,
-        <https://geo-carto.github.io/vocabularios/material-igme/colada-piroclastica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/conglomerado-tobaceo>,
-        <https://geo-carto.github.io/vocabularios/material-igme/deposito-de-nube-ardiente>,
-        <https://geo-carto.github.io/vocabularios/material-igme/deposito-epiclastico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/deposito-piroclastico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/deposito-piroclastico-de-caida>,
-        <https://geo-carto.github.io/vocabularios/material-igme/deposito-piroclastico-epiclastico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/escoria-volcanica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/grava-tobacea>,
-        <https://geo-carto.github.io/vocabularios/material-igme/hialoclastita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/ignimbrita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lapilli>,
-        <https://geo-carto.github.io/vocabularios/material-igme/lutita-tobacea>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-epiclastico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-piroclastico-epiclastico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/material-volcanoclastico>,
-        <https://geo-carto.github.io/vocabularios/material-igme/oleada-piroclastica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/pelita-tobacea>,
-        <https://geo-carto.github.io/vocabularios/material-igme/peperita>,
-        <https://geo-carto.github.io/vocabularios/material-igme/piedra-pomez>,
-        <https://geo-carto.github.io/vocabularios/material-igme/piroclasto>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-epiclastica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/roca-piroclastica>,
-        <https://geo-carto.github.io/vocabularios/material-igme/tefra-con-bombas-o-bloques>,
-        <https://geo-carto.github.io/vocabularios/material-igme/tefra-con-lapilli-o-ceniza>,
-        <https://geo-carto.github.io/vocabularios/material-igme/tefra-de-bloques>,
-        <https://geo-carto.github.io/vocabularios/material-igme/tefra-de-bombas>,
-        <https://geo-carto.github.io/vocabularios/material-igme/tefra-de-bombas-y-bloques>,
-        <https://geo-carto.github.io/vocabularios/material-igme/tefra-de-lapilli>,
-        <https://geo-carto.github.io/vocabularios/material-igme/tefra-de-lapilli-y-ceniza>,
-        <https://geo-carto.github.io/vocabularios/material-igme/toba-brechoide>,
-        <https://geo-carto.github.io/vocabularios/material-igme/toba-con-bombas-o-bloques>,
-        <https://geo-carto.github.io/vocabularios/material-igme/toba-con-lapilli-o-ceniza>,
-        <https://geo-carto.github.io/vocabularios/material-igme/toba-de-ceniza>,
-        <https://geo-carto.github.io/vocabularios/material-igme/toba-de-ceniza-fina>,
-        <https://geo-carto.github.io/vocabularios/material-igme/toba-de-ceniza-gruesa>,
-        <https://geo-carto.github.io/vocabularios/material-igme/toba-de-lapilli>,
-        <https://geo-carto.github.io/vocabularios/material-igme/toba-de-lapilli-y-ceniza>,
-        <https://geo-carto.github.io/vocabularios/material-igme/tufita> ;
-    skos:prefLabel "Volcaniclastic Rocks And Deposits"@en .
+    skos:prefLabel "Collection - Volcaniclastic Rocks And Deposits"@en,
+        "Colección - Rocas y Depósitos Volcanoclásticos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
@@ -2837,41 +1874,6 @@
 <https://linked.data.gov.au/org/cgi> a sdo:Organization ;
     sdo:name "Commission for the Management and Application of Geoscience Information" ;
     sdo:url <http://www.cgi-iugs.org> .
-
-<https://geo-carto.github.io/vocabularios/material-igme/guano> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Phosphate-rich deposit formed by the excrement of birds or bats"@en,
-        "Depósito rico en fosfatos, formado por excrementos de aves o murciélagos"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:prefLabel "guano"@en,
-        "guano"@es ;
-    skos:relatedMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/phosphateRichSediment>,
-        <http://resource.geosciml.org/classifier/cgi/lithology/phosphate_rich_sediment> ;
-    skos:topConceptOf <https://geo-carto.github.io/vocabularios/material-igme> ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/material-igme/laterita> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:altLabel "residual material"@en ;
-    skos:definition "Red soil formed by weathering in a tropical climate, mainly as a residue of leaching, resulting in a concentration of iron oxides and alumina"@en,
-        "Tierra roja originada por meteorización en clima tropical, principalmente como residuo de lixiviación, que tiene como resultado la concentración de óxidos de hierro y alúmina"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:prefLabel "laterite"@en,
-        "laterita"@es ;
-    skos:relatedMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/residualMaterial>,
-        <http://resource.geosciml.org/classifier/cgi/lithology/residual_material> ;
-    skos:topConceptOf <https://geo-carto.github.io/vocabularios/material-igme> ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/material-igme/flysch> a skos:Concept ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:definition "Tectofacies constituida por una ritmita de areniscas turbidíticas y lutitas con gran espesor (cientos o miles de metros), depositada en márgenes continentales en las etapas anteriores a su deformación orogénica"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
-    skos:prefLabel "flysch"@en,
-        "flysch"@es ;
-    skos:topConceptOf <https://geo-carto.github.io/vocabularios/material-igme> .
 
 <https://geo-carto.github.io/vocabularios/material-igme/absarokita> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
@@ -7404,6 +6406,19 @@
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/material-igme> ;
     adms:status "Válido" .
 
+<https://geo-carto.github.io/vocabularios/material-igme/guano> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
+    skos:definition "Phosphate-rich deposit formed by the excrement of birds or bats"@en,
+        "Depósito rico en fosfatos, formado por excrementos de aves o murciélagos"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
+    skos:prefLabel "guano"@en,
+        "guano"@es ;
+    skos:relatedMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/phosphateRichSediment>,
+        <http://resource.geosciml.org/classifier/cgi/lithology/phosphate_rich_sediment> ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/material-igme> ;
+    adms:status "Válido" .
+
 <https://geo-carto.github.io/vocabularios/material-igme/halita> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
@@ -7846,6 +6861,20 @@
         "larvikita"@es ;
     skos:relatedMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/syenite>,
         <http://resource.geosciml.org/classifier/cgi/lithology/syenite> ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/material-igme> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/material-igme/laterita> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/material-igme> ;
+    skos:altLabel "residual material"@en ;
+    skos:definition "Red soil formed by weathering in a tropical climate, mainly as a residue of leaching, resulting in a concentration of iron oxides and alumina"@en,
+        "Tierra roja originada por meteorización en clima tropical, principalmente como residuo de lixiviación, que tiene como resultado la concentración de óxidos de hierro y alúmina"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/material-igme> ;
+    skos:prefLabel "laterite"@en,
+        "laterita"@es ;
+    skos:relatedMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/residualMaterial>,
+        <http://resource.geosciml.org/classifier/cgi/lithology/residual_material> ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/material-igme> ;
     adms:status "Válido" .
 
@@ -13321,7 +12350,6 @@
         <https://geo-carto.github.io/vocabularios/material-igme/filita>,
         <https://geo-carto.github.io/vocabularios/material-igme/filonita>,
         <https://geo-carto.github.io/vocabularios/material-igme/floatstone>,
-        <https://geo-carto.github.io/vocabularios/material-igme/flysch>,
         <https://geo-carto.github.io/vocabularios/material-igme/flysch-calcareo>,
         <https://geo-carto.github.io/vocabularios/material-igme/flysch-siliceo>,
         <https://geo-carto.github.io/vocabularios/material-igme/foidita>,
