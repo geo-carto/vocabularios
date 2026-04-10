@@ -308,5 +308,6 @@
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica> ;
     skos:prefLabel "Geologic unit type"@en,
         "Tipo de unidad geológica"@es ;
-    dcat:theme "GE" .
+	dcat:theme "GE" .
+
 
