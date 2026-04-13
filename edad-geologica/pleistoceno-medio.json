@@ -23,8 +23,8 @@
     ]
   },
   "notation": [
-    "a1.1.1.1.2.2",
-    "213030120000.0"
+    "213030120000.0",
+    "a1.1.1.1.2.2"
   ],
   "closeMatch": [
     {
@@ -38,7 +38,11 @@
   ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica",
+      "title": {
+        "en": "Geochronologic Era",
+        "es": "Edad Geológica IGME"
+      }
     }
   ],
   "inSchemeAll": [
@@ -48,10 +52,19 @@
   ],
   "topConceptOf": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica",
+      "title": {
+        "en": "Geochronologic Era",
+        "es": "Edad Geológica IGME"
+      }
     }
   ],
   "deprecated": true,
+  "isReplacedBy": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica/chibaniense"
+    }
+  ],
   "created": "2026-03-01",
   "status": "Sustituido",
   "@context": {

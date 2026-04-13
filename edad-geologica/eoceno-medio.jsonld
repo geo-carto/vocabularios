@@ -44,21 +44,25 @@
   ],
   "narrowMatch": [
     {
-      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bartonian"
-    },
-    {
       "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lutetian"
     },
     {
-      "id": "http://resource.geosciml.org/classifier/ics/ischart/Bartonian"
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Lutetian"
     },
     {
-      "id": "http://resource.geosciml.org/classifier/ics/ischart/Lutetian"
+      "id": "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bartonian"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/ics/ischart/Bartonian"
     }
   ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica",
+      "title": {
+        "en": "Geochronologic Era",
+        "es": "Edad Geológica IGME"
+      }
     }
   ],
   "inSchemeAll": [

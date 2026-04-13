@@ -6,8 +6,8 @@
     "es": "colección de datos geofísicos"
   },
   "definition": {
-    "en": "Collection of geophysical objects.",
-    "es": "Colección de datos geofísicos."
+    "en": "Collection of geophysical objects",
+    "es": "Colección de datos geofísicos"
   },
   "exactMatch": [
     {
@@ -16,7 +16,11 @@
   ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"
+      "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo",
+      "title": {
+        "en": "Collection type",
+        "es": "Tipo de colección"
+      }
     }
   ],
   "inSchemeAll": [
@@ -26,7 +30,11 @@
   ],
   "topConceptOf": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"
+      "id": "https://geo-carto.github.io/vocabularios/coleccion-tipo",
+      "title": {
+        "en": "Collection type",
+        "es": "Tipo de colección"
+      }
     }
   ],
   "created": "2026-03-01",

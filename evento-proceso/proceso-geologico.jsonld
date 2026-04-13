@@ -119,7 +119,11 @@
   ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso",
+      "title": {
+        "en": "Event Process",
+        "es": "Proceso asociado a evento"
+      }
     }
   ],
   "inSchemeAll": [
@@ -129,7 +133,11 @@
   ],
   "topConceptOf": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/evento-proceso"
+      "id": "https://geo-carto.github.io/vocabularios/evento-proceso",
+      "title": {
+        "en": "Event Process",
+        "es": "Proceso asociado a evento"
+      }
     }
   ],
   "created": "2026-03-01",

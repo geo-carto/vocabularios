@@ -110,7 +110,11 @@
   ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica",
+      "title": {
+        "en": "Geochronologic Era",
+        "es": "Edad Geológica IGME"
+      }
     }
   ],
   "inSchemeAll": [
@@ -120,7 +124,11 @@
   ],
   "topConceptOf": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica",
+      "title": {
+        "en": "Geochronologic Era",
+        "es": "Edad Geológica IGME"
+      }
     }
   ],
   "created": "2026-03-01",

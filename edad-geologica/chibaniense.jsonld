@@ -18,8 +18,8 @@
     "es": "Límite inferior 0.774 Ma, límite superior 0.129 Ma"
   },
   "notation": [
-    "213030121000.0",
-    "a1.1.1.1.2.2"
+    "a1.1.1.1.2.2",
+    "213030121000.0"
   ],
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno",
@@ -40,7 +40,11 @@
   ],
   "inScheme": [
     {
-      "id": "https://geo-carto.github.io/vocabularios/edad-geologica"
+      "id": "https://geo-carto.github.io/vocabularios/edad-geologica",
+      "title": {
+        "en": "Geochronologic Era",
+        "es": "Edad Geológica IGME"
+      }
     }
   ],
   "inSchemeAll": [
