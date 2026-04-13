@@ -296,11 +296,14 @@
 <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://commission.europa.eu/" ;
-    dcterms:description "Términos que definen el tipo de unidad geológica."@es ;
+    dcterms:description "The property geologicUnitTypeTerm provides a term from a controlled vocabulary defining the type of geologic unit."@en,
+        "Términos que definen el tipo de unidad geológica."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Geologic unit type"@en,
+        "Tipo de unidad geológica"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "The property geologicUnitTypeTerm provides a term from a controlled vocabulary defining the type of geologic unit."@en,
         "Términos que definen el tipo de unidad geológica."@es ;
@@ -308,6 +311,5 @@
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica> ;
     skos:prefLabel "Geologic unit type"@en,
         "Tipo de unidad geológica"@es ;
-	dcat:theme "GE" .
-
+    dcat:theme "GE" .
 

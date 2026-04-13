@@ -207,11 +207,14 @@
     dcterms:contributor "https://www.igme.es" ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://cgi-iugs.org/" ;
-    dcterms:description "Términos que describen conjuntos minerales característicos indicativos de determinadas condiciones de presión y temperatura metamórficas. Ejemplos: zonas metasedimentarias barrovianas (por ejemplo, facies de biotita, facies de cianita) o asociaciones desarrolladas en rocas de composición más máfica (por ejemplo, facies de esquistos verdes, facies de anfibolita)."@es ;
+    dcterms:description "The metamorphicFacies property contains a term from a controlled vocabulary describing characteristic mineral assemblages indicative of specific metamorphic pressure and temperature conditions. Examples include Barrovian metasedimentary zones (e.g., biotite facies, kyanite facies) or assemblages developed in rocks of more mafic composition (e.g., greenschist facies, amphibolite facies)."@en,
+        "Términos que describen conjuntos minerales característicos indicativos de determinadas condiciones de presión y temperatura metamórficas. Ejemplos: zonas metasedimentarias barrovianas (por ejemplo, facies de biotita, facies de cianita) o asociaciones desarrolladas en rocas de composición más máfica (por ejemplo, facies de esquistos verdes, facies de anfibolita)."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Metamorphic facies"@en,
+        "Facies metamórficas"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "The metamorphicFacies property contains a term from a controlled vocabulary describing characteristic mineral assemblages indicative of specific metamorphic pressure and temperature conditions. Examples include Barrovian metasedimentary zones (e.g., biotite facies, kyanite facies) or assemblages developed in rocks of more mafic composition (e.g., greenschist facies, amphibolite facies)."@en,
         "Términos que describen conjuntos minerales característicos indicativos de determinadas condiciones de presión y temperatura metamórficas. Ejemplos: zonas metasedimentarias barrovianas (por ejemplo, facies de biotita, facies de cianita) o asociaciones desarrolladas en rocas de composición más máfica (por ejemplo, facies de esquistos verdes, facies de anfibolita)."@es ;

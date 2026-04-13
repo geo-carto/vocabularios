@@ -171,11 +171,14 @@
 <https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
-    dcterms:description "Término que especifican el estilo de la estratificación en una unidad geológica estratificada (por ejemplo, lenticular, irregular, planar, vago, masivo)."@es ;
+    dcterms:description "The property beddingStyle provides a term from a controlled vocabulary specifying the style of bedding in a stratified geologic unit (e.g. lenticular, irregular, planar, vague, and massive)."@en,
+        "Término que especifican el estilo de la estratificación en una unidad geológica estratificada (por ejemplo, lenticular, irregular, planar, vago, masivo)."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Bedding pattern style"@en,
+        "Estilo del patrón de estratificación"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "The property beddingStyle provides a term from a controlled vocabulary specifying the style of bedding in a stratified geologic unit (e.g. lenticular, irregular, planar, vague, and massive)."@en,
         "Término que especifican el estilo de la estratificación en una unidad geológica estratificada (por ejemplo, lenticular, irregular, planar, vago, masivo)."@es ;

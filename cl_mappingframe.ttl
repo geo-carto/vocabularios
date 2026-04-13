@@ -84,11 +84,14 @@
     dcterms:contributor "https://www.igme.es" ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://cgi-iugs.org/" ;
-    dcterms:description "Términos referidos al marco de cartografiado."@es ;
+    dcterms:description "Terms referring to the mapping framework."@en,
+        "Términos referidos al marco de cartografiado."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Mapping frame"@en,
+        "Marco de cartografiado"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms referring to the mapping framework."@en,
         "Términos referidos al marco de cartografiado."@es ;

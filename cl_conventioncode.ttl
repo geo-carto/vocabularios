@@ -53,11 +53,14 @@
 <https://geo-carto.github.io/vocabularios/convencion-codigo> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://commission.europa.eu/" ;
-    dcterms:description "Código de convención utilizado para expresar la orientación de una medida estructural."@es ;
+    dcterms:description "Convention code used for expressing the orientation of a structural measurement."@en,
+        "Código de convención utilizado para expresar la orientación de una medida estructural."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Convention Code"@en,
+        "Código de convención"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Convention code used for expressing the orientation of a structural measurement."@en,
         "Código de convención utilizado para expresar la orientación de una medida estructural."@es ;

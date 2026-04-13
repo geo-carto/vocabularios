@@ -59,6 +59,10 @@
     sdo:name "CGI Geoscience Terminology Working Group" ;
     sdo:url <http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html> .
 
+<https://linked.data.gov.au/org/cgi> a sdo:Organization ;
+    sdo:name "Commission for the Management and Application of Geoscience Information" ;
+    sdo:url <http://www.cgi-iugs.org> .
+
 <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-antropico> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
@@ -69,32 +73,6 @@
     skos:prefLabel "anthropogenic contact"@en,
         "contacto antrópico"@es ;
     adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-diagenetico> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
-    skos:definition "Boundary between rock units resulting from diagenetic processes such as cementation, recrystallization, or dissolution, which occur after deposition during the transformation of sediments into rock."@en,
-        "Límite entre unidades rocosas generado por procesos de diagénesis, como la cementación, recristalización o disolución, que ocurren tras la deposición, durante la transformación de sedimentos en roca."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
-    skos:prefLabel "diagenetic contact"@en,
-        "contacto diagenético"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-mecanico> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
-    skos:definition "Contact between two geological units that does not correspond to a stratigraphic or igneous/metamorphic contact, but rather involves a certain degree of displacement between the two units, which cannot be assigned to a specific category of fault due to the complexity of the displacement involved."@en,
-        "Contacto entre dos unidades geológicas que no corresponde a un contacto estratigráfico ni ígneo/metamórfico, sino que supone un cierto grado de desplazamiento entre las dos unidades, pero que no puede asignarse a una categoría concreta de falla  por la complejidad del desplazamiento que implica"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
-    skos:prefLabel "mechanical contact"@en,
-        "contacto mecánico"@es ;
-    adms:status "Válido" .
-
-<https://linked.data.gov.au/org/cgi> a sdo:Organization ;
-    sdo:name "Commission for the Management and Application of Geoscience Information" ;
-    sdo:url <http://www.cgi-iugs.org> .
 
 <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-concordante> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
@@ -228,6 +206,17 @@
         "contacto de zona deformada"@es ;
     adms:status "Válido" .
 
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-diagenetico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
+    skos:definition "Boundary between rock units resulting from diagenetic processes such as cementation, recrystallization, or dissolution, which occur after deposition during the transformation of sediments into rock."@en,
+        "Límite entre unidades rocosas generado por procesos de diagénesis, como la cementación, recristalización o disolución, que ocurren tras la deposición, durante la transformación de sedimentos en roca."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "diagenetic contact"@en,
+        "contacto diagenético"@es ;
+    adms:status "Válido" .
+
 <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-discordante> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
@@ -298,6 +287,17 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
     skos:prefLabel "sedimentary facies contact"@en,
         "contacto lateral de facies sedimentarias"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-mecanico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
+    skos:definition "Contact between two geological units that does not correspond to a stratigraphic or igneous/metamorphic contact, but rather involves a certain degree of displacement between the two units, which cannot be assigned to a specific category of fault due to the complexity of the displacement involved."@en,
+        "Contacto entre dos unidades geológicas que no corresponde a un contacto estratigráfico ni ígneo/metamórfico, sino que supone un cierto grado de desplazamiento entre las dos unidades, pero que no puede asignarse a una categoría concreta de falla  por la complejidad del desplazamiento que implica"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "mechanical contact"@en,
+        "contacto mecánico"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-falla> a skos:Concept ;
@@ -530,10 +530,13 @@
         "Una superficie que separa unidades geológicas. Concepto muy general que representa cualquier tipo de superficie que separa dos unidades geológicas, incluyendo límites primarios como contactos deposicionales, discordancias, contactos intrusivos y contactos gradacionales, así como todo tipo de fallas."@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/contact> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-provincia-geologica>,
+    skos:narrower <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-antropico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-provincia-geologica>,
         <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-zona-cronoestratigrafica>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-diagenetico>,
         <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-geofisico>,
         <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-mecanico>,
         <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-falla>,
         <https://geo-carto.github.io/vocabularios/contacto-tipo/linea-glaciar-estacionaria> ;
     skos:prefLabel "contact"@en,
@@ -567,11 +570,14 @@
     dcterms:contributor "https://www.igme.es" ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://cgi-iugs.org/" ;
-    dcterms:description "Términos que clasifican el tipo de contacto (por ejemplo: intrusivo, discordancia, superficie de estratificación, límite litológico, límite de fase)."@es ;
+    dcterms:description "The property ContactTypeTerm classifies the contact (e.g. intrusive, unconformity, bedding surface, lithologic boundary, phase boundary) and is a term from a controlled vocabulary."@en,
+        "Términos que clasifican el tipo de contacto (por ejemplo: intrusivo, discordancia, superficie de estratificación, límite litológico, límite de fase)."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Contact type"@en,
+        "Tipo de contacto"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "The property ContactTypeTerm classifies the contact (e.g. intrusive, unconformity, bedding surface, lithologic boundary, phase boundary) and is a term from a controlled vocabulary."@en,
         "Términos que clasifican el tipo de contacto (por ejemplo: intrusivo, discordancia, superficie de estratificación, límite litológico, límite de fase)."@es ;

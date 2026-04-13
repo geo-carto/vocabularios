@@ -4375,11 +4375,14 @@
     dcterms:contributor "https://www.igme.es" ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "Interinstitutional Metadata and Formats Committee (IMFC)" ;
-    dcterms:description "Términos que enumeran diferentes tipos de archivos digitales. Se ha tomado como base el archivo file type del vocabulario controlado de DCAT-AP y se ha completado con términos adicionales"@es ;
+    dcterms:description "File type is a controlled vocabulary listing different types of digital files. It is under governance of the Interinstitutional Metadata and Formats Committee (IMFC), maintained by the Publications Office of the European Union and disseminated on the EU Vocabularies website."@en,
+        "Términos que enumeran diferentes tipos de archivos digitales. Se ha tomado como base el archivo file type del vocabulario controlado de DCAT-AP y se ha completado con términos adicionales"@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Interinstitutional Metadata and Formats Committee (IMFC)" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "File Type"@en,
+        "Tipo de archivo"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "File type is a controlled vocabulary listing different types of digital files. It is under governance of the Interinstitutional Metadata and Formats Committee (IMFC), maintained by the Publications Office of the European Union and disseminated on the EU Vocabularies website."@en,
         "Términos que enumeran diferentes tipos de archivos digitales. Se ha tomado como base el archivo file type del vocabulario controlado de DCAT-AP y se ha completado con términos adicionales"@es ;

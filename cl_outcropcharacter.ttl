@@ -128,11 +128,14 @@
 <https://geo-carto.github.io/vocabularios/afloramiento-caracter> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
-    dcterms:description "Términos que describen la naturaleza de los afloramientos formados por una unidad geológica. Ejemplos: con bloques, formadora de acantilado, formadora de repisa, formadora de ladera, pobremente expuesta."@es ;
+    dcterms:description "The property outcropCharacter provides a term that describes the nature of outcrops formed by a geologic unit. Examples are: bouldery, cliff-forming, ledge-forming, slope-forming, poorly exposed."@en,
+        "Términos que describen la naturaleza de los afloramientos formados por una unidad geológica. Ejemplos: con bloques, formadora de acantilado, formadora de repisa, formadora de ladera, pobremente expuesta."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Outcrop character"@en,
+        "Carácter del afloramiento"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "The property outcropCharacter provides a term that describes the nature of outcrops formed by a geologic unit. Examples are: bouldery, cliff-forming, ledge-forming, slope-forming, poorly exposed."@en,
         "Términos que describen la naturaleza de los afloramientos formados por una unidad geológica. Ejemplos: con bloques, formadora de acantilado, formadora de repisa, formadora de ladera, pobremente expuesta."@es ;

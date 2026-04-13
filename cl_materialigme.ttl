@@ -12054,11 +12054,14 @@
 <https://geo-carto.github.io/vocabularios/material-igme> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
-    dcterms:description "Términos que definen el material que constituye parte o la totalidad de la unidad geológica determinados por el CSIC-IGME."@es ;
+    dcterms:description "Terms defining the material that composes part or all of the geologic unit as defined by CSIC-IGME."@en,
+        "Términos que definen el material que constituye parte o la totalidad de la unidad geológica determinados por el CSIC-IGME."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Material IGME"@en,
+        "Material IGME"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms defining the material that composes part or all of the geologic unit as defined by CSIC-IGME."@en,
         "Términos que definen el material que constituye parte o la totalidad de la unidad geológica determinados por el CSIC-IGME."@es ;

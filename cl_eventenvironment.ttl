@@ -1636,6 +1636,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/tidalFlatSetting>,
         <http://resource.geosciml.org/classifier/cgi/eventenvironment/tidal_flat_setting> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-ambiente> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-marisma-mareal> ;
     skos:prefLabel "tidal flat setting"@en,
         "ambiente de llanura de mareal"@es ;
     adms:status "Válido" .
@@ -1680,21 +1681,6 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-ambiente> ;
     skos:prefLabel "coastal plain setting"@en,
         "ambiente de llanura litoral"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-marisma-mareal> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-ambiente> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-de-mareal>,
-        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-pantano-o-marisma> ;
-    skos:definition "A marsh bordering a coast (as in a shallow lagoon or sheltered bay), formed of mud and of the resistant mat of roots of salt-tolerant plants, and regularly inundated during high tides; a marshy tidal flat."@en,
-        "Un marisma que bordea una costa (como en una laguna litoral somera o una bahía protegida), formado por fango y un resistente tapiz de raíces de plantas que toleran la sal, e inundado con regularidad durante la pleamar; un llanura mareal marismeña."@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/tidalMarshSetting>,
-        <http://resource.geosciml.org/classifier/cgi/eventenvironment/tidal_marsh> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-ambiente> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-marisma-mareal> ;
-    skos:prefLabel "tidal marsh setting"@en,
-        "ambiente de marisma mareal"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-monte-submarino> a skos:Concept ;
@@ -2091,6 +2077,22 @@
         <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-monte-submarino> ;
     skos:prefLabel "ocean highland setting"@en,
         "ambiente de elevaciones océanicas"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-marisma-mareal> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-ambiente> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-llanura-de-mareal>,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-marisma-mareal>,
+        <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-pantano-o-marisma> ;
+    skos:definition "A marsh bordering a coast (as in a shallow lagoon or sheltered bay), formed of mud and of the resistant mat of roots of salt-tolerant plants, and regularly inundated during high tides; a marshy tidal flat."@en,
+        "Un marisma que bordea una costa (como en una laguna litoral somera o una bahía protegida), formado por fango y un resistente tapiz de raíces de plantas que toleran la sal, e inundado con regularidad durante la pleamar; un llanura mareal marismeña."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/tidalMarshSetting>,
+        <http://resource.geosciml.org/classifier/cgi/eventenvironment/tidal_marsh> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/evento-ambiente> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-marisma-mareal> ;
+    skos:prefLabel "tidal marsh setting"@en,
+        "ambiente de marisma mareal"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-procesos-eolicos> a skos:Concept ;
@@ -2545,11 +2547,14 @@
 <https://geo-carto.github.io/vocabularios/evento-ambiente> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://commission.europa.eu/" ;
-    dcterms:description "Términos que describen el entorno geológico en el que ocurre un evento geológico. El entorno puede referirse, por ejemplo, a condiciones deposicionales, tectónicas, metamórficas o magmáticas en las que tuvo lugar el evento."@es ;
+    dcterms:description "Terms describing the geological environment in which a geological event occurs. The environment may refer, for example, to depositional, tectonic, metamorphic, or magmatic conditions under which the event took place."@en,
+        "Términos que describen el entorno geológico en el que ocurre un evento geológico. El entorno puede referirse, por ejemplo, a condiciones deposicionales, tectónicas, metamórficas o magmáticas en las que tuvo lugar el evento."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Event Environment"@en,
+        "Ambiente asociado a evento"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms describing the geological environment in which a geological event occurs. The environment may refer, for example, to depositional, tectonic, metamorphic, or magmatic conditions under which the event took place."@en,
         "Términos que describen el entorno geológico en el que ocurre un evento geológico. El entorno puede referirse, por ejemplo, a condiciones deposicionales, tectónicas, metamórficas o magmáticas en las que tuvo lugar el evento."@es ;

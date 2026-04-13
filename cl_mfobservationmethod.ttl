@@ -399,11 +399,14 @@
 <https://geo-carto.github.io/vocabularios/mappedfobservationmethod> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://cgi-iugs.org/" ;
-    dcterms:description "Términos que especifican el método por el cual se ha determinado la extensión espaical de un determinado objeto MappedFeature."@es ;
+    dcterms:description "These are terms that specify how a MappedFeature instance was mapped. MappedFeature ObservationMethod is essentially a metadata snippet indicating how the spatial extent of the mapped feature was determined."@en,
+        "Términos que especifican el método por el cual se ha determinado la extensión espaical de un determinado objeto MappedFeature."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Mapped feature observation method"@en,
+        "Método de observación de objetos cartografiados"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "These are terms that specify how a MappedFeature instance was mapped. MappedFeature ObservationMethod is essentially a metadata snippet indicating how the spatial extent of the mapped feature was determined."@en,
         "Términos que especifican el método por el cual se ha determinado la extensión espaical de un determinado objeto MappedFeature."@es ;

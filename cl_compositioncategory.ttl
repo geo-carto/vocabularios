@@ -231,18 +231,6 @@
         "carbonato ferruginoso"@es ;
     adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-magnesico> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonatico> ;
-    skos:definition "CO3 is the predominant anion, and Mg is the most abundant (mole percent) cation"@en,
-        "El CO3 es el anión predominante y el Mg es el catión más abundante (porcentaje molar)."@es ;
-    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/magnesium_rich_carbonate_chemistry> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:prefLabel "magnesium rich carbonate chemistry"@en,
-        "carbonato magnésico"@es ;
-    adms:status "Válido" .
-
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-rico-en-calcio> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
@@ -253,20 +241,6 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
     skos:prefLabel "calcium rich carbonate chemistry"@en,
         "carbonato rico en calcio"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonoso> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:definition "Containing greater than 5 percent reduced carbon in compounds that are typically the diagenetic products of dead organisms (e.g. coal, bitumen and petroleum). 5 percent value is chosen for consistency with SLTTs usage of term carbonaceous"@en,
-        "Contiene más del 5 por ciento de carbono reducido en compuestos que suelen ser productos diagenéticos de organismos muertos (por ejemplo, carbón, betún y petróleo). El valor del 5 por ciento se elige por coherencia con el uso del término carbonoso propuesto por el comité SLTT"@es ;
-    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonaceous_chemistry> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-hierro>,
-        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-magnesico> ;
-    skos:prefLabel "carbonaceous chemistry"@en,
-        "carbonoso"@es ;
-    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/clorado> a skos:Concept ;
@@ -848,19 +822,6 @@
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
     adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-hierro> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonatico> ;
-    skos:definition "CO3 is the predominant anion, and iron is greater than 5 mole percent of the cations (includes Fe, Mg, Mn, Ba, Sr, Ca...)"@en,
-        "El CO3 es el anión predominante y el hierro es superior al 5 por ciento en moles de los cationes (incluye Fe, Mg, Mn, Ba, Sr, Ca ...)"@es ;
-    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/iron_bearing_carbonate_chemistry> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-ferruginoso> ;
-    skos:prefLabel "iron bearing carbonate chemistry"@en,
-        "carbonato con hierro"@es ;
-    adms:status "Válido" .
-
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-impuro> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
@@ -872,6 +833,19 @@
     skos:prefLabel "impure calcsilicate or carbonate"@en,
         "carbonato impuro"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-magnesico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonatico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonoso> ;
+    skos:definition "CO3 is the predominant anion, and Mg is the most abundant (mole percent) cation"@en,
+        "El CO3 es el anión predominante y el Mg es el catión más abundante (porcentaje molar)."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/magnesium_rich_carbonate_chemistry> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:prefLabel "magnesium rich carbonate chemistry"@en,
+        "carbonato magnésico"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-sulfuros> a skos:Concept ;
@@ -940,6 +914,20 @@
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
     adms:status "Válido" .
 
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-hierro> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonatico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonoso> ;
+    skos:definition "CO3 is the predominant anion, and iron is greater than 5 mole percent of the cations (includes Fe, Mg, Mn, Ba, Sr, Ca...)"@en,
+        "El CO3 es el anión predominante y el hierro es superior al 5 por ciento en moles de los cationes (incluye Fe, Mg, Mn, Ba, Sr, Ca ...)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/iron_bearing_carbonate_chemistry> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-ferruginoso> ;
+    skos:prefLabel "iron bearing carbonate chemistry"@en,
+        "carbonato con hierro"@es ;
+    adms:status "Válido" .
+
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-monomineralico> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
@@ -952,6 +940,20 @@
         <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/dolomita> ;
     skos:prefLabel "monomineralic carbonate"@en,
         "carbonato monominerálico"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonoso> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:definition "Containing greater than 5 percent reduced carbon in compounds that are typically the diagenetic products of dead organisms (e.g. coal, bitumen and petroleum). 5 percent value is chosen for consistency with SLTTs usage of term carbonaceous"@en,
+        "Contiene más del 5 por ciento de carbono reducido en compuestos que suelen ser productos diagenéticos de organismos muertos (por ejemplo, carbón, betún y petróleo). El valor del 5 por ciento se elige por coherencia con el uso del término carbonoso propuesto por el comité SLTT"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonaceous_chemistry> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-hierro>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-magnesico> ;
+    skos:prefLabel "carbonaceous chemistry"@en,
+        "carbonoso"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/con-carbonatos> a skos:Concept ;
@@ -989,7 +991,9 @@
         "El anión carbonato (CO3) es el anión predominante (por porcentaje molar) en el análisis químico. Las subcategorías pueden definirse por el catión dominante. El material de esta clase química se superpone con la clase de carbonato monomineral y probablemente se superpone con la clase de carbonato en la clasificación de composición mineralógica"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonate_chemistry> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-rico-en-calcio> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-con-hierro>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-magnesico>,
+        <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/carbonato-rico-en-calcio> ;
     skos:prefLabel "carbonate chemistry"@en,
         "carbonático"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> ;
@@ -1029,11 +1033,14 @@
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
-    dcterms:description "Términos basado en una clasificación composicional que resume el carácter general de la unidad. No es aplicable al nivel de material rocoso o de muestra. Ejemplos: alcalina, subaluminosa, peraluminosa, tipo I, carbonatada, fosfatada."@es ;
+    dcterms:description "The unitComposition property provides a term from a composition-based classification that requires summarising the overall character of the unit. It is not applicable at the rock material or specimen level. Examples are: alkalic, subaluminous, peraluminous, I-Type, carbonate, phosphate."@en,
+        "Términos basado en una clasificación composicional que resume el carácter general de la unidad. No es aplicable al nivel de material rocoso o de muestra. Ejemplos: alcalina, subaluminosa, peraluminosa, tipo I, carbonatada, fosfatada."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Composition category"@en,
+        "Tipo de categoría de composición"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "The unitComposition property provides a term from a composition-based classification that requires summarising the overall character of the unit. It is not applicable at the rock material or specimen level. Examples are: alkalic, subaluminous, peraluminous, I-Type, carbonate, phosphate."@en,
         "Términos basado en una clasificación composicional que resume el carácter general de la unidad. No es aplicable al nivel de material rocoso o de muestra. Ejemplos: alcalina, subaluminosa, peraluminosa, tipo I, carbonatada, fosfatada."@es ;

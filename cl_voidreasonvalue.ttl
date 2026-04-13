@@ -66,11 +66,14 @@
 <https://geo-carto.github.io/vocabularios/void-reason> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://commission.europa.eu/" ;
-    dcterms:description "Términos que describen las razones por las que un valor puede estar vacío o no proporcionado en un atributo."@es ;
+    dcterms:description "Terms describing the reasons why a value may be void or not provided in an attribute."@en,
+        "Términos que describen las razones por las que un valor puede estar vacío o no proporcionado en un atributo."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Void Reason Value"@en,
+        "Razón de valor vacío"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms describing the reasons why a value may be void or not provided in an attribute."@en,
         "Términos que describen las razones por las que un valor puede estar vacío o no proporcionado en un atributo."@es ;

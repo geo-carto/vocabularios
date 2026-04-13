@@ -86,11 +86,14 @@
 <https://geo-carto.github.io/vocabularios/medida-estructural> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
-    dcterms:description "Términos que recogen el tipo de medida estructural."@es ;
+    dcterms:description "Terms describing the type of structural measurement."@en,
+        "Términos que recogen el tipo de medida estructural."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Structural measurement type"@en,
+        "Tipo de medida estructural"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms describing the type of structural measurement."@en,
         "Términos que recogen el tipo de medida estructural."@es ;

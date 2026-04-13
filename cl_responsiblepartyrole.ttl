@@ -267,11 +267,14 @@
 <https://geo-carto.github.io/vocabularios/responsible-party-role> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://www.iso.org/" ;
-    dcterms:description "Función desempeñada por la parte responsable según ISO 19115 CI_RoleCode."@es ;
+    dcterms:description "Function performed by the responsible party according to ISO 19115 CI_RoleCode."@en,
+        "Función desempeñada por la parte responsable según ISO 19115 CI_RoleCode."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales de ISO 19115" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Responsible Party Role"@en,
+        "Rol de parte responsable"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Function performed by the responsible party according to ISO 19115 CI_RoleCode."@en,
         "Función desempeñada por la parte responsable según ISO 19115 CI_RoleCode."@es ;

@@ -111,11 +111,14 @@
 <https://geo-carto.github.io/vocabularios/estratificacion-grosor> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
-    dcterms:description "Término de un vocabulario controlado que caracteriza el espesor de la estratificación en la unidad."@es ;
+    dcterms:description "The property beddingThickness provides a term from a controlled vocabulary characterizing the thickness of bedding in the unit."@en,
+        "Término de un vocabulario controlado que caracteriza el espesor de la estratificación en la unidad."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Bedding thickness"@en,
+        "Grosor de estratificación"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "The property beddingThickness provides a term from a controlled vocabulary characterizing the thickness of bedding in the unit."@en,
         "Término de un vocabulario controlado que caracteriza el espesor de la estratificación en la unidad."@es ;

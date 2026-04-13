@@ -148,11 +148,14 @@
 <https://geo-carto.github.io/vocabularios/alteracion-tipo> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
-    dcterms:description "Término de un vocabulario controlado de tipos de alteración (por ejemplo, potásica, argílica, argílica avanzada)."@es ;
+    dcterms:description "The property alterationType:AlterationTypeTerm contains a term from a controlled vocabulary of alteration types (e.g., potassic, argillic, advanced argillic)."@en,
+        "Término de un vocabulario controlado de tipos de alteración (por ejemplo, potásica, argílica, argílica avanzada)."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Alteration type"@en,
+        "Tipo de alteración"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "The property alterationType:AlterationTypeTerm contains a term from a controlled vocabulary of alteration types (e.g., potassic, argillic, advanced argillic)."@en,
         "Término de un vocabulario controlado de tipos de alteración (por ejemplo, potásica, argílica, argílica avanzada)."@es ;

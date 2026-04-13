@@ -414,11 +414,14 @@
 <https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://cgi-iugs.org/" ;
-    dcterms:description "Términos que describe la naturaleza de las partes, por ejemplo: facies, estratigráfica, intercapas, geográfica, facies oriental."@es ;
+    dcterms:description "The GeologicUnitHierarchyRoleTerm property provides a term describing the nature of the parts, e.g. facies, stratigraphic, interbeds, geographic, eastern facies."@en,
+        "Términos que describe la naturaleza de las partes, por ejemplo: facies, estratigráfica, intercapas, geográfica, facies oriental."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Geologic unit hierarchy role"@en,
+        "Rol jerárquico de unidad geológica"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "The GeologicUnitHierarchyRoleTerm property provides a term describing the nature of the parts, e.g. facies, stratigraphic, interbeds, geographic, eastern facies."@en,
         "Términos que describe la naturaleza de las partes, por ejemplo: facies, estratigráfica, intercapas, geográfica, facies oriental."@es ;

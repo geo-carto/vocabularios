@@ -268,11 +268,14 @@
 <https://geo-carto.github.io/vocabularios/alteracion-producto> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
-    dcterms:description "Términos que describen el material resultante de los procesos de alteración, por ejemplo: minerales de alteración, saprolita, ferricreta, arcilla, calcreta, skarn, etc. Los materiales observados en un perfil de suelo pueden identificarse con esta propiedad."@es ;
+    dcterms:description "The property alterationProduct is an association between the AlterationDescription and EarthMaterial describing the material resulting from alteration processes (e.g., alteration minerals, saprolite, ferricrete, clay, calcrete, skarn). Materials observed in a soil profile could be identified using this property."@en,
+        "Términos que describen el material resultante de los procesos de alteración, por ejemplo: minerales de alteración, saprolita, ferricreta, arcilla, calcreta, skarn, etc. Los materiales observados en un perfil de suelo pueden identificarse con esta propiedad."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Alteration product"@en,
+        "Producto de alteración"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "The property alterationProduct is an association between the AlterationDescription and EarthMaterial describing the material resulting from alteration processes (e.g., alteration minerals, saprolite, ferricrete, clay, calcrete, skarn). Materials observed in a soil profile could be identified using this property."@en,
         "Términos que describen el material resultante de los procesos de alteración, por ejemplo: minerales de alteración, saprolita, ferricreta, arcilla, calcreta, skarn, etc. Los materiales observados en un perfil de suelo pueden identificarse con esta propiedad."@es ;

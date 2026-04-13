@@ -133,11 +133,14 @@
 <https://geo-carto.github.io/vocabularios/metodo-determinacion> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
-    dcterms:description "Método utilizado para determinar la orientación de una estructura geológica."@es ;
+    dcterms:description "Method used to determine the orientation of a geological structure."@en,
+        "Método utilizado para determinar la orientación de una estructura geológica."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Determination Method"@en,
+        "Método de determinación"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Method used to determine the orientation of a geological structure."@en,
         "Método utilizado para determinar la orientación de una estructura geológica."@es ;

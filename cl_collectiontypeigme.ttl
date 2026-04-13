@@ -33,8 +33,8 @@
 <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-datos-geofisicos> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
-    skos:definition "Collection of geophysical objects."@en,
-        "Colección de datos geofísicos."@es ;
+    skos:definition "Collection of geophysical objects"@en,
+        "Colección de datos geofísicos"@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geophysicalObjectCollection> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
     skos:prefLabel "geophysical object collection"@en,
@@ -104,11 +104,14 @@
     dcterms:contributor "https://www.igme.es" ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://cgi-iugs.org/" ;
-    dcterms:description "Términos referidos a rango estratigráfico."@es ;
+    dcterms:description "Terms referring to stratigraphic rank."@en,
+        "Términos referidos a rango estratigráfico."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos de Inspire ampliada por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Collection type"@en,
+        "Tipo de colección"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms referring to stratigraphic rank."@en,
         "Términos referidos a rango estratigráfico."@es ;

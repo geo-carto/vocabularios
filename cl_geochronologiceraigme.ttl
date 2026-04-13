@@ -724,24 +724,6 @@
         <http://resource.geosciml.org/classifier/ics/ischart/Rupelian> ;
     adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/edad-geologica/chibaniense> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:altLabel "Middle Pleistocene, Ionian"@en,
-        "Pleistoceno Medio, Ioniense"@es ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno> ;
-    skos:closeMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ionian> ;
-    skos:definition "Older bound 0.774 Ma, younger bound 0.129 Ma"@en,
-        "Límite inferior 0.774 Ma, límite superior 0.129 Ma"@es ;
-    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Chibanian> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213030121000.0",
-        "a1.1.1.1.2.2" ;
-    skos:prefLabel "Chibanian"@en,
-        "Chibaniense"@es ;
-    adms:status "Válido" ;
-    sdo:color "#FFF2C7" .
-
 <https://geo-carto.github.io/vocabularios/edad-geologica/cuisiense> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
@@ -754,25 +736,6 @@
     skos:related <https://geo-carto.github.io/vocabularios/edad-geologica/ypresiense> ;
     skos:relatedMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ypresian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Ypresian> ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/eoceno-medio> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broadMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/eocene>,
-        <http://resource.geosciml.org/classifier/ics/ischart/Eocene> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/eoceno> ;
-    skos:definition "Eoceno Medio"@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrowMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bartonian>,
-        <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lutetian>,
-        <http://resource.geosciml.org/classifier/ics/ischart/Bartonian>,
-        <http://resource.geosciml.org/classifier/ics/ischart/Lutetian> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/bartoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/luteciense> ;
-    skos:notation "213010220000.0" ;
-    skos:prefLabel "Middle Eocene"@en,
-        "Eoceno Medio"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/groenlandiense> a skos:Concept ;
@@ -890,6 +853,7 @@
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno-medio> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:isReplacedBy <https://geo-carto.github.io/vocabularios/edad-geologica/chibaniense> ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     owl:deprecated true ;
     skos:altLabel "Ionian,Chibanian"@en,
@@ -1412,6 +1376,24 @@
     adms:status "Válido" ;
     sdo:color "#FCC0B2" .
 
+<https://geo-carto.github.io/vocabularios/edad-geologica/chibaniense> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:altLabel "Middle Pleistocene, Ionian"@en,
+        "Pleistoceno Medio, Ioniense"@es ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/pleistoceno> ;
+    skos:closeMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ionian> ;
+    skos:definition "Older bound 0.774 Ma, younger bound 0.129 Ma"@en,
+        "Límite inferior 0.774 Ma, límite superior 0.129 Ma"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Chibanian> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:notation "213030121000.0",
+        "a1.1.1.1.2.2" ;
+    skos:prefLabel "Chibanian"@en,
+        "Chibaniense"@es ;
+    adms:status "Válido" ;
+    sdo:color "#FFF2C7" .
+
 <https://geo-carto.github.io/vocabularios/edad-geologica/coniaciense> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
@@ -1589,6 +1571,25 @@
         "Eoarcaico"@es ;
     adms:status "Válido" ;
     sdo:color "#DA037F" .
+
+<https://geo-carto.github.io/vocabularios/edad-geologica/eoceno-medio> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:broadMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/eocene>,
+        <http://resource.geosciml.org/classifier/ics/ischart/Eocene> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/eoceno> ;
+    skos:definition "Eoceno Medio"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrowMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bartonian>,
+        <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lutetian>,
+        <http://resource.geosciml.org/classifier/ics/ischart/Bartonian>,
+        <http://resource.geosciml.org/classifier/ics/ischart/Lutetian> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/bartoniense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/luteciense> ;
+    skos:notation "213010220000.0" ;
+    skos:prefLabel "Middle Eocene"@en,
+        "Eoceno Medio"@es ;
+    adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/estaterico> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
@@ -1787,7 +1788,8 @@
 <https://geo-carto.github.io/vocabularios/edad-geologica/headoniense> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/edad-elma>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/eoceno> ;
     skos:definition "Older bound 37.2 Ma, younger bound 33.9 Ma"@en,
         "Límite inferior 37.2 Ma, límite superior 33.9 Ma"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
@@ -3311,7 +3313,8 @@
 <https://geo-carto.github.io/vocabularios/edad-geologica/bartoniense> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/eoceno-medio> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/eoceno>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/eoceno-medio> ;
     skos:definition "Older bound 41.2 Ma, younger bound 37.71 Ma"@en,
         "Límite inferior 41.2 Ma, límite superior 37.71 Ma"@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bartonian>,
@@ -3393,27 +3396,6 @@
         "Devónico"@es ;
     adms:status "Válido" ;
     sdo:color "#CB8C37" .
-
-<https://geo-carto.github.io/vocabularios/edad-geologica/eoceno> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/paleogeno> ;
-    skos:definition "Older bound 56 Ma, younger bound 33.9 Ma"@en,
-        "Límite inferior 56 Ma, límite superior 33.9 Ma"@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/eocene>,
-        <http://resource.geosciml.org/classifier/ics/ischart/Eocene> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/bartoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/headoniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/luteciense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/priaboniense>,
-        <https://geo-carto.github.io/vocabularios/edad-geologica/ypresiense> ;
-    skos:notation "213010200000.0",
-        "a1.1.1.3.2" ;
-    skos:prefLabel "Eocene"@en,
-        "Eoceno"@es ;
-    adms:status "Válido" ;
-    sdo:color "#FDB46C" .
 
 <https://geo-carto.github.io/vocabularios/edad-geologica/fanerozoico> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
@@ -3573,7 +3555,8 @@
 <https://geo-carto.github.io/vocabularios/edad-geologica/luteciense> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/eoceno-medio> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/eoceno>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/eoceno-medio> ;
     skos:definition "Older bound 47.8 Ma, younger bound 41.2 Ma"@en,
         "Límite inferior 47.8 Ma, límite superior 41.2 Ma"@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lutetian>,
@@ -4052,6 +4035,28 @@
     adms:status "Válido" ;
     sdo:color "#FFFF00" .
 
+<https://geo-carto.github.io/vocabularios/edad-geologica/eoceno> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica/paleogeno> ;
+    skos:definition "Older bound 56 Ma, younger bound 33.9 Ma"@en,
+        "Límite inferior 56 Ma, límite superior 33.9 Ma"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/eocene>,
+        <http://resource.geosciml.org/classifier/ics/ischart/Eocene> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica/bartoniense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/eoceno-medio>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/headoniense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/luteciense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/priaboniense>,
+        <https://geo-carto.github.io/vocabularios/edad-geologica/ypresiense> ;
+    skos:notation "213010200000.0",
+        "a1.1.1.3.2" ;
+    skos:prefLabel "Eocene"@en,
+        "Eoceno"@es ;
+    adms:status "Válido" ;
+    sdo:color "#FDB46C" .
+
 <https://geo-carto.github.io/vocabularios/edad-geologica/paleozoico> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/edad-geologica> ;
@@ -4102,11 +4107,14 @@
     dcterms:contributor "https://www.igme.es" ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://cgi-iugs.org/" ;
-    dcterms:description "Vocabulario que recoge términos de edades geológicas utlizados en la cartografía geológica del IGME. Inlcuye términos de la ICS así como términos regionales."@es ;
+    dcterms:description "Vocabulary containing geological age terms used in IGME geological cartography. It includes ICS terms as well as regional ages."@en,
+        "Vocabulario que recoge términos de edades geológicas utlizados en la cartografía geológica del IGME. Inlcuye términos de la ICS así como términos regionales."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos IUGS ampliados por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Geochronologic Era"@en,
+        "Edad Geológica IGME"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Vocabulary containing geological age terms used in IGME geological cartography. It includes ICS terms as well as regional ages."@en,
         "Vocabulario que recoge términos de edades geológicas utlizados en la cartografía geológica del IGME. Inlcuye términos de la ICS así como términos regionales."@es ;

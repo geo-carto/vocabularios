@@ -51,11 +51,14 @@
 <https://geo-carto.github.io/vocabularios/superficies-de-estratificacion> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
-    dcterms:description "Términos referidos a superficies de estratificación."@es ;
+    dcterms:description "Terms referring to bedding surfaces."@en,
+        "Términos referidos a superficies de estratificación."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Stratigraphic surfaces"@en,
+        "Superfices de estratificación"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms referring to bedding surfaces."@en,
         "Términos referidos a superficies de estratificación."@es ;
