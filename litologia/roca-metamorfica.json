@@ -1,0 +1,279 @@
+{
+  "id": "https://geo-carto.github.io/vocabularios/litologia/roca-metamorfica",
+  "type": "Concept",
+  "prefLabel": {
+    "en": "metamorphic rock",
+    "es": "roca metamórfica"
+  },
+  "definition": {
+    "en": "Rock formed by solid-state mineralogical, chemical and/or structural changes to a pre-existing rock, in response to marked changes in temperature, pressure, shearing stress and chemical environment.",
+    "es": "Roca generada por los cambios mineralógicos, texturales y/o estructurales, en estado sólido, producidos sobre una roca pre-existente, como respuesta a cambios importantes de temperatura, presión, esfuerzos de cizalla o condiciones químicas del ambiente."
+  },
+  "narrower": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia/anfibolita",
+      "prefLabel": {
+        "en": "amphibolite",
+        "es": "anfibolita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia/cuarcita",
+      "prefLabel": {
+        "en": "quartzite",
+        "es": "cuarcita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia/eclogita",
+      "prefLabel": {
+        "en": "eclogite",
+        "es": "eclogita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia/esquisto-azul",
+      "prefLabel": {
+        "en": "glaucophane lawsonite epidote metamorphic rock",
+        "es": "esquisto azul"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia/granofelsita-/-granoblastita",
+      "prefLabel": {
+        "en": "granofels",
+        "es": "granofelsita / granoblastita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia/granulita",
+      "prefLabel": {
+        "en": "granulite",
+        "es": "granulita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia/marmol",
+      "prefLabel": {
+        "en": "marble",
+        "es": "mármol"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia/migmatita",
+      "prefLabel": {
+        "en": "migmatite",
+        "es": "migmatita"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia/roca-metamorfica-de-la-facies-de-la-clorita-actinolita-epidota",
+      "prefLabel": {
+        "en": "chlorite actinolite epidote metamorphic rock",
+        "es": "roca metamórfica de la facies de la clorita-actinolita-epidota"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia/roca-metamorfica-foliada",
+      "prefLabel": {
+        "en": "foliated metamorphic rock",
+        "es": "roca metamórfica foliada"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia/serpentinita",
+      "prefLabel": {
+        "en": "serpentinite",
+        "es": "serpentinita"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/litologia/roca-poligenica",
+    "prefLabel": {
+      "en": "composite genesis rock",
+      "es": "roca poligénica"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://inspire.ec.europa.eu/codelist/Lithology/metamorphicRock"
+    },
+    {
+      "id": "http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia",
+      "title": {
+        "en": "Lithology",
+        "es": "Litología"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://geo-carto.github.io/vocabularios/litologia"
+    }
+  ],
+  "created": "2026-03-01",
+  "status": "Válido",
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "contributor": "dct:contributor",
+    "provenance": "dct:provenance",
+    "publisher": "dct:publisher",
+    "versionInfo": "owl:versionInfo",
+    "status": {
+      "@id": "http://www.w3.org/ns/adms#status"
+    },
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "theme": "dcat:theme",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}
