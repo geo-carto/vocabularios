@@ -36,10 +36,10 @@ ui:
       font_weight: 400
       name: "roboto-regular"
     bold:
-      font_family: "Roboto"
+      font_family: "fira-sans-condensed"
       font_style: "normal"
       font_weight: 700
-      name: "roboto-bold"
+      name: "fira-sans-condensed-bold"
   footer:
     links:
       - title: "IGME-CSIC"
@@ -47,6 +47,6 @@ ui:
         target: "_blank"
         rel: "noopener noreferrer"
       - title: "Contacto"
-        url: "mailto:vocabularios@igme.es"
+        url: "mailto:vocabularios.cientificos@igme.es"
         target: "_blank"
         rel: "noopener noreferrer"

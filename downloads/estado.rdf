@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sdo="https://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estado/valido">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <skos:prefLabel xml:lang="es">Válido</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Valid</skos:prefLabel>
+    <skos:definition xml:lang="es">El elemento ha sido aceptado, se recomienda su uso y no ha sido sustituido ni retirado.</skos:definition>
+    <skos:definition xml:lang="en">The item has been accepted, is recommended for use, and has not been superseded or retired.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estado/retirado">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <skos:prefLabel xml:lang="es">Retirado</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Retired</skos:prefLabel>
+    <skos:definition xml:lang="es">Se ha decidido que el elemento ya no se recomienda para su uso. No ha sido sustituido por otro elemento.</skos:definition>
+    <skos:definition xml:lang="en">A decision has been made that the item is no longer recommended for use. It has not been superseded by another item.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/registry/status/retired"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estado/sustituido">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <skos:prefLabel xml:lang="es">Sustituido</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Superseded</skos:prefLabel>
+    <skos:definition xml:lang="es">El elemento ha sido sustituido por otro y ya no se recomienda su uso.</skos:definition>
+    <skos:definition xml:lang="en">The item has been superseded by another item and is no longer recommended for use.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/registry/status/superseded"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estado/propuesto">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <skos:prefLabel xml:lang="es">Propuesto</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Submitted</skos:prefLabel>
+    <skos:definition xml:lang="es">El elemento ha sido incorporado al registro, pero está pendiente de aprobación definitiva por el órgano de control.</skos:definition>
+    <skos:definition xml:lang="en">The item has been entered into the register, but definitive approval of the control body is pending.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/registry/status/submitted"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estado">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="es">Estado</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Status</skos:prefLabel>
+    <dcterms:title xml:lang="es">Estado</dcterms:title>
+    <dcterms:title xml:lang="en">Status</dcterms:title>
+    <skos:definition xml:lang="es">Estados tomados de ISO 19135:2026</skos:definition>
+    <skos:definition xml:lang="en">Status from ISO 19135:2026</skos:definition>
+    <dcterms:description xml:lang="es">Estados tomados de ISO 19135:2026</dcterms:description>
+    <dcterms:description xml:lang="en">Status from ISO 19135:2026</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:provenance>Términos definidos en ISO 19135:2026</dcterms:provenance>
+    <dcterms:creator>https://www.iso.org/</dcterms:creator>
+    <owl:versionInfo>1.0.1</owl:versionInfo>
+    <dcat:theme>TE</dcat:theme>
+    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Estado.</skos:editorialNote>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estado/invalido"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estado/propuesto"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estado/retirado"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estado/sustituido"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estado/valido"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estado/collection">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <skos:prefLabel xml:lang="es">Estado - Todos los conceptos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Status - All concepts</skos:prefLabel>
+    <skos:definition xml:lang="es">Todos los conceptos en este vocabulario.</skos:definition>
+    <skos:definition xml:lang="en">All concepts in this vocabulary.</skos:definition>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estado/invalido"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estado/propuesto"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estado/retirado"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estado/sustituido"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estado/valido"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estado/invalido">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estado"/>
+    <skos:prefLabel xml:lang="es">Inválido</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Invalid</skos:prefLabel>
+    <skos:definition xml:lang="es">Se ha determinado que un elemento previamente válido contiene un error sustancial y es inválido; normalmente habrá sido reemplazado por un elemento corregido.</skos:definition>
+    <skos:definition xml:lang="en">A decision has been made that a previously valid register item contains a substantial error and is invalid, and will normally have been replaced by a corrected item.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/registry/status/invalid"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+</rdf:RDF>

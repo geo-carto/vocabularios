@@ -1,0 +1,123 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://geo-carto.github.io/vocabularios/alteracion-grado/collection> a skos:Collection ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    skos:member <https://geo-carto.github.io/vocabularios/alteracion-grado/alterita-residual-vi>,
+        <https://geo-carto.github.io/vocabularios/alteracion-grado/alto-iv>,
+        <https://geo-carto.github.io/vocabularios/alteracion-grado/debil-ii>,
+        <https://geo-carto.github.io/vocabularios/alteracion-grado/material-fresco-i>,
+        <https://geo-carto.github.io/vocabularios/alteracion-grado/moderado-iii>,
+        <https://geo-carto.github.io/vocabularios/alteracion-grado/muy-alto-v> ;
+    skos:prefLabel "Alteration grade - All concepts"@en,
+        "Grado de alteración - Todos los conceptos"@es .
+
+<https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
+    sdo:name "CGI Geoscience Terminology Working Group" ;
+    sdo:url <http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html> .
+
+<https://linked.data.gov.au/org/cgi> a sdo:Organization ;
+    sdo:name "Commission for the Management and Application of Geoscience Information" ;
+    sdo:url <http://www.cgi-iugs.org> .
+
+<https://geo-carto.github.io/vocabularios/alteracion-grado/alterita-residual-vi> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    skos:definition "Material (rock or superficial formation) with no recognizable original texture and significantly reduced original volume"@en,
+        "Material (roca o formación superficial) sin textura original reconocible y con su volumen original reducido significativamente."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    skos:prefLabel "residual alterite (VI)"@en,
+        "alterita residual (VI)"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/alteracion-grado/alto-iv> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    skos:definition "Weathering affects more than 50% of the material, beeing the fresh material reduced to disconnected corestones"@en,
+        "La meteorización afecta a más del 50% del material, reduciéndose el material fresco a núcleos desconectados."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    skos:prefLabel "high (IV)"@en,
+        "alto (IV)"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/alteracion-grado/debil-ii> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    skos:definition "Weathering is limited to discontinuities surfaces of the material (joints and bedding)"@en,
+        "La meteorización se limita a las superficies de discontinuidad del material (fracturación y estratificación)."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    skos:prefLabel "slight (II)"@en,
+        "débil (II)"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/alteracion-grado/material-fresco-i> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    skos:definition "Material (rock or superficial formation) with no visible sign of weathering"@en,
+        "Material (roca o formación superficial) sin signo visible de meteorización."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    skos:prefLabel "fresh material (I)"@en,
+        "material fresco (I)"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/alteracion-grado/moderado-iii> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    skos:definition "Weathering affects less than 50% of the material, beeing the fresh material reduced to connected corestones"@en,
+        "La meteorización afecta a menos del 50% del material, reduciéndose el material fresco a núcleos conectados."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    skos:prefLabel "moderate (III)"@en,
+        "moderado (III)"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/alteracion-grado/muy-alto-v> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    skos:definition "Weathering affects all the material, beeing modified by chemical weathering"@en,
+        "La meteorización química afecta a todo el material."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    skos:prefLabel "very high (V)"@en,
+        "muy alto (V)"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/alteracion-grado> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/alteracion-grado> a skos:ConceptScheme ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://www.igme.es" ;
+    dcterms:description "The property alterationDegree contains a term from a controlled vocabulary indicating the magnitude of observed alteration."@en,
+        "Términos que indican la magnitud de la alteración observada."@es ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:provenance "Términos propios definidos por el IGME" ;
+    dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Alteration grade"@en,
+        "Grado de alteración"@es ;
+    owl:versionInfo "1.0.0" ;
+    skos:definition "The property alterationDegree contains a term from a controlled vocabulary indicating the magnitude of observed alteration."@en,
+        "Términos que indican la magnitud de la alteración observada."@es ;
+    skos:editorialNote "Este archivo contiene el vocabulario Grado de alteración."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/alteracion-grado/alterita-residual-vi>,
+        <https://geo-carto.github.io/vocabularios/alteracion-grado/alto-iv>,
+        <https://geo-carto.github.io/vocabularios/alteracion-grado/debil-ii>,
+        <https://geo-carto.github.io/vocabularios/alteracion-grado/material-fresco-i>,
+        <https://geo-carto.github.io/vocabularios/alteracion-grado/moderado-iii>,
+        <https://geo-carto.github.io/vocabularios/alteracion-grado/muy-alto-v> ;
+    skos:prefLabel "Alteration grade"@en,
+        "Grado de alteración"@es ;
+    dcat:theme "GE" .
+

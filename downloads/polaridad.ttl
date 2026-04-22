@@ -1,0 +1,87 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://geo-carto.github.io/vocabularios/polaridad/collection> a skos:Collection ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/polaridad> ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/polaridad> ;
+    skos:member <https://geo-carto.github.io/vocabularios/polaridad/invertida>,
+        <https://geo-carto.github.io/vocabularios/polaridad/normal>,
+        <https://geo-carto.github.io/vocabularios/polaridad/vertical> ;
+    skos:prefLabel "Polarity - All concepts"@en,
+        "Polaridad - Todos los conceptos"@es .
+
+<https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
+    sdo:name "CGI Geoscience Terminology Working Group" ;
+    sdo:url <http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html> .
+
+<https://linked.data.gov.au/org/cgi> a sdo:Organization ;
+    sdo:name "Commission for the Management and Application of Geoscience Information" ;
+    sdo:url <http://www.cgi-iugs.org> .
+
+<https://geo-carto.github.io/vocabularios/polaridad/invertida> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/polaridad> ;
+    skos:definition "The feature has been overturned (ie; rotated around a horizontal or subhorizontal axis more than 90 degrees from its original orientation)."@en,
+        "El elemento ha sido invertido (es decir, rotado alrededor de un eje horizontal o subhorizontal más de 90 grados respecto a su orientación original)."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/planarpolaritycode/overturned> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/polaridad> ;
+    skos:prefLabel "overturned"@en,
+        "invertida"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/polaridad> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/polaridad/normal> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/polaridad> ;
+    skos:definition "The feature has not been rotated around a horizontal or subhorizontal axis beyond 90 degrees from its original orientation."@en,
+        "El elemento no ha sido rotado alrededor de un eje horizontal o subhorizontal más de 90 grados respecto a su orientación original."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/planarpolaritycode/upright> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/polaridad> ;
+    skos:prefLabel "upright"@en,
+        "normal"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/polaridad> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/polaridad/vertical> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/polaridad> ;
+    skos:definition "The planar orientation of a feature is approximately vertical."@en,
+        "La orientación planar del elemento es aproximadamente vertical."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/planarpolaritycode/vertical> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/polaridad> ;
+    skos:prefLabel "vertical"@en,
+        "vertical"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/polaridad> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/polaridad> a skos:ConceptScheme ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://www.igme.es" ;
+    dcterms:description "Polarity of the stratigraphic sequence associated with a structural measurement."@en,
+        "Polaridad de la secuencia estratigráfica asociada a una medida estructural."@es ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:provenance "Términos propios definidos por el IGME" ;
+    dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Polarity"@en,
+        "Polaridad"@es ;
+    owl:versionInfo "1.0.0" ;
+    skos:definition "Polarity of the stratigraphic sequence associated with a structural measurement."@en,
+        "Polaridad de la secuencia estratigráfica asociada a una medida estructural."@es ;
+    skos:editorialNote "Este archivo contiene el vocabulario Polaridad."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/polaridad/invertida>,
+        <https://geo-carto.github.io/vocabularios/polaridad/normal>,
+        <https://geo-carto.github.io/vocabularios/polaridad/vertical> ;
+    skos:prefLabel "Polarity"@en,
+        "Polaridad"@es ;
+    dcat:theme "GE" .
+

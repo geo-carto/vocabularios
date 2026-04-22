@@ -978,163 +978,6 @@
     sdo:name "Commission for the Management and Application of Geoscience Information" ;
     sdo:url <http://www.cgi-iugs.org> .
 
-<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cerro-conico-poligenetico> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
-    skos:definition "A conical terrain elevation."@en,
-        "Elevación del terreno de forma cónica."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:prefLabel "conical hill"@en,
-        "cerro cónico poligenético"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cerro-ruiniforme> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-karsticos-y-de-meteorizacion-quimica> ;
-    skos:definition "Relief with a ruin-like appearance due to weathering and dismantling."@en,
-        "Relieve con aspecto de ruinas por meteorización y desmantelamiento."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:prefLabel "ruiniform hill; block chaos"@en,
-        "cerro ruiniforme; caos de bloques"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/collado-poligenetico> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:altLabel "puerto; col"@es ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
-    skos:definition "A depression in a divide allowing passage."@en,
-        "Depresión en una divisoria que permite el paso."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:prefLabel "pass; col"@en,
-        "collado poligenetico"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/domo-volcanico> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-volcanicos> ;
-    skos:definition "A rounded elevation formed by extrusion of viscous lava."@en,
-        "Elevación redondeada formada por extrusión de lava viscosa."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:prefLabel "dome"@en,
-        "domo volcánico"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/escarpeescarpe-en-ambiente-lacustre> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-lacustres> ;
-    skos:definition "An abrupt slope of polygenetic origin."@en,
-        "Talud abrupto de origen poligénico."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:prefLabel "scarp"@en,
-        "escarpe en ambiente lacustre"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/hombrera-poligenetica> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
-    skos:definition "A subhorizontal surface interrupting a slope."@en,
-        "Superficie subhorizontal que interrumpe una pendiente."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:prefLabel "shoulder; bench"@en,
-        "hombrera poligenética"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/resalte-de-diques-volcanico> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-volcanicos> ;
-    skos:definition "A topographic ridge caused by differential erosion of a resistant volcanic dyke."@en,
-        "Resalte topográfico causado por erosión diferencial de un dique volcánico resistente."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:prefLabel "dyke ridge"@en,
-        "resalte de diques volcánico"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion-poligenetica> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
-    skos:definition "A planation surface produced by prolonged erosion."@en,
-        "Superficie de aplanamiento producida por erosión prolongada."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion-con-alterita>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion-degradada> ;
-    skos:prefLabel "erosion surface"@en,
-        "superficie de erosión poligenética"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-erosiva> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza> ;
-    skos:definition "A terrace carved into rock without significant alluvial deposit."@en,
-        "Terraza tallada en la roca sin depósito aluvial significativo."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:prefLabel "erosional terrace"@en,
-        "terraza erosiva"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-litoral> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-marinos-litorales-y-de-humedales-costeros> ;
-    skos:definition "A flat surface elevated above the current channel, representing a former river level."@en,
-        "Superficie plana elevada respecto al cauce actual, que representa un antiguo nivel del río."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:prefLabel "terrace"@en,
-        "terraza litoral"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-no-ciclica-de-encajamiento-convergente> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza> ;
-    skos:definition "Terrace formed by progressive entrenchment without relation to climatic cycles."@en,
-        "Terraza formada por encajamiento progresivo sin relación con ciclos climáticos."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:prefLabel "non-cyclic terrace (entrenching; convergent)"@en,
-        "terraza no cíclica (de encajamiento; convergente)"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-travertinica> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza> ;
-    skos:definition "Terrace formed by calcium carbonate (travertine) precipitation."@en,
-        "Terraza formada por precipitación de carbonato cálcico (travertino)."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:prefLabel "travertine terrace"@en,
-        "terraza travertínica"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/turbera-en-ambiente-glaciar-y-periglaciar> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales-glaciofluviales-glaciolacustres-y-glaciomarinos> ;
-    skos:definition "Marshy area with accumulation of partially decomposed organic matter (peat)."@en,
-        "Zona pantanosa con acumulación de materia orgánica parcialmente descompuesta (turba)."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:prefLabel "peat bog"@en,
-        "turbera en ambiente lacustra glaciar y periglaciar"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/turbera-en-ambiente-lacustre> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-lacustres> ;
-    skos:definition "Marshy area with accumulation of partially decomposed organic matter (peat)."@en,
-        "Zona pantanosa con acumulación de materia orgánica parcialmente descompuesta (turba)."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:prefLabel "peat bog"@en,
-        "turbera en ambiente lacustre"@es ;
-    adms:status "Válido" .
-
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/abanico-aluvial-de-baja-pendiente> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
@@ -2029,6 +1872,28 @@
         "centro de emisión"@es ;
     adms:status "Válido" .
 
+<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cerro-conico-poligenetico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
+    skos:definition "A conical terrain elevation."@en,
+        "Elevación del terreno de forma cónica."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:prefLabel "conical hill"@en,
+        "cerro cónico poligenético"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cerro-ruiniforme> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-karsticos-y-de-meteorizacion-quimica> ;
+    skos:definition "Relief with a ruin-like appearance due to weathering and dismantling."@en,
+        "Relieve con aspecto de ruinas por meteorización y desmantelamiento."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:prefLabel "ruiniform hill; block chaos"@en,
+        "cerro ruiniforme; caos de bloques"@es ;
+    adms:status "Válido" .
+
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/charca-labajo-bodon-estacional> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
@@ -2205,6 +2070,18 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
     skos:prefLabel "glacial transfluence col"@en,
         "collado de transfluencia glaciar"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/collado-poligenetico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:altLabel "puerto; col"@es ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
+    skos:definition "A depression in a divide allowing passage."@en,
+        "Depresión en una divisoria que permite el paso."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:prefLabel "pass; col"@en,
+        "collado poligenetico"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/coluvion> a skos:Concept ;
@@ -2848,6 +2725,17 @@
         "domo exógeno"@es ;
     adms:status "Válido" .
 
+<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/domo-volcanico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-volcanicos> ;
+    skos:definition "A rounded elevation formed by extrusion of viscous lava."@en,
+        "Elevación redondeada formada por extrusión de lava viscosa."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:prefLabel "dome"@en,
+        "domo volcánico"@es ;
+    adms:status "Válido" .
+
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/domo-y-dorso-de-ballena> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
@@ -3143,6 +3031,17 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
     skos:prefLabel "scarp over 100 m"@en,
         "escarpe superior a 100 metros"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/escarpeescarpe-en-ambiente-lacustre> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-lacustres> ;
+    skos:definition "An abrupt slope of polygenetic origin."@en,
+        "Talud abrupto de origen poligénico."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:prefLabel "scarp"@en,
+        "escarpe en ambiente lacustre"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/estrias> a skos:Concept ;
@@ -3541,6 +3440,17 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
     skos:prefLabel "hydrolaccolith"@en,
         "hidrolacolito"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/hombrera-poligenetica> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
+    skos:definition "A subhorizontal surface interrupting a slope."@en,
+        "Superficie subhorizontal que interrumpe una pendiente."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:prefLabel "shoulder; bench"@en,
+        "hombrera poligenética"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/hornito> a skos:Concept ;
@@ -4582,6 +4492,17 @@
         "resalte de capas subverticales"@es ;
     adms:status "Válido" .
 
+<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/resalte-de-diques-volcanico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-volcanicos> ;
+    skos:definition "A topographic ridge caused by differential erosion of a resistant volcanic dyke."@en,
+        "Resalte topográfico causado por erosión diferencial de un dique volcánico resistente."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:prefLabel "dyke ridge"@en,
+        "resalte de diques volcánico"@es ;
+    adms:status "Válido" .
+
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/resalte-en-capas-horizontales> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
@@ -4912,6 +4833,17 @@
         "terracillas"@es ;
     adms:status "Válido" .
 
+<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-erosiva> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza> ;
+    skos:definition "A terrace carved into rock without significant alluvial deposit."@en,
+        "Terraza tallada en la roca sin depósito aluvial significativo."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:prefLabel "erosional terrace"@en,
+        "terraza erosiva"@es ;
+    adms:status "Válido" .
+
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-lacustre> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
@@ -4923,6 +4855,28 @@
         "terraza lacustre"@es ;
     adms:status "Válido" .
 
+<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-litoral> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-marinos-litorales-y-de-humedales-costeros> ;
+    skos:definition "A flat surface elevated above the current channel, representing a former river level."@en,
+        "Superficie plana elevada respecto al cauce actual, que representa un antiguo nivel del río."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:prefLabel "terrace"@en,
+        "terraza litoral"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-no-ciclica-de-encajamiento-convergente> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza> ;
+    skos:definition "Terrace formed by progressive entrenchment without relation to climatic cycles."@en,
+        "Terraza formada por encajamiento progresivo sin relación con ciclos climáticos."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:prefLabel "non-cyclic terrace (entrenching; convergent)"@en,
+        "terraza no cíclica (de encajamiento; convergente)"@es ;
+    adms:status "Válido" .
+
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-proglaciar> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
@@ -4932,6 +4886,17 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
     skos:prefLabel "proglacial terrace"@en,
         "terraza proglaciar"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-travertinica> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza> ;
+    skos:definition "Terrace formed by calcium carbonate (travertine) precipitation."@en,
+        "Terraza formada por precipitación de carbonato cálcico (travertino)."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:prefLabel "travertine terrace"@en,
+        "terraza travertínica"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/toba-masa-travertinica> a skos:Concept ;
@@ -4976,6 +4941,28 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
     skos:prefLabel "lava tube"@en,
         "túnel de lava"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/turbera-en-ambiente-glaciar-y-periglaciar> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales-glaciofluviales-glaciolacustres-y-glaciomarinos> ;
+    skos:definition "Marshy area with accumulation of partially decomposed organic matter (peat)."@en,
+        "Zona pantanosa con acumulación de materia orgánica parcialmente descompuesta (turba)."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:prefLabel "peat bog"@en,
+        "turbera en ambiente lacustra glaciar y periglaciar"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/turbera-en-ambiente-lacustre> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-lacustres> ;
+    skos:definition "Marshy area with accumulation of partially decomposed organic matter (peat)."@en,
+        "Zona pantanosa con acumulación de materia orgánica parcialmente descompuesta (turba)."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:prefLabel "peat bog"@en,
+        "turbera en ambiente lacustre"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/umbral-difuso> a skos:Concept ;
@@ -5226,7 +5213,8 @@
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cerro-conico> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-tectonicos-y-estructurales> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-tectonicos-y-estructurales>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
     skos:definition "A conical terrain elevation."@en,
         "Elevación del terreno de forma cónica."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
@@ -5238,7 +5226,8 @@
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
     skos:altLabel "caos de bloques"@es ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-karsticos-y-de-meteorizacion-quimica>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
     skos:definition "Relief with a ruin-like appearance due to weathering and dismantling."@en,
         "Relieve con aspecto de ruinas por meteorización y desmantelamiento."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
@@ -5261,7 +5250,8 @@
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/collado> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-aluviales-y-fluviales> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-aluviales-y-fluviales>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
     skos:definition "A depression in a divide allowing passage."@en,
         "Depresión en una divisoria que permite el paso."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
@@ -5296,7 +5286,8 @@
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/escarpe> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-lacustres>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
     skos:definition "An abrupt slope of polygenetic origin."@en,
         "Talud abrupto de origen poligénico."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
@@ -5331,7 +5322,8 @@
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/hombrera> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-aluviales-y-fluviales> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-aluviales-y-fluviales>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
     skos:definition "A subhorizontal surface interrupting a slope."@en,
         "Superficie subhorizontal que interrumpe una pendiente."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
@@ -5390,7 +5382,8 @@
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/resalte-de-diques> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-tectonicos-y-estructurales> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-tectonicos-y-estructurales>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-volcanicos> ;
     skos:definition "A topographic ridge caused by differential erosion of a resistant volcanic dyke."@en,
         "Resalte topográfico causado por erosión diferencial de un dique volcánico resistente."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
@@ -5401,7 +5394,8 @@
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion-con-alterita> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion-poligenetica> ;
     skos:definition "An erosion surface covered by residual weathering products."@en,
         "Superficie de erosión cubierta por productos de alteración residual."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
@@ -5412,7 +5406,8 @@
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion-degradada> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion-poligenetica> ;
     skos:definition "An erosion surface modified by subsequent erosional processes."@en,
         "Superficie de erosión modificada por procesos erosivos posteriores."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
@@ -5470,10 +5465,25 @@
         "canal de marea"@es ;
     adms:status "Válido" .
 
+<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion-poligenetica> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
+    skos:definition "A planation surface produced by prolonged erosion."@en,
+        "Superficie de aplanamiento producida por erosión prolongada."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion-con-alterita>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion-degradada> ;
+    skos:prefLabel "erosion surface"@en,
+        "superficie de erosión poligenética"@es ;
+    adms:status "Válido" .
+
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/turbera> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-marinos-litorales-y-de-humedales-costeros> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales-glaciofluviales-glaciolacustres-y-glaciomarinos>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-lacustres>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-marinos-litorales-y-de-humedales-costeros> ;
     skos:definition "Marshy area with accumulation of partially decomposed organic matter (peat)."@en,
         "Zona pantanosa con acumulación de materia orgánica parcialmente descompuesta (turba)."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
@@ -5526,7 +5536,8 @@
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/domo> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-volcanicos>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
     skos:definition "A rounded elevation formed by extrusion of viscous lava."@en,
         "Elevación redondeada formada por extrusión de lava viscosa."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
@@ -5625,10 +5636,14 @@
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-aluviales-y-fluviales> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-aluviales-y-fluviales>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-marinos-litorales-y-de-humedales-costeros> ;
     skos:definition "A flat surface elevated above the current channel, representing a former river level."@en,
         "Superficie plana elevada respecto al cauce actual, que representa un antiguo nivel del río."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-erosiva>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-no-ciclica-de-encajamiento-convergente>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-travertinica> ;
     skos:prefLabel "terrace"@en,
         "terraza"@es ;
     adms:status "Válido" .
@@ -5792,12 +5807,14 @@
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/charca-labajo-bodon-permanente>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/escarpe>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/escarpe-fosil>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/escarpeescarpe-en-ambiente-lacustre>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/laguna>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/limite-de-cuenca-endorreica>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ojos-de-agua>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/reborde-de-terraza-con-indicacion-de-cota-en-metros>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-lacustre>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/turbera> ;
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/turbera>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/turbera-en-ambiente-lacustre> ;
     skos:prefLabel "lacustrine features"@en,
         "objetos lacustres"@es ;
     adms:status "Válido" .
@@ -5838,13 +5855,17 @@
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-geomorfologico-natural>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion> ;
     skos:definition "Geomorphologic landscapes and landforms related dominantly to water erosion but excluding perennial channel flow (i.e. fluvial, glaciofluvial) or eolian erosion."@en,
         "Paisajes geomorfológicos y formas del relieve relacionados predominantemente con la erosión del agua, con exclusión de las corrientes canalizadas perennes (es decir, fluviales, glaciofluviales), o a la erosión eólica."@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/erosionSurface> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cerro-conico>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cerro-conico-poligenetico>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cerro-ruiniforme-caos-de-bloques>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/collado>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/collado-poligenetico>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/depresion-cerrada-o-semicerrada-de-origen-mixto>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/domo>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/escarpe>,
@@ -5853,6 +5874,7 @@
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/glacis-de-erosion-pediment>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/glacis-de-vertiente-glacis-coluvial>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/hombrera>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/hombrera-poligenetica>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/monte-isla-relieve-aislado-inselberg>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/monticulo-loma>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/otros-depositos>,
@@ -5863,6 +5885,7 @@
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion-con-alterita>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion-degradada>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion-poligenetica>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/techo-de-piedemonte-ranya> ;
     skos:prefLabel "erosion surface"@en,
         "superficie de erosión"@es ;
@@ -5949,6 +5972,7 @@
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/playa>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/surcos-lineas-de-crecimiento-del-cordon-litoral>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-litoral>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/turbera>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/zona-de-rompiente-zona-intermareal> ;
     skos:prefLabel "marine, littoral and coastal wetlands features"@en,
@@ -5972,6 +5996,7 @@
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/canyon-garganta-desfiladero>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/caolinizaciones>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/carbonataciones>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cerro-ruiniforme>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cerro-ruiniforme-caos-de-bloques>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cueva>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/dolina>,
@@ -6000,59 +6025,6 @@
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/valle-ciego> ;
     skos:prefLabel "karst and chemical weathering features"@en,
         "objetos geográficos kársticos y de meteorización química"@es ;
-    adms:status "Válido" .
-
-<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-volcanicos> a skos:Concept ;
-    dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-geomorfologico-natural> ;
-    skos:definition "Geomorphologic landscapes and landforms related to the deep seated (igneous) processes by which magma and associated gases rise through the crust and are extruded onto the earth's surface and into the atmosphere."@en,
-        "Paisajes geomorfológicos y formas del relieve relativos a procesos ígneos en virtud de los cuales magma y gases asociados atraviesan la corteza y son expulsados sobre la superficie terrestre y a la atmósfera."@es ;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/volcanic> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
-    skos:narrower <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/bombas-bloques-erraticos>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/borde-de-caldera>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/borde-de-caldera-degradado>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/borde-de-crater-de-explosion-hidro-magmatica-con-anillo-de-toba-conservado>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/campo-de-cenizas>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/centro-de-emision>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/chimenea>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cicatriz-de-deslizamiento-inducido-por-actividad-volcanica>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/colada-de-lava>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cono-de-piroclastos>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cono-de-piroclastos-alomado-cabezo>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cono-de-piroclastos-degradado-con-centro-de-emision>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cono-volcanico-con-crater>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/crater>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/crater-de-domo-colada>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/crater-de-explosion>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/depresion-intralavica>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/direccion-de-flujo-de-lava>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/disyuncion-columnar>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/domo>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/escarpe-frente-de-colada>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/fisura>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/fisura-con-fumarola-emergente>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/fuente-termal>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/geiser>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/gruta-jameo>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/hornito>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/hundimiento-subsidencia>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/meteorizacion-fumarolica>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/muro-o-dique-lateral-de-enfriamiento-levee>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ojivas-de-presion>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/piton-aguja-necks>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/resalte-de-diques>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ruptura-de-pendiente-cascada-en-colada>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ruptura-de-pendiente-debido-a-reflejos-de-antiguos-bordes-de-crateres>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-apilamiento-con-indicacion-de-inclinacion-de-la-misma>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/surgencia-lavica-bajo-colada-solidificada>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/trazas-resaltes-de-capas-en-apilamientos-volcanicos-inclinados>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/trazas-resaltes-de-capas-en-apilamientos-volcanicos-subhorizontales>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/tunel-de-lava>,
-        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/volcan-de-barro> ;
-    skos:prefLabel "volcanic features"@en,
-        "objetos volcánicos"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-aluviales-y-fluviales> a skos:Concept ;
@@ -6108,6 +6080,61 @@
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/valle-o-vaguada-con-fondo-plano> ;
     skos:prefLabel "alluvial and fluvial features"@en,
         "objetos geográficos aluviales y fluviales"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-volcanicos> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-geomorfologico-natural> ;
+    skos:definition "Geomorphologic landscapes and landforms related to the deep seated (igneous) processes by which magma and associated gases rise through the crust and are extruded onto the earth's surface and into the atmosphere."@en,
+        "Paisajes geomorfológicos y formas del relieve relativos a procesos ígneos en virtud de los cuales magma y gases asociados atraviesan la corteza y son expulsados sobre la superficie terrestre y a la atmósfera."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/volcanic> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/bombas-bloques-erraticos>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/borde-de-caldera>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/borde-de-caldera-degradado>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/borde-de-crater-de-explosion-hidro-magmatica-con-anillo-de-toba-conservado>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/campo-de-cenizas>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/centro-de-emision>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/chimenea>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cicatriz-de-deslizamiento-inducido-por-actividad-volcanica>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/colada-de-lava>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cono-de-piroclastos>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cono-de-piroclastos-alomado-cabezo>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cono-de-piroclastos-degradado-con-centro-de-emision>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cono-volcanico-con-crater>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/crater>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/crater-de-domo-colada>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/crater-de-explosion>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/depresion-intralavica>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/direccion-de-flujo-de-lava>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/disyuncion-columnar>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/domo>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/domo-volcanico>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/escarpe-frente-de-colada>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/fisura>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/fisura-con-fumarola-emergente>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/fuente-termal>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/geiser>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/gruta-jameo>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/hornito>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/hundimiento-subsidencia>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/meteorizacion-fumarolica>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/muro-o-dique-lateral-de-enfriamiento-levee>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ojivas-de-presion>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/piton-aguja-necks>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/resalte-de-diques>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/resalte-de-diques-volcanico>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ruptura-de-pendiente-cascada-en-colada>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ruptura-de-pendiente-debido-a-reflejos-de-antiguos-bordes-de-crateres>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-apilamiento-con-indicacion-de-inclinacion-de-la-misma>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/surgencia-lavica-bajo-colada-solidificada>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/trazas-resaltes-de-capas-en-apilamientos-volcanicos-inclinados>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/trazas-resaltes-de-capas-en-apilamientos-volcanicos-subhorizontales>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/tunel-de-lava>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/volcan-de-barro> ;
+    skos:prefLabel "volcanic features"@en,
+        "objetos volcánicos"@es ;
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales-glaciofluviales-glaciolacustres-y-glaciomarinos> a skos:Concept ;
@@ -6180,6 +6207,7 @@
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/talud-o-cono-de-derrubios>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/terraza-proglaciar>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/turbera>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/turbera-en-ambiente-glaciar-y-periglaciar>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/umbral-difuso>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/umbral-neto>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/vertiente-de-bloques>,
@@ -6191,11 +6219,14 @@
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural-amp> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://commission.europa.eu/" ;
-    dcterms:description "Términos referidos al objeto geomorfológico natural."@es ;
+    dcterms:description "Terms referring to natural geomorphological features."@en,
+        "Términos referidos al objeto geomorfológico natural."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Geomorphological natural feature - extended"@en,
+        "Objeto geomorfológico natural - ampliado"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms referring to natural geomorphological features."@en,
         "Términos referidos al objeto geomorfológico natural."@es ;

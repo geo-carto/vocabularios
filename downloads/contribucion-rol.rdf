@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sdo="https://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-informacion-digital">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:prefLabel xml:lang="es">revisor información digital</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">digital data reviewer</skos:prefLabel>
+    <skos:definition xml:lang="es">Persona o entidad responsable de revisar la calidad, coherencia y consistencia de la información digital asociada al recurso.</skos:definition>
+    <skos:definition xml:lang="en">Person or entity responsible for reviewing the quality, coherence and consistency of the digital information associated with the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-cientifico">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:prefLabel xml:lang="es">coordinador científico</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">scientific coordinator</skos:prefLabel>
+    <skos:definition xml:lang="es">Persona o entidad responsable de la coordinación de los aspectos científicos del proyecto y de garantizar la coherencia y calidad científica de los resultados.</skos:definition>
+    <skos:definition xml:lang="en">Person or entity responsible for coordinating the scientific aspects of the project and ensuring the scientific consistency and quality of the results.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/contribucion-rol/director-proyecto">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:prefLabel xml:lang="es">director proyecto</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">project manager</skos:prefLabel>
+    <skos:definition xml:lang="es">Persona o entidad responsable de la planificación, organización, coordinación y supervisión general del proyecto.</skos:definition>
+    <skos:definition xml:lang="en">Person or entity responsible for the planning, organisation, coordination and overall supervision of the project.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/contribucion-rol">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="es">Rol de contribuyente</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Contributor role</skos:prefLabel>
+    <dcterms:title xml:lang="es">Rol de contribuyente</dcterms:title>
+    <dcterms:title xml:lang="en">Contributor role</dcterms:title>
+    <skos:definition xml:lang="es">Términos que definen el rol desempañado por un contribuyente en relación a un conjunto de datos o parte de él.</skos:definition>
+    <skos:definition xml:lang="en">Terms defining the role played by a contributor in relation to a dataset or part of it.</skos:definition>
+    <dcterms:description xml:lang="es">Términos que definen el rol desempañado por un contribuyente en relación a un conjunto de datos o parte de él.</dcterms:description>
+    <dcterms:description xml:lang="en">Terms defining the role played by a contributor in relation to a dataset or part of it.</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:provenance>Términos propios definidos por el IGME</dcterms:provenance>
+    <dcterms:creator>https://www.igme.es</dcterms:creator>
+    <owl:versionInfo>1.0.2</owl:versionInfo>
+    <dcat:theme>TE</dcat:theme>
+    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Rol de contribuyente.</skos:editorialNote>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/director-proyecto"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-cientifico"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-tecnico"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/autor"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/co-autor"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/cartografo-de-campo"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/digitalizador"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-científico"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-informacion-digital"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartográfico"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/administrador-base-de-datos"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/creador-metadatos"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/creador-de-servicios-web"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/contribucion-rol/administrador-base-de-datos">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:prefLabel xml:lang="es">administrador de base de datos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">database administrator</skos:prefLabel>
+    <skos:definition xml:lang="es">Persona o entidad responsable de la gestión, mantenimiento y administración de la base de datos que contiene la información del recurso.</skos:definition>
+    <skos:definition xml:lang="en">Person or entity responsible for managing, maintaining and administering the database containing the resource information.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/contribucion-rol/cartografo-de-campo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:prefLabel xml:lang="es">cartógrafo de campo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">field cartographer</skos:prefLabel>
+    <skos:definition xml:lang="es">Persona o entidad responsable de la elaboración de la cartografía geológica mediante observaciones y levantamientos realizados en campo.</skos:definition>
+    <skos:definition xml:lang="en">Person or entity responsible for producing geological cartography based on field observations and mapping.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/contribucion-rol/co-autor">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:prefLabel xml:lang="es">co-autor</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">co-author</skos:prefLabel>
+    <skos:definition xml:lang="es">Persona o entidad que contribuye significativamente a la creación intelectual del contenido del recurso junto con el autor principal.</skos:definition>
+    <skos:definition xml:lang="en">Person or entity who significantly contributes to the intellectual creation of the resource content together with the main author.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-tecnico">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:prefLabel xml:lang="es">coordinador técnico</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">technical coordinator</skos:prefLabel>
+    <skos:definition xml:lang="es">Persona o entidad responsable de la coordinación de los aspectos técnicos del proyecto, incluyendo metodologías, herramientas y flujos de trabajo.</skos:definition>
+    <skos:definition xml:lang="en">Person or entity responsible for coordinating the technical aspects of the project, including methodologies, tools and workflows.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/contribucion-rol/creador-de-servicios-web">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:prefLabel xml:lang="es">creador de servicios web</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">web service publisher</skos:prefLabel>
+    <skos:definition xml:lang="es">Persona o entidad responsable de la creación y configuración de servicios web para la publicación y acceso al recurso.</skos:definition>
+    <skos:definition xml:lang="en">Person or entity responsible for creating and configuring web services for publishing and accessing the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/contribucion-rol/autor">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:prefLabel xml:lang="es">autor</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">author</skos:prefLabel>
+    <skos:definition xml:lang="es">Persona o entidad responsable de la creación intelectual del contenido del recurso.</skos:definition>
+    <skos:definition xml:lang="en">Person or entity responsible for the intellectual creation of the resource content.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/contribucion-rol/collection">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:prefLabel xml:lang="es">Rol de contribuyente - Todos los conceptos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Contributor role - All concepts</skos:prefLabel>
+    <skos:definition xml:lang="es">Todos los conceptos en este vocabulario.</skos:definition>
+    <skos:definition xml:lang="en">All concepts in this vocabulary.</skos:definition>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/director-proyecto"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-cientifico"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-tecnico"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/autor"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/co-autor"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/cartografo-de-campo"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/digitalizador"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-científico"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-informacion-digital"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartográfico"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/administrador-base-de-datos"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/creador-metadatos"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol/creador-de-servicios-web"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/contribucion-rol/digitalizador">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:prefLabel xml:lang="es">digitalizador</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">digitiser</skos:prefLabel>
+    <skos:definition xml:lang="es">Persona o entidad responsable de la digitalización de datos.</skos:definition>
+    <skos:definition xml:lang="en">Person or entity responsible for the digitisation of data.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-científico">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:prefLabel xml:lang="es">revisor científico</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">scientific reviewer</skos:prefLabel>
+    <skos:definition xml:lang="es">Persona o entidad encargada de revisar la calidad y exactitud científica del recurso.</skos:definition>
+    <skos:definition xml:lang="en">Person or entity responsible for reviewing the scientific quality and accuracy of the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartográfico">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:prefLabel xml:lang="es">editor cartográfico</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">cartographic editor</skos:prefLabel>
+    <skos:definition xml:lang="es">Persona o entidad responsable de la revisión y preparación cartográfica del recurso para su publicación.</skos:definition>
+    <skos:definition xml:lang="en">Person or entity responsible for reviewing and preparing the cartographic resource for publication.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/contribucion-rol/creador-metadatos">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/contribucion-rol"/>
+    <skos:prefLabel xml:lang="es">creador de metadatos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">metadata creator</skos:prefLabel>
+    <skos:definition xml:lang="es">Persona o entidad responsable de crear y documentar los metadatos que describen el recurso y sus características.</skos:definition>
+    <skos:definition xml:lang="en">Person or entity responsible for creating and documenting the metadata describing the resource and its characteristics.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+</rdf:RDF>

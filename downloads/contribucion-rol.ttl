@@ -183,11 +183,14 @@
 <https://geo-carto.github.io/vocabularios/contribucion-rol> a skos:ConceptScheme ;
     dcterms:created "2026-03-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
-    dcterms:description "Términos que definen el rol desempañado por un contribuyente en relación a un conjunto de datos o parte de él."@es ;
+    dcterms:description "Terms defining the role played by a contributor in relation to a dataset or part of it."@en,
+        "Términos que definen el rol desempañado por un contribuyente en relación a un conjunto de datos o parte de él."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-03-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Contributor role"@en,
+        "Rol de contribuyente"@es ;
     owl:versionInfo "1.0.2" ;
     skos:definition "Terms defining the role played by a contributor in relation to a dataset or part of it."@en,
         "Términos que definen el rol desempañado por un contribuyente en relación a un conjunto de datos o parte de él."@es ;

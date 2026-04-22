@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sdo="https://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/pliegue-tipo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="es">Tipo de pliegue</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Fold profile type</skos:prefLabel>
+    <dcterms:title xml:lang="es">Tipo de pliegue</dcterms:title>
+    <dcterms:title xml:lang="en">Fold profile type</dcterms:title>
+    <skos:definition xml:lang="es">Términos que clasifican los pliegues según la geometría cóncava/convexa del pliegue respecto a la superficie terrestre y la relación con la dirección de rejuvenecimiento en los estratos plegados, si se conoce.</skos:definition>
+    <skos:definition xml:lang="en">Folds are typed according to the concave/convex geometry of the fold relative to the earth surface and the relationship to the younging direction in folded strata if known.</skos:definition>
+    <dcterms:description xml:lang="es">Términos que clasifican los pliegues según la geometría cóncava/convexa del pliegue respecto a la superficie terrestre y la relación con la dirección de rejuvenecimiento en los estratos plegados, si se conoce.</dcterms:description>
+    <dcterms:description xml:lang="en">Folds are typed according to the concave/convex geometry of the fold relative to the earth surface and the relationship to the younging direction in folded strata if known.</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:provenance>Términos originales de INSPIRE</dcterms:provenance>
+    <dcterms:creator>https://commission.europa.eu/</dcterms:creator>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <dcat:theme>GE</dcat:theme>
+    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Tipo de pliegue.</skos:editorialNote>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/antiforma"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/sinforma"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/monoclinal"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal-tumbado"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal-tumbado"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinorio"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinorio"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/domo"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/cubeta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/pliegue-tipo/monoclinal">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:prefLabel xml:lang="es">monoclinal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">monocline</skos:prefLabel>
+    <skos:definition xml:lang="es">Pliegue con un flanco corto y fuerte buzamiento que enlaza dos flancos planos de tendencia horizontal.</skos:definition>
+    <skos:definition xml:lang="en">Fold with a short, steeply dipping limb that connects two flat limbs with a horizontal trend.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinorio">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:prefLabel xml:lang="es">sinclinorio</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">synclinorium</skos:prefLabel>
+    <skos:definition xml:lang="es">Sinforme o sinclinal regional compuesto por antiformes y sinformes (o anticlinales y sinclinales) más pequeños con espaciamiento sistemático razonable cuya línea media define una estructura sinforme.</skos:definition>
+    <skos:definition xml:lang="en">Regional synform or syncline composed of smaller antiforms and synforms (or anticlines and synclines) with reasonable systematic spacing whose midline defines a synform structure</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/pliegue-tipo/collection">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:prefLabel xml:lang="es">Tipo de pliegue - Todos los conceptos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Fold profile type - All concepts</skos:prefLabel>
+    <skos:definition xml:lang="es">Todos los conceptos en este vocabulario.</skos:definition>
+    <skos:definition xml:lang="en">All concepts in this vocabulary.</skos:definition>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/antiforma"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/sinforma"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/monoclinal"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal-tumbado"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal-tumbado"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinorio"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinorio"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/domo"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo/cubeta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/pliegue-tipo/antiforma">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:prefLabel xml:lang="es">antiforma</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">antiform</skos:prefLabel>
+    <skos:definition xml:lang="es">Pliegue cuyo núcleo contiene las rocas estratigráficamente más modernas; generalmente es cóncavo hacia arriba.</skos:definition>
+    <skos:definition xml:lang="en">A fold of which the core contains the stratigraphically younger rocks; it is generally concave upward.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/antiform"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:prefLabel xml:lang="es">anticlinal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">anticline</skos:prefLabel>
+    <skos:definition xml:lang="es">Pliegue, generalmente convexo hacia arriba, cuyo núcleo contiene las rocas estratigráficamente más antiguas.</skos:definition>
+    <skos:definition xml:lang="en">A fold general convex upward, whose core contains the stratigraphically older rocks.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/anticline"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal-tumbado">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:prefLabel xml:lang="es">sinclinal tumbado</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">overturned syncline</skos:prefLabel>
+    <skos:altLabel xml:lang="es">sinclinal volcado (RAC)</skos:altLabel>
+    <skos:definition xml:lang="es">Pliegue sinclinal con un plano axial inclinado en el que los dos flancos buzan en la misma dirección, presentando, en consecuencia, un flanco inverso.</skos:definition>
+    <skos:definition xml:lang="en">An asymmetrical syncline with a flank or limb that has been tilted beyond perpendicular so that the beds in that limb are upside-down</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/pliegue-tipo/sinforma">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:prefLabel xml:lang="es">sinforma</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">synform</skos:prefLabel>
+    <skos:definition xml:lang="es">Pliegue cuyos flancos se cierran hacia la parte inferior. Este término se utiliza generalmente cuando las capas plegadas no poseen un orden estratigráfico, cuando no se conoce la sucesión estratigráfica de las capas plegadas o cuando el núcleo del pliegue también contiene las rocas estratigráficamente más antiguas.</skos:definition>
+    <skos:definition xml:lang="en">Any fold whose limbs close at the bottom. The term is usually used when the folded layers do not possess a stratigraphic order, when the stratigraphic order of the folded layers is not known, or when the fold core also contains the stratigraphically older rock.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/synform"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinorio">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:prefLabel xml:lang="es">anticlinorio</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">anticlinorium</skos:prefLabel>
+    <skos:definition xml:lang="es">Antiforme o anticlinal regional compuesto por antiformes y sinformes (o anticlinales y sinclinales) más pequeños con espaciamiento sistemático razonable cuya línea media define una estructura antiforme</skos:definition>
+    <skos:definition xml:lang="en">Regional  antiform or anticline composed of smaller antiforms and synforms (or anticlines and synclines) with reasonable systematic spacing whose midline defines an antiform structure</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal-tumbado">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:prefLabel xml:lang="es">anticlinal tumbado</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">overturned anticline</skos:prefLabel>
+    <skos:altLabel xml:lang="es">anticlinal volcado (RAC)</skos:altLabel>
+    <skos:definition xml:lang="es">Pliegue anticlinal con un plano axial inclinado en el que los dos flancos buzan en la misma dirección, presentando, en consecuencia, un flanco inverso.</skos:definition>
+    <skos:definition xml:lang="en">An asymmetrical anticline with a flank or limb that has been tilted beyond perpendicular so that the beds in that limb are upside-down</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:prefLabel xml:lang="es">sinclinal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">syncline</skos:prefLabel>
+    <skos:definition xml:lang="es">Pliegue convexo hacia arriba o cóncavo hacia abajo. Este término se utiliza generalmente cuando las capas plegadas no tienen un orden estratigráfico, cuando no se conoce la sucesión estratigráfica de las capas plegadas o cuando el núcleo del pliegue contiene las rocas estratigráficamente más modernas.</skos:definition>
+    <skos:definition xml:lang="en">Any convex-upward, concave downward fold. The term is usually used when the folded layers do not possess a stratigraphic order, when the stratigraphic order of the folded layers is not known, or when the fold core also contains the stratigraphically younger rock.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/syncline"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/pliegue-tipo/domo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:prefLabel xml:lang="es">domo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">dome</skos:prefLabel>
+    <skos:altLabel xml:lang="es">cúpula</skos:altLabel>
+    <skos:definition xml:lang="es">Antiforme con sección horizontal circular o elíptica, y con buzamientos en todas direcciones hacia fuera de la estructura.</skos:definition>
+    <skos:definition xml:lang="en">Antiform with a circular or elliptical horizontal section in which the rock strata are inclined in all directions towards the outside of the structure.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/pliegue-tipo/cubeta">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/pliegue-tipo"/>
+    <skos:prefLabel xml:lang="es">cubeta</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">basin</skos:prefLabel>
+    <skos:definition xml:lang="es">Estructura sinforme hacia cuyo centro buzan las capas.</skos:definition>
+    <skos:definition xml:lang="en">Synform in which the rock strata are inclined downward from all sides toward the center.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+</rdf:RDF>

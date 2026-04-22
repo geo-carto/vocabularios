@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sdo="https://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-distribucion/diseminada">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <skos:prefLabel xml:lang="es">diseminada</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">disseminated</skos:prefLabel>
+    <skos:definition xml:lang="es">Presencia irregular de concentraciones con color, textura y/o composición característicos.</skos:definition>
+    <skos:definition xml:lang="en">Irregular presence of spots characterized by color, texture and/or composition.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-distribucion/bandeada">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <skos:prefLabel xml:lang="es">bandeada</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">banded</skos:prefLabel>
+    <skos:definition xml:lang="es">Alternancia de niveles que difieren en color, textura y/o composición.</skos:definition>
+    <skos:definition xml:lang="en">Alternating layers that differ in color, texture and/or composition.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-distribucion/completa">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <skos:prefLabel xml:lang="es">completa</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">complete</skos:prefLabel>
+    <skos:definition xml:lang="es">Distribución homogénea de color, textura y/o composición.</skos:definition>
+    <skos:definition xml:lang="en">Homogeneous distribution of color, texture and/or composition.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-distribucion/collection">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <skos:prefLabel xml:lang="es">Distribución de la alteración - Todos los conceptos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Alteration distribution - All concepts</skos:prefLabel>
+    <skos:definition xml:lang="es">Todos los conceptos en este vocabulario.</skos:definition>
+    <skos:definition xml:lang="en">All concepts in this vocabulary.</skos:definition>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion/bandeada"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion/moteada"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion/diseminada"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion/veteada"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion/irregular"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion/completa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-distribucion">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="es">Distribución de la alteración</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Alteration distribution</skos:prefLabel>
+    <dcterms:title xml:lang="es">Distribución de la alteración</dcterms:title>
+    <dcterms:title xml:lang="en">Alteration distribution</dcterms:title>
+    <skos:definition xml:lang="es">Términos que describen la distribución espacial o la geometría de las zonas de alteración (por ejemplo: irregular, moteada, bandeada, con vetas, brecha de vetas, generalizada, diseminada, etc.).</skos:definition>
+    <skos:definition xml:lang="en">The alterationDistribution property describes the spatial distribution or geometry of alteration zones using a term from a controlled vocabulary (e.g., patchy, spotted, banded, veins, vein breccia, pervasive, disseminated).</skos:definition>
+    <dcterms:description xml:lang="es">Términos que describen la distribución espacial o la geometría de las zonas de alteración (por ejemplo: irregular, moteada, bandeada, con vetas, brecha de vetas, generalizada, diseminada, etc.).</dcterms:description>
+    <dcterms:description xml:lang="en">The alterationDistribution property describes the spatial distribution or geometry of alteration zones using a term from a controlled vocabulary (e.g., patchy, spotted, banded, veins, vein breccia, pervasive, disseminated).</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:provenance>Términos propios definidos por el IGME</dcterms:provenance>
+    <dcterms:creator>https://www.igme.es</dcterms:creator>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <dcat:theme>GE</dcat:theme>
+    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Distribución de la alteración.</skos:editorialNote>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion/bandeada"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion/moteada"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion/diseminada"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion/veteada"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion/irregular"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion/completa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-distribucion/irregular">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <skos:prefLabel xml:lang="es">irregular</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">irregular</skos:prefLabel>
+    <skos:definition xml:lang="es">Distribución heterogénea de zonas que difieren en color, textura y/o composición.</skos:definition>
+    <skos:definition xml:lang="en">Heterogeneous distribution of zones that differ in color, texture and/or composition.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-distribucion/moteada">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <skos:prefLabel xml:lang="es">moteada</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">spotted</skos:prefLabel>
+    <skos:definition xml:lang="es">Presencia regular de concentraciones con color, textura y/o composición característicos.</skos:definition>
+    <skos:definition xml:lang="en">Regular presence of spots characterized by color, texture and/or composition.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-distribucion/veteada">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-distribucion"/>
+    <skos:prefLabel xml:lang="es">veteada</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">veined</skos:prefLabel>
+    <skos:definition xml:lang="es">Presencia de niveles, más o menos tabulares e irregulares, con color, textura y/o composición característicos.</skos:definition>
+    <skos:definition xml:lang="en">Presence of layers, more or less tabular and irregular, characterized by color, texture and/or composition.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  </rdf:Description>
+</rdf:RDF>

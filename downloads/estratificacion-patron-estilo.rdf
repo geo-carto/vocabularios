@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sdo="https://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/monticular">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:prefLabel xml:lang="es">monticular</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">mounded</skos:prefLabel>
+    <skos:definition xml:lang="es">La unidad está formada por cuerpos redondeados, convexos hacia arriba</skos:definition>
+    <skos:definition xml:lang="en">The unit is formed by rounded bodies, convex upwards</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/irregular">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:prefLabel xml:lang="es">irregular</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">irregular</skos:prefLabel>
+    <skos:definition xml:lang="es">Los estratos tienen límites irregulares tanto en el muro como en el techo</skos:definition>
+    <skos:definition xml:lang="en">Strata have irregular boundaries, both at top and bottom</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/planar">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:prefLabel xml:lang="es">planar</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">planar</skos:prefLabel>
+    <skos:definition xml:lang="es">Los estratos están delimitados por superficies planas y paralelas</skos:definition>
+    <skos:definition xml:lang="en">Bedding planes are parallel at outcrop scale and beyond. Laterally extensive parallel bedding can often be observed in cliff and mountain side exposures. Classic examples occur in flysch-turbidite successions</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/tableada">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:prefLabel xml:lang="es">tableada</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">well-bedded</skos:prefLabel>
+    <skos:definition xml:lang="es">Los estratos tienen superficies planas y paralelas  y los bancos un de espesor uniforme de pocos decímetros</skos:definition>
+    <skos:definition xml:lang="en">Bedding planes are parallel at outcrop scale and beyond. Laterally extensive parallel bedding can often be observed in good exposures. Strata are few decimeters thick</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/en-abanico">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:prefLabel xml:lang="es">en abanico</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">fan-shaped</skos:prefLabel>
+    <skos:definition xml:lang="es">Los estratos están limitados por superficies generalmente planas no paralelas entre sí, que convergen en un punto determiando</skos:definition>
+    <skos:definition xml:lang="en">Bedding planes are  delimited for surfaces usually planar thar are not parallel and meet at a pinch out point</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="es">Estilo del patrón de estratificación</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bedding pattern style</skos:prefLabel>
+    <dcterms:title xml:lang="es">Estilo del patrón de estratificación</dcterms:title>
+    <dcterms:title xml:lang="en">Bedding pattern style</dcterms:title>
+    <skos:definition xml:lang="es">Término que especifican el estilo de la estratificación en una unidad geológica estratificada (por ejemplo, lenticular, irregular, planar, vago, masivo).</skos:definition>
+    <skos:definition xml:lang="en">The property beddingStyle provides a term from a controlled vocabulary specifying the style of bedding in a stratified geologic unit (e.g. lenticular, irregular, planar, vague, and massive).</skos:definition>
+    <dcterms:description xml:lang="es">Término que especifican el estilo de la estratificación en una unidad geológica estratificada (por ejemplo, lenticular, irregular, planar, vago, masivo).</dcterms:description>
+    <dcterms:description xml:lang="en">The property beddingStyle provides a term from a controlled vocabulary specifying the style of bedding in a stratified geologic unit (e.g. lenticular, irregular, planar, vague, and massive).</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:provenance>Términos propios definidos por el IGME</dcterms:provenance>
+    <dcterms:creator>https://www.igme.es</dcterms:creator>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <dcat:theme>GE</dcat:theme>
+    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Estilo del patrón de estratificación.</skos:editorialNote>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/planar"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/masiva"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/ondulada"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/lenticular"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/irregular"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/canaliforme"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/tableada"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/monticular"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/boudinada"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/nodulosa"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/en-abanico"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/cuña"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/cuña">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:prefLabel xml:lang="es">cuña</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Wedge-shaped</skos:prefLabel>
+    <skos:definition xml:lang="es">Los estratos están limitados por superficies planas no paralelas entre si, que terminan lateralmente  a lo largo de una línea por pérdida progresiva de espesor</skos:definition>
+    <skos:definition xml:lang="en">Bedding planes are  delimited for surfaces usually planar thar are not parallel and meet along a line</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/masiva">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:prefLabel xml:lang="es">masiva</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">massive</skos:prefLabel>
+    <skos:definition xml:lang="es">La unidad tiene una apariencia masiva, sin que se distingan estratos</skos:definition>
+    <skos:definition xml:lang="en">Relatively homogenous and structureless throughout, no strata surfaces are distinguishable.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/ondulada">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:prefLabel xml:lang="es">ondulada</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">vawy</skos:prefLabel>
+    <skos:definition xml:lang="es">Los estratos están limitados  por superficies onduladas paralelas</skos:definition>
+    <skos:definition xml:lang="en">Strata are bounded by parallel wavy surfaces</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/lenticular">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:prefLabel xml:lang="es">lenticular</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">lenticular</skos:prefLabel>
+    <skos:definition xml:lang="es">Los estratos son discontinuos, con el muro plano y el techo convexo. Una variante son los estratos con forma biconvexa</skos:definition>
+    <skos:definition xml:lang="en">The strata are discontinuous, with a flat bottom and a convex top. A variant is strata with a biconvex shape</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/boudinada">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:prefLabel xml:lang="es">boudinada</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">boudin shape</skos:prefLabel>
+    <skos:definition xml:lang="es">Los estratos presentan superficies de techo y muro onduladas</skos:definition>
+    <skos:definition xml:lang="en">The strata have undulating roof and wall surfaces</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/canaliforme">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:prefLabel xml:lang="es">canaliforme</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">channel-like</skos:prefLabel>
+    <skos:definition xml:lang="es">Los estratos presentan una morfología semejante a la de un canal, con la parte superior plana y la inferior convexa hacia abajo</skos:definition>
+    <skos:definition xml:lang="en">Strata have a channel- like morphology, with a flat  tpo and and convex downwards bottom.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/collection">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:prefLabel xml:lang="es">Estilo del patrón de estratificación - Todos los conceptos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bedding pattern style - All concepts</skos:prefLabel>
+    <skos:definition xml:lang="es">Todos los conceptos en este vocabulario.</skos:definition>
+    <skos:definition xml:lang="en">All concepts in this vocabulary.</skos:definition>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/planar"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/masiva"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/ondulada"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/lenticular"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/irregular"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/canaliforme"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/tableada"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/monticular"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/boudinada"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/nodulosa"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/en-abanico"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/cuña"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo/nodulosa">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron-estilo"/>
+    <skos:prefLabel xml:lang="es">nodulosa</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">nodulose</skos:prefLabel>
+    <skos:definition xml:lang="es">Los estratos están definidos por hileras de nódulos aislados o ligeramente conectados en una matriz de roca más blanda alargados en la dirección de la estratificación</skos:definition>
+    <skos:definition xml:lang="en">Strata are defined by rows of isolated or loosely connected nodules in a matrix of softer rock elongated in the direction of stratification.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+</rdf:RDF>

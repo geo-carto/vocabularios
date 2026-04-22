@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sdo="https://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-muy-bajo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <skos:prefLabel xml:lang="es">grado metamórfico muy bajo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">very low metamorphic grade</skos:prefLabel>
+    <skos:definition xml:lang="es">Rocas muy débilmente metamorfizadas, estructuras del protolito ubicuas, asociación mineral de facies de las zeolitas, facies de sub-esquistos verdes, o parte de baja temperatura de la facies de los esquistos azules. Asociaciones minerales según Fry (1984) Tabla 10-1: Material ultramáfico: serpentina (cuarzo, magnesita); material ígneo básico, porción máfica: arcilla, clorita, minerales ígneos relictos; porción calco-alumínica: zeolita básica, pumpellita, epidota, albita; material pelita y semi-pelita: arcillas, clorita, sericita, cuarzo.</skos:definition>
+    <skos:definition xml:lang="en">Rock very slightly metamorphosed, protolith structure ubiquitous, mineral assemblage of zeolite facies, subgreenschist facies, or low temperature part of blueschist facies. Mineral assemblages according to Fry (1984) Table 10-1: ultramafic-serpentine (quartz, magnesite), mafic-clay, chlorite, relict igneous minerals, calc-aluminous basic-zeolite, pumpellite, epidote, albite, pelite, semi-pelite -- clays, chlorite, sericite, quartz.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/metamorphicgrade/very_low_metamorphic_grade"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <skos:prefLabel xml:lang="es">grado metamórfizado no especificado</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">metamorphosed grade not specified</skos:prefLabel>
+    <skos:definition xml:lang="es">La roca está metamorfizada, puede tener cualquier valor de grado metamórfico.</skos:definition>
+    <skos:definition xml:lang="en">Rock is metamorphosed, may have any value for metamorphic grade.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-no-especificado"/>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-alto"/>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-bajo"/>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-medio"/>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-muy-alto"/>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-muy-bajo"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/metamorphicgrade/metamorphosed_grade_not_specified"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-alto">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <skos:prefLabel xml:lang="es">grado metamórfico alto</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">high metamorphic grade</skos:prefLabel>
+    <skos:definition xml:lang="es">Estructuras del protolito casi siempre obliteradas, evidencias de fusión parcial comunes. Incluye rocas metamorfizadas en facies de anfibolitas de alta temperatura, corneanas piroxénicas, y eclogitas de media a alta temperatura. Asociaciones minerales según Fry (1984) Tabla 10-1: Material ultramáfico: olivino, antofilita, cummingtonita, enstatita; material ígneo básico, porción máfica: hornblenda, (diópsido, granate); porción calco-alumínica: plagioclasa básica; material pelita y semi-pelita: feldespato-K, biotita, cuarzo, minerales alumínicos (granate), migmatitas.</skos:definition>
+    <skos:definition xml:lang="en">Protolith structures almost always obliterated, evidence of partial melting common. Includes rocks metamorphosed in high-temperature amphibolite, pyroxene hornfels, and medium to high-temperature eclogite facies. Mineral assemblages according to Fry (1984) Table 10-1: ultramafic-olivine, anthophyllite, cummingtonite, enstatite, mafic-hornblende, (diopside, garnet), calc-aluminous basic-plagioclase, pelite, semi-pelite -- K-feldspar, biotite, quartz, Al-minerals (garnet), migmatite.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/metamorphicgrade/high_metamorphic_grade"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-muy-alto">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <skos:prefLabel xml:lang="es">grado metamórfico muy alto</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">very high metamorphic grade</skos:prefLabel>
+    <skos:definition xml:lang="es">Estructuras del protolito casi siempre obliteradas. Incluye rocas metamorfizadas en facies de granulitas (o sanidinitas), y eclogitas de alta temperatura. Asociaciones minerales según Fry (1984) Tabla 10-1: Material ultramáfico: olivino, enstatita; material ígneo básico, porción máfica: hiperstena, diópsido (hornblenda); porción calco-alumínica: plagioclasa básica; material pelita y semi-pelita: hiperstena + minerales alumínicos (feldespato-K, cuarzo), o zafirina.</skos:definition>
+    <skos:definition xml:lang="en">Protolith structures almost always obliterated. Includes rocks metamorphosed in granulite (or sanidinite), and high-temperature eclogite facies. Mineral assemblages according to Fry (1984) Table 10-1: ultramafic-olivine, enstatite, mafic-hypersthene, diopside (hornblende), calc-aluminous basic-plagioclase, pelite, semi-pelite -- hypersthene + Al-minerals (K-feldspar, quartz), or sapphirine.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/metamorphicgrade/very_high_metamorphic_grade"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-bajo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <skos:prefLabel xml:lang="es">grado metamórfico bajo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">low metamorphic grade</skos:prefLabel>
+    <skos:definition xml:lang="es">Efectos metamórficos claramente visibles, estructuras del protolito típicamente todavía observables, incluye rocas metamorfizadas en facies de esquistos verdes de alta temperatura, esquistos azules, eclogitas de muy baja temperatura. Asociaciones minerales según Fry (1984) Tabla 10-1: Material ultramáfico: serpentina (talco, magnesita), material ígneo básico, porción máfica: clorita, actinolita (granate), porción calco-alumínica: albita, epidota; Material pelita y semi-pelita: mica blanca, clorita, cuarzo, biotita (granate, minerales alumínicos).</skos:definition>
+    <skos:definition xml:lang="en">Metamorphic effects clearly visible, protolith structures typically still observable, includes rocks metamorphosed in greenschisthigh-temperature blueschist, very low temperature eclogite facies. Mineral assemblages according to Fry (1984) Table 10-1: ultramafic-serpentine (talc, magnesite), mafic-chlorite, actinolite (garnet), calc-aluminous basic-albite, epidote, pelite, semi-pelite -- white mica, chlorite, quartz, biotite (garnet, Al-minerals).</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/metamorphicgrade/low_metamorphic_grade"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-medio">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <skos:prefLabel xml:lang="es">grado metamórfico medio</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">medium metamorphic grade</skos:prefLabel>
+    <skos:definition xml:lang="es">Estructura del protolito típicamente obliterada. Incluye rocas metamorfizadas en facies de anfibolitas epidóticas de alta temperatura, anfibolitas de baja temperatura y eclogitas de baja temperatura. Asociaciones minerales según Fry (1984) Tabla 10-1: Material ultramáfico: olivino, talco (magnesita, antofilita); material ígneo básico, porción máfica: hornblenda, (diópsido, granate); porción calco-alumínica: plagioclase básica; material pelita y semi-pelita: mica blanca, biotita, cuarzo (granate, minerales alumínicos).</skos:definition>
+    <skos:definition xml:lang="en">Protolith structure typically obliterated. Includes rocks metamorphosed in high-temperature epidote-amphibolite, low-temperature amphibolite, and low temperature eclogite facies. Mineral assemblages according to Fry (1984) Table 10-1: ultramafic-olivine, talc (magnesite, anthophyllite), mafic-hornblende, (diopside, garnet), calc-aluminous basic-plagioclase, pelite, semi-pelite -- white mica, biotite, quartz (garnet, Al-minerals).</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/metamorphicgrade/medium_metamorphic_grade"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-desconocido">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <skos:prefLabel xml:lang="es">grado metamórfico desconocido</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">metamorphic grade unknown</skos:prefLabel>
+    <skos:definition xml:lang="es">De uso en descripciones de instancias para indicar que no hay información disponible acerca del grado metamórfico</skos:definition>
+    <skos:definition xml:lang="en">For use in instance descriptions to indicate that no information is available on metamorphic grade</skos:definition>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/metamorphicgrade/metamorphic_grade_unknown"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metamorfismo-grado/collection">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <skos:prefLabel xml:lang="es">Grado de metamorfismo - Todos los conceptos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Metamorphic grade - All concepts</skos:prefLabel>
+    <skos:definition xml:lang="es">Todos los conceptos en este vocabulario.</skos:definition>
+    <skos:definition xml:lang="en">All concepts in this vocabulary.</skos:definition>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-no-especificado"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-alto"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-bajo"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-medio"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-muy-alto"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-muy-bajo"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/no-metamorfizado"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-desconocido"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-no-especificado">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <skos:prefLabel xml:lang="es">grado metamórfico no especificado</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">metamorphic grade not specified</skos:prefLabel>
+    <skos:definition xml:lang="es">De uso en descripciones normativas para indicar explícitamente que permite cualquier condición metamórfica (incluyendo no metamorfizado).</skos:definition>
+    <skos:definition xml:lang="en">For use in normative descriptions to explicitly indicate that any metamorphic condition is allowed (including non-metamorphosed).</skos:definition>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado"/>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/no-metamorfizado"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/metamorphicgrade/metamorphic_grade_not_specified"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metamorfismo-grado/no-metamorfizado">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado"/>
+    <skos:prefLabel xml:lang="es">no metamorfizado</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">not metamorphosed</skos:prefLabel>
+    <skos:definition xml:lang="es">Roca o sedimento no metamorfizado.</skos:definition>
+    <skos:definition xml:lang="en">Rock or sediment not metamorphosed.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-no-especificado"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/metamorphicgrade/not_metamorphosed"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metamorfismo-grado">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="es">Grado de metamorfismo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Metamorphic grade</skos:prefLabel>
+    <dcterms:title xml:lang="es">Grado de metamorfismo</dcterms:title>
+    <dcterms:title xml:lang="en">Metamorphic grade</dcterms:title>
+    <skos:definition xml:lang="es">Términos que indica la intensidad o grado del metamorfismo aplicado a un EarthMaterial (por ejemplo, alto grado metamórfico, bajo grado metamórfico).</skos:definition>
+    <skos:definition xml:lang="en">The metamorphicGrade property contains a term from a controlled vocabulary indicating the intensity or rank of metamorphism applied to an EarthMaterial (e.g., high metamorphic grade, low metamorphic grade).</skos:definition>
+    <dcterms:description xml:lang="es">Términos que indica la intensidad o grado del metamorfismo aplicado a un EarthMaterial (por ejemplo, alto grado metamórfico, bajo grado metamórfico).</dcterms:description>
+    <dcterms:description xml:lang="en">The metamorphicGrade property contains a term from a controlled vocabulary indicating the intensity or rank of metamorphism applied to an EarthMaterial (e.g., high metamorphic grade, low metamorphic grade).</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:provenance>Términos originales del estándar GeoSciML traducidos al español por el IGME</dcterms:provenance>
+    <dcterms:creator>https://cgi-iugs.org/</dcterms:creator>
+    <dcterms:contributor>https://www.igme.es</dcterms:contributor>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <dcat:theme>GE</dcat:theme>
+    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Grado de metamorfismo.</skos:editorialNote>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-no-especificado"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-desconocido"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  </rdf:Description>
+</rdf:RDF>

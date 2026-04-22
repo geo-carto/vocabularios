@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sdo="https://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron/estratodecreciente">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:prefLabel xml:lang="es">estratodecreciente</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">thinning upward</skos:prefLabel>
+    <skos:definition xml:lang="es">Los estratos son más delgados hacia la parte superior (más joven) de la unidad</skos:definition>
+    <skos:definition xml:lang="en">Individual strata thicknes decreases towars the top (younger) part of the unit</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron/masiva">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:prefLabel xml:lang="es">masiva</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">massive</skos:prefLabel>
+    <skos:definition xml:lang="es">La estratificación no es distinguible a simple vista</skos:definition>
+    <skos:definition xml:lang="en">Stratification is not distinguishable with the naked eye</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron/aleatoria">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:prefLabel xml:lang="es">aleatoria</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">random</skos:prefLabel>
+    <skos:definition xml:lang="es">Los espesores de los distintos estratos de la unidad son muy variables y no presentan ninguna ordenación definida</skos:definition>
+    <skos:definition xml:lang="en">The thicknesses of the different strata of the unit are highly variable and do not present any defined order.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron/collection">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:prefLabel xml:lang="es">Patrón de estratificación - Todos los conceptos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bedding pattern - All concepts</skos:prefLabel>
+    <skos:definition xml:lang="es">Todos los conceptos en este vocabulario.</skos:definition>
+    <skos:definition xml:lang="en">All concepts in this vocabulary.</skos:definition>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/estratodecreciente"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/estratocreciente"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/regular"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/aleatoria"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/en-haces"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/masiva"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/homogenea"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/heterogenea"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/ritmica"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/ciclica"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron/heterogenea">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:prefLabel xml:lang="es">heterogénea</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">hetrogeneous</skos:prefLabel>
+    <skos:definition xml:lang="es">La litología de los sucesivos estratos cambia de manera desordenada</skos:definition>
+    <skos:definition xml:lang="en">The lithology of the successive strata changes in a disorderly manner</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="es">Patrón de estratificación</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bedding pattern</skos:prefLabel>
+    <dcterms:title xml:lang="es">Patrón de estratificación</dcterms:title>
+    <dcterms:title xml:lang="en">Bedding pattern</dcterms:title>
+    <skos:definition xml:lang="es">Términos que especifican patrones de espesor o relaciones entre paquetes de estratificación (por ejemplo, adelgazamiento hacia arriba, engrosamiento hacia arriba).</skos:definition>
+    <skos:definition xml:lang="en">The property beddingPattern provides a term from a controlled vocabulary specifying patterns of bedding thickness or relationships between bedding packages (e.g., thinning upward, thickening upward).</skos:definition>
+    <dcterms:description xml:lang="es">Términos que especifican patrones de espesor o relaciones entre paquetes de estratificación (por ejemplo, adelgazamiento hacia arriba, engrosamiento hacia arriba).</dcterms:description>
+    <dcterms:description xml:lang="en">The property beddingPattern provides a term from a controlled vocabulary specifying patterns of bedding thickness or relationships between bedding packages (e.g., thinning upward, thickening upward).</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:provenance>Términos propios definidos por el IGME</dcterms:provenance>
+    <dcterms:creator>https://www.igme.es</dcterms:creator>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <dcat:theme>GE</dcat:theme>
+    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Patrón de estratificación.</skos:editorialNote>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/estratodecreciente"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/estratocreciente"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/regular"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/aleatoria"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/en-haces"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/masiva"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/homogenea"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/heterogenea"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/ritmica"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron/ciclica"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron/homogenea">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:prefLabel xml:lang="es">homogénea</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">homogeneous</skos:prefLabel>
+    <skos:definition xml:lang="es">Los estratos sucesivos tienen la misma litología</skos:definition>
+    <skos:definition xml:lang="en">Successive strata have the same lithology</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron/regular">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:prefLabel xml:lang="es">regular</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">regular</skos:prefLabel>
+    <skos:definition xml:lang="es">Los espesores de los estratos sucesivos tienen todos ellos unos valores análogos, con un valor real muy cercano a la media estadística de todos los espesores</skos:definition>
+    <skos:definition xml:lang="en">The thicknesses of the successive strata have  all analogous values, with a real value very close to the statistical average of all the thicknesses.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron/en-haces">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:prefLabel xml:lang="es">en haces</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">in bundles</skos:prefLabel>
+    <skos:definition xml:lang="es">Los espesores de los estratos se distribuyen por lotes de estratos de espesores uniformes dentro de cada lote y diferentes entre lotes</skos:definition>
+    <skos:definition xml:lang="en">The thicknesses of the strata are distributed by bundles of strata with uniform thicknesses within each bundle and different thicknesses between batches.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron/ciclica">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:prefLabel xml:lang="es">cíclica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">cyclic</skos:prefLabel>
+    <skos:definition xml:lang="es">Sucesión de estratos en los que alternan tres clases de  litologías</skos:definition>
+    <skos:definition xml:lang="en">Succession of strata in which three types of lithologies alternate</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron/estratocreciente">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:prefLabel xml:lang="es">estratocreciente</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">thickening  upward</skos:prefLabel>
+    <skos:definition xml:lang="es">Los estratos son más gruesos hacia la parte superior (más joven) de la unidad</skos:definition>
+    <skos:definition xml:lang="en">Individual strata thicknes increases towars the top (younger) part of the unit</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-patron/ritmica">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-patron"/>
+    <skos:prefLabel xml:lang="es">rítmica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">rhythmic</skos:prefLabel>
+    <skos:definition xml:lang="es">Sucesión de estratos en los que alternan dos clases de  litologías</skos:definition>
+    <skos:definition xml:lang="en">Succession of strata in which two types of lithologies alternate</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+</rdf:RDF>

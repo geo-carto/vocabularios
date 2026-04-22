@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sdo="https://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/convencion-codigo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="es">Código de convención</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Convention Code</skos:prefLabel>
+    <dcterms:title xml:lang="es">Código de convención</dcterms:title>
+    <dcterms:title xml:lang="en">Convention Code</dcterms:title>
+    <skos:definition xml:lang="es">Código de convención utilizado para expresar la orientación de una medida estructural.</skos:definition>
+    <skos:definition xml:lang="en">Convention code used for expressing the orientation of a structural measurement.</skos:definition>
+    <dcterms:description xml:lang="es">Código de convención utilizado para expresar la orientación de una medida estructural.</dcterms:description>
+    <dcterms:description xml:lang="en">Convention code used for expressing the orientation of a structural measurement.</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:provenance>Términos originales de INSPIRE</dcterms:provenance>
+    <dcterms:creator>https://commission.europa.eu/</dcterms:creator>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <dcat:theme>GE</dcat:theme>
+    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Código de convención.</skos:editorialNote>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/convencion-codigo/direccion-de-buzamiento"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/convencion-codigo/regla-de-la-mano-derecha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/convencion-codigo/regla-de-la-mano-derecha">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/convencion-codigo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/convencion-codigo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/convencion-codigo"/>
+    <skos:prefLabel xml:lang="es">regla de la mano derecha</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">strike dip right hand rule</skos:prefLabel>
+    <skos:definition xml:lang="es">El rumbo y buzamiento de datos planares se indica según la regla de la mano derecha: mirando en la dirección del rumbo, la superficie buza hacia la derecha. El buzamiento es el ángulo que la superficie estructural forma con la horizontal medido perpendicularmente al rumbo y en el plano vertical.</skos:definition>
+    <skos:definition xml:lang="en">The strike and dip of planar data is listed according to the right-hand rule or, as one looks along the strike direction, the surface dips to the right. Dip is the angle that the structural surface (eg bedding, fault plane) makes with the horizontal measured perpindicular to the strike of the structure and in the vertical plane</skos:definition>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/conventioncode/strike_dip_rhr"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/convencion-codigo/collection">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/convencion-codigo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/convencion-codigo"/>
+    <skos:prefLabel xml:lang="es">Código de convención - Todos los conceptos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Convention Code - All concepts</skos:prefLabel>
+    <skos:definition xml:lang="es">Todos los conceptos en este vocabulario.</skos:definition>
+    <skos:definition xml:lang="en">All concepts in this vocabulary.</skos:definition>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/convencion-codigo/direccion-de-buzamiento"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/convencion-codigo/regla-de-la-mano-derecha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/convencion-codigo/direccion-de-buzamiento">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/convencion-codigo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/convencion-codigo"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/convencion-codigo"/>
+    <skos:prefLabel xml:lang="es">dirección de buzamiento</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">dip dip direction</skos:prefLabel>
+    <skos:definition xml:lang="es">La medida de orientación consiste en un buzamiento y una dirección de buzamiento. El buzamiento es el ángulo que la superficie estructural forma con la horizontal medido perpendicularmente al rumbo y en el plano vertical. La dirección de buzamiento es el acimut perpendicular al rumbo de la estructura.</skos:definition>
+    <skos:definition xml:lang="en">The orientation measurement consists of a dip and a dip direction. Dip is the angle that the structural surface (eg bedding, fault plane) makes with the horizontal measured perpendicular to the strike of the structure and in the vertical plane Dip direction is the azimuth perpindicular to the strike of the structure</skos:definition>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/conventioncode/dip_dip_direction"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  </rdf:Description>
+</rdf:RDF>

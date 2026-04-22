@@ -1,0 +1,228 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://geo-carto.github.io/vocabularios/metamorfismo-facies/collection> a skos:Collection ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:member <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-anfibolitas>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-anfibolitas-epidoticas>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-corneanas-piroxenicas>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-eclogitas>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-granulitas>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-sanidinitas>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-zeolitas>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-los-esquistos-con-glaucofana>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-los-esquistos-verdes>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-sub-esquistos-verdes>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-desconocida>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/sin-minerales-metamorficos> ;
+    skos:prefLabel "Metamorphic facies - All concepts"@en,
+        "Facies metamórficas - Todos los conceptos"@es .
+
+<https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
+    sdo:name "CGI Geoscience Terminology Working Group" ;
+    sdo:url <http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html> .
+
+<https://linked.data.gov.au/org/cgi> a sdo:Organization ;
+    sdo:name "Commission for the Management and Application of Geoscience Information" ;
+    sdo:url <http://www.cgi-iugs.org> .
+
+<https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-anfibolitas> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar> ;
+    skos:definition "Metamorphic facies characterized in rocks of basaltic composition by hornblende-plagioclase (plagioclase more calcic than An17)."@en,
+        "Facies metamórfica caracterizada en rocas de composición basáltica por hornblenda-plagioclasa (plagioclasa más cálcica que An17)"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/metamorphicfacies/amphibolite_metamorphic_facies> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:prefLabel "amphibolite metamorphic facies"@en,
+        "facies metamórfica de las anfibolitas"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-anfibolitas-epidoticas> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar> ;
+    skos:definition "Hornblende-albite-epidote(-chlorite), assemblage for rocks of basaltic composition"@en,
+        "Facies metamórfica caracterizada por la asociación de hornblenda-albita-epidota (-clorita) en rocas de composición basáltica"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/metamorphicfacies/epidote_amphibolite_metamorphic_facies> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:prefLabel "epidote amphibolite metamorphic facies"@en,
+        "facies metamórfica de las anfibolitas epidóticas"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-corneanas-piroxenicas> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar> ;
+    skos:definition "Metamorphic facies characterized in rocks of basaltic composition by clinopyroxene-orthopyroxene-plagioclase (olivine stable with plagioclase)."@en,
+        "Facies metamórfica caracterizada en rocas de composición basáltica por clinopyroxeno-ortopiroxeno-plagioclasa (olivino estable con plagioclasa)."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/metamorphicfacies/pyroxene_hornfels_metamorphic_facies> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:prefLabel "pyroxene hornfels metamorphic facies"@en,
+        "facies metamórfica de las corneanas piroxénicas"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-eclogitas> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar> ;
+    skos:definition "Omphacite-garnet-quartz (no plagioclase, olivine stable with garnet), assemblage for rocks of basaltic composition"@en,
+        "Facies metamórfica caracterizada por la asociación de onfacita-granate-cuarzo (sin plagioclasa ni olivino estables con granate) en rocas de composición basáltica"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/metamorphicfacies/eclogite_metamorphic_facies> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:prefLabel "eclogite metamorphic facies"@en,
+        "facies metamórfica de las eclogitas"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-granulitas> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar> ;
+    skos:definition "Metamorphic facies characterized in rocks of basaltic composition by the mineral assemblage clinopyroxene-orthopyroxene-plagioclase (olivine not stable with plagioclase or with garnet), or especially high-temperature varieties or polymorphs of minerals"@en,
+        "Facies metamórfica caracterizada en rocas de composición basáltica por la asociación mineral clinopiroxeno-ortopiroxeno-plagioclasa (olivino no estable con plagioclasa o con granate), o variedades o polimorfos de minerales de especialmente alta temperatura."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/metamorphicfacies/granulite_facies> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:prefLabel "granulite facies"@en,
+        "facies metamórfica de las granulitas"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-sanidinitas> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar> ;
+    skos:definition "distinguished from the pyroxene hornfels facies by the occurrence of especially high-temperature varieties and polymorphs of minerals (eg. pigeonite, K-rich labradorite), assemblage for rocks of basaltic composition"@en,
+        "Se distingue de la facies de las corneanas piroxénicas por la presencia de variedades y polimorfos de minerales de especialmente alta temperatura (eg. pigeonita, labradorita rica en K) en asociaciones de rocas de composición basáltica"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/metamorphicfacies/sanidinite_metamorphic_facies> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:prefLabel "sanidinite metamorphic facies"@en,
+        "facies metamórfica de las sanidinitas"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-zeolitas> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar> ;
+    skos:definition "Metamorphic facies characterized in rocks of basaltic composition by zeolite minerals such as laumontite and heulandites (in place of other Ca-Al silicates such as prehnite, pumpellyite and epidote)."@en,
+        "Facies metamórfica caracterizada en rocas de composición basáltica por minerales de las zeolitas tales como laumontita y heulandita (en lugar de otros silicatos de Ca-Al tales como prehnita, pumpellita y epidota)."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/metamorphicfacies/zeolite_metamorphic_facies> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:prefLabel "zeolite metamorphic facies"@en,
+        "facies metamórfica de las zeolitas"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-los-esquistos-con-glaucofana> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar> ;
+    skos:definition "Metamorphic facies characterized in rocks of basaltic composition by glaucophane-epidote (-garnet), glaucophane-lawsonite, or glaucophane-lawsonite-jadeite."@en,
+        "Facies metamórfica caracterizada en rocas de composición basáltica por glaucofana-epidota (-granate), glaucofana-lawsonita, o glaucofana-lawsonita-jadeita"@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/metamorphicfacies/glaucophane_schist_facies> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:prefLabel "glaucophane schist facies"@en,
+        "facies metamórfica de los esquistos con glaucofana"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-los-esquistos-verdes> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar> ;
+    skos:definition "Metamorphic facies characterized in rocks of basaltic composition by actinolite-albite-epidote-chlorite (an epidote group mineral is the diagnostic Ca-Al silicate rather than prehnite or pumpellyite)."@en,
+        "Facies metamórfica caracterizada en rocas de composición basáltica por actinolita-albita-epidota-clorita (el silicato de Ca-Al diagnóstico es un mineral del grupo de la epidota en lugar de prehnita o pumpellita)."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/metamorphicfacies/greenschist_metamorphic_facies> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:prefLabel "greenschist metamorphic facies"@en,
+        "facies metamórfica de los esquistos verdes"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-sub-esquistos-verdes> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar> ;
+    skos:definition "Metamorphic facies characterized in rocks of basaltic composition by prehnite-pumpellyite, pumpellyite-actinolite, prehnite-actinolite (prehnite and pumpellyite are the diagnostic Ca-Al silicates rather than minerals of the epidote or zeolite groups)."@en,
+        "Facies metamórfica caracterizada en rocas de composición basáltica por prehnita-pumpellita, pumpellita-actinolita, prehnita-actinolita (prehnita y pumpellita son los silicatos de Ca-Al diagnósticos en lugar de minerales de los grupos de la epidota o de las zeolitas)."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/metamorphicfacies/subgreenschist_metamorphic_facies> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:prefLabel "subgreenschist metamorphic facies"@en,
+        "facies metamórfica de sub-esquistos verdes"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-desconocida> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:definition "For use in instance descriptions to indicate that no data are available to constrain metamorphic facies. May be metamorphosed or non-metamorphosed."@en,
+        "Para usar en descripciones de instancias para indicar que no hay datos disponibles para constreñir la facies metamórfica. Puede ser metamorfizada o no-metamorfizada."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/metamorphicfacies/metamorphic_facies_unknown> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:prefLabel "metamorphic facies unknown"@en,
+        "facies metamórfica desconocida"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metamorfismo-facies/sin-minerales-metamorficos> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:definition "Corresponds to non-metamorphosed condition, since metamorphic facies classification is based on mineral assemblages, absence of metamorphic minerals means that the classification does not apply."@en,
+        "Corresponde a condiciones no-metamorfizadas, ya que la clasificación de facies metamórficas está basada en asociaciones minerales, la ausencia de minerales metamórficos significa que la clasificación no se aplica."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/metamorphicfacies/no_metamorphic_minerals> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:prefLabel "no metamorphic minerals"@en,
+        "sin minerales metamórficos"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:definition "Metamorphosed, but facies not specified in more detail. For use in normative description to indicate that any metamorphic facies value is valid."@en,
+        "Metamorfizado, pero en facies no especificada con más detalle. Para su uso en descripción normativa para indicar que cualquier valor de facies metamórfica es válido."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/metamorphicfacies/metamorphic_facies_not_specified> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-anfibolitas>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-anfibolitas-epidoticas>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-corneanas-piroxenicas>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-eclogitas>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-granulitas>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-sanidinitas>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-zeolitas>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-los-esquistos-con-glaucofana>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-los-esquistos-verdes>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-sub-esquistos-verdes> ;
+    skos:prefLabel "metamorphic facies not specified"@en,
+        "facies metamórfica sin especificar"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/metamorfismo-facies> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/metamorfismo-facies> a skos:ConceptScheme ;
+    dcterms:contributor "https://www.igme.es" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://cgi-iugs.org/" ;
+    dcterms:description "The metamorphicFacies property contains a term from a controlled vocabulary describing characteristic mineral assemblages indicative of specific metamorphic pressure and temperature conditions. Examples include Barrovian metasedimentary zones (e.g., biotite facies, kyanite facies) or assemblages developed in rocks of more mafic composition (e.g., greenschist facies, amphibolite facies)."@en,
+        "Términos que describen conjuntos minerales característicos indicativos de determinadas condiciones de presión y temperatura metamórficas. Ejemplos: zonas metasedimentarias barrovianas (por ejemplo, facies de biotita, facies de cianita) o asociaciones desarrolladas en rocas de composición más máfica (por ejemplo, facies de esquistos verdes, facies de anfibolita)."@es ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME" ;
+    dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Metamorphic facies"@en,
+        "Facies metamórficas"@es ;
+    owl:versionInfo "1.0.0" ;
+    skos:definition "The metamorphicFacies property contains a term from a controlled vocabulary describing characteristic mineral assemblages indicative of specific metamorphic pressure and temperature conditions. Examples include Barrovian metasedimentary zones (e.g., biotite facies, kyanite facies) or assemblages developed in rocks of more mafic composition (e.g., greenschist facies, amphibolite facies)."@en,
+        "Términos que describen conjuntos minerales característicos indicativos de determinadas condiciones de presión y temperatura metamórficas. Ejemplos: zonas metasedimentarias barrovianas (por ejemplo, facies de biotita, facies de cianita) o asociaciones desarrolladas en rocas de composición más máfica (por ejemplo, facies de esquistos verdes, facies de anfibolita)."@es ;
+    skos:editorialNote "Este archivo contiene el vocabulario Facies metamórficas."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-desconocida>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar>,
+        <https://geo-carto.github.io/vocabularios/metamorfismo-facies/sin-minerales-metamorficos> ;
+    skos:prefLabel "Metamorphic facies"@en,
+        "Facies metamórficas"@es ;
+    dcat:theme "GE" .
+

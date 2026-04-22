@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sdo="https://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/medida-estructural/collection">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural"/>
+    <skos:prefLabel xml:lang="es">Tipo de medida estructural - Todos los conceptos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Structural measurement type - All concepts</skos:prefLabel>
+    <skos:definition xml:lang="es">Todos los conceptos en este vocabulario.</skos:definition>
+    <skos:definition xml:lang="en">All concepts in this vocabulary.</skos:definition>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subhorizontal"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subvertical"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-invertida"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-y-buzamiento"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subvertical">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural"/>
+    <skos:prefLabel xml:lang="es">estratificación subvertical</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Vertical bedding</skos:prefLabel>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <skos:definition xml:lang="es">estratificación subvertical</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subhorizontal">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural"/>
+    <skos:prefLabel xml:lang="es">estratificación subhorizontal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Horizontal bedding</skos:prefLabel>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <skos:definition xml:lang="es">estratificación subhorizontal</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-invertida">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural"/>
+    <skos:prefLabel xml:lang="es">estratificación invertida</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Overturned bedding</skos:prefLabel>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <skos:definition xml:lang="es">estratificación invertida</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural"/>
+    <skos:prefLabel xml:lang="es">estratificación</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">strike</skos:prefLabel>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subhorizontal"/>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subvertical"/>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-invertida"/>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-y-buzamiento"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <skos:definition xml:lang="es">estratificación</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/medida-estructural">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="es">Tipo de medida estructural</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Structural measurement type</skos:prefLabel>
+    <dcterms:title xml:lang="es">Tipo de medida estructural</dcterms:title>
+    <dcterms:title xml:lang="en">Structural measurement type</dcterms:title>
+    <skos:definition xml:lang="es">Términos que recogen el tipo de medida estructural.</skos:definition>
+    <skos:definition xml:lang="en">Terms describing the type of structural measurement.</skos:definition>
+    <dcterms:description xml:lang="es">Términos que recogen el tipo de medida estructural.</dcterms:description>
+    <dcterms:description xml:lang="en">Terms describing the type of structural measurement.</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:provenance>Términos propios definidos por el IGME</dcterms:provenance>
+    <dcterms:creator>https://www.igme.es</dcterms:creator>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <dcat:theme>GE</dcat:theme>
+    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Tipo de medida estructural.</skos:editorialNote>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-y-buzamiento">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural"/>
+    <skos:prefLabel xml:lang="es">estratificación y buzamiento</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">strike and dip</skos:prefLabel>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <skos:definition xml:lang="es">estratificación y buzamiento</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  </rdf:Description>
+</rdf:RDF>

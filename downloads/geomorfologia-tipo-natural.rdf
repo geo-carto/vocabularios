@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sdo="https://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="es">Objeto geomorfológico natural</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Geomorphological natural feature</skos:prefLabel>
+    <dcterms:title xml:lang="es">Objeto geomorfológico natural</dcterms:title>
+    <dcterms:title xml:lang="en">Geomorphological natural feature</dcterms:title>
+    <skos:definition xml:lang="es">Términos referidos al objeto geomorfológico natural.</skos:definition>
+    <skos:definition xml:lang="en">Terms referring to natural geomorphological features.</skos:definition>
+    <dcterms:description xml:lang="es">Términos referidos al objeto geomorfológico natural.</dcterms:description>
+    <dcterms:description xml:lang="en">Terms referring to natural geomorphological features.</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:provenance>Términos originales de INSPIRE</dcterms:provenance>
+    <dcterms:creator>https://commission.europa.eu/</dcterms:creator>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <dcat:theme>GE</dcat:theme>
+    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Objeto geomorfológico natural.</skos:editorialNote>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-geomorfologico-natural"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/modelo-de-drenaje"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/formacion-superficial"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/forma-erosiva"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-degradativo"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/relicto"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-exhumado"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-fosilizado"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/pedimento"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-erosionado"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/colina"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/interfluvio"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cresta"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/pendiente-de-cabecera"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cuesta"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ladera-divergente"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cara-desnuda"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-del-talud"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/montaña"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cima-de-montaña"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/vertiente-montañosa"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ladera"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-de-montaña"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/depresion"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/llanura"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-tectonicos-y-estructurales"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-volcanicos"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-hidrotermales"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-relacionados-con-las-laderas-y-con-la-gravedad"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales-fluvioglaciares-y-de-permafrost"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-eolicos"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-marinos-litorales-y-de-humedales-costeros"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-karsticos-y-de-meteorizacion-quimica"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-aluviales-y-fluviales"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-lacustres"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-de-impacto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-exhumado">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objeto exhumado</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">exhumed feature</skos:prefLabel>
+    <skos:definition xml:lang="es">Forma del relieve, superficie geomorfológica o paleosuelo previmente enterrado que queda de nuevo expuesto por erosión del manto que lo cubría.</skos:definition>
+    <skos:definition xml:lang="en">Formerly buried landforms, geomorphologic surfaces, or paleosols that have been re-exposed by erosion of the covering mantle.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/exhumedFeature"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ladera-divergente">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">ladera divergente</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">nose slope</skos:prefLabel>
+    <skos:definition xml:lang="es">Elemento geomorfológico de una colina constituido por un extremo saliente (generalmente un área convexa) de la ladera, que determina que las corrientes de agua sean predominantemente divergentes; las curvas de nivel son en general curvas convexas.</skos:definition>
+    <skos:definition xml:lang="en">A geomorphologic component of hills consisting of the projecting end (laterally convex area) of a hillside, resulting in predominantly divergent overland water flow; contour lines generally form convex curves.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/noseSlope"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/collection">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">Objeto geomorfológico natural - Todos los conceptos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Geomorphological natural feature - All concepts</skos:prefLabel>
+    <skos:definition xml:lang="es">Todos los conceptos en este vocabulario.</skos:definition>
+    <skos:definition xml:lang="en">All concepts in this vocabulary.</skos:definition>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-geomorfologico-natural"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/modelo-de-drenaje"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/formacion-superficial"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/forma-erosiva"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-degradativo"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/relicto"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-exhumado"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-fosilizado"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/pedimento"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-erosionado"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/colina"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/interfluvio"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cresta"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/pendiente-de-cabecera"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cuesta"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ladera-divergente"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cara-desnuda"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-del-talud"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/montaña"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cima-de-montaña"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/vertiente-montañosa"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ladera"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-de-montaña"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/depresion"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/llanura"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-tectonicos-y-estructurales"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-volcanicos"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-hidrotermales"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-relacionados-con-las-laderas-y-con-la-gravedad"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales-fluvioglaciares-y-de-permafrost"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-eolicos"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-marinos-litorales-y-de-humedales-costeros"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-karsticos-y-de-meteorizacion-quimica"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-aluviales-y-fluviales"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-lacustres"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-de-impacto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-fosilizado">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objeto fosilizado</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">buried feature</skos:prefLabel>
+    <skos:definition xml:lang="es">Forma del relieve, superficie geomorfológica o paleosuelo cubierto por sedimentos más jóvenes.</skos:definition>
+    <skos:definition xml:lang="en">Landforms, geomorphologic surfaces, or paleosols covered by younger sediments.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/buriedFeature"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-degradativo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objeto degradativo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">degradation feature</skos:prefLabel>
+    <skos:definition xml:lang="es">Objeto geomorfológico resultante del desgaste, y en general la reducción, de la superficie terrestre por procesos naturales de meteorización y erosión y que puede inducir procesos de transporte de sedimentos.</skos:definition>
+    <skos:definition xml:lang="en">A geomorphologic feature resulting from the wearing down or away, and the general lowering or reduction, of the Earth's surface by natural processes of weathering and erosion, and which may infer the processes of transportation of sediment.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/degradationFeature"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-lacustres">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objetos lacustres</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">lacustrine features</skos:prefLabel>
+    <skos:definition xml:lang="es">Paisajes geomorfológicos y formas del relieve relacionados con masas de agua interiores permanentes (lagos).</skos:definition>
+    <skos:definition xml:lang="en">Geomorphologic landscapes and landforms related to inland permanent water bodies (lakes).</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/lacustrine"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/llanura">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">llanura</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">plain</skos:prefLabel>
+    <skos:definition xml:lang="es">Área plana, grande o pequeña, de baja elevación; específicamente, una región extensa de tierra relativamente nivelada o poco ondulada, con pocas o ninguna irregularidad superficial, aunque a veces con una considerable pendiente, y generalmente con una baja elevación en relación con las áreas circundantes.</skos:definition>
+    <skos:definition xml:lang="en">Any flat area, large or small, at a low elevation; specifically an extensive region of comparatively smooth and level or gently undulaing land, having few or no prominent surface irregularities but sometimes having a considerable slope, and usually at a low elevation with reference to surrounding areas.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/plain"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-relacionados-con-las-laderas-y-con-la-gravedad">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objetos relacionados con las laderas y con la gravedad</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">slope and gravitational features</skos:prefLabel>
+    <skos:definition xml:lang="es">Paisajes geomorfológicos y formas del relieve relacionados con entornos de ladera; paisajes geomorfológicos y formas de relieve desarrollados por efecto de la acción de la gravedad.</skos:definition>
+    <skos:definition xml:lang="en">Geomorphologic landscapes and landforms related to slope environments; geomorphologic landscapes and landforms developed under the action of the gravitational force.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/slopeGravitational"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-hidrotermales">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objetos hidrotermales</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">hydrothermal features</skos:prefLabel>
+    <skos:definition xml:lang="es">Paisajes geomorfológicos y formas del relieve relacionados con procesos hidrotermales.</skos:definition>
+    <skos:definition xml:lang="en">Geomorphologic landscapes and landforms related to hydrothermal processes.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/hydrothermal"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-aluviales-y-fluviales">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objetos geográficos aluviales y fluviales</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">alluvial and fluvial features</skos:prefLabel>
+    <skos:definition xml:lang="es">Paisajes geomorfológicos y formas del relieve relacionados predominantemente con corrientes de agua concentradas (corrientes canalizadas).</skos:definition>
+    <skos:definition xml:lang="en">Geomorphologic landscapes and landforms dominantly related to concentrated water flow (channel flow).</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/alluvialFluvial"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/modelo-de-drenaje">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">modelo de drenaje</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">drainage pattern</skos:prefLabel>
+    <skos:definition xml:lang="es">Configuración o disposición de los cursos de agua en una zona, incluidos los barrancos o cursos canalizados de primer orden, los afluentes de orden superior y los cursos de agua principales.</skos:definition>
+    <skos:definition xml:lang="en">The configuration or arrangement of stream courses in an area, including gullies or first-order channelized flow areas, higher order tributaries, and main streams.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/drainagePattern"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-eolicos">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objetos eólicos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">eolian features</skos:prefLabel>
+    <skos:definition xml:lang="es">Paisajes geomorfológicos y formas del relieve relativos a entornos dominados por el viento.</skos:definition>
+    <skos:definition xml:lang="en">Geomorphologic landscapes and landforms related to wind-dominated environments.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/eolian"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-geomorfologico-natural">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objeto geomorfológico natural</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">natural geomorphologic feature</skos:prefLabel>
+    <skos:definition xml:lang="es">Objeto geomorfológico producido por la dinámica natural.</skos:definition>
+    <skos:definition xml:lang="en">A geomorphologic feature produced by the natural dynamics.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/naturalGeomorphologicFeature"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cara-desnuda">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">cara desnuda</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">free face</skos:prefLabel>
+    <skos:definition xml:lang="es">Elemento geomorfológico de una colina o montaña constituido por un afloramiento de roca desnuda que suele ser más empinado que el ángulo de reposo, y que proporciona fragmentos de roca y otros sedimentos a la pendiente coluvial situada inmediatamente debajo; generalmente aparece en la ladera de menor pendiente y puede incluir una parte o la totalidad de una ladera divergente o una cuesta.</skos:definition>
+    <skos:definition xml:lang="en">A geomorphologic component of hills and mountains consisting of an outcrop of bare rock that sheds rock fragments and other sediments to, and commonly stands more steeply than the angle of repose of, the colluvial slope immediately below; most commonly found on shoulder and back slope positions, and can comprise part or all of a nose slope or side slope.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/freeFace"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/vertiente-montañosa">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">vertiente montañosa</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">mountainslope</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte de una montaña comprendida entre la cumbre y la base.</skos:definition>
+    <skos:definition xml:lang="en">A part of a mountain between the summit and the foot.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountainslope"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales-fluvioglaciares-y-de-permafrost">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objetos glaciales, fluvioglaciares y de permafrost</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">nival, periglacial and permafrost features</skos:prefLabel>
+    <skos:definition xml:lang="es">Paisajes geomorfológicos y formas del relieve relativos a entornos de clima frío, con nieve, pero no glaciales; paisajes geomorfológicos y formas de relieve próximos a glaciares y placas de hielo; paisajes geomorfológicos y formas del relieve relativos a tierras, suelos o rocas que se mantienen a 0º C o menos durante dos años como mínimo.</skos:definition>
+    <skos:definition xml:lang="en">Geomorphologic landscapes and landforms related to snow, non-glacial, cold climate environments; geomorphologic landscapes and landforms occurring in the vicinity of glaciers and ice sheets; geomorphologic landscapes and landforms related to ground, soil, or rock that remains at or below 0º C for at least two years.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/nivalPeriglacialPermafrost"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-glaciales">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objetos glaciales, glaciofluviales, glaciolacustres y glaciomarinos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">glacial, glaciofluvial, glaciolacustrine and glaciomarine features</skos:prefLabel>
+    <skos:definition xml:lang="es">Paisajes geomorfológicos y formas del relieve relativos a entornos glaciales, glaciofluviales, glaciolacustres y glaciomarinos.</skos:definition>
+    <skos:definition xml:lang="en">Geomorphologic landscapes and landforms related to to glacial, glaciofluvial, glaciolacustrine and glaciomarine environments.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/glacial"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/ladera">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">ladera</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">mountainflank</skos:prefLabel>
+    <skos:definition xml:lang="es">Elemento geomorfológico de una montaña caracterizado por pendientes muy largas y complejas con gradientes relativamente elevados y compuestas por mantos de sedimentos coluviales muy variados, afloramientos de roca y resaltes estructurales.</skos:definition>
+    <skos:definition xml:lang="en">A geomorphologic component of mountains characterized by very long, complex back slopes with comparatively high slope gradients and composed of highly-diverse colluvial sediment mantles, rock outcrops or structural benches.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountainflank"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-marinos-litorales-y-de-humedales-costeros">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objetos marinos, litorales y de humedales costeros</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">marine, littoral and coastal wetlands features</skos:prefLabel>
+    <skos:definition xml:lang="es">Paisajes geomorfológicos y formas del relieve relativos a la dinámica del oleaje y de las mareas desarrollada en entornos marinos, de aguas poco profundas, cercanos a la costa y litorales, y relativos a humedales con vegetación y poco profundos.</skos:definition>
+    <skos:definition xml:lang="en">Geomorphologic landscapes and landforms related to wave or tidal dynamics developed in marine, shallow marine, near-shore and littoral zone environments, and those related to vegetated and / or shallow wet areas</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/marineLittoralCoastalWetland"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-geograficos-karsticos-y-de-meteorizacion-quimica">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objetos geográficos kársticos y de meteorización química</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">karst and chemical weathering features</skos:prefLabel>
+    <skos:definition xml:lang="es">Paisajes geomorfológicos y formas del relieve dominados por la disolución de minerales y, en general, por el drenaje subsuperficial.</skos:definition>
+    <skos:definition xml:lang="en">Geomorphologic landscapes and landforms dominated by mineral dissolution, and commonly, subsurface drainage.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/karstChemicalWeathering"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/depresion">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">depresión</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">depression</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte relativamente hundida de la superficie terrestre; especialmente, área baja rodeada de tierras más altas.</skos:definition>
+    <skos:definition xml:lang="en">Any relatively sunken part of the Earth's surface; especially a low-lying area surrounded by higher ground.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/depression"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/pendiente-de-cabecera">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">pendiente de cabecera</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">head slope</skos:prefLabel>
+    <skos:definition xml:lang="es">Elemento geomorfológico de una colina constituido por un área de la ladera lateralmente cóncava, especialmente en la cabecera de una vía de drenaje, que determina que las corrientes de agua sean convergentes.</skos:definition>
+    <skos:definition xml:lang="en">A geomorphologic component of hills consisting of a laterally concave area of a hillside, especially at the head of a drainage way, resulting in converging overland water flow.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/headSlope"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-volcanicos">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objetos volcánicos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">volcanic features</skos:prefLabel>
+    <skos:definition xml:lang="es">Paisajes geomorfológicos y formas del relieve relativos a procesos ígneos en virtud de los cuales magma y gases asociados atraviesan la corteza y son expulsados sobre la superficie terrestre y a la atmósfera.</skos:definition>
+    <skos:definition xml:lang="en">Geomorphologic landscapes and landforms related to the deep seated (igneous) processes by which magma and associated gases rise through the crust and are extruded onto the earth's surface and into the atmosphere.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/volcanic"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cuesta">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">cuesta</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">side slope</skos:prefLabel>
+    <skos:definition xml:lang="es">Elemento geomorfológico de una colina constituido por un área de la ladera lateralmente plana que determina que las corrientes de agua sean predominantemente paralelas. Las curvas de nivel son en general rectas.</skos:definition>
+    <skos:definition xml:lang="en">A geomorphologic component of hills consisting of a laterally planar area of a hillside, resulting in predominantly parallel overland water flow. Contour lines generally form straight lines.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/sideSlope"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objeto-erosionado">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objeto erosionado</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">erosional features</skos:prefLabel>
+    <skos:definition xml:lang="es">Superficie del terreno configurada por la acción de la erosión, sobre todo del agua corriente.</skos:definition>
+    <skos:definition xml:lang="en">A land surface shaped by the action of erosion, especially by running water.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/erosional"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-del-talud">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">base del talud</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">base slope</skos:prefLabel>
+    <skos:definition xml:lang="es">Elemento geomorfológico de una colina constituido por una pendiente cóncava lineal (perpendicular al contorno) que, independientemente de la pendiente lateral, forma un saliente o cuña al pie de una colina, dominado por procesos coluviales y de lavado de la pendiente y por la deposición de sedimentos</skos:definition>
+    <skos:definition xml:lang="en">A geomorphologic component of hills consisting of the concave to linear slope (perpendicular to the contour) which, regardless of the lateral shape, is an area that forms an apron or wedge at the bottom of a hillside dominated by colluvial and slope wash processes and sediments</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/baseSlope"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-tectonicos-y-estructurales">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objetos tectónicos y estructurales</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">tectonic and structural features</skos:prefLabel>
+    <skos:definition xml:lang="es">Paisajes geomorfológicos y formas del relieve resultantes de estructuras regionales o locales de roca o de movimientos tectónicos o corticales; asimismo, paisajes geomorfológicos y formas de relieve de origen tectónico o exhumados predominantemente por la erosión del agua, con exclusión de las corrientes canalizadas perennes (es decir, fluviales o glaciofluviales), o por la erosión eólica.</skos:definition>
+    <skos:definition xml:lang="en">Geomorphologic landscapes and landforms related to regional or local bedrock structures, or crustal movement; and geomorphologic landscapes and landforms related dominantly to water erosion but excluding perennial, channel flow (i.e. fluvial, glaciofluvial), or eolian erosion.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/tectonicStructural"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/forma-erosiva">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">forma erosiva</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">destructional feature</skos:prefLabel>
+    <skos:definition xml:lang="es">Forma de relieve que debe su origen, su forma, su posición o su carácter general a procesos de eliminación de material por erosión o meteorización (degradación) resultantes del desgaste de la superficie terrestre.</skos:definition>
+    <skos:definition xml:lang="en">Site of a landform that owes its origin, form, position, or general character to the removal of material by erosion and weathering (degradation) processes resulting from the wearing-down or away of the land surface.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/destructionalFeature"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/formacion-superficial">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">formación superficial</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">constructional feature</skos:prefLabel>
+    <skos:definition xml:lang="es">Forma de relieve que debe su origen, su forma, su posición o su carácter general a procesos de deposición (agradación), como la acumulación de sedimentos</skos:definition>
+    <skos:definition xml:lang="en">Site of a landform that owes its origin, form, position, or general character to depositional (aggradational) processes, such as the accumulation of sediment</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/constructionalFeature"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/interfluvio">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">interfluvio</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">interfluve</skos:prefLabel>
+    <skos:definition xml:lang="es">Elemento geomorfológico de una colina constituido por el nivel relativamente más elevado o el área de pendiente más suave; las laderas pueden estrechar la zona superior o unirse para dar una forma muy convexa.</skos:definition>
+    <skos:definition xml:lang="en">A geomorphologic component of hills consisting of the uppermost, comparatively level or gently sloped area of a hill; shoulders of back wearing hill slopes can narrow the upland or merge resulting in a strongly convex shape.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/interfluve"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/objetos-de-impacto">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">objetos de impacto</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">impact features</skos:prefLabel>
+    <skos:definition xml:lang="es">Paisajes geomorfológicos y formas del relieve relacionados con el impacto de objetos extraterrestres sobre la superficie terrestre.</skos:definition>
+    <skos:definition xml:lang="en">Geomorphologic landscapes and landforms related to the impact of extraterrestrial material on the Earth's surface.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/impact"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-de-montaña">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">base de montaña</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">mountainbase</skos:prefLabel>
+    <skos:definition xml:lang="es">Elemento geomorfológico de una montaña constituido por una falda o cuña coluvial, firme o aproximadamente cóncava, situada al pie de las pendientes.</skos:definition>
+    <skos:definition xml:lang="en">A geomorphologic component of mountains consisting of the strongly to slightly concave colluvial apron or wedge at the bottom of mountain slopes.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountainbase"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/colina">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">colina</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">hill</skos:prefLabel>
+    <skos:definition xml:lang="es">Término genérico que designa un área elevada de la superficie terrestre, que se alza entre 30 y 300 metros sobre las tierras bajas circundantes y que presenta generalmente una cumbre nominal en relación con sus laderas, una silueta redondeada bien definida y pendientes que superan en general el 15 por ciento.</skos:definition>
+    <skos:definition xml:lang="en">A generic term for an elevated area of the land surface, rising at least 30 metres to as much as 300 metres above surrounding lowlands, usually with a nominal summit area relative to bounding slopes, a well-defined, rounded outline and slopes that generally exceed 15 percent.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/hill"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cima-de-montaña">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">cima de montaña</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">mountaintop</skos:prefLabel>
+    <skos:definition xml:lang="es">Elemento geomorfológico de una montaña constituido por el nivel relativamente más elevado y caracterizado por pendientes relativamente cortas y sencillas compuestas por roca desnuda, residuos o sedimentos coluviales transportados desde corta distancia.</skos:definition>
+    <skos:definition xml:lang="en">A geomorphologic component of mountains consisting of the uppermost, comparatively level or gently sloped area of mountains, characterized by relatively short, simple slopes composed of bare rock, residuum, or short-transport colluvial sediments.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountaintop"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/cresta">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">cresta</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">crest</skos:prefLabel>
+    <skos:definition xml:lang="es">Elemento geomorfológico de una colina constituido por unas laderas convexas (perpendiculares al contorno) que convergen para formar la parte superior, estrecha y generalmente lineal, de la colina, cordillera o tierra alta, hasta el punto de que apenas subsiste una cumbre; está dominada por los procesos de erosión, lavado de laderas y movimiento de masas, y por los sedimentos</skos:definition>
+    <skos:definition xml:lang="en">A geomorphologic component of hills consisting of the convex slopes (perpendicular to the contour) that form the narrow, roughly linear top area of a hill, ridge, or other upland where shoulders have converged to the extent that little or no summit remains; dominated by erosion, slope wash and mass movement processes and sediments</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/crest"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/montaña">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">montaña</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">mountain</skos:prefLabel>
+    <skos:definition xml:lang="es">Término genérico que designa un área elevada de la superficie terrestre, que se levanta más de 300 metros sobre las tierras bajas circundantes y presenta generalmente una cumbre definida en relación con sus laderas y pendientes que suelen ser empinadas (más del 25 por ciento), con o sin exposición considerable de roca desnuda.</skos:definition>
+    <skos:definition xml:lang="en">A generic term for an elevated area of the land surface, rising more than 300 metres above surrounding lowlands, usually with a nominal summit area relative to bounding slopes and generally with steep sides (greater than 25 percent slope) with or without considerable bare-rock exposed.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/mountain"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/relicto">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">relicto</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">relic</skos:prefLabel>
+    <skos:definition xml:lang="es">Forma de relieve que ha sobrevivido a la degradación o desintegración, o que ha permanecido tras desaparecer la mayor parte del material subyacente, como por ejemplo, un monte isla.</skos:definition>
+    <skos:definition xml:lang="en">A landform that has survived decay or disintegration, or one that has been left behind after the disappearance of the greater part of its substance such as a remnant island.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/relic"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/pedimento">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">pedimento</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">pediment</skos:prefLabel>
+    <skos:definition xml:lang="es">Superficie erosiva de baja pendiente desarrollada al pie de un relieve montañoso, generalmente con un perfil algo cóncavo hacia arriba, que corta los estratos de roca o de sedimentos que se extienden bajo las tierras altas adyacentes.</skos:definition>
+    <skos:definition xml:lang="en">A gently sloping erosional surface developed at the foot of a receding hill or mountain slope, commonly with a slightly concave-upward profile, that cross-cuts rock or sediment strata that extend beneath adjacent uplands.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/pediment"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/superficie-de-erosion">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural"/>
+    <skos:prefLabel xml:lang="es">superficie de erosión</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">erosion surface</skos:prefLabel>
+    <skos:definition xml:lang="es">Paisajes geomorfológicos y formas del relieve relacionados predominantemente con la erosión del agua, con exclusión de las corrientes canalizadas perennes (es decir, fluviales, glaciofluviales), o a la erosión eólica.</skos:definition>
+    <skos:definition xml:lang="en">Geomorphologic landscapes and landforms related dominantly to water erosion but excluding perennial channel flow (i.e. fluvial, glaciofluvial) or eolian erosion.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/erosionSurface"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  </rdf:Description>
+</rdf:RDF>
