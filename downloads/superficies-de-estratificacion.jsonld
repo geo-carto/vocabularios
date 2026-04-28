@@ -1,0 +1,289 @@
+[
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Una superficie de estratificación resaltante que se puede dibujar dentro de una unidad de rocas sedimentarias estratificadas, que representa una superficie original de deposición."
+      },
+      {
+        "@language": "en",
+        "@value": "A conspicuous  stratification surface, which can be delineated within a sedimentary stratified rock unit, representing an original surface of deposition."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "traza de capa"
+      },
+      {
+        "@language": "en",
+        "@value": "bedding surface"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "https://www.igme.es"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "es",
+        "@value": "Términos referidos a superficies de estratificación."
+      },
+      {
+        "@language": "en",
+        "@value": "Terms referring to bedding surfaces."
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "Términos propios definidos por el IGME"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://www.igme.es/"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "es",
+        "@value": "Superfices de estratificación"
+      },
+      {
+        "@language": "en",
+        "@value": "Stratigraphic surfaces"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Términos referidos a superficies de estratificación."
+      },
+      {
+        "@language": "en",
+        "@value": "Terms referring to bedding surfaces."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#editorialNote": [
+      {
+        "@language": "es",
+        "@value": "Este archivo contiene el vocabulario Superfices de estratificación."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Superfices de estratificación"
+      },
+      {
+        "@language": "en",
+        "@value": "Stratigraphic surfaces"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@value": "GE"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Un límite estratigráfico, superficie o interfaz a través del cual se observa un cambio significativo y distintivo en el carácter bioestratigráfico. Puede corresponder a una superficie límite entre biozonas o reconocerse dentro de una biozona. Las características en las que se basan comúnmente los biohorizontes en una sección estratigráfica incluyen los horizontes de primera aparición y los de última presencia, las ocurrencias distintivas, los cambios en la frecuencia y abundancia o los cambios en el carácter de taxones individuales."
+      },
+      {
+        "@language": "en",
+        "@value": "A stratigraphic boundary, surface or interface across which there is a significant and distinctive change in biostratigraphic character. It may correspond to a boundary surface between biozones or be recognized within a biozone. The features on which biohorizons are commonly based in a given stratigraphic section include lowest occurrences, highest occurrences, distinctive occurrences, changes in frequency and abundance, or changes in the character of individual taxa."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "biohorizonte"
+      },
+      {
+        "@language": "en",
+        "@value": "biohorizon"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/affiliation": [
+      {
+        "@id": "https://linked.data.gov.au/org/cgi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "CGI Geoscience Terminology Working Group"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Commission for the Management and Application of Geoscience Information"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/collection",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Todos los conceptos en este vocabulario."
+      },
+      {
+        "@language": "en",
+        "@value": "All concepts in this vocabulary."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Superfices de estratificación - Todos los conceptos"
+      },
+      {
+        "@language": "en",
+        "@value": "Stratigraphic surfaces - All concepts"
+      }
+    ]
+  }
+]

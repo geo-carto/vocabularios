@@ -1,0 +1,115 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://geo-carto.github.io/vocabularios/geomorfologia-actividad/collection> a skos:Collection ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    skos:member <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/activo>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/estabilizado>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/inactivo>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/latente>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/reactivado> ;
+    skos:prefLabel "Geomorphologic activity - All concepts"@en,
+        "Actividad geomorfológica - Todos los conceptos"@es .
+
+<https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
+    sdo:name "CGI Geoscience Terminology Working Group" ;
+    sdo:url <http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html> .
+
+<https://linked.data.gov.au/org/cgi> a sdo:Organization ;
+    sdo:name "Commission for the Management and Application of Geoscience Information" ;
+    sdo:url <http://www.cgi-iugs.org> .
+
+<https://geo-carto.github.io/vocabularios/geomorfologia-actividad/activo> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    skos:definition "A geomorphologic process that is currently in a state of action, or that has been reactivated since a conventionally short period of time."@en,
+        "Un proceso geomorfológico que actualmente está en acción, o que ha sido reactivado desde hace un período de tiempo convencionalmente corto."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/active> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    skos:prefLabel "active"@en,
+        "activo"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/geomorfologia-actividad/estabilizado> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    skos:definition "A stabilized geomorphologic process is an inactive process which has been protected from its original causes by remedial measures."@en,
+        "Un proceso geomorfológico estabilizado es un proceso inactivo que ha sido protegido de sus causas originales mediante medidas correctivas."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/stabilised> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    skos:prefLabel "stabilised"@en,
+        "estabilizado"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/geomorfologia-actividad/inactivo> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    skos:definition "A relict or fossil geomorphologic process."@en,
+        "Un proceso geomorfológico relicto o fósil."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/inactive> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    skos:prefLabel "inactive"@en,
+        "inactivo"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/geomorfologia-actividad/latente> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    skos:definition "A geomorphologic process that has not shown signs of activity since a conventionally short period of time, and that could be reactivated by its original causes, or triggered by induced causes such as anthropogenic activities."@en,
+        "Un proceso geomorfológico que no ha mostrado signos de actividad desde hace un período de tiempo convencionalmente corto, y que podría ser reactivado por sus causas originales o desencadenado por causas inducidas como actividades antropogénicas."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/dormant> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    skos:prefLabel "dormant"@en,
+        "latente"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/geomorfologia-actividad/reactivado> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    skos:definition "A reactivated geomorphologic process is an active geomorphologic process which has been dormant."@en,
+        "Un proceso geomorfológico reactivado es un proceso geomorfológico activo que ha estado inactivo."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/reactivated> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    skos:prefLabel "reactivated"@en,
+        "reactivado"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/geomorfologia-actividad> a skos:ConceptScheme ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://commission.europa.eu/" ;
+    dcterms:description "Terms referring to geomorphological activity."@en,
+        "Términos referidos a la actividad geomorfológica."@es ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:provenance "Términos originales de INSPIRE" ;
+    dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Geomorphologic activity"@en,
+        "Actividad geomorfológica"@es ;
+    owl:versionInfo "1.0.0" ;
+    skos:definition "Terms referring to geomorphological activity."@en,
+        "Términos referidos a la actividad geomorfológica."@es ;
+    skos:editorialNote "Este archivo contiene el vocabulario Actividad geomorfológica."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/activo>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/estabilizado>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/inactivo>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/latente>,
+        <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/reactivado> ;
+    skos:prefLabel "Geomorphologic activity"@en,
+        "Actividad geomorfológica"@es ;
+    dcat:theme "GE" .
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sdo="https://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/void-reason">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="es">Razón de valor vacío</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Void Reason Value</skos:prefLabel>
+    <dcterms:title xml:lang="es">Razón de valor vacío</dcterms:title>
+    <dcterms:title xml:lang="en">Void Reason Value</dcterms:title>
+    <skos:definition xml:lang="es">Términos que describen las razones por las que un valor puede estar vacío o no proporcionado en un atributo.</skos:definition>
+    <skos:definition xml:lang="en">Terms describing the reasons why a value may be void or not provided in an attribute.</skos:definition>
+    <dcterms:description xml:lang="es">Términos que describen las razones por las que un valor puede estar vacío o no proporcionado en un atributo.</dcterms:description>
+    <dcterms:description xml:lang="en">Terms describing the reasons why a value may be void or not provided in an attribute.</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:provenance>Términos originales de INSPIRE</dcterms:provenance>
+    <dcterms:creator>https://commission.europa.eu/</dcterms:creator>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <dcat:theme>TE</dcat:theme>
+    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Razón de valor vacío.</skos:editorialNote>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/void-reason/desconocido"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/void-reason/no-poblado"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/void-reason/retenido"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/void-reason/no-poblado">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/void-reason"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/void-reason"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/void-reason"/>
+    <skos:prefLabel xml:lang="es">no poblado</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">unpopulated</skos:prefLabel>
+    <skos:definition xml:lang="es">El campo o atributo todavía no se ha proporcionado o rellenado, pero puede ser proporcionado en el futuro.</skos:definition>
+    <skos:definition xml:lang="en">The attribute or field has not been provided or populated yet, but may be provided in the future.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/void-reason/collection">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/void-reason"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/void-reason"/>
+    <skos:prefLabel xml:lang="es">Razón de valor vacío - Todos los conceptos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Void Reason Value - All concepts</skos:prefLabel>
+    <skos:definition xml:lang="es">Todos los conceptos en este vocabulario.</skos:definition>
+    <skos:definition xml:lang="en">All concepts in this vocabulary.</skos:definition>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/void-reason/desconocido"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/void-reason/no-poblado"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/void-reason/retenido"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/void-reason/retenido">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/void-reason"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/void-reason"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/void-reason"/>
+    <skos:prefLabel xml:lang="es">retenido</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">withheld</skos:prefLabel>
+    <skos:definition xml:lang="es">El valor no se hace público por motivos de confidencialidad, seguridad u otra política.</skos:definition>
+    <skos:definition xml:lang="en">The value is not made publicly available for confidentiality, security, or other policy reasons.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/VoidReasonValue/Withheld"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/void-reason/desconocido">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/void-reason"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/void-reason"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/void-reason"/>
+    <skos:prefLabel xml:lang="es">desconocido</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+    <skos:definition xml:lang="es">El valor correcto del tipo de datos específico no se conoce o no está proporcionado por la fuente de datos, o la fuente de datos no está disponible.</skos:definition>
+    <skos:definition xml:lang="en">The correct value for the specific spatial data type is not known to, or not provided by the data provider, or the data source is not available.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unknown"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,679 @@
+[
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-instrumental-en-campo",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Orientación medida usando brújula u otro instrumento directamente sobre o en un afloramiento de la estructura."
+      },
+      {
+        "@language": "en",
+        "@value": "Orientation measured using compass or other instrument directly on or at an outcrop of the structure."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/standard_on_site_measure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "medida instrumental en campo"
+      },
+      {
+        "@language": "en",
+        "@value": "standard on site measure"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-distancia",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Orientación de una estructura geológica basada en la observación a una distancia suficiente como para impedir la inspección directa de la estructura."
+      },
+      {
+        "@language": "en",
+        "@value": "Orientation of a geologic structure based on observation from a distance great enough to preclude direct inspection of the structure to determine orientation."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/estimate_from_distance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "estimación a distancia"
+      },
+      {
+        "@language": "en",
+        "@value": "estimate from distance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-visual-en-afloramiento",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Orientación de una superficie medida promediando visualmente en uno o más afloramientos en un área reducida, por ejemplo, aproximando el buzamiento mirando a lo largo del rumbo de las capas."
+      },
+      {
+        "@language": "en",
+        "@value": "Orientation of a surface is measured by visually averaging across one or more outcrops in a small area--e.g. approximating dip by looking down strike of beds, approximating strike by outcrop trace of one or more beds."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/visual_surface_estimation_on_outcrop"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "estimación visual en afloramiento"
+      },
+      {
+        "@language": "en",
+        "@value": "visual surface estimation on outcrop"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/collection",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Todos los conceptos en este vocabulario."
+      },
+      {
+        "@language": "en",
+        "@value": "All concepts in this vocabulary."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/orientacion-media-calculada"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-partir-de-fotografia-aerea"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-distancia"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-fotogeologica"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-por-tres-puntos"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-instrumental-en-campo"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-visual-en-afloramiento"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Método de determinación - Todos los conceptos"
+      },
+      {
+        "@language": "en",
+        "@value": "Determination Method - All concepts"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "La orientación de la superficie o línea se mide directamente sobre un afloramiento de dicha superficie o línea, por ejemplo, midiendo una superficie de estratificación particular, una exposición 3D de una charnela de pliegue, un grano mineral estirado en una superficie de foliación."
+      },
+      {
+        "@language": "en",
+        "@value": "Orientation of surface or line is measured on an outcrop of that surface or line directly, e.g. by measuring a particular bedding surface, a 3-D exposure of a fold hinge, a particular stretched mineral grain in a foliation surface."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/measure_on_outcrop"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-instrumental-en-campo"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-visual-en-afloramiento"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "medida en afloramiento"
+      },
+      {
+        "@language": "en",
+        "@value": "measure on outcrop"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-fotogeologica",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Orientación determinada a partir de mediciones sobre fotografía aérea o imágenes de satélite (junto con un modelo de elevación)."
+      },
+      {
+        "@language": "en",
+        "@value": "Orientation determined based on measurements from aerial photography or satellite imagery (in conjunction with an elevation model."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/photogeologic_determination"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "determinación fotogeológica"
+      },
+      {
+        "@language": "en",
+        "@value": "photogeologic determination"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/affiliation": [
+      {
+        "@id": "https://linked.data.gov.au/org/cgi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "CGI Geoscience Terminology Working Group"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-por-tres-puntos",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Orientación determinada ajustando un plano a tres o más puntos situados en la superficie geológica de interés."
+      },
+      {
+        "@language": "en",
+        "@value": "Orientation determined by fitting a plane to three or more points located on the geologic surface of interest."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/three_point_determination"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "determinación por tres puntos"
+      },
+      {
+        "@language": "en",
+        "@value": "three point determination"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Commission for the Management and Application of Geoscience Information"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-partir-de-fotografia-aerea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Orientación de una estructura geológica estimada a partir de la inspección o mediciones sobre una fotografía aérea."
+      },
+      {
+        "@language": "en",
+        "@value": "Orientation of a geologic structure estimated based on inspection or measurements on an air photograph."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/estimate_from_air_photo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "estimación a partir de fotografía aérea"
+      },
+      {
+        "@language": "en",
+        "@value": "estimate from air photo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "https://www.igme.es"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "es",
+        "@value": "Método utilizado para determinar la orientación de una estructura geológica."
+      },
+      {
+        "@language": "en",
+        "@value": "Method used to determine the orientation of a geological structure."
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "Términos propios definidos por el IGME"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://www.igme.es/"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "es",
+        "@value": "Método de determinación"
+      },
+      {
+        "@language": "en",
+        "@value": "Determination Method"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Método utilizado para determinar la orientación de una estructura geológica."
+      },
+      {
+        "@language": "en",
+        "@value": "Method used to determine the orientation of a geological structure."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#editorialNote": [
+      {
+        "@language": "es",
+        "@value": "Este archivo contiene el vocabulario Método de determinación."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/orientacion-media-calculada"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-partir-de-fotografia-aerea"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-distancia"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-fotogeologica"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-por-tres-puntos"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Método de determinación"
+      },
+      {
+        "@language": "en",
+        "@value": "Determination Method"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@value": "GE"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion/orientacion-media-calculada",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "El valor de orientación se especifica usando una media calculada de un conjunto de orientaciones relacionadas (generalización por computador)."
+      },
+      {
+        "@language": "en",
+        "@value": "Orientation value is specified using a calculated average of a collection of related orientations (computer generalization)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/calculated_average_orientation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "orientación media calculada"
+      },
+      {
+        "@language": "en",
+        "@value": "calculated average orientation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metodo-determinacion"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  }
+]

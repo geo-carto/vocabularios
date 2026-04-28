@@ -1,0 +1,214 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://geo-carto.github.io/vocabularios/contribucion-rol/collection> a skos:Collection ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:member <https://geo-carto.github.io/vocabularios/contribucion-rol/administrador-base-de-datos>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/autor>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/cartografo-de-campo>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/co-autor>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-cientifico>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-tecnico>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/creador-de-servicios-web>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/creador-metadatos>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/digitalizador>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/director-proyecto>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartográfico>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-científico>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-informacion-digital> ;
+    skos:prefLabel "Contributor role - All concepts"@en,
+        "Rol de contribuyente - Todos los conceptos"@es .
+
+<https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
+    sdo:name "CGI Geoscience Terminology Working Group" ;
+    sdo:url <http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html> .
+
+<https://linked.data.gov.au/org/cgi> a sdo:Organization ;
+    sdo:name "Commission for the Management and Application of Geoscience Information" ;
+    sdo:url <http://www.cgi-iugs.org> .
+
+<https://geo-carto.github.io/vocabularios/contribucion-rol/administrador-base-de-datos> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:definition "Person or entity responsible for managing, maintaining and administering the database containing the resource information."@en,
+        "Persona o entidad responsable de la gestión, mantenimiento y administración de la base de datos que contiene la información del recurso."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:prefLabel "database administrator"@en,
+        "administrador de base de datos"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contribucion-rol/autor> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:definition "Person or entity responsible for the intellectual creation of the resource content."@en,
+        "Persona o entidad responsable de la creación intelectual del contenido del recurso."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:prefLabel "author"@en,
+        "autor"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contribucion-rol/cartografo-de-campo> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:definition "Person or entity responsible for producing geological cartography based on field observations and mapping."@en,
+        "Persona o entidad responsable de la elaboración de la cartografía geológica mediante observaciones y levantamientos realizados en campo."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:prefLabel "field cartographer"@en,
+        "cartógrafo de campo"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contribucion-rol/co-autor> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:definition "Person or entity who significantly contributes to the intellectual creation of the resource content together with the main author."@en,
+        "Persona o entidad que contribuye significativamente a la creación intelectual del contenido del recurso junto con el autor principal."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:prefLabel "co-author"@en,
+        "co-autor"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-cientifico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:definition "Person or entity responsible for coordinating the scientific aspects of the project and ensuring the scientific consistency and quality of the results."@en,
+        "Persona o entidad responsable de la coordinación de los aspectos científicos del proyecto y de garantizar la coherencia y calidad científica de los resultados."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:prefLabel "scientific coordinator"@en,
+        "coordinador científico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-tecnico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:definition "Person or entity responsible for coordinating the technical aspects of the project, including methodologies, tools and workflows."@en,
+        "Persona o entidad responsable de la coordinación de los aspectos técnicos del proyecto, incluyendo metodologías, herramientas y flujos de trabajo."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:prefLabel "technical coordinator"@en,
+        "coordinador técnico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contribucion-rol/creador-de-servicios-web> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:definition "Person or entity responsible for creating and configuring web services for publishing and accessing the resource."@en,
+        "Persona o entidad responsable de la creación y configuración de servicios web para la publicación y acceso al recurso."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:prefLabel "web service publisher"@en,
+        "creador de servicios web"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contribucion-rol/creador-metadatos> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:definition "Person or entity responsible for creating and documenting the metadata describing the resource and its characteristics."@en,
+        "Persona o entidad responsable de crear y documentar los metadatos que describen el recurso y sus características."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:prefLabel "metadata creator"@en,
+        "creador de metadatos"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contribucion-rol/digitalizador> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:definition "Person or entity responsible for the digitisation of data."@en,
+        "Persona o entidad responsable de la digitalización de datos."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:prefLabel "digitiser"@en,
+        "digitalizador"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contribucion-rol/director-proyecto> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:definition "Person or entity responsible for the planning, organisation, coordination and overall supervision of the project."@en,
+        "Persona o entidad responsable de la planificación, organización, coordinación y supervisión general del proyecto."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:prefLabel "project manager"@en,
+        "director proyecto"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartográfico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:definition "Person or entity responsible for reviewing and preparing the cartographic resource for publication."@en,
+        "Persona o entidad responsable de la revisión y preparación cartográfica del recurso para su publicación."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:prefLabel "cartographic editor"@en,
+        "editor cartográfico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-científico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:definition "Person or entity responsible for reviewing the scientific quality and accuracy of the resource."@en,
+        "Persona o entidad encargada de revisar la calidad y exactitud científica del recurso."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:prefLabel "scientific reviewer"@en,
+        "revisor científico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-informacion-digital> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:definition "Person or entity responsible for reviewing the quality, coherence and consistency of the digital information associated with the resource."@en,
+        "Persona o entidad responsable de revisar la calidad, coherencia y consistencia de la información digital asociada al recurso."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    skos:prefLabel "digital data reviewer"@en,
+        "revisor información digital"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contribucion-rol> a skos:ConceptScheme ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://www.igme.es" ;
+    dcterms:description "Terms defining the role played by a contributor in relation to a dataset or part of it."@en,
+        "Términos que definen el rol desempañado por un contribuyente en relación a un conjunto de datos o parte de él."@es ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:provenance "Términos propios definidos por el IGME" ;
+    dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Contributor role"@en,
+        "Rol de contribuyente"@es ;
+    owl:versionInfo "1.0.2" ;
+    skos:definition "Terms defining the role played by a contributor in relation to a dataset or part of it."@en,
+        "Términos que definen el rol desempañado por un contribuyente en relación a un conjunto de datos o parte de él."@es ;
+    skos:editorialNote "Este archivo contiene el vocabulario Rol de contribuyente."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/contribucion-rol/administrador-base-de-datos>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/autor>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/cartografo-de-campo>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/co-autor>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-cientifico>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-tecnico>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/creador-de-servicios-web>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/creador-metadatos>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/digitalizador>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/director-proyecto>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartográfico>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-científico>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-informacion-digital> ;
+    skos:prefLabel "Contributor role"@en,
+        "Rol de contribuyente"@es ;
+    dcat:theme "TE" .
+

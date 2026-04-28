@@ -1,0 +1,445 @@
+[
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-y-buzamiento",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "estratificación y buzamiento"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "estratificación y buzamiento"
+      },
+      {
+        "@language": "en",
+        "@value": "strike and dip"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/collection",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Todos los conceptos en este vocabulario."
+      },
+      {
+        "@language": "en",
+        "@value": "All concepts in this vocabulary."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subhorizontal"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subvertical"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-invertida"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-y-buzamiento"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Tipo de medida estructural - Todos los conceptos"
+      },
+      {
+        "@language": "en",
+        "@value": "Structural measurement type - All concepts"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/medida-estructural",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "https://www.igme.es"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "es",
+        "@value": "Términos que recogen el tipo de medida estructural."
+      },
+      {
+        "@language": "en",
+        "@value": "Terms describing the type of structural measurement."
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "Términos propios definidos por el IGME"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://www.igme.es/"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "es",
+        "@value": "Tipo de medida estructural"
+      },
+      {
+        "@language": "en",
+        "@value": "Structural measurement type"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Términos que recogen el tipo de medida estructural."
+      },
+      {
+        "@language": "en",
+        "@value": "Terms describing the type of structural measurement."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#editorialNote": [
+      {
+        "@language": "es",
+        "@value": "Este archivo contiene el vocabulario Tipo de medida estructural."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Tipo de medida estructural"
+      },
+      {
+        "@language": "en",
+        "@value": "Structural measurement type"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@value": "GE"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-invertida",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "estratificación invertida"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "estratificación invertida"
+      },
+      {
+        "@language": "en",
+        "@value": "Overturned bedding"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "estratificación"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subhorizontal"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subvertical"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-invertida"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-y-buzamiento"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "estratificación"
+      },
+      {
+        "@language": "en",
+        "@value": "strike"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/affiliation": [
+      {
+        "@id": "https://linked.data.gov.au/org/cgi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "CGI Geoscience Terminology Working Group"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Commission for the Management and Application of Geoscience Information"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subhorizontal",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "estratificación subhorizontal"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "estratificación subhorizontal"
+      },
+      {
+        "@language": "en",
+        "@value": "Horizontal bedding"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subvertical",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "estratificación subvertical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/medida-estructural"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "estratificación subvertical"
+      },
+      {
+        "@language": "en",
+        "@value": "Vertical bedding"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  }
+]

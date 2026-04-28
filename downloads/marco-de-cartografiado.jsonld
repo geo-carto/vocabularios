@@ -1,0 +1,442 @@
+[
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado/collection",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Todos los conceptos en este vocabulario."
+      },
+      {
+        "@language": "en",
+        "@value": "All concepts in this vocabulary."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado/base-del-cuaternario"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado/geologia-superficial"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-de-la-roca-madre"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-del-basamento"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Marco de cartografiado - Todos los conceptos"
+      },
+      {
+        "@language": "en",
+        "@value": "Mapping frame - All concepts"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado/geologia-superficial",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Roca y depósitos superficiales que se hacen visibles si se retira el suelo suprayacente o que están expuestos en la superficie topográfica"
+      },
+      {
+        "@language": "en",
+        "@value": "Bedrock and predominantly unconsolidated sedimentary material of Quaternary age (superficial deposits) that would be visible if the overlying soil was removed or are exposed at the topographic surface"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/MappingFrameValue/surfaceGeology"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/mappingframe/surface_geology"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "geología superficial"
+      },
+      {
+        "@language": "en",
+        "@value": "surface geology"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-de-la-roca-madre",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Superficie superior de la roca, generalmente consolidada, que o bien está expuesta en la superficie topográfica o bien está cubierta por otros depósitos no consolidados"
+      },
+      {
+        "@language": "en",
+        "@value": "The surface in the crust of the Earth below sedimentary or volcanic deposits, or tectonically transported rock unit. What constitutes basement can depend on the context and may comprise other sedimentary, igneous and/or metamorphic rocks"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/MappingFrameValue/topOfBedrock"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/mappingframe/top_of_bedrock"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "techo de la roca madre"
+      },
+      {
+        "@language": "en",
+        "@value": "top of bedrock"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/affiliation": [
+      {
+        "@id": "https://linked.data.gov.au/org/cgi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "CGI Geoscience Terminology Working Group"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/contributor": [
+      {
+        "@value": "https://www.igme.es"
+      }
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "https://cgi-iugs.org/"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "es",
+        "@value": "Términos referidos al marco de cartografiado."
+      },
+      {
+        "@language": "en",
+        "@value": "Terms referring to the mapping framework."
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "Términos originales del estándar GeoSciML traducidos al español por el IGME"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://www.igme.es/"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "es",
+        "@value": "Marco de cartografiado"
+      },
+      {
+        "@language": "en",
+        "@value": "Mapping frame"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Términos referidos al marco de cartografiado."
+      },
+      {
+        "@language": "en",
+        "@value": "Terms referring to the mapping framework."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#editorialNote": [
+      {
+        "@language": "es",
+        "@value": "Este archivo contiene el vocabulario Marco de cartografiado."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado/base-del-cuaternario"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado/geologia-superficial"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-de-la-roca-madre"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-del-basamento"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Marco de cartografiado"
+      },
+      {
+        "@language": "en",
+        "@value": "Mapping frame"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@value": "GE"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Commission for the Management and Application of Geoscience Information"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado/base-del-cuaternario",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Base de material sedimentario predominantemente no consolidado del período cuaternario"
+      },
+      {
+        "@language": "en",
+        "@value": "Base of the predominantly unconsolidated sedimentary material of Quaternary age, also referred to as superficial deposits"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/MappingFrameValue/baseOfQuaternary"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/mappingframe/base_of_quaternary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "base del cuaternario"
+      },
+      {
+        "@language": "en",
+        "@value": "base of Quaternary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-del-basamento",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Superficie de la corteza terrestre existente debajo de los depósitos sedimentarios o volcánicos, o unidad de roca transportada tectónicamente"
+      },
+      {
+        "@language": "en",
+        "@value": "Top surface of the usually solid rock that may either be exposed at the topographic surface or covered by other younger unconsolidated deposits of Quaternary age (superficial deposits)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/MappingFrameValue/topOfBasement"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/mappingframe/top_of_basement"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "techo del basamento"
+      },
+      {
+        "@language": "en",
+        "@value": "top of basement"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/marco-de-cartografiado"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  }
+]

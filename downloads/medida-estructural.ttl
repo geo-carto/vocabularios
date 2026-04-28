@@ -1,0 +1,105 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://geo-carto.github.io/vocabularios/medida-estructural/collection> a skos:Collection ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/medida-estructural> ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/medida-estructural> ;
+    skos:member <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion>,
+        <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-invertida>,
+        <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subhorizontal>,
+        <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subvertical>,
+        <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-y-buzamiento> ;
+    skos:prefLabel "Structural measurement type - All concepts"@en,
+        "Tipo de medida estructural - Todos los conceptos"@es .
+
+<https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
+    sdo:name "CGI Geoscience Terminology Working Group" ;
+    sdo:url <http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html> .
+
+<https://linked.data.gov.au/org/cgi> a sdo:Organization ;
+    sdo:name "Commission for the Management and Application of Geoscience Information" ;
+    sdo:url <http://www.cgi-iugs.org> .
+
+<https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-invertida> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/medida-estructural> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion> ;
+    skos:definition "estratificación invertida"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/medida-estructural> ;
+    skos:prefLabel "Overturned bedding"@en,
+        "estratificación invertida"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subhorizontal> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/medida-estructural> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion> ;
+    skos:definition "estratificación subhorizontal"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/medida-estructural> ;
+    skos:prefLabel "Horizontal bedding"@en,
+        "estratificación subhorizontal"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subvertical> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/medida-estructural> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion> ;
+    skos:definition "estratificación subvertical"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/medida-estructural> ;
+    skos:prefLabel "Vertical bedding"@en,
+        "estratificación subvertical"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-y-buzamiento> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/medida-estructural> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion> ;
+    skos:definition "estratificación y buzamiento"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/medida-estructural> ;
+    skos:prefLabel "strike and dip"@en,
+        "estratificación y buzamiento"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/medida-estructural> ;
+    skos:definition "estratificación"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/medida-estructural> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-invertida>,
+        <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subhorizontal>,
+        <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-subvertical>,
+        <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion-y-buzamiento> ;
+    skos:prefLabel "strike"@en,
+        "estratificación"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/medida-estructural> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/medida-estructural> a skos:ConceptScheme ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://www.igme.es" ;
+    dcterms:description "Terms describing the type of structural measurement."@en,
+        "Términos que recogen el tipo de medida estructural."@es ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:provenance "Términos propios definidos por el IGME" ;
+    dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Structural measurement type"@en,
+        "Tipo de medida estructural"@es ;
+    owl:versionInfo "1.0.0" ;
+    skos:definition "Terms describing the type of structural measurement."@en,
+        "Términos que recogen el tipo de medida estructural."@es ;
+    skos:editorialNote "Este archivo contiene el vocabulario Tipo de medida estructural."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/medida-estructural/estratificacion> ;
+    skos:prefLabel "Structural measurement type"@en,
+        "Tipo de medida estructural"@es ;
+    dcat:theme "GE" .
+

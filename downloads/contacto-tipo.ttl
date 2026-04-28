@@ -1,0 +1,589 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/collection> a skos:Collection ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:member <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-antropico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-concordante>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-alteracion>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-asociacion-mineral>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-conductividad>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-densidad>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-magnetizacion>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-polaridad-magnetica>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-provincia-geologica>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-susceptibilidad-magnetica>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-zona-cronoestratigrafica>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-zona-deformada>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-deposicional>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-diagenetico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-discordante>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-igneas>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-metamorficas>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-metasomaticas>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-geofisico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-intrusivo>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-lateral-de-facies-sedimentarias>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-magnetico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-mecanico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-metamorfico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-falla>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-intrusion-de-material-sedimentario>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-meteorizacion>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-radiometrico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-sismico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad-con-paleorrelieve>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/discontinuidad>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/inconformidad>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-estructura-de-impacto>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-zona-de-subsidencia-volcanica>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/linea-glaciar-estacionaria>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/paraconformidad> ;
+    skos:prefLabel "Contact type - All concepts"@en,
+        "Tipo de contacto - Todos los conceptos"@es .
+
+<https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
+    sdo:name "CGI Geoscience Terminology Working Group" ;
+    sdo:url <http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html> .
+
+<https://linked.data.gov.au/org/cgi> a sdo:Organization ;
+    sdo:name "Commission for the Management and Application of Geoscience Information" ;
+    sdo:url <http://www.cgi-iugs.org> .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-antropico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
+    skos:definition "Contact that limits an anthropic unit, that is, a geological unit resulting from human activity."@en,
+        "Contacto que limita una unidad antrópica, es decir una unidad geológica producto de la actividad humana."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "anthropogenic contact"@en,
+        "contacto antrópico"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-concordante> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-deposicional> ;
+    skos:definition "A contact separating two geological units in which the layers are formed one above the other in order by regular, uninterrupted deposition under the same general conditions."@en,
+        "Contacto que separa dos unidades geológicas en las que las capas se superponen ordenadamente una sobre otra en unas condiciones de depósito generales regulares e ininterrumpidas."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/conformable_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "conformable contact"@en,
+        "contacto concordante"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-alteracion> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-metamorfico> ;
+    skos:definition "A metasomatic facies contact separating rocks that have undergone alteration of a particular facies from those that have undergone metasomatism of another facies. Alteration is a kind of metasomatism that does not introduce economically important minerals."@en,
+        "Contacto que separa rocas con diferentes alteraciones metasomáticas. La alteración es una especie de metasomatismo que no introduce minerales económicamente importantes."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/alteration_facies_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "alteration facies contact"@en,
+        "contacto de alteración producto de metasomatismo"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-asociacion-mineral> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-metamorfico> ;
+    skos:definition "A metasomatic facies contact separating rocks which have been mineralised and contain a particular mineral assemblage from those which contain a different assemblage. Mineralization is a kind of metasomatism that introduces ecomomically important minerals."@en,
+        "Contacto de facies metasomática que separa rocas que han sido mineralizadas  y que presentan paragénesis minerales diferentes. La mineralización es una especie de metasomatismo que forma minerales de importancia económica."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/mineralisation_assemblage_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "mineralisation assemblage contact"@en,
+        "contacto de asociación mineral"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-conductividad> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-geofisico> ;
+    skos:definition "A geophysical contact between bodies of material distinguished based on electrical conductivity characteristics."@en,
+        "Un contacto geofísico entre cuerpos geológicos que se distingue en función de sus características de conductividad eléctrica."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/conductivity_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "conductivity contact"@en,
+        "contacto de conductividad"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-densidad> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-geofisico> ;
+    skos:definition "A geophysical contact separating bodies of material with different density characteristics, generally determined through measurement and modelling of gravity variations."@en,
+        "Un contacto geofísico que separa cuerpos geológicos con diferentes características de densidad, generalmente determinadas a través de la medición y modelado de las variaciones de la gravedad terrestre."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/density_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "density contact"@en,
+        "contacto de densidad"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-magnetizacion> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-magnetico> ;
+    skos:definition "A magnetic contact between bodies of material distinguished based on any aspect of magnetization of material in the units."@en,
+        "Un contacto magnético entre cuerpos geológicos que se distingue en función de cualquier aspecto de la magnetización del material en la unidad."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/magnetization_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "magnetization contact"@en,
+        "contacto de magnetización"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-polaridad-magnetica> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-magnetico> ;
+    skos:definition "A magnetic contact between bodies of material with different polarity of remnant magnetization, e.g. between sections of ocean floor with different polarity."@en,
+        "Un contacto magnético entre cuerpos geológicos con diferente polaridad de magnetización remanente, p. ej. entre secciones del fondo del océano con diferente polaridad."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/magnetic_polarity_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "magnetic polarity contact"@en,
+        "contacto de polaridad magnética"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-provincia-geologica> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
+    skos:definition "A contact between regions characterised by their geological history or by similar structural, petrographic or stratigraphic features."@en,
+        "Un contacto entre regiones caracterizadas por su historia geológica o por características estructurales, petrográficas o estratigráficas similares."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/geologic_province_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "geologic province contact"@en,
+        "contacto de provincia geológica"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-susceptibilidad-magnetica> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-magnetico> ;
+    skos:definition "A magnetic contact between bodies of material distinguished based on magnetic susceptibility characteristics."@en,
+        "Un contacto magnético entre cuerpos geológicos que se distingue en función de las características de susceptibilidad magnética."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/magnetic_susceptiblity_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "magnetic susceptiblity contact"@en,
+        "contacto de susceptibilidad magnética"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-zona-cronoestratigrafica> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
+    skos:definition "A contact between bodies of material having different ages of origin."@en,
+        "Un contacto entre cuerpos geológicos que tienen diferentes edades de formación."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/chronostratigraphic_zone_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "chronostratigraphic-zone contact"@en,
+        "contacto de zona cronoestratigráfica"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-zona-deformada> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico> ;
+    skos:definition "A lithogenetic bundary separating rock masses that have different deformation structure, e.g. sheared rock against non sheared rock, brecciated rock against non-brecciated rock."@en,
+        "Contacto litogenético que separa masas rocosas que tienen diferente grado de deformación, p. ej. rocas con cizallas de rocas no cizalladas o rocas con esquistosidad con rocas que carecen de ella."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/deformation_zone_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "deformation zone contact"@en,
+        "contacto de zona deformada"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-diagenetico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
+    skos:definition "Boundary between rock units resulting from diagenetic processes such as cementation, recrystallization, or dissolution, which occur after deposition during the transformation of sediments into rock."@en,
+        "Límite entre unidades rocosas generado por procesos de diagénesis, como la cementación, recristalización o disolución, que ocurren tras la deposición, durante la transformación de sedimentos en roca."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "diagenetic contact"@en,
+        "contacto diagenético"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-discordante> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/discontinuidad> ;
+    skos:definition "An unconformable contact between two geological units in which the older, underlying rocks dip at an angle different from the younger, overlying strata, usually in which younger sediments rest upon the eroded surface of tilted or folded older rocks."@en,
+        "Discontinuidad entre dos unidades geológicas en el que las rocas subyacentes más antiguas buzan en un ángulo diferente al de los estratos superpuestos más jóvenes. Generalmente los sedimentos más jóvenes descansan sobre la superficie erosionada de rocas más antiguas inclinadas o plegadas."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/angular_unconformable_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "angular unconformable contact"@en,
+        "contacto discordante"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-igneas> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico> ;
+    skos:definition "A lithogenetic contact separating lithologically distinct phases of a single intrusive body. Does not denote nature of contact (intrusive or gradation)."@en,
+        "Contacto litogenético que separa fases litológicamente distintas de un solo cuerpo intrusivo. No denota la naturaleza del contacto (intrusivo o gradacional)."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/igneous_phase_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "igneous phase contact"@en,
+        "contacto entre fases ígneas"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-metamorficas> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-metamorfico> ;
+    skos:definition "A metamorphic contact separating rocks that have undergone metamorphism of a particular facies from those that have undergone metamorphism of another facies."@en,
+        "Contacto metamórfico que separa rocas con diferentes facies metamórficas."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/metamorphic_facies_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "metamorphic facies contact"@en,
+        "contacto entre facies metamórficas"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-metasomaticas> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-metamorfico> ;
+    skos:definition "A metamorphic contact separating rocks that have undergone metasomatism of a particular facies from those that have undergone metasomatism of another facies. Metasomatism is distinguished from metamorphism by significant changes in bulk chemistry of the affected rock."@en,
+        "Contacto metamórfico que separa rocas con diferentes facies metasomáticas. El metasomatismo se distingue del metamorfismo porque implica cambios significativos en la química general de la roca afectada."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/metasomatic_facies_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "metasomatic facies contact"@en,
+        "contacto entre facies metasomáticas"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-intrusivo> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico> ;
+    skos:definition "An intrusive contact between a younger igneous rock and an older, pre-existing geological unit into which it has been intruded."@en,
+        "Contacto intrusivo entre una roca ígnea más joven y una unidad geológica preexistente más antigua en la que ésta se ha intruído."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/igneous_intrusive_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "igneous intrusive contact"@en,
+        "contacto intrusivo"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-lateral-de-facies-sedimentarias> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico> ;
+    skos:definition "A lithogenetic contact separating essentially coeval sedimentary material bodies distinguished by characteristics reflecting different physical or chemical processes active at the time of deposition of the sediment."@en,
+        "Contacto litogenético que separa cuerpos geológicos sedimentarios esencialmente coetáneos que se distinguen por características que reflejan diferentes procesos físicos o químicos activos en el momento de la deposición del sedimento."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/sedimentary_facies_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "sedimentary facies contact"@en,
+        "contacto lateral de facies sedimentarias"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-mecanico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
+    skos:definition "Contact between two geological units that does not correspond to a stratigraphic or igneous/metamorphic contact, but rather involves a certain degree of displacement between the two units, which cannot be assigned to a specific category of fault due to the complexity of the displacement involved."@en,
+        "Contacto entre dos unidades geológicas que no corresponde a un contacto estratigráfico ni ígneo/metamórfico, sino que supone un cierto grado de desplazamiento entre las dos unidades, pero que no puede asignarse a una categoría concreta de falla  por la complejidad del desplazamiento que implica"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "mechanical contact"@en,
+        "contacto mecánico"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-falla> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
+    skos:definition "A contact separating two bodies of material across which one body has slid past the other."@en,
+        "Un contacto que separa dos unidades geológicas a través de los cuales un cuerpo se ha deslizado sobre el otro."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/faulted_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "faulted contact"@en,
+        "contacto por falla"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-intrusion-de-material-sedimentario> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico> ;
+    skos:definition "An intrusive contact between a sedimentary rock unit and plastic sediment (e.g., clay, chalk, salt, gypsum, etc.), forced upward into it from underlying sediment"@en,
+        "Contacto intrusivo entre una unidad de roca sedimentaria y un sedimento plástico (p. ej. arcilla, marga, sal, yeso, etc.), forzado hacia arriba desde los depósitos subyacentes."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/sedimentary_intrusive_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "sedimentary intrusive contact"@en,
+        "contacto por intrusión de material sedimentario"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-meteorizacion> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico> ;
+    skos:definition "A lithogenetic contact separating bodies of material differentiated based on lithologic properties related to weathering."@en,
+        "Contacto litogenético que separa cuerpos geológicos diferenciados en función de las propiedades litológicas relacionadas con la meteorización."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/weathering_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "weathering contact"@en,
+        "contacto por meteorización"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-radiometrico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-geofisico> ;
+    skos:definition "A geophysical contact separating bodies of material distinguished based on the characteristics of emitted of radiant energy related to radioactivity (e.g. gamma rays)."@en,
+        "Un contacto geofísico que separa cuerpos geológicos que se distingue en función de las características de la energía radiante emitida relacionada con la radiactividad (por ejemplo, rayos gamma)."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/radiometric_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "radiometric contact"@en,
+        "contacto radiométrico"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-sismico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-geofisico> ;
+    skos:definition "A geophysical contact separating bodies of material defined based on their seismic character. Seismic character is based on transmission of vibrations (seismic waves) through a rock body, and relates to the velocity of transmission, and the nature of reflection, refraction, or transformation of seismic waves by inhomogeneities in the rock body."@en,
+        "Un contacto geofísico que separa cuerpos geológicos definidos en función de su carácter sísmico. El carácter sísmico se basa en la transmisión de vibraciones (ondas sísmicas) a través de un cuerpo rocoso y se relaciona con la velocidad de transmisión y la naturaleza de la reflexión, refracción o transformación de las ondas sísmicas por inhomogeneidades en el cuerpo rocoso."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/seismic_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "seismic contact"@en,
+        "contacto sísmico"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/discontinuidad> ;
+    skos:definition "An unconformable contact between two geological units in which the bedding of the older, underlying unit is parallel to the bedding of the younger, overlying unit, but in which the contact between the two units is marked by an irregular or uneven surface of appreciable relief."@en,
+        "Discontinuidad estratigráfica en la que, entre las unidades infrayacente y suprayacente, hay paralelismo de capas, pero entre ambas media una superficie claramente erosiva."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/disconformable_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "disconformable contact"@en,
+        "disconformidad"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad-con-paleorrelieve> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/discontinuidad> ;
+    skos:definition "An unconformity in which onlapping strata are truncated against a steep topographic scarp."@en,
+        "Una discontinuidad en la que los estratos superpuestos se truncan contra una superficie de relieve abrupto."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/buttress_unconformity> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "buttress unconformity"@en,
+        "discontinuidad con paleorrelieve"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/inconformidad> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/discontinuidad> ;
+    skos:definition "An unconformable contact between an underlying, older nonstratified geological unit (usually intrusive igneous rocks or metamorphics) and an overlying, younger stratified geological unit."@en,
+        "Superficie de discontinuidad entre una unidad geológica subyacente, más antigua, no estratificada (generalmente rocas ígneas intrusivas o metamórficas) y una unidad geológica estratificada más joven y superpuesta."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/nonconformable_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "nonconformable contact"@en,
+        "inconformidad"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-estructura-de-impacto> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico> ;
+    skos:definition "surface that bounds a body of rock affected by an extraterrestrial impact event"@en,
+        "Superficie que delimita un cuerpo de roca afectado por un evento de impacto extraterrestre."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/impact_structure_boundary> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "impact structure boundary"@en,
+        "límite de estructura de impacto"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-zona-de-subsidencia-volcanica> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico> ;
+    skos:definition "boundary around a body of rock that is within a zone of subsidence or cratering produced by volcanic activity."@en,
+        "Límite alrededor de un cuerpo de roca que se encuentra dentro de una zona de hundimiento o cráter producido por la actividad volcánica."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/volcanic_subsidence_zone_boundary> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "volcanic subsidence zone boundary"@en,
+        "límite de zona de subsidencia volcánica"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/linea-glaciar-estacionaria> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
+    skos:definition "A boundary between a subglacial geomorphic unit and a periglacial geomorphic unit, marking the maximum extent of glacial cover. This can be thought of as the outcrop of the contact between a glacier and its substrate at some time at each point along the boundary. This contact type is included as an interim concept, assuming that in the future, there will be extensions to account better for geomorphic units and line type"@en,
+        "Un límite entre una unidad geomorfológica subglacial y una unidad geomorfológica periglacial, que marca la extensión máxima de cobertura glaciar. Puede considerase como el afloramiento del contacto entre un glaciar y su sustrato en algún momento en cada punto a lo largo del límite."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/glacial_stationary_line> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "glacial stationary line"@en,
+        "línea glaciar estacionaria"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/paraconformidad> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/discontinuidad> ;
+    skos:definition "An unconformable contact between two geological units in which the bedding of the older, underlying unit is parallel to the bedding of the younger, overlying unit, in which the contact between the two units is planar, and may be coincident with a bedding plane."@en,
+        "Discontinuidad estratigráfica en la que hay un paralelismo entre los materiales subyacentes y los superpuestos, siendo la superficie de discontinuidad paralela a los planos de estratificación."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/paraconformable_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:prefLabel "paraconformable contact"@en,
+        "paraconformidad"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-deposicional> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico> ;
+    skos:definition "Lithogenetic contact at which a sedimentary or volcanic rock has been deposited on (or against) another rock body. The relationship between the older underlying rocks and younger overlying rocks is unknown or not specfied."@en,
+        "Contacto litogenético que delimita una roca sedimentaria o volcánica depositada sobre (o contra) otro cuerpo rocoso. La relación entre las rocas subyacentes y las suprayacentes se desconoce o no se especifica."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/depositional_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-concordante>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/discontinuidad> ;
+    skos:prefLabel "depositional contact"@en,
+        "contacto deposicional"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-magnetico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-geofisico> ;
+    skos:definition "A geophysical contact separating bodies of material distinguished based on properties related to magnetic fields."@en,
+        "Un contacto geofísico que separa cuerpos geológicos que se distinguen en función de las propiedades relacionadas con los campos magnéticos."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/magnetic_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-magnetizacion>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-polaridad-magnetica>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-susceptibilidad-magnetica> ;
+    skos:prefLabel "magnetic contact"@en,
+        "contacto magnético"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-metamorfico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico> ;
+    skos:definition "Lithogenetic contact separating rocks that have different lithologic properties related to metamorphism, metasomatism, alteration, or mineralization. Generally separates metamorphic rock bodies, but may separate metamorphosed (broadly speaking) and non-metamorphosed rock."@en,
+        "Contacto litogenético que separa rocas con diferentes propiedades litológicas relacionadas con el metamorfismo, metasomatismo, alteración o mineralización. Generalmente separa cuerpos de rocas metamórficas, pero puede separar rocas metamorfizadas (hablando en términos generales) de rocas no metamorfizadas."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/metamorphic_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-alteracion>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-asociacion-mineral>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-metamorficas>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-metasomaticas> ;
+    skos:prefLabel "metamorphic contact"@en,
+        "contacto metamórfico"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-geofisico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
+    skos:definition "A contact separating bodies of material in the earth that have different geophysical properties. Use for boundaries that are detected by geophysical sensor techniques as opposed to direct lithologic observation."@en,
+        "Un contacto que separa cuerpos geológicos que tienen diferentes propiedades geofísicas. Se utiliza para límites que se detectan mediante técnicas de sensores geofísicos en contraposición a la observación litológica directa."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/geophysical_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-conductividad>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-densidad>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-magnetico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-radiometrico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-sismico> ;
+    skos:prefLabel "geophysical contact"@en,
+        "contacto geofísico"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/discontinuidad> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-deposicional> ;
+    skos:definition "A contact separating two geological units in which the younger unit succeeds the older after a substantial hiatus in deposition."@en,
+        "Contacto que separa dos unidades geológicas en el que la unidad más joven sucede a la más antigua tras una interrupción medible de la sedimentación."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/unconformable_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-discordante>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/disconformidad-con-paleorrelieve>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/inconformidad>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/paraconformidad> ;
+    skos:prefLabel "unconformable contact"@en,
+        "discontinuidad"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:definition "A surface that separates geologic units. Very general concept representing any kind of surface separating two geologic units, including primary boundaries such as depositional contacts, all kinds of unconformities, intrusive contacts, and gradational contacts, as well as faults that separate geologic units."@en,
+        "Una superficie que separa unidades geológicas. Concepto muy general que representa cualquier tipo de superficie que separa dos unidades geológicas, incluyendo límites primarios como contactos deposicionales, discordancias, contactos intrusivos y contactos gradacionales, así como todo tipo de fallas."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-antropico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-provincia-geologica>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-zona-cronoestratigrafica>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-diagenetico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-geofisico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-mecanico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-falla>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/linea-glaciar-estacionaria> ;
+    skos:prefLabel "contact"@en,
+        "contacto"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-litogenetico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
+    skos:definition "A non-faulted contact separating bodies of material in the earth that have different lithologic character or geologic history."@en,
+        "Cualquier tipo de contacto, excepto  por falla, que separa cuerpos geológicos que tienen diferente carácter litológico o historia geológica."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/contacttype/lithogenetic_contact> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/contacto-tipo> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-de-zona-deformada>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-deposicional>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-entre-facies-igneas>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-intrusivo>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-lateral-de-facies-sedimentarias>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-metamorfico>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-intrusion-de-material-sedimentario>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto-por-meteorizacion>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-estructura-de-impacto>,
+        <https://geo-carto.github.io/vocabularios/contacto-tipo/limite-de-zona-de-subsidencia-volcanica> ;
+    skos:prefLabel "lithogenetic contact"@en,
+        "contacto litogenético"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo> a skos:ConceptScheme ;
+    dcterms:contributor "https://www.igme.es" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://cgi-iugs.org/" ;
+    dcterms:description "The property ContactTypeTerm classifies the contact (e.g. intrusive, unconformity, bedding surface, lithologic boundary, phase boundary) and is a term from a controlled vocabulary."@en,
+        "Términos que clasifican el tipo de contacto (por ejemplo: intrusivo, discordancia, superficie de estratificación, límite litológico, límite de fase)."@es ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME" ;
+    dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Contact type"@en,
+        "Tipo de contacto"@es ;
+    owl:versionInfo "1.0.0" ;
+    skos:definition "The property ContactTypeTerm classifies the contact (e.g. intrusive, unconformity, bedding surface, lithologic boundary, phase boundary) and is a term from a controlled vocabulary."@en,
+        "Términos que clasifican el tipo de contacto (por ejemplo: intrusivo, discordancia, superficie de estratificación, límite litológico, límite de fase)."@es ;
+    skos:editorialNote "Este archivo contiene el vocabulario Tipo de contacto."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
+    skos:prefLabel "Contact type"@en,
+        "Tipo de contacto"@es ;
+    dcat:theme "GE" .
+

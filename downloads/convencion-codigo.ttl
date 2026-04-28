@@ -1,0 +1,73 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://geo-carto.github.io/vocabularios/convencion-codigo/collection> a skos:Collection ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/convencion-codigo> ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/convencion-codigo> ;
+    skos:member <https://geo-carto.github.io/vocabularios/convencion-codigo/direccion-de-buzamiento>,
+        <https://geo-carto.github.io/vocabularios/convencion-codigo/regla-de-la-mano-derecha> ;
+    skos:prefLabel "Convention Code - All concepts"@en,
+        "Código de convención - Todos los conceptos"@es .
+
+<https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
+    sdo:name "CGI Geoscience Terminology Working Group" ;
+    sdo:url <http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html> .
+
+<https://linked.data.gov.au/org/cgi> a sdo:Organization ;
+    sdo:name "Commission for the Management and Application of Geoscience Information" ;
+    sdo:url <http://www.cgi-iugs.org> .
+
+<https://geo-carto.github.io/vocabularios/convencion-codigo/direccion-de-buzamiento> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/convencion-codigo> ;
+    skos:definition "The orientation measurement consists of a dip and a dip direction. Dip is the angle that the structural surface (eg bedding, fault plane) makes with the horizontal measured perpendicular to the strike of the structure and in the vertical plane Dip direction is the azimuth perpindicular to the strike of the structure"@en,
+        "La medida de orientación consiste en un buzamiento y una dirección de buzamiento. El buzamiento es el ángulo que la superficie estructural forma con la horizontal medido perpendicularmente al rumbo y en el plano vertical. La dirección de buzamiento es el acimut perpendicular al rumbo de la estructura."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/conventioncode/dip_dip_direction> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/convencion-codigo> ;
+    skos:prefLabel "dip dip direction"@en,
+        "dirección de buzamiento"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/convencion-codigo> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/convencion-codigo/regla-de-la-mano-derecha> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/convencion-codigo> ;
+    skos:definition "The strike and dip of planar data is listed according to the right-hand rule or, as one looks along the strike direction, the surface dips to the right. Dip is the angle that the structural surface (eg bedding, fault plane) makes with the horizontal measured perpindicular to the strike of the structure and in the vertical plane"@en,
+        "El rumbo y buzamiento de datos planares se indica según la regla de la mano derecha: mirando en la dirección del rumbo, la superficie buza hacia la derecha. El buzamiento es el ángulo que la superficie estructural forma con la horizontal medido perpendicularmente al rumbo y en el plano vertical."@es ;
+    skos:exactMatch <http://resource.geosciml.org/classifier/cgi/conventioncode/strike_dip_rhr> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/convencion-codigo> ;
+    skos:prefLabel "strike dip right hand rule"@en,
+        "regla de la mano derecha"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/convencion-codigo> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/convencion-codigo> a skos:ConceptScheme ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://commission.europa.eu/" ;
+    dcterms:description "Convention code used for expressing the orientation of a structural measurement."@en,
+        "Código de convención utilizado para expresar la orientación de una medida estructural."@es ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:provenance "Términos originales de INSPIRE" ;
+    dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Convention Code"@en,
+        "Código de convención"@es ;
+    owl:versionInfo "1.0.0" ;
+    skos:definition "Convention code used for expressing the orientation of a structural measurement."@en,
+        "Código de convención utilizado para expresar la orientación de una medida estructural."@es ;
+    skos:editorialNote "Este archivo contiene el vocabulario Código de convención."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/convencion-codigo/direccion-de-buzamiento>,
+        <https://geo-carto.github.io/vocabularios/convencion-codigo/regla-de-la-mano-derecha> ;
+    skos:prefLabel "Convention Code"@en,
+        "Código de convención"@es ;
+    dcat:theme "GE" .
+

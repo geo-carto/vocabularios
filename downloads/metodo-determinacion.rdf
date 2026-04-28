@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sdo="https://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-partir-de-fotografia-aerea">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <skos:prefLabel xml:lang="es">estimación a partir de fotografía aérea</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">estimate from air photo</skos:prefLabel>
+    <skos:definition xml:lang="es">Orientación de una estructura geológica estimada a partir de la inspección o mediciones sobre una fotografía aérea.</skos:definition>
+    <skos:definition xml:lang="en">Orientation of a geologic structure estimated based on inspection or measurements on an air photograph.</skos:definition>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/estimate_from_air_photo"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metodo-determinacion">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="es">Método de determinación</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Determination Method</skos:prefLabel>
+    <dcterms:title xml:lang="es">Método de determinación</dcterms:title>
+    <dcterms:title xml:lang="en">Determination Method</dcterms:title>
+    <skos:definition xml:lang="es">Método utilizado para determinar la orientación de una estructura geológica.</skos:definition>
+    <skos:definition xml:lang="en">Method used to determine the orientation of a geological structure.</skos:definition>
+    <dcterms:description xml:lang="es">Método utilizado para determinar la orientación de una estructura geológica.</dcterms:description>
+    <dcterms:description xml:lang="en">Method used to determine the orientation of a geological structure.</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:provenance>Términos propios definidos por el IGME</dcterms:provenance>
+    <dcterms:creator>https://www.igme.es</dcterms:creator>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <dcat:theme>GE</dcat:theme>
+    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Método de determinación.</skos:editorialNote>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/orientacion-media-calculada"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-partir-de-fotografia-aerea"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-distancia"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-fotogeologica"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-por-tres-puntos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-instrumental-en-campo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <skos:prefLabel xml:lang="es">medida instrumental en campo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">standard on site measure</skos:prefLabel>
+    <skos:definition xml:lang="es">Orientación medida usando brújula u otro instrumento directamente sobre o en un afloramiento de la estructura.</skos:definition>
+    <skos:definition xml:lang="en">Orientation measured using compass or other instrument directly on or at an outcrop of the structure.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/standard_on_site_measure"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-fotogeologica">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <skos:prefLabel xml:lang="es">determinación fotogeológica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">photogeologic determination</skos:prefLabel>
+    <skos:definition xml:lang="es">Orientación determinada a partir de mediciones sobre fotografía aérea o imágenes de satélite (junto con un modelo de elevación).</skos:definition>
+    <skos:definition xml:lang="en">Orientation determined based on measurements from aerial photography or satellite imagery (in conjunction with an elevation model.</skos:definition>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/photogeologic_determination"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metodo-determinacion/orientacion-media-calculada">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <skos:prefLabel xml:lang="es">orientación media calculada</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">calculated average orientation</skos:prefLabel>
+    <skos:definition xml:lang="es">El valor de orientación se especifica usando una media calculada de un conjunto de orientaciones relacionadas (generalización por computador).</skos:definition>
+    <skos:definition xml:lang="en">Orientation value is specified using a calculated average of a collection of related orientations (computer generalization).</skos:definition>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/calculated_average_orientation"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-visual-en-afloramiento">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <skos:prefLabel xml:lang="es">estimación visual en afloramiento</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">visual surface estimation on outcrop</skos:prefLabel>
+    <skos:definition xml:lang="es">Orientación de una superficie medida promediando visualmente en uno o más afloramientos en un área reducida, por ejemplo, aproximando el buzamiento mirando a lo largo del rumbo de las capas.</skos:definition>
+    <skos:definition xml:lang="en">Orientation of a surface is measured by visually averaging across one or more outcrops in a small area--e.g. approximating dip by looking down strike of beds, approximating strike by outcrop trace of one or more beds.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/visual_surface_estimation_on_outcrop"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metodo-determinacion/collection">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <skos:prefLabel xml:lang="es">Método de determinación - Todos los conceptos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Determination Method - All concepts</skos:prefLabel>
+    <skos:definition xml:lang="es">Todos los conceptos en este vocabulario.</skos:definition>
+    <skos:definition xml:lang="en">All concepts in this vocabulary.</skos:definition>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/orientacion-media-calculada"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-partir-de-fotografia-aerea"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-distancia"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-fotogeologica"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-por-tres-puntos"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-instrumental-en-campo"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-visual-en-afloramiento"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-en-afloramiento">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <skos:prefLabel xml:lang="es">medida en afloramiento</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">measure on outcrop</skos:prefLabel>
+    <skos:definition xml:lang="es">La orientación de la superficie o línea se mide directamente sobre un afloramiento de dicha superficie o línea, por ejemplo, midiendo una superficie de estratificación particular, una exposición 3D de una charnela de pliegue, un grano mineral estirado en una superficie de foliación.</skos:definition>
+    <skos:definition xml:lang="en">Orientation of surface or line is measured on an outcrop of that surface or line directly, e.g. by measuring a particular bedding surface, a 3-D exposure of a fold hinge, a particular stretched mineral grain in a foliation surface.</skos:definition>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/medida-instrumental-en-campo"/>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-visual-en-afloramiento"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/measure_on_outcrop"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metodo-determinacion/estimacion-a-distancia">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <skos:prefLabel xml:lang="es">estimación a distancia</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">estimate from distance</skos:prefLabel>
+    <skos:definition xml:lang="es">Orientación de una estructura geológica basada en la observación a una distancia suficiente como para impedir la inspección directa de la estructura.</skos:definition>
+    <skos:definition xml:lang="en">Orientation of a geologic structure based on observation from a distance great enough to preclude direct inspection of the structure to determine orientation.</skos:definition>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/estimate_from_distance"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/metodo-determinacion/determinacion-por-tres-puntos">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/metodo-determinacion"/>
+    <skos:prefLabel xml:lang="es">determinación por tres puntos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">three point determination</skos:prefLabel>
+    <skos:definition xml:lang="es">Orientación determinada ajustando un plano a tres o más puntos situados en la superficie geológica de interés.</skos:definition>
+    <skos:definition xml:lang="en">Orientation determined by fitting a plane to three or more points located on the geologic surface of interest.</skos:definition>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/three_point_determination"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  </rdf:Description>
+</rdf:RDF>

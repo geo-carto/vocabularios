@@ -1,0 +1,148 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://geo-carto.github.io/vocabularios/afloramiento-caracter/collection> a skos:Collection ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:member <https://geo-carto.github.io/vocabularios/afloramiento-caracter/acantilado>,
+        <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-aceptable>,
+        <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-alterado>,
+        <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-bueno>,
+        <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-deficiente>,
+        <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-en-bloques>,
+        <https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento>,
+        <https://geo-carto.github.io/vocabularios/afloramiento-caracter/sin-afloramiento> ;
+    skos:prefLabel "Outcrop character - All concepts"@en,
+        "Carácter del afloramiento - Todos los conceptos"@es .
+
+<https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
+    sdo:name "CGI Geoscience Terminology Working Group" ;
+    sdo:url <http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html> .
+
+<https://linked.data.gov.au/org/cgi> a sdo:Organization ;
+    sdo:name "Commission for the Management and Application of Geoscience Information" ;
+    sdo:url <http://www.cgi-iugs.org> .
+
+<https://geo-carto.github.io/vocabularios/afloramiento-caracter/acantilado> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento> ;
+    skos:definition "Outcrop that gives rise to vertical walls, often inaccessible"@en,
+        "Afloramiento que da lugar a paredes verticales, frecuentemente inaccesibles"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:prefLabel "cliff-forming"@en,
+        "acantilado"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-aceptable> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento> ;
+    skos:definition "Outcrop with a moderate quality of exposure (the composition of the unit can be further detailed and, where appropriate, some textural or structural features can be outlined)"@en,
+        "Afloramiento con una moderada calidad de exposición (se puede detallar algo más la composición de la unidad y, en su caso, esbozar algún rasgo textural o estructural)"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:prefLabel "medium quality outcrop"@en,
+        "afloramiento aceptable"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-alterado> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento> ;
+    skos:definition "Bad outcrops, affected by non mappable alteration"@en,
+        "Afloramiento deficiente por estar afectada por una alteración no cartografiable"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:prefLabel "weathered outcrop"@en,
+        "afloramiento alterado"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-bueno> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento> ;
+    skos:definition "Good outcrops which allows to a precise description of the unit in terms of  composition, texture, internal organisation  and structure"@en,
+        "Afloramiento que permite una descripción detallada de la unidad, al menos en cuanto a composición, textura organización interna y estructura"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:prefLabel "well exposed"@en,
+        "afloramiento bueno"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-deficiente> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento> ;
+    skos:definition "Bad exposed outrops, only suitable for determining the overall unit composition"@en,
+        "Afloramiento con muy mala calidad de exposición (como mucho se puede señalar la composición general de la unidad)"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:prefLabel "poorly exposed"@en,
+        "afloramiento deficiente"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-en-bloques> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:broader <https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento> ;
+    skos:definition "Outcrops made up of large blocks, individualized by erosion or weathering"@en,
+        "Afloramientos constituido por grandes bloques, individualizados por la erosión  o la meteorización"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:prefLabel "bouldery"@en,
+        "afloramiento en bloques"@es ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/afloramiento-caracter/sin-afloramiento> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:definition "Covered, not outcropping unit"@en,
+        "Unidad cubierta (y que por tanto no aflora) por suelos, vegetación, construcciones, etc."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:prefLabel "no outcrop"@en,
+        "sin afloramiento"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:definition "con afloramiento"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    skos:narrower <https://geo-carto.github.io/vocabularios/afloramiento-caracter/acantilado>,
+        <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-aceptable>,
+        <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-alterado>,
+        <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-bueno>,
+        <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-deficiente>,
+        <https://geo-carto.github.io/vocabularios/afloramiento-caracter/afloramiento-en-bloques> ;
+    skos:prefLabel "with outcrop"@en,
+        "con afloramiento"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/afloramiento-caracter> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/afloramiento-caracter> a skos:ConceptScheme ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://www.igme.es" ;
+    dcterms:description "The property outcropCharacter provides a term that describes the nature of outcrops formed by a geologic unit. Examples are: bouldery, cliff-forming, ledge-forming, slope-forming, poorly exposed."@en,
+        "Términos que describen la naturaleza de los afloramientos formados por una unidad geológica. Ejemplos: con bloques, formadora de acantilado, formadora de repisa, formadora de ladera, pobremente expuesta."@es ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:provenance "Términos propios definidos por el IGME" ;
+    dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Outcrop character"@en,
+        "Carácter del afloramiento"@es ;
+    owl:versionInfo "1.0.0" ;
+    skos:definition "The property outcropCharacter provides a term that describes the nature of outcrops formed by a geologic unit. Examples are: bouldery, cliff-forming, ledge-forming, slope-forming, poorly exposed."@en,
+        "Términos que describen la naturaleza de los afloramientos formados por una unidad geológica. Ejemplos: con bloques, formadora de acantilado, formadora de repisa, formadora de ladera, pobremente expuesta."@es ;
+    skos:editorialNote "Este archivo contiene el vocabulario Carácter del afloramiento."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/afloramiento-caracter/con-afloramiento>,
+        <https://geo-carto.github.io/vocabularios/afloramiento-caracter/sin-afloramiento> ;
+    skos:prefLabel "Outcrop character"@en,
+        "Carácter del afloramiento"@es ;
+    dcat:theme "GE" .
+

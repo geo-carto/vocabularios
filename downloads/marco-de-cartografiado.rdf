@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sdo="https://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/marco-de-cartografiado/collection">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado"/>
+    <skos:prefLabel xml:lang="es">Marco de cartografiado - Todos los conceptos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Mapping frame - All concepts</skos:prefLabel>
+    <skos:definition xml:lang="es">Todos los conceptos en este vocabulario.</skos:definition>
+    <skos:definition xml:lang="en">All concepts in this vocabulary.</skos:definition>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado/base-del-cuaternario"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado/geologia-superficial"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-de-la-roca-madre"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-del-basamento"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/marco-de-cartografiado/geologia-superficial">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado"/>
+    <skos:prefLabel xml:lang="es">geología superficial</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">surface geology</skos:prefLabel>
+    <skos:definition xml:lang="es">Roca y depósitos superficiales que se hacen visibles si se retira el suelo suprayacente o que están expuestos en la superficie topográfica</skos:definition>
+    <skos:definition xml:lang="en">Bedrock and predominantly unconsolidated sedimentary material of Quaternary age (superficial deposits) that would be visible if the overlying soil was removed or are exposed at the topographic surface</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/MappingFrameValue/surfaceGeology"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/mappingframe/surface_geology"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/marco-de-cartografiado">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="es">Marco de cartografiado</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Mapping frame</skos:prefLabel>
+    <dcterms:title xml:lang="es">Marco de cartografiado</dcterms:title>
+    <dcterms:title xml:lang="en">Mapping frame</dcterms:title>
+    <skos:definition xml:lang="es">Términos referidos al marco de cartografiado.</skos:definition>
+    <skos:definition xml:lang="en">Terms referring to the mapping framework.</skos:definition>
+    <dcterms:description xml:lang="es">Términos referidos al marco de cartografiado.</dcterms:description>
+    <dcterms:description xml:lang="en">Terms referring to the mapping framework.</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:provenance>Términos originales del estándar GeoSciML traducidos al español por el IGME</dcterms:provenance>
+    <dcterms:creator>https://cgi-iugs.org/</dcterms:creator>
+    <dcterms:contributor>https://www.igme.es</dcterms:contributor>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <dcat:theme>GE</dcat:theme>
+    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Marco de cartografiado.</skos:editorialNote>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado/base-del-cuaternario"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado/geologia-superficial"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-de-la-roca-madre"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-del-basamento"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-de-la-roca-madre">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado"/>
+    <skos:prefLabel xml:lang="es">techo de la roca madre</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">top of bedrock</skos:prefLabel>
+    <skos:definition xml:lang="es">Superficie superior de la roca, generalmente consolidada, que o bien está expuesta en la superficie topográfica o bien está cubierta por otros depósitos no consolidados</skos:definition>
+    <skos:definition xml:lang="en">The surface in the crust of the Earth below sedimentary or volcanic deposits, or tectonically transported rock unit. What constitutes basement can depend on the context and may comprise other sedimentary, igneous and/or metamorphic rocks</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/MappingFrameValue/topOfBedrock"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/mappingframe/top_of_bedrock"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/marco-de-cartografiado/base-del-cuaternario">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado"/>
+    <skos:prefLabel xml:lang="es">base del cuaternario</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">base of Quaternary</skos:prefLabel>
+    <skos:definition xml:lang="es">Base de material sedimentario predominantemente no consolidado del período cuaternario</skos:definition>
+    <skos:definition xml:lang="en">Base of the predominantly unconsolidated sedimentary material of Quaternary age, also referred to as superficial deposits</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/MappingFrameValue/baseOfQuaternary"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/mappingframe/base_of_quaternary"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/marco-de-cartografiado/techo-del-basamento">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/marco-de-cartografiado"/>
+    <skos:prefLabel xml:lang="es">techo del basamento</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">top of basement</skos:prefLabel>
+    <skos:definition xml:lang="es">Superficie de la corteza terrestre existente debajo de los depósitos sedimentarios o volcánicos, o unidad de roca transportada tectónicamente</skos:definition>
+    <skos:definition xml:lang="en">Top surface of the usually solid rock that may either be exposed at the topographic surface or covered by other younger unconsolidated deposits of Quaternary age (superficial deposits)</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/MappingFrameValue/topOfBasement"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/mappingframe/top_of_basement"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  </rdf:Description>
+</rdf:RDF>

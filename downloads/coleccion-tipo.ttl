@@ -1,0 +1,128 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://geo-carto.github.io/vocabularios/coleccion-tipo/collection> a skos:Collection ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    skos:definition "All concepts in this vocabulary."@en,
+        "Todos los conceptos en este vocabulario."@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    skos:member <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-datos-geofisicos>,
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-sondeos>,
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/documentacion>,
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/estacion>,
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/mapa-geologico>,
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/modelo-geologico> ;
+    skos:prefLabel "Collection type - All concepts"@en,
+        "Tipo de colección - Todos los conceptos"@es .
+
+<https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
+    sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
+    sdo:name "CGI Geoscience Terminology Working Group" ;
+    sdo:url <http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html> .
+
+<https://linked.data.gov.au/org/cgi> a sdo:Organization ;
+    sdo:name "Commission for the Management and Application of Geoscience Information" ;
+    sdo:url <http://www.cgi-iugs.org> .
+
+<https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-datos-geofisicos> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    skos:definition "Collection of geophysical objects"@en,
+        "Colección de datos geofísicos"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geophysicalObjectCollection> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    skos:prefLabel "geophysical object collection"@en,
+        "colección de datos geofísicos"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-sondeos> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    skos:definition "Collection of boreholes"@en,
+        "Colección de sondeos"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/CollectionTypeValue/boreholeCollection> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    skos:prefLabel "borehole collection"@en,
+        "colección de sondeos"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/coleccion-tipo/documentacion> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    skos:definition "Collection of documentations"@en,
+        "Colección de documentos"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    skos:prefLabel "documentation"@en,
+        "documentación"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/coleccion-tipo/estacion> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    skos:definition "Collection of stations"@en,
+        "Colección de estaciones"@es ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    skos:prefLabel "station"@en,
+        "estación"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/coleccion-tipo/mapa-geologico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    skos:definition "Collection of features for a geological map which described geological units, structures geomorphologic features, etc"@en,
+        "Colección de objetos de un mapa geológico que describen las unidades geológicas, las estructuras y los objetos geomorfológicos."@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geologicalMap> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    skos:prefLabel "geological map"@en,
+        "mapa geológico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/coleccion-tipo/modelo-geologico> a skos:Concept ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    skos:definition "Collection of objects for a 3D geological spatial model"@en,
+        "Colección de objetos de un modelo de datos geológico 3D"@es ;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geologicalModel> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    skos:prefLabel "geological model"@en,
+        "modelo geológico"@es ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/coleccion-tipo> ;
+    adms:status "Válido" .
+
+<https://geo-carto.github.io/vocabularios/coleccion-tipo> a skos:ConceptScheme ;
+    dcterms:contributor "https://www.igme.es" ;
+    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:creator "https://cgi-iugs.org/" ;
+    dcterms:description "Terms referring to stratigraphic rank."@en,
+        "Términos referidos a rango estratigráfico."@es ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:provenance "Términos de Inspire ampliada por el IGME" ;
+    dcterms:publisher <https://www.igme.es/> ;
+    dcterms:title "Collection type"@en,
+        "Tipo de colección"@es ;
+    owl:versionInfo "1.0.0" ;
+    skos:definition "Terms referring to stratigraphic rank."@en,
+        "Términos referidos a rango estratigráfico."@es ;
+    skos:editorialNote "Este archivo contiene el vocabulario Tipo de colección."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-datos-geofisicos>,
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-sondeos>,
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/documentacion>,
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/estacion>,
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/mapa-geologico>,
+        <https://geo-carto.github.io/vocabularios/coleccion-tipo/modelo-geologico> ;
+    skos:prefLabel "Collection type"@en,
+        "Tipo de colección"@es ;
+    dcat:theme "GE" .
+
