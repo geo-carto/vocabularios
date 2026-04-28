@@ -40,6 +40,9 @@ jobs:
           -e GATSBY_RESPOSITORY_URL=https://github.com/$GITHUB_REPOSITORY
           ghcr.io/geo-carto/skohub-vocabs-custom:latest
 
+      - name: Copiar archivos de descarga
+        run: cp -r data/downloads public/downloads
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
