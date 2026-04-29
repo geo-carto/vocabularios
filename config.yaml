@@ -31,15 +31,16 @@ ui:
     skoHubLightGrey: "rgb(235, 235, 235)"
   fonts:
     regular:
-      font_family: "Roboto"
+      font_family: "roboto"
       font_style: "normal"
       font_weight: 400
       name: "roboto-regular"
     bold:
-      font_family: "barlow-condensed"
+      font_family: "bahnschrift"
       font_style: "normal"
-      font_weight: 700
-      name: "barlow-condensed-bold"
+      font_weight: 600
+      font_stretch: "75px"
+      name: "bahnschrift"
   footer:
     links:
       - title: "IGME-CSIC"
