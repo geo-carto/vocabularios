@@ -36,12 +36,12 @@ ui:
       font_weight: 400
       name: "roboto-regular"
     bold:
-      font_family: "bahnschrift"
+      font_family: "gill-sans-nova"
       font_style: "normal"
       font_weight: 700
-      font_stretch: "75%"
-      name: "bahnschrift"
-  footer:
+      #font_stretch: "75%"
+      name: "gill-sans-nova-condensed"
+  footer
     links:
       - title: "IGME-CSIC"
         url: "https://www.igme.es"
