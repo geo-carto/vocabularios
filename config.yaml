@@ -36,11 +36,11 @@ ui:
       font_weight: 400
       name: "roboto-regular"
     bold:
-      font_family: "gill-sans-nova"
+      font_family: "gill-sans-nova-condensed"
       font_style: "normal"
       font_weight: 700
       #font_stretch: "75%"
-      name: "gill-sans-nova-condensed"
+      name: "gill-sans-nova-condensed-bold"
   footer:
     links:
       - title: "IGME-CSIC"
