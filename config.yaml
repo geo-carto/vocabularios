@@ -31,16 +31,16 @@ ui:
     skoHubLightGrey: "rgb(235, 235, 235)"
   fonts:
     regular:
-      font_family: "roboto"
+      font_family: "fira-sans"
       font_style: "normal"
       font_weight: 400
-      name: "roboto-regular"
+      name: "fira-sans-regular"
     bold:
-      font_family: "gill-sans-nova-condensed"
+      font_family: "barlow-condensed-semi"
       font_style: "normal"
       font_weight: 700
       #font_stretch: "75%"
-      name: "gill-sans-nova-condensed-bold"
+      name: "barlow-condensed-semi-bold"
   footer:
     links:
       - title: "IGME-CSIC"
