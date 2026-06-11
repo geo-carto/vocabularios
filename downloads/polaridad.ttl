@@ -64,12 +64,12 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/polaridad> a skos:ConceptScheme ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
     dcterms:description "Polarity of the stratigraphic sequence associated with a structural measurement."@en,
         "Polaridad de la secuencia estratigráfica asociada a una medida estructural."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Polarity"@en,

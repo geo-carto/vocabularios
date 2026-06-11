@@ -97,18 +97,18 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/alteracion-distribucion> a skos:ConceptScheme ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
-    dcterms:description "The alterationDistribution property describes the spatial distribution or geometry of alteration zones using a term from a controlled vocabulary (e.g., patchy, spotted, banded, veins, vein breccia, pervasive, disseminated)."@en,
+    dcterms:description "Terms describing the spatial distribution or geometry of alteration zones (e.g., patchy, spotted, banded, veins, vein breccia, pervasive, disseminated)."@en,
         "Términos que describen la distribución espacial o la geometría de las zonas de alteración (por ejemplo: irregular, moteada, bandeada, con vetas, brecha de vetas, generalizada, diseminada, etc.)."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Alteration distribution"@en,
         "Distribución de la alteración"@es ;
     owl:versionInfo "1.0.0" ;
-    skos:definition "The alterationDistribution property describes the spatial distribution or geometry of alteration zones using a term from a controlled vocabulary (e.g., patchy, spotted, banded, veins, vein breccia, pervasive, disseminated)."@en,
+    skos:definition "Terms describing the spatial distribution or geometry of alteration zones (e.g., patchy, spotted, banded, veins, vein breccia, pervasive, disseminated)."@en,
         "Términos que describen la distribución espacial o la geometría de las zonas de alteración (por ejemplo: irregular, moteada, bandeada, con vetas, brecha de vetas, generalizada, diseminada, etc.)."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Distribución de la alteración."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/alteracion-distribucion/bandeada>,

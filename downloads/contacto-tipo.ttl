@@ -568,18 +568,18 @@
 
 <https://geo-carto.github.io/vocabularios/contacto-tipo> a skos:ConceptScheme ;
     dcterms:contributor "https://www.igme.es" ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://cgi-iugs.org/" ;
-    dcterms:description "The property ContactTypeTerm classifies the contact (e.g. intrusive, unconformity, bedding surface, lithologic boundary, phase boundary) and is a term from a controlled vocabulary."@en,
+    dcterms:description "Terms classifying the type of contact (e.g. intrusive, unconformity, bedding surface, lithologic boundary, phase boundary)."@en,
         "Términos que clasifican el tipo de contacto (por ejemplo: intrusivo, discordancia, superficie de estratificación, límite litológico, límite de fase)."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Contact type"@en,
         "Tipo de contacto"@es ;
     owl:versionInfo "1.0.0" ;
-    skos:definition "The property ContactTypeTerm classifies the contact (e.g. intrusive, unconformity, bedding surface, lithologic boundary, phase boundary) and is a term from a controlled vocabulary."@en,
+    skos:definition "Terms classifying the type of contact (e.g. intrusive, unconformity, bedding surface, lithologic boundary, phase boundary)."@en,
         "Términos que clasifican el tipo de contacto (por ejemplo: intrusivo, discordancia, superficie de estratificación, límite litológico, límite de fase)."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Tipo de contacto."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;

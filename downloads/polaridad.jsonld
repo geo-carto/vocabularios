@@ -16,9 +16,15 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/polaridad/collection",
+    "@id": "https://geo-carto.github.io/vocabularios/polaridad/vertical",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
@@ -28,11 +34,16 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Todos los conceptos en este vocabulario."
+        "@value": "La orientación planar del elemento es aproximadamente vertical."
       },
       {
         "@language": "en",
-        "@value": "All concepts in this vocabulary."
+        "@value": "The planar orientation of a feature is approximately vertical."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/planarpolaritycode/vertical"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -40,25 +51,24 @@
         "@id": "https://geo-carto.github.io/vocabularios/polaridad"
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/polaridad/normal"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/polaridad/invertida"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/polaridad/vertical"
-      }
-    ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "Polaridad - Todos los conceptos"
+        "@value": "vertical"
       },
       {
         "@language": "en",
-        "@value": "Polarity - All concepts"
+        "@value": "vertical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/polaridad"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
       }
     ]
   },
@@ -91,7 +101,7 @@
     "http://purl.org/dc/terms/created": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
+        "@value": "2026-06-01"
       }
     ],
     "http://purl.org/dc/terms/creator": [
@@ -117,7 +127,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
+        "@value": "2026-06-01"
       }
     ],
     "http://purl.org/dc/terms/provenance": [
@@ -189,63 +199,6 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/polaridad/invertida",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/polaridad"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "El elemento ha sido invertido (es decir, rotado alrededor de un eje horizontal o subhorizontal más de 90 grados respecto a su orientación original)."
-      },
-      {
-        "@language": "en",
-        "@value": "The feature has been overturned (ie; rotated around a horizontal or subhorizontal axis more than 90 degrees from its original orientation)."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/planarpolaritycode/overturned"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/polaridad"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "invertida"
-      },
-      {
-        "@language": "en",
-        "@value": "overturned"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/polaridad"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
     "@id": "https://geo-carto.github.io/vocabularios/polaridad/normal",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -303,7 +256,54 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/polaridad/vertical",
+    "@id": "https://geo-carto.github.io/vocabularios/polaridad/collection",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/polaridad"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Todos los conceptos en este vocabulario."
+      },
+      {
+        "@language": "en",
+        "@value": "All concepts in this vocabulary."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/polaridad"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/polaridad/normal"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/polaridad/invertida"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/polaridad/vertical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Polaridad - Todos los conceptos"
+      },
+      {
+        "@language": "en",
+        "@value": "Polarity - All concepts"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/polaridad/invertida",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -321,16 +321,16 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "La orientación planar del elemento es aproximadamente vertical."
+        "@value": "El elemento ha sido invertido (es decir, rotado alrededor de un eje horizontal o subhorizontal más de 90 grados respecto a su orientación original)."
       },
       {
         "@language": "en",
-        "@value": "The planar orientation of a feature is approximately vertical."
+        "@value": "The feature has been overturned (ie; rotated around a horizontal or subhorizontal axis more than 90 degrees from its original orientation)."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/planarpolaritycode/vertical"
+        "@id": "http://resource.geosciml.org/classifier/cgi/planarpolaritycode/overturned"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -341,11 +341,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "vertical"
+        "@value": "invertida"
       },
       {
         "@language": "en",
-        "@value": "vertical"
+        "@value": "overturned"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [

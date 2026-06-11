@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-datos-geofisicos",
+    "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/estacion",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -18,16 +18,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Colección de datos geofísicos"
+        "@value": "Colección de estaciones"
       },
       {
         "@language": "en",
-        "@value": "Collection of geophysical objects"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geophysicalObjectCollection"
+        "@value": "Collection of stations"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -38,11 +33,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "colección de datos geofísicos"
+        "@value": "estación"
       },
       {
         "@language": "en",
-        "@value": "geophysical object collection"
+        "@value": "station"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -53,6 +48,79 @@
     "http://www.w3.org/ns/adms#status": [
       {
         "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-sondeos",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Colección de sondeos"
+      },
+      {
+        "@language": "en",
+        "@value": "Collection of boreholes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/CollectionTypeValue/boreholeCollection"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "colección de sondeos"
+      },
+      {
+        "@language": "en",
+        "@value": "borehole collection"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Commission for the Management and Application of Geoscience Information"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org"
       }
     ]
   },
@@ -170,7 +238,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-sondeos",
+    "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/documentacion",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -188,16 +256,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Colección de sondeos"
+        "@value": "Colección de documentos"
       },
       {
         "@language": "en",
-        "@value": "Collection of boreholes"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/CollectionTypeValue/boreholeCollection"
+        "@value": "Collection of documentations"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -208,11 +271,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "colección de sondeos"
+        "@value": "documentación"
       },
       {
         "@language": "en",
-        "@value": "borehole collection"
+        "@value": "documentation"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -223,6 +286,27 @@
     "http://www.w3.org/ns/adms#status": [
       {
         "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/affiliation": [
+      {
+        "@id": "https://linked.data.gov.au/org/cgi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "CGI Geoscience Terminology Working Group"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
       }
     ]
   },
@@ -284,147 +368,6 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/estacion",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Colección de estaciones"
-      },
-      {
-        "@language": "en",
-        "@value": "Collection of stations"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "estación"
-      },
-      {
-        "@language": "en",
-        "@value": "station"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/affiliation": [
-      {
-        "@id": "https://linked.data.gov.au/org/cgi"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "CGI Geoscience Terminology Working Group"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/documentacion",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Colección de documentos"
-      },
-      {
-        "@language": "en",
-        "@value": "Collection of documentations"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "documentación"
-      },
-      {
-        "@language": "en",
-        "@value": "documentation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "Commission for the Management and Application of Geoscience Information"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org"
-      }
-    ]
-  },
-  {
     "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -437,7 +380,7 @@
     "http://purl.org/dc/terms/created": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
+        "@value": "2026-06-01"
       }
     ],
     "http://purl.org/dc/terms/creator": [
@@ -448,11 +391,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "es",
-        "@value": "Términos referidos a rango estratigráfico."
+        "@value": "Tipos de colecciones de objetos geológicos y geofísicos, asi como colecciones de objetos de otra naturaleza."
       },
       {
         "@language": "en",
-        "@value": "Terms referring to stratigraphic rank."
+        "@value": "Types of collections of geological and geophysical objects, as well as collections of objects of other nature."
       }
     ],
     "http://purl.org/dc/terms/license": [
@@ -463,7 +406,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
+        "@value": "2026-06-01"
       }
     ],
     "http://purl.org/dc/terms/provenance": [
@@ -494,11 +437,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Términos referidos a rango estratigráfico."
+        "@value": "Tipos de colecciones de objetos geológicos y geofísicos, asi como colecciones de objetos de otra naturaleza."
       },
       {
         "@language": "en",
-        "@value": "Terms referring to stratigraphic rank."
+        "@value": "Types of collections of geological and geophysical objects, as well as collections of objects of other nature."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#editorialNote": [
@@ -540,6 +483,63 @@
     "http://www.w3.org/ns/dcat#theme": [
       {
         "@value": "GE"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-datos-geofisicos",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Colección de datos geofísicos"
+      },
+      {
+        "@language": "en",
+        "@value": "Collection of geophysical objects"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/CollectionTypeValue/geophysicalObjectCollection"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "colección de datos geofísicos"
+      },
+      {
+        "@language": "en",
+        "@value": "geophysical object collection"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/coleccion-tipo"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
       }
     ]
   }

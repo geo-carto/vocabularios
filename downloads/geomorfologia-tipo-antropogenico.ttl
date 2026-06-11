@@ -233,19 +233,19 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico> a skos:ConceptScheme ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://commission.europa.eu/" ;
     dcterms:description "Terms referring to anthropogenic geomorphological features."@en,
-        "Términos referidos al objeto geomorfológico antrópico."@es ;
+        "Términos que definen un tipo de objeto geomorfológico antrópico."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Geomorphological anthropogenic feature"@en,
         "Objeto geomorfológico antrópico"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms referring to anthropogenic geomorphological features."@en,
-        "Términos referidos al objeto geomorfológico antrópico."@es ;
+        "Términos que definen un tipo de objeto geomorfológico antrópico."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Objeto geomorfológico antrópico."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/acumulo>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-antropogenico/area-de-subsidencia-antropogenica>,

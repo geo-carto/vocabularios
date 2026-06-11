@@ -7,7 +7,7 @@
   },
   "definition": {
     "en": "Settings characterized by very low surface slope and proximity to shoreline. Generally within peritidal setting, but characterized by low surface gradients and generally low-energy sedimentary processes.",
-    "es": "ambientes caracterizados por una superficie de pendiente muy baja y proximidad a la costa. Generalmente dentro del ambiente perimareal, pero caracterizada por superficies de gradientes bajos y en general por los procesos sedimentarios de baja energía."
+    "es": "Ambientes caracterizados por una superficie de pendiente muy baja y proximidad a la costa. Generalmente dentro del ambiente perimareal, pero caracterizada por superficies de gradientes bajos y en general por los procesos sedimentarios de baja energía."
   },
   "narrower": [
     {
@@ -50,6 +50,7 @@
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente",
+      "theme": "GE",
       "title": {
         "en": "Event Environment",
         "es": "Ambiente asociado a evento"

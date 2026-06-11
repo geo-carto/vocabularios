@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional",
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desplazamiento-oblicuo",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -23,19 +23,19 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Falla cuyos dos lados se han aproximado notablemente entre sí en la dirección perpendicular a la falla."
+        "@value": "Falla en la que ambas componentes del desplazamiento: en la  dirección de la capa y en la dirección de buzamiento tienen un valor apreciable."
       },
       {
         "@language": "en",
-        "@value": "A fault whose two sides have approached each other substantially in the direction perpendicular to the fault."
+        "@value": "Fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace of the fault."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/extractionFault"
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/obliqueSlipFault"
       },
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/extraction_fault"
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/oblique_slip_fault"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -45,20 +45,26 @@
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional-mixta"
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-sinistra"
       },
       {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional-pura"
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-sinistra"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-dextra"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-dextra"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "falla contraccional"
+        "@value": "falla de desplazamiento oblicuo"
       },
       {
         "@language": "en",
-        "@value": "extraction fault"
+        "@value": "oblique slip fault"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -68,7 +74,23 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-sinistra",
+    "@id": "https://linked.data.gov.au/org/cgi",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Commission for the Management and Application of Geoscience Information"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -84,308 +106,26 @@
       }
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desplazamiento-oblicuo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Falla inversa de alto ángulo en la que la componente del desplazamiento paralelo al rumbo tiene una relación de 10 a 1 como mínimo en una zona a lo largo de su traza cartográfica y en la que un bloque se desplaza hacia la izquierda del bloque desde donde se hace la observación."
-      },
-      {
-        "@language": "en",
-        "@value": "High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with left-lateral strike-parallel component and reverse dip-parallel component over at least half the mapped trace of the fault."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/leftReverseFault"
-      },
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/left_reverse_fault"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "falla inversa sinistra"
-      },
-      {
-        "@language": "en",
-        "@value": "left reverse fault"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-sinistra",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desplazamiento-oblicuo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Falla normal de alto ángulo en la que la relación del desplazamiento paralelo al rumbo respecto al desplazamiento perpendicular al mismo tiene un valor comprendido entre 10 a 1 y 1 a 10 en, como mínimo, una zona a lo largo de su traza cartográfica y en la que un bloque se desplaza hacia la izquierda del bloque desde donde se hace la observación."
-      },
-      {
-        "@language": "en",
-        "@value": "High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with left-lateral strike-parallel component and normal dip-parallel component over at least half the mapped trace of the fault."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/leftNormalFault"
-      },
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/left_normal_fault"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "falla normal sinistra"
-      },
-      {
-        "@language": "en",
-        "@value": "left normal fault"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/cabalgamiento",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-bajo-angulo"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Falla que buza menos de 45 grados en más de la mitad de la extensión reconocida de la falla, con un bloque superior desplazado desde una posición estructuralmente más profunda en relación con las rocas del bloque inferior."
-      },
-      {
-        "@language": "en",
-        "@value": "Fault that dips less than 45 degrees over more than half of the recognized extent of the fault, with a hanging wall displaced from a structurally deeper position relative to footwall rocks."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/thrustFault"
-      },
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/thrust_fault"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "cabalgamiento"
-      },
-      {
-        "@language": "en",
-        "@value": "thrust fault"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://purl.org/dc/terms/creator": [
-      {
-        "@value": "https://commission.europa.eu/"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Términos que clasifican el tipo de falla"
-      },
-      {
-        "@language": "en",
-        "@value": "Terms that classify the type of fault."
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://purl.org/dc/terms/provenance": [
-      {
-        "@value": "Términos originales de INSPIRE"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://www.igme.es/"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Tipo de falla"
-      },
-      {
-        "@language": "en",
-        "@value": "Fault type"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#versionInfo": [
-      {
-        "@value": "1.0.0"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Términos que clasifican el tipo de falla"
-      },
-      {
-        "@language": "en",
-        "@value": "Terms that classify the type of fault."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#editorialNote": [
-      {
-        "@language": "es",
-        "@value": "Este archivo contiene el vocabulario Tipo de falla."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
       {
         "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla"
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "Tipo de falla"
-      },
-      {
-        "@language": "en",
-        "@value": "Fault type"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#theme": [
-      {
-        "@value": "GE"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional-pura",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional"
-      }
-    ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Falla contracional sin  desplazamiento apreciable a lo largo del plano de falla."
+        "@value": "Falla en la que el componente de desplazamiento paralelo a la dirección de la superficie de falla es más de 10 veces superior al desplazamiento paralelo al buzamiento al menos en una zona del trazado cartografiado."
       },
       {
         "@language": "en",
-        "@value": "An extraction fault with no discernible displacement within the fault plane."
+        "@value": "Fault with strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the mapped trace of the fault."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/pureExtractionFault"
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/strikeSlipFault"
       },
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/pure_extraction_fault"
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/strike_slip_fault"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -393,14 +133,25 @@
         "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
       }
     ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-de-alto-angulo"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-dextra"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-sinestral"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "falla contraccional pura"
+        "@value": "falla de desgarre"
       },
       {
         "@language": "en",
-        "@value": "pure extraction fault"
+        "@value": "strike slip fault"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -496,67 +247,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/superficie-de-despegue",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-bajo-angulo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Falla normal de bajo ángulo con gran desplazamiento y escala regional."
-      },
-      {
-        "@language": "en",
-        "@value": "A regional-scale, large displacement, low-angle normal fault."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/detachmentFault"
-      },
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/detachment_fault"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "superficie de despegue"
-      },
-      {
-        "@language": "en",
-        "@value": "detachment fault"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal",
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-bajo-angulo",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -579,19 +270,19 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Falla cuyo bloque elevado es el inferior y su superficie buza hacia el bloque hundido y en la que la componente del desplazamiento paralelo al buzamiento es más de 10 veces superior a la componente del desplazamiento paralelo al rumbo en más de la mitad de la extensión en la que ha sido reconocida."
+        "@value": "Falla cuyo plano buza menos de 45 grados sobre más de la mitad de su extensión reconocida."
       },
       {
         "@language": "en",
-        "@value": "Fault with dip-parallel displacement component of slip vector more than 10 times the strike-parallel component of the slip vector over more than half recognized extent of the fault, and for which the fault dips consistently in the same direction, and for which the hanging wall has been displaced down relative to the footwall."
+        "@value": "Fault that dips less than 45 degrees over more than half of the recognized extent of the fault."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/normalFault"
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/lowAngleFault"
       },
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/normal_fault"
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/low_angle_fault"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -601,258 +292,10 @@
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-alto-angulo"
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-horizontal"
       },
       {
         "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-bajo-angulo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "falla normal"
-      },
-      {
-        "@language": "en",
-        "@value": "normal fault"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional-mixta",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Falla contracional con algo de desplazamiento en la dirección del plano de falla."
-      },
-      {
-        "@language": "en",
-        "@value": "An extraction fault with some displacement within the fault plane."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/mixedExtractionFault"
-      },
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/mixed_extraction_fault"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "falla contraccional mixta"
-      },
-      {
-        "@language": "en",
-        "@value": "mixed extraction fault"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-dextra",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Falla de desgarre en la que un bloque se desplaza hacia la derecha del bloque desde donde se hace la observación."
-      },
-      {
-        "@language": "en",
-        "@value": "Fault with right-lateral strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the fault, and right-lateral displacement over more than half the mapped trace of the fault."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/dextralStrikeSlipFault"
-      },
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/dextral_strike_slip_fault"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "falla de desgarre dextra"
-      },
-      {
-        "@language": "en",
-        "@value": "dextral strike slip fault"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-de-alto-angulo",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-alto-angulo"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Falla inversa cuyo plano buza más de 45 grados sobre más de la mitad de su extensión reconocida."
-      },
-      {
-        "@language": "en",
-        "@value": "Reverse fault that dips at least 45 degrees over more than half of its recognized extent, for which slip or separation is not explicitly specified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/highAngleReverse"
-      },
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/high_angle_reverse"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "falla inversa de alto ángulo"
-      },
-      {
-        "@language": "en",
-        "@value": "high angle reverse"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Falla en la que el componente de desplazamiento paralelo al buzamiento es más de 10 veces superior al componente de desplazamiento paralelo al rumbo al menos en un lugar del trazado cartografiado y la falla buza sistemáticamente en la misma dirección, estando el labio levantado desplazado hacia arriba en relación con el labio hundido al menos la mitad del trazado cartografiado."
-      },
-      {
-        "@language": "en",
-        "@value": "Fault with dip-parallel displacement component of slip vector more than 10 times the strike-parallel component of the slip vector at at least one location along the mapped trace of the fault, and the fault dips consistently in the same direction with the hanging wall displaced up relative to the footwall over at least half the mapped trace of the fault."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/reverseFault"
-      },
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/reverse_fault"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-de-alto-angulo"
       },
       {
         "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/cabalgamiento"
@@ -861,74 +304,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "falla inversa"
+        "@value": "falla de bajo ángulo"
       },
       {
         "@language": "en",
-        "@value": "reverse fault"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-alto-angulo",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-alto-angulo"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Falla normal cuyo plano buza más de 45 grados sobre más de la mitad de su extensión reconocida."
-      },
-      {
-        "@language": "en",
-        "@value": "Fault that dips at least 45 degrees over more than half of the recognized extent of the fault with the hanging wall displaced from a structurally higher position relative to footwall rocks."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/highAngleNormalFault"
-      },
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/high_angle_normal_fault"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "falla normal de alto ángulo"
-      },
-      {
-        "@language": "en",
-        "@value": "high angle normal fault"
+        "@value": "low angle fault"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -1009,6 +389,197 @@
     ]
   },
   {
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-dextra",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desplazamiento-oblicuo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Falla inversa de alto ángulo en la que la componente del desplazamiento paralelo al rumbo tiene una relación de 10 a 1 como mínimo en una zona a lo largo de su traza cartográfica y en la que un bloque se desplaza hacia la derecha del bloque desde donde se hace la observación."
+      },
+      {
+        "@language": "en",
+        "@value": "High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with a right-lateral strike-parallel component and reverse dip-parallel component of slip over at least half the mapped trace of the fault."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/rightReverseFault"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/right_reverse_fault"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "falla inversa dextra"
+      },
+      {
+        "@language": "en",
+        "@value": "right reverse fault"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-de-alto-angulo",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-alto-angulo"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Falla de desgarre cuyo plano de falla buza como mínimo 45 grados en más de la mitad de la extensión en la que se ha reconocido.\n."
+      },
+      {
+        "@language": "en",
+        "@value": "A strike slip fault in which the fault plane dips at least 45 degrees over more than half of the recognized extent of the fault."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/wrenchFault"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/wrench_fault"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "falla de desgarre de alto ángulo"
+      },
+      {
+        "@language": "en",
+        "@value": "wrench fault"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-bajo-angulo",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-bajo-angulo"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Falla normal que buza menos de 45 grados en más de la mitad de la extensión reconocida de la falla."
+      },
+      {
+        "@language": "en",
+        "@value": "Fault that dips less than 45 degrees over more than half of the recognized extent of the fault with the hanging wall displaced from a structurally higher position relative to footwall rocks."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/lowAngleNormalFault"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/low_angle_normal_fault"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/superficie-de-despegue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "falla normal de bajo ángulo"
+      },
+      {
+        "@language": "en",
+        "@value": "low angle normal fault"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
     "@id": "https://linked.data.gov.au/org/cgi-gtwg",
     "@type": [
       "https://schema.org/Organization"
@@ -1030,7 +601,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-horizontal",
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-dextra",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1047,25 +618,25 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-bajo-angulo"
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Falla que buza menos de 10 grados sobre más de la mitad de la extensión reconocida de la falla."
+        "@value": "Falla de desgarre en la que un bloque se desplaza hacia la derecha del bloque desde donde se hace la observación."
       },
       {
         "@language": "en",
-        "@value": "Fault that dips less than 10 degrees over more than half the recognized extent of the fault."
+        "@value": "Fault with right-lateral strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the fault, and right-lateral displacement over more than half the mapped trace of the fault."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/horizontalFault"
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/dextralStrikeSlipFault"
       },
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/horizontal_fault"
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/dextral_strike_slip_fault"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1076,11 +647,737 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "falla horizontal"
+        "@value": "falla de desgarre dextra"
       },
       {
         "@language": "en",
-        "@value": "horizontal fault"
+        "@value": "dextral strike slip fault"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/superficie-de-despegue",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-bajo-angulo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Falla normal de bajo ángulo con gran desplazamiento y escala regional."
+      },
+      {
+        "@language": "en",
+        "@value": "A regional-scale, large displacement, low-angle normal fault."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/detachmentFault"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/detachment_fault"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "superficie de despegue"
+      },
+      {
+        "@language": "en",
+        "@value": "detachment fault"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional-mixta",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Falla contracional con algo de desplazamiento en la dirección del plano de falla."
+      },
+      {
+        "@language": "en",
+        "@value": "An extraction fault with some displacement within the fault plane."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/mixedExtractionFault"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/mixed_extraction_fault"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "falla contraccional mixta"
+      },
+      {
+        "@language": "en",
+        "@value": "mixed extraction fault"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-sinestral",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Falla de desgarre en la que un bloque se desplaza hacia la izquierda del bloque desde donde se hace la observación."
+      },
+      {
+        "@language": "en",
+        "@value": "Fault with left-lateral strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the fault, and left-lateral displacement over more than half the mapped trace of the fault."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/sinistralStrikeSlipFault"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/sinistral_strike_slip_fault"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "falla de desgarre sinestral"
+      },
+      {
+        "@language": "en",
+        "@value": "siniestral strike slip fault"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-sinistra",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desplazamiento-oblicuo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Falla normal de alto ángulo en la que la relación del desplazamiento paralelo al rumbo respecto al desplazamiento perpendicular al mismo tiene un valor comprendido entre 10 a 1 y 1 a 10 en, como mínimo, una zona a lo largo de su traza cartográfica y en la que un bloque se desplaza hacia la izquierda del bloque desde donde se hace la observación."
+      },
+      {
+        "@language": "en",
+        "@value": "High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with left-lateral strike-parallel component and normal dip-parallel component over at least half the mapped trace of the fault."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/leftNormalFault"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/left_normal_fault"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "falla normal sinistra"
+      },
+      {
+        "@language": "en",
+        "@value": "left normal fault"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Falla en la que el componente de desplazamiento paralelo al buzamiento es más de 10 veces superior al componente de desplazamiento paralelo al rumbo al menos en un lugar del trazado cartografiado y la falla buza sistemáticamente en la misma dirección, estando el labio levantado desplazado hacia arriba en relación con el labio hundido al menos la mitad del trazado cartografiado."
+      },
+      {
+        "@language": "en",
+        "@value": "Fault with dip-parallel displacement component of slip vector more than 10 times the strike-parallel component of the slip vector at at least one location along the mapped trace of the fault, and the fault dips consistently in the same direction with the hanging wall displaced up relative to the footwall over at least half the mapped trace of the fault."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/reverseFault"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/reverse_fault"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-de-alto-angulo"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/cabalgamiento"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "falla inversa"
+      },
+      {
+        "@language": "en",
+        "@value": "reverse fault"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Falla cuyos dos lados se han aproximado notablemente entre sí en la dirección perpendicular a la falla."
+      },
+      {
+        "@language": "en",
+        "@value": "A fault whose two sides have approached each other substantially in the direction perpendicular to the fault."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/extractionFault"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/extraction_fault"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional-mixta"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional-pura"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "falla contraccional"
+      },
+      {
+        "@language": "en",
+        "@value": "extraction fault"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-06-01"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "https://commission.europa.eu/"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "es",
+        "@value": "Términos que clasifican el tipo de falla."
+      },
+      {
+        "@language": "en",
+        "@value": "Terms that classify the type of fault."
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-06-01"
+      }
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "Términos originales de INSPIRE"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://www.igme.es/"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "es",
+        "@value": "Tipo de falla"
+      },
+      {
+        "@language": "en",
+        "@value": "Fault type"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Términos que clasifican el tipo de falla."
+      },
+      {
+        "@language": "en",
+        "@value": "Terms that classify the type of fault."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#editorialNote": [
+      {
+        "@language": "es",
+        "@value": "Este archivo contiene el vocabulario Tipo de falla."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Tipo de falla"
+      },
+      {
+        "@language": "en",
+        "@value": "Fault type"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@value": "GE"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional-pura",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-contraccional"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Falla contracional sin  desplazamiento apreciable a lo largo del plano de falla."
+      },
+      {
+        "@language": "en",
+        "@value": "An extraction fault with no discernible displacement within the fault plane."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/pureExtractionFault"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/pure_extraction_fault"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "falla contraccional pura"
+      },
+      {
+        "@language": "en",
+        "@value": "pure extraction fault"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-dextra",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desplazamiento-oblicuo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Falla normal de alto ángulo en la que la componente del desplazamiento paralelo al rumbo tiene una relación de 10 a 1 como mínimo en un tramo a lo largo de su traza cartográfica y en la que un bloque se desplaza hacia la derecha del bloque desde donde se hace la observación."
+      },
+      {
+        "@language": "en",
+        "@value": "High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with right-lateral strike-parallel component and normal dip-parallel component of slip over at least half the mapped trace of the fault"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/rightNormalFault"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/right_normal_fault"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "falla normal dextra"
+      },
+      {
+        "@language": "en",
+        "@value": "right normal fault"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-alto-angulo",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-alto-angulo"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Falla normal cuyo plano buza más de 45 grados sobre más de la mitad de su extensión reconocida."
+      },
+      {
+        "@language": "en",
+        "@value": "Fault that dips at least 45 degrees over more than half of the recognized extent of the fault with the hanging wall displaced from a structurally higher position relative to footwall rocks."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/highAngleNormalFault"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/high_angle_normal_fault"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "falla normal de alto ángulo"
+      },
+      {
+        "@language": "en",
+        "@value": "high angle normal fault"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Falla cuyo bloque elevado es el inferior y su superficie buza hacia el bloque hundido y en la que la componente del desplazamiento paralelo al buzamiento es más de 10 veces superior a la componente del desplazamiento paralelo al rumbo en más de la mitad de la extensión en la que ha sido reconocida."
+      },
+      {
+        "@language": "en",
+        "@value": "Fault with dip-parallel displacement component of slip vector more than 10 times the strike-parallel component of the slip vector over more than half recognized extent of the fault, and for which the fault dips consistently in the same direction, and for which the hanging wall has been displaced down relative to the footwall."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/normalFault"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/normal_fault"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-alto-angulo"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-bajo-angulo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "falla normal"
+      },
+      {
+        "@language": "en",
+        "@value": "normal fault"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -1200,222 +1497,7 @@
     ]
   },
   {
-    "@id": "https://linked.data.gov.au/org/cgi",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "Commission for the Management and Application of Geoscience Information"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-bajo-angulo",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-bajo-angulo"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Falla normal que buza menos de 45 grados en más de la mitad de la extensión reconocida de la falla."
-      },
-      {
-        "@language": "en",
-        "@value": "Fault that dips less than 45 degrees over more than half of the recognized extent of the fault with the hanging wall displaced from a structurally higher position relative to footwall rocks."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/lowAngleNormalFault"
-      },
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/low_angle_normal_fault"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/superficie-de-despegue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "falla normal de bajo ángulo"
-      },
-      {
-        "@language": "en",
-        "@value": "low angle normal fault"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-dextra",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desplazamiento-oblicuo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Falla normal de alto ángulo en la que la componente del desplazamiento paralelo al rumbo tiene una relación de 10 a 1 como mínimo en un tramo a lo largo de su traza cartográfica y en la que un bloque se desplaza hacia la derecha del bloque desde donde se hace la observación."
-      },
-      {
-        "@language": "en",
-        "@value": "High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with right-lateral strike-parallel component and normal dip-parallel component of slip over at least half the mapped trace of the fault"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/rightNormalFault"
-      },
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/right_normal_fault"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "falla normal dextra"
-      },
-      {
-        "@language": "en",
-        "@value": "right normal fault"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Falla en la que el componente de desplazamiento paralelo a la dirección de la superficie de falla es más de 10 veces superior al desplazamiento paralelo al buzamiento al menos en una zona del trazado cartografiado."
-      },
-      {
-        "@language": "en",
-        "@value": "Fault with strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the mapped trace of the fault."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/strikeSlipFault"
-      },
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/strike_slip_fault"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-de-alto-angulo"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-dextra"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-sinestral"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "falla de desgarre"
-      },
-      {
-        "@language": "en",
-        "@value": "strike slip fault"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-de-alto-angulo",
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-de-alto-angulo",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1435,25 +1517,25 @@
         "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-alto-angulo"
       },
       {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre"
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Falla de desgarre cuyo plano de falla buza como mínimo 45 grados en más de la mitad de la extensión en la que se ha reconocido.\n."
+        "@value": "Falla inversa cuyo plano buza más de 45 grados sobre más de la mitad de su extensión reconocida."
       },
       {
         "@language": "en",
-        "@value": "A strike slip fault in which the fault plane dips at least 45 degrees over more than half of the recognized extent of the fault."
+        "@value": "Reverse fault that dips at least 45 degrees over more than half of its recognized extent, for which slip or separation is not explicitly specified"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/wrenchFault"
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/highAngleReverse"
       },
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/wrench_fault"
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/high_angle_reverse"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1464,11 +1546,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "falla de desgarre de alto ángulo"
+        "@value": "falla inversa de alto ángulo"
       },
       {
         "@language": "en",
-        "@value": "wrench fault"
+        "@value": "high angle reverse"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -1478,7 +1560,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-dextra",
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/cabalgamiento",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1495,25 +1577,28 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desplazamiento-oblicuo"
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-bajo-angulo"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Falla inversa de alto ángulo en la que la componente del desplazamiento paralelo al rumbo tiene una relación de 10 a 1 como mínimo en una zona a lo largo de su traza cartográfica y en la que un bloque se desplaza hacia la derecha del bloque desde donde se hace la observación."
+        "@value": "Falla que buza menos de 45 grados en más de la mitad de la extensión reconocida de la falla, con un bloque superior desplazado desde una posición estructuralmente más profunda en relación con las rocas del bloque inferior."
       },
       {
         "@language": "en",
-        "@value": "High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with a right-lateral strike-parallel component and reverse dip-parallel component of slip over at least half the mapped trace of the fault."
+        "@value": "Fault that dips less than 45 degrees over more than half of the recognized extent of the fault, with a hanging wall displaced from a structurally deeper position relative to footwall rocks."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/rightReverseFault"
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/thrustFault"
       },
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/right_reverse_fault"
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/thrust_fault"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1524,71 +1609,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "falla inversa dextra"
+        "@value": "cabalgamiento"
       },
       {
         "@language": "en",
-        "@value": "right reverse fault"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre-sinestral",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desgarre"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Falla de desgarre en la que un bloque se desplaza hacia la izquierda del bloque desde donde se hace la observación."
-      },
-      {
-        "@language": "en",
-        "@value": "Fault with left-lateral strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the fault, and left-lateral displacement over more than half the mapped trace of the fault."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/sinistralStrikeSlipFault"
-      },
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/sinistral_strike_slip_fault"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "falla de desgarre sinestral"
-      },
-      {
-        "@language": "en",
-        "@value": "siniestral strike slip fault"
+        "@value": "thrust fault"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -1658,7 +1683,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desplazamiento-oblicuo",
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-sinistra",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1675,25 +1700,25 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla"
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-desplazamiento-oblicuo"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Falla en la que ambas componentes del desplazamiento: en la  dirección de la capa y en la dirección de buzamiento tienen un valor apreciable."
+        "@value": "Falla inversa de alto ángulo en la que la componente del desplazamiento paralelo al rumbo tiene una relación de 10 a 1 como mínimo en una zona a lo largo de su traza cartográfica y en la que un bloque se desplaza hacia la izquierda del bloque desde donde se hace la observación."
       },
       {
         "@language": "en",
-        "@value": "Fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace of the fault."
+        "@value": "High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with left-lateral strike-parallel component and reverse dip-parallel component over at least half the mapped trace of the fault."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/obliqueSlipFault"
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/leftReverseFault"
       },
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/oblique_slip_fault"
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/left_reverse_fault"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1701,28 +1726,14 @@
         "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-sinistra"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-sinistra"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-dextra"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-inversa-dextra"
-      }
-    ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "falla de desplazamiento oblicuo"
+        "@value": "falla inversa sinistra"
       },
       {
         "@language": "en",
-        "@value": "oblique slip fault"
+        "@value": "left reverse fault"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -1732,7 +1743,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-bajo-angulo",
+    "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-horizontal",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1749,25 +1760,25 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla"
+        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-de-bajo-angulo"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Falla cuyo plano buza menos de 45 grados sobre más de la mitad de su extensión reconocida."
+        "@value": "Falla que buza menos de 10 grados sobre más de la mitad de la extensión reconocida de la falla."
       },
       {
         "@language": "en",
-        "@value": "Fault that dips less than 45 degrees over more than half of the recognized extent of the fault."
+        "@value": "Fault that dips less than 10 degrees over more than half the recognized extent of the fault."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/lowAngleFault"
+        "@id": "http://inspire.ec.europa.eu/codelist/FaultTypeValue/horizontalFault"
       },
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/low_angle_fault"
+        "@id": "http://resource.geosciml.org/classifier/cgi/faulttype/horizontal_fault"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1775,25 +1786,14 @@
         "@id": "https://geo-carto.github.io/vocabularios/falla-tipo"
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-horizontal"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/falla-normal-de-bajo-angulo"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/falla-tipo/cabalgamiento"
-      }
-    ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "falla de bajo ángulo"
+        "@value": "falla horizontal"
       },
       {
         "@language": "en",
-        "@value": "low angle fault"
+        "@value": "horizontal fault"
       }
     ],
     "http://www.w3.org/ns/adms#status": [

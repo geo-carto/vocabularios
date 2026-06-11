@@ -7,7 +7,7 @@
   },
   "definition": {
     "en": "Marine setting situated within the interior of the continent, rather than at the edge of a continent.",
-    "es": "ambiente marino situado en el interior de un continente, en lugar de en el borde del continente."
+    "es": "Ambiente marino situado en el interior de un continente, en lugar de en el borde del continente."
   },
   "broader": {
     "id": "https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-marino",
@@ -27,6 +27,7 @@
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente",
+      "theme": "GE",
       "title": {
         "en": "Event Environment",
         "es": "Ambiente asociado a evento"

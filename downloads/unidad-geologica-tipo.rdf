@@ -9,136 +9,6 @@
    xmlns:sdo="https://schema.org/"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-aloestratigrafica">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <skos:prefLabel xml:lang="es">unidad aloestratigráfica</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">allostratigraphic unit</skos:prefLabel>
-    <skos:definition xml:lang="es">Unidad geológica delimitada por superficies límite. No necesariamente estratificada.</skos:definition>
-    <skos:definition xml:lang="en">Geologic unit defined by bounding surfaces. Not necessarily stratified.</skos:definition>
-    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/allostratigraphicUnit"/>
-    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/allostratigraphic_unit"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litogenetica">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <skos:prefLabel xml:lang="es">unidad litogenética</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">lithogenetic unit</skos:prefLabel>
-    <skos:definition xml:lang="es">Unidad geológica definida por su origen. El origen se manifiesta en las propiedades de los materiales, pero estos materiales no constituyen la propiedad definitoria.</skos:definition>
-    <skos:definition xml:lang="en">Geologic unit defined by genesis. The genesis is manifested by material properties, but the material is not the defining property.</skos:definition>
-    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
-    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/suelo-artificial"/>
-    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-excavacion"/>
-    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-movimiento-en-masa"/>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithogeneticUnit"/>
-    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithogenetic_unit"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-alteracion">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <skos:prefLabel xml:lang="es">unidad de alteración</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">alteration unit</skos:prefLabel>
-    <skos:definition xml:lang="es">Unidad geológica definida por un proceso de alteración.</skos:definition>
-    <skos:definition xml:lang="en">Geologic unit defined by alteration process.</skos:definition>
-    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/alterationUnit"/>
-    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/alteration_unit"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-bioestratigrafica">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <skos:prefLabel xml:lang="es">unidad bioestratigráfica</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">biostratigraphic unit</skos:prefLabel>
-    <skos:definition xml:lang="es">Unidad geológica definida sobre la base de su contenido fósil.</skos:definition>
-    <skos:definition xml:lang="en">Geologic unit defined based on fossil content.</skos:definition>
-    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/biostratigraphicUnit"/>
-    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/biostratigraphic_unit"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-excavacion">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <skos:prefLabel xml:lang="es">unidad de excavación</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">excavation unit</skos:prefLabel>
-    <skos:definition xml:lang="es">Unidad geológica definida por su origen humano vinculado a operaciones de excavación.</skos:definition>
-    <skos:definition xml:lang="en">Geologic unit defined by human-made genesis involving excavation.</skos:definition>
-    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litogenetica"/>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/excavationUnit"/>
-    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/excavation_unit"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-deformacion">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <skos:prefLabel xml:lang="es">unidad de deformación</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">deformation unit</skos:prefLabel>
-    <skos:definition xml:lang="es">Unidad litotectónica definida por el estilo de deformación o la estructura geológica característica observables en afloramiento.</skos:definition>
-    <skos:definition xml:lang="en">Lithotectonic unit defined by deformation style or characteristic geologic structure observable in outcrop.</skos:definition>
-    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litotectonica"/>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/deformationUnit"/>
-    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/deformation_unit"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litodemica">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <skos:prefLabel xml:lang="es">unidad litodémica</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">lithodemic unit</skos:prefLabel>
-    <skos:definition xml:lang="es">Unidad litoestratigráfica que carece de estratificación</skos:definition>
-    <skos:definition xml:lang="en">Lithostratigraphic unit that lacks stratification</skos:definition>
-    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litoestratigrafica"/>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithodemicUnit"/>
-    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithodemic_unit"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geofisica">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <skos:prefLabel xml:lang="es">unidad geofísica</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">geophysical unit</skos:prefLabel>
-    <skos:definition xml:lang="es">Unidad geológica definida por sus características geofísicas.</skos:definition>
-    <skos:definition xml:lang="en">Geologic unit defined by its geophysical characteristics.</skos:definition>
-    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
-    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-magnetoestratigrafica"/>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geophysicalUnit"/>
-    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/geophysical_unit"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-edafoestratigrafica">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <skos:prefLabel xml:lang="es">unidad edafoestratigráfica</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">pedostratigraphic unit</skos:prefLabel>
-    <skos:definition xml:lang="es">Unidad geológica que representa un único horizonte edafológico en una secuencia de estratos (consolidados o no consolidados).</skos:definition>
-    <skos:definition xml:lang="en">Geologic unit that represents a single pedologic horizon in a sequence of strata (consolidated or non-consolidated).</skos:definition>
-    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/pedostratigraphicUnit"/>
-    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/pedostratigraphic_unit"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
@@ -161,6 +31,169 @@
     <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-cronoestratigrafica-de-polaridad"/>
     <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geologicUnit"/>
     <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/geologic_unit"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-movimiento-en-masa">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <skos:prefLabel xml:lang="es">unidad de movimiento en masa</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">mass movement unit</skos:prefLabel>
+    <skos:definition xml:lang="es">Unidad geológica producida por un desplazamiento de materiales pendiente abajo inducido por la gravedad y caracterizado por el tipo de movimiento que da lugar al depósito y por la relación que tienen en el tiempo y en el espacio los distintos tipos de movimiento presentes en el depósito.</skos:definition>
+    <skos:definition xml:lang="en">Geologic unit produced by gravity driven, down-slope displacement of material, and characterized by the type of movement giving rise to the deposit, and by how the individual movement types present in the deposit are related in time and space.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litogenetica"/>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/massMovementUnit"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/mass_movement_unit"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-edafoestratigrafica">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <skos:prefLabel xml:lang="es">unidad edafoestratigráfica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">pedostratigraphic unit</skos:prefLabel>
+    <skos:definition xml:lang="es">Unidad geológica que representa un único horizonte edafológico en una secuencia de estratos (consolidados o no consolidados).</skos:definition>
+    <skos:definition xml:lang="en">Geologic unit that represents a single pedologic horizon in a sequence of strata (consolidated or non-consolidated).</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/pedostratigraphicUnit"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/pedostratigraphic_unit"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-cronoestratigrafica-de-polaridad">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <skos:prefLabel xml:lang="es">unidad cronoestratigráfica de polaridad</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">polarity chronostratigraphic unit</skos:prefLabel>
+    <skos:definition xml:lang="es">Unidad geológica definida por un registro de polaridad magnética primario impuesto cuando la roca se depositó o cristalizó durante un intervalo determinado de tiempo geológico.</skos:definition>
+    <skos:definition xml:lang="en">Geologic unit defined by primary magnetic-polarity record imposed when the rock was deposited or crystallized during a specific interval of geologic time.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/polarityChronostratigraphicUnit"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/polarity_chronostratigraphic_unit"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-aloestratigrafica">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <skos:prefLabel xml:lang="es">unidad aloestratigráfica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">allostratigraphic unit</skos:prefLabel>
+    <skos:definition xml:lang="es">Unidad geológica delimitada por superficies límite. No necesariamente estratificada.</skos:definition>
+    <skos:definition xml:lang="en">Geologic unit defined by bounding surfaces. Not necessarily stratified.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/allostratigraphicUnit"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/allostratigraphic_unit"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litodemica">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <skos:prefLabel xml:lang="es">unidad litodémica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">lithodemic unit</skos:prefLabel>
+    <skos:definition xml:lang="es">Unidad litoestratigráfica que carece de estratificación</skos:definition>
+    <skos:definition xml:lang="en">Lithostratigraphic unit that lacks stratification</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litoestratigrafica"/>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithodemicUnit"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithodemic_unit"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="es">Tipo de unidad geológica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Geologic unit type</skos:prefLabel>
+    <dcterms:title xml:lang="es">Tipo de unidad geológica</dcterms:title>
+    <dcterms:title xml:lang="en">Geologic unit type</dcterms:title>
+    <skos:definition xml:lang="es">Términos que definen el tipo de unidad geológica.</skos:definition>
+    <skos:definition xml:lang="en">The property geologicUnitTypeTerm provides a term from a controlled vocabulary defining the type of geologic unit.</skos:definition>
+    <dcterms:description xml:lang="es">Términos que definen el tipo de unidad geológica.</dcterms:description>
+    <dcterms:description xml:lang="en">The property geologicUnitTypeTerm provides a term from a controlled vocabulary defining the type of geologic unit.</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-01</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:provenance>Términos originales de INSPIRE</dcterms:provenance>
+    <dcterms:creator>https://commission.europa.eu/</dcterms:creator>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <dcat:theme>GE</dcat:theme>
+    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Tipo de unidad geológica.</skos:editorialNote>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litoestratigrafica">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <skos:prefLabel xml:lang="es">unidad litoestratigráfica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">lithostratigraphic unit</skos:prefLabel>
+    <skos:definition xml:lang="es">Unidad geológica definida a partir de propiedad litológicas observables y distintivas o de una combinación de propiedades litológicas y relaciones cronoestratigráficas.</skos:definition>
+    <skos:definition xml:lang="en">Geologic unit defined on the basis of observable and distinctive lithologic properties or combination of lithologic properties and stratigraphic relationships.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litodemica"/>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithostratigraphicUnit"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litotectonica">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <skos:prefLabel xml:lang="es">unidad litotectónica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">lithotectonic unit</skos:prefLabel>
+    <skos:definition xml:lang="es">Unidad geológica definida a partir de características estructurales o de deformación, de relaciones mutuas, de su origen o de su evolución histórica. El material que contiene puede ser ígneo, sedimentario o metamórfico.</skos:definition>
+    <skos:definition xml:lang="en">Geologic unit defined on basis of structural or deformation features, mutual relations, origin or historical evolution. Contained material may be igneous, sedimentary, or metamorphic.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-deformacion"/>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithotectonicUnit"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithotectonic_unit"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litogenetica">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <skos:prefLabel xml:lang="es">unidad litogenética</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">lithogenetic unit</skos:prefLabel>
+    <skos:definition xml:lang="es">Unidad geológica definida por su origen. El origen se manifiesta en las propiedades de los materiales, pero estos materiales no constituyen la propiedad definitoria.</skos:definition>
+    <skos:definition xml:lang="en">Geologic unit defined by genesis. The genesis is manifested by material properties, but the material is not the defining property.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/suelo-artificial"/>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-excavacion"/>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-movimiento-en-masa"/>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithogeneticUnit"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithogenetic_unit"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/suelo-artificial">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <skos:prefLabel xml:lang="es">suelo artificial</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">artificial ground</skos:prefLabel>
+    <skos:definition xml:lang="es">Unidad geológica definida por su origen vinculado a una actividad humana de depósito o modificación de materiales.</skos:definition>
+    <skos:definition xml:lang="en">Geologic unit defined by genesis involving direct human action to deposit or modify material.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litogenetica"/>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/artificialGround"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/artificial_ground"/>
     <adms:status>Válido</adms:status>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
   </rdf:Description>
@@ -191,6 +224,63 @@
     <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-edafoestratigrafica"/>
     <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-cronoestratigrafica-de-polaridad"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-deformacion">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <skos:prefLabel xml:lang="es">unidad de deformación</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">deformation unit</skos:prefLabel>
+    <skos:definition xml:lang="es">Unidad litotectónica definida por el estilo de deformación o la estructura geológica característica observables en afloramiento.</skos:definition>
+    <skos:definition xml:lang="en">Lithotectonic unit defined by deformation style or characteristic geologic structure observable in outcrop.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litotectonica"/>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/deformationUnit"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/deformation_unit"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-alteracion">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <skos:prefLabel xml:lang="es">unidad de alteración</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">alteration unit</skos:prefLabel>
+    <skos:definition xml:lang="es">Unidad geológica definida por un proceso de alteración.</skos:definition>
+    <skos:definition xml:lang="en">Geologic unit defined by alteration process.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/alterationUnit"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/alteration_unit"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geofisica">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <skos:prefLabel xml:lang="es">unidad geofísica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">geophysical unit</skos:prefLabel>
+    <skos:definition xml:lang="es">Unidad geológica definida por sus características geofísicas.</skos:definition>
+    <skos:definition xml:lang="en">Geologic unit defined by its geophysical characteristics.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
+    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-magnetoestratigrafica"/>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/geophysicalUnit"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/geophysical_unit"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-excavacion">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <skos:prefLabel xml:lang="es">unidad de excavación</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">excavation unit</skos:prefLabel>
+    <skos:definition xml:lang="es">Unidad geológica definida por su origen humano vinculado a operaciones de excavación.</skos:definition>
+    <skos:definition xml:lang="en">Geologic unit defined by human-made genesis involving excavation.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litogenetica"/>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/excavationUnit"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/excavation_unit"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-cronoestratigrafica">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
@@ -204,81 +294,6 @@
     <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/chronostratigraphic_unit"/>
     <adms:status>Válido</adms:status>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/suelo-artificial">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <skos:prefLabel xml:lang="es">suelo artificial</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">artificial ground</skos:prefLabel>
-    <skos:definition xml:lang="es">Unidad geológica definida por su origen vinculado a una actividad humana de depósito o modificación de materiales.</skos:definition>
-    <skos:definition xml:lang="en">Geologic unit defined by genesis involving direct human action to deposit or modify material.</skos:definition>
-    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litogenetica"/>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/artificialGround"/>
-    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/artificial_ground"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
-    <rdf:type rdf:resource="https://schema.org/Organization"/>
-    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
-    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-movimiento-en-masa">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <skos:prefLabel xml:lang="es">unidad de movimiento en masa</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">mass movement unit</skos:prefLabel>
-    <skos:definition xml:lang="es">Unidad geológica producida por un desplazamiento de materiales pendiente abajo inducido por la gravedad y caracterizado por el tipo de movimiento que da lugar al depósito y por la relación que tienen en el tiempo y en el espacio los distintos tipos de movimiento presentes en el depósito.</skos:definition>
-    <skos:definition xml:lang="en">Geologic unit produced by gravity driven, down-slope displacement of material, and characterized by the type of movement giving rise to the deposit, and by how the individual movement types present in the deposit are related in time and space.</skos:definition>
-    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litogenetica"/>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/massMovementUnit"/>
-    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/mass_movement_unit"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <skos:prefLabel xml:lang="es">Tipo de unidad geológica</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Geologic unit type</skos:prefLabel>
-    <dcterms:title xml:lang="es">Tipo de unidad geológica</dcterms:title>
-    <dcterms:title xml:lang="en">Geologic unit type</dcterms:title>
-    <skos:definition xml:lang="es">Términos que definen el tipo de unidad geológica.</skos:definition>
-    <skos:definition xml:lang="en">The property geologicUnitTypeTerm provides a term from a controlled vocabulary defining the type of geologic unit.</skos:definition>
-    <dcterms:description xml:lang="es">Términos que definen el tipo de unidad geológica.</dcterms:description>
-    <dcterms:description xml:lang="en">The property geologicUnitTypeTerm provides a term from a controlled vocabulary defining the type of geologic unit.</dcterms:description>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
-    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
-    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dcterms:provenance>Términos originales de INSPIRE</dcterms:provenance>
-    <dcterms:creator>https://commission.europa.eu/</dcterms:creator>
-    <owl:versionInfo>1.0.0</owl:versionInfo>
-    <dcat:theme>GE</dcat:theme>
-    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Tipo de unidad geológica.</skos:editorialNote>
-    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litoestratigrafica">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <skos:prefLabel xml:lang="es">unidad litoestratigráfica</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">lithostratigraphic unit</skos:prefLabel>
-    <skos:definition xml:lang="es">Unidad geológica definida a partir de propiedad litológicas observables y distintivas o de una combinación de propiedades litológicas y relaciones cronoestratigráficas.</skos:definition>
-    <skos:definition xml:lang="en">Geologic unit defined on the basis of observable and distinctive lithologic properties or combination of lithologic properties and stratigraphic relationships.</skos:definition>
-    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
-    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litodemica"/>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithostratigraphicUnit"/>
-    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
-    <rdf:type rdf:resource="https://schema.org/Organization"/>
-    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
-    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
-    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-magnetoestratigrafica">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -294,6 +309,20 @@
     <adms:status>Válido</adms:status>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
   </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-bioestratigrafica">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
+    <skos:prefLabel xml:lang="es">unidad bioestratigráfica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">biostratigraphic unit</skos:prefLabel>
+    <skos:definition xml:lang="es">Unidad geológica definida sobre la base de su contenido fósil.</skos:definition>
+    <skos:definition xml:lang="en">Geologic unit defined based on fossil content.</skos:definition>
+    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/biostratigraphicUnit"/>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/biostratigraphic_unit"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litologica">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
@@ -305,35 +334,6 @@
     <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
     <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithologicUnit"/>
     <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithologic_unit"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-cronoestratigrafica-de-polaridad">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <skos:prefLabel xml:lang="es">unidad cronoestratigráfica de polaridad</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">polarity chronostratigraphic unit</skos:prefLabel>
-    <skos:definition xml:lang="es">Unidad geológica definida por un registro de polaridad magnética primario impuesto cuando la roca se depositó o cristalizó durante un intervalo determinado de tiempo geológico.</skos:definition>
-    <skos:definition xml:lang="en">Geologic unit defined by primary magnetic-polarity record imposed when the rock was deposited or crystallized during a specific interval of geologic time.</skos:definition>
-    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/polarityChronostratigraphicUnit"/>
-    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/polarity_chronostratigraphic_unit"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-litotectonica">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo"/>
-    <skos:prefLabel xml:lang="es">unidad litotectónica</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">lithotectonic unit</skos:prefLabel>
-    <skos:definition xml:lang="es">Unidad geológica definida a partir de características estructurales o de deformación, de relaciones mutuas, de su origen o de su evolución histórica. El material que contiene puede ser ígneo, sedimentario o metamórfico.</skos:definition>
-    <skos:definition xml:lang="en">Geologic unit defined on basis of structural or deformation features, mutual relations, origin or historical evolution. Contained material may be igneous, sedimentary, or metamorphic.</skos:definition>
-    <skos:broader rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-geologica"/>
-    <skos:narrower rdf:resource="https://geo-carto.github.io/vocabularios/unidad-geologica-tipo/unidad-de-deformacion"/>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/lithotectonicUnit"/>
-    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithotectonic_unit"/>
     <adms:status>Válido</adms:status>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
   </rdf:Description>

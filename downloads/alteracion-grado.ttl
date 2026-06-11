@@ -97,18 +97,18 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/alteracion-grado> a skos:ConceptScheme ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
-    dcterms:description "The property alterationDegree contains a term from a controlled vocabulary indicating the magnitude of observed alteration."@en,
+    dcterms:description "Terms indicating the magnitude of observed alteration."@en,
         "Términos que indican la magnitud de la alteración observada."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Alteration grade"@en,
         "Grado de alteración"@es ;
     owl:versionInfo "1.0.0" ;
-    skos:definition "The property alterationDegree contains a term from a controlled vocabulary indicating the magnitude of observed alteration."@en,
+    skos:definition "Terms indicating the magnitude of observed alteration."@en,
         "Términos que indican la magnitud de la alteración observada."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Grado de alteración."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/alteracion-grado/alterita-residual-vi>,

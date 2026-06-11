@@ -1,5 +1,143 @@
 [
   {
+    "@id": "https://linked.data.gov.au/org/cgi",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Commission for the Management and Application of Geoscience Information"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo/direccion-de-buzamiento",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "La medida de orientación consiste en un buzamiento y una dirección de buzamiento. El buzamiento es el ángulo que la superficie estructural forma con la horizontal medido perpendicularmente al rumbo y en el plano vertical. La dirección de buzamiento es el acimut perpendicular al rumbo de la estructura."
+      },
+      {
+        "@language": "en",
+        "@value": "The orientation measurement consists of a dip and a dip direction. Dip is the angle that the structural surface (eg bedding, fault plane) makes with the horizontal measured perpendicular to the strike of the structure and in the vertical plane Dip direction is the azimuth perpindicular to the strike of the structure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/conventioncode/dip_dip_direction"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "dirección de buzamiento"
+      },
+      {
+        "@language": "en",
+        "@value": "dip dip direction"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo/collection",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Todos los conceptos en este vocabulario."
+      },
+      {
+        "@language": "en",
+        "@value": "All concepts in this vocabulary."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo/direccion-de-buzamiento"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo/regla-de-la-mano-derecha"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Código de convención - Todos los conceptos"
+      },
+      {
+        "@language": "en",
+        "@value": "Convention Code - All concepts"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/affiliation": [
+      {
+        "@id": "https://linked.data.gov.au/org/cgi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "CGI Geoscience Terminology Working Group"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
+      }
+    ]
+  },
+  {
     "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -7,7 +145,7 @@
     "http://purl.org/dc/terms/created": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
+        "@value": "2026-06-01"
       }
     ],
     "http://purl.org/dc/terms/creator": [
@@ -33,7 +171,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
+        "@value": "2026-06-01"
       }
     ],
     "http://purl.org/dc/terms/provenance": [
@@ -102,107 +240,6 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo/collection",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Todos los conceptos en este vocabulario."
-      },
-      {
-        "@language": "en",
-        "@value": "All concepts in this vocabulary."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo/direccion-de-buzamiento"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo/regla-de-la-mano-derecha"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "Código de convención - Todos los conceptos"
-      },
-      {
-        "@language": "en",
-        "@value": "Convention Code - All concepts"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo/direccion-de-buzamiento",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "La medida de orientación consiste en un buzamiento y una dirección de buzamiento. El buzamiento es el ángulo que la superficie estructural forma con la horizontal medido perpendicularmente al rumbo y en el plano vertical. La dirección de buzamiento es el acimut perpendicular al rumbo de la estructura."
-      },
-      {
-        "@language": "en",
-        "@value": "The orientation measurement consists of a dip and a dip direction. Dip is the angle that the structural surface (eg bedding, fault plane) makes with the horizontal measured perpendicular to the strike of the structure and in the vertical plane Dip direction is the azimuth perpindicular to the strike of the structure"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/conventioncode/dip_dip_direction"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "dirección de buzamiento"
-      },
-      {
-        "@language": "en",
-        "@value": "dip dip direction"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
     "@id": "https://geo-carto.github.io/vocabularios/convencion-codigo/regla-de-la-mano-derecha",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -256,43 +293,6 @@
     "http://www.w3.org/ns/adms#status": [
       {
         "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/affiliation": [
-      {
-        "@id": "https://linked.data.gov.au/org/cgi"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "CGI Geoscience Terminology Working Group"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "Commission for the Management and Application of Geoscience Information"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org"
       }
     ]
   }

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sdo="https://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/custodio">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">custodio</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">custodian</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte que acepta la responsabilidad de los datos y asegura el cuidado y mantenimiento apropiados del recurso.</skos:definition>
+    <skos:definition xml:lang="en">Party that accepts accountability and responsibility for the resource and ensures appropriate care and maintenance of the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/autor">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">autor</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">author</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte que es el autor del recurso.</skos:definition>
+    <skos:definition xml:lang="en">Party who authored the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/editor">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">editor</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">editor</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte que revisó o modificó el recurso para mejorar el contenido.</skos:definition>
+    <skos:definition xml:lang="en">Party who reviewed or modified the resource to improve the content.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/propietario">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">propietario</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">owner</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte propietaria del recurso.</skos:definition>
+    <skos:definition xml:lang="en">Party that owns the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="es">Rol de parte responsable</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Responsible Party Role</skos:prefLabel>
+    <dcterms:title xml:lang="es">Rol de parte responsable</dcterms:title>
+    <dcterms:title xml:lang="en">Responsible Party Role</dcterms:title>
+    <skos:definition xml:lang="es">Función desempeñada por la parte responsable según ISO 19115 CI_RoleCode.</skos:definition>
+    <skos:definition xml:lang="en">Function performed by the responsible party according to ISO 19115 CI_RoleCode.</skos:definition>
+    <dcterms:description xml:lang="es">Función desempeñada por la parte responsable según ISO 19115 CI_RoleCode.</dcterms:description>
+    <dcterms:description xml:lang="en">Function performed by the responsible party according to ISO 19115 CI_RoleCode.</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-01</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:provenance>Términos originales de ISO 19115</dcterms:provenance>
+    <dcterms:creator>https://www.iso.org/</dcterms:creator>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <dcat:theme>TE</dcat:theme>
+    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Rol de parte responsable.</skos:editorialNote>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/proveedor-de-recursos"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/custodio"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/propietario"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/usuario"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/distribuidor"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/creador"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/punto-de-contacto"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/investigador-principal"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/procesador"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/publicador"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/autor"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/esponsor"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/co-autor"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/colaborador"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/editor"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/mediador"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/titular-de-los-derechos"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/contribuyente"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/financiador"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/interesado"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/co-autor">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">co-autor</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">coAuthor</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte que coautoriza el recurso.</skos:definition>
+    <skos:definition xml:lang="en">Party who jointly authors the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/proveedor-de-recursos">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">proveedor de recursos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">resourceProvider</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte que suministra el recurso.</skos:definition>
+    <skos:definition xml:lang="en">Party that supplies the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/collection">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">Rol de parte responsable - Todos los conceptos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Responsible Party Role - All concepts</skos:prefLabel>
+    <skos:definition xml:lang="es">Todos los conceptos en este vocabulario.</skos:definition>
+    <skos:definition xml:lang="en">All concepts in this vocabulary.</skos:definition>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/proveedor-de-recursos"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/custodio"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/propietario"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/usuario"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/distribuidor"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/creador"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/punto-de-contacto"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/investigador-principal"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/procesador"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/publicador"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/autor"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/esponsor"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/co-autor"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/colaborador"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/editor"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/mediador"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/titular-de-los-derechos"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/contribuyente"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/financiador"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable/interesado"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/usuario">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">usuario</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">user</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte que usa el recurso.</skos:definition>
+    <skos:definition xml:lang="en">Party who uses the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/colaborador">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">colaborador</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">collaborator</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte que ayuda en la generación del recurso distinta del investigador principal.</skos:definition>
+    <skos:definition xml:lang="en">Party who assists with the generation of the resource other than the principal investigator.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/investigador-principal">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">investigador principal</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">principalInvestigator</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte principal responsable de la recopilación de información y la dirección de la investigación.</skos:definition>
+    <skos:definition xml:lang="en">Key party responsible for gathering information and conducting research</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/financiador">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">financiador</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">funder</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte que proporciona apoyo financiero para el recurso.</skos:definition>
+    <skos:definition xml:lang="en">Party providing monetary support for the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/creador">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">creador</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">originator</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte que creó el recurso.</skos:definition>
+    <skos:definition xml:lang="en">Party who created the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/contribuyente">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">contribuyente</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">contributor</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte que contribuye al recurso.</skos:definition>
+    <skos:definition xml:lang="en">Party contributing to the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/distribuidor">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">distribuidor</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">distributor</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte que distribuye el recurso.</skos:definition>
+    <skos:definition xml:lang="en">Party who distributes the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/publicador">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">publicador</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">publisher</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte que publica el recurso.</skos:definition>
+    <skos:definition xml:lang="en">Party who published the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/mediador">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">mediador</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">mediator</skos:prefLabel>
+    <skos:definition xml:lang="es">Clase de entidad que media el acceso al recurso y para la cual el recurso está destinado o resulta útil.</skos:definition>
+    <skos:definition xml:lang="en">A class of entity that mediates access to the resource and for whom the resource is intended or useful.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/titular-de-los-derechos">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">titular de los derechos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">rightsHolder</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte propietaria o gestora de los derechos sobre el recurso.</skos:definition>
+    <skos:definition xml:lang="en">Party owning or managing rights over the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/esponsor">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">espónsor</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">sponsor</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte que habla en nombre del recurso.</skos:definition>
+    <skos:definition xml:lang="en">Party who speaks for the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/interesado">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">interesado</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">stakeholder</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte que tiene interés en el recurso o en su uso.</skos:definition>
+    <skos:definition xml:lang="en">Party who has an interest in the resource. or the use of the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/procesador">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">procesador</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">processor</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte que ha procesado los datos de una manera tal que ha modificado el recurso.</skos:definition>
+    <skos:definition xml:lang="en">Party who has processed the data in a manner such that the resource has been modified.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/rol-parte-responsable/punto-de-contacto">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/rol-parte-responsable"/>
+    <skos:prefLabel xml:lang="es">punto de contacto</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">pointOfContact</skos:prefLabel>
+    <skos:definition xml:lang="es">Parte con la que se puede contactar para adquirir conocimiento o acceder al recurso.</skos:definition>
+    <skos:definition xml:lang="en">Party who can be contacted for acquiring knowledge about or acquisition of the resource.</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+</rdf:RDF>

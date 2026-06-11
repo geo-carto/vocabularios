@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/activo",
+    "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/estabilizado",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -18,16 +18,16 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Un proceso geomorfológico que actualmente está en acción, o que ha sido reactivado desde hace un período de tiempo convencionalmente corto."
+        "@value": "Un proceso geomorfológico estabilizado es un proceso inactivo que ha sido protegido de sus causas originales mediante medidas correctivas."
       },
       {
         "@language": "en",
-        "@value": "A geomorphologic process that is currently in a state of action, or that has been reactivated since a conventionally short period of time."
+        "@value": "A stabilized geomorphologic process is an inactive process which has been protected from its original causes by remedial measures."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/active"
+        "@id": "http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/stabilised"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -38,11 +38,68 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "activo"
+        "@value": "estabilizado"
       },
       {
         "@language": "en",
-        "@value": "active"
+        "@value": "stabilised"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/latente",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Un proceso geomorfológico que no ha mostrado signos de actividad desde hace un período de tiempo convencionalmente corto, y que podría ser reactivado por sus causas originales o desencadenado por causas inducidas como actividades antropogénicas."
+      },
+      {
+        "@language": "en",
+        "@value": "A geomorphologic process that has not shown signs of activity since a conventionally short period of time, and that could be reactivated by its original causes, or triggered by induced causes such as anthropogenic activities."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/dormant"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "latente"
+      },
+      {
+        "@language": "en",
+        "@value": "dormant"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -114,6 +171,211 @@
     ]
   },
   {
+    "@id": "https://linked.data.gov.au/org/cgi",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Commission for the Management and Application of Geoscience Information"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/affiliation": [
+      {
+        "@id": "https://linked.data.gov.au/org/cgi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "CGI Geoscience Terminology Working Group"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/activo",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Un proceso geomorfológico que actualmente está en acción, o que ha sido reactivado desde hace un período de tiempo convencionalmente corto."
+      },
+      {
+        "@language": "en",
+        "@value": "A geomorphologic process that is currently in a state of action, or that has been reactivated since a conventionally short period of time."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/active"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "activo"
+      },
+      {
+        "@language": "en",
+        "@value": "active"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-06-01"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "https://commission.europa.eu/"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "es",
+        "@value": "Términos referidos al estado de la actividad de un proceso geomorfológico."
+      },
+      {
+        "@language": "en",
+        "@value": "Terms referring to the state of activitiy of a geomorphological process."
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-06-01"
+      }
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "Términos originales de INSPIRE"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://www.igme.es/"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "es",
+        "@value": "Actividad geomorfológica"
+      },
+      {
+        "@language": "en",
+        "@value": "Geomorphologic activity"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Términos referidos al estado de la actividad de un proceso geomorfológico."
+      },
+      {
+        "@language": "en",
+        "@value": "Terms referring to the state of activitiy of a geomorphological process."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#editorialNote": [
+      {
+        "@language": "es",
+        "@value": "Este archivo contiene el vocabulario Actividad geomorfológica."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/activo"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/latente"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/reactivado"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/estabilizado"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/inactivo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Actividad geomorfológica"
+      },
+      {
+        "@language": "en",
+        "@value": "Geomorphologic activity"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@value": "GE"
+      }
+    ]
+  },
+  {
     "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/collection",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Collection"
@@ -163,268 +425,6 @@
       {
         "@language": "en",
         "@value": "Geomorphologic activity - All concepts"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://purl.org/dc/terms/creator": [
-      {
-        "@value": "https://commission.europa.eu/"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Términos referidos a la actividad geomorfológica."
-      },
-      {
-        "@language": "en",
-        "@value": "Terms referring to geomorphological activity."
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://purl.org/dc/terms/provenance": [
-      {
-        "@value": "Términos originales de INSPIRE"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://www.igme.es/"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Actividad geomorfológica"
-      },
-      {
-        "@language": "en",
-        "@value": "Geomorphologic activity"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#versionInfo": [
-      {
-        "@value": "1.0.0"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Términos referidos a la actividad geomorfológica."
-      },
-      {
-        "@language": "en",
-        "@value": "Terms referring to geomorphological activity."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#editorialNote": [
-      {
-        "@language": "es",
-        "@value": "Este archivo contiene el vocabulario Actividad geomorfológica."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/activo"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/latente"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/reactivado"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/estabilizado"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/inactivo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "Actividad geomorfológica"
-      },
-      {
-        "@language": "en",
-        "@value": "Geomorphologic activity"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#theme": [
-      {
-        "@value": "GE"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/affiliation": [
-      {
-        "@id": "https://linked.data.gov.au/org/cgi"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "CGI Geoscience Terminology Working Group"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/estabilizado",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Un proceso geomorfológico estabilizado es un proceso inactivo que ha sido protegido de sus causas originales mediante medidas correctivas."
-      },
-      {
-        "@language": "en",
-        "@value": "A stabilized geomorphologic process is an inactive process which has been protected from its original causes by remedial measures."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/stabilised"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "estabilizado"
-      },
-      {
-        "@language": "en",
-        "@value": "stabilised"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "Commission for the Management and Application of Geoscience Information"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad/latente",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Un proceso geomorfológico que no ha mostrado signos de actividad desde hace un período de tiempo convencionalmente corto, y que podría ser reactivado por sus causas originales o desencadenado por causas inducidas como actividades antropogénicas."
-      },
-      {
-        "@language": "en",
-        "@value": "A geomorphologic process that has not shown signs of activity since a conventionally short period of time, and that could be reactivated by its original causes, or triggered by induced causes such as anthropogenic activities."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/dormant"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "latente"
-      },
-      {
-        "@language": "en",
-        "@value": "dormant"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/geomorfologia-actividad"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
       }
     ]
   },

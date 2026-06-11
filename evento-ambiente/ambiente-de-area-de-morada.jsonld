@@ -7,7 +7,7 @@
   },
   "definition": {
     "en": "Dwelling area setting.",
-    "es": "ambiente de area de morada"
+    "es": "Ambiente de area de morada"
   },
   "exactMatch": [
     {
@@ -17,6 +17,7 @@
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente",
+      "theme": "GE",
       "title": {
         "en": "Event Environment",
         "es": "Ambiente asociado a evento"

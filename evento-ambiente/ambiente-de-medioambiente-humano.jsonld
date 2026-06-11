@@ -7,7 +7,7 @@
   },
   "definition": {
     "en": "Human environment setting.",
-    "es": "ambiente de medioambiente humano"
+    "es": "Ambiente de medioambiente humano"
   },
   "exactMatch": [
     {
@@ -20,6 +20,7 @@
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/evento-ambiente",
+      "theme": "GE",
       "title": {
         "en": "Event Environment",
         "es": "Ambiente asociado a evento"

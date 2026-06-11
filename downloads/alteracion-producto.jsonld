@@ -1,588 +1,17 @@
 [
   {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/travertino",
+    "@id": "https://linked.data.gov.au/org/cgi",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
+      "https://schema.org/Organization"
     ],
-    "http://purl.org/dc/terms/created": [
+    "https://schema.org/name": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
+        "@value": "Commission for the Management and Application of Geoscience Information"
       }
     ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+    "https://schema.org/url": [
       {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "es",
-        "@value": "caliza travertínica, toba calcárea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/regolito"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Caliza de color blanco o crema, con textura a menudo porosa o tubular, y formada por precipitación de carbonato cálcico en medios acuosos superficiales o subterráneos."
-      },
-      {
-        "@language": "en",
-        "@value": "Limestone of white or cream color, commonly having a porous or tubular texture, and formed by precipitation of calcium carbonate in a subaerial or subterranean aqueous environment."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "travertino"
-      },
-      {
-        "@language": "en",
-        "@value": "travertine"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "a) Partícula de diámetro igual o inferior a 1/256 mm. b) Mineral del grupo de los aluminosilicatos hidratados que cristalizan en partículas de tamaño arcilla y se caracaterizan por presentar un comportamiento plástico cuando contienen agua. Incluyen los grupos de la caolinita, illita, esmectita y vermiculita. c) Sedimento con un contenido en minerales arcillosos superior al 67%."
-      },
-      {
-        "@language": "en",
-        "@value": "a) Particle having a diameter equal to or less than 1/256 mm. b) Minerals, especially hydrous aluminosilicates, cristallized in the clay-sized fraction and characterized by a plastic behaviour in relation to water content. Included are the kaolinite, illite, smectite or vermiculite groups. c) Sediment with more than 67 per cent clay-sized minerals."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/caolin"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "arcilla"
-      },
-      {
-        "@language": "en",
-        "@value": "clay"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/calcreta",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "es",
-        "@value": "caliche, costra calcárea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Acumulación predominantemente de carbonato cálcico, bien diferenciada, más o menos endurecida que aparece en alteritas, depósitos superficiales o suelos. Las calcretas endurecidas se denominan caliches o costras calcáreas."
-      },
-      {
-        "@language": "en",
-        "@value": "Accumulation of mainly calcium carbonate composition, well differentiated, indurated or not, in alterites, superficial deposits or soils. Caliches and calcareous crusts are indurated calcretes."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "calcreta"
-      },
-      {
-        "@language": "en",
-        "@value": "calcrete"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Alterita originada por procesos de meteorización química en climas tropicales o subtropicales, y enriquecida en óxidos e hidróxidos de hierro y/o aluminio, frecuentemente con cuarzo y caolinita."
-      },
-      {
-        "@language": "en",
-        "@value": "Alterite caused by intense weathering in tropical to subtropical climate and enriched in oxides and hydroxides of iron, aluminum, or both, commonly with quartz and kaolinite."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-aluminica"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-ferrica"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "laterita"
-      },
-      {
-        "@language": "en",
-        "@value": "laterite"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/gore",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Alterita originada por procesos químicos de hidrólisis de rocas metamórficas, especialmente gneises y micaesquistos caracterizados por feldespatos y biotitas, transformadas en minerales arcillosos."
-      },
-      {
-        "@language": "en",
-        "@value": "Alterite caused by chemical processes of hydrolysis of metamorphic rocks, especially gneisses and micaschists characterized by feldespars and biotites, transformed into clay minerals."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "gore"
-      },
-      {
-        "@language": "en",
-        "@value": "gore"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Alterita residual formada por disolución química de rocas carbonatadas, caracterizada por la acumulación de los componentes insolubles (minerales de arcillas, óxidos e hidróxidos de hierro y, ocasionalmente, sílice), que puede presentar diferentes grados de rubefacción y evolución edáfica según las condiciones climáticas y geomorfológicas."
-      },
-      {
-        "@language": "en",
-        "@value": "Alterita residual formada por disolución química de rocas carbonatadas, caracterizada por la acumulación de los componentes insolubles (minerales de arcillas, óxidos e hidróxidos de hierro y, ocasionalmente, sílice), que puede presentar diferentes grados de rubefacción y evolución edáfica según las condiciones climáticas y geomorfológicas."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-rossa"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-fusca"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "arcilla de descalcificación"
-      },
-      {
-        "@language": "en",
-        "@value": "decarbonated clay"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "es",
-        "@value": "depósito residual"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Formación superficial originada por procesos de meteorización que transforman, en diversos grados, las características físicas y/o químicas de rocas o sedimentos. Se incluyen tanto las alteritas autóctonas o no transportadas como las alóctonas o transportadas. Las alteritas residuales presentan un grado de meteorización muy elevado, en las que gran parte del material original ha sido transportado."
-      },
-      {
-        "@language": "en",
-        "@value": "Superficial formation caused by the weathering of rocks or sediments and transformation, in several degrees, of their physical and chemical characteristics. Included are not transported or autochthonous alterites and transported or allochthonous alterites. Residual alterites presents an extremely high weathering degree, with a significantly reduced original volume."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/grus"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/gore"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "alterita"
-      },
-      {
-        "@language": "en",
-        "@value": "alterite"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-fusca",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "es",
-        "@value": "terra fusca"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Alterita para-autóctona originada por procesos químicos de disolución de rocas carbonatadas, en climas templado-húmedos, generando residuos no rubefactados, compuestos por minerales de arcillas, óxidos de hierro y, a veces, sílice."
-      },
-      {
-        "@language": "en",
-        "@value": "Alterite caused by chemical processes of dissolution of carbonate rocks in a warm-wet climate and characterized by not rubefacted products, containing clay minerals, iron oxides and, sometimes, silica."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "arcilla de descalcificación - terra fusca"
-      },
-      {
-        "@language": "en",
-        "@value": "decarbonated clay - terra fusca"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/regolito"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Roca meteorizada en la cual se conserva la fábrica de la roca original."
-      },
-      {
-        "@language": "en",
-        "@value": "Weathered bedrock characterized by preservation of fabrics that were present in the original bedrock."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "saprolito"
-      },
-      {
-        "@language": "en",
-        "@value": "saprolite"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/silcreta",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Acumulación predominantemente silícea, bien diferenciada, más o menos endurecida, que aparece en alteritas, depósitos superficiales o suelos."
-      },
-      {
-        "@language": "en",
-        "@value": "Accumulation of mainly siliceous composition, well differentiated, indurated or not, in alterites, superficial deposits or soils."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "silcreta"
-      },
-      {
-        "@language": "en",
-        "@value": "silcrete"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
+        "@id": "http://www.cgi-iugs.org"
       }
     ]
   },
@@ -594,7 +23,7 @@
     "http://purl.org/dc/terms/created": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
+        "@value": "2026-06-01"
       }
     ],
     "http://purl.org/dc/terms/creator": [
@@ -609,7 +38,7 @@
       },
       {
         "@language": "en",
-        "@value": "The property alterationProduct is an association between the AlterationDescription and EarthMaterial describing the material resulting from alteration processes (e.g., alteration minerals, saprolite, ferricrete, clay, calcrete, skarn). Materials observed in a soil profile could be identified using this property."
+        "@value": "Terms describing the material resulting from alteration processes (e.g., alteration minerals, saprolite, ferricrete, clay, calcrete, skarn)."
       }
     ],
     "http://purl.org/dc/terms/license": [
@@ -620,7 +49,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
+        "@value": "2026-06-01"
       }
     ],
     "http://purl.org/dc/terms/provenance": [
@@ -655,7 +84,7 @@
       },
       {
         "@language": "en",
-        "@value": "The property alterationProduct is an association between the AlterationDescription and EarthMaterial describing the material resulting from alteration processes (e.g., alteration minerals, saprolite, ferricrete, clay, calcrete, skarn). Materials observed in a soil profile could be identified using this property."
+        "@value": "Terms describing the material resulting from alteration processes (e.g., alteration minerals, saprolite, ferricrete, clay, calcrete, skarn)."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#editorialNote": [
@@ -682,303 +111,6 @@
     "http://www.w3.org/ns/dcat#theme": [
       {
         "@value": "GE"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/collection",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Todos los conceptos en este vocabulario."
-      },
-      {
-        "@language": "en",
-        "@value": "All concepts in this vocabulary."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/regolito"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/grus"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/gore"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-aluminica"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-ferrica"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/caolin"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/silcreta"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/ferricreta"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/calcreta"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-rossa"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-fusca"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/travertino"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "Producto de alteración - Todos los conceptos"
-      },
-      {
-        "@language": "en",
-        "@value": "Alteration product - All concepts"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-ferrica",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Laterita rica en óxidos de hierro, fundamentalmente goethita y limonita."
-      },
-      {
-        "@language": "en",
-        "@value": "Laterite enriched in oxides of iron, especially goethite and limonite."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "laterita férrica"
-      },
-      {
-        "@language": "en",
-        "@value": "iron-rich laterite"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-rossa",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "es",
-        "@value": "terra rossa"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Alterita originada por procesos químicos de disolución de rocas carbonatadas, en climas con estación seca bien definida, generando residuos rubefactados, compuestos por minerales de arcillas, óxidos de hierro y, a veces, sílice."
-      },
-      {
-        "@language": "en",
-        "@value": "Alterite caused by chemical processes of dissolution of carbonate rocks in a well-defined dry season climate and characterized by rubefacted products, containing clay minerals, iron oxides and, sometimes, silica."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "arcilla de descalcificación - terra rossa"
-      },
-      {
-        "@language": "en",
-        "@value": "decarbonated clay"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-aluminica",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "es",
-        "@value": "bauxita"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Laterita rica en hidróxidos de aluminio, fundamentalmente gibbsita, boehmita y diásporo."
-      },
-      {
-        "@language": "en",
-        "@value": "Laterite enriched in hydroxides of aluminum, especially gibbsite, boehmite and diaspore."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "laterita alumínica"
-      },
-      {
-        "@language": "en",
-        "@value": "aluminum-rich laterite"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/affiliation": [
-      {
-        "@id": "https://linked.data.gov.au/org/cgi"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "CGI Geoscience Terminology Working Group"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "Commission for the Management and Application of Geoscience Information"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org"
       }
     ]
   },
@@ -1032,121 +164,6 @@
       {
         "@language": "en",
         "@value": "grus"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/ferricreta",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Acumulación predominantemente ferruginosa, bien diferenciada, más o menos endurecida que aparece en alteritas, depósitos superficiales o suelos."
-      },
-      {
-        "@language": "en",
-        "@value": "Accumulation of mainly ferruginous composition, well differentiated, indurated or not, in alterites, superficial deposits or soils."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "ferricreta"
-      },
-      {
-        "@language": "en",
-        "@value": "ferricrete"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/regolito",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Material que recubre la roca fresca. Incluye alteritas, depósitos superficiales y suelos."
-      },
-      {
-        "@language": "en",
-        "@value": "Material that covers the unweathered bedrock. It includes alterites, superficial deposits and soils."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/travertino"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "regolito"
-      },
-      {
-        "@language": "en",
-        "@value": "regolith"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -1268,6 +285,989 @@
       {
         "@language": "en",
         "@value": "duricrust"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/regolito"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Roca meteorizada en la cual se conserva la fábrica de la roca original."
+      },
+      {
+        "@language": "en",
+        "@value": "Weathered bedrock characterized by preservation of fabrics that were present in the original bedrock."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "saprolito"
+      },
+      {
+        "@language": "en",
+        "@value": "saprolite"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-aluminica",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "es",
+        "@value": "bauxita"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Laterita rica en hidróxidos de aluminio, fundamentalmente gibbsita, boehmita y diásporo."
+      },
+      {
+        "@language": "en",
+        "@value": "Laterite enriched in hydroxides of aluminum, especially gibbsite, boehmite and diaspore."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "laterita alumínica"
+      },
+      {
+        "@language": "en",
+        "@value": "aluminum-rich laterite"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/travertino",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "es",
+        "@value": "caliza travertínica, toba calcárea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/regolito"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Caliza de color blanco o crema, con textura a menudo porosa o tubular, y formada por precipitación de carbonato cálcico en medios acuosos superficiales o subterráneos."
+      },
+      {
+        "@language": "en",
+        "@value": "Limestone of white or cream color, commonly having a porous or tubular texture, and formed by precipitation of calcium carbonate in a subaerial or subterranean aqueous environment."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "travertino"
+      },
+      {
+        "@language": "en",
+        "@value": "travertine"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/silcreta",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Acumulación predominantemente silícea, bien diferenciada, más o menos endurecida, que aparece en alteritas, depósitos superficiales o suelos."
+      },
+      {
+        "@language": "en",
+        "@value": "Accumulation of mainly siliceous composition, well differentiated, indurated or not, in alterites, superficial deposits or soils."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "silcreta"
+      },
+      {
+        "@language": "en",
+        "@value": "silcrete"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/affiliation": [
+      {
+        "@id": "https://linked.data.gov.au/org/cgi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "CGI Geoscience Terminology Working Group"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Alterita originada por procesos de meteorización química en climas tropicales o subtropicales, y enriquecida en óxidos e hidróxidos de hierro y/o aluminio, frecuentemente con cuarzo y caolinita."
+      },
+      {
+        "@language": "en",
+        "@value": "Alterite caused by intense weathering in tropical to subtropical climate and enriched in oxides and hydroxides of iron, aluminum, or both, commonly with quartz and kaolinite."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-aluminica"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-ferrica"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "laterita"
+      },
+      {
+        "@language": "en",
+        "@value": "laterite"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/regolito",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Material que recubre la roca fresca. Incluye alteritas, depósitos superficiales y suelos."
+      },
+      {
+        "@language": "en",
+        "@value": "Material that covers the unweathered bedrock. It includes alterites, superficial deposits and soils."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/travertino"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "regolito"
+      },
+      {
+        "@language": "en",
+        "@value": "regolith"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "a) Partícula de diámetro igual o inferior a 1/256 mm. b) Mineral del grupo de los aluminosilicatos hidratados que cristalizan en partículas de tamaño arcilla y se caracaterizan por presentar un comportamiento plástico cuando contienen agua. Incluyen los grupos de la caolinita, illita, esmectita y vermiculita. c) Sedimento con un contenido en minerales arcillosos superior al 67%."
+      },
+      {
+        "@language": "en",
+        "@value": "a) Particle having a diameter equal to or less than 1/256 mm. b) Minerals, especially hydrous aluminosilicates, cristallized in the clay-sized fraction and characterized by a plastic behaviour in relation to water content. Included are the kaolinite, illite, smectite or vermiculite groups. c) Sediment with more than 67 per cent clay-sized minerals."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/caolin"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "arcilla"
+      },
+      {
+        "@language": "en",
+        "@value": "clay"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/ferricreta",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Acumulación predominantemente ferruginosa, bien diferenciada, más o menos endurecida que aparece en alteritas, depósitos superficiales o suelos."
+      },
+      {
+        "@language": "en",
+        "@value": "Accumulation of mainly ferruginous composition, well differentiated, indurated or not, in alterites, superficial deposits or soils."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "ferricreta"
+      },
+      {
+        "@language": "en",
+        "@value": "ferricrete"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-rossa",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "es",
+        "@value": "terra rossa"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Alterita originada por procesos químicos de disolución de rocas carbonatadas, en climas con estación seca bien definida, generando residuos rubefactados, compuestos por minerales de arcillas, óxidos de hierro y, a veces, sílice."
+      },
+      {
+        "@language": "en",
+        "@value": "Alterite caused by chemical processes of dissolution of carbonate rocks in a well-defined dry season climate and characterized by rubefacted products, containing clay minerals, iron oxides and, sometimes, silica."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "arcilla de descalcificación - terra rossa"
+      },
+      {
+        "@language": "en",
+        "@value": "decarbonated clay"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/collection",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Todos los conceptos en este vocabulario."
+      },
+      {
+        "@language": "en",
+        "@value": "All concepts in this vocabulary."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/regolito"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/grus"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/gore"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-aluminica"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-ferrica"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/caolin"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/silcreta"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/ferricreta"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/calcreta"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-rossa"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-fusca"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/travertino"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Producto de alteración - Todos los conceptos"
+      },
+      {
+        "@language": "en",
+        "@value": "Alteration product - All concepts"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-fusca",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "es",
+        "@value": "terra fusca"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Alterita para-autóctona originada por procesos químicos de disolución de rocas carbonatadas, en climas templado-húmedos, generando residuos no rubefactados, compuestos por minerales de arcillas, óxidos de hierro y, a veces, sílice."
+      },
+      {
+        "@language": "en",
+        "@value": "Alterite caused by chemical processes of dissolution of carbonate rocks in a warm-wet climate and characterized by not rubefacted products, containing clay minerals, iron oxides and, sometimes, silica."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "arcilla de descalcificación - terra fusca"
+      },
+      {
+        "@language": "en",
+        "@value": "decarbonated clay - terra fusca"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/calcreta",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "es",
+        "@value": "caliche, costra calcárea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/duricreta"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Acumulación predominantemente de carbonato cálcico, bien diferenciada, más o menos endurecida que aparece en alteritas, depósitos superficiales o suelos. Las calcretas endurecidas se denominan caliches o costras calcáreas."
+      },
+      {
+        "@language": "en",
+        "@value": "Accumulation of mainly calcium carbonate composition, well differentiated, indurated or not, in alterites, superficial deposits or soils. Caliches and calcareous crusts are indurated calcretes."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "calcreta"
+      },
+      {
+        "@language": "en",
+        "@value": "calcrete"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/gore",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Alterita originada por procesos químicos de hidrólisis de rocas metamórficas, especialmente gneises y micaesquistos caracterizados por feldespatos y biotitas, transformadas en minerales arcillosos."
+      },
+      {
+        "@language": "en",
+        "@value": "Alterite caused by chemical processes of hydrolysis of metamorphic rocks, especially gneisses and micaschists characterized by feldespars and biotites, transformed into clay minerals."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "gore"
+      },
+      {
+        "@language": "en",
+        "@value": "gore"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "es",
+        "@value": "depósito residual"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/saprolito"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Formación superficial originada por procesos de meteorización que transforman, en diversos grados, las características físicas y/o químicas de rocas o sedimentos. Se incluyen tanto las alteritas autóctonas o no transportadas como las alóctonas o transportadas. Las alteritas residuales presentan un grado de meteorización muy elevado, en las que gran parte del material original ha sido transportado."
+      },
+      {
+        "@language": "en",
+        "@value": "Superficial formation caused by the weathering of rocks or sediments and transformation, in several degrees, of their physical and chemical characteristics. Included are not transported or autochthonous alterites and transported or allochthonous alterites. Residual alterites presents an extremely high weathering degree, with a significantly reduced original volume."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/grus"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/gore"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "alterita"
+      },
+      {
+        "@language": "en",
+        "@value": "alterite"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita-ferrica",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/laterita"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Laterita rica en óxidos de hierro, fundamentalmente goethita y limonita."
+      },
+      {
+        "@language": "en",
+        "@value": "Laterite enriched in oxides of iron, especially goethite and limonite."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "laterita férrica"
+      },
+      {
+        "@language": "en",
+        "@value": "iron-rich laterite"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/alterita"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Alterita residual formada por disolución química de rocas carbonatadas, caracterizada por la acumulación de los componentes insolubles (minerales de arcillas, óxidos e hidróxidos de hierro y, ocasionalmente, sílice), que puede presentar diferentes grados de rubefacción y evolución edáfica según las condiciones climáticas y geomorfológicas."
+      },
+      {
+        "@language": "en",
+        "@value": "Alterita residual formada por disolución química de rocas carbonatadas, caracterizada por la acumulación de los componentes insolubles (minerales de arcillas, óxidos e hidróxidos de hierro y, ocasionalmente, sílice), que puede presentar diferentes grados de rubefacción y evolución edáfica según las condiciones climáticas y geomorfológicas."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-rossa"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-producto/arcilla-de-descalcificacion-terra-fusca"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "arcilla de descalcificación"
+      },
+      {
+        "@language": "en",
+        "@value": "decarbonated clay"
       }
     ],
     "http://www.w3.org/ns/adms#status": [

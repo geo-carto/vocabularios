@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-los-esquistos-verdes",
+    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-sub-esquistos-verdes",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -23,16 +23,16 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Facies metamórfica caracterizada en rocas de composición basáltica por actinolita-albita-epidota-clorita (el silicato de Ca-Al diagnóstico es un mineral del grupo de la epidota en lugar de prehnita o pumpellita)."
+        "@value": "Facies metamórfica caracterizada en rocas de composición basáltica por prehnita-pumpellita, pumpellita-actinolita, prehnita-actinolita (prehnita y pumpellita son los silicatos de Ca-Al diagnósticos en lugar de minerales de los grupos de la epidota o de las zeolitas)."
       },
       {
         "@language": "en",
-        "@value": "Metamorphic facies characterized in rocks of basaltic composition by actinolite-albite-epidote-chlorite (an epidote group mineral is the diagnostic Ca-Al silicate rather than prehnite or pumpellyite)."
+        "@value": "Metamorphic facies characterized in rocks of basaltic composition by prehnite-pumpellyite, pumpellyite-actinolite, prehnite-actinolite (prehnite and pumpellyite are the diagnostic Ca-Al silicates rather than minerals of the epidote or zeolite groups)."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/greenschist_metamorphic_facies"
+        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/subgreenschist_metamorphic_facies"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -43,11 +43,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "facies metamórfica de los esquistos verdes"
+        "@value": "facies metamórfica de sub-esquistos verdes"
       },
       {
         "@language": "en",
-        "@value": "greenschist metamorphic facies"
+        "@value": "subgreenschist metamorphic facies"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -57,23 +57,117 @@
     ]
   },
   {
-    "@id": "https://linked.data.gov.au/org/cgi",
+    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies",
     "@type": [
-      "https://schema.org/Organization"
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
     ],
-    "https://schema.org/name": [
+    "http://purl.org/dc/terms/contributor": [
       {
-        "@value": "Commission for the Management and Application of Geoscience Information"
+        "@value": "https://www.igme.es"
       }
     ],
-    "https://schema.org/url": [
+    "http://purl.org/dc/terms/created": [
       {
-        "@id": "http://www.cgi-iugs.org"
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-06-01"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "https://cgi-iugs.org/"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "es",
+        "@value": "Términos que describen conjuntos minerales característicos indicativos de determinadas condiciones de presión y temperatura metamórficas. Ejemplos: zonas metasedimentarias barrovianas (por ejemplo, facies de biotita, facies de cianita) o asociaciones desarrolladas en rocas de composición más máfica (por ejemplo, facies de esquistos verdes, facies de anfibolita)."
+      },
+      {
+        "@language": "en",
+        "@value": "Terms describing characteristic mineral assemblages indicative of specific metamorphic pressure and temperature conditions. Examples include Barrovian metasedimentary zones (e.g., biotite facies, kyanite facies) or assemblages developed in rocks of more mafic composition (e.g., greenschist facies, amphibolite facies)."
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-06-01"
+      }
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "Términos originales del estándar GeoSciML traducidos al español por el IGME"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://www.igme.es/"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "es",
+        "@value": "Facies metamórficas"
+      },
+      {
+        "@language": "en",
+        "@value": "Metamorphic facies"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Términos que describen conjuntos minerales característicos indicativos de determinadas condiciones de presión y temperatura metamórficas. Ejemplos: zonas metasedimentarias barrovianas (por ejemplo, facies de biotita, facies de cianita) o asociaciones desarrolladas en rocas de composición más máfica (por ejemplo, facies de esquistos verdes, facies de anfibolita)."
+      },
+      {
+        "@language": "en",
+        "@value": "Terms describing characteristic mineral assemblages indicative of specific metamorphic pressure and temperature conditions. Examples include Barrovian metasedimentary zones (e.g., biotite facies, kyanite facies) or assemblages developed in rocks of more mafic composition (e.g., greenschist facies, amphibolite facies)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#editorialNote": [
+      {
+        "@language": "es",
+        "@value": "Este archivo contiene el vocabulario Facies metamórficas."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-desconocida"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/sin-minerales-metamorficos"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Facies metamórficas"
+      },
+      {
+        "@language": "en",
+        "@value": "Metamorphic facies"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@value": "GE"
       }
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/sin-minerales-metamorficos",
+    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-anfibolitas-epidoticas",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -88,19 +182,24 @@
         "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
       }
     ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Corresponde a condiciones no-metamorfizadas, ya que la clasificación de facies metamórficas está basada en asociaciones minerales, la ausencia de minerales metamórficos significa que la clasificación no se aplica."
+        "@value": "Facies metamórfica caracterizada por la asociación de hornblenda-albita-epidota (-clorita) en rocas de composición basáltica"
       },
       {
         "@language": "en",
-        "@value": "Corresponds to non-metamorphosed condition, since metamorphic facies classification is based on mineral assemblages, absence of metamorphic minerals means that the classification does not apply."
+        "@value": "Hornblende-albite-epidote(-chlorite), assemblage for rocks of basaltic composition"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/no_metamorphic_minerals"
+        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/epidote_amphibolite_metamorphic_facies"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -111,73 +210,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "sin minerales metamórficos"
+        "@value": "facies metamórfica de las anfibolitas epidóticas"
       },
       {
         "@language": "en",
-        "@value": "no metamorphic minerals"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-desconocida",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Para usar en descripciones de instancias para indicar que no hay datos disponibles para constreñir la facies metamórfica. Puede ser metamorfizada o no-metamorfizada."
-      },
-      {
-        "@language": "en",
-        "@value": "For use in instance descriptions to indicate that no data are available to constrain metamorphic facies. May be metamorphosed or non-metamorphosed."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/metamorphic_facies_unknown"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "facies metamórfica desconocida"
-      },
-      {
-        "@language": "en",
-        "@value": "metamorphic facies unknown"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
+        "@value": "epidote amphibolite metamorphic facies"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -264,309 +301,23 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ],
-    "http://purl.org/dc/terms/contributor": [
-      {
-        "@value": "https://www.igme.es"
-      }
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://purl.org/dc/terms/creator": [
-      {
-        "@value": "https://cgi-iugs.org/"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Términos que describen conjuntos minerales característicos indicativos de determinadas condiciones de presión y temperatura metamórficas. Ejemplos: zonas metasedimentarias barrovianas (por ejemplo, facies de biotita, facies de cianita) o asociaciones desarrolladas en rocas de composición más máfica (por ejemplo, facies de esquistos verdes, facies de anfibolita)."
-      },
-      {
-        "@language": "en",
-        "@value": "The metamorphicFacies property contains a term from a controlled vocabulary describing characteristic mineral assemblages indicative of specific metamorphic pressure and temperature conditions. Examples include Barrovian metasedimentary zones (e.g., biotite facies, kyanite facies) or assemblages developed in rocks of more mafic composition (e.g., greenschist facies, amphibolite facies)."
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://purl.org/dc/terms/provenance": [
-      {
-        "@value": "Términos originales del estándar GeoSciML traducidos al español por el IGME"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://www.igme.es/"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Facies metamórficas"
-      },
-      {
-        "@language": "en",
-        "@value": "Metamorphic facies"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#versionInfo": [
-      {
-        "@value": "1.0.0"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Términos que describen conjuntos minerales característicos indicativos de determinadas condiciones de presión y temperatura metamórficas. Ejemplos: zonas metasedimentarias barrovianas (por ejemplo, facies de biotita, facies de cianita) o asociaciones desarrolladas en rocas de composición más máfica (por ejemplo, facies de esquistos verdes, facies de anfibolita)."
-      },
-      {
-        "@language": "en",
-        "@value": "The metamorphicFacies property contains a term from a controlled vocabulary describing characteristic mineral assemblages indicative of specific metamorphic pressure and temperature conditions. Examples include Barrovian metasedimentary zones (e.g., biotite facies, kyanite facies) or assemblages developed in rocks of more mafic composition (e.g., greenschist facies, amphibolite facies)."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#editorialNote": [
-      {
-        "@language": "es",
-        "@value": "Este archivo contiene el vocabulario Facies metamórficas."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-desconocida"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/sin-minerales-metamorficos"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "Facies metamórficas"
-      },
-      {
-        "@language": "en",
-        "@value": "Metamorphic facies"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#theme": [
-      {
-        "@value": "GE"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-anfibolitas",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Facies metamórfica caracterizada en rocas de composición basáltica por hornblenda-plagioclasa (plagioclasa más cálcica que An17)"
-      },
-      {
-        "@language": "en",
-        "@value": "Metamorphic facies characterized in rocks of basaltic composition by hornblende-plagioclase (plagioclase more calcic than An17)."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/amphibolite_metamorphic_facies"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "facies metamórfica de las anfibolitas"
-      },
-      {
-        "@language": "en",
-        "@value": "amphibolite metamorphic facies"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-granulitas",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Facies metamórfica caracterizada en rocas de composición basáltica por la asociación mineral clinopiroxeno-ortopiroxeno-plagioclasa (olivino no estable con plagioclasa o con granate), o variedades o polimorfos de minerales de especialmente alta temperatura."
-      },
-      {
-        "@language": "en",
-        "@value": "Metamorphic facies characterized in rocks of basaltic composition by the mineral assemblage clinopyroxene-orthopyroxene-plagioclase (olivine not stable with plagioclase or with garnet), or especially high-temperature varieties or polymorphs of minerals"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/granulite_facies"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "facies metamórfica de las granulitas"
-      },
-      {
-        "@language": "en",
-        "@value": "granulite facies"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-sanidinitas",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Se distingue de la facies de las corneanas piroxénicas por la presencia de variedades y polimorfos de minerales de especialmente alta temperatura (eg. pigeonita, labradorita rica en K) en asociaciones de rocas de composición basáltica"
-      },
-      {
-        "@language": "en",
-        "@value": "distinguished from the pyroxene hornfels facies by the occurrence of especially high-temperature varieties and polymorphs of minerals (eg. pigeonite, K-rich labradorite), assemblage for rocks of basaltic composition"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/sanidinite_metamorphic_facies"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "facies metamórfica de las sanidinitas"
-      },
-      {
-        "@language": "en",
-        "@value": "sanidinite metamorphic facies"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
+    "@id": "https://linked.data.gov.au/org/cgi",
     "@type": [
       "https://schema.org/Organization"
     ],
-    "https://schema.org/affiliation": [
-      {
-        "@id": "https://linked.data.gov.au/org/cgi"
-      }
-    ],
     "https://schema.org/name": [
       {
-        "@value": "CGI Geoscience Terminology Working Group"
+        "@value": "Commission for the Management and Application of Geoscience Information"
       }
     ],
     "https://schema.org/url": [
       {
-        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
+        "@id": "http://www.cgi-iugs.org"
       }
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-sub-esquistos-verdes",
+    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-zeolitas",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -589,16 +340,16 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Facies metamórfica caracterizada en rocas de composición basáltica por prehnita-pumpellita, pumpellita-actinolita, prehnita-actinolita (prehnita y pumpellita son los silicatos de Ca-Al diagnósticos en lugar de minerales de los grupos de la epidota o de las zeolitas)."
+        "@value": "Facies metamórfica caracterizada en rocas de composición basáltica por minerales de las zeolitas tales como laumontita y heulandita (en lugar de otros silicatos de Ca-Al tales como prehnita, pumpellita y epidota)."
       },
       {
         "@language": "en",
-        "@value": "Metamorphic facies characterized in rocks of basaltic composition by prehnite-pumpellyite, pumpellyite-actinolite, prehnite-actinolite (prehnite and pumpellyite are the diagnostic Ca-Al silicates rather than minerals of the epidote or zeolite groups)."
+        "@value": "Metamorphic facies characterized in rocks of basaltic composition by zeolite minerals such as laumontite and heulandites (in place of other Ca-Al silicates such as prehnite, pumpellyite and epidote)."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/subgreenschist_metamorphic_facies"
+        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/zeolite_metamorphic_facies"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -609,11 +360,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "facies metamórfica de sub-esquistos verdes"
+        "@value": "facies metamórfica de las zeolitas"
       },
       {
         "@language": "en",
-        "@value": "subgreenschist metamorphic facies"
+        "@value": "zeolite metamorphic facies"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -623,7 +374,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-anfibolitas-epidoticas",
+    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-los-esquistos-verdes",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -646,16 +397,16 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Facies metamórfica caracterizada por la asociación de hornblenda-albita-epidota (-clorita) en rocas de composición basáltica"
+        "@value": "Facies metamórfica caracterizada en rocas de composición basáltica por actinolita-albita-epidota-clorita (el silicato de Ca-Al diagnóstico es un mineral del grupo de la epidota en lugar de prehnita o pumpellita)."
       },
       {
         "@language": "en",
-        "@value": "Hornblende-albite-epidote(-chlorite), assemblage for rocks of basaltic composition"
+        "@value": "Metamorphic facies characterized in rocks of basaltic composition by actinolite-albite-epidote-chlorite (an epidote group mineral is the diagnostic Ca-Al silicate rather than prehnite or pumpellyite)."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/epidote_amphibolite_metamorphic_facies"
+        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/greenschist_metamorphic_facies"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -666,11 +417,68 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "facies metamórfica de las anfibolitas epidóticas"
+        "@value": "facies metamórfica de los esquistos verdes"
       },
       {
         "@language": "en",
-        "@value": "epidote amphibolite metamorphic facies"
+        "@value": "greenschist metamorphic facies"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/sin-minerales-metamorficos",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Corresponde a condiciones no-metamorfizadas, ya que la clasificación de facies metamórficas está basada en asociaciones minerales, la ausencia de minerales metamórficos significa que la clasificación no se aplica."
+      },
+      {
+        "@language": "en",
+        "@value": "Corresponds to non-metamorphosed condition, since metamorphic facies classification is based on mineral assemblages, absence of metamorphic minerals means that the classification does not apply."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/no_metamorphic_minerals"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "sin minerales metamórficos"
+      },
+      {
+        "@language": "en",
+        "@value": "no metamorphic minerals"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -737,6 +545,27 @@
     ]
   },
   {
+    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/affiliation": [
+      {
+        "@id": "https://linked.data.gov.au/org/cgi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "CGI Geoscience Terminology Working Group"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
+      }
+    ]
+  },
+  {
     "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-los-esquistos-con-glaucofana",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -794,7 +623,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-zeolitas",
+    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-granulitas",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -817,16 +646,16 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Facies metamórfica caracterizada en rocas de composición basáltica por minerales de las zeolitas tales como laumontita y heulandita (en lugar de otros silicatos de Ca-Al tales como prehnita, pumpellita y epidota)."
+        "@value": "Facies metamórfica caracterizada en rocas de composición basáltica por la asociación mineral clinopiroxeno-ortopiroxeno-plagioclasa (olivino no estable con plagioclasa o con granate), o variedades o polimorfos de minerales de especialmente alta temperatura."
       },
       {
         "@language": "en",
-        "@value": "Metamorphic facies characterized in rocks of basaltic composition by zeolite minerals such as laumontite and heulandites (in place of other Ca-Al silicates such as prehnite, pumpellyite and epidote)."
+        "@value": "Metamorphic facies characterized in rocks of basaltic composition by the mineral assemblage clinopyroxene-orthopyroxene-plagioclase (olivine not stable with plagioclase or with garnet), or especially high-temperature varieties or polymorphs of minerals"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/zeolite_metamorphic_facies"
+        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/granulite_facies"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -837,11 +666,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "facies metamórfica de las zeolitas"
+        "@value": "facies metamórfica de las granulitas"
       },
       {
         "@language": "en",
-        "@value": "zeolite metamorphic facies"
+        "@value": "granulite facies"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -988,6 +817,177 @@
       {
         "@language": "en",
         "@value": "eclogite metamorphic facies"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-desconocida",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Para usar en descripciones de instancias para indicar que no hay datos disponibles para constreñir la facies metamórfica. Puede ser metamorfizada o no-metamorfizada."
+      },
+      {
+        "@language": "en",
+        "@value": "For use in instance descriptions to indicate that no data are available to constrain metamorphic facies. May be metamorphosed or non-metamorphosed."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/metamorphic_facies_unknown"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "facies metamórfica desconocida"
+      },
+      {
+        "@language": "en",
+        "@value": "metamorphic facies unknown"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-sanidinitas",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Se distingue de la facies de las corneanas piroxénicas por la presencia de variedades y polimorfos de minerales de especialmente alta temperatura (eg. pigeonita, labradorita rica en K) en asociaciones de rocas de composición basáltica"
+      },
+      {
+        "@language": "en",
+        "@value": "distinguished from the pyroxene hornfels facies by the occurrence of especially high-temperature varieties and polymorphs of minerals (eg. pigeonite, K-rich labradorite), assemblage for rocks of basaltic composition"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/sanidinite_metamorphic_facies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "facies metamórfica de las sanidinitas"
+      },
+      {
+        "@language": "en",
+        "@value": "sanidinite metamorphic facies"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-de-las-anfibolitas",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies/facies-metamorfica-sin-especificar"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Facies metamórfica caracterizada en rocas de composición basáltica por hornblenda-plagioclasa (plagioclasa más cálcica que An17)"
+      },
+      {
+        "@language": "en",
+        "@value": "Metamorphic facies characterized in rocks of basaltic composition by hornblende-plagioclase (plagioclase more calcic than An17)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/amphibolite_metamorphic_facies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-facies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "facies metamórfica de las anfibolitas"
+      },
+      {
+        "@language": "en",
+        "@value": "amphibolite metamorphic facies"
       }
     ],
     "http://www.w3.org/ns/adms#status": [

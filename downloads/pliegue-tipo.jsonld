@@ -57,6 +57,558 @@
     ]
   },
   {
+    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal-tumbado",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "es",
+        "@value": "sinclinal volcado (RAC)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Pliegue sinclinal con un plano axial inclinado en el que los dos flancos buzan en la misma dirección, presentando, en consecuencia, un flanco inverso."
+      },
+      {
+        "@language": "en",
+        "@value": "An asymmetrical syncline with a flank or limb that has been tilted beyond perpendicular so that the beds in that limb are upside-down"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "sinclinal tumbado"
+      },
+      {
+        "@language": "en",
+        "@value": "overturned syncline"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Commission for the Management and Application of Geoscience Information"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal-tumbado",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "es",
+        "@value": "anticlinal volcado (RAC)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Pliegue anticlinal con un plano axial inclinado en el que los dos flancos buzan en la misma dirección, presentando, en consecuencia, un flanco inverso."
+      },
+      {
+        "@language": "en",
+        "@value": "An asymmetrical anticline with a flank or limb that has been tilted beyond perpendicular so that the beds in that limb are upside-down"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "anticlinal tumbado"
+      },
+      {
+        "@language": "en",
+        "@value": "overturned anticline"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinorio",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Sinforme o sinclinal regional compuesto por antiformes y sinformes (o anticlinales y sinclinales) más pequeños con espaciamiento sistemático razonable cuya línea media define una estructura sinforme."
+      },
+      {
+        "@language": "en",
+        "@value": "Regional synform or syncline composed of smaller antiforms and synforms (or anticlines and synclines) with reasonable systematic spacing whose midline defines a synform structure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "sinclinorio"
+      },
+      {
+        "@language": "en",
+        "@value": "synclinorium"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/monoclinal",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Pliegue con un flanco corto y fuerte buzamiento que enlaza dos flancos planos de tendencia horizontal."
+      },
+      {
+        "@language": "en",
+        "@value": "Fold with a short, steeply dipping limb that connects two flat limbs with a horizontal trend."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "monoclinal"
+      },
+      {
+        "@language": "en",
+        "@value": "monocline"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Pliegue convexo hacia arriba o cóncavo hacia abajo. Este término se utiliza generalmente cuando las capas plegadas no tienen un orden estratigráfico, cuando no se conoce la sucesión estratigráfica de las capas plegadas o cuando el núcleo del pliegue contiene las rocas estratigráficamente más modernas."
+      },
+      {
+        "@language": "en",
+        "@value": "Any convex-upward, concave downward fold. The term is usually used when the folded layers do not possess a stratigraphic order, when the stratigraphic order of the folded layers is not known, or when the fold core also contains the stratigraphically younger rock."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/syncline"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "sinclinal"
+      },
+      {
+        "@language": "en",
+        "@value": "syncline"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/domo",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "es",
+        "@value": "cúpula"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Antiforme con sección horizontal circular o elíptica, y con buzamientos en todas direcciones hacia fuera de la estructura."
+      },
+      {
+        "@language": "en",
+        "@value": "Antiform with a circular or elliptical horizontal section in which the rock strata are inclined in all directions towards the outside of the structure."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "domo"
+      },
+      {
+        "@language": "en",
+        "@value": "dome"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/affiliation": [
+      {
+        "@id": "https://linked.data.gov.au/org/cgi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "CGI Geoscience Terminology Working Group"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/collection",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Todos los conceptos en este vocabulario."
+      },
+      {
+        "@language": "en",
+        "@value": "All concepts in this vocabulary."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/antiforma"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinforma"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/monoclinal"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal-tumbado"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal-tumbado"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinorio"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinorio"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/domo"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/cubeta"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Tipo de pliegue - Todos los conceptos"
+      },
+      {
+        "@language": "en",
+        "@value": "Fold profile type - All concepts"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Pliegue, generalmente convexo hacia arriba, cuyo núcleo contiene las rocas estratigráficamente más antiguas."
+      },
+      {
+        "@language": "en",
+        "@value": "A fold general convex upward, whose core contains the stratigraphically older rocks."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/anticline"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "anticlinal"
+      },
+      {
+        "@language": "en",
+        "@value": "anticline"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/cubeta",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Estructura sinforme hacia cuyo centro buzan las capas."
+      },
+      {
+        "@language": "en",
+        "@value": "Synform in which the rock strata are inclined downward from all sides toward the center."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "cubeta"
+      },
+      {
+        "@language": "en",
+        "@value": "basin"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
     "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -64,7 +616,7 @@
     "http://purl.org/dc/terms/created": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
+        "@value": "2026-06-01"
       }
     ],
     "http://purl.org/dc/terms/creator": [
@@ -90,7 +642,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
+        "@value": "2026-06-01"
       }
     ],
     "http://purl.org/dc/terms/provenance": [
@@ -186,7 +738,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/monoclinal",
+    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinorio",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -204,11 +756,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Pliegue con un flanco corto y fuerte buzamiento que enlaza dos flancos planos de tendencia horizontal."
+        "@value": "Antiforme o anticlinal regional compuesto por antiformes y sinformes (o anticlinales y sinclinales) más pequeños con espaciamiento sistemático razonable cuya línea media define una estructura antiforme"
       },
       {
         "@language": "en",
-        "@value": "Fold with a short, steeply dipping limb that connects two flat limbs with a horizontal trend."
+        "@value": "Regional  antiform or anticline composed of smaller antiforms and synforms (or anticlines and synclines) with reasonable systematic spacing whose midline defines an antiform structure"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -219,185 +771,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "monoclinal"
+        "@value": "anticlinorio"
       },
       {
         "@language": "en",
-        "@value": "monocline"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal-tumbado",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "es",
-        "@value": "sinclinal volcado (RAC)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Pliegue sinclinal con un plano axial inclinado en el que los dos flancos buzan en la misma dirección, presentando, en consecuencia, un flanco inverso."
-      },
-      {
-        "@language": "en",
-        "@value": "An asymmetrical syncline with a flank or limb that has been tilted beyond perpendicular so that the beds in that limb are upside-down"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "sinclinal tumbado"
-      },
-      {
-        "@language": "en",
-        "@value": "overturned syncline"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/domo",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "es",
-        "@value": "cúpula"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Antiforme con sección horizontal circular o elíptica, y con buzamientos en todas direcciones hacia fuera de la estructura."
-      },
-      {
-        "@language": "en",
-        "@value": "Antiform with a circular or elliptical horizontal section in which the rock strata are inclined in all directions towards the outside of the structure."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "domo"
-      },
-      {
-        "@language": "en",
-        "@value": "dome"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal-tumbado",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "es",
-        "@value": "anticlinal volcado (RAC)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Pliegue anticlinal con un plano axial inclinado en el que los dos flancos buzan en la misma dirección, presentando, en consecuencia, un flanco inverso."
-      },
-      {
-        "@language": "en",
-        "@value": "An asymmetrical anticline with a flank or limb that has been tilted beyond perpendicular so that the beds in that limb are upside-down"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "anticlinal tumbado"
-      },
-      {
-        "@language": "en",
-        "@value": "overturned anticline"
+        "@value": "anticlinorium"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -455,384 +833,6 @@
       {
         "@language": "en",
         "@value": "antiform"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinorio",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Antiforme o anticlinal regional compuesto por antiformes y sinformes (o anticlinales y sinclinales) más pequeños con espaciamiento sistemático razonable cuya línea media define una estructura antiforme"
-      },
-      {
-        "@language": "en",
-        "@value": "Regional  antiform or anticline composed of smaller antiforms and synforms (or anticlines and synclines) with reasonable systematic spacing whose midline defines an antiform structure"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "anticlinorio"
-      },
-      {
-        "@language": "en",
-        "@value": "anticlinorium"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/cubeta",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Estructura sinforme hacia cuyo centro buzan las capas."
-      },
-      {
-        "@language": "en",
-        "@value": "Synform in which the rock strata are inclined downward from all sides toward the center."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "cubeta"
-      },
-      {
-        "@language": "en",
-        "@value": "basin"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Pliegue, generalmente convexo hacia arriba, cuyo núcleo contiene las rocas estratigráficamente más antiguas."
-      },
-      {
-        "@language": "en",
-        "@value": "A fold general convex upward, whose core contains the stratigraphically older rocks."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/anticline"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "anticlinal"
-      },
-      {
-        "@language": "en",
-        "@value": "anticline"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/collection",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Todos los conceptos en este vocabulario."
-      },
-      {
-        "@language": "en",
-        "@value": "All concepts in this vocabulary."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/antiforma"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinforma"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/monoclinal"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinal-tumbado"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal-tumbado"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinorio"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/anticlinorio"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/domo"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/cubeta"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "Tipo de pliegue - Todos los conceptos"
-      },
-      {
-        "@language": "en",
-        "@value": "Fold profile type - All concepts"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/affiliation": [
-      {
-        "@id": "https://linked.data.gov.au/org/cgi"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "CGI Geoscience Terminology Working Group"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "Commission for the Management and Application of Geoscience Information"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinal",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Pliegue convexo hacia arriba o cóncavo hacia abajo. Este término se utiliza generalmente cuando las capas plegadas no tienen un orden estratigráfico, cuando no se conoce la sucesión estratigráfica de las capas plegadas o cuando el núcleo del pliegue contiene las rocas estratigráficamente más modernas."
-      },
-      {
-        "@language": "en",
-        "@value": "Any convex-upward, concave downward fold. The term is usually used when the folded layers do not possess a stratigraphic order, when the stratigraphic order of the folded layers is not known, or when the fold core also contains the stratigraphically younger rock."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/syncline"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "sinclinal"
-      },
-      {
-        "@language": "en",
-        "@value": "syncline"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo/sinclinorio",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Sinforme o sinclinal regional compuesto por antiformes y sinformes (o anticlinales y sinclinales) más pequeños con espaciamiento sistemático razonable cuya línea media define una estructura sinforme."
-      },
-      {
-        "@language": "en",
-        "@value": "Regional synform or syncline composed of smaller antiforms and synforms (or anticlines and synclines) with reasonable systematic spacing whose midline defines a synform structure"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/pliegue-tipo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "sinclinorio"
-      },
-      {
-        "@language": "en",
-        "@value": "synclinorium"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [

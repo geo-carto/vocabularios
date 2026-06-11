@@ -1,5 +1,208 @@
 [
   {
+    "@id": "https://linked.data.gov.au/org/cgi",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Commission for the Management and Application of Geoscience Information"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/irregular",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Distribución heterogénea de zonas que difieren en color, textura y/o composición."
+      },
+      {
+        "@language": "en",
+        "@value": "Heterogeneous distribution of zones that differ in color, texture and/or composition."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "irregular"
+      },
+      {
+        "@language": "en",
+        "@value": "irregular"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-06-01"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "https://www.igme.es"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "es",
+        "@value": "Términos que describen la distribución espacial o la geometría de las zonas de alteración (por ejemplo: irregular, moteada, bandeada, con vetas, brecha de vetas, generalizada, diseminada, etc.)."
+      },
+      {
+        "@language": "en",
+        "@value": "Terms describing the spatial distribution or geometry of alteration zones (e.g., patchy, spotted, banded, veins, vein breccia, pervasive, disseminated)."
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-06-01"
+      }
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "Términos propios definidos por el IGME"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://www.igme.es/"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "es",
+        "@value": "Distribución de la alteración"
+      },
+      {
+        "@language": "en",
+        "@value": "Alteration distribution"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Términos que describen la distribución espacial o la geometría de las zonas de alteración (por ejemplo: irregular, moteada, bandeada, con vetas, brecha de vetas, generalizada, diseminada, etc.)."
+      },
+      {
+        "@language": "en",
+        "@value": "Terms describing the spatial distribution or geometry of alteration zones (e.g., patchy, spotted, banded, veins, vein breccia, pervasive, disseminated)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#editorialNote": [
+      {
+        "@language": "es",
+        "@value": "Este archivo contiene el vocabulario Distribución de la alteración."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/bandeada"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/moteada"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/diseminada"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/veteada"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/irregular"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/completa"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Distribución de la alteración"
+      },
+      {
+        "@language": "en",
+        "@value": "Alteration distribution"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@value": "GE"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/affiliation": [
+      {
+        "@id": "https://linked.data.gov.au/org/cgi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "CGI Geoscience Terminology Working Group"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
+      }
+    ]
+  },
+  {
     "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/bandeada",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -38,114 +241,6 @@
       {
         "@language": "en",
         "@value": "banded"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/collection",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Todos los conceptos en este vocabulario."
-      },
-      {
-        "@language": "en",
-        "@value": "All concepts in this vocabulary."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/bandeada"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/moteada"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/diseminada"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/veteada"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/irregular"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/completa"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "Distribución de la alteración - Todos los conceptos"
-      },
-      {
-        "@language": "en",
-        "@value": "Alteration distribution - All concepts"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/diseminada",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Presencia irregular de concentraciones con color, textura y/o composición característicos."
-      },
-      {
-        "@language": "en",
-        "@value": "Irregular presence of spots characterized by color, texture and/or composition."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "diseminada"
-      },
-      {
-        "@language": "en",
-        "@value": "disseminated"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -212,209 +307,6 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/veteada",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Presencia de niveles, más o menos tabulares e irregulares, con color, textura y/o composición característicos."
-      },
-      {
-        "@language": "en",
-        "@value": "Presence of layers, more or less tabular and irregular, characterized by color, texture and/or composition."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "veteada"
-      },
-      {
-        "@language": "en",
-        "@value": "veined"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/affiliation": [
-      {
-        "@id": "https://linked.data.gov.au/org/cgi"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "CGI Geoscience Terminology Working Group"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://purl.org/dc/terms/creator": [
-      {
-        "@value": "https://www.igme.es"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Términos que describen la distribución espacial o la geometría de las zonas de alteración (por ejemplo: irregular, moteada, bandeada, con vetas, brecha de vetas, generalizada, diseminada, etc.)."
-      },
-      {
-        "@language": "en",
-        "@value": "The alterationDistribution property describes the spatial distribution or geometry of alteration zones using a term from a controlled vocabulary (e.g., patchy, spotted, banded, veins, vein breccia, pervasive, disseminated)."
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://purl.org/dc/terms/provenance": [
-      {
-        "@value": "Términos propios definidos por el IGME"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://www.igme.es/"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Distribución de la alteración"
-      },
-      {
-        "@language": "en",
-        "@value": "Alteration distribution"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#versionInfo": [
-      {
-        "@value": "1.0.0"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Términos que describen la distribución espacial o la geometría de las zonas de alteración (por ejemplo: irregular, moteada, bandeada, con vetas, brecha de vetas, generalizada, diseminada, etc.)."
-      },
-      {
-        "@language": "en",
-        "@value": "The alterationDistribution property describes the spatial distribution or geometry of alteration zones using a term from a controlled vocabulary (e.g., patchy, spotted, banded, veins, vein breccia, pervasive, disseminated)."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#editorialNote": [
-      {
-        "@language": "es",
-        "@value": "Este archivo contiene el vocabulario Distribución de la alteración."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/bandeada"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/moteada"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/diseminada"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/veteada"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/irregular"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/completa"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "Distribución de la alteración"
-      },
-      {
-        "@language": "en",
-        "@value": "Alteration distribution"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#theme": [
-      {
-        "@value": "GE"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "Commission for the Management and Application of Geoscience Information"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org"
-      }
-    ]
-  },
-  {
     "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/moteada",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -467,7 +359,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/irregular",
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/diseminada",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -485,11 +377,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Distribución heterogénea de zonas que difieren en color, textura y/o composición."
+        "@value": "Presencia irregular de concentraciones con color, textura y/o composición característicos."
       },
       {
         "@language": "en",
-        "@value": "Heterogeneous distribution of zones that differ in color, texture and/or composition."
+        "@value": "Irregular presence of spots characterized by color, texture and/or composition."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -500,11 +392,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "irregular"
+        "@value": "diseminada"
       },
       {
         "@language": "en",
-        "@value": "irregular"
+        "@value": "disseminated"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -515,6 +407,114 @@
     "http://www.w3.org/ns/adms#status": [
       {
         "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/veteada",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Presencia de niveles, más o menos tabulares e irregulares, con color, textura y/o composición característicos."
+      },
+      {
+        "@language": "en",
+        "@value": "Presence of layers, more or less tabular and irregular, characterized by color, texture and/or composition."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "veteada"
+      },
+      {
+        "@language": "en",
+        "@value": "veined"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/collection",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Todos los conceptos en este vocabulario."
+      },
+      {
+        "@language": "en",
+        "@value": "All concepts in this vocabulary."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/bandeada"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/moteada"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/diseminada"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/veteada"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/irregular"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/alteracion-distribucion/completa"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Distribución de la alteración - Todos los conceptos"
+      },
+      {
+        "@language": "en",
+        "@value": "Alteration distribution - All concepts"
       }
     ]
   }

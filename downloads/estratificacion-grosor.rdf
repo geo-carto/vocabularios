@@ -9,42 +9,6 @@
    xmlns:sdo="https://schema.org/"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-grosor/decametrica">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
-    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
-    <skos:prefLabel xml:lang="es">decamétrica</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">decametric</skos:prefLabel>
-    <skos:definition xml:lang="es">Espesor medio de los estratos comprendido entre 10 y 100 m</skos:definition>
-    <skos:definition xml:lang="en">Mean strata thickness comprised between 10 and 100 m</skos:definition>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-grosor/milimetrica">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
-    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
-    <skos:prefLabel xml:lang="es">milimétrica</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">milimetric</skos:prefLabel>
-    <skos:definition xml:lang="es">Espesor medio  de las capas inferior a 1 cm</skos:definition>
-    <skos:definition xml:lang="en">Mean strata thickness inferior to 1 cm</skos:definition>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-grosor/metrica">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
-    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
-    <skos:prefLabel xml:lang="es">métrica</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">metric</skos:prefLabel>
-    <skos:definition xml:lang="es">Espesor medio de los estratos comprendido entre 1 y 10 m</skos:definition>
-    <skos:definition xml:lang="en">Mean strata thickness comprised between 1 and 10 m</skos:definition>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-grosor/collection">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
     <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
@@ -61,17 +25,34 @@
     <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor/hectometrica"/>
     <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor/irregular"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-grosor/decimetrica">
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-grosor/milimetrica">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
     <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
     <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
-    <skos:prefLabel xml:lang="es">decimétrica</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">decimetric</skos:prefLabel>
-    <skos:definition xml:lang="es">Espesor medio de los estratos comprendido entre 10 cm y 1 m</skos:definition>
-    <skos:definition xml:lang="en">Mean strata thickness comprised between 10 cm and 1m</skos:definition>
+    <skos:prefLabel xml:lang="es">milimétrica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">milimetric</skos:prefLabel>
+    <skos:definition xml:lang="es">Espesor medio  de las capas inferior a 1 cm</skos:definition>
+    <skos:definition xml:lang="en">Mean strata thickness inferior to 1 cm</skos:definition>
     <adms:status>Válido</adms:status>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-grosor/irregular">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
+    <skos:prefLabel xml:lang="es">irregular</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">irregular</skos:prefLabel>
+    <skos:definition xml:lang="es">Espesor de los estratos muy variable, sin que pueda establecerse un valor medio</skos:definition>
+    <skos:definition xml:lang="en">Strata thickness very variable, a mean value cannot be estabished</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-grosor">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
@@ -80,11 +61,11 @@
     <dcterms:title xml:lang="es">Grosor de estratificación</dcterms:title>
     <dcterms:title xml:lang="en">Bedding thickness</dcterms:title>
     <skos:definition xml:lang="es">Término de un vocabulario controlado que caracteriza el espesor de la estratificación en la unidad.</skos:definition>
-    <skos:definition xml:lang="en">The property beddingThickness provides a term from a controlled vocabulary characterizing the thickness of bedding in the unit.</skos:definition>
+    <skos:definition xml:lang="en">Terms from a controlled vocabulary characterizing the thickness of bedding in the unit.</skos:definition>
     <dcterms:description xml:lang="es">Término de un vocabulario controlado que caracteriza el espesor de la estratificación en la unidad.</dcterms:description>
-    <dcterms:description xml:lang="en">The property beddingThickness provides a term from a controlled vocabulary characterizing the thickness of bedding in the unit.</dcterms:description>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <dcterms:description xml:lang="en">Terms from a controlled vocabulary characterizing the thickness of bedding in the unit.</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-01</dcterms:modified>
     <dcterms:publisher rdf:resource="https://www.igme.es/"/>
     <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dcterms:provenance>Términos propios definidos por el IGME</dcterms:provenance>
@@ -106,18 +87,6 @@
     <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
     <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-grosor/irregular">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
-    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
-    <skos:prefLabel xml:lang="es">irregular</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">irregular</skos:prefLabel>
-    <skos:definition xml:lang="es">Espesor de los estratos muy variable, sin que pueda establecerse un valor medio</skos:definition>
-    <skos:definition xml:lang="en">Strata thickness very variable, a mean value cannot be estabished</skos:definition>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-grosor/centimetrica">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
@@ -130,10 +99,41 @@
     <adms:status>Válido</adms:status>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
   </rdf:Description>
-  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
-    <rdf:type rdf:resource="https://schema.org/Organization"/>
-    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
-    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-grosor/decametrica">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
+    <skos:prefLabel xml:lang="es">decamétrica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">decametric</skos:prefLabel>
+    <skos:definition xml:lang="es">Espesor medio de los estratos comprendido entre 10 y 100 m</skos:definition>
+    <skos:definition xml:lang="en">Mean strata thickness comprised between 10 and 100 m</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-grosor/metrica">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
+    <skos:prefLabel xml:lang="es">métrica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">metric</skos:prefLabel>
+    <skos:definition xml:lang="es">Espesor medio de los estratos comprendido entre 1 y 10 m</skos:definition>
+    <skos:definition xml:lang="en">Mean strata thickness comprised between 1 and 10 m</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-grosor/decimetrica">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/estratificacion-grosor"/>
+    <skos:prefLabel xml:lang="es">decimétrica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">decimetric</skos:prefLabel>
+    <skos:definition xml:lang="es">Espesor medio de los estratos comprendido entre 10 cm y 1 m</skos:definition>
+    <skos:definition xml:lang="en">Mean strata thickness comprised between 10 cm and 1m</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
   </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/estratificacion-grosor/hectometrica">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
