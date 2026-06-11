@@ -11,7 +11,7 @@ searchableAttributes:
   - "example"
   - "definition"
 ui:
-  title: "Repositorio de Vocabularios" # Title is mandatory
+  title: "Vocabularios Geocientíficos" # Title is mandatory
   logo: "logo.png" # Path
   colors:
     skoHubWhite: "rgb(255, 255, 255)"
@@ -47,41 +47,32 @@ ui:
         target: "_blank"
         rel: "noopener noreferrer"
   home:
-    subtitle: "Vocabularios SKOS para compartir conocimiento geológico científico"
-    subtitle_en: "SKOS Vocabularies for sharing geological scientific knowledge"
-    description: "Recursos semánticos en formato SKOS para describir, organizar y relacionar conceptos de forma estandarizada. Su estructura semántica favorece la interoperabilidad, mejora la búsqueda y la reutilización de la información, y facilita compartir conocimiento científico de manera coherente y reutilizable entre personas, sistemas y aplicaciones."
-    description_en: "Semantic resources in SKOS format to describe, organize and relate concepts in a standardized way. Their semantic structure promotes interoperability, improves search and information reuse, and facilitates sharing scientific knowledge in a coherent and reusable way between people, systems and applications."
-    ultima_actualizacion: "20 may 2024"
-    carrusel:
-      - imagen: "carusel-1.png"
-      - imagen: "carusel-2.png"
-      - imagen: "carusel-3.png"
-      - imagen: "carusel-4.png"
-      - imagen: "carusel-5.png"
+    subtitle: "Recursos semánticos para compartir conocimiento geológico"
+    subtitle_en: "Semantic resources for sharing geological knowledge"
+    description: "Repositorio de vocabularios geológicos desarrollados por el CN IGME-CSIC, alineados con estándares internacionales y destinados a la descripción normalizada de la cartografía geológica y la información geocientífica. Recoge recursos semánticos en formato SKOS para describir, organizar y relacionar conceptos, favoreciendo la interoperabilidad, la búsqueda y reutilización de información y el intercambio de conocimiento científico entre personas, sistemas y aplicaciones."
+    description_en: "Repository of geological vocabularies developed by CN IGME-CSIC and aligned with international standards for the standardized description of geological maps and geoscientific information. It provides semantic resources in SKOS format to describe, organize, and relate concepts, supporting interoperability, information discovery and reuse, and the exchange of scientific knowledge among people, systems and applications."
     novedades:
+      - titulo: "Primera versión del Repositorio de Vocabularios"
+        titulo_en: "First version of the Vocabulary Repository"
+        fecha: "1 junio 2026"
+        descripcion: "La primera versión del Repositorio de Vocabularios Geocientíficos se publicará oficialmente. Después de unos meses de trabajo intenso el repositorio verá la luz esperando generar un recurso valioso para toda la comunidad científica."
+        descripcion_en: "The first version of the Geoscientific Vocabulary Repository will be officially released. After months of intensive work, the repository is now ready to be made publicly available, with the aim of becoming a valuable resource for the wider scientific community."
+        imagen: "publicacion.png"
+        nuevo: true
       - titulo: "Añadida vista de grafos"
-        fecha: "5 may 2026"
+        titulo_en: "Graph view added"
+        fecha: "20 mayo 2026"
+        descripcion: "Ahora puedes explorar visualmente los vocabularios. Descubre sus jerarquías usando distintos tipos de grafos. Accede al visor de grafos desde cualquiera de las categorías."
+        descripcion_en: "You can now explore vocabularies visually. Discover their hierarchies using different types of graphs. Access the graph viewer from any of the categories."
+        imagen: "grafo-2.png"
         nuevo: true
       - titulo: "Nuevas opciones de filtros de búsqueda"
-        fecha: "3 may 2026"
+        titulo_en: "New search filter options"
+        fecha: "9 mayo 2026"
+        descripcion: "Para facilitar la localización de vocabularios se han añadido distintas opciones de filtros de búsqueda. Puedes filtrar por nombre de vocabulario, idioma o formato, así como, ordenar el listado alfabéticamente o por número de términos."
+        descripcion_en: "Multiple search filter options have been added to make it easier to find vocabularies. You can filter by vocabulary name, language or format, as well as sort the list alphabetically or by number of términos."
+        imagen: "filtros.png"
         nuevo: true
-      - titulo: "Publicación inicial de vocabularios"
-        fecha: "01 may 2026"
-        nuevo: true
-    destacados:
-      - titulo: "Material IGME"
-      - titulo: "Edad Geológica IGME"
-      - titulo: "Ambiente asociado a evento"
-    documentacion:
-      - titulo: "Guía de uso"
-        descripcion: "Cómo navegar y usar el repositorio"
-        url: "#"
-      - titulo: "Descarga de vocabularios"
-        descripcion: "Accede a vocabularios en diferentes formatos"
-        url: "#"
-      - titulo: "Recursos normativos"
-        descripcion: "Tutoriales y ejemplos de uso"
-        url: "#"
     enlaces:
       - titulo: "W3C - SKOS Home Page"
         url: "https://www.w3.org/2004/02/skos/"
