@@ -1031,19 +1031,19 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion> a skos:ConceptScheme ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
-    dcterms:description "The unitComposition property provides a term from a composition-based classification that requires summarising the overall character of the unit. It is not applicable at the rock material or specimen level. Examples are: alkalic, subaluminous, peraluminous, I-Type, carbonate, phosphate."@en,
-        "Términos basado en una clasificación composicional que resume el carácter general de la unidad. No es aplicable al nivel de material rocoso o de muestra. Ejemplos: alcalina, subaluminosa, peraluminosa, tipo I, carbonatada, fosfatada."@es ;
+    dcterms:description "Terms from a composition-based classification that requires summarising the overall character of the unit. It is not applicable at the rock material or specimen level. Examples are: alkalic, subaluminous, peraluminous, I-Type, carbonate, phosphate."@en,
+        "Términos basados en una clasificación composicional que resume el carácter general de la unidad. No es aplicable al nivel de material de roca o de muestra. Ejemplos: alcalina, subaluminosa, peraluminosa, tipo I, carbonatada, fosfatada."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Composition category"@en,
         "Tipo de categoría de composición"@es ;
     owl:versionInfo "1.0.0" ;
-    skos:definition "The unitComposition property provides a term from a composition-based classification that requires summarising the overall character of the unit. It is not applicable at the rock material or specimen level. Examples are: alkalic, subaluminous, peraluminous, I-Type, carbonate, phosphate."@en,
-        "Términos basado en una clasificación composicional que resume el carácter general de la unidad. No es aplicable al nivel de material rocoso o de muestra. Ejemplos: alcalina, subaluminosa, peraluminosa, tipo I, carbonatada, fosfatada."@es ;
+    skos:definition "Terms from a composition-based classification that requires summarising the overall character of the unit. It is not applicable at the rock material or specimen level. Examples are: alkalic, subaluminous, peraluminous, I-Type, carbonate, phosphate."@en,
+        "Términos basados en una clasificación composicional que resume el carácter general de la unidad. No es aplicable al nivel de material de roca o de muestra. Ejemplos: alcalina, subaluminosa, peraluminosa, tipo I, carbonatada, fosfatada."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Tipo de categoría de composición."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcilloso>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-composicion/arcosa>,

@@ -19,8 +19,8 @@
     <skos:definition xml:lang="en">Polarity of the stratigraphic sequence associated with a structural measurement.</skos:definition>
     <dcterms:description xml:lang="es">Polaridad de la secuencia estratigráfica asociada a una medida estructural.</dcterms:description>
     <dcterms:description xml:lang="en">Polarity of the stratigraphic sequence associated with a structural measurement.</dcterms:description>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-01</dcterms:modified>
     <dcterms:publisher rdf:resource="https://www.igme.es/"/>
     <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dcterms:provenance>Términos propios definidos por el IGME</dcterms:provenance>
@@ -44,24 +44,10 @@
     <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/polaridad/invertida"/>
     <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/polaridad/vertical"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/polaridad/vertical">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/polaridad"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/polaridad"/>
-    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/polaridad"/>
-    <skos:prefLabel xml:lang="es">vertical</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">vertical</skos:prefLabel>
-    <skos:definition xml:lang="es">La orientación planar del elemento es aproximadamente vertical.</skos:definition>
-    <skos:definition xml:lang="en">The planar orientation of a feature is approximately vertical.</skos:definition>
-    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/planarpolaritycode/vertical"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
     <rdf:type rdf:resource="https://schema.org/Organization"/>
-    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
-    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
-    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/polaridad/normal">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -76,10 +62,11 @@
     <adms:status>Válido</adms:status>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
   </rdf:Description>
-  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
     <rdf:type rdf:resource="https://schema.org/Organization"/>
-    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
-    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/polaridad/invertida">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -91,6 +78,19 @@
     <skos:definition xml:lang="es">El elemento ha sido invertido (es decir, rotado alrededor de un eje horizontal o subhorizontal más de 90 grados respecto a su orientación original).</skos:definition>
     <skos:definition xml:lang="en">The feature has been overturned (ie; rotated around a horizontal or subhorizontal axis more than 90 degrees from its original orientation).</skos:definition>
     <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/planarpolaritycode/overturned"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/polaridad/vertical">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/polaridad"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/polaridad"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/polaridad"/>
+    <skos:prefLabel xml:lang="es">vertical</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">vertical</skos:prefLabel>
+    <skos:definition xml:lang="es">La orientación planar del elemento es aproximadamente vertical.</skos:definition>
+    <skos:definition xml:lang="en">The planar orientation of a feature is approximately vertical.</skos:definition>
+    <skos:exactMatch rdf:resource="http://resource.geosciml.org/classifier/cgi/planarpolaritycode/vertical"/>
     <adms:status>Válido</adms:status>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
   </rdf:Description>

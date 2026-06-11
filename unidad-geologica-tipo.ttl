@@ -294,12 +294,12 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-tipo> a skos:ConceptScheme ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://commission.europa.eu/" ;
     dcterms:description "The property geologicUnitTypeTerm provides a term from a controlled vocabulary defining the type of geologic unit."@en,
         "Términos que definen el tipo de unidad geológica."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Geologic unit type"@en,

@@ -1423,12 +1423,12 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/evento-proceso> a skos:ConceptScheme ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://commission.europa.eu/" ;
     dcterms:description "Terms referring to processes associated with geological events."@en,
         "Términos referidos a procesos asociados a eventos geológicos."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Event Process"@en,

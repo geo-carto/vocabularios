@@ -1,62 +1,5 @@
 [
   {
-    "@id": "https://geo-carto.github.io/vocabularios/estado/retirado",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/estado"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Se ha decidido que el elemento ya no se recomienda para su uso. No ha sido sustituido por otro elemento."
-      },
-      {
-        "@language": "en",
-        "@value": "A decision has been made that the item is no longer recommended for use. It has not been superseded by another item."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/retired"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/estado"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "Retirado"
-      },
-      {
-        "@language": "en",
-        "@value": "Retired"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/estado"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
     "@id": "https://geo-carto.github.io/vocabularios/estado/propuesto",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -114,6 +57,133 @@
     ]
   },
   {
+    "@id": "https://linked.data.gov.au/org/cgi",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Commission for the Management and Application of Geoscience Information"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/estado",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-06-01"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "https://www.iso.org/"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "es",
+        "@value": "Términos que describen estados (ISO 19135:2026)"
+      },
+      {
+        "@language": "en",
+        "@value": "Terms describing a status (ISO 19135:2026)."
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-06-01"
+      }
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "Términos definidos en ISO 19135:2026"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://www.igme.es/"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "es",
+        "@value": "Estado"
+      },
+      {
+        "@language": "en",
+        "@value": "Status"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Términos que describen estados (ISO 19135:2026)"
+      },
+      {
+        "@language": "en",
+        "@value": "Terms describing a status (ISO 19135:2026)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#editorialNote": [
+      {
+        "@language": "es",
+        "@value": "Este archivo contiene el vocabulario Estado."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/estado/invalido"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/estado/propuesto"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/estado/retirado"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/estado/sustituido"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/estado/valido"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Estado"
+      },
+      {
+        "@language": "en",
+        "@value": "Status"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@value": "TE"
+      }
+    ]
+  },
+  {
     "@id": "https://geo-carto.github.io/vocabularios/estado/collection",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Collection"
@@ -167,118 +237,28 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/estado",
+    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+      "https://schema.org/Organization"
     ],
-    "http://purl.org/dc/terms/created": [
+    "https://schema.org/affiliation": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
+        "@id": "https://linked.data.gov.au/org/cgi"
       }
     ],
-    "http://purl.org/dc/terms/creator": [
+    "https://schema.org/name": [
       {
-        "@value": "https://www.iso.org/"
+        "@value": "CGI Geoscience Terminology Working Group"
       }
     ],
-    "http://purl.org/dc/terms/description": [
+    "https://schema.org/url": [
       {
-        "@language": "es",
-        "@value": "Estados tomados de ISO 19135:2026"
-      },
-      {
-        "@language": "en",
-        "@value": "Status from ISO 19135:2026"
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://purl.org/dc/terms/provenance": [
-      {
-        "@value": "Términos definidos en ISO 19135:2026"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://www.igme.es/"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Estado"
-      },
-      {
-        "@language": "en",
-        "@value": "Status"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#versionInfo": [
-      {
-        "@value": "1.0.1"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Estados tomados de ISO 19135:2026"
-      },
-      {
-        "@language": "en",
-        "@value": "Status from ISO 19135:2026"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#editorialNote": [
-      {
-        "@language": "es",
-        "@value": "Este archivo contiene el vocabulario Estado."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/estado/invalido"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/estado/propuesto"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/estado/retirado"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/estado/sustituido"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/estado/valido"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "Estado"
-      },
-      {
-        "@language": "en",
-        "@value": "Status"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#theme": [
-      {
-        "@value": "TE"
+        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
       }
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/estado/valido",
+    "@id": "https://geo-carto.github.io/vocabularios/estado/retirado",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -296,16 +276,16 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "El elemento ha sido aceptado, se recomienda su uso y no ha sido sustituido ni retirado."
+        "@value": "Se ha decidido que el elemento ya no se recomienda para su uso. No ha sido sustituido por otro elemento."
       },
       {
         "@language": "en",
-        "@value": "The item has been accepted, is recommended for use, and has not been superseded or retired."
+        "@value": "A decision has been made that the item is no longer recommended for use. It has not been superseded by another item."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+        "@id": "http://inspire.ec.europa.eu/registry/status/retired"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -316,11 +296,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "Válido"
+        "@value": "Retirado"
       },
       {
         "@language": "en",
-        "@value": "Valid"
+        "@value": "Retired"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -392,39 +372,59 @@
     ]
   },
   {
-    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
+    "@id": "https://geo-carto.github.io/vocabularios/estado/valido",
     "@type": [
-      "https://schema.org/Organization"
+      "http://www.w3.org/2004/02/skos/core#Concept"
     ],
-    "https://schema.org/affiliation": [
+    "http://purl.org/dc/terms/created": [
       {
-        "@id": "https://linked.data.gov.au/org/cgi"
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
       }
     ],
-    "https://schema.org/name": [
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@value": "CGI Geoscience Terminology Working Group"
+        "@id": "https://geo-carto.github.io/vocabularios/estado"
       }
     ],
-    "https://schema.org/url": [
+    "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/name": [
+        "@language": "es",
+        "@value": "El elemento ha sido aceptado, se recomienda su uso y no ha sido sustituido ni retirado."
+      },
       {
-        "@value": "Commission for the Management and Application of Geoscience Information"
+        "@language": "en",
+        "@value": "The item has been accepted, is recommended for use, and has not been superseded or retired."
       }
     ],
-    "https://schema.org/url": [
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://www.cgi-iugs.org"
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/estado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Válido"
+      },
+      {
+        "@language": "en",
+        "@value": "Valid"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/estado"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
       }
     ]
   },

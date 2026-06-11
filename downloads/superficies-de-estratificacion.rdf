@@ -9,6 +9,50 @@
    xmlns:sdo="https://schema.org/"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/collection">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion"/>
+    <skos:prefLabel xml:lang="es">Superfices de estratificación - Todos los conceptos</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Stratigraphic surfaces - All concepts</skos:prefLabel>
+    <skos:definition xml:lang="es">Todos los conceptos en este vocabulario.</skos:definition>
+    <skos:definition xml:lang="en">All concepts in this vocabulary.</skos:definition>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa"/>
+    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="es">Superfices de estratificación</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Stratigraphic surfaces</skos:prefLabel>
+    <dcterms:title xml:lang="es">Superfices de estratificación</dcterms:title>
+    <dcterms:title xml:lang="en">Stratigraphic surfaces</dcterms:title>
+    <skos:definition xml:lang="es">Términos referidos a superficies de estratificación.</skos:definition>
+    <skos:definition xml:lang="en">Terms referring to bedding surfaces.</skos:definition>
+    <dcterms:description xml:lang="es">Términos referidos a superficies de estratificación.</dcterms:description>
+    <dcterms:description xml:lang="en">Terms referring to bedding surfaces.</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-01</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:provenance>Términos propios definidos por el IGME</dcterms:provenance>
+    <dcterms:creator>https://www.igme.es</dcterms:creator>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <dcat:theme>GE</dcat:theme>
+    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Superfices de estratificación.</skos:editorialNote>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa"/>
+    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion"/>
@@ -32,49 +76,5 @@
     <skos:definition xml:lang="en">A conspicuous  stratification surface, which can be delineated within a sedimentary stratified rock unit, representing an original surface of deposition.</skos:definition>
     <adms:status>Válido</adms:status>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/collection">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion"/>
-    <skos:prefLabel xml:lang="es">Superfices de estratificación - Todos los conceptos</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Stratigraphic surfaces - All concepts</skos:prefLabel>
-    <skos:definition xml:lang="es">Todos los conceptos en este vocabulario.</skos:definition>
-    <skos:definition xml:lang="en">All concepts in this vocabulary.</skos:definition>
-    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa"/>
-    <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <skos:prefLabel xml:lang="es">Superfices de estratificación</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Stratigraphic surfaces</skos:prefLabel>
-    <dcterms:title xml:lang="es">Superfices de estratificación</dcterms:title>
-    <dcterms:title xml:lang="en">Stratigraphic surfaces</dcterms:title>
-    <skos:definition xml:lang="es">Términos referidos a superficies de estratificación.</skos:definition>
-    <skos:definition xml:lang="en">Terms referring to bedding surfaces.</skos:definition>
-    <dcterms:description xml:lang="es">Términos referidos a superficies de estratificación.</dcterms:description>
-    <dcterms:description xml:lang="en">Terms referring to bedding surfaces.</dcterms:description>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
-    <dcterms:publisher rdf:resource="https://www.igme.es/"/>
-    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dcterms:provenance>Términos propios definidos por el IGME</dcterms:provenance>
-    <dcterms:creator>https://www.igme.es</dcterms:creator>
-    <owl:versionInfo>1.0.0</owl:versionInfo>
-    <dcat:theme>GE</dcat:theme>
-    <skos:editorialNote xml:lang="es">Este archivo contiene el vocabulario Superfices de estratificación.</skos:editorialNote>
-    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/traza-de-capa"/>
-    <skos:hasTopConcept rdf:resource="https://geo-carto.github.io/vocabularios/superficies-de-estratificacion/biohorizonte"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
-    <rdf:type rdf:resource="https://schema.org/Organization"/>
-    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
-    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
-    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
-    <rdf:type rdf:resource="https://schema.org/Organization"/>
-    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
-    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
   </rdf:Description>
 </rdf:RDF>

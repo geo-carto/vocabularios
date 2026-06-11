@@ -7,16 +7,16 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://geo-carto.github.io/vocabularios/void-reason/collection> a skos:Collection ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/void-reason> ;
+<https://geo-carto.github.io/vocabularios/motivo-vacio-valor/collection> a skos:Collection ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/motivo-vacio-valor> ;
     skos:definition "All concepts in this vocabulary."@en,
         "Todos los conceptos en este vocabulario."@es ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/void-reason> ;
-    skos:member <https://geo-carto.github.io/vocabularios/void-reason/desconocido>,
-        <https://geo-carto.github.io/vocabularios/void-reason/no-poblado>,
-        <https://geo-carto.github.io/vocabularios/void-reason/retenido> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/motivo-vacio-valor> ;
+    skos:member <https://geo-carto.github.io/vocabularios/motivo-vacio-valor/desconocido>,
+        <https://geo-carto.github.io/vocabularios/motivo-vacio-valor/no-poblado>,
+        <https://geo-carto.github.io/vocabularios/motivo-vacio-valor/retenido> ;
     skos:prefLabel "Void Reason Value - All concepts"@en,
-        "Razón de valor vacío - Todos los conceptos"@es .
+        "Valor de motivo de vacío - Todos los conceptos"@es .
 
 <https://linked.data.gov.au/org/cgi-gtwg> a sdo:Organization ;
     sdo:affiliation <https://linked.data.gov.au/org/cgi> ;
@@ -27,61 +27,61 @@
     sdo:name "Commission for the Management and Application of Geoscience Information" ;
     sdo:url <http://www.cgi-iugs.org> .
 
-<https://geo-carto.github.io/vocabularios/void-reason/desconocido> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/motivo-vacio-valor/desconocido> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/void-reason> ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/motivo-vacio-valor> ;
     skos:definition "The correct value for the specific spatial data type is not known to, or not provided by the data provider, or the data source is not available."@en,
         "El valor correcto del tipo de datos específico no se conoce o no está proporcionado por la fuente de datos, o la fuente de datos no está disponible."@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unknown> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/void-reason> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/motivo-vacio-valor> ;
     skos:prefLabel "unknown"@en,
         "desconocido"@es ;
-    skos:topConceptOf <https://geo-carto.github.io/vocabularios/void-reason> ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/motivo-vacio-valor> ;
     adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/void-reason/no-poblado> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/motivo-vacio-valor/no-poblado> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/void-reason> ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/motivo-vacio-valor> ;
     skos:definition "The attribute or field has not been provided or populated yet, but may be provided in the future."@en,
         "El campo o atributo todavía no se ha proporcionado o rellenado, pero puede ser proporcionado en el futuro."@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/void-reason> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/motivo-vacio-valor> ;
     skos:prefLabel "unpopulated"@en,
         "no poblado"@es ;
-    skos:topConceptOf <https://geo-carto.github.io/vocabularios/void-reason> ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/motivo-vacio-valor> ;
     adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/void-reason/retenido> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/motivo-vacio-valor/retenido> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
-    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/void-reason> ;
+    rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/motivo-vacio-valor> ;
     skos:definition "The value is not made publicly available for confidentiality, security, or other policy reasons."@en,
         "El valor no se hace público por motivos de confidencialidad, seguridad u otra política."@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/VoidReasonValue/Withheld> ;
-    skos:inScheme <https://geo-carto.github.io/vocabularios/void-reason> ;
+    skos:inScheme <https://geo-carto.github.io/vocabularios/motivo-vacio-valor> ;
     skos:prefLabel "withheld"@en,
         "retenido"@es ;
-    skos:topConceptOf <https://geo-carto.github.io/vocabularios/void-reason> ;
+    skos:topConceptOf <https://geo-carto.github.io/vocabularios/motivo-vacio-valor> ;
     adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/void-reason> a skos:ConceptScheme ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+<https://geo-carto.github.io/vocabularios/motivo-vacio-valor> a skos:ConceptScheme ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://commission.europa.eu/" ;
     dcterms:description "Terms describing the reasons why a value may be void or not provided in an attribute."@en,
         "Términos que describen las razones por las que un valor puede estar vacío o no proporcionado en un atributo."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Void Reason Value"@en,
-        "Razón de valor vacío"@es ;
+        "Valor de motivo de vacío"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms describing the reasons why a value may be void or not provided in an attribute."@en,
         "Términos que describen las razones por las que un valor puede estar vacío o no proporcionado en un atributo."@es ;
-    skos:editorialNote "Este archivo contiene el vocabulario Razón de valor vacío."@es ;
-    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/void-reason/desconocido>,
-        <https://geo-carto.github.io/vocabularios/void-reason/no-poblado>,
-        <https://geo-carto.github.io/vocabularios/void-reason/retenido> ;
+    skos:editorialNote "Este archivo contiene el vocabulario Valor de motivo de vacío."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/motivo-vacio-valor/desconocido>,
+        <https://geo-carto.github.io/vocabularios/motivo-vacio-valor/no-poblado>,
+        <https://geo-carto.github.io/vocabularios/motivo-vacio-valor/retenido> ;
     skos:prefLabel "Void Reason Value"@en,
-        "Razón de valor vacío"@es ;
+        "Valor de motivo de vacío"@es ;
     dcat:theme "TE" .
 

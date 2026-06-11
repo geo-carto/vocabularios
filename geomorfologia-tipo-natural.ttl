@@ -519,19 +519,19 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural> a skos:ConceptScheme ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://commission.europa.eu/" ;
     dcterms:description "Terms referring to natural geomorphological features."@en,
-        "Términos referidos al objeto geomorfológico natural."@es ;
+        "Términos que definen un tipo de objeto geomorfológico natural."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Geomorphological natural feature"@en,
         "Objeto geomorfológico natural"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms referring to natural geomorphological features."@en,
-        "Términos referidos al objeto geomorfológico natural."@es ;
+        "Términos que definen un tipo de objeto geomorfológico natural."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Objeto geomorfológico natural."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-de-montaña>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-tipo-natural/base-del-talud>,

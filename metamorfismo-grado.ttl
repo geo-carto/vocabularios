@@ -150,18 +150,18 @@
 
 <https://geo-carto.github.io/vocabularios/metamorfismo-grado> a skos:ConceptScheme ;
     dcterms:contributor "https://www.igme.es" ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://cgi-iugs.org/" ;
-    dcterms:description "The metamorphicGrade property contains a term from a controlled vocabulary indicating the intensity or rank of metamorphism applied to an EarthMaterial (e.g., high metamorphic grade, low metamorphic grade)."@en,
+    dcterms:description "Terms indicating the intensity or rank of metamorphism applied to an EarthMaterial (e.g., high metamorphic grade, low metamorphic grade)."@en,
         "Términos que indica la intensidad o grado del metamorfismo aplicado a un EarthMaterial (por ejemplo, alto grado metamórfico, bajo grado metamórfico)."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Metamorphic grade"@en,
         "Grado de metamorfismo"@es ;
     owl:versionInfo "1.0.0" ;
-    skos:definition "The metamorphicGrade property contains a term from a controlled vocabulary indicating the intensity or rank of metamorphism applied to an EarthMaterial (e.g., high metamorphic grade, low metamorphic grade)."@en,
+    skos:definition "Terms indicating the intensity or rank of metamorphism applied to an EarthMaterial (e.g., high metamorphic grade, low metamorphic grade)."@en,
         "Términos que indica la intensidad o grado del metamorfismo aplicado a un EarthMaterial (por ejemplo, alto grado metamórfico, bajo grado metamórfico)."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Grado de metamorfismo."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-desconocido>,

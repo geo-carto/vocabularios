@@ -9,18 +9,44 @@
    xmlns:sdo="https://schema.org/"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-actividad/estabilizado">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
+    <skos:prefLabel xml:lang="es">estabilizado</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">stabilised</skos:prefLabel>
+    <skos:definition xml:lang="es">Un proceso geomorfológico estabilizado es un proceso inactivo que ha sido protegido de sus causas originales mediante medidas correctivas.</skos:definition>
+    <skos:definition xml:lang="en">A stabilized geomorphologic process is an inactive process which has been protected from its original causes by remedial measures.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/stabilised"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-actividad/reactivado">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
+    <skos:prefLabel xml:lang="es">reactivado</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">reactivated</skos:prefLabel>
+    <skos:definition xml:lang="es">Un proceso geomorfológico reactivado es un proceso geomorfológico activo que ha estado inactivo.</skos:definition>
+    <skos:definition xml:lang="en">A reactivated geomorphologic process is an active geomorphologic process which has been dormant.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/reactivated"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-actividad">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <skos:prefLabel xml:lang="es">Actividad geomorfológica</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Geomorphologic activity</skos:prefLabel>
     <dcterms:title xml:lang="es">Actividad geomorfológica</dcterms:title>
     <dcterms:title xml:lang="en">Geomorphologic activity</dcterms:title>
-    <skos:definition xml:lang="es">Términos referidos a la actividad geomorfológica.</skos:definition>
-    <skos:definition xml:lang="en">Terms referring to geomorphological activity.</skos:definition>
-    <dcterms:description xml:lang="es">Términos referidos a la actividad geomorfológica.</dcterms:description>
-    <dcterms:description xml:lang="en">Terms referring to geomorphological activity.</dcterms:description>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <skos:definition xml:lang="es">Términos referidos al estado de la actividad de un proceso geomorfológico.</skos:definition>
+    <skos:definition xml:lang="en">Terms referring to the state of activitiy of a geomorphological process.</skos:definition>
+    <dcterms:description xml:lang="es">Términos referidos al estado de la actividad de un proceso geomorfológico.</dcterms:description>
+    <dcterms:description xml:lang="en">Terms referring to the state of activitiy of a geomorphological process.</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-01</dcterms:modified>
     <dcterms:publisher rdf:resource="https://www.igme.es/"/>
     <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dcterms:provenance>Términos originales de INSPIRE</dcterms:provenance>
@@ -48,24 +74,10 @@
     <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad/estabilizado"/>
     <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad/inactivo"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-actividad/activo">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
-    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
-    <skos:prefLabel xml:lang="es">activo</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">active</skos:prefLabel>
-    <skos:definition xml:lang="es">Un proceso geomorfológico que actualmente está en acción, o que ha sido reactivado desde hace un período de tiempo convencionalmente corto.</skos:definition>
-    <skos:definition xml:lang="en">A geomorphologic process that is currently in a state of action, or that has been reactivated since a conventionally short period of time.</skos:definition>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/active"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
     <rdf:type rdf:resource="https://schema.org/Organization"/>
-    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
-    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
-    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-actividad/latente">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -80,6 +92,25 @@
     <adms:status>Válido</adms:status>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
   </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-actividad/activo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
+    <skos:prefLabel xml:lang="es">activo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">active</skos:prefLabel>
+    <skos:definition xml:lang="es">Un proceso geomorfológico que actualmente está en acción, o que ha sido reactivado desde hace un período de tiempo convencionalmente corto.</skos:definition>
+    <skos:definition xml:lang="en">A geomorphologic process that is currently in a state of action, or that has been reactivated since a conventionally short period of time.</skos:definition>
+    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/active"/>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-actividad/inactivo">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
@@ -90,37 +121,6 @@
     <skos:definition xml:lang="es">Un proceso geomorfológico relicto o fósil.</skos:definition>
     <skos:definition xml:lang="en">A relict or fossil geomorphologic process.</skos:definition>
     <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/inactive"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
-    <rdf:type rdf:resource="https://schema.org/Organization"/>
-    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
-    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-actividad/estabilizado">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
-    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
-    <skos:prefLabel xml:lang="es">estabilizado</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">stabilised</skos:prefLabel>
-    <skos:definition xml:lang="es">Un proceso geomorfológico estabilizado es un proceso inactivo que ha sido protegido de sus causas originales mediante medidas correctivas.</skos:definition>
-    <skos:definition xml:lang="en">A stabilized geomorphologic process is an inactive process which has been protected from its original causes by remedial measures.</skos:definition>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/stabilised"/>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/geomorfologia-actividad/reactivado">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
-    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/geomorfologia-actividad"/>
-    <skos:prefLabel xml:lang="es">reactivado</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">reactivated</skos:prefLabel>
-    <skos:definition xml:lang="es">Un proceso geomorfológico reactivado es un proceso geomorfológico activo que ha estado inactivo.</skos:definition>
-    <skos:definition xml:lang="en">A reactivated geomorphologic process is an active geomorphologic process which has been dormant.</skos:definition>
-    <skos:exactMatch rdf:resource="http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/reactivated"/>
     <adms:status>Válido</adms:status>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
   </rdf:Description>

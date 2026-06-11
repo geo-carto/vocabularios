@@ -1,58 +1,17 @@
 [
   {
-    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-alto",
+    "@id": "https://linked.data.gov.au/org/cgi",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
+      "https://schema.org/Organization"
     ],
-    "http://purl.org/dc/terms/created": [
+    "https://schema.org/name": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
+        "@value": "Commission for the Management and Application of Geoscience Information"
       }
     ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+    "https://schema.org/url": [
       {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Estructuras del protolito casi siempre obliteradas, evidencias de fusión parcial comunes. Incluye rocas metamorfizadas en facies de anfibolitas de alta temperatura, corneanas piroxénicas, y eclogitas de media a alta temperatura. Asociaciones minerales según Fry (1984) Tabla 10-1: Material ultramáfico: olivino, antofilita, cummingtonita, enstatita; material ígneo básico, porción máfica: hornblenda, (diópsido, granate); porción calco-alumínica: plagioclasa básica; material pelita y semi-pelita: feldespato-K, biotita, cuarzo, minerales alumínicos (granate), migmatitas."
-      },
-      {
-        "@language": "en",
-        "@value": "Protolith structures almost always obliterated, evidence of partial melting common. Includes rocks metamorphosed in high-temperature amphibolite, pyroxene hornfels, and medium to high-temperature eclogite facies. Mineral assemblages according to Fry (1984) Table 10-1: ultramafic-olivine, anthophyllite, cummingtonite, enstatite, mafic-hornblende, (diopside, garnet), calc-aluminous basic-plagioclase, pelite, semi-pelite -- K-feldspar, biotite, quartz, Al-minerals (garnet), migmatite."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/high_metamorphic_grade"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "grado metamórfico alto"
-      },
-      {
-        "@language": "en",
-        "@value": "high metamorphic grade"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
+        "@id": "http://www.cgi-iugs.org"
       }
     ]
   },
@@ -114,23 +73,7 @@
     ]
   },
   {
-    "@id": "https://linked.data.gov.au/org/cgi",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "Commission for the Management and Application of Geoscience Information"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-desconocido",
+    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-no-especificado",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -148,16 +91,16 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "De uso en descripciones de instancias para indicar que no hay información disponible acerca del grado metamórfico"
+        "@value": "De uso en descripciones normativas para indicar explícitamente que permite cualquier condición metamórfica (incluyendo no metamorfizado)."
       },
       {
         "@language": "en",
-        "@value": "For use in instance descriptions to indicate that no information is available on metamorphic grade"
+        "@value": "For use in normative descriptions to explicitly indicate that any metamorphic condition is allowed (including non-metamorphosed)."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/metamorphic_grade_unknown"
+        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/metamorphic_grade_not_specified"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -165,14 +108,22 @@
         "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado"
       }
     ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/no-metamorfizado"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "grado metamórfico desconocido"
+        "@value": "grado metamórfico no especificado"
       },
       {
         "@language": "en",
-        "@value": "metamorphic grade unknown"
+        "@value": "metamorphic grade not specified"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -187,7 +138,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-muy-alto",
+    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/no-metamorfizado",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -204,22 +155,22 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado"
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-no-especificado"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Estructuras del protolito casi siempre obliteradas. Incluye rocas metamorfizadas en facies de granulitas (o sanidinitas), y eclogitas de alta temperatura. Asociaciones minerales según Fry (1984) Tabla 10-1: Material ultramáfico: olivino, enstatita; material ígneo básico, porción máfica: hiperstena, diópsido (hornblenda); porción calco-alumínica: plagioclasa básica; material pelita y semi-pelita: hiperstena + minerales alumínicos (feldespato-K, cuarzo), o zafirina."
+        "@value": "Roca o sedimento no metamorfizado."
       },
       {
         "@language": "en",
-        "@value": "Protolith structures almost always obliterated. Includes rocks metamorphosed in granulite (or sanidinite), and high-temperature eclogite facies. Mineral assemblages according to Fry (1984) Table 10-1: ultramafic-olivine, enstatite, mafic-hypersthene, diopside (hornblende), calc-aluminous basic-plagioclase, pelite, semi-pelite -- hypersthene + Al-minerals (K-feldspar, quartz), or sapphirine."
+        "@value": "Rock or sediment not metamorphosed."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/very_high_metamorphic_grade"
+        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/not_metamorphosed"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -230,11 +181,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "grado metamórfico muy alto"
+        "@value": "no metamorfizado"
       },
       {
         "@language": "en",
-        "@value": "very high metamorphic grade"
+        "@value": "not metamorphosed"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -301,7 +252,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/no-metamorfizado",
+    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-muy-alto",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -318,22 +269,22 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-no-especificado"
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Roca o sedimento no metamorfizado."
+        "@value": "Estructuras del protolito casi siempre obliteradas. Incluye rocas metamorfizadas en facies de granulitas (o sanidinitas), y eclogitas de alta temperatura. Asociaciones minerales según Fry (1984) Tabla 10-1: Material ultramáfico: olivino, enstatita; material ígneo básico, porción máfica: hiperstena, diópsido (hornblenda); porción calco-alumínica: plagioclasa básica; material pelita y semi-pelita: hiperstena + minerales alumínicos (feldespato-K, cuarzo), o zafirina."
       },
       {
         "@language": "en",
-        "@value": "Rock or sediment not metamorphosed."
+        "@value": "Protolith structures almost always obliterated. Includes rocks metamorphosed in granulite (or sanidinite), and high-temperature eclogite facies. Mineral assemblages according to Fry (1984) Table 10-1: ultramafic-olivine, enstatite, mafic-hypersthene, diopside (hornblende), calc-aluminous basic-plagioclase, pelite, semi-pelite -- hypersthene + Al-minerals (K-feldspar, quartz), or sapphirine."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/not_metamorphosed"
+        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/very_high_metamorphic_grade"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -344,11 +295,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "no metamorfizado"
+        "@value": "grado metamórfico muy alto"
       },
       {
         "@language": "en",
-        "@value": "not metamorphosed"
+        "@value": "very high metamorphic grade"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -444,6 +395,137 @@
     ]
   },
   {
+    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-alto",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Estructuras del protolito casi siempre obliteradas, evidencias de fusión parcial comunes. Incluye rocas metamorfizadas en facies de anfibolitas de alta temperatura, corneanas piroxénicas, y eclogitas de media a alta temperatura. Asociaciones minerales según Fry (1984) Tabla 10-1: Material ultramáfico: olivino, antofilita, cummingtonita, enstatita; material ígneo básico, porción máfica: hornblenda, (diópsido, granate); porción calco-alumínica: plagioclasa básica; material pelita y semi-pelita: feldespato-K, biotita, cuarzo, minerales alumínicos (granate), migmatitas."
+      },
+      {
+        "@language": "en",
+        "@value": "Protolith structures almost always obliterated, evidence of partial melting common. Includes rocks metamorphosed in high-temperature amphibolite, pyroxene hornfels, and medium to high-temperature eclogite facies. Mineral assemblages according to Fry (1984) Table 10-1: ultramafic-olivine, anthophyllite, cummingtonite, enstatite, mafic-hornblende, (diopside, garnet), calc-aluminous basic-plagioclase, pelite, semi-pelite -- K-feldspar, biotite, quartz, Al-minerals (garnet), migmatite."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/high_metamorphic_grade"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "grado metamórfico alto"
+      },
+      {
+        "@language": "en",
+        "@value": "high metamorphic grade"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-no-especificado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "La roca está metamorfizada, puede tener cualquier valor de grado metamórfico."
+      },
+      {
+        "@language": "en",
+        "@value": "Rock is metamorphosed, may have any value for metamorphic grade."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/metamorphosed_grade_not_specified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-alto"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-bajo"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-medio"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-muy-alto"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-muy-bajo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "grado metamórfizado no especificado"
+      },
+      {
+        "@language": "en",
+        "@value": "metamorphosed grade not specified"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
     "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -456,7 +538,7 @@
     "http://purl.org/dc/terms/created": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
+        "@value": "2026-06-01"
       }
     ],
     "http://purl.org/dc/terms/creator": [
@@ -471,7 +553,7 @@
       },
       {
         "@language": "en",
-        "@value": "The metamorphicGrade property contains a term from a controlled vocabulary indicating the intensity or rank of metamorphism applied to an EarthMaterial (e.g., high metamorphic grade, low metamorphic grade)."
+        "@value": "Terms indicating the intensity or rank of metamorphism applied to an EarthMaterial (e.g., high metamorphic grade, low metamorphic grade)."
       }
     ],
     "http://purl.org/dc/terms/license": [
@@ -482,7 +564,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
+        "@value": "2026-06-01"
       }
     ],
     "http://purl.org/dc/terms/provenance": [
@@ -517,7 +599,7 @@
       },
       {
         "@language": "en",
-        "@value": "The metamorphicGrade property contains a term from a controlled vocabulary indicating the intensity or rank of metamorphism applied to an EarthMaterial (e.g., high metamorphic grade, low metamorphic grade)."
+        "@value": "Terms indicating the intensity or rank of metamorphism applied to an EarthMaterial (e.g., high metamorphic grade, low metamorphic grade)."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#editorialNote": [
@@ -608,81 +690,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-no-especificado"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "La roca está metamorfizada, puede tener cualquier valor de grado metamórfico."
-      },
-      {
-        "@language": "en",
-        "@value": "Rock is metamorphosed, may have any value for metamorphic grade."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/metamorphosed_grade_not_specified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-alto"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-bajo"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-medio"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-muy-alto"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-muy-bajo"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "grado metamórfizado no especificado"
-      },
-      {
-        "@language": "en",
-        "@value": "metamorphosed grade not specified"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-no-especificado",
+    "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfico-desconocido",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -700,16 +708,16 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "De uso en descripciones normativas para indicar explícitamente que permite cualquier condición metamórfica (incluyendo no metamorfizado)."
+        "@value": "De uso en descripciones de instancias para indicar que no hay información disponible acerca del grado metamórfico"
       },
       {
         "@language": "en",
-        "@value": "For use in normative descriptions to explicitly indicate that any metamorphic condition is allowed (including non-metamorphosed)."
+        "@value": "For use in instance descriptions to indicate that no information is available on metamorphic grade"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/metamorphic_grade_not_specified"
+        "@id": "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/metamorphic_grade_unknown"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -717,22 +725,14 @@
         "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado"
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/grado-metamorfizado-no-especificado"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/metamorfismo-grado/no-metamorfizado"
-      }
-    ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "grado metamórfico no especificado"
+        "@value": "grado metamórfico desconocido"
       },
       {
         "@language": "en",
-        "@value": "metamorphic grade not specified"
+        "@value": "metamorphic grade unknown"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [

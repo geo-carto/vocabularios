@@ -9,6 +9,18 @@
    xmlns:sdo="https://schema.org/"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-grado/debil-ii">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado"/>
+    <skos:prefLabel xml:lang="es">débil (II)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">slight (II)</skos:prefLabel>
+    <skos:definition xml:lang="es">La meteorización se limita a las superficies de discontinuidad del material (fracturación y estratificación).</skos:definition>
+    <skos:definition xml:lang="en">Weathering is limited to discontinuities surfaces of the material (joints and bedding)</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-grado/moderado-iii">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado"/>
@@ -20,6 +32,23 @@
     <skos:definition xml:lang="en">Weathering affects less than 50% of the material, beeing the fresh material reduced to connected corestones</skos:definition>
     <adms:status>Válido</adms:status>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-grado/alto-iv">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado"/>
+    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado"/>
+    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado"/>
+    <skos:prefLabel xml:lang="es">alto (IV)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">high (IV)</skos:prefLabel>
+    <skos:definition xml:lang="es">La meteorización afecta a más del 50% del material, reduciéndose el material fresco a núcleos desconectados.</skos:definition>
+    <skos:definition xml:lang="en">Weathering affects more than 50% of the material, beeing the fresh material reduced to disconnected corestones</skos:definition>
+    <adms:status>Válido</adms:status>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-grado/collection">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
@@ -36,6 +65,12 @@
     <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado/debil-ii"/>
     <skos:member rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado/material-fresco-i"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
+    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
+    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-grado">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <skos:prefLabel xml:lang="es">Grado de alteración</skos:prefLabel>
@@ -43,11 +78,11 @@
     <dcterms:title xml:lang="es">Grado de alteración</dcterms:title>
     <dcterms:title xml:lang="en">Alteration grade</dcterms:title>
     <skos:definition xml:lang="es">Términos que indican la magnitud de la alteración observada.</skos:definition>
-    <skos:definition xml:lang="en">The property alterationDegree contains a term from a controlled vocabulary indicating the magnitude of observed alteration.</skos:definition>
+    <skos:definition xml:lang="en">Terms indicating the magnitude of observed alteration.</skos:definition>
     <dcterms:description xml:lang="es">Términos que indican la magnitud de la alteración observada.</dcterms:description>
-    <dcterms:description xml:lang="en">The property alterationDegree contains a term from a controlled vocabulary indicating the magnitude of observed alteration.</dcterms:description>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:modified>
+    <dcterms:description xml:lang="en">Terms indicating the magnitude of observed alteration.</dcterms:description>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-01</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-01</dcterms:modified>
     <dcterms:publisher rdf:resource="https://www.igme.es/"/>
     <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dcterms:provenance>Términos propios definidos por el IGME</dcterms:provenance>
@@ -74,30 +109,6 @@
     <adms:status>Válido</adms:status>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
   </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-grado/debil-ii">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado"/>
-    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado"/>
-    <skos:prefLabel xml:lang="es">débil (II)</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">slight (II)</skos:prefLabel>
-    <skos:definition xml:lang="es">La meteorización se limita a las superficies de discontinuidad del material (fracturación y estratificación).</skos:definition>
-    <skos:definition xml:lang="en">Weathering is limited to discontinuities surfaces of the material (joints and bedding)</skos:definition>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-grado/alto-iv">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado"/>
-    <rdfs:isDefinedBy rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado"/>
-    <skos:topConceptOf rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado"/>
-    <skos:prefLabel xml:lang="es">alto (IV)</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">high (IV)</skos:prefLabel>
-    <skos:definition xml:lang="es">La meteorización afecta a más del 50% del material, reduciéndose el material fresco a núcleos desconectados.</skos:definition>
-    <skos:definition xml:lang="en">Weathering affects more than 50% of the material, beeing the fresh material reduced to disconnected corestones</skos:definition>
-    <adms:status>Válido</adms:status>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-grado/material-fresco-i">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado"/>
@@ -110,12 +121,6 @@
     <adms:status>Válido</adms:status>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
   </rdf:Description>
-  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi-gtwg">
-    <rdf:type rdf:resource="https://schema.org/Organization"/>
-    <sdo:affiliation rdf:resource="https://linked.data.gov.au/org/cgi"/>
-    <sdo:name>CGI Geoscience Terminology Working Group</sdo:name>
-    <sdo:url rdf:resource="http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://geo-carto.github.io/vocabularios/alteracion-grado/muy-alto-v">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://geo-carto.github.io/vocabularios/alteracion-grado"/>
@@ -127,10 +132,5 @@
     <skos:definition xml:lang="en">Weathering affects all the material, beeing modified by chemical weathering</skos:definition>
     <adms:status>Válido</adms:status>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</dcterms:created>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://linked.data.gov.au/org/cgi">
-    <rdf:type rdf:resource="https://schema.org/Organization"/>
-    <sdo:name>Commission for the Management and Application of Geoscience Information</sdo:name>
-    <sdo:url rdf:resource="http://www.cgi-iugs.org"/>
   </rdf:Description>
 </rdf:RDF>

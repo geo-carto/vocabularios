@@ -335,7 +335,7 @@
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-ambiente> ;
     skos:definition "Dwelling area setting."@en,
-        "ambiente de area de morada"@es ;
+        "Ambiente de area de morada"@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/dwellingAreaSetting> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-ambiente> ;
     skos:prefLabel "dwelling area setting"@en,
@@ -852,7 +852,7 @@
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-ambiente> ;
     skos:definition "Human environment setting."@en,
-        "ambiente de medioambiente humano"@es ;
+        "Ambiente de medioambiente humano"@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/humanEnvironmentSetting>,
         <http://resource.geosciml.org/classifier/cgi/eventenvironment/human_environment> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-ambiente> ;
@@ -1207,7 +1207,7 @@
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-ambiente> ;
     skos:broader <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-marino> ;
     skos:definition "Marine setting situated within the interior of the continent, rather than at the edge of a continent."@en,
-        "ambiente marino situado en el interior de un continente, en lugar de en el borde del continente."@es ;
+        "Ambiente marino situado en el interior de un continente, en lugar de en el borde del continente."@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/epicontinentalMarineSetting>,
         <http://resource.geosciml.org/classifier/cgi/eventenvironment/epicontinental_marine_setting> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-ambiente> ;
@@ -2116,7 +2116,7 @@
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/evento-ambiente> ;
     skos:broader <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-litoral> ;
     skos:definition "Settings characterized by very low surface slope and proximity to shoreline. Generally within peritidal setting, but characterized by low surface gradients and generally low-energy sedimentary processes."@en,
-        "ambientes caracterizados por una superficie de pendiente muy baja y proximidad a la costa. Generalmente dentro del ambiente perimareal, pero caracterizada por superficies de gradientes bajos y en general por los procesos sedimentarios de baja energía."@es ;
+        "Ambientes caracterizados por una superficie de pendiente muy baja y proximidad a la costa. Generalmente dentro del ambiente perimareal, pero caracterizada por superficies de gradientes bajos y en general por los procesos sedimentarios de baja energía."@es ;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/lowEnergyShorelineSetting>,
         <http://resource.geosciml.org/classifier/cgi/eventenvironment/low_energy_shoreline_setting> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/evento-ambiente> ;
@@ -2545,19 +2545,19 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/evento-ambiente> a skos:ConceptScheme ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://commission.europa.eu/" ;
     dcterms:description "Terms describing the geological environment in which a geological event occurs. The environment may refer, for example, to depositional, tectonic, metamorphic, or magmatic conditions under which the event took place."@en,
-        "Términos que describen el entorno geológico en el que ocurre un evento geológico. El entorno puede referirse, por ejemplo, a condiciones deposicionales, tectónicas, metamórficas o magmáticas en las que tuvo lugar el evento."@es ;
+        "Términos que describen el ambiente geológico en el que ocurre un evento geológico. El entorno puede referirse, por ejemplo, a condiciones deposicionales, tectónicas, metamórficas o magmáticas en las que tuvo lugar el evento."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Event Environment"@en,
         "Ambiente asociado a evento"@es ;
     owl:versionInfo "1.0.0" ;
     skos:definition "Terms describing the geological environment in which a geological event occurs. The environment may refer, for example, to depositional, tectonic, metamorphic, or magmatic conditions under which the event took place."@en,
-        "Términos que describen el entorno geológico en el que ocurre un evento geológico. El entorno puede referirse, por ejemplo, a condiciones deposicionales, tectónicas, metamórficas o magmáticas en las que tuvo lugar el evento."@es ;
+        "Términos que describen el ambiente geológico en el que ocurre un evento geológico. El entorno puede referirse, por ejemplo, a condiciones deposicionales, tectónicas, metamórficas o magmáticas en las que tuvo lugar el evento."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Ambiente asociado a evento."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-abanico-deltaico>,
         <https://geo-carto.github.io/vocabularios/evento-ambiente/ambiente-de-acumulacion-de-polvo>,

@@ -1,65 +1,22 @@
 [
   {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection/coleccion-roles-de-partes-de-composicion",
+    "@id": "https://linked.data.gov.au/org/cgi",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
+      "https://schema.org/Organization"
     ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+    "https://schema.org/name": [
       {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+        "@value": "Commission for the Management and Application of Geoscience Information"
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
+    "https://schema.org/url": [
       {
-        "@language": "es",
-        "@value": "Colección de términos para especificar el atributo 'Rol de parte de composición'."
-      },
-      {
-        "@language": "en",
-        "@value": "Collection of terms for specifying the atribute 'Composition part role'."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/facies"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "Colección - Roles de partes de composición"
-      },
-      {
-        "@language": "en",
-        "@value": "Collection - Composition part role"
+        "@id": "http://www.cgi-iugs.org"
       }
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/facies",
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -82,19 +39,19 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Cuerpo rocoso determinado que constituye una variante lateral de una unidad litoestratigráfica o una variante de una unidad litodémica."
+        "@value": "Parte de la unidad geológica que desempeña una función no especificada"
       },
       {
         "@language": "en",
-        "@value": "Represents a particular body of rock that is a lateral variant of a lithostratigraphic unit, or a variant of a lithodemic unit. Contrast with lithosome in being a particular, connected body of rock, as opposed to a kind of rock body that is repeated in many places in a unit"
+        "@value": "Geologic unit part with unspecified role, use in normative descriptions when any role is allowed"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/facies"
+        "@id": "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/unspecifiedPartRole"
       },
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/facies"
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/unspecified_part_role"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -105,11 +62,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "facies"
+        "@value": "rol no especificado de una parte"
       },
       {
         "@language": "en",
-        "@value": "facies"
+        "@value": "unspecified part role"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -176,300 +133,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-litologica",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Litosoma en unidad litoestratigráfica que se presenta como lechos individuales intercalados con otros constituyentes en la escala de afloramiento (m) o mayor"
-      },
-      {
-        "@language": "en",
-        "@value": "Lithosome in lithostratigraphic unit that occurs as individual beds interleaved with other constituents on the outcrop (m) scale or larger"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/bed_lithosome"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "capa litológica"
-      },
-      {
-        "@language": "en",
-        "@value": "bed lithosome"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://purl.org/dc/terms/creator": [
-      {
-        "@value": "https://cgi-iugs.org/"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "es",
-        "@value": "Términos que describe la naturaleza de las partes, por ejemplo: facies, estratigráfica, intercapas, geográfica, facies oriental."
-      },
-      {
-        "@language": "en",
-        "@value": "The GeologicUnitHierarchyRoleTerm property provides a term describing the nature of the parts, e.g. facies, stratigraphic, interbeds, geographic, eastern facies."
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://purl.org/dc/terms/provenance": [
-      {
-        "@value": "Términos originales del estándar GeoSciML traducidos al español por el IGME"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://www.igme.es/"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "es",
-        "@value": "Rol jerárquico de unidad geológica"
-      },
-      {
-        "@language": "en",
-        "@value": "Geologic unit hierarchy role"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#versionInfo": [
-      {
-        "@value": "1.0.0"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Términos que describe la naturaleza de las partes, por ejemplo: facies, estratigráfica, intercapas, geográfica, facies oriental."
-      },
-      {
-        "@language": "en",
-        "@value": "The GeologicUnitHierarchyRoleTerm property provides a term describing the nature of the parts, e.g. facies, stratigraphic, interbeds, geographic, eastern facies."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#editorialNote": [
-      {
-        "@language": "es",
-        "@value": "Este archivo contiene el vocabulario Rol jerárquico de unidad geológica."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "Rol jerárquico de unidad geológica"
-      },
-      {
-        "@language": "en",
-        "@value": "Geologic unit hierarchy role"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#theme": [
-      {
-        "@value": "GE"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-estratificado",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Litosoma en una unidad geológica ígnea o metamórfica que se presenta como capas que se alternan con otros constituyentes"
-      },
-      {
-        "@language": "en",
-        "@value": "Lithosome in igneous or metamorphic geologic unit that occurs as layers alternating with other constituents"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/layer_lithosome"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "litosoma estratificado"
-      },
-      {
-        "@language": "en",
-        "@value": "layer lithosome"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "No se conoce con más detalle la función de la parte de la unidad geológica."
-      },
-      {
-        "@language": "en",
-        "@value": "The geologic unit part role is not known in any greater detail"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf"
-      },
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/part_of"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/facies"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "parte de"
-      },
-      {
-        "@language": "en",
-        "@value": "part of"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/cortina",
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazo-de-techo",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -492,16 +156,16 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Colgante que es una hoja vertical como colgante en un cuerpo de roca ígnea intrusiva"
+        "@value": "Colgante que se deriva demostrablemente del límite superior de un cuerpo ígneo"
       },
       {
         "@language": "en",
-        "@value": "Pendant that is a vertical sheet like pendant in an intrusive igneous rock body"
+        "@value": "Pendant that is demonstrably derived from the upper boundary of an igneous body"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/screen"
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/roof_pendant"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -512,11 +176,184 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "cortina"
+        "@value": "retazo de techo"
       },
       {
         "@language": "en",
-        "@value": "screen"
+        "@value": "roof pendant"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection/coleccion-roles-de-partes-de-composicion",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Colección de términos para especificar el atributo 'Rol de parte de composición'."
+      },
+      {
+        "@language": "en",
+        "@value": "Collection of terms for specifying the atribute 'Composition part role'."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/facies"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Colección - Roles de partes de composición"
+      },
+      {
+        "@language": "en",
+        "@value": "Collection - Composition part role"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/paquete-sedimentario-ciclico",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Litosoma caracterizado por una secuencia interna de unidades, que se repite en una secuencia apilada, p. secuencia ascendente de afinación, secuencia ascendente de engrosamiento, secuencia bouma"
+      },
+      {
+        "@language": "en",
+        "@value": "Lithosome characterized by an internal sequence of units, which is repeated in a stacked sequence, e.g. fining-upward sequence, thickening upward sequence, bouma sequence"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/cyclic_bedding_package"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "paquete sedimentario cíclico"
+      },
+      {
+        "@language": "en",
+        "@value": "cyclic bedding package"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-irregular",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Litosoma en una unidad litodémica mixta/heterogénea que se presenta en cuerpos irregulares dentro de la unidad"
+      },
+      {
+        "@language": "en",
+        "@value": "Lithosome in a mixed/heterogeneous lithodemic unit that occurs in irregular bodies within unit"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/irregular_lithosome"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "litosoma irregular"
+      },
+      {
+        "@language": "en",
+        "@value": "irregular lithosome"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -609,6 +446,715 @@
     ]
   },
   {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloques",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "El constituyente de la unidad geológica está presente como masas con límites generalmente nítidos y geometría en forma de bloque dentro de una matriz de algún otro material emplazado por procesos en la superficie de la tierra, p. erupción volcánica o pérdida de masa. La implicación es que los bloques se derivaron de la misma unidad geológica de origen y se colocaron en la unidad descrita"
+      },
+      {
+        "@language": "en",
+        "@value": "Geologic unit constituent is present as masses with generally sharp boundaries and block-like geometry within a matrix of some other material emplaced by processes at the earth's surface--e.g. volcanic eruption or mass wasting. Implication is that blocks were derived from the same source geologic unit and emplaced in the described unit"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/blocks"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "bloques"
+      },
+      {
+        "@language": "en",
+        "@value": "blocks"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Todos los conceptos en este vocabulario."
+      },
+      {
+        "@language": "en",
+        "@value": "All concepts in this vocabulary."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/facies"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloques"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/concrecion"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/enclave"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazos"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/balsas"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazo-de-techo"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/cortina"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloque-tectonico"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/xenolito"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-litologica"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/paquete-sedimentario-ciclico"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/matriz-de-unidad-geologica"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-irregular"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-estratificado"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-lenticular"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/dique-o-vena"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-guia"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Rol de parte de unidad geológica - Todos los conceptos"
+      },
+      {
+        "@language": "en",
+        "@value": "Geologic unit part role - All concepts"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/enclave",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Término general para un agregado polimineral encerrado en un granitoide"
+      },
+      {
+        "@language": "en",
+        "@value": "General term for a polymineralic aggregate enclosed in a granitoid"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/enclave"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "enclave"
+      },
+      {
+        "@language": "en",
+        "@value": "enclave"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/affiliation": [
+      {
+        "@id": "https://linked.data.gov.au/org/cgi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "CGI Geoscience Terminology Working Group"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-litologica",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Litosoma en unidad litoestratigráfica que se presenta como lechos individuales intercalados con otros constituyentes en la escala de afloramiento (m) o mayor"
+      },
+      {
+        "@language": "en",
+        "@value": "Lithosome in lithostratigraphic unit that occurs as individual beds interleaved with other constituents on the outcrop (m) scale or larger"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/bed_lithosome"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "capa litológica"
+      },
+      {
+        "@language": "en",
+        "@value": "bed lithosome"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/cortina",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazos"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Colgante que es una hoja vertical como colgante en un cuerpo de roca ígnea intrusiva"
+      },
+      {
+        "@language": "en",
+        "@value": "Pendant that is a vertical sheet like pendant in an intrusive igneous rock body"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/screen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "cortina"
+      },
+      {
+        "@language": "en",
+        "@value": "screen"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-06-01"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "https://cgi-iugs.org/"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "es",
+        "@value": "Términos que describen la naturaleza de las partes, por ejemplo: facies, estratigráfica, etc."
+      },
+      {
+        "@language": "en",
+        "@value": "Term describing the nature of the parts, e.g. facies, stratigraphic, etc."
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-06-01"
+      }
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "Términos originales del estándar GeoSciML traducidos al español por el IGME"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://www.igme.es/"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "es",
+        "@value": "Rol de parte de unidad geológica"
+      },
+      {
+        "@language": "en",
+        "@value": "Geologic unit part role"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Términos que describen la naturaleza de las partes, por ejemplo: facies, estratigráfica, etc."
+      },
+      {
+        "@language": "en",
+        "@value": "Term describing the nature of the parts, e.g. facies, stratigraphic, etc."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#editorialNote": [
+      {
+        "@language": "es",
+        "@value": "Este archivo contiene el vocabulario Rol de parte de unidad geológica."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Rol de parte de unidad geológica"
+      },
+      {
+        "@language": "en",
+        "@value": "Geologic unit part role"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@value": "GE"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/balsas",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazos"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Colgantes de roca campestre preintrusiva en matriz ígnea intrusiva que tienen una gran extensión horizontal en relación con su espesor"
+      },
+      {
+        "@language": "en",
+        "@value": "Pendants of pre-intrusive country rock in intrusive igneous matrix that have large horizontal extent relative to their thickness"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/rafts"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "balsas"
+      },
+      {
+        "@language": "en",
+        "@value": "rafts"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloque-tectonico",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "La parte de la unidad geológica se presenta como masas discretas con límites fallados, emplazadas en la unidad anfitriona por procesos tectónicos dentro de la tierra, p. bloques en mezcla tectónica"
+      },
+      {
+        "@language": "en",
+        "@value": "The geologic unit part occurs as discrete masses with faulted boundaries, emplaced into the host unit by tectonic processes inside the earth, e.g. blocks in tectonic melange"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/tectonic_block"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "bloque tectónico"
+      },
+      {
+        "@language": "en",
+        "@value": "tectonic block"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "No se conoce con más detalle la función de la parte de la unidad geológica."
+      },
+      {
+        "@language": "en",
+        "@value": "The geologic unit part role is not known in any greater detail"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/partOf"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/part_of"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/facies"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "parte de"
+      },
+      {
+        "@language": "en",
+        "@value": "part of"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-lenticular",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "El litosoma se presenta como cuerpos discretos en forma de lente, no conectados con otros cuerpos"
+      },
+      {
+        "@language": "en",
+        "@value": "Lithosome occurs as discrete lense-shaped bodies, not connected with other bodies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/lenticular_lithosome"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "litosoma lenticular"
+      },
+      {
+        "@language": "en",
+        "@value": "lenticular lithosome"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
     "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -686,7 +1232,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-irregular",
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-estratificado",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -709,16 +1255,16 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Litosoma en una unidad litodémica mixta/heterogénea que se presenta en cuerpos irregulares dentro de la unidad"
+        "@value": "Litosoma en una unidad geológica ígnea o metamórfica que se presenta como capas que se alternan con otros constituyentes"
       },
       {
         "@language": "en",
-        "@value": "Lithosome in a mixed/heterogeneous lithodemic unit that occurs in irregular bodies within unit"
+        "@value": "Lithosome in igneous or metamorphic geologic unit that occurs as layers alternating with other constituents"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/irregular_lithosome"
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/layer_lithosome"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -729,11 +1275,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "litosoma irregular"
+        "@value": "litosoma estratificado"
       },
       {
         "@language": "en",
-        "@value": "irregular lithosome"
+        "@value": "layer lithosome"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -743,7 +1289,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/paquete-sedimentario-ciclico",
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/matriz-de-unidad-geologica",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -766,16 +1312,16 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Litosoma caracterizado por una secuencia interna de unidades, que se repite en una secuencia apilada, p. secuencia ascendente de afinación, secuencia ascendente de engrosamiento, secuencia bouma"
+        "@value": "Litosoma en una unidad geológica que generalmente es intersticial con otros constituyentes, p. en un depósito de desgaste masivo, melange, brecha de toba"
       },
       {
         "@language": "en",
-        "@value": "Lithosome characterized by an internal sequence of units, which is repeated in a stacked sequence, e.g. fining-upward sequence, thickening upward sequence, bouma sequence"
+        "@value": "Lithosome in a geologic unit that is generally interstitial to other constituents, e.g. in a mass wasting deposit, melange, tuff breccia"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/cyclic_bedding_package"
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/geologic_unit_matrix"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -786,11 +1332,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "paquete sedimentario cíclico"
+        "@value": "matriz de unidad geológica"
       },
       {
         "@language": "en",
-        "@value": "cyclic bedding package"
+        "@value": "geologic unit matrix"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -800,7 +1346,64 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica",
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/dique-o-vena",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "El litosoma se presenta como cuerpos intrusivos en forma de lámina dentro de la unidad como parte esencial de la unidad"
+      },
+      {
+        "@language": "en",
+        "@value": "Lithosome occurs as intrusive, sheet-like bodies within the unit as an essential part of the unit"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/vein_or_dike_lithosome"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "dique o vena"
+      },
+      {
+        "@language": "en",
+        "@value": "vein or dike lithosome"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/facies",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -823,19 +1426,250 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Parte de una unidad geológica que ocupa una posición estratigráfica determinada dentro de ella"
+        "@value": "Cuerpo rocoso determinado que constituye una variante lateral de una unidad litoestratigráfica o una variante de una unidad litodémica."
       },
       {
         "@language": "en",
-        "@value": "A geologic unit part that occupies a particular stratigraphic position within a geologic unit. Part is a particular body of rock"
+        "@value": "Represents a particular body of rock that is a lateral variant of a lithostratigraphic unit, or a variant of a lithodemic unit. Contrast with lithosome in being a particular, connected body of rock, as opposed to a kind of rock body that is repeated in many places in a unit"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/stratigraphicPart"
+        "@id": "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/facies"
       },
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/stratigraphic_part"
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/facies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "facies"
+      },
+      {
+        "@language": "en",
+        "@value": "facies"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Toda la unidad descrita consta de una sola parte o constituyente"
+      },
+      {
+        "@language": "en",
+        "@value": "Entire described unit consists of a single part or constituent"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/onlyPart"
+      },
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/only_part"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "solo una parte"
+      },
+      {
+        "@language": "en",
+        "@value": "only part"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-guia",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Parte estratigráfica que es un lecho delgado lateralmente continuo dentro de otra unidad"
+      },
+      {
+        "@language": "en",
+        "@value": "Stratigraphic part that is a thin laterally continuous bed within another unit"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/marker_bed"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "capa guía"
+      },
+      {
+        "@language": "en",
+        "@value": "marker bed"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/xenolito",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Inclusión de roca de campo pre-intrusiva en matriz ígnea intrusiva, de cm a unos 10 metros de diámetro en su dimensión más larga. Utilice término colgante para bloques más grandes"
+      },
+      {
+        "@language": "en",
+        "@value": "Inclusion of pre-intrusive country rock in intrusive igneous matrix, cm to about 10 meter diameter in longest dimension. Use term pendant for larger blocks"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/xenolith"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "xenolito"
+      },
+      {
+        "@language": "en",
+        "@value": "xenolith"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazos",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Un bloque de material de roca de pared en una intrusión ígnea. Los colgantes se convierten en xenolitos a medida que la dimensión se vuelve más pequeña que aproximadamente 10 m en su dimensión más larga. Aunque el término colgante tiene la connotación de estar suspendido o sostenido desde arriba, esto rara vez se puede demostrar en situaciones geológicas, y el concepto aquí no requiere conexión con la pared de la intrusión que lo contiene"
+      },
+      {
+        "@language": "en",
+        "@value": "A block of wall rock material in an igneous intrusion. Pendants become xenoliths as the dimension becomes smaller than about 10 m in their longest dimension. Although term pendant has connotation of being suspended or supported from above, this is rarely demonstrable in geologic situations, and the concept here does not require connection to the wall of the containing intrusion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/pendants"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -845,17 +1679,23 @@
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-guia"
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/balsas"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazo-de-techo"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/cortina"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "parte estratigráfica"
+        "@value": "retazos"
       },
       {
         "@language": "en",
-        "@value": "stratigraphic part"
+        "@value": "pendants"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -975,7 +1815,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-guia",
+    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -992,193 +1832,25 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica"
+        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Parte estratigráfica que es un lecho delgado lateralmente continuo dentro de otra unidad"
+        "@value": "Parte de una unidad geológica que ocupa una posición estratigráfica determinada dentro de ella"
       },
       {
         "@language": "en",
-        "@value": "Stratigraphic part that is a thin laterally continuous bed within another unit"
+        "@value": "A geologic unit part that occupies a particular stratigraphic position within a geologic unit. Part is a particular body of rock"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#exactMatch": [
       {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/marker_bed"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "capa guía"
+        "@id": "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/stratigraphicPart"
       },
       {
-        "@language": "en",
-        "@value": "marker bed"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/xenolito",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Inclusión de roca de campo pre-intrusiva en matriz ígnea intrusiva, de cm a unos 10 metros de diámetro en su dimensión más larga. Utilice término colgante para bloques más grandes"
-      },
-      {
-        "@language": "en",
-        "@value": "Inclusion of pre-intrusive country rock in intrusive igneous matrix, cm to about 10 meter diameter in longest dimension. Use term pendant for larger blocks"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/xenolith"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "xenolito"
-      },
-      {
-        "@language": "en",
-        "@value": "xenolith"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/matriz-de-unidad-geologica",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Litosoma en una unidad geológica que generalmente es intersticial con otros constituyentes, p. en un depósito de desgaste masivo, melange, brecha de toba"
-      },
-      {
-        "@language": "en",
-        "@value": "Lithosome in a geologic unit that is generally interstitial to other constituents, e.g. in a mass wasting deposit, melange, tuff breccia"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/geologic_unit_matrix"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "matriz de unidad geológica"
-      },
-      {
-        "@language": "en",
-        "@value": "geologic unit matrix"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazos",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Un bloque de material de roca de pared en una intrusión ígnea. Los colgantes se convierten en xenolitos a medida que la dimensión se vuelve más pequeña que aproximadamente 10 m en su dimensión más larga. Aunque el término colgante tiene la connotación de estar suspendido o sostenido desde arriba, esto rara vez se puede demostrar en situaciones geológicas, y el concepto aquí no requiere conexión con la pared de la intrusión que lo contiene"
-      },
-      {
-        "@language": "en",
-        "@value": "A block of wall rock material in an igneous intrusion. Pendants become xenoliths as the dimension becomes smaller than about 10 m in their longest dimension. Although term pendant has connotation of being suspended or supported from above, this is rarely demonstrable in geologic situations, and the concept here does not require connection to the wall of the containing intrusion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/pendants"
+        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/stratigraphic_part"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1188,689 +1860,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/balsas"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazo-de-techo"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/cortina"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "retazos"
-      },
-      {
-        "@language": "en",
-        "@value": "pendants"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/enclave",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Término general para un agregado polimineral encerrado en un granitoide"
-      },
-      {
-        "@language": "en",
-        "@value": "General term for a polymineralic aggregate enclosed in a granitoid"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/enclave"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "enclave"
-      },
-      {
-        "@language": "en",
-        "@value": "enclave"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-lenticular",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "El litosoma se presenta como cuerpos discretos en forma de lente, no conectados con otros cuerpos"
-      },
-      {
-        "@language": "en",
-        "@value": "Lithosome occurs as discrete lense-shaped bodies, not connected with other bodies"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/lenticular_lithosome"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "litosoma lenticular"
-      },
-      {
-        "@language": "en",
-        "@value": "lenticular lithosome"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi-gtwg",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/affiliation": [
-      {
-        "@id": "https://linked.data.gov.au/org/cgi"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "CGI Geoscience Terminology Working Group"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org/tech_collaboration/geoscience_terminology_working_group.html"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloque-tectonico",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "La parte de la unidad geológica se presenta como masas discretas con límites fallados, emplazadas en la unidad anfitriona por procesos tectónicos dentro de la tierra, p. bloques en mezcla tectónica"
-      },
-      {
-        "@language": "en",
-        "@value": "The geologic unit part occurs as discrete masses with faulted boundaries, emplaced into the host unit by tectonic processes inside the earth, e.g. blocks in tectonic melange"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/tectonic_block"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "bloque tectónico"
-      },
-      {
-        "@language": "en",
-        "@value": "tectonic block"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "Commission for the Management and Application of Geoscience Information"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/balsas",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazos"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Colgantes de roca campestre preintrusiva en matriz ígnea intrusiva que tienen una gran extensión horizontal en relación con su espesor"
-      },
-      {
-        "@language": "en",
-        "@value": "Pendants of pre-intrusive country rock in intrusive igneous matrix that have large horizontal extent relative to their thickness"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/rafts"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "balsas"
-      },
-      {
-        "@language": "en",
-        "@value": "rafts"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazo-de-techo",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazos"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Colgante que se deriva demostrablemente del límite superior de un cuerpo ígneo"
-      },
-      {
-        "@language": "en",
-        "@value": "Pendant that is demonstrably derived from the upper boundary of an igneous body"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/roof_pendant"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "retazo de techo"
-      },
-      {
-        "@language": "en",
-        "@value": "roof pendant"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Toda la unidad descrita consta de una sola parte o constituyente"
-      },
-      {
-        "@language": "en",
-        "@value": "Entire described unit consists of a single part or constituent"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/onlyPart"
-      },
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/only_part"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "solo una parte"
-      },
-      {
-        "@language": "en",
-        "@value": "only part"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/collection",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Todos los conceptos en este vocabulario."
-      },
-      {
-        "@language": "en",
-        "@value": "All concepts in this vocabulary."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/solo-una-parte"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/facies"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloques"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/concrecion"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/enclave"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazos"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/balsas"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/retazo-de-techo"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/cortina"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloque-tectonico"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/xenolito"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-litologica"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/paquete-sedimentario-ciclico"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/matriz-de-unidad-geologica"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-irregular"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-estratificado"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma-lenticular"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/dique-o-vena"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-estratigrafica"
-      },
-      {
         "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/capa-guia"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "Rol jerárquico de unidad geológica - Todos los conceptos"
+        "@value": "parte estratigráfica"
       },
       {
         "@language": "en",
-        "@value": "Geologic unit hierarchy role - All concepts"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/rol-no-especificado-de-una-parte",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/parte-de"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Parte de la unidad geológica que desempeña una función no especificada"
-      },
-      {
-        "@language": "en",
-        "@value": "Geologic unit part with unspecified role, use in normative descriptions when any role is allowed"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/unspecifiedPartRole"
-      },
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/unspecified_part_role"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "rol no especificado de una parte"
-      },
-      {
-        "@language": "en",
-        "@value": "unspecified part role"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/bloques",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/inclusion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "El constituyente de la unidad geológica está presente como masas con límites generalmente nítidos y geometría en forma de bloque dentro de una matriz de algún otro material emplazado por procesos en la superficie de la tierra, p. erupción volcánica o pérdida de masa. La implicación es que los bloques se derivaron de la misma unidad geológica de origen y se colocaron en la unidad descrita"
-      },
-      {
-        "@language": "en",
-        "@value": "Geologic unit constituent is present as masses with generally sharp boundaries and block-like geometry within a matrix of some other material emplaced by processes at the earth's surface--e.g. volcanic eruption or mass wasting. Implication is that blocks were derived from the same source geologic unit and emplaced in the described unit"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/blocks"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "bloques"
-      },
-      {
-        "@language": "en",
-        "@value": "blocks"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/dique-o-vena",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte/litosoma"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "El litosoma se presenta como cuerpos intrusivos en forma de lámina dentro de la unidad como parte esencial de la unidad"
-      },
-      {
-        "@language": "en",
-        "@value": "Lithosome occurs as intrusive, sheet-like bodies within the unit as an essential part of the unit"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#exactMatch": [
-      {
-        "@id": "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/vein_or_dike_lithosome"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/unidad-geologica-rol-parte"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "dique o vena"
-      },
-      {
-        "@language": "en",
-        "@value": "vein or dike lithosome"
+        "@value": "stratigraphic part"
       }
     ],
     "http://www.w3.org/ns/adms#status": [

@@ -145,18 +145,18 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/estratificacion-patron> a skos:ConceptScheme ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
-    dcterms:description "The property beddingPattern provides a term from a controlled vocabulary specifying patterns of bedding thickness or relationships between bedding packages (e.g., thinning upward, thickening upward)."@en,
+    dcterms:description "Terms from a controlled vocabulary specifying patterns of bedding thickness or relationships between bedding packages (e.g., thinning upward, thickening upward)."@en,
         "Términos que especifican patrones de espesor o relaciones entre paquetes de estratificación (por ejemplo, adelgazamiento hacia arriba, engrosamiento hacia arriba)."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Bedding pattern"@en,
         "Patrón de estratificación"@es ;
     owl:versionInfo "1.0.0" ;
-    skos:definition "The property beddingPattern provides a term from a controlled vocabulary specifying patterns of bedding thickness or relationships between bedding packages (e.g., thinning upward, thickening upward)."@en,
+    skos:definition "Terms from a controlled vocabulary specifying patterns of bedding thickness or relationships between bedding packages (e.g., thinning upward, thickening upward)."@en,
         "Términos que especifican patrones de espesor o relaciones entre paquetes de estratificación (por ejemplo, adelgazamiento hacia arriba, engrosamiento hacia arriba)."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Patrón de estratificación."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/estratificacion-patron/aleatoria>,

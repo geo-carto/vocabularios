@@ -1103,19 +1103,19 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia> a skos:ConceptScheme ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://www.igme.es" ;
-    dcterms:description "The bodyMorphology property provides a term from a controlled vocabulary describing the geometry or form of a GeologicUnit. Examples include: dike (dyke), cone, fan, sheet, etc. The morphology is independent of the substance (EarthMaterial) that composes the GeologicUnit or process that formed it."@en,
-        "Términos que describe la geometría o forma de una unidad geológica. Ejemplos: dique, cono, abanico, lámina, etc. La morfología es independiente del material (EarthMaterial) que compone la unidad o del proceso que la formó."@es ;
+    dcterms:description "The bodyMorphology property provides a term from a controlled vocabulary describing the geometry or form of a GeologicUnit. Examples include: dike (dyke), cone, fan, sheet, etc."@en,
+        "Términos que describe la geometría o forma de una unidad geológica. Ejemplos: dique, cono, abanico, lámina, etc."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos propios definidos por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Body morphology"@en,
         "Morfología de cuerpo geológico"@es ;
     owl:versionInfo "1.0.0" ;
-    skos:definition "The bodyMorphology property provides a term from a controlled vocabulary describing the geometry or form of a GeologicUnit. Examples include: dike (dyke), cone, fan, sheet, etc. The morphology is independent of the substance (EarthMaterial) that composes the GeologicUnit or process that formed it."@en,
-        "Términos que describe la geometría o forma de una unidad geológica. Ejemplos: dique, cono, abanico, lámina, etc. La morfología es independiente del material (EarthMaterial) que compone la unidad o del proceso que la formó."@es ;
+    skos:definition "The bodyMorphology property provides a term from a controlled vocabulary describing the geometry or form of a GeologicUnit. Examples include: dike (dyke), cone, fan, sheet, etc."@en,
+        "Términos que describe la geometría o forma de una unidad geológica. Ejemplos: dique, cono, abanico, lámina, etc."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Morfología de cuerpo geológico."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/cuerpo-tridimensional>,
         <https://geo-carto.github.io/vocabularios/unidad-geologica-morfologia/perfil-planar> ;

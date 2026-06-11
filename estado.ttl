@@ -90,19 +90,19 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/estado> a skos:ConceptScheme ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://www.iso.org/" ;
-    dcterms:description "Status from ISO 19135:2026"@en,
-        "Estados tomados de ISO 19135:2026"@es ;
+    dcterms:description "Terms describing a status (ISO 19135:2026)."@en,
+        "Términos que describen estados (ISO 19135:2026)"@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos definidos en ISO 19135:2026" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Status"@en,
         "Estado"@es ;
     owl:versionInfo "1.0.1" ;
-    skos:definition "Status from ISO 19135:2026"@en,
-        "Estados tomados de ISO 19135:2026"@es ;
+    skos:definition "Terms describing a status (ISO 19135:2026)."@en,
+        "Términos que describen estados (ISO 19135:2026)"@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Estado."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/estado/invalido>,
         <https://geo-carto.github.io/vocabularios/estado/propuesto>,

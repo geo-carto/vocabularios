@@ -90,19 +90,19 @@
     adms:status "Válido" .
 
 <https://geo-carto.github.io/vocabularios/geomorfologia-actividad> a skos:ConceptScheme ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://commission.europa.eu/" ;
-    dcterms:description "Terms referring to geomorphological activity."@en,
-        "Términos referidos a la actividad geomorfológica."@es ;
+    dcterms:description "Terms referring to the state of activitiy of a geomorphological process."@en,
+        "Términos referidos al estado de la actividad de un proceso geomorfológico."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos originales de INSPIRE" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Geomorphologic activity"@en,
         "Actividad geomorfológica"@es ;
     owl:versionInfo "1.0.0" ;
-    skos:definition "Terms referring to geomorphological activity."@en,
-        "Términos referidos a la actividad geomorfológica."@es ;
+    skos:definition "Terms referring to the state of activitiy of a geomorphological process."@en,
+        "Términos referidos al estado de la actividad de un proceso geomorfológico."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Actividad geomorfológica."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/activo>,
         <https://geo-carto.github.io/vocabularios/geomorfologia-actividad/estabilizado>,

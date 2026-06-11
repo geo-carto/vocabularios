@@ -102,19 +102,19 @@
 
 <https://geo-carto.github.io/vocabularios/coleccion-tipo> a skos:ConceptScheme ;
     dcterms:contributor "https://www.igme.es" ;
-    dcterms:created "2026-03-01"^^xsd:date ;
+    dcterms:created "2026-06-01"^^xsd:date ;
     dcterms:creator "https://cgi-iugs.org/" ;
-    dcterms:description "Terms referring to stratigraphic rank."@en,
-        "Términos referidos a rango estratigráfico."@es ;
+    dcterms:description "Types of collections of geological and geophysical objects, as well as collections of objects of other nature."@en,
+        "Tipos de colecciones de objetos geológicos y geofísicos, asi como colecciones de objetos de otra naturaleza."@es ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-03-01"^^xsd:date ;
+    dcterms:modified "2026-06-01"^^xsd:date ;
     dcterms:provenance "Términos de Inspire ampliada por el IGME" ;
     dcterms:publisher <https://www.igme.es/> ;
     dcterms:title "Collection type"@en,
         "Tipo de colección"@es ;
     owl:versionInfo "1.0.0" ;
-    skos:definition "Terms referring to stratigraphic rank."@en,
-        "Términos referidos a rango estratigráfico."@es ;
+    skos:definition "Types of collections of geological and geophysical objects, as well as collections of objects of other nature."@en,
+        "Tipos de colecciones de objetos geológicos y geofísicos, asi como colecciones de objetos de otra naturaleza."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Tipo de colección."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-datos-geofisicos>,
         <https://geo-carto.github.io/vocabularios/coleccion-tipo/coleccion-de-sondeos>,
