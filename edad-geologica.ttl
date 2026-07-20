@@ -606,7 +606,7 @@
     skos:definition "Older bound 113 Ma, younger bound 110.2 Ma"@en,
         "Límite inferior 113 Ma, límite superior 110.2 Ma"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212030106100.0" ;
+    skos:notation "212030106100" ;
     skos:prefLabel "Lower Albian"@en,
         "Albiense Inferior"@es ;
     adms:status "Válido" .
@@ -620,7 +620,7 @@
     skos:definition "Older bound 110.2 Ma, younger bound 104 Ma"@en,
         "Límite inferior 110.2 Ma, límite superior 104 Ma"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212030106200.0" ;
+    skos:notation "212030106200" ;
     skos:prefLabel "Middle Albian"@en,
         "Albiense Medio"@es ;
     adms:status "Válido" .
@@ -635,7 +635,7 @@
     skos:definition "Older bound 104 Ma, younger bound 100.5 Ma"@en,
         "Límite inferior 104 Ma, límite superior 100.5 Ma"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212030106300.0" ;
+    skos:notation "212030106300" ;
     skos:prefLabel "Upper Albian"@en,
         "Albiense Superior"@es ;
     adms:status "Válido" .
@@ -650,7 +650,7 @@
     skos:definition "Older bound 125 Ma, younger bound 119.4 Ma"@en,
         "Límite inferior 125 Ma, límite superior 119.4 Ma"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212030105100.0" ;
+    skos:notation "212030105100" ;
     skos:prefLabel "Lower Aptian"@en,
         "Aptiense Inferior"@es ;
     adms:status "Válido" .
@@ -665,7 +665,7 @@
     skos:definition "Older bound 119.4 Ma, younger bound 113 Ma"@en,
         "Límite inferior 119.4 Ma, límite superior 113 Ma"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212030105200.0" ;
+    skos:notation "212030105200" ;
     skos:prefLabel "Upper Aptian"@en,
         "Aptiense Superior"@es ;
     adms:status "Válido" .
@@ -676,7 +676,7 @@
     skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica-igme/regional> ;
     skos:definition "Ageniense"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010000091.0" ;
+    skos:notation "213010000091" ;
     skos:prefLabel "Agenian"@en,
         "Ageniense"@es ;
     skos:related <https://geo-carto.github.io/vocabularios/edad-geologica-igme/aquitaniense>,
@@ -696,7 +696,7 @@
     skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica-igme/regional> ;
     skos:definition "Aragoniense"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213020112091.0" ;
+    skos:notation "213020112091" ;
     skos:prefLabel "Aragonian"@en,
         "Aragoniense"@es ;
     skos:related <https://geo-carto.github.io/vocabularios/edad-geologica-igme/burdigaliense>,
@@ -713,7 +713,7 @@
     skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica-igme/regional> ;
     skos:definition "Arverniense"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010301092.0" ;
+    skos:notation "213010301092" ;
     skos:prefLabel "Arvernian"@en,
         "Arverniense"@es ;
     skos:related <https://geo-carto.github.io/vocabularios/edad-geologica-igme/chattiense>,
@@ -730,7 +730,7 @@
     skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica-igme/regional> ;
     skos:definition "Cuisiense"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010203092.0" ;
+    skos:notation "213010203092" ;
     skos:prefLabel "Cuisian"@en,
         "Cuisiense"@es ;
     skos:related <https://geo-carto.github.io/vocabularios/edad-geologica-igme/ypresiense> ;
@@ -747,7 +747,7 @@
         "Límite inferior 0.0117 Ma, límite superior 0.0082 Ma"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Greenlandian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213030201000.0",
+    skos:notation "213030201000",
         "a1.1.1.1.1.3" ;
     skos:prefLabel "Greenlandian"@en,
         "Groenlandiense"@es ;
@@ -760,7 +760,7 @@
     skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica-igme/regional> ;
     skos:definition "Ilerdiense"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010203091.0" ;
+    skos:notation "213010203091" ;
     skos:prefLabel "Ilerdian"@en,
         "Ilerdiense"@es ;
     skos:related <https://geo-carto.github.io/vocabularios/edad-geologica-igme/ypresiense> ;
@@ -777,7 +777,7 @@
         "Límite inferior 0.0042 Ma, límite superior 0.0 Ma"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Meghalayan> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213030203000.0",
+    skos:notation "213030203000",
         "a1.1.1.1.1.1" ;
     skos:prefLabel "Meghalayan"@en,
         "Megalayense"@es ;
@@ -790,7 +790,7 @@
     skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica-igme/regional> ;
     skos:definition "Neustriense"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010203093.0" ;
+    skos:notation "213010203093" ;
     skos:prefLabel "Neustrian"@en,
         "Neustriense"@es ;
     skos:related <https://geo-carto.github.io/vocabularios/edad-geologica-igme/luteciense>,
@@ -810,7 +810,7 @@
         "Límite inferior 0.0082 Ma, límite superior 0.0042 Ma"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Northgrippian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213030202000.0",
+    skos:notation "213030202000",
         "a1.1.1.1.1.2" ;
     skos:prefLabel "Northgrippian"@en,
         "Norgripiense"@es ;
@@ -828,7 +828,7 @@
     skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/LowerPennsylvanian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/bashkiriense> ;
-    skos:notation "211052100000.0",
+    skos:notation "211052100000",
         "x1.1.3.2.1.3" ;
     skos:prefLabel "Lower Pennsylvanian"@en,
         "Pennsylvaniense Inferior"@es ;
@@ -844,7 +844,7 @@
     skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/MiddlePennsylvanian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/moscoviense> ;
-    skos:notation "211052200000.0",
+    skos:notation "211052200000",
         "x1.1.3.2.1.2" ;
     skos:prefLabel "Middle Pennsylvanian"@en,
         "Pennsylvaniense Medio"@es ;
@@ -864,7 +864,7 @@
         "Límite inferior 0.774 Ma, límite superior 0.129 Ma"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/MiddlePleistocene> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213030120000.0",
+    skos:notation "213030120000",
         "a1.1.1.1.2.2" ;
     skos:prefLabel "Middle Pleistocene"@en,
         "Pleistoceno Medio"@es ;
@@ -881,7 +881,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperPleistocene>,
         <http://resource.geosciml.org/classifier/ics/ischart/UpperPleistocene> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213030130000.0",
+    skos:notation "213030130000",
         "a1.1.1.1.2.1" ;
     skos:prefLabel "Upper Pleistocene"@en,
         "Pleistoceno Superior"@es ;
@@ -899,7 +899,7 @@
     skos:narrowMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/zanclean>,
         <http://resource.geosciml.org/classifier/ics/ischart/Zanclean> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/zancliense> ;
-    skos:notation "213020210000.0" ;
+    skos:notation "213020210000" ;
     skos:prefLabel "Lower Pliocene"@en,
         "Plioceno Inferior"@es ;
     adms:status "Válido" .
@@ -916,7 +916,7 @@
     skos:narrowMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/piacenzian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Piacenzian> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/piacenziense> ;
-    skos:notation "213020220000.0" ;
+    skos:notation "213020220000" ;
     skos:prefLabel "Upper Pliocene"@en,
         "Plioceno Superior"@es ;
     adms:status "Válido" .
@@ -927,7 +927,7 @@
     skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica-igme/regional> ;
     skos:definition "Rambliense"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213020109300.0" ;
+    skos:notation "213020109300" ;
     skos:prefLabel "Ramblian"@en,
         "Rambliense"@es ;
     skos:related <https://geo-carto.github.io/vocabularios/edad-geologica-igme/aquitaniense>,
@@ -944,7 +944,7 @@
     skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica-igme/regional> ;
     skos:definition "Rhenaniense"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213020109400.0" ;
+    skos:notation "213020109400" ;
     skos:prefLabel "Rhenanian"@en,
         "Rhenaniense"@es ;
     skos:related <https://geo-carto.github.io/vocabularios/edad-geologica-igme/bartoniense>,
@@ -965,7 +965,7 @@
     skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica-igme/regional> ;
     skos:definition "Rusciniense"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213020200091.0" ;
+    skos:notation "213020200091" ;
     skos:prefLabel "Ruscinian"@en,
         "Rusciniense"@es ;
     skos:related <https://geo-carto.github.io/vocabularios/edad-geologica-igme/zancliense> ;
@@ -979,7 +979,7 @@
     skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica-igme/regional> ;
     skos:definition "Sueviense"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010301091.0" ;
+    skos:notation "213010301091" ;
     skos:prefLabel "Suevian"@en,
         "Sueviense"@es ;
     skos:related <https://geo-carto.github.io/vocabularios/edad-geologica-igme/chattiense>,
@@ -994,7 +994,7 @@
     skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica-igme/regional> ;
     skos:definition "Turoliense"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213020105092.0" ;
+    skos:notation "213020105092" ;
     skos:prefLabel "Turolian"@en,
         "Turoliense"@es ;
     skos:related <https://geo-carto.github.io/vocabularios/edad-geologica-igme/messiniense>,
@@ -1011,7 +1011,7 @@
     skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica-igme/regional> ;
     skos:definition "Vallesiense"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213020105091.0" ;
+    skos:notation "213020105091" ;
     skos:prefLabel "Vallesian"@en,
         "Vallesiense"@es ;
     skos:related <https://geo-carto.github.io/vocabularios/edad-geologica-igme/tortoniense> ;
@@ -1025,7 +1025,7 @@
     skos:broader <https://geo-carto.github.io/vocabularios/edad-geologica-igme/regional> ;
     skos:definition "Villafranquiense"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213020200092.0" ;
+    skos:notation "213020200092" ;
     skos:prefLabel "Villafranchian"@en,
         "Villafranquiense"@es ;
     skos:related <https://geo-carto.github.io/vocabularios/edad-geologica-igme/calabriense>,
@@ -1048,7 +1048,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aalenian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Aalenian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212020201000.0",
+    skos:notation "212020201000",
         "a1.1.2.2.2.4" ;
     skos:prefLabel "Aalenian"@en,
         "Aaleniense"@es ;
@@ -1064,7 +1064,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aeronian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Aeronian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211030102000.0",
+    skos:notation "211030102000",
         "a1.1.3.4.4.2" ;
     skos:prefLabel "Aeronian"@en,
         "Aeroniense"@es ;
@@ -1080,7 +1080,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/anisian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Anisian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212010201000.0",
+    skos:notation "212010201000",
         "a1.1.2.3.2.2" ;
     skos:prefLabel "Anisian"@en,
         "Anisiense"@es ;
@@ -1096,7 +1096,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/artinskian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Artinskian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211060103000.0",
+    skos:notation "211060103000",
         "a1.1.3.1.3.2" ;
     skos:prefLabel "Artinskian"@en,
         "Artinskiense"@es ;
@@ -1112,7 +1112,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/asselian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Asselian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211060101000.0",
+    skos:notation "211060101000",
         "a1.1.3.1.3.4" ;
     skos:prefLabel "Asselian"@en,
         "Asseliense"@es ;
@@ -1128,7 +1128,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bajocian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Bajocian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212020202000.0",
+    skos:notation "212020202000",
         "a1.1.2.2.2.3" ;
     skos:prefLabel "Bajocian"@en,
         "Bajociense"@es ;
@@ -1144,7 +1144,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/barremian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Barremian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212030104000.0",
+    skos:notation "212030104000",
         "a1.1.2.1.2.3" ;
     skos:prefLabel "Barremian"@en,
         "Barremiense"@es ;
@@ -1161,7 +1161,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bashkirian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Bashkirian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211052101000.0",
+    skos:notation "211052101000",
         "a1.1.3.2.1.3" ;
     skos:prefLabel "Bashkirian"@en,
         "Bashkiriense"@es ;
@@ -1177,7 +1177,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bathonian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Bathonian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212020203000.0",
+    skos:notation "212020203000",
         "a1.1.2.2.2.2" ;
     skos:prefLabel "Bathonian"@en,
         "Bathoniense"@es ;
@@ -1193,7 +1193,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/berriasian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Berriasian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212030101000.0",
+    skos:notation "212030101000",
         "a1.1.2.1.2.6" ;
     skos:prefLabel "Berriasian"@en,
         "Berriasiense"@es ;
@@ -1209,7 +1209,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/calymmian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Calymmian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "132010000000.0",
+    skos:notation "132010000000",
         "a2.1.2.3" ;
     skos:prefLabel "Calymmian"@en,
         "Calímico"@es ;
@@ -1225,7 +1225,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/callovian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Callovian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212020204000.0",
+    skos:notation "212020204000",
         "a1.1.2.2.2.1" ;
     skos:prefLabel "Callovian"@en,
         "Calloviense"@es ;
@@ -1241,7 +1241,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrianStage10>,
         <http://resource.geosciml.org/classifier/ics/ischart/CambrianStage10> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211010403000.0",
+    skos:notation "211010403000",
         "a1.1.3.6.1.1" ;
     skos:prefLabel "Cambrian-Stage 10"@en,
         "Cámbrico-Piso 10"@es ;
@@ -1257,7 +1257,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrianStage2>,
         <http://resource.geosciml.org/classifier/ics/ischart/CambrianStage2> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211010102000.0",
+    skos:notation "211010102000",
         "a1.1.3.6.4.1" ;
     skos:prefLabel "Cambrian-Stage 2"@en,
         "Cámbrico-Piso 2"@es ;
@@ -1273,7 +1273,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrianStage3>,
         <http://resource.geosciml.org/classifier/ics/ischart/CambrianStage3> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211010201000.0",
+    skos:notation "211010201000",
         "a1.1.3.6.3.2" ;
     skos:prefLabel "Cambrian-Stage 3"@en,
         "Cámbrico-Piso 3"@es ;
@@ -1289,7 +1289,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrianStage4>,
         <http://resource.geosciml.org/classifier/ics/ischart/CambrianStage4> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211010202000.0",
+    skos:notation "211010202000",
         "a1.1.3.6.3.1" ;
     skos:prefLabel "Cambrian-Stage 4"@en,
         "Cámbrico-Piso 4"@es ;
@@ -1305,7 +1305,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/campanian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Campanian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212030205000.0",
+    skos:notation "212030205000",
         "a1.1.2.1.1.2" ;
     skos:prefLabel "Campanian"@en,
         "Campaniense"@es ;
@@ -1321,7 +1321,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/capitanian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Capitanian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211060203000.0",
+    skos:notation "211060203000",
         "a1.1.3.1.2.1" ;
     skos:prefLabel "Capitanian"@en,
         "Capitaniense"@es ;
@@ -1337,7 +1337,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/carnian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Carnian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212010301000.0",
+    skos:notation "212010301000",
         "a1.1.2.3.1.3" ;
     skos:prefLabel "Carnian"@en,
         "Carniense"@es ;
@@ -1353,7 +1353,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cenomanian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Cenomanian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212030201000.0",
+    skos:notation "212030201000",
         "a1.1.2.1.1.6" ;
     skos:prefLabel "Cenomanian"@en,
         "Cenomaniense"@es ;
@@ -1369,7 +1369,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/changhsingian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Changhsingian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211060302000.0",
+    skos:notation "211060302000",
         "a1.1.3.1.1.1" ;
     skos:prefLabel "Changhsingian"@en,
         "Changhsingiense"@es ;
@@ -1387,7 +1387,7 @@
         "Límite inferior 0.774 Ma, límite superior 0.129 Ma"@es ;
     skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/Chibanian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213030121000.0",
+    skos:notation "213030121000",
         "a1.1.1.1.2.2" ;
     skos:prefLabel "Chibanian"@en,
         "Chibaniense"@es ;
@@ -1403,7 +1403,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/coniacian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Coniacian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212030203000.0",
+    skos:notation "212030203000",
         "a1.1.2.1.1.4" ;
     skos:prefLabel "Coniacian"@en,
         "Coniaciense"@es ;
@@ -1420,7 +1420,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cryogenian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Cryogenian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "133020000000.0",
+    skos:notation "133020000000",
         "a2.1.1.2" ;
     skos:prefLabel "Cryogenian"@en,
         "Criogénico"@es ;
@@ -1436,7 +1436,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/danian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Danian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010101000.0",
+    skos:notation "213010101000",
         "a1.1.1.3.3.3" ;
     skos:prefLabel "Danian"@en,
         "Daniense"@es ;
@@ -1452,7 +1452,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/dapingian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Dapingian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211020201000.0",
+    skos:notation "211020201000",
         "a1.1.3.5.2.2" ;
     skos:prefLabel "Dapingian"@en,
         "Dapingiense"@es ;
@@ -1468,7 +1468,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/darriwilian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Darriwilian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211020202000.0",
+    skos:notation "211020202000",
         "a1.1.3.5.2.1" ;
     skos:prefLabel "Darriwilian"@en,
         "Darriwiliense"@es ;
@@ -1484,7 +1484,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/drumian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Drumian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211010302000.0",
+    skos:notation "211010302000",
         "a1.1.3.6.2.2" ;
     skos:prefLabel "Drumian"@en,
         "Drumiense"@es ;
@@ -1500,7 +1500,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ectasian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Ectasian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "132020000000.0",
+    skos:notation "132020000000",
         "a2.1.2.2" ;
     skos:prefLabel "Ectasian"@en,
         "Ectásico"@es ;
@@ -1517,7 +1517,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ediacaran>,
         <http://resource.geosciml.org/classifier/ics/ischart/Ediacaran> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "133030000000.0",
+    skos:notation "133030000000",
         "a2.1.1.1" ;
     skos:prefLabel "Ediacaran"@en,
         "Ediacárico"@es ;
@@ -1533,7 +1533,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/eifelian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Eifelian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211040201000.0",
+    skos:notation "211040201000",
         "a1.1.3.3.2.2" ;
     skos:prefLabel "Eifelian"@en,
         "Eifeliense"@es ;
@@ -1549,7 +1549,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/emsian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Emsian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211040103000.0",
+    skos:notation "211040103000",
         "a1.1.3.3.3.1" ;
     skos:prefLabel "Emsian"@en,
         "Emsiense"@es ;
@@ -1565,7 +1565,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/eoarchean>,
         <http://resource.geosciml.org/classifier/ics/ischart/Eoarchean> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "121000000000.0",
+    skos:notation "121000000000",
         "a2.2.4" ;
     skos:prefLabel "Eoarchean"@en,
         "Eoarcaico"@es ;
@@ -1586,7 +1586,7 @@
         <http://resource.geosciml.org/classifier/ics/ischart/Lutetian> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/bartoniense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/luteciense> ;
-    skos:notation "213010220000.0" ;
+    skos:notation "213010220000" ;
     skos:prefLabel "Middle Eocene"@en,
         "Eoceno Medio"@es ;
     adms:status "Válido" .
@@ -1600,7 +1600,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/statherian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Statherian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "131040000000.0",
+    skos:notation "131040000000",
         "a2.1.3.1" ;
     skos:prefLabel "Statherian"@en,
         "Estatérico"@es ;
@@ -1616,7 +1616,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/stenian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Stenian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "132030000000.0",
+    skos:notation "132030000000",
         "a2.1.2.1" ;
     skos:prefLabel "Stenian"@en,
         "Esténico"@es ;
@@ -1632,7 +1632,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/famennian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Famennian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211040302000.0",
+    skos:notation "211040302000",
         "a1.1.3.3.1.1" ;
     skos:prefLabel "Famennian"@en,
         "Fameniense"@es ;
@@ -1648,7 +1648,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/floian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Floian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211020102000.0",
+    skos:notation "211020102000",
         "a1.1.3.5.3.1" ;
     skos:prefLabel "Floian"@en,
         "Floiense"@es ;
@@ -1664,7 +1664,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/fortunian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Fortunian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211010101000.0",
+    skos:notation "211010101000",
         "a1.1.3.6.4.2" ;
     skos:prefLabel "Fortunian"@en,
         "Fortuniense"@es ;
@@ -1680,7 +1680,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/frasnian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Frasnian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211040301000.0",
+    skos:notation "211040301000",
         "a1.1.3.3.1.2" ;
     skos:prefLabel "Frasnian"@en,
         "Frasniense"@es ;
@@ -1696,7 +1696,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/givetian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Givetian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211040202000.0",
+    skos:notation "211040202000",
         "a1.1.3.3.2.1" ;
     skos:prefLabel "Givetian"@en,
         "Givetiense"@es ;
@@ -1712,7 +1712,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/gorstian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Gorstian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211030301000.0",
+    skos:notation "211030301000",
         "a1.1.3.4.2.2" ;
     skos:prefLabel "Gorstian"@en,
         "Gorstiense"@es ;
@@ -1728,7 +1728,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/guzhangian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Guzhangian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211010303000.0",
+    skos:notation "211010303000",
         "a1.1.3.6.2.1" ;
     skos:prefLabel "Guzhangian"@en,
         "Guzhangiense"@es ;
@@ -1745,7 +1745,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/gzhelian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Gzhelian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211052302000.0",
+    skos:notation "211052302000",
         "a1.1.3.2.1.1.1" ;
     skos:prefLabel "Gzhelian"@en,
         "Gzheliense"@es ;
@@ -1762,7 +1762,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/hadean>,
         <http://resource.geosciml.org/classifier/ics/ischart/Hadean> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "110000000000.0",
+    skos:notation "110000000000",
         "a2.3" ;
     skos:prefLabel "Hadean"@en,
         "Hádico"@es ;
@@ -1778,7 +1778,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/hauterivian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Hauterivian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212030103000.0",
+    skos:notation "212030103000",
         "a1.1.2.1.2.4" ;
     skos:prefLabel "Hauterivian"@en,
         "Hauteriviense"@es ;
@@ -1793,7 +1793,7 @@
     skos:definition "Older bound 37.2 Ma, younger bound 33.9 Ma"@en,
         "Límite inferior 37.2 Ma, límite superior 33.9 Ma"@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010207091.0" ;
+    skos:notation "213010207091" ;
     skos:prefLabel "Headonian"@en,
         "Headoniense"@es ;
     skos:related <https://geo-carto.github.io/vocabularios/edad-geologica-igme/bartoniense>,
@@ -1811,7 +1811,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/hettangian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Hettangian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212020101000.0",
+    skos:notation "212020101000",
         "a1.1.2.2.3.4" ;
     skos:prefLabel "Hettangian"@en,
         "Hettangiense"@es ;
@@ -1827,7 +1827,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/hirnantian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Hirnantian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211020303000.0",
+    skos:notation "211020303000",
         "a1.1.3.5.1.1" ;
     skos:prefLabel "Hirnantian"@en,
         "Hirnantiense"@es ;
@@ -1843,7 +1843,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/homerian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Homerian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211030202000.0",
+    skos:notation "211030202000",
         "a1.1.3.4.3.1" ;
     skos:prefLabel "Homerian"@en,
         "Homeriense"@es ;
@@ -1859,7 +1859,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/induan>,
         <http://resource.geosciml.org/classifier/ics/ischart/Induan> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212010101000.0",
+    skos:notation "212010101000",
         "a1.1.2.3.3.2" ;
     skos:prefLabel "Induan"@en,
         "Induense"@es ;
@@ -1875,7 +1875,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrianStage9>,
         <http://resource.geosciml.org/classifier/ics/ischart/Jiangshanian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211010402000.0",
+    skos:notation "211010402000",
         "a1.1.3.6.1.2" ;
     skos:prefLabel "Jiangshanian"@en,
         "Jiangshaniense"@es ;
@@ -1891,7 +1891,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/katian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Katian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211020302000.0",
+    skos:notation "211020302000",
         "a1.1.3.5.1.2" ;
     skos:prefLabel "Katian"@en,
         "Kaiense"@es ;
@@ -1907,7 +1907,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/kasimovian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Kasimovian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211052301000.0",
+    skos:notation "211052301000",
         "a1.1.3.2.1.1.2" ;
     skos:prefLabel "Kasimovian"@en,
         "Kasimoviense"@es ;
@@ -1923,7 +1923,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/kimmeridgian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Kimmeridgian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212020302000.0",
+    skos:notation "212020302000",
         "a1.1.2.2.1.2" ;
     skos:prefLabel "Kimmeridgian"@en,
         "Kimmeridgiense"@es ;
@@ -1939,7 +1939,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/kungurian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Kungurian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211060104000.0",
+    skos:notation "211060104000",
         "a1.1.3.1.3.1" ;
     skos:prefLabel "Kungurian"@en,
         "Kunguriense"@es ;
@@ -1955,7 +1955,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ladinian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Ladinian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212010202000.0",
+    skos:notation "212010202000",
         "a1.1.2.3.2.1" ;
     skos:prefLabel "Ladinian"@en,
         "Ladiniense"@es ;
@@ -1971,7 +1971,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/langhian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Langhian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213020103000.0",
+    skos:notation "213020103000",
         "a1.1.1.2.2.4" ;
     skos:prefLabel "Langhian"@en,
         "Langhiense"@es ;
@@ -1987,7 +1987,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lochkovian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Lochkovian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211040101000.0",
+    skos:notation "211040101000",
         "a1.1.3.3.3.3" ;
     skos:prefLabel "Lochkovian"@en,
         "Lochkoviense"@es ;
@@ -2003,7 +2003,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ludfordian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Ludfordian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211030302000.0",
+    skos:notation "211030302000",
         "a1.1.3.4.2.1" ;
     skos:prefLabel "Ludfordian"@en,
         "Ludfordiense"@es ;
@@ -2019,7 +2019,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/maastrichtian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Maastrichtian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212030206000.0",
+    skos:notation "212030206000",
         "a1.1.2.1.1.1" ;
     skos:prefLabel "Maastrichtian"@en,
         "Maastrichtiense"@es ;
@@ -2047,7 +2047,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/mesoarchean>,
         <http://resource.geosciml.org/classifier/ics/ischart/Mesoarchean> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "123000000000.0",
+    skos:notation "123000000000",
         "a2.2.2" ;
     skos:prefLabel "Mesoarchean"@en,
         "Mesoarcaico"@es ;
@@ -2069,7 +2069,7 @@
         <http://resource.geosciml.org/classifier/ics/ischart/Burdigalian> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/aquitaniense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/burdigaliense> ;
-    skos:notation "213020110000.0" ;
+    skos:notation "213020110000" ;
     skos:prefLabel "Lower Miocene"@en,
         "Mioceno Inferior"@es ;
     adms:status "Válido" .
@@ -2086,7 +2086,7 @@
     skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/LowerMississippian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/tournaisiense> ;
-    skos:notation "211051100000.0",
+    skos:notation "211051100000",
         "x1.1.3.2.2.3" ;
     skos:prefLabel "Lower Mississippian"@en,
         "Mississippiense Inferior"@es ;
@@ -2103,7 +2103,7 @@
     skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/MiddleMississippian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/viseense> ;
-    skos:notation "211051200000.0",
+    skos:notation "211051200000",
         "x1.1.3.2.2.2" ;
     skos:prefLabel "Middle Mississippian"@en,
         "Mississippiense Medio"@es ;
@@ -2122,7 +2122,7 @@
     skos:exactMatch <http://resource.geosciml.org/classifier/ics/ischart/UpperMississippian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/serpukhoviense> ;
-    skos:notation "211051300000.0",
+    skos:notation "211051300000",
         "x1.1.3.2.2.1" ;
     skos:prefLabel "Upper Mississippian"@en,
         "Mississippiense Superior"@es ;
@@ -2138,7 +2138,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/moscovian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Moscovian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211052201000.0",
+    skos:notation "211052201000",
         "a1.1.3.2.1.2" ;
     skos:prefLabel "Moscovian"@en,
         "Moscoviense"@es ;
@@ -2154,7 +2154,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/neoarchean>,
         <http://resource.geosciml.org/classifier/ics/ischart/Neoarchean> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "124000000000.0",
+    skos:notation "124000000000",
         "a2.2.1" ;
     skos:prefLabel "Neoarchean"@en,
         "Neoarcaico"@es ;
@@ -2170,7 +2170,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/norian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Norian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212010302000.0",
+    skos:notation "212010302000",
         "a1.1.2.3.1.2" ;
     skos:prefLabel "Norian"@en,
         "Noriense"@es ;
@@ -2186,7 +2186,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/olenekian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Olenekian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212010102000.0",
+    skos:notation "212010102000",
         "a1.1.2.3.3.1" ;
     skos:prefLabel "Olenekian"@en,
         "Olenekiense"@es ;
@@ -2202,7 +2202,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/orosirian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Orosirian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "131030000000.0",
+    skos:notation "131030000000",
         "a2.1.3.2" ;
     skos:prefLabel "Orosirian"@en,
         "Orosírico"@es ;
@@ -2218,7 +2218,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/oxfordian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Oxfordian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212020301000.0",
+    skos:notation "212020301000",
         "a1.1.2.2.1.3" ;
     skos:prefLabel "Oxfordian"@en,
         "Oxfordiense"@es ;
@@ -2234,7 +2234,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/paibian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Paibian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211010401000.0",
+    skos:notation "211010401000",
         "a1.1.3.6.1.3" ;
     skos:prefLabel "Paibian"@en,
         "Paibiense"@es ;
@@ -2250,7 +2250,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/paleoarchean>,
         <http://resource.geosciml.org/classifier/ics/ischart/Paleoarchean> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "122000000000.0",
+    skos:notation "122000000000",
         "a2.2.3" ;
     skos:prefLabel "Paleoarchean"@en,
         "Paleoarcaico"@es ;
@@ -2272,7 +2272,7 @@
         <http://resource.geosciml.org/classifier/ics/ischart/Gelasian> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/calabriense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/gelasiense> ;
-    skos:notation "213030110000.0" ;
+    skos:notation "213030110000" ;
     skos:prefLabel "Lower Pleistocene"@en,
         "Pleistoceno Inferior"@es ;
     adms:status "Válido" .
@@ -2286,7 +2286,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pliensbachian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Pliensbachian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212020103000.0",
+    skos:notation "212020103000",
         "a1.1.2.2.3.2" ;
     skos:prefLabel "Pliensbachian"@en,
         "Pliensbachiense"@es ;
@@ -2302,7 +2302,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pragian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Pragian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211040102000.0",
+    skos:notation "211040102000",
         "a1.1.3.3.3.2" ;
     skos:prefLabel "Pragian"@en,
         "Pragiense"@es ;
@@ -2318,7 +2318,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pridoli>,
         <http://resource.geosciml.org/classifier/ics/ischart/Pridoli> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211030400000.0",
+    skos:notation "211030400000",
         "a1.1.3.4.1" ;
     skos:prefLabel "Pridoli"@en,
         "Prídoli"@es ;
@@ -2334,7 +2334,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/rhaetian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Rhaetian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212010303000.0",
+    skos:notation "212010303000",
         "a1.1.2.3.1.1" ;
     skos:prefLabel "Rhaetian"@en,
         "Rhaetiense"@es ;
@@ -2350,7 +2350,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/rhuddanian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Rhuddanian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211030101000.0",
+    skos:notation "211030101000",
         "a1.1.3.4.4.3" ;
     skos:prefLabel "Rhuddanian"@en,
         "Rhuddaniense"@es ;
@@ -2366,7 +2366,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/rhyacian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Rhyacian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "131020000000.0",
+    skos:notation "131020000000",
         "a2.1.3.3" ;
     skos:prefLabel "Rhyacian"@en,
         "Riácico"@es ;
@@ -2382,7 +2382,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/roadian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Roadian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211060201000.0",
+    skos:notation "211060201000",
         "a1.1.3.1.2.3" ;
     skos:prefLabel "Roadian"@en,
         "Roadiense"@es ;
@@ -2398,7 +2398,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/sakmarian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Sakmarian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211060102000.0",
+    skos:notation "211060102000",
         "a1.1.3.1.3.3" ;
     skos:prefLabel "Sakmarian"@en,
         "Sakmariense"@es ;
@@ -2414,7 +2414,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/sandbian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Sandbian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211020301000.0",
+    skos:notation "211020301000",
         "a1.1.3.5.1.3" ;
     skos:prefLabel "Sandbian"@en,
         "Sandbiense"@es ;
@@ -2430,7 +2430,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/santonian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Santonian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212030204000.0",
+    skos:notation "212030204000",
         "a1.1.2.1.1.3" ;
     skos:prefLabel "Santonian"@en,
         "Santoniense"@es ;
@@ -2446,7 +2446,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/selandian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Selandian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010102000.0",
+    skos:notation "213010102000",
         "a1.1.1.3.3.2" ;
     skos:prefLabel "Selandian"@en,
         "Selandiense"@es ;
@@ -2462,7 +2462,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/serpukhovian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Serpukhovian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211051301000.0",
+    skos:notation "211051301000",
         "a1.1.3.2.2.1" ;
     skos:prefLabel "Serpukhovian"@en,
         "Serpukhoviense"@es ;
@@ -2478,7 +2478,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/serravallian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Serravallian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213020104000.0",
+    skos:notation "213020104000",
         "a1.1.1.2.2.3" ;
     skos:prefLabel "Serravallian"@en,
         "Serravalliense"@es ;
@@ -2494,7 +2494,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/sheinwoodian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Sheinwoodian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211030201000.0",
+    skos:notation "211030201000",
         "a1.1.3.4.3.2" ;
     skos:prefLabel "Sheinwoodian"@en,
         "Sheinwoodiense"@es ;
@@ -2510,7 +2510,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/siderian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Siderian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "131010000000.0",
+    skos:notation "131010000000",
         "a2.1.3.4" ;
     skos:prefLabel "Siderian"@en,
         "Sidérico"@es ;
@@ -2526,7 +2526,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/sinemurian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Sinemurian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212020102000.0",
+    skos:notation "212020102000",
         "a1.1.2.2.3.3" ;
     skos:prefLabel "Sinemurian"@en,
         "Sinemuriense"@es ;
@@ -2542,7 +2542,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/telychian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Telychian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211030103000.0",
+    skos:notation "211030103000",
         "a1.1.3.4.4.1" ;
     skos:prefLabel "Telychian"@en,
         "Telychiense"@es ;
@@ -2558,7 +2558,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/thanetian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Thanetian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010103000.0",
+    skos:notation "213010103000",
         "a1.1.1.3.3.1" ;
     skos:prefLabel "Thanetian"@en,
         "Thanetiense"@es ;
@@ -2574,7 +2574,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tithonian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Tithonian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212020303000.0",
+    skos:notation "212020303000",
         "a1.1.2.2.1.1" ;
     skos:prefLabel "Tithonian"@en,
         "Titoniense"@es ;
@@ -2590,7 +2590,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/toarcian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Toarcian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212020104000.0",
+    skos:notation "212020104000",
         "a1.1.2.2.3.1" ;
     skos:prefLabel "Toarcian"@en,
         "Toarciense"@es ;
@@ -2606,7 +2606,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tonian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Tonian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "133010000000.0",
+    skos:notation "133010000000",
         "a2.1.1.3" ;
     skos:prefLabel "Tonian"@en,
         "Tónico"@es ;
@@ -2623,7 +2623,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tournaisian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Tournaisian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211051101000.0",
+    skos:notation "211051101000",
         "a1.1.3.2.2.3" ;
     skos:prefLabel "Tournaisian"@en,
         "Tournaisiense"@es ;
@@ -2639,7 +2639,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tremadocian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Tremadocian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211020101000.0",
+    skos:notation "211020101000",
         "a1.1.3.5.3.2" ;
     skos:prefLabel "Tremadocian"@en,
         "Tremadociense"@es ;
@@ -2655,7 +2655,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/turonian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Turonian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212030202000.0",
+    skos:notation "212030202000",
         "a1.1.2.1.1.5" ;
     skos:prefLabel "Turonian"@en,
         "Turoniense"@es ;
@@ -2671,7 +2671,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/valanginian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Valanginian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "212030102000.0",
+    skos:notation "212030102000",
         "a1.1.2.1.2.5" ;
     skos:prefLabel "Valanginian"@en,
         "Valanginiense"@es ;
@@ -2687,7 +2687,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/visean>,
         <http://resource.geosciml.org/classifier/ics/ischart/Visean> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211051201000.0",
+    skos:notation "211051201000",
         "a1.1.3.2.2.2" ;
     skos:prefLabel "Visean"@en,
         "Viseense"@es ;
@@ -2703,7 +2703,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/wordian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Wordian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211060202000.0",
+    skos:notation "211060202000",
         "a1.1.3.1.2.2" ;
     skos:prefLabel "Wordian"@en,
         "Wordiense"@es ;
@@ -2719,7 +2719,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/wuchiapingian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Wuchiapingian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211060301000.0",
+    skos:notation "211060301000",
         "a1.1.3.1.1.2" ;
     skos:prefLabel "Wuchiapingian"@en,
         "Wuchiapingiense"@es ;
@@ -2736,7 +2736,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrianSeries3Stage5>,
         <http://resource.geosciml.org/classifier/ics/ischart/Wuliuan> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "211010301000.0",
+    skos:notation "211010301000",
         "a1.1.3.6.2.3" ;
     skos:prefLabel "Wuliuan"@en,
         "Wuliuense"@es ;
@@ -2752,7 +2752,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/calabrian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Calabrian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213030112000.0",
+    skos:notation "213030112000",
         "a1.1.1.1.2.3" ;
     skos:prefLabel "Calabrian"@en,
         "Calabriense"@es ;
@@ -2770,7 +2770,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/eifeliense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/givetiense> ;
-    skos:notation "211040200000.0",
+    skos:notation "211040200000",
         "a1.1.3.3.2" ;
     skos:prefLabel "Middle Devonian"@en,
         "Devónico Medio"@es ;
@@ -2789,7 +2789,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/fameniense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/frasniense> ;
-    skos:notation "211040300000.0",
+    skos:notation "211040300000",
         "a1.1.3.3.1" ;
     skos:prefLabel "Upper Devonian"@en,
         "Devónico Superior"@es ;
@@ -2804,7 +2804,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/gelasian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Gelasian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213030111000.0",
+    skos:notation "213030111000",
         "a1.1.1.1.2.4" ;
     skos:prefLabel "Gelasian"@en,
         "Gelasiense"@es ;
@@ -2820,7 +2820,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/messinian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Messinian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213020106000.0",
+    skos:notation "213020106000",
         "a1.1.1.2.2.1" ;
     skos:prefLabel "Messinian"@en,
         "Messiniense"@es ;
@@ -2839,7 +2839,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/floiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/tremadociense> ;
-    skos:notation "211020100000.0",
+    skos:notation "211020100000",
         "a1.1.3.5.3" ;
     skos:prefLabel "Lower Ordovician"@en,
         "Ordovícico Inferior"@es ;
@@ -2856,7 +2856,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/dapingiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/darriwiliense> ;
-    skos:notation "211020200000.0",
+    skos:notation "211020200000",
         "a1.1.3.5.2" ;
     skos:prefLabel "Middle Ordovician"@en,
         "Ordovícico Medio"@es ;
@@ -2876,7 +2876,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/gzheliense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/kasimoviense> ;
-    skos:notation "211052300000.0",
+    skos:notation "211052300000",
         "x1.1.3.2.1.1" ;
     skos:prefLabel "Upper Pennsylvanian"@en,
         "Pennsylvaniense Superior"@es ;
@@ -2891,7 +2891,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/piacenzian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Piacenzian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213020221000.0",
+    skos:notation "213020221000",
         "a1.1.1.2.1.1" ;
     skos:prefLabel "Piacenzian"@en,
         "Piacenziense"@es ;
@@ -2907,7 +2907,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/rupelian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Rupelian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010301000.0",
+    skos:notation "213010301000",
         "a1.1.1.3.1.2" ;
     skos:prefLabel "Rupelian"@en,
         "Rupeliense"@es ;
@@ -2926,7 +2926,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/induense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/olenekiense> ;
-    skos:notation "212010100000.0",
+    skos:notation "212010100000",
         "a1.1.2.3.3" ;
     skos:prefLabel "Lower Triassic"@en,
         "Triásico Inferior"@es ;
@@ -2943,7 +2943,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/anisiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/ladiniense> ;
-    skos:notation "212010200000.0",
+    skos:notation "212010200000",
         "a1.1.2.3.2" ;
     skos:prefLabel "Middle Triassic"@en,
         "Triásico Medio"@es ;
@@ -2959,7 +2959,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/zanclean>,
         <http://resource.geosciml.org/classifier/ics/ischart/Zanclean> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213020211000.0",
+    skos:notation "213020211000",
         "a1.1.1.2.1.2" ;
     skos:prefLabel "Zanclean"@en,
         "Zancliense"@es ;
@@ -2977,7 +2977,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/aptiense-inferior>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/aptiense-superior> ;
-    skos:notation "212030105000.0",
+    skos:notation "212030105000",
         "a1.1.2.1.2.2" ;
     skos:prefLabel "Aptian"@en,
         "Aptiense"@es ;
@@ -2993,7 +2993,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aquitanian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Aquitanian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213020111000.0",
+    skos:notation "213020111000",
         "a1.1.1.2.2.6" ;
     skos:prefLabel "Aquitanian"@en,
         "Aquitaniense"@es ;
@@ -3011,7 +3011,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/cambrico-piso-3>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/cambrico-piso-4> ;
-    skos:notation "211010200000.0",
+    skos:notation "211010200000",
         "a1.1.3.6.3" ;
     skos:prefLabel "Cambrian Series 2"@en,
         "Cámbrico Serie 2"@es ;
@@ -3029,7 +3029,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/mississippiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/pennsylvaniense> ;
-    skos:notation "211050000000.0",
+    skos:notation "211050000000",
         "a1.1.3.2" ;
     skos:prefLabel "Carboniferous"@en,
         "Carbonífero"@es ;
@@ -3047,7 +3047,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/cretacico-inferior>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/cretacico-superior> ;
-    skos:notation "212030000000.0",
+    skos:notation "212030000000",
         "a1.1.2.1" ;
     skos:prefLabel "Cretaceous"@en,
         "Cretácico"@es ;
@@ -3065,7 +3065,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/holoceno>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/pleistoceno> ;
-    skos:notation "213030000000.0",
+    skos:notation "213030000000",
         "a1.1.1.1" ;
     skos:prefLabel "Quaternary"@en,
         "Cuaternario"@es ;
@@ -3085,7 +3085,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/emsiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/lochkoviense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/pragiense> ;
-    skos:notation "211040100000.0",
+    skos:notation "211040100000",
         "a1.1.3.3.3" ;
     skos:prefLabel "Lower Devonian"@en,
         "Devónico Inferior"@es ;
@@ -3104,7 +3104,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/kimmeridgiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/oxfordiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/titoniense> ;
-    skos:notation "212020300000.0",
+    skos:notation "212020300000",
         "a1.1.2.2.1" ;
     skos:prefLabel "Upper Jurassic"@en,
         "Jurásico Superior"@es ;
@@ -3121,7 +3121,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/changhsingiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/wuchiapingiense> ;
-    skos:notation "211060300000.0",
+    skos:notation "211060300000",
         "a1.1.3.1.1" ;
     skos:prefLabel "Lopingian"@en,
         "Lopingiense"@es ;
@@ -3139,7 +3139,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/gorstiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/ludfordiense> ;
-    skos:notation "211030300000.0",
+    skos:notation "211030300000",
         "a1.1.3.4.2" ;
     skos:prefLabel "Ludlow"@en,
         "Ludlow"@es ;
@@ -3157,7 +3157,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/mioceno>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/plioceno> ;
-    skos:notation "213020000000.0",
+    skos:notation "213020000000",
         "a1.1.1.2" ;
     skos:prefLabel "Neogene"@en,
         "Neógeno"@es ;
@@ -3175,7 +3175,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/chattiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/rupeliense> ;
-    skos:notation "213010300000.0",
+    skos:notation "213010300000",
         "a1.1.1.3.1" ;
     skos:prefLabel "Oligocene"@en,
         "Oligoceno"@es ;
@@ -3195,7 +3195,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/hirnantiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/kaiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/sandbiense> ;
-    skos:notation "211020300000.0",
+    skos:notation "211020300000",
         "a1.1.3.5.1" ;
     skos:prefLabel "Upper Ordovician"@en,
         "Ordovícico Superior"@es ;
@@ -3212,7 +3212,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/plioceno-inferior>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/plioceno-superior> ;
-    skos:notation "213020200000.0",
+    skos:notation "213020200000",
         "a1.1.1.2.1" ;
     skos:prefLabel "Pliocene"@en,
         "Plioceno"@es ;
@@ -3229,7 +3229,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/priabonian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Priabonian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010207000.0",
+    skos:notation "213010207000",
         "a1.1.1.3.2.1" ;
     skos:prefLabel "Priabonian"@en,
         "Priaboniense"@es ;
@@ -3247,7 +3247,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/cambrico-piso-2>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/fortuniense> ;
-    skos:notation "211010100000.0",
+    skos:notation "211010100000",
         "a1.1.3.6.4" ;
     skos:prefLabel "Terreneuvian"@en,
         "Terreneuviense"@es ;
@@ -3267,7 +3267,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/carniense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/noriense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/rhaetiense> ;
-    skos:notation "212010300000.0",
+    skos:notation "212010300000",
         "a1.1.2.3.1" ;
     skos:prefLabel "Upper Triassic"@en,
         "Triásico Superior"@es ;
@@ -3284,7 +3284,7 @@
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/homeriense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/sheinwoodiense> ;
-    skos:notation "211030200000.0",
+    skos:notation "211030200000",
         "a1.1.3.4.3" ;
     skos:prefLabel "Wenlock"@en,
         "Wenlock"@es ;
@@ -3303,7 +3303,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/albiense-inferior>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/albiense-medio>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/albiense-superior> ;
-    skos:notation "212030106000.0",
+    skos:notation "212030106000",
         "a1.1.2.1.2.1" ;
     skos:prefLabel "Albian"@en,
         "Albiense"@es ;
@@ -3320,7 +3320,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bartonian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Bartonian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010222000.0",
+    skos:notation "213010222000",
         "a1.1.1.3.2.2" ;
     skos:prefLabel "Bartonian"@en,
         "Bartoniense"@es ;
@@ -3336,7 +3336,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/burdigalian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Burdigalian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213020112000.0",
+    skos:notation "213020112000",
         "a1.1.1.2.2.5" ;
     skos:prefLabel "Burdigalian"@en,
         "Burdigaliense"@es ;
@@ -3355,7 +3355,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/cuaternario>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/neogeno>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/paleogeno> ;
-    skos:notation "213000000000.0",
+    skos:notation "213000000000",
         "a1.1.1" ;
     skos:prefLabel "Cenozoic"@en,
         "Cenozoico"@es ;
@@ -3371,7 +3371,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/chattian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Chattian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010302000.0",
+    skos:notation "213010302000",
         "a1.1.1.3.1.1" ;
     skos:prefLabel "Chattian"@en,
         "Chattiense"@es ;
@@ -3390,7 +3390,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/devonico-inferior>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/devonico-medio>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/devonico-superior> ;
-    skos:notation "211040000000.0",
+    skos:notation "211040000000",
         "a1.1.3.3" ;
     skos:prefLabel "Devonian"@en,
         "Devónico"@es ;
@@ -3409,7 +3409,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/cenozoico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/mesozoico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/paleozoico> ;
-    skos:notation "210000000000.0",
+    skos:notation "210000000000",
         "a1.1" ;
     skos:prefLabel "Phanerozoic"@en,
         "Fanerozoico"@es ;
@@ -3429,7 +3429,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/cambrico-piso-10>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/jiangshaniense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/paibiense> ;
-    skos:notation "211010400000.0",
+    skos:notation "211010400000",
         "a1.1.3.6.1" ;
     skos:prefLabel "Furongian"@en,
         "Furongiense"@es ;
@@ -3448,7 +3448,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/capitaniense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/roadiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/wordiense> ;
-    skos:notation "211060200000.0",
+    skos:notation "211060200000",
         "a1.1.3.1.2" ;
     skos:prefLabel "Guadalupian"@en,
         "Guadalupiense"@es ;
@@ -3467,7 +3467,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/groenlandiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/megalayense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/norgripiense> ;
-    skos:notation "213030200000.0",
+    skos:notation "213030200000",
         "a1.1.1.1.1" ;
     skos:prefLabel "Holocene"@en,
         "Holoceno"@es ;
@@ -3486,7 +3486,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/jurasico-inferior>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/jurasico-medio>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/jurasico-superior> ;
-    skos:notation "212020000000.0",
+    skos:notation "212020000000",
         "a1.1.2.2" ;
     skos:prefLabel "Jurassic"@en,
         "Jurásico"@es ;
@@ -3507,7 +3507,7 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/pliensbachiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/sinemuriense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/toarciense> ;
-    skos:notation "212020100000.0",
+    skos:notation "212020100000",
         "a1.1.2.2.3" ;
     skos:prefLabel "Lower Jurassic"@en,
         "Jurásico Inferior"@es ;
@@ -3526,7 +3526,7 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/bajociense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/bathoniense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/calloviense> ;
-    skos:notation "212020200000.0",
+    skos:notation "212020200000",
         "a1.1.2.2.2" ;
     skos:prefLabel "Middle Jurassic"@en,
         "Jurásico Medio"@es ;
@@ -3545,7 +3545,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/aeroniense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/rhuddaniense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/telychiense> ;
-    skos:notation "211030100000.0",
+    skos:notation "211030100000",
         "a1.1.3.4.4" ;
     skos:prefLabel "Llandovery"@en,
         "Llandovery"@es ;
@@ -3562,7 +3562,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lutetian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Lutetian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010221000.0",
+    skos:notation "213010221000",
         "a1.1.1.3.2.3" ;
     skos:prefLabel "Lutetian"@en,
         "Luteciense"@es ;
@@ -3581,7 +3581,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/calimico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/ectasico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/estenico> ;
-    skos:notation "132000000000.0",
+    skos:notation "132000000000",
         "a2.1.2" ;
     skos:prefLabel "Mesoproterozoic"@en,
         "Mesoproterozoico"@es ;
@@ -3600,7 +3600,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/cretacico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/jurasico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/triasico> ;
-    skos:notation "212000000000.0",
+    skos:notation "212000000000",
         "a1.1.2" ;
     skos:prefLabel "Mesozoic"@en,
         "Mesozoico"@es ;
@@ -3619,7 +3619,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/drumiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/guzhangiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/wuliuense> ;
-    skos:notation "211010300000.0",
+    skos:notation "211010300000",
         "a1.1.3.6.2" ;
     skos:prefLabel "Miaolingian"@en,
         "Miaolingiense"@es ;
@@ -3639,7 +3639,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/mississippiense-inferior>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/mississippiense-medio>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/mississippiense-superior> ;
-    skos:notation "211051000000.0",
+    skos:notation "211051000000",
         "a1.1.3.2.2" ;
     skos:prefLabel "Mississippian"@en,
         "Mississippiense"@es ;
@@ -3658,7 +3658,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/criogenico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/ediacarico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/tonico> ;
-    skos:notation "133000000000.0",
+    skos:notation "133000000000",
         "a2.1.1" ;
     skos:prefLabel "Neoproterozoic"@en,
         "Neoproterozoico"@es ;
@@ -3677,7 +3677,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/ordovicico-inferior>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/ordovicico-medio>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/ordovicico-superior> ;
-    skos:notation "211020000000.0",
+    skos:notation "211020000000",
         "a1.1.3.5" ;
     skos:prefLabel "Ordovician"@en,
         "Ordovícico"@es ;
@@ -3696,7 +3696,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/daniense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/selandiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/thanetiense> ;
-    skos:notation "213010100000.0",
+    skos:notation "213010100000",
         "a1.1.1.3.3" ;
     skos:prefLabel "Paleocene"@en,
         "Paleoceno"@es ;
@@ -3715,7 +3715,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/eoceno>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/oligoceno>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/paleoceno> ;
-    skos:notation "213010000000.0",
+    skos:notation "213010000000",
         "a1.1.1.3" ;
     skos:prefLabel "Paleogene"@en,
         "Paleógeno"@es ;
@@ -3735,7 +3735,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/pennsylvaniense-inferior>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/pennsylvaniense-medio>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/pennsylvaniense-superior> ;
-    skos:notation "211052000000.0",
+    skos:notation "211052000000",
         "a1.1.3.2.1" ;
     skos:prefLabel "Pennsylvanian"@en,
         "Pennsylvaniense"@es ;
@@ -3754,7 +3754,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/cisuraliense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/guadalupiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/lopingiense> ;
-    skos:notation "211060000000.0",
+    skos:notation "211060000000",
         "a1.1.3.1" ;
     skos:prefLabel "Permian"@en,
         "Pérmico"@es ;
@@ -3773,7 +3773,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/chibaniense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/pleistoceno-inferior>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/pleistoceno-superior> ;
-    skos:notation "213030100000.0",
+    skos:notation "213030100000",
         "a1.1.1.1.2" ;
     skos:prefLabel "Pleistocene"@en,
         "Pleistoceno"@es ;
@@ -3792,7 +3792,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/arcaico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/hadico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/proterozoico> ;
-    skos:notation "100000000000.0",
+    skos:notation "100000000000",
         "a2" ;
     skos:prefLabel "Precambrian"@en,
         "Precámbrico"@es ;
@@ -3811,7 +3811,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/mesoproterozoico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/neoproterozoico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/paleoproterozoico> ;
-    skos:notation "130000000000.0",
+    skos:notation "130000000000",
         "a2.1" ;
     skos:prefLabel "Proterozoic"@en,
         "Proterozoico"@es ;
@@ -3827,7 +3827,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tortonian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Tortonian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213020105000.0",
+    skos:notation "213020105000",
         "a1.1.1.2.2.2" ;
     skos:prefLabel "Tortonian"@en,
         "Tortoniense"@es ;
@@ -3846,7 +3846,7 @@
     skos:narrower <https://geo-carto.github.io/vocabularios/edad-geologica-igme/triasico-inferior>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/triasico-medio>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/triasico-superior> ;
-    skos:notation "212010000000.0",
+    skos:notation "212010000000",
         "a1.1.2.3" ;
     skos:prefLabel "Triassic"@en,
         "Triásico"@es ;
@@ -3863,7 +3863,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ypresian>,
         <http://resource.geosciml.org/classifier/ics/ischart/Ypresian> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/edad-geologica> ;
-    skos:notation "213010203000.0",
+    skos:notation "213010203000",
         "a1.1.1.3.2.4" ;
     skos:prefLabel "Ypresian"@en,
         "Ypresiense"@es ;
@@ -3883,7 +3883,7 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/mesoarcaico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/neoarcaico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/paleoarcaico> ;
-    skos:notation "120000000000.0",
+    skos:notation "120000000000",
         "a2.2" ;
     skos:prefLabel "Archean"@en,
         "Arcaico"@es ;
@@ -3903,7 +3903,7 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/furongiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/miaolingiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/terreneuviense> ;
-    skos:notation "211010000000.0",
+    skos:notation "211010000000",
         "a1.1.3.6" ;
     skos:prefLabel "Cambrian"@en,
         "Cámbrico"@es ;
@@ -3923,7 +3923,7 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/asseliense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/kunguriense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/sakmariense> ;
-    skos:notation "211060100000.0",
+    skos:notation "211060100000",
         "a1.1.3.1.3" ;
     skos:prefLabel "Cisuralian"@en,
         "Cisuraliense"@es ;
@@ -3943,7 +3943,7 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/orosirico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/riacico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/siderico> ;
-    skos:notation "131000000000.0",
+    skos:notation "131000000000",
         "a2.1.3" ;
     skos:prefLabel "Paleoproterozoic"@en,
         "Paleoproterozoico"@es ;
@@ -3963,7 +3963,7 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/ludlow>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/pridoli>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/wenlock> ;
-    skos:notation "211030000000.0",
+    skos:notation "211030000000",
         "a1.1.3.4" ;
     skos:prefLabel "Silurian"@en,
         "Silúrico"@es ;
@@ -3986,7 +3986,7 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/berriasiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/hauteriviense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/valanginiense> ;
-    skos:notation "212030100000.0",
+    skos:notation "212030100000",
         "a1.1.2.1.2" ;
     skos:prefLabel "Lower Cretaceous"@en,
         "Cretácico Inferior"@es ;
@@ -4008,7 +4008,7 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/maastrichtiense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/santoniense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/turoniense> ;
-    skos:notation "212030200000.0",
+    skos:notation "212030200000",
         "a1.1.2.1.1" ;
     skos:prefLabel "Upper Cretaceous"@en,
         "Cretácico Superior"@es ;
@@ -4028,7 +4028,7 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/mioceno-inferior>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/serravalliense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/tortoniense> ;
-    skos:notation "213020100000.0",
+    skos:notation "213020100000",
         "a1.1.1.2.2" ;
     skos:prefLabel "Miocene"@en,
         "Mioceno"@es ;
@@ -4050,7 +4050,7 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/luteciense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/priaboniense>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/ypresiense> ;
-    skos:notation "213010200000.0",
+    skos:notation "213010200000",
         "a1.1.1.3.2" ;
     skos:prefLabel "Eocene"@en,
         "Eoceno"@es ;
@@ -4072,7 +4072,7 @@
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/ordovicico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/permico>,
         <https://geo-carto.github.io/vocabularios/edad-geologica-igme/silurico> ;
-    skos:notation "211000000000.0",
+    skos:notation "211000000000",
         "a1.1.3" ;
     skos:prefLabel "Paleozoic"@en,
         "Paleozoico"@es ;
