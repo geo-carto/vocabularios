@@ -42,6 +42,13 @@
       }
     },
     {
+      "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-proyecto",
+      "prefLabel": {
+        "en": "project coordinator",
+        "es": "coordinador de proyecto"
+      }
+    },
+    {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-tecnico",
       "prefLabel": {
         "en": "technical coordinator",
@@ -51,7 +58,7 @@
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-de-servicios-web",
       "prefLabel": {
-        "en": "web service publisher",
+        "en": "web service creator",
         "es": "creador de servicios web"
       }
     },
@@ -60,6 +67,20 @@
       "prefLabel": {
         "en": "metadata creator",
         "es": "creador de metadatos"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-modelos-de-datos",
+      "prefLabel": {
+        "en": "data model creator",
+        "es": "creador de modelos de datos"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/desarrollador-geoespacial",
+      "prefLabel": {
+        "en": "geospatial developer",
+        "es": "desarrollador geoespacial"
       }
     },
     {
@@ -72,15 +93,29 @@
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/director-proyecto",
       "prefLabel": {
-        "en": "project manager",
-        "es": "director proyecto"
+        "en": "project director",
+        "es": "director de proyecto"
       }
     },
     {
-      "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartográfico",
+      "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartografico",
       "prefLabel": {
         "en": "cartographic editor",
         "es": "editor cartográfico"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/implementador-soluciones-geoespaciales",
+      "prefLabel": {
+        "en": "geospatial systems implementer",
+        "es": "implementador de soluciones geoespaciales"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/investigador-principal",
+      "prefLabel": {
+        "en": "principal investigator",
+        "es": "investigador principal"
       }
     },
     {
@@ -95,6 +130,13 @@
       "prefLabel": {
         "en": "digital data reviewer",
         "es": "revisor información digital"
+      }
+    },
+    {
+      "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/tecnico-sig",
+      "prefLabel": {
+        "en": "GIS technician",
+        "es": "técnico SIG"
       }
     }
   ],

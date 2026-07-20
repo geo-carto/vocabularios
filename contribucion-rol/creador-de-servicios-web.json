@@ -2,12 +2,19 @@
   "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-de-servicios-web",
   "type": "Concept",
   "prefLabel": {
-    "en": "web service publisher",
+    "en": "web service creator",
     "es": "creador de servicios web"
   },
   "definition": {
     "en": "Person or entity responsible for creating and configuring web services for publishing and accessing the resource.",
     "es": "Persona o entidad responsable de la creación y configuración de servicios web para la publicación y acceso al recurso."
+  },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/implementador-soluciones-geoespaciales",
+    "prefLabel": {
+      "en": "geospatial systems implementer",
+      "es": "implementador de soluciones geoespaciales"
+    }
   },
   "inScheme": [
     {
@@ -22,15 +29,6 @@
   "inSchemeAll": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contribucion-rol",
-      "title": {
-        "en": "Contributor role",
-        "es": "Rol de contribuyente"
-      }
     }
   ],
   "created": "2026-03-01",

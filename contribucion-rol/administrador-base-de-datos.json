@@ -9,6 +9,13 @@
     "en": "Person or entity responsible for managing, maintaining and administering the database containing the resource information.",
     "es": "Persona o entidad responsable de la gestión, mantenimiento y administración de la base de datos que contiene la información del recurso."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/implementador-soluciones-geoespaciales",
+    "prefLabel": {
+      "en": "geospatial systems implementer",
+      "es": "implementador de soluciones geoespaciales"
+    }
+  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol",
@@ -22,15 +29,6 @@
   "inSchemeAll": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contribucion-rol",
-      "title": {
-        "en": "Contributor role",
-        "es": "Rol de contribuyente"
-      }
     }
   ],
   "created": "2026-03-01",

@@ -9,6 +9,13 @@
     "en": "Person or entity responsible for creating and documenting the metadata describing the resource and its characteristics.",
     "es": "Persona o entidad responsable de crear y documentar los metadatos que describen el recurso y sus características."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/implementador-soluciones-geoespaciales",
+    "prefLabel": {
+      "en": "geospatial systems implementer",
+      "es": "implementador de soluciones geoespaciales"
+    }
+  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol",
@@ -22,15 +29,6 @@
   "inSchemeAll": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contribucion-rol",
-      "title": {
-        "en": "Contributor role",
-        "es": "Rol de contribuyente"
-      }
     }
   ],
   "created": "2026-03-01",

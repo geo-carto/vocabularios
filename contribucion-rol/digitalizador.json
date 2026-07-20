@@ -9,6 +9,13 @@
     "en": "Person or entity responsible for the digitisation of data.",
     "es": "Persona o entidad responsable de la digitalización de datos."
   },
+  "broader": {
+    "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/tecnico-sig",
+    "prefLabel": {
+      "en": "GIS technician",
+      "es": "técnico SIG"
+    }
+  },
   "inScheme": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol",
@@ -22,15 +29,6 @@
   "inSchemeAll": [
     {
       "id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://geo-carto.github.io/vocabularios/contribucion-rol",
-      "title": {
-        "en": "Contributor role",
-        "es": "Rol de contribuyente"
-      }
     }
   ],
   "created": "2026-03-01",

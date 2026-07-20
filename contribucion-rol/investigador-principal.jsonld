@@ -1,13 +1,21 @@
 {
-  "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartográfico",
+  "id": "https://geo-carto.github.io/vocabularios/contribucion-rol/investigador-principal",
   "type": "Concept",
   "prefLabel": {
-    "en": "cartographic editor",
-    "es": "editor cartográfico"
+    "en": "principal investigator",
+    "es": "investigador principal"
+  },
+  "altLabel": {
+    "en": [
+      "PI"
+    ],
+    "es": [
+      "IP"
+    ]
   },
   "definition": {
-    "en": "Person or entity responsible for reviewing and preparing the cartographic resource for publication.",
-    "es": "Persona o entidad responsable de la revisión y preparación cartográfica del recurso para su publicación."
+    "en": "Person responsible for the scientific leadership of the research project and the achievement of its scientific and technical objectives.",
+    "es": "Persona responsable de la dirección científica del proyecto de investigación y del cumplimiento de sus objetivos científico-técnicos."
   },
   "inScheme": [
     {
