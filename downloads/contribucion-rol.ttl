@@ -28,7 +28,7 @@
         <https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartografico>,
         <https://geo-carto.github.io/vocabularios/contribucion-rol/implementador-soluciones-geoespaciales>,
         <https://geo-carto.github.io/vocabularios/contribucion-rol/investigador-principal>,
-        <https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-científico>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-cientifico>,
         <https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-informacion-digital>,
         <https://geo-carto.github.io/vocabularios/contribucion-rol/tecnico-sig> ;
     skos:prefLabel "Contributor role - All concepts"@en,
@@ -210,7 +210,7 @@
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
     adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-científico> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-cientifico> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/contribucion-rol> ;
     skos:definition "Person or entity responsible for reviewing the scientific quality and accuracy of the resource."@en,
@@ -286,7 +286,7 @@
         <https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartografico>,
         <https://geo-carto.github.io/vocabularios/contribucion-rol/implementador-soluciones-geoespaciales>,
         <https://geo-carto.github.io/vocabularios/contribucion-rol/investigador-principal>,
-        <https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-científico>,
+        <https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-cientifico>,
         <https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-informacion-digital> ;
     skos:prefLabel "Contributor role"@en,
         "Rol de contribuyente"@es ;
