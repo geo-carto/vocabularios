@@ -1,229 +1,5 @@
 [
   {
-    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-tecnico",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Persona o entidad responsable de la coordinación de los aspectos técnicos del proyecto, incluyendo metodologías, herramientas y flujos de trabajo."
-      },
-      {
-        "@language": "en",
-        "@value": "Person or entity responsible for coordinating the technical aspects of the project, including methodologies, tools and workflows."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "coordinador técnico"
-      },
-      {
-        "@language": "en",
-        "@value": "technical coordinator"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-de-servicios-web",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Persona o entidad responsable de la creación y configuración de servicios web para la publicación y acceso al recurso."
-      },
-      {
-        "@language": "en",
-        "@value": "Person or entity responsible for creating and configuring web services for publishing and accessing the resource."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "creador de servicios web"
-      },
-      {
-        "@language": "en",
-        "@value": "web service publisher"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-cientifico",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Persona o entidad responsable de la coordinación de los aspectos científicos del proyecto y de garantizar la coherencia y calidad científica de los resultados."
-      },
-      {
-        "@language": "en",
-        "@value": "Person or entity responsible for coordinating the scientific aspects of the project and ensuring the scientific consistency and quality of the results."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "coordinador científico"
-      },
-      {
-        "@language": "en",
-        "@value": "scientific coordinator"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
-    "@id": "https://linked.data.gov.au/org/cgi",
-    "@type": [
-      "https://schema.org/Organization"
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "Commission for the Management and Application of Geoscience Information"
-      }
-    ],
-    "https://schema.org/url": [
-      {
-        "@id": "http://www.cgi-iugs.org"
-      }
-    ]
-  },
-  {
-    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/cartografo-de-campo",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-03-01"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "es",
-        "@value": "Persona o entidad responsable de la elaboración de la cartografía geológica mediante observaciones y levantamientos realizados en campo."
-      },
-      {
-        "@language": "en",
-        "@value": "Person or entity responsible for producing geological cartography based on field observations and mapping."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "es",
-        "@value": "cartógrafo de campo"
-      },
-      {
-        "@language": "en",
-        "@value": "field cartographer"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@value": "Válido"
-      }
-    ]
-  },
-  {
     "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-científico",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -276,7 +52,59 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartográfico",
+    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-de-servicios-web",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/implementador-soluciones-geoespaciales"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Persona o entidad responsable de la creación y configuración de servicios web para la publicación y acceso al recurso."
+      },
+      {
+        "@language": "en",
+        "@value": "Person or entity responsible for creating and configuring web services for publishing and accessing the resource."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "creador de servicios web"
+      },
+      {
+        "@language": "en",
+        "@value": "web service creator"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-informacion-digital",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -294,11 +122,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Persona o entidad responsable de la revisión y preparación cartográfica del recurso para su publicación."
+        "@value": "Persona o entidad responsable de revisar la calidad, coherencia y consistencia de la información digital asociada al recurso."
       },
       {
         "@language": "en",
-        "@value": "Person or entity responsible for reviewing and preparing the cartographic resource for publication."
+        "@value": "Person or entity responsible for reviewing the quality, coherence and consistency of the digital information associated with the resource."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -309,11 +137,63 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "editor cartográfico"
+        "@value": "revisor información digital"
       },
       {
         "@language": "en",
-        "@value": "cartographic editor"
+        "@value": "digital data reviewer"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/director-proyecto",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Persona responsable de la dirección general del proyecto y de la supervisión de su ejecución."
+      },
+      {
+        "@language": "en",
+        "@value": "Person responsible for the overall direction of the project and the supervision of its implementation."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "director de proyecto"
+      },
+      {
+        "@language": "en",
+        "@value": "project director"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -401,7 +281,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-informacion-digital",
+    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-cientifico",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -419,11 +299,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Persona o entidad responsable de revisar la calidad, coherencia y consistencia de la información digital asociada al recurso."
+        "@value": "Persona o entidad responsable de la coordinación de los aspectos científicos del proyecto y de garantizar la coherencia y calidad científica de los resultados."
       },
       {
         "@language": "en",
-        "@value": "Person or entity responsible for reviewing the quality, coherence and consistency of the digital information associated with the resource."
+        "@value": "Person or entity responsible for coordinating the scientific aspects of the project and ensuring the scientific consistency and quality of the results."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -434,11 +314,234 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "revisor información digital"
+        "@value": "coordinador científico"
       },
       {
         "@language": "en",
-        "@value": "digital data reviewer"
+        "@value": "scientific coordinator"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/investigador-principal",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "es",
+        "@value": "IP"
+      },
+      {
+        "@language": "en",
+        "@value": "PI"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Persona responsable de la dirección científica del proyecto de investigación y del cumplimiento de sus objetivos científico-técnicos."
+      },
+      {
+        "@language": "en",
+        "@value": "Person responsible for the scientific leadership of the research project and the achievement of its scientific and technical objectives."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "investigador principal"
+      },
+      {
+        "@language": "en",
+        "@value": "principal investigator"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-tecnico",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Persona o entidad responsable de la coordinación de los aspectos técnicos del proyecto, incluyendo metodologías, herramientas y flujos de trabajo."
+      },
+      {
+        "@language": "en",
+        "@value": "Person or entity responsible for coordinating the technical aspects of the project, including methodologies, tools and workflows."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "coordinador técnico"
+      },
+      {
+        "@language": "en",
+        "@value": "technical coordinator"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/tecnico-sig",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/implementador-soluciones-geoespaciales"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Persona o entidad responsable de gestionar, editar, transformar, integrar, validar, analizar y representar información geoespacial mediante herramientas y procesos SIG."
+      },
+      {
+        "@language": "en",
+        "@value": "Person or entity responsible for managing, editing, transforming, integrating, validating, analysing and representing geospatial information using GIS tools and processes."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/digitalizador"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "técnico SIG"
+      },
+      {
+        "@language": "en",
+        "@value": "GIS technician"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/cartografo-de-campo",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Persona o entidad responsable de la elaboración de la cartografía geológica mediante observaciones y levantamientos realizados en campo."
+      },
+      {
+        "@language": "en",
+        "@value": "Person or entity responsible for producing geological cartography based on field observations and mapping."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "cartógrafo de campo"
+      },
+      {
+        "@language": "en",
+        "@value": "field cartographer"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -520,6 +623,11 @@
         "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
       }
     ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/implementador-soluciones-geoespaciales"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
@@ -545,6 +653,105 @@
         "@value": "metadata creator"
       }
     ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/digitalizador",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/tecnico-sig"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Persona o entidad responsable de la digitalización de datos."
+      },
+      {
+        "@language": "en",
+        "@value": "Person or entity responsible for the digitisation of data."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "digitalizador"
+      },
+      {
+        "@language": "en",
+        "@value": "digitiser"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-proyecto",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Persona o entidad responsable de la coordinación organizativa y del seguimiento operativo del proyecto, incluyendo reuniones, plazos y comunicación entre participantes."
+      },
+      {
+        "@language": "en",
+        "@value": "Person or entity responsible for the organisational coordination and operational monitoring of the project, including meetings, deadlines and communication among participants."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "coordinador de proyecto"
+      },
+      {
+        "@language": "en",
+        "@value": "project coordinator"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
         "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
@@ -557,23 +764,34 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/collection",
+    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/desarrollador-geoespacial",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
       }
     ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/implementador-soluciones-geoespaciales"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Todos los conceptos en este vocabulario."
+        "@value": "Persona o entidad responsable de desarrollar aplicaciones, herramientas, scripts y componentes de software para la gestión, procesamiento o visualización de información geoespacial."
       },
       {
         "@language": "en",
-        "@value": "All concepts in this vocabulary."
+        "@value": "Person or entity responsible for developing applications, tools, scripts and software components for managing, processing or visualising geospatial information."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -581,55 +799,35 @@
         "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/director-proyecto"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-cientifico"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-tecnico"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/autor"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/co-autor"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/cartografo-de-campo"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/digitalizador"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-científico"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-informacion-digital"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartográfico"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/administrador-base-de-datos"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-metadatos"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-de-servicios-web"
-      }
-    ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "Rol de contribuyente - Todos los conceptos"
+        "@value": "desarrollador geoespacial"
       },
       {
         "@language": "en",
-        "@value": "Contributor role - All concepts"
+        "@value": "geospatial developer"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/cgi",
+    "@type": [
+      "https://schema.org/Organization"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Commission for the Management and Application of Geoscience Information"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://www.cgi-iugs.org"
       }
     ]
   },
@@ -713,10 +911,16 @@
     ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
       {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/investigador-principal"
+      },
+      {
         "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/director-proyecto"
       },
       {
         "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-cientifico"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-proyecto"
       },
       {
         "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-tecnico"
@@ -731,25 +935,16 @@
         "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/cartografo-de-campo"
       },
       {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/digitalizador"
-      },
-      {
         "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-científico"
       },
       {
         "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-informacion-digital"
       },
       {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartográfico"
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartografico"
       },
       {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/administrador-base-de-datos"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-metadatos"
-      },
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-de-servicios-web"
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/implementador-soluciones-geoespaciales"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -769,6 +964,153 @@
     ]
   },
   {
+    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartografico",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-03-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Persona o entidad responsable de la revisión y preparación cartográfica del recurso para su publicación."
+      },
+      {
+        "@language": "en",
+        "@value": "Person or entity responsible for reviewing and preparing the cartographic resource for publication."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "editor cartográfico"
+      },
+      {
+        "@language": "en",
+        "@value": "cartographic editor"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@value": "Válido"
+      }
+    ]
+  },
+  {
+    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/collection",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "es",
+        "@value": "Todos los conceptos en este vocabulario."
+      },
+      {
+        "@language": "en",
+        "@value": "All concepts in this vocabulary."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/investigador-principal"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/director-proyecto"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-cientifico"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-proyecto"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/coordinador-tecnico"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/autor"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/co-autor"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/cartografo-de-campo"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-científico"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/revisor-informacion-digital"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/editor-cartografico"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/implementador-soluciones-geoespaciales"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-modelos-de-datos"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/tecnico-sig"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/digitalizador"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/administrador-base-de-datos"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/desarrollador-geoespacial"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-metadatos"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-de-servicios-web"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "es",
+        "@value": "Rol de contribuyente - Todos los conceptos"
+      },
+      {
+        "@language": "en",
+        "@value": "Contributor role - All concepts"
+      }
+    ]
+  },
+  {
     "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/administrador-base-de-datos",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -782,6 +1124,11 @@
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/implementador-soluciones-geoespaciales"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -809,11 +1156,6 @@
         "@value": "database administrator"
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
-      }
-    ],
     "http://www.w3.org/ns/adms#status": [
       {
         "@value": "Válido"
@@ -821,7 +1163,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/director-proyecto",
+    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/implementador-soluciones-geoespaciales",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -839,11 +1181,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Persona o entidad responsable de la planificación, organización, coordinación y supervisión general del proyecto."
+        "@value": "Persona o entidad responsable de implementar y mantener sistemas, herramientas y procesos para la gestión, tratamiento y publicación de información geoespacial. Puede desempeñar de forma integrada varias de las funciones representadas por los roles específicos que engloba."
       },
       {
         "@language": "en",
-        "@value": "Person or entity responsible for the planning, organisation, coordination and overall supervision of the project."
+        "@value": "Person or entity responsible for implementing and maintaining systems, tools and processes for managing, processing and publishing geospatial information. This role may involve the integrated execution of several functions represented by the more specific roles it encompasses."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -851,14 +1193,34 @@
         "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
       }
     ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-modelos-de-datos"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/tecnico-sig"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/administrador-base-de-datos"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/desarrollador-geoespacial"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-metadatos"
+      },
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-de-servicios-web"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "director proyecto"
+        "@value": "implementador de soluciones geoespaciales"
       },
       {
         "@language": "en",
-        "@value": "project manager"
+        "@value": "geospatial systems implementer"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -873,7 +1235,7 @@
     ]
   },
   {
-    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/digitalizador",
+    "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/creador-modelos-de-datos",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -888,14 +1250,19 @@
         "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
       }
     ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol/implementador-soluciones-geoespaciales"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "es",
-        "@value": "Persona o entidad responsable de la digitalización de datos."
+        "@value": "Persona o entidad responsable de diseñar y documentar la estructura, las entidades, los atributos, las relaciones y las restricciones de un modelo de datos."
       },
       {
         "@language": "en",
-        "@value": "Person or entity responsible for the digitisation of data."
+        "@value": "Person or entity responsible for designing and documenting the structure, entities, attributes, relationships and constraints of a data model."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -906,16 +1273,11 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "es",
-        "@value": "digitalizador"
+        "@value": "creador de modelos de datos"
       },
       {
         "@language": "en",
-        "@value": "digitiser"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://geo-carto.github.io/vocabularios/contribucion-rol"
+        "@value": "data model creator"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
