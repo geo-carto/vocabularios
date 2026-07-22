@@ -13,7 +13,7 @@
         "Todos los conceptos en este vocabulario."@es ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/motivo-vacio-valor> ;
     skos:member <https://geo-carto.github.io/vocabularios/motivo-vacio-valor/desconocido>,
-        <https://geo-carto.github.io/vocabularios/motivo-vacio-valor/no-poblado>,
+        <https://geo-carto.github.io/vocabularios/motivo-vacio-valor/no-incluido>,
         <https://geo-carto.github.io/vocabularios/motivo-vacio-valor/retenido> ;
     skos:prefLabel "Void Reason Value - All concepts"@en,
         "Valor de motivo de vacío - Todos los conceptos"@es .
@@ -39,7 +39,7 @@
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/motivo-vacio-valor> ;
     adms:status "Válido" .
 
-<https://geo-carto.github.io/vocabularios/motivo-vacio-valor/no-poblado> a skos:Concept ;
+<https://geo-carto.github.io/vocabularios/motivo-vacio-valor/no-incluido> a skos:Concept ;
     dcterms:created "2026-03-01"^^xsd:date ;
     rdfs:isDefinedBy <https://geo-carto.github.io/vocabularios/motivo-vacio-valor> ;
     skos:definition "The attribute or field has not been provided or populated yet, but may be provided in the future."@en,
@@ -47,7 +47,7 @@
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated> ;
     skos:inScheme <https://geo-carto.github.io/vocabularios/motivo-vacio-valor> ;
     skos:prefLabel "unpopulated"@en,
-        "no poblado"@es ;
+        "no incluido"@es ;
     skos:topConceptOf <https://geo-carto.github.io/vocabularios/motivo-vacio-valor> ;
     adms:status "Válido" .
 
@@ -79,7 +79,7 @@
         "Términos que describen las razones por las que un valor puede estar vacío o no proporcionado en un atributo."@es ;
     skos:editorialNote "Este archivo contiene el vocabulario Valor de motivo de vacío."@es ;
     skos:hasTopConcept <https://geo-carto.github.io/vocabularios/motivo-vacio-valor/desconocido>,
-        <https://geo-carto.github.io/vocabularios/motivo-vacio-valor/no-poblado>,
+        <https://geo-carto.github.io/vocabularios/motivo-vacio-valor/no-incluido>,
         <https://geo-carto.github.io/vocabularios/motivo-vacio-valor/retenido> ;
     skos:prefLabel "Void Reason Value"@en,
         "Valor de motivo de vacío"@es ;
